@@ -21,8 +21,6 @@ jobs:
       run: |
         chmod +x ./umap.sh
         ./umap.sh
-        chmod +x ./count.sh
-        ./count.sh
       shell: bash
     - name: Commit and push if it changed
       run: |-
