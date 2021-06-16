@@ -12,10 +12,17 @@ jobs:
     steps:
     - name: Check out this repo
       uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+    - name: Install deps
+      run: npm i -g osmtogeojson      
     - name: Get the data and analyze
       run: |
         chmod +x ./umap.sh
         ./umap.sh
+        chmod +x ./count.sh
+        ./count.sh
       shell: bash
     - name: Commit and push if it changed
       run: |-
