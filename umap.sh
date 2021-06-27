@@ -1,5 +1,25 @@
 #!/bin/bash
 
+echo "CCS_300-kW"
+wget -O CCS_300-kW.json 'https://z.overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(node%5B%22amenity%22%3D%22charging_station%22%5D%5B%22access%22%3D%22yes%22%5D(if%3A%20t%5B%22socket%3Atype2_combo%22%5D%20%3E%200)%20%5B%22socket%3Atype2_combo%3Aoutput%22~kW%5D%20(if%3A%20number%20(t%5B%22socket%3Atype2_combo%3Aoutput%22%5D)%20%3E%20299%20)%20(area.searchArea)%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B%0A'
+sleep 60
+
+echo "CCS_200-299kW"
+wget -O CCS_200-299kW.json 'https://z.overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(node%5B%22amenity%22%3D%22charging_station%22%5D%5B%22access%22%3D%22yes%22%5D(if%3A%20t%5B%22socket%3Atype2_combo%22%5D%20%3E%200)%20%5B%22socket%3Atype2_combo%3Aoutput%22~kW%5D%20(if%3A%20number%20(t%5B%22socket%3Atype2_combo%3Aoutput%22%5D)%20%3E%20199%20)(if%3A%20number%20(t%5B%22socket%3Atype2_combo%3Aoutput%22%5D)%20%3C%20299%20)%20(area.searchArea)%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B'
+sleep 60
+
+echo "CCS_100-199kW"
+wget -O CCS_100-199kW.json 'https://z.overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(node%5B%22amenity%22%3D%22charging_station%22%5D%5B%22access%22%3D%22yes%22%5D(if%3A%20t%5B%22socket%3Atype2_combo%22%5D%20%3E%200)%20%5B%22socket%3Atype2_combo%3Aoutput%22~kW%5D%20(if%3A%20number%20(t%5B%22socket%3Atype2_combo%3Aoutput%22%5D)%20%3E%2099%20)(if%3A%20number%20(t%5B%22socket%3Atype2_combo%3Aoutput%22%5D)%20%3C%20200%20)%20(area.searchArea)%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B'
+sleep 60
+
+echo "CCS_45-99kW"
+wget -O CCS_45-99kW.json 'https://z.overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(node%5B%22amenity%22%3D%22charging_station%22%5D%5B%22access%22%3D%22yes%22%5D(if%3A%20t%5B%22socket%3Atype2_combo%22%5D%20%3E%200)%20%5B%22socket%3Atype2_combo%3Aoutput%22~kW%5D%20(if%3A%20number%20(t%5B%22socket%3Atype2_combo%3Aoutput%22%5D)%20%3E%2044%20)(if%3A%20number%20(t%5B%22socket%3Atype2_combo%3Aoutput%22%5D)%20%3C%20100%20)%20(area.searchArea)%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B'
+sleep 60
+
+echo "CCS_0-44kW"
+wget -O CCS_0-44kW.json 'https://z.overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(node%5B%22amenity%22%3D%22charging_station%22%5D%5B%22access%22%3D%22yes%22%5D(if%3A%20t%5B%22socket%3Atype2_combo%22%5D%20%3E%200)%20%5B%22socket%3Atype2_combo%3Aoutput%22~kW%5D%20(if%3A%20number%20(t%5B%22socket%3Atype2_combo%3Aoutput%22%5D)%20%3C%2045%20)%20(area.searchArea)%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B'
+sleep 60
+
 echo "CDM_45-99kW"
 wget -O CDM_45-99kW.json 'https://z.overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(node%5B%22amenity%22%3D%22charging_station%22%5D%5B%22access%22%3D%22yes%22%5D(if%3A%20t%5B%22socket%3Achademo%22%5D%20%3E%200)%20%5B%22socket%3Achademo%3Aoutput%22~kW%5D%20(if%3A%20number%20(t%5B%22socket%3Achademo%3Aoutput%22%5D)%20%3C%20100%20)(if%3A%20number%20(t%5B%22socket%3Achademo%3Aoutput%22%5D)%20%3E%2044%20)%20(area.searchArea)%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B'
 sleep 60
