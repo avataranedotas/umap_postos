@@ -1,5 +1,17 @@
 #!/bin/bash
 
+echo "inop"
+wget -O inop.json 'https://z.overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(node%5B%22disused%3Aamenity%22%3D%22charging_station%22%5D(area.searchArea)%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B'
+sleep 60
+
+echo "plan"
+wget -O plan.json 'https://z.overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(node%5B%22planned%3Aamenity%22%3D%22charging_station%22%5D(area.searchArea)%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B'
+sleep 60
+
+echo "const"
+wget -O const.json 'https://z.overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(node%5B%22construction%3Aamenity%22%3D%22charging_station%22%5D(area.searchArea)%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B'
+sleep 60
+
 echo "CCS_300-kW"
 wget -O CCS_300-kW.json 'https://z.overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(node%5B%22amenity%22%3D%22charging_station%22%5D%5B%22access%22%3D%22yes%22%5D(if%3A%20t%5B%22socket%3Atype2_combo%22%5D%20%3E%200)%20%5B%22socket%3Atype2_combo%3Aoutput%22~kW%5D%20(if%3A%20number%20(t%5B%22socket%3Atype2_combo%3Aoutput%22%5D)%20%3E%20299%20)%20(area.searchArea)%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B%0A'
 sleep 60
@@ -46,6 +58,14 @@ sleep 60
 
 sed -i '/.*timestamp_.*/d' *.json
 
+osmtogeojson inop.json >| inop.geojson
+osmtogeojson plan.json >| plan.geojson
+osmtogeojson const.json >| const.geojson
+osmtogeojson CCS_300-kW.json >| CCS_300-kW.geojson
+osmtogeojson CCS_200-299kW.json >| CCS_200-299kW.geojson
+osmtogeojson CCS_100-199kW.json >| CCS_100-199kWW.geojson
+osmtogeojson CCS_45-99kW.json >| CCS_45-99kW.geojson
+osmtogeojson CCS_0-44kW.json >| CCS_0-44kW.geojson
 osmtogeojson CDM_45-99kW.json >| CDM_45-99kW.geojson
 osmtogeojson CDM_0-44kW.json >| CDM_0-44kW.geojson
 osmtogeojson Type2_cable_23-kW.json >| Type2_cable_23-kW.geojson
