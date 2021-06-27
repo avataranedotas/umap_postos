@@ -1,5 +1,9 @@
 #!/bin/bash
 
+echo "ns"
+wget -O ns.json 'https://z.overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(node%5B%22amenity%22%3D%22charging_station%22%5D%5B%22socket%3Atesla_destination%22!~%22.%22%5D%5B%22socket%3Atype2%22!~%22.%22%5D%5B%22socket%3Achademo%22!~%22.%22%5D%5B%22socket%3Atype2_combo%22!~%22.%22%5D%5B%22socket%3Atype2_cable%22!~%22.%22%5D%5B%22socket%3Atesla_supercharger%22!~%22.%22%5D%5B%22socket%3Atesla_supercharger_ccs%22!~%22.%22%5D(area.searchArea)%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B'
+sleep 60
+
 echo "inop"
 wget -O inop.json 'https://z.overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(node%5B%22disused%3Aamenity%22%3D%22charging_station%22%5D(area.searchArea)%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B'
 sleep 60
@@ -58,6 +62,7 @@ sleep 60
 
 sed -i '/.*timestamp_.*/d' *.json
 
+osmtogeojson ns.json >| ns.geojson
 osmtogeojson inop.json >| inop.geojson
 osmtogeojson plan.json >| plan.geojson
 osmtogeojson const.json >| const.geojson
