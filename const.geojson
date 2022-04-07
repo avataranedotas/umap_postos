@@ -4996,20 +4996,24 @@
     "construction:amenity": "charging_station",
     "fee": "yes",
     "motorcar": "yes",
-    "name": "MFR-XXXXX - McDonald's",
+    "name": "MFR-00022 - McDonald's",
     "network": "Mobi.E",
     "opening_hours": "24/7",
-    "operator": "unknown",
+    "operator": "EDP Comercial",
     "parking:fee": "no",
-    "ref": "MFR-XXXXX",
+    "ref": "MFR-00022",
     "socket:chademo": "1",
-    "socket:chademo:current": "120",
-    "socket:chademo:output": "50kW",
+    "socket:chademo:current": "125",
+    "socket:chademo:output": "30kW",
     "socket:chademo:voltage": "500",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
     "socket:type2_combo": "1",
-    "socket:type2_combo:current": "125",
-    "socket:type2_combo:output": "50kW",
-    "socket:type2_combo:voltage": "500",
+    "socket:type2_combo:current": "200",
+    "socket:type2_combo:output": "60kW",
+    "socket:type2_combo:voltage": "950",
     "website": "https://www.mobie.pt/",
     "id": "node/9194542212"
   },
@@ -5136,24 +5140,24 @@
     "construction:amenity": "charging_station",
     "fee": "yes",
     "motorcar": "yes",
-    "name": "AGD-XXXXX - McDonald's",
+    "name": "AGD-00009 - McDonald's",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP Comercial",
     "parking:fee": "no",
-    "ref": "AGD-XXXXX",
+    "ref": "AGD-00009",
     "socket:chademo": "1",
-    "socket:chademo:current": "120",
-    "socket:chademo:output": "50kW",
+    "socket:chademo:current": "125",
+    "socket:chademo:output": "30kW",
     "socket:chademo:voltage": "500",
-    "socket:type2_cable": "1",
-    "socket:type2_cable:current": "63",
-    "socket:type2_cable:output": "43kW",
-    "socket:type2_cable:voltage": "400",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
     "socket:type2_combo": "1",
-    "socket:type2_combo:current": "125",
-    "socket:type2_combo:output": "50kW",
-    "socket:type2_combo:voltage": "500",
+    "socket:type2_combo:current": "200",
+    "socket:type2_combo:output": "60kW",
+    "socket:type2_combo:voltage": "950",
     "website": "https://www.mobie.pt/",
     "id": "node/9247173585"
   },
@@ -6842,46 +6846,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9620717416",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "2",
-    "construction:amenity": "charging_station",
-    "fee": "yes",
-    "name": "VNG-00065 - Repsol",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Repsol",
-    "parking:fee": "no",
-    "ref": "VNG-00065",
-    "socket:chademo": "1",
-    "socket:chademo:current": "120",
-    "socket:chademo:output": "50kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_cable": "1",
-    "socket:type2_cable:current": "63",
-    "socket:type2_cable:output": "43kW",
-    "socket:type2_cable:voltage": "400",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "125",
-    "socket:type2_combo:output": "50kW",
-    "socket:type2_combo:voltage": "500",
-    "website": "https://www.mobie.pt/",
-    "id": "node/9620717416"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.58638,
-      41.09683
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9627393283",
   "properties": {
     "access": "yes",
@@ -6910,39 +6874,6 @@
     "coordinates": [
       -16.9031307,
       32.6497428
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9630154647",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "2",
-    "construction:amenity": "charging_station",
-    "fee": "yes",
-    "motorcar": "yes",
-    "name": "TVD-00023 - CUF",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Galp Power",
-    "parking:fee": "yes",
-    "ref": "TVD-00023",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22kW",
-    "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt/",
-    "id": "node/9630154647"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.258985,
-      39.080339
     ]
   }
 },
@@ -7162,8 +7093,89 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6886053,
-      41.1963333
+      -8.6886529,
+      41.1960644
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9646897024",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "3",
+    "construction:amenity": "charging_station",
+    "fee": "yes",
+    "name": "VFX-00026 - McDonald's",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP Comercial",
+    "parking:fee": "no",
+    "ref": "VFX-00026",
+    "socket:chademo": "1",
+    "socket:chademo:current": "125",
+    "socket:chademo:output": "30kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "200",
+    "socket:type2_combo:output": "60kW",
+    "socket:type2_combo:voltage": "920",
+    "website": "https://www.mobie.pt/",
+    "id": "node/9646897024"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.9838071,
+      38.9639177
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9646897025",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "construction:amenity": "charging_station",
+    "fee": "yes",
+    "motorcar": "yes",
+    "name": "ETR-00011 - Repsol",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP Comercial",
+    "parking:fee": "no",
+    "ref": "ETR-00011",
+    "socket:chademo": "1",
+    "socket:chademo:current": "125",
+    "socket:chademo:output": "50kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "250",
+    "socket:type2_combo:output": "120kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/9646897025"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.53519,
+      40.75571
     ]
   }
 }
