@@ -5814,48 +5814,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8220237394",
-  "properties": {
-    "access": "private",
-    "addr:city": "Lisboa",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "4",
-    "email": "ajuda@powerdot.pt",
-    "fee": "yes",
-    "motorcar": "yes",
-    "name": "Power Hub Docas - Uber only",
-    "network": "Power Hub - Uber Only",
-    "opening_hours": "24/7",
-    "operator": "Powerdot",
-    "parking:fee": "no",
-    "phone": "+351 800 180 292",
-    "socket:chademo": "2",
-    "socket:chademo:current": "120",
-    "socket:chademo:output": "50kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_cable": "2",
-    "socket:type2_cable:current": "63",
-    "socket:type2_cable:output": "43kW",
-    "socket:type2_cable:voltage": "400",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "125",
-    "socket:type2_combo:output": "50kW",
-    "socket:type2_combo:voltage": "500",
-    "id": "node/8220237394"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.1756283,
-      38.7010441
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8220253912",
   "properties": {
     "access": "private",
@@ -9069,8 +9027,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.4611597,
-      38.7105628
+      -9.4611181,
+      38.7104602
     ]
   }
 },
@@ -14536,8 +14494,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6260137,
-      41.1572099
+      -8.6260217,
+      41.1571897
     ]
   }
 },
@@ -21375,6 +21333,46 @@
 },
 {
   "type": "Feature",
+  "id": "node/9618866658",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "email": "evaz.energy@grcapp.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LSB-00446 - Hotel Lumiares",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "GRCAPP",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 913 723",
+    "ref": "LSB-00446",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "375",
+    "socket:type2_combo:output": "180kW",
+    "socket:type2_combo:voltage": "950",
+    "website": "https://www.mobie.pt/",
+    "id": "node/9618866658"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.144366,
+      38.7137492
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9624761324",
   "properties": {
     "access": "customers",
@@ -22764,11 +22762,11 @@
     "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "1",
+    "capacity": "2",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "STC-00007 - Botelhos",
+    "name": "STC-00007/8 - Botelhos",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Moon",
@@ -22777,7 +22775,11 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "STC-00007",
+    "ref": "STC-00007;STC-00008",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "60",
     "socket:type2_combo:output": "25kW",
@@ -23776,6 +23778,44 @@
 },
 {
   "type": "Feature",
+  "id": "node/10215848700",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "PVZ-00020",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP Comercial",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "PVZ-00020",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/10215848700"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.7642119,
+      41.3940851
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10229505398",
   "properties": {
     "access": "private",
@@ -23809,6 +23849,200 @@
     "coordinates": [
       -8.897303,
       38.5307485
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10282359956",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "4",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CSC-00118/119 - Sheraton",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "CSC-00118;CSC-00119",
+    "socket:type2": "4",
+    "socket:type2:current": "32",
+    "socket:type2:output": "7.4kW",
+    "socket:type2:voltage": "230",
+    "website": "https://www.mobie.pt/",
+    "id": "node/10282359956"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.4610363,
+      38.7102368
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10282359957",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "ABF-00046 - Pine Cliffs",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "ABF-00046",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/10282359957"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.1791309,
+      37.0956527
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10282359959",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "ABF-00043 - Pine Cliffs",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "ABF-00043",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/10282359959"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.1786521,
+      37.0931239
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10282359963",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "PRT-00170 - Hospital Lusíadas",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "PRT-00170",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/10282359963"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6260284,
+      41.1571554
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10282402313",
+  "properties": {
+    "access": "private",
+    "addr:city": "Lisboa",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "4",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "motorcar": "yes",
+    "name": "Power Hub Docas - Uber only",
+    "network": "Power Hub - Uber Only",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "parking:fee": "no",
+    "phone": "+351 800 180 292",
+    "socket:chademo": "2",
+    "socket:chademo:current": "120",
+    "socket:chademo:output": "50kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_cable": "2",
+    "socket:type2_cable:current": "63",
+    "socket:type2_cable:output": "43kW",
+    "socket:type2_cable:voltage": "400",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "125",
+    "socket:type2_combo:output": "50kW",
+    "socket:type2_combo:voltage": "500",
+    "id": "node/10282402313"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1756319,
+      38.7010386
     ]
   }
 }
