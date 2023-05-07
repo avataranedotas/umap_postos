@@ -763,7 +763,7 @@
 },
 {
   "type": "Feature",
-  "id": "node/6860923888",
+  "id": "node/6860933517",
   "properties": {
     "access": "yes",
     "addr:city": "Guimarães",
@@ -773,33 +773,39 @@
     "authentication:none": "no",
     "capacity": "2",
     "disused:amenity": "charging_station",
-    "email": "mobilidade-eletrica@edp.pt",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "GMR-00014",
+    "name": "GMR-00016",
     "network": "Mobi.E",
     "opening_hours": "24/7",
-    "operator": "EDP Comercial",
+    "operator": "Câmara Municipal de Guimarães",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "phone": "+351 800 222 222",
-    "ref": "GMR-90014",
-    "socket:type2": "2",
-    "socket:type2:current": "16",
-    "socket:type2:output": "3.7kW",
-    "socket:type2:voltage": "230",
+    "ref": "GMR-00016",
+    "socket:chademo": "1",
+    "socket:chademo:current": "120",
+    "socket:chademo:output": "50kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "63",
+    "socket:type2_cable:output": "43kW",
+    "socket:type2_cable:voltage": "400",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "125",
+    "socket:type2_combo:output": "50kW",
+    "socket:type2_combo:voltage": "500",
     "website": "https://www.mobie.pt",
-    "id": "node/6860923888"
+    "id": "node/6860933517"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.2979112,
-      41.444783
+      -8.2979332,
+      41.4448341
     ]
   }
 },
@@ -2140,12 +2146,12 @@
 },
 {
   "type": "Feature",
-  "id": "node/8220272048",
+  "id": "node/8220947977",
   "properties": {
     "access": "yes",
     "addr:city": "Algés",
     "addr:country": "PT",
-    "addr:street": "Praceta Manuel Martins",
+    "addr:street": "Avenida General Norton de Matos",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "1",
@@ -2154,7 +2160,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "OER-00065 - Mercado de Algés",
+    "name": "OER-00084 - Parque de Miraflores",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -2164,23 +2170,23 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
-    "ref": "OER-00065",
+    "ref": "OER-00084",
     "socket:chademo": "1",
     "socket:chademo:current": "120",
-    "socket:chademo:output": "60kW",
+    "socket:chademo:output": "50kW",
     "socket:chademo:voltage": "500",
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "350",
     "socket:type2_combo:output": "160kW",
     "socket:type2_combo:voltage": "920",
     "website": "https://www.mobie.pt",
-    "id": "node/8220272048"
+    "id": "node/8220947977"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.2280089,
-      38.7007616
+      -9.2255075,
+      38.7116993
     ]
   }
 },
@@ -2231,6 +2237,52 @@
     "coordinates": [
       -9.3051247,
       38.7007208
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8223093248",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Oeiras",
+    "addr:country": "PT",
+    "addr:street": "Avenida Doutor Francisco de Sá Carneiro",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "disused:amenity": "charging_station",
+    "email": "mobilidade.electricacrc@galp.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "OER-00087 - SIMAS",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 249 249",
+    "ref": "OER-00087",
+    "socket:chademo": "1",
+    "socket:chademo:current": "120",
+    "socket:chademo:output": "50kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "350",
+    "socket:type2_combo:output": "160kW",
+    "socket:type2_combo:voltage": "920",
+    "website": "https://www.mobie.pt",
+    "id": "node/8223093248"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.3052398,
+      38.6915576
     ]
   }
 },
@@ -2381,6 +2433,55 @@
     "coordinates": [
       -8.6986208,
       41.2010585
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8232128342",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Viana do Castelo",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "disused:amenity": "charging_station",
+    "email": "apoio.cliente@kmlowcost.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "VCT-00015",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Atlante",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 296 929",
+    "ref": "VCT-00015",
+    "socket:chademo": "1",
+    "socket:chademo:current": "120",
+    "socket:chademo:output": "50kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "63",
+    "socket:type2_cable:output": "43kW",
+    "socket:type2_cable:voltage": "400",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "125",
+    "socket:type2_combo:output": "50kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt",
+    "id": "node/8232128342"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.8020095,
+      41.7068178
     ]
   }
 },
