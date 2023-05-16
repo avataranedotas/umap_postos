@@ -20,7 +20,7 @@ wget -O PCUR.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D
 sleep 60
 
 echo "SuC"
-wget -O SuC.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B%0A((%20%20node%5B%22amenity%22%3D%22charging_station%22%5D%0A%20%20(if%3A%20t%5B%22socket%3Atesla_supercharger%22%5D%20%3E%200)%20%20%20%20(area.searchArea)%3B)%3B%0A(%20%20node%5B%22amenity%22%3D%22charging_station%22%5D%0A%20%20(if%3A%20t%5B%22socket%3Atesla_supercharger_ccs%22%5D%20%3E%200)%20%20%20%20(area.searchArea)%3B)%3B)%3B%0Aout%20body%3B%3E%3Bout%20skel%20qt%3B%0A'
+wget -O SuC.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B%0A((%20%20nw%5B%22amenity%22%3D%22charging_station%22%5D%0A%20%20(if%3A%20t%5B%22socket%3Atesla_supercharger%22%5D%20%3E%200)%20%20%20%20(area.searchArea)%3B)%3B%0A(%20%20nw%5B%22amenity%22%3D%22charging_station%22%5D%0A%20%20(if%3A%20t%5B%22socket%3Atesla_supercharger_ccs%22%5D%20%3E%200)%20%20%20%20(area.searchArea)%3B)%3B)%3B%0Aout%20body%3B%3E%3Bout%20skel%20qt%3B%0A'
 sleep 60
 
 echo "inop"
