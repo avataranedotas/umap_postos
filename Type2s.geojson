@@ -7151,6 +7151,8 @@
     "addr:country": "PT",
     "addr:postcode": "8600-315",
     "amenity": "charging_station",
+    "brand": "Tesla, Inc.",
+    "brand:wikidata": "Q478214",
     "capacity": "2",
     "fee": "no",
     "motorcar": "yes",
@@ -7159,6 +7161,7 @@
     "operator": "Tesla",
     "phone": "+351 282 770 210",
     "ref": "dc47851",
+    "short_name": "Tesla",
     "socket:tesla_destination": "1",
     "socket:tesla_destination:output": "17kW",
     "socket:type2_cable": "1",
@@ -7437,7 +7440,8 @@
     "name": "FAR-00007 - Campus de Gambelas",
     "network": "Mobi.E",
     "opening_hours": "24/7",
-    "operator": "EDP Comercial",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
@@ -8777,7 +8781,8 @@
     "name": "LGS-00001",
     "network": "Mobi.E",
     "opening_hours": "24/7",
-    "operator": "EDP Comercial",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
@@ -8897,7 +8902,8 @@
     "name": "AJZ-00001 - Parque Ribeirinho",
     "network": "Mobi.E",
     "opening_hours": "24/7",
-    "operator": "EDP Comercial",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
@@ -8983,6 +8989,7 @@
     "old_ref": "PTM-00009",
     "opening_hours": "24/7",
     "operator": "Bluecharge",
+    "operator:wikidata": "Q113289672",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
@@ -26659,7 +26666,8 @@
     "name": "LGS-00005",
     "network": "Mobi.E",
     "opening_hours": "24/7",
-    "operator": "EDP Comercial",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
@@ -41008,6 +41016,45 @@
 },
 {
   "type": "Feature",
+  "id": "node/8990093859",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "OER-00162",
+    "network": "Mobi.E",
+    "old_ref": "OER-00105",
+    "opening_hours": "24/7",
+    "operator": "GreenCharge",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "OER-00162",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/8990093859"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.3031836,
+      38.7398034
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9018342467",
   "properties": {
     "access": "yes",
@@ -53081,7 +53128,8 @@
     "name": "PTM-00033/34 - Aqua",
     "network": "Mobi.E",
     "opening_hours": "24/7",
-    "operator": "EDP Comercial",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
@@ -53119,7 +53167,8 @@
     "name": "PTM-00032 - Aqua",
     "network": "Mobi.E",
     "opening_hours": "24/7",
-    "operator": "EDP Comercial",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
@@ -54937,6 +54986,44 @@
 },
 {
   "type": "Feature",
+  "id": "node/10846655908",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "ELV-00008 - Hotel D.Luís",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "MOA",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "ELV-00008",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/10846655908"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.1716902,
+      38.8775221
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10853407448",
   "properties": {
     "access": "yes",
@@ -55356,6 +55443,44 @@
     "coordinates": [
       -8.3455418,
       41.4802052
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10913012850",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "GMR-00088",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Hexagonal Ocean",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "GMR-00088",
+    "socket:type2": "2",
+    "socket:type2:current": "12",
+    "socket:type2:output": "8.3kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/10913012850"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.379133,
+      41.3729046
     ]
   }
 },
