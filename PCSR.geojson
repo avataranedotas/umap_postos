@@ -1392,11 +1392,11 @@
     "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "2",
+    "capacity": "4",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "PRT-000137 - Retail Park",
+    "name": "PRT-000137/138 - Retail Park",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Mobiletric",
@@ -1405,8 +1405,8 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "PRT-00137",
-    "socket:type2_combo": "2",
+    "ref": "PRT-00137;PRT-00138",
+    "socket:type2_combo": "4",
     "socket:type2_combo:current": "182",
     "socket:type2_combo:output": "120kW",
     "socket:type2_combo:voltage": "920",
@@ -1506,44 +1506,6 @@
     "coordinates": [
       -8.6892359,
       41.1796328
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9788601727",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "2",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "PRT-00138 - Retail Park",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Mobiletric",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "ref": "PRT-00138",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "182",
-    "socket:type2_combo:output": "120kW",
-    "socket:type2_combo:voltage": "920",
-    "website": "https://www.mobie.pt/",
-    "id": "node/9788601727"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.6537477,
-      41.1531643
     ]
   }
 },
@@ -6161,6 +6123,46 @@
 },
 {
   "type": "Feature",
+  "id": "node/10948894574",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "mobilidade.electricacrc@galp.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "AZB-00010 - Galp",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Geste",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 249 249",
+    "ref": "AZB-00010",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "200",
+    "socket:type2_combo:output": "90kW",
+    "socket:type2_combo:voltage": "950",
+    "website": "https://www.mobie.pt",
+    "id": "node/10948894574"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.9083135,
+      39.1222486
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10948894575",
   "properties": {
     "access": "yes",
@@ -6194,6 +6196,48 @@
     "coordinates": [
       -8.5646473,
       41.2126399
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10948988809",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "VRL-000019",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "VRL-00019",
+    "socket:chademo": "1",
+    "socket:chademo:current": "125",
+    "socket:chademo:output": "60kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "375",
+    "socket:type2_combo:output": "100kW",
+    "socket:type2_combo:voltage": "920",
+    "website": "https://www.mobie.pt",
+    "id": "node/10948988809"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.738335,
+      41.294522
     ]
   }
 }
