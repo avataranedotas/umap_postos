@@ -21612,6 +21612,7 @@
     "capacity": "2",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
+    "layer": "2",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "MFR-00018 - Intermarché",
@@ -43345,6 +43346,51 @@
 },
 {
   "type": "Feature",
+  "id": "node/10681530967",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "STS-00017 - Pingo Doce",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Atlante",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "STS-00017",
+    "socket:chademo": "1",
+    "socket:chademo:current": "125",
+    "socket:chademo:output": "50kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22kW",
+    "socket:type2_cable:voltage": "400",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "60kW",
+    "socket:type2_combo:voltage": "920",
+    "website": "https://www.mobie.pt/",
+    "id": "node/10681530967"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.405796,
+      41.366239
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10681530968",
   "properties": {
     "access": "yes",
@@ -43413,12 +43459,12 @@
     "payment:membership_card": "yes",
     "ref": "VNG-00111",
     "socket:chademo": "1",
-    "socket:chademo:current": "120",
-    "socket:chademo:output": "50kW",
+    "socket:chademo:current": "80",
+    "socket:chademo:output": "30kW",
     "socket:chademo:voltage": "500",
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "125",
-    "socket:type2_combo:output": "50kW",
+    "socket:type2_combo:output": "60kW",
     "socket:type2_combo:voltage": "500",
     "website": "https://www.mobie.pt/",
     "id": "node/10681530969"
@@ -43656,8 +43702,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6265108,
-      41.1196771
+      -8.6272451,
+      41.1198433
     ]
   }
 },
@@ -45854,6 +45900,52 @@
     "coordinates": [
       -7.9118487,
       38.5506659
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10982810123",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "EVR-00030 - Pingo Doce",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Atlante",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "EVR-00030",
+    "socket:chademo": "1",
+    "socket:chademo:current": "125",
+    "socket:chademo:output": "60kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "125",
+    "socket:type2_combo:output": "60kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt",
+    "id": "node/10982810123"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.91412,
+      38.5602243
     ]
   }
 },
