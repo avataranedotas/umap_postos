@@ -4229,8 +4229,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.5923869,
-      40.4955361
+      -7.5922072,
+      40.4955157
     ]
   }
 },
@@ -8278,12 +8278,12 @@
     "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "2",
+    "capacity": "4",
     "email": "mobilidade-eletrica@edp.pt",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "EVR-00014/15 - Vila Galé Évora",
+    "name": "EVR-00014/15/32 - Vila Galé Évora",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP Comercial",
@@ -8293,8 +8293,8 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
-    "ref": "EVR-00014;EVR-00015",
-    "socket:type2": "2",
+    "ref": "EVR-00014;EVR-00015;EVR-00032",
+    "socket:type2": "4",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4kW",
     "socket:type2:voltage": "230",
@@ -8304,8 +8304,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.9155904,
-      38.5669732
+      -7.9151478,
+      38.5667236
     ]
   }
 },
@@ -8961,12 +8961,12 @@
     "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "1",
+    "capacity": "3",
     "email": "mobilidade-eletrica@edp.pt",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "SNT-00018 - Vila Galé Resort",
+    "name": "SNT-00018/119 - Vila Galé Resort",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP Comercial",
@@ -8976,8 +8976,8 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
-    "ref": "SNT-00018",
-    "socket:type2": "1",
+    "ref": "SNT-00018;SNT-00119",
+    "socket:type2": "3",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4kW",
     "socket:type2:voltage": "230",
@@ -13644,12 +13644,12 @@
     "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "2",
+    "capacity": "4",
     "email": "mobilidade-eletrica@edp.pt",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "PRT-00031/32 - Hotel Vila Galé Porto",
+    "name": "PRT-00031/32/197 - Hotel Vila Galé Porto",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP Comercial",
@@ -13659,8 +13659,8 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
-    "ref": "PRT-00031;PRT-00032",
-    "socket:type2": "2",
+    "ref": "PRT-00031;PRT-00032;PRT-00197",
+    "socket:type2": "4",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4kW",
     "socket:type2:voltage": "230",
@@ -25111,6 +25111,82 @@
     "coordinates": [
       -9.3966461,
       38.7039493
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11033268439",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "ACN-00006 - Eurosol",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP Comercial",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "ACN-00006",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "7.4kW",
+    "socket:type2:voltage": "230",
+    "website": "https://www.mobie.pt/",
+    "id": "node/11033268439"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6676193,
+      39.4566555
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11033268449",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "10",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "BJA-00020/21/22/23/24/25",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP Comercial",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "BJA-00020;BJA-00021;BJA-00022;BJA-00023;BJA-00024;BJA-00025",
+    "socket:type2": "8",
+    "socket:type2:current": "16",
+    "socket:type2:output": "11kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/11033268449"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.0204482,
+      37.8891161
     ]
   }
 }
