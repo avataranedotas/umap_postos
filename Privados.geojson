@@ -8900,8 +8900,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.6868798,
-      39.2223693
+      -7.6868342,
+      39.2223111
     ]
   }
 },
@@ -10455,32 +10455,6 @@
     "coordinates": [
       -8.6177337,
       40.6575372
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8287603389",
-  "properties": {
-    "access": "customers",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "capacity": "2",
-    "motorcar": "yes",
-    "name": "Douro41 Hotel & SPA",
-    "no:network": "yes",
-    "operator": "Douro41 Hotel & SPA",
-    "socket:tesla_destination": "1",
-    "socket:tesla_destination:output": "7kW",
-    "socket:type2_cable": "1",
-    "socket:type2_cable:output": "7kW",
-    "id": "node/8287603389"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.3514588,
-      41.0381137
     ]
   }
 },
@@ -22552,12 +22526,12 @@
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "Quinta da Riba Má",
-    "no:network": "yes",
-    "operator": "Quinta da Riba Má",
-    "socket:type2": "2",
-    "socket:type2:current": "14",
-    "socket:type2:output": "3kW",
-    "socket:type2:voltage": "230",
+    "network": "Tesla",
+    "operator": "Tesla",
+    "socket:tesla_destination": "1",
+    "socket:tesla_destination:output": "22kW",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:output": "22kW",
     "id": "node/10022775157"
   },
   "geometry": {
@@ -27479,6 +27453,44 @@
     "coordinates": [
       -16.7930339,
       32.687155
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11336755069",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "ALT-00004",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP Comercial",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "ALT-00004",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/11336755069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.686875,
+      39.2222705
     ]
   }
 }
