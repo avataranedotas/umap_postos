@@ -4,7 +4,7 @@
 
 
 echo "Type2s"
-wget -O Type2s.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B%0A((%20%20node%5B%22amenity%22%3D%22charging_station%22%5D%5B%22access%22%3D%22yes%22%5D%5B%22socket%3Atype2_combo%22!~%22.*%22%5D%5B%22socket%3Achademo%22!~%22.*%22%5D%0A%20%20(if%3A%20t%5B%22socket%3Atype2%22%5D%20%3E%200)%20%20%20%20(area.searchArea)%3B)%3B%0A(%20%20node%5B%22amenity%22%3D%22charging_station%22%5D%5B%22access%22%3D%22yes%22%5D%5B%22socket%3Atype2_combo%22!~%22.*%22%5D%5B%22socket%3Achademo%22!~%22.*%22%5D%0A%20%20(if%3A%20t%5B%22socket%3Atype2_cable%22%5D%20%3E%200)%20%20%20%20(area.searchArea)%3B)%3B)%3B%0Aout%20body%3B%3E%3Bout%20skel%20qt%3B%0A'
+wget -O Type2s.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B%0A((%20%20nwr%5B%22amenity%22%3D%22charging_station%22%5D%5B%22access%22%3D%22yes%22%5D%5B%22socket%3Atype2_combo%22!~%22.*%22%5D%5B%22socket%3Achademo%22!~%22.*%22%5D%0A%20%20(if%3A%20t%5B%22socket%3Atype2%22%5D%20%3E%200)%20%20%20%20(area.searchArea)%3B)%3B%0A(%20%20nwr%5B%22amenity%22%3D%22charging_station%22%5D%5B%22access%22%3D%22yes%22%5D%5B%22socket%3Atype2_combo%22!~%22.*%22%5D%5B%22socket%3Achademo%22!~%22.*%22%5D%0A%20%20(if%3A%20t%5B%22socket%3Atype2_cable%22%5D%20%3E%200)%20%20%20%20(area.searchArea)%3B)%3B)%3B%0Aout%20body%3B%3E%3Bout%20skel%20qt%3B%0A'
 sleep 60
 
 echo "PCR"
