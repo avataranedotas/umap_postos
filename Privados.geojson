@@ -9658,14 +9658,13 @@
     "amenity": "charging_station",
     "authentication:none": "yes",
     "capacity": "2",
-    "check_date": "2020-03-14",
     "fee": "no",
+    "location": "underground",
     "motorcar": "yes",
     "name": "Porsche Destination Charging",
     "network": "Porsche",
     "operator": "Porsche",
-    "parking:fee": "no",
-    "private": "footway",
+    "parking:fee": "yes",
     "socket:type2_cable": "2",
     "socket:type2_cable:current": "16",
     "socket:type2_cable:output": "11kW",
@@ -9675,8 +9674,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.4136722,
-      40.2159767
+      -8.4138841,
+      40.2160279
     ]
   }
 },
@@ -28750,6 +28749,45 @@
     "coordinates": [
       -8.7757533,
       37.5252404
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11435879611",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "location": "underground",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CBR-00083",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP Comercial",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "CBR-00083",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/11435879611"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4138856,
+      40.2159812
     ]
   }
 }
