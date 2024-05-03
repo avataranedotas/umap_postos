@@ -506,10 +506,10 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "ref": "VFR-00077",
-    "socket:type2": "2",
-    "socket:type2:current": "16",
-    "socket:type2:output": "11kW",
-    "socket:type2:voltage": "400",
+    "socket:type2_cable": "2",
+    "socket:type2_cable:current": "16",
+    "socket:type2_cable:output": "11kW",
+    "socket:type2_cable:voltage": "400",
     "website": "https://www.mobie.pt/",
     "id": "way/1232497560"
   },
@@ -1822,10 +1822,10 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "ref": "VFR-00077",
-    "socket:type2": "2",
-    "socket:type2:current": "16",
-    "socket:type2:output": "11kW",
-    "socket:type2:voltage": "400",
+    "socket:type2_cable": "2",
+    "socket:type2_cable:current": "16",
+    "socket:type2_cable:output": "11kW",
+    "socket:type2_cable:voltage": "400",
     "website": "https://www.mobie.pt/",
     "id": "way/1232497560"
   },
@@ -37678,6 +37678,7 @@
     "motorcar": "yes",
     "name": "MTR-00007",
     "network": "Mobi.E",
+    "old_ref": "MTR-00001",
     "opening_hours": "24/7",
     "operator": "Iberdrola",
     "operator:wikidata": "Q1437502",
@@ -42428,6 +42429,46 @@
 },
 {
   "type": "Feature",
+  "id": "node/9214178420",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "comercial@iberdrola.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CHV-00004 - Flavimperio",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Iberdrola",
+    "operator:wikidata": "Q1437502",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "CHV-00004",
+    "socket:type2": "2",
+    "socket:type2:current": "16",
+    "socket:type2:output": "11kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/9214178420"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.4667837,
+      41.7416907
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9222092139",
   "properties": {
     "access": "yes",
@@ -44957,6 +44998,7 @@
     "authentication:none": "no",
     "capacity": "2",
     "fee": "yes",
+    "location": "underground",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "CSC-00079 - Marina de Cascais",
@@ -49420,45 +49462,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9986743351",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "2",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "CHV-00010 - Albergaria Borges",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Iberdrola",
-    "operator:wikidata": "Q1437502",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "ref": "CHV-00010",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22kW",
-    "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt/",
-    "id": "node/9986743351"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.487644,
-      41.7154891
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9986743352",
   "properties": {
     "access": "yes",
@@ -49573,45 +49576,6 @@
     "coordinates": [
       -7.4709697,
       37.476927
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9986743360",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "2",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "CHV-00009 - Hotel Forte de São Francisco",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Iberdrola",
-    "operator:wikidata": "Q1437502",
-    "parking:fee": "yes",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "ref": "CHV-00009",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22kW",
-    "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt/",
-    "id": "node/9986743360"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.4692225,
-      41.7429155
     ]
   }
 },
@@ -58304,7 +58268,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "PRD-00013",
+    "name": "PRD-00013 - O Verde",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Iberdrola",
@@ -63964,10 +63928,10 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "ref": "BRG-00096",
-    "socket:type2": "2",
-    "socket:type2:current": "16",
-    "socket:type2:output": "11kW",
-    "socket:type2:voltage": "400",
+    "socket:type2_cable": "2",
+    "socket:type2_cable:current": "16",
+    "socket:type2_cable:output": "11kW",
+    "socket:type2_cable:voltage": "400",
     "website": "https://www.mobie.pt/",
     "id": "node/11234513328"
   },
@@ -69045,10 +69009,10 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "ref": "ABF-00062",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22kW",
-    "socket:type2:voltage": "400",
+    "socket:type2_cable": "2",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22kW",
+    "socket:type2_cable:voltage": "400",
     "website": "https://www.mobie.pt/",
     "id": "node/11577769934"
   },
@@ -69467,10 +69431,10 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "ref": "VIS-00100",
-    "socket:type2": "2",
-    "socket:type2:current": "16",
-    "socket:type2:output": "11kW",
-    "socket:type2:voltage": "400",
+    "socket:type2_cable": "2",
+    "socket:type2_cable:current": "16",
+    "socket:type2_cable:output": "11kW",
+    "socket:type2_cable:voltage": "400",
     "website": "https://www.mobie.pt/",
     "id": "node/11646994839"
   },
@@ -71263,6 +71227,44 @@
     "coordinates": [
       -9.1655,
       38.8444
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11867258965",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "8",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "BJA-00053/54/55/56",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Wowplug",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "BJA-00053;BJA-00054;BJA-00055;BJA-00056",
+    "socket:type2": "8",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/11867258965"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.8572995,
+      38.0049122
     ]
   }
 },
