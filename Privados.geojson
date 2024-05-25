@@ -31582,11 +31582,11 @@
     "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "2",
+    "capacity": "4",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "EPS-00007",
+    "name": "EPS-00006/7",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP Comercial",
@@ -31595,8 +31595,8 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "EPS-00007",
-    "socket:type2": "2",
+    "ref": "EPS-00006;EPS-00007",
+    "socket:type2": "4",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4kW",
     "socket:type2:voltage": "230",
@@ -31606,8 +31606,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.7852565,
-      41.5165338
+      -8.7859244,
+      41.5166282
     ]
   }
 },
@@ -32119,19 +32119,20 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
+    "name": "VCT-00051",
     "network": "Mobi.E",
     "opening_hours": "24/7",
-    "operator": "DPC-Privado",
+    "operator": "Bluint",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "MOBI-VCT-00010",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22kW",
-    "socket:type2:voltage": "400",
+    "ref": "VCT-00051",
+    "socket:type2_cable": "2",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22kW",
+    "socket:type2_cable:voltage": "400",
     "website": "https://www.mobie.pt/",
     "id": "node/11877520421"
   },
@@ -32411,6 +32412,44 @@
     "coordinates": [
       -8.113513,
       41.33626
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11931608971",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "3",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "MOBI-LGA-00001/2/3",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "MOBI-LGA-00001;MOBI-LGA-00002;MOBI-LGA-00003",
+    "socket:type2": "3",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/11931608971"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.3804164,
+      37.1018913
     ]
   }
 }
