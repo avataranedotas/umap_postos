@@ -46193,15 +46193,15 @@
     "ref": "MGR-00013",
     "socket:chademo": "1",
     "socket:chademo:current": "120",
-    "socket:chademo:output": "30kW",
+    "socket:chademo:output": "50kW",
     "socket:chademo:voltage": "500",
     "socket:type2_cable": "1",
     "socket:type2_cable:current": "32",
     "socket:type2_cable:output": "22kW",
     "socket:type2_cable:voltage": "400",
     "socket:type2_combo": "1",
-    "socket:type2_combo:current": "125",
-    "socket:type2_combo:output": "30kW",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "60kW",
     "socket:type2_combo:voltage": "500",
     "website": "https://www.mobie.pt/",
     "id": "node/10269351087"
@@ -47144,8 +47144,8 @@
     "socket:type2_cable:output": "22kW",
     "socket:type2_cable:voltage": "400",
     "socket:type2_combo": "1",
-    "socket:type2_combo:current": "125",
-    "socket:type2_combo:output": "50kW",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "60kW",
     "socket:type2_combo:voltage": "500",
     "website": "https://www.mobie.pt/",
     "id": "node/10313691224"
@@ -49552,8 +49552,8 @@
     "socket:chademo:output": "50kW",
     "socket:chademo:voltage": "500",
     "socket:type2_cable": "1",
-    "socket:type2_cable:current": "16",
-    "socket:type2_cable:output": "11kW",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22kW",
     "socket:type2_cable:voltage": "400",
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "125",
@@ -51188,7 +51188,7 @@
     "ref": "PTM-00052",
     "socket:chademo": "1",
     "socket:chademo:current": "120",
-    "socket:chademo:output": "30kW",
+    "socket:chademo:output": "50kW",
     "socket:chademo:voltage": "500",
     "socket:type2_cable": "1",
     "socket:type2_cable:current": "32",
@@ -51196,7 +51196,7 @@
     "socket:type2_cable:voltage": "400",
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "125",
-    "socket:type2_combo:output": "30kW",
+    "socket:type2_combo:output": "50kW",
     "socket:type2_combo:voltage": "500",
     "website": "https://www.mobie.pt/",
     "id": "node/10722186299"
@@ -51385,7 +51385,7 @@
     "ref": "LGA-00023",
     "socket:chademo": "1",
     "socket:chademo:current": "120",
-    "socket:chademo:output": "50kW",
+    "socket:chademo:output": "30kW",
     "socket:chademo:voltage": "500",
     "socket:type2_cable": "1",
     "socket:type2_cable:current": "16",
@@ -51393,7 +51393,7 @@
     "socket:type2_cable:voltage": "400",
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "125",
-    "socket:type2_combo:output": "50kW",
+    "socket:type2_combo:output": "30kW",
     "socket:type2_combo:voltage": "500",
     "website": "https://www.mobie.pt/",
     "id": "node/10722216482"
@@ -58519,6 +58519,51 @@
 },
 {
   "type": "Feature",
+  "id": "node/11071979372",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "support.portugal@atlante.energy",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "TVD-00041",
+    "network": "Mobi.E",
+    "old_ref": "TVD-00034",
+    "opening_hours": "24/7",
+    "operator": "Atlante",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 296 929",
+    "ref": "TVD-00041",
+    "socket:chademo": "1",
+    "socket:chademo:current": "125",
+    "socket:chademo:output": "50kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "200",
+    "socket:type2_combo:output": "120kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/11071979372"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.25345,
+      39.090718
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11089368481",
   "properties": {
     "access": "yes",
@@ -60861,10 +60906,10 @@
     "socket:chademo:current": "125",
     "socket:chademo:output": "50kW",
     "socket:chademo:voltage": "500",
-    "socket:type2_cable": "1",
-    "socket:type2_cable:current": "32",
-    "socket:type2_cable:output": "22kW",
-    "socket:type2_cable:voltage": "400",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "150",
     "socket:type2_combo:output": "60kW",
@@ -69784,6 +69829,44 @@
 },
 {
   "type": "Feature",
+  "id": "node/11910670622",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "PPS-00002 - Minipreço",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Helexia II",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "PPS-00002",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "60",
+    "socket:type2_combo:output": "60kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/11910670622"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.9493981,
+      40.0422309
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11910670623",
   "properties": {
     "access": "yes",
@@ -70427,6 +70510,48 @@
 },
 {
   "type": "Feature",
+  "id": "node/11949808637",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LLE-00210",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "LLE-00210",
+    "socket:chademo": "1",
+    "socket:chademo:current": "125",
+    "socket:chademo:output": "50kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "125",
+    "socket:type2_combo:output": "120kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/11949808637"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.1008887,
+      37.0800634
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11954649036",
   "properties": {
     "access": "yes",
@@ -70498,6 +70623,44 @@
     "coordinates": [
       -9.1326371,
       39.5083203
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11961658533",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "VFX-00063",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "VFX-00063",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "125",
+    "socket:type2_combo:output": "120kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/11961658533"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.067966,
+      38.861983
     ]
   }
 }
