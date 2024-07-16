@@ -1115,6 +1115,7 @@
     "motorcar": "yes",
     "name": "OER-00090 - Galp",
     "network": "Mobi.E",
+    "old_ref": "OER-00001",
     "opening_hours": "24/7",
     "operator": "Galp Power",
     "parking:fee": "no",
@@ -32840,7 +32841,8 @@
     "name": "GDM-00018 - McDonald's",
     "network": "Mobi.E",
     "opening_hours": "24/7",
-    "operator": "EDP Comercial",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
@@ -32866,8 +32868,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.5369232,
-      41.1365915
+      -8.5369599,
+      41.1366291
     ]
   }
 },
@@ -49789,6 +49791,48 @@
 },
 {
   "type": "Feature",
+  "id": "node/10675989048",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "support.portugal@atlante.energy",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "BRR-00132",
+    "network": "Mobi.E",
+    "old_operator": "KLC",
+    "old_ref": "BRR-00032;BRR-00034;BRR-00104;BRR-00105;BRR-00135",
+    "opening_hours": "08:00-21:30",
+    "operator": "Atlante",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 296 929",
+    "ref": "BRR-00132",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "60kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt/",
+    "id": "node/10675989048"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.07835,
+      38.6545162
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10675989049",
   "properties": {
     "access": "yes",
@@ -50114,8 +50158,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.537342,
-      41.137209
+      -8.5373325,
+      41.1372174
     ]
   }
 },
@@ -63027,7 +63071,7 @@
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "150",
     "socket:type2_combo:output": "60kW",
-    "socket:type2_combo:voltage": "1000",
+    "socket:type2_combo:voltage": "500",
     "website": "https://www.mobie.pt/",
     "id": "node/11386032326"
   },
@@ -63074,7 +63118,7 @@
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "150",
     "socket:type2_combo:output": "60kW",
-    "socket:type2_combo:voltage": "1000",
+    "socket:type2_combo:voltage": "500",
     "website": "https://www.mobie.pt/",
     "id": "node/11386467221"
   },
@@ -72333,52 +72377,6 @@
     "coordinates": [
       -8.5907047,
       41.1775996
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12050811580",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "2",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "BRR-00132",
-    "network": "Mobi.E",
-    "opening_hours": "08:00-21:30",
-    "operator": "Atlante",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "ref": "BRR-00132",
-    "socket:chademo": "1",
-    "socket:chademo:current": "125",
-    "socket:chademo:output": "50kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2": "1",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22kW",
-    "socket:type2:voltage": "400",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "125",
-    "socket:type2_combo:output": "60kW",
-    "socket:type2_combo:voltage": "500",
-    "website": "https://www.mobie.pt",
-    "id": "node/12050811580"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.0783146,
-      38.6545089
     ]
   }
 },
