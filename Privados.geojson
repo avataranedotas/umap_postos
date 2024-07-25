@@ -2241,7 +2241,7 @@
     "capacity": "2",
     "fee": "no",
     "motorcar": "yes",
-    "name": "Troia Design Hotel Tesla Destination Charger",
+    "name": "Tróia Design Hotel Tesla Destination Charger",
     "network": "Tesla",
     "operator": "Tesla",
     "parking:fee": "no",
@@ -3079,8 +3079,9 @@
     "brand:wikipedia": "en:Tesla, Inc.",
     "capacity": "2",
     "fee": "no",
+    "location": "underground",
     "motorcar": "yes",
-    "name": "Altis Belem Hotel & Spa Tesla Destination Charger",
+    "name": "Altis Belém Hotel & Spa Tesla Destination Charger",
     "network": "Tesla",
     "operator": "Tesla",
     "ref": "dc9590",
@@ -3095,8 +3096,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.2108037,
-      38.6932581
+      -9.2106106,
+      38.6935407
     ]
   }
 },
@@ -33401,39 +33402,76 @@
 },
 {
   "type": "Feature",
-  "id": "node/12068698216",
+  "id": "node/12072321968",
+  "properties": {
+    "access": "private",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Mota Engil II",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "MOBI-OER-00273",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12072321968"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.2411005,
+      38.71998
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12072355370",
   "properties": {
     "access": "customers",
     "addr:country": "PT",
     "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "4",
+    "capacity": "2",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "GDL-00031/32",
+    "name": "OHP-00016",
     "network": "Mobi.E",
     "opening_hours": "24/7",
-    "operator": "Helexia II",
-    "parking:fee": "yes",
+    "operator": "EDP Comercial",
+    "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "GDL-00031;GDL-00032",
-    "socket:type2": "4",
+    "ref": "OHP-00016",
+    "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
     "socket:type2:voltage": "400",
     "website": "https://www.mobie.pt/",
-    "id": "node/12068698216"
+    "id": "node/12072355370"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.9030694,
-      38.4930455
+      -7.8556147,
+      40.3584659
     ]
   }
 }
