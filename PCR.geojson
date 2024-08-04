@@ -7412,52 +7412,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8079153640",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Santo Tirso",
-    "addr:country": "PT",
-    "addr:street": "Rua Professor Doutor Augusto Pires de Lima",
-    "amenity": "charging_station",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "1",
-    "email": "suporte@mobiletric.com",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "STS-00002",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Mobiletric",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 210 204",
-    "ref": "STS-00002",
-    "socket:chademo": "1",
-    "socket:chademo:current": "120",
-    "socket:chademo:output": "50kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "125",
-    "socket:type2_combo:output": "50kW",
-    "socket:type2_combo:voltage": "500",
-    "website": "https://www.mobie.pt",
-    "id": "node/8079153640"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.4783192,
-      41.3433131
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8079171269",
   "properties": {
     "access": "yes",
@@ -52883,7 +52837,8 @@
     "name": "VCT-00039 - KFC",
     "network": "Mobi.E",
     "opening_hours": "24/7",
-    "operator": "EDP Comercial",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
@@ -73773,7 +73728,7 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "ref": "GDL-00031;GDL-00032;GDL-00033",
-    "socket:type2": "6",
+    "socket:type2": "4",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
     "socket:type2:voltage": "400",
@@ -73789,6 +73744,48 @@
     "coordinates": [
       -8.9030694,
       38.4930455
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12072355371",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "4",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LSB-00714/715/722",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Helexia II",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "LSB-00714;LSB-00715;LSB-00722",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "375",
+    "socket:type2_combo:output": "100kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12072355371"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.210647,
+      38.6936398
     ]
   }
 },
@@ -74103,6 +74100,97 @@
     "coordinates": [
       -8.76997,
       41.51261
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12090293625",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "mobilidade-eletrica@edp.pt",
+    "fee": "yes",
+    "fixme": "Move to exact location",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "STS-00021 - Burger King",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP Comercial",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "STS-00021",
+    "socket:chademo": "1",
+    "socket:chademo:current": "125",
+    "socket:chademo:output": "50kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "200",
+    "socket:type2_combo:output": "120kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12090293625"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4781463,
+      41.3370217
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12090293629",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "ORM-00020 - Lidl",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "KLC Serviços",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "ORM-00020",
+    "socket:chademo": "1",
+    "socket:chademo:current": "120",
+    "socket:chademo:output": "49kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22kW",
+    "socket:type2_cable:voltage": "400",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "125",
+    "socket:type2_combo:output": "49kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12090293629"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5841796,
+      39.6566525
     ]
   }
 }

@@ -23959,8 +23959,9 @@
     "capacity": "10",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "no:network": "yes",
-    "operator": "ISEL",
+    "network": "Mobi.E",
+    "operator": "Moon",
+    "ref": "MOBI-LSB-00608;MOBI-LSB-00609;MOBI-LSB-00610;MOBI-LSB-00611;MOBI-LSB-00612;MOBI-LSB-00615;MOBI-LSB-00616;MOBI-LSB-00617;MOBI-LSB-00618;MOBI-LSB-00619",
     "socket:type2": "10",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -32115,33 +32116,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11896601089",
-  "properties": {
-    "access": "customers",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "capacity": "1",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "Residência Sénior do Vale",
-    "no:network": "yes",
-    "operator": "Residência Sénior do Vale",
-    "socket:type2": "1",
-    "socket:type2:current": "16",
-    "socket:type2:output": "11kW",
-    "socket:type2:voltage": "400",
-    "id": "node/11896601089"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.5067016,
-      40.8570491
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11896601091",
   "properties": {
     "access": "private",
@@ -33586,6 +33560,82 @@
     "coordinates": [
       -8.2508603,
       41.4427079
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12090293631",
+  "properties": {
+    "access": "private",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "4",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CBR-00105/106",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP Comercial",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "CBR-00105;CBR-00106",
+    "socket:type2": "4",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12090293631"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4612221,
+      40.1974586
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12090293632",
+  "properties": {
+    "access": "private",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CBR-00104",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP Comercial",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "CBR-00104",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12090293632"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4085076,
+      40.2184841
     ]
   }
 }
