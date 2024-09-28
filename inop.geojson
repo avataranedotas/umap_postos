@@ -185,8 +185,9 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "LSB-00134",
+    "name": "LSB-80134",
     "network": "Mobi.E",
+    "old_ref": "LSB-90134",
     "opening_hours": "24/7",
     "operator": "Galp Power",
     "parking:fee": "no",
@@ -195,7 +196,7 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
-    "ref": "LSB-80134;LSB-90134;LSB-80532",
+    "ref": "LSB-80134;LSB-80532",
     "socket:type2": "4",
     "socket:type2:current": "16",
     "socket:type2:output": "3.7kW",
@@ -685,6 +686,48 @@
     "coordinates": [
       -7.4447724,
       37.2179062
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7133188012",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Quarteira",
+    "addr:country": "PT",
+    "addr:street": "EN 125 Baceladas",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "disused:amenity": "charging_station",
+    "email": "geral@eplug.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LLE-00053 - Tibi",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "E-Plug",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 211 648 577",
+    "ref": "LLE-00053",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "7.4kW",
+    "socket:type2:voltage": "230",
+    "website": "https://www.mobie.pt",
+    "id": "node/7133188012"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.0761448,
+      37.104597
     ]
   }
 },
@@ -2574,23 +2617,22 @@
 },
 {
   "type": "Feature",
-  "id": "node/8231880006",
+  "id": "node/8235113638",
   "properties": {
     "access": "yes",
-    "addr:city": "Guimarães",
+    "addr:city": "Ponte de Lima",
     "addr:country": "PT",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "2",
     "disused:amenity": "charging_station",
     "fee": "yes",
-    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "GMR-00111 - Lidl",
+    "name": "PTL-00014 - Lidl",
     "network": "Mobi.E",
     "old_operator": "KLC",
-    "old_ref": "GMR-00004",
+    "old_ref": "PTL-00005",
     "opening_hours": "24/7",
     "operator": "KLC Serviços",
     "parking:fee": "no",
@@ -2599,7 +2641,7 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 202 060",
-    "ref": "GMR-00111",
+    "ref": "PTL-00014",
     "socket:chademo": "1",
     "socket:chademo:current": "120",
     "socket:chademo:output": "50kW",
@@ -2613,13 +2655,13 @@
     "socket:type2_combo:output": "50kW",
     "socket:type2_combo:voltage": "500",
     "website": "https://www.mobie.pt",
-    "id": "node/8231880006"
+    "id": "node/8235113638"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.3134911,
-      41.4607289
+      -8.5745984,
+      41.7722829
     ]
   }
 },
@@ -3054,6 +3096,56 @@
     "coordinates": [
       -25.677782,
       37.7515276
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8418602785",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Rio Tinto",
+    "addr:country": "PT",
+    "addr:street": "Rua da Boavista",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "disused:amenity": "charging_station",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "GDM-00042 - Lidl",
+    "network": "Mobi.E",
+    "old_ref": "GDM-00004",
+    "opening_hours": "24/7",
+    "operator": "KLC Serviços",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 202 060",
+    "ref": "GDM-00042",
+    "socket:chademo": "1",
+    "socket:chademo:current": "120",
+    "socket:chademo:output": "50kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "63",
+    "socket:type2_cable:output": "43kW",
+    "socket:type2_cable:voltage": "400",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "125",
+    "socket:type2_combo:output": "50kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt",
+    "id": "node/8418602785"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5570944,
+      41.1755792
     ]
   }
 },
@@ -3782,6 +3874,55 @@
 },
 {
   "type": "Feature",
+  "id": "node/9046134367",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "3",
+    "disused:amenity": "charging_station",
+    "email": "manutencaors@repsol.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "VND-00005 - Repsol",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Repsol",
+    "operator:wikidata": "Q174747",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 226 624",
+    "ref": "VND-00005",
+    "socket:chademo": "1",
+    "socket:chademo:current": "120",
+    "socket:chademo:output": "50kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "63",
+    "socket:type2_cable:output": "43kW",
+    "socket:type2_cable:voltage": "400",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "125",
+    "socket:type2_combo:output": "50kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt",
+    "id": "node/9046134367"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4530229,
+      38.6761896
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9074902467",
   "properties": {
     "access": "yes",
@@ -4021,6 +4162,54 @@
     "coordinates": [
       -7.574972,
       41.267111
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9455785685",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "disused:amenity": "charging_station",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "GDM-00043 - Lidl",
+    "network": "Mobi.E",
+    "old_ref": "GDM-00015",
+    "opening_hours": "24/7",
+    "operator": "KLC Serviços",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 202 060",
+    "ref": "GDM-00043",
+    "socket:chademo": "1",
+    "socket:chademo:current": "120",
+    "socket:chademo:output": "50kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "63",
+    "socket:type2_cable:output": "43kW",
+    "socket:type2_cable:voltage": "400",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "125",
+    "socket:type2_combo:output": "50kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt",
+    "id": "node/9455785685"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5377342,
+      41.1827056
     ]
   }
 },
