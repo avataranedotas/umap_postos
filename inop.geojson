@@ -258,48 +258,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/3930754463",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Leiria",
-    "addr:country": "PT",
-    "addr:street": "Avenida Bernardo Pimenta",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "6",
-    "disused:amenity": "charging_station",
-    "email": "mobilidade.electricacrc@galp.com",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "LRA-00005",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Galp Power",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 249 249",
-    "ref": "LRA-90005",
-    "socket:type2": "6",
-    "socket:type2:current": "16",
-    "socket:type2:output": "3.7kW",
-    "socket:type2:voltage": "230",
-    "website": "https://www.mobie.pt",
-    "id": "node/3930754463"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.8094779,
-      39.7500889
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/4241719655",
   "properties": {
     "access": "yes",
@@ -395,8 +353,9 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "EVR-00003",
+    "name": "EVR-80003",
     "network": "Mobi.E",
+    "old_ref": "EVR-90003",
     "opening_hours": "24/7",
     "operator": "Galp Power",
     "parking:fee": "no",
@@ -405,11 +364,12 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
-    "ref": "EVR-90003",
+    "ref": "EVR-80003",
+    "ref:EU:EVSE": "PT*GLP*E*EVR*80003*1;PT*GLP*E*EVR*80003*2",
     "socket:type2": "2",
-    "socket:type2:current": "16",
-    "socket:type2:output": "3.7kW",
-    "socket:type2:voltage": "230",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
     "website": "https://www.mobie.pt",
     "id": "node/5137641533"
   },
@@ -2762,45 +2722,6 @@
     "coordinates": [
       -7.4177175,
       37.1906083
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8270421627",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "2",
-    "disused:amenity": "charging_station",
-    "email": "segma@segma.pt",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "VPV-00002",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "SEGMA",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "ref": "VPV-00002",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22kW",
-    "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt",
-    "id": "node/8270421627"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -27.0654072,
-      38.7303382
     ]
   }
 },
