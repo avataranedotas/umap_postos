@@ -20613,7 +20613,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "LRA-00059 - Leiribéria",
+    "name": "LRA-00059",
     "network": "Mobi.E",
     "operator": "Moon",
     "parking:fee": "no",
@@ -24396,7 +24396,7 @@
   "type": "Feature",
   "id": "node/10981664004",
   "properties": {
-    "access": "customers",
+    "access": "private",
     "addr:country": "PT",
     "amenity": "charging_station",
     "authentication:membership_card": "yes",
@@ -35155,7 +35155,7 @@
   "type": "Feature",
   "id": "node/12383296711",
   "properties": {
-    "access": "customers",
+    "access": "private",
     "addr:country": "PT",
     "amenity": "charging_station",
     "authentication:membership_card": "yes",
@@ -35524,6 +35524,85 @@
     "coordinates": [
       -8.4775435,
       41.3356439
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12431705898",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "PMS-00014",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Iberdrola",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "PMS-00014",
+    "ref:EU:EVSE": "PT*IBD*E*PMS*00014*01;PT*IBD*E*PMS*00014*02",
+    "socket:type2_cable": "2",
+    "socket:type2_cable:current": "16",
+    "socket:type2_cable:output": "11kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12431705898"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.773096,
+      39.548776
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12431730013",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "4",
+    "fee": "yes",
+    "fixme": "Move to exact location",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "MOBI-CHV-00002/3",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Iberdrola",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "MOBI-CHV-00002;MOBI-CHV-00003",
+    "ref:EU:EVSE": "PT*IBD*E*MOBI*CHV*00002*01;PT*IBD*E*MOBI*CHV*00002*02;PT*IBD*E*MOBI*CHV*00003*01;PT*IBD*E*MOBI*CHV*00003*02",
+    "socket:type2_cable": "4",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12431730013"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.5737931,
+      41.632997
     ]
   }
 }
