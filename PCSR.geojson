@@ -1107,7 +1107,6 @@
   "id": "node/8969154279",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "2",
@@ -1116,7 +1115,6 @@
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CNT-00007",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -1147,7 +1145,6 @@
   "id": "node/8969154281",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "1",
@@ -1156,7 +1153,6 @@
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CNT-00008",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -7771,7 +7767,6 @@
   "id": "node/12070592522",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "2",
@@ -7779,7 +7774,6 @@
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CNT-00026",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -7809,7 +7803,6 @@
   "id": "node/12070592523",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "2",
@@ -7817,7 +7810,6 @@
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CNT-00025",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -7847,7 +7839,6 @@
   "id": "node/12070592524",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "2",
@@ -7855,7 +7846,6 @@
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CNT-00024",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -7885,7 +7875,6 @@
   "id": "node/12070592525",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "2",
@@ -7893,7 +7882,6 @@
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CNT-00023",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -9251,17 +9239,15 @@
   "id": "node/12304899497",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Ionity",
     "brand:wikidata": "Q42717773",
-    "capacity": "4",
+    "capacity": "2",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "IONITY Guarda",
     "network": "Mobi.E;Ionity",
     "opening_hours": "24/7",
     "operator": "Ionity",
@@ -9271,7 +9257,8 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "ref": "GRD-00034",
-    "socket:type2_combo": "4",
+    "ref:EU:EVSE": "PT*IOY*E477971;PT*IOY*E477972",
+    "socket:type2_combo": "2",
     "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "200kW",
     "socket:type2_combo:voltage": "1000",
@@ -9281,8 +9268,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.2485116,
-      40.5525399
+      -7.2485261,
+      40.5527453
     ]
   }
 },
@@ -9527,7 +9514,6 @@
   "id": "node/12321333861",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "2",
@@ -9535,7 +9521,6 @@
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "BNV-00015",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Helexia II",
@@ -10102,7 +10087,6 @@
   "id": "node/12456260963",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "2",
@@ -10110,7 +10094,6 @@
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "BNV-00016",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Helexia II",
@@ -10132,6 +10115,45 @@
     "coordinates": [
       -8.8189893,
       38.9606656
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12460808592",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Ionity",
+    "brand:wikidata": "Q42717773",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E;Ionity",
+    "opening_hours": "24/7",
+    "operator": "Ionity",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "GRD-00034",
+    "ref:EU:EVSE": "PT*IOY*E477973;PT*IOY*E477974",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "200kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/12460808592"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.2484596,
+      40.5527511
     ]
   }
 }
