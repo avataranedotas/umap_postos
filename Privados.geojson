@@ -49,6 +49,74 @@
 },
 {
   "type": "Feature",
+  "id": "way/1347591122",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "14",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LSB-00847",
+    "network": "Mobi.E",
+    "note": "Falta mapear os postos individuais como man_made=charge_point",
+    "opening_hours": "Mo-Fr 08:30-19:00;Sa 10:00-13:00",
+    "operator": "Moon",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "LSB-00847",
+    "ref:EU:EVSE": "PT*MOO*E13011*001*1;PT*MOO*E13011*001*2;PT*MOO*E13011*002*1;PT*MOO*E13011*003*1;PT*MOO*E13011*004*1;PT*MOO*E13011*005*1;PT*MOO*E13011*006*1;PT*MOO*E13011*007*1;PT*MOO*E13011*008*1;PT*MOO*E13011*009*1;PT*MOO*E13011*010*1;PT*MOO*E13011*011*1",
+    "socket:chademo": "1",
+    "socket:chademo:current": "120",
+    "socket:chademo:output": "50kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_cable": "6",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22kW",
+    "socket:type2_cable:voltage": "400",
+    "socket:type2_combo": "7",
+    "socket:type2_combo:current": "190",
+    "socket:type2_combo:output": "75kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt/",
+    "id": "way/1347591122"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -9.1064805,
+          38.7564861
+        ],
+        [
+          -9.1065811,
+          38.7565154
+        ],
+        [
+          -9.1067051,
+          38.7562633
+        ],
+        [
+          -9.1066072,
+          38.7562351
+        ],
+        [
+          -9.1064805,
+          38.7564861
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/1224787832",
   "properties": {
     "access": "customers",
@@ -70,6 +138,54 @@
     "coordinates": [
       -8.5604227,
       40.9256088
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1347591122",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "14",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LSB-00847",
+    "network": "Mobi.E",
+    "note": "Falta mapear os postos individuais como man_made=charge_point",
+    "opening_hours": "Mo-Fr 08:30-19:00;Sa 10:00-13:00",
+    "operator": "Moon",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "LSB-00847",
+    "ref:EU:EVSE": "PT*MOO*E13011*001*1;PT*MOO*E13011*001*2;PT*MOO*E13011*002*1;PT*MOO*E13011*003*1;PT*MOO*E13011*004*1;PT*MOO*E13011*005*1;PT*MOO*E13011*006*1;PT*MOO*E13011*007*1;PT*MOO*E13011*008*1;PT*MOO*E13011*009*1;PT*MOO*E13011*010*1;PT*MOO*E13011*011*1",
+    "socket:chademo": "1",
+    "socket:chademo:current": "120",
+    "socket:chademo:output": "50kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_cable": "6",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22kW",
+    "socket:type2_cable:voltage": "400",
+    "socket:type2_combo": "7",
+    "socket:type2_combo:current": "190",
+    "socket:type2_combo:output": "75kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt/",
+    "id": "way/1347591122"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1065928,
+      38.7563753
     ]
   }
 },
@@ -1361,12 +1477,12 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "1",
+    "description": "O cartão para activar o carregador pode ser comprado no centro de inspecções",
+    "description:en": "Card to activate charging can be bought at the inspection center office",
     "fee": "yes",
     "motorcar": "yes",
     "name": "Inspezalves",
     "no:network": "yes",
-    "note": "O cartão para activar o carregador pode ser comprado no centro de inspecções",
-    "note:en": "Card to activate charging can be bought at the inspection center office",
     "opening_hours": "24/7",
     "operator": "Inspezalves",
     "parking:fee": "no",
@@ -3571,6 +3687,8 @@
     "access": "customers",
     "addr:country": "PT",
     "amenity": "charging_station",
+    "brand": "Tesla, Inc.",
+    "brand:wikidata": "Q478214",
     "capacity": "4",
     "fee": "no",
     "motorcar": "yes",
@@ -3578,6 +3696,7 @@
     "network": "Tesla",
     "operator": "Tesla",
     "ref": "dc76495",
+    "short_name": "Tesla",
     "socket:tesla_destination": "2",
     "socket:tesla_destination:output": "22kW",
     "socket:type2_cable": "2",
@@ -7915,6 +8034,7 @@
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
+    "operator:wikidata": "Q1341222",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
@@ -8949,37 +9069,6 @@
     "coordinates": [
       -9.1305144,
       39.3918673
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8280884329",
-  "properties": {
-    "access": "customers",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "16",
-    "fee": "no",
-    "motorcar": "yes",
-    "name": "Recheio Óbidos",
-    "no:network": "yes",
-    "operator": "Recheio Óbidos",
-    "parking:fee": "no",
-    "socket:type2": "16",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22kW",
-    "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt/",
-    "id": "node/8280884329"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.1399705,
-      39.3746613
     ]
   }
 },
@@ -15429,47 +15518,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8461610962",
-  "properties": {
-    "access": "private",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "1",
-    "email": "electric@prioenergy.com",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "EVR-00010",
-    "network": "Mobi.E",
-    "note": "Inexistente. Obras ainda não se iniciaram.",
-    "opening_hours": "24/7",
-    "operator": "Prio.E",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 450 111",
-    "ref": "EVR-00010",
-    "socket:type2": "1",
-    "socket:type2:current": "32",
-    "socket:type2:output": "7.2kW",
-    "socket:type2:voltage": "230",
-    "website": "https://www.mobie.pt",
-    "id": "node/8461610962"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.9092181,
-      38.5511834
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8461999959",
   "properties": {
     "access": "private",
@@ -17592,13 +17640,13 @@
     "authentication:none": "yes",
     "bicycle": "yes",
     "capacity": "3",
+    "description": "Para emergências",
+    "description:en": "For emergencies",
     "fee": "no",
     "motorcar": "yes",
     "name": "Quinta da Cumieira (para emergências)",
     "name:en": "Quinta da Cumieira (for emergencies)",
     "no:network": "yes",
-    "note": "Para emergências",
-    "note:en": "For emergencies",
     "operator": "Quinta da Cumeira",
     "scooter": "yes",
     "socket:schuko": "2",
@@ -22760,16 +22808,14 @@
   "id": "node/10022775154",
   "properties": {
     "access": "customers",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "capacity": "9",
+    "capacity": "1",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "Cabanas Beach & Nature",
     "no:network": "yes",
     "operator": "Cabanas Beach & Nature",
-    "socket:type2": "9",
+    "socket:type2": "1",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
     "socket:type2:voltage": "400",
@@ -22778,8 +22824,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.6101948,
-      37.1323882
+      -7.610194,
+      37.1326179
     ]
   }
 },
@@ -22789,15 +22835,14 @@
   "properties": {
     "access": "customers",
     "addr:country": "PT",
-    "amenity": "charging_station",
-    "capacity": "3",
+    "capacity": "1",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "Cabanas Beach & Nature",
     "no:network": "yes",
     "operator": "Cabanas Beach & Nature",
-    "socket:type2_cable": "3",
+    "socket:type2_cable": "1",
     "socket:type2_cable:current": "16",
     "socket:type2_cable:output": "11kW",
     "socket:type2_cable:voltage": "400",
@@ -22806,8 +22851,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.6101833,
-      37.1323503
+      -7.6101204,
+      37.1324685
     ]
   }
 },
@@ -27402,6 +27447,7 @@
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
+    "operator:wikidata": "Q1341222",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
@@ -31516,6 +31562,7 @@
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
+    "operator:wikidata": "Q1341222",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
@@ -33496,6 +33543,7 @@
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
+    "operator:wikidata": "Q1341222",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
@@ -33664,14 +33712,13 @@
   "properties": {
     "access": "private",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "14",
+    "capacity": "2",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "MOBI-MTS-00060…67",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -33680,8 +33727,8 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "MOBI-MTS-00060;MOBI-MTS-00061;MOBI-MTS-00062;MOBI-MTS-00063;MOBI-MTS-00064;MOBI-MTS-00065;MOBI-MTS-00066;MOBI-MTS-00067",
-    "socket:type2": "14",
+    "ref": "MOBI-MTS-00060",
+    "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
     "socket:type2:voltage": "400",
@@ -33691,8 +33738,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.7114695,
-      41.2042967
+      -8.7114326,
+      41.2043038
     ]
   }
 },
@@ -33702,14 +33749,13 @@
   "properties": {
     "access": "private",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "3",
+    "capacity": "2",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "MOBI-MTS-00059",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -33733,8 +33779,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.711555,
-      41.2043019
+      -8.7113854,
+      41.2043024
     ]
   }
 },
@@ -36303,53 +36349,6 @@
     "coordinates": [
       -8.1629008,
       41.7266494
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12427180089",
-  "properties": {
-    "access": "customers",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "14",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "LSB-00847",
-    "network": "Mobi.E",
-    "opening_hours": "Mo-Fr 08:30-19:00;Sa 10:00-13:00",
-    "operator": "Moon",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "ref": "LSB-00847",
-    "ref:EU:EVSE": "PT*MOO*E13011*001*1;PT*MOO*E13011*001*2;PT*MOO*E13011*002*1;PT*MOO*E13011*003*1;PT*MOO*E13011*004*1;PT*MOO*E13011*005*1;PT*MOO*E13011*006*1;PT*MOO*E13011*007*1;PT*MOO*E13011*008*1;PT*MOO*E13011*009*1;PT*MOO*E13011*010*1;PT*MOO*E13011*011*1",
-    "socket:chademo": "1",
-    "socket:chademo:current": "120",
-    "socket:chademo:output": "50kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_cable": "6",
-    "socket:type2_cable:current": "32",
-    "socket:type2_cable:output": "22kW",
-    "socket:type2_cable:voltage": "400",
-    "socket:type2_combo": "7",
-    "socket:type2_combo:current": "190",
-    "socket:type2_combo:output": "75kW",
-    "socket:type2_combo:voltage": "500",
-    "website": "https://www.mobie.pt/",
-    "id": "node/12427180089"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.1066126,
-      38.7563281
     ]
   }
 },
@@ -39429,6 +39428,527 @@
     "coordinates": [
       -9.1079057,
       38.7562353
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12465436607",
+  "properties": {
+    "access": "private",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "MOBI-MTS-00067",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12465436607"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.7118048,
+      41.2041433
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12465436608",
+  "properties": {
+    "access": "private",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "MOBI-MTS-00066",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12465436608"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.7118001,
+      41.2041902
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12465436609",
+  "properties": {
+    "access": "private",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "MOBI-MTS-00065",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12465436609"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.7117948,
+      41.2042357
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12465436610",
+  "properties": {
+    "access": "private",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "MOBI-MTS-00064",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12465436610"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.7117921,
+      41.2042755
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12465436611",
+  "properties": {
+    "access": "private",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "MOBI-MTS-00063",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12465436611"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.7115996,
+      41.2043133
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12465436612",
+  "properties": {
+    "access": "private",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "MOBI-MTS-00062",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12465436612"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.7115467,
+      41.2043098
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12465436613",
+  "properties": {
+    "access": "private",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "MOBI-MTS-00061",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12465436613"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.7114883,
+      41.2043068
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12466032090",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "capacity": "1",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "no:network": "yes",
+    "operator": "Cabanas Beach & Nature",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "16",
+    "socket:type2_cable:output": "11kW",
+    "socket:type2_cable:voltage": "400",
+    "id": "node/12466032090"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.6101424,
+      37.1325112
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12466032091",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "capacity": "1",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "no:network": "yes",
+    "operator": "Cabanas Beach & Nature",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "16",
+    "socket:type2_cable:output": "11kW",
+    "socket:type2_cable:voltage": "400",
+    "id": "node/12466032091"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.6101318,
+      37.1324899
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12466032092",
+  "properties": {
+    "access": "customers",
+    "capacity": "1",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "no:network": "yes",
+    "operator": "Cabanas Beach & Nature",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "id": "node/12466032092"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.6100779,
+      37.1323831
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12466032093",
+  "properties": {
+    "access": "customers",
+    "capacity": "1",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "no:network": "yes",
+    "operator": "Cabanas Beach & Nature",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "id": "node/12466032093"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.6100886,
+      37.1324042
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12466032094",
+  "properties": {
+    "access": "customers",
+    "capacity": "1",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "no:network": "yes",
+    "operator": "Cabanas Beach & Nature",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "id": "node/12466032094"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.6100995,
+      37.1324261
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12466032095",
+  "properties": {
+    "access": "customers",
+    "capacity": "1",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "no:network": "yes",
+    "operator": "Cabanas Beach & Nature",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "id": "node/12466032095"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.6101106,
+      37.132447
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12466032096",
+  "properties": {
+    "access": "customers",
+    "capacity": "1",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "no:network": "yes",
+    "operator": "Cabanas Beach & Nature",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "id": "node/12466032096"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.610152,
+      37.1325325
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12466032097",
+  "properties": {
+    "access": "customers",
+    "capacity": "1",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "no:network": "yes",
+    "operator": "Cabanas Beach & Nature",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "id": "node/12466032097"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.6101627,
+      37.1325535
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12466032098",
+  "properties": {
+    "access": "customers",
+    "capacity": "1",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "no:network": "yes",
+    "operator": "Cabanas Beach & Nature",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "id": "node/12466032098"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.6101735,
+      37.132575
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12466032099",
+  "properties": {
+    "access": "customers",
+    "capacity": "1",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "no:network": "yes",
+    "operator": "Cabanas Beach & Nature",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "id": "node/12466032099"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.6101837,
+      37.1325965
     ]
   }
 }

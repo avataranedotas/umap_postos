@@ -3,6 +3,102 @@
 "features": [
 {
   "type": "Feature",
+  "id": "way/1347589014",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Ionity",
+    "brand:wikidata": "Q42717773",
+    "capacity": "12",
+    "construction:amenity": "charging_station",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "IONITY Maia",
+    "network": "Mobi.E;Ionity",
+    "opening_hours": "24/7",
+    "operator": "Ionity",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "MAI-?????",
+    "socket:type2_combo": "6",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "350kW",
+    "socket:type2_combo:voltage": "1000",
+    "id": "way/1347589014"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -8.6261058,
+        41.2463209
+      ],
+      [
+        -8.6258997,
+        41.2457515
+      ],
+      [
+        -8.6265392,
+        41.2456207
+      ],
+      [
+        -8.6267453,
+        41.24619
+      ],
+      [
+        -8.6261058,
+        41.2463209
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1347589014",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Ionity",
+    "brand:wikidata": "Q42717773",
+    "capacity": "12",
+    "construction:amenity": "charging_station",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "IONITY Maia",
+    "network": "Mobi.E;Ionity",
+    "opening_hours": "24/7",
+    "operator": "Ionity",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "MAI-?????",
+    "socket:type2_combo": "6",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "350kW",
+    "socket:type2_combo:voltage": "1000",
+    "id": "way/1347589014"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6263225,
+      41.2459708
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/6635524353",
   "properties": {
     "access": "yes",
@@ -2744,12 +2840,11 @@
     "addr:country": "PT",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "12",
-    "construction:amenity": "charging_station",
+    "capacity": "2",
+    "construction:man_made": "charge_point",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "MLD-????? - Pedro dos Leitões",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Powerdot",
@@ -2759,17 +2854,9 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "ref": "MLD-?????",
-    "socket:chademo": "1",
-    "socket:chademo:current": "125",
-    "socket:chademo:output": "50kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22kW",
-    "socket:type2:voltage": "400",
-    "socket:type2_combo": "10",
-    "socket:type2_combo:current": "300",
-    "socket:type2_combo:output": "120kW",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "250",
+    "socket:type2_combo:output": "100kW",
     "socket:type2_combo:voltage": "500",
     "website": "https://www.mobie.pt",
     "id": "node/11684517733"
@@ -2777,8 +2864,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.4505675,
-      40.392949
+      -8.4505198,
+      40.3930523
     ]
   }
 },
@@ -3430,46 +3517,6 @@
     "coordinates": [
       -8.677688,
       38.5798749
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11831817462",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Ionity",
-    "brand:wikidata": "Q42717773",
-    "capacity": "12",
-    "construction:amenity": "charging_station",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "IONITY Maia",
-    "network": "Mobi.E;Ionity",
-    "opening_hours": "24/7",
-    "operator": "Ionity",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "ref": "MAI-?????",
-    "socket:type2_combo": "6",
-    "socket:type2_combo:current": "500",
-    "socket:type2_combo:output": "350kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt",
-    "id": "node/11831817462"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.6263328,
-      41.2459814
     ]
   }
 },
@@ -12943,6 +12990,232 @@
     "coordinates": [
       -8.6776771,
       38.5798946
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12465278074",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "construction:man_made": "charge_point",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "MLD-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "200",
+    "socket:type2_combo:output": "80kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt",
+    "id": "node/12465278074"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4502492,
+      40.3931343
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12465278075",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "construction:man_made": "charge_point",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "MLD-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "200",
+    "socket:type2_combo:output": "80kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt",
+    "id": "node/12465278075"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4503034,
+      40.3931173
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12465278076",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "construction:man_made": "charge_point",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "MLD-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "200",
+    "socket:type2_combo:output": "80kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt",
+    "id": "node/12465278076"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4503568,
+      40.3931015
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12465278077",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "construction:man_made": "charge_point",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "MLD-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "250",
+    "socket:type2_combo:output": "100kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt",
+    "id": "node/12465278077"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4504115,
+      40.393085
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12465278078",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "construction:man_made": "charge_point",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "MLD-?????",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/12465278078"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4505605,
+      40.3930407
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12465278079",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "construction:man_made": "charge_point",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "MLD-?????",
+    "socket:chademo": "1",
+    "socket:chademo:current": "125",
+    "socket:chademo:output": "50kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "200",
+    "socket:type2_combo:output": "80kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt",
+    "id": "node/12465278079"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4504663,
+      40.3930688
     ]
   }
 }
