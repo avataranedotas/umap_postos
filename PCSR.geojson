@@ -2110,12 +2110,12 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "1",
+    "capacity": "2",
     "email": "support.portugal@atlante.energy",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "LLE-00164",
@@ -2145,8 +2145,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.1201762,
-      37.0823249
+      -8.1202138,
+      37.0823543
     ]
   }
 },
@@ -8825,15 +8825,14 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "2",
     "fee": "yes",
     "location": "underground",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "ACH-00028",
     "network": "Mobi.E",
     "opening_hours": "10:00-22:00",
     "operator": "Atlante",
@@ -8853,8 +8852,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.9424674,
-      38.7518444
+      -8.9424854,
+      38.7518669
     ]
   }
 },
@@ -9963,7 +9962,7 @@
 },
 {
   "type": "Feature",
-  "id": "node/12434451915",
+  "id": "node/12427599529",
   "properties": {
     "access": "yes",
     "addr:country": "PT",
@@ -9971,11 +9970,54 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Iberdrola bp pulse",
-    "capacity": "3",
+    "capacity": "2",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "MTS-00177",
+    "name": "PNF-00043",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "PNF-00043",
+    "ref:EU:EVSE": "PT*FCT*E*PNF*00043*01;PT*FCT*E*PNF*00043*02;PT*FCT*E*PNF*00043*03",
+    "socket:chademo": "1",
+    "socket:chademo:current": "200",
+    "socket:chademo:output": "80kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "150kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/12427599529"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.3294507,
+      41.169416
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12434451915",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Charging Together",
@@ -10000,8 +10042,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6817073,
-      41.1843236
+      -8.6817544,
+      41.1843153
     ]
   }
 },

@@ -665,16 +665,15 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "1",
-    "construction:amenity": "charging_station",
+    "construction:man_made": "charge_point",
     "email": "mobilidade-eletrica@edp.pt",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "ALM-00046",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
-    "parking:fee": "no",
+    "parking:fee": "yes",
     "payment:app": "yes",
     "payment:cards": "no",
     "payment:cash": "no",
@@ -695,8 +694,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.2430031,
-      38.6484011
+      -9.2429991,
+      38.648404
     ]
   }
 },
@@ -708,28 +707,27 @@
     "addr:country": "PT",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "3",
-    "construction:amenity": "charging_station",
+    "capacity": "2",
+    "construction:man_made": "charge_point",
     "email": "mobilidade-eletrica@edp.pt",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "ALM-00047/48/49",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
-    "parking:fee": "no",
+    "parking:fee": "yes",
     "payment:app": "yes",
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
-    "ref": "ALM-00047;ALM-00048;ALM-00049",
-    "socket:chademo": "3",
+    "ref": "ALM-00047",
+    "socket:chademo": "1",
     "socket:chademo:current": "120",
     "socket:chademo:output": "50kW",
     "socket:chademo:voltage": "500",
-    "socket:type2_combo": "3",
+    "socket:type2_combo": "1",
     "socket:type2_combo:current": "125",
     "socket:type2_combo:output": "50kW",
     "socket:type2_combo:voltage": "500",
@@ -739,8 +737,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.2430584,
-      38.6484807
+      -9.2430193,
+      38.6484326
     ]
   }
 },
@@ -752,23 +750,22 @@
     "addr:country": "PT",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "10",
-    "construction:amenity": "charging_station",
+    "capacity": "2",
+    "construction:man_made": "charge_point",
     "email": "mobilidade-eletrica@edp.pt",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "ALM-00050/51/52/53/54",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
-    "parking:fee": "no",
+    "parking:fee": "yes",
     "payment:app": "yes",
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
-    "ref": "ALM-00050;ALM-00051;ALM-00052;ALM-00053;ALM-00054",
+    "ref": "ALM-00050",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -779,8 +776,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.2431423,
-      38.6486011
+      -9.2430991,
+      38.6485454
     ]
   }
 },
@@ -10776,50 +10773,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12427599529",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Iberdrola bp pulse",
-    "capacity": "3",
-    "construction:amenity": "charging_station",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "PNF-00043",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Charging Together",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "ref": "PNF-00043",
-    "ref:EU:EVSE": "PT*FCT*E*PNF*00043*01;PT*FCT*E*PNF*00043*02;PT*FCT*E*PNF*00043*03",
-    "socket:chademo": "1",
-    "socket:chademo:current": "200",
-    "socket:chademo:output": "80kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "500",
-    "socket:type2_combo:output": "150kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt",
-    "id": "node/12427599529"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.3295204,
-      41.1696886
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12427733333",
   "properties": {
     "access": "yes",
@@ -13452,7 +13405,6 @@
     "construction:amenity": "charging_station",
     "email": "mobilidade-eletrica@edp.pt",
     "fee": "yes",
-    "fixme": "Move to exact location",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "ELV-?????",
@@ -13485,8 +13437,250 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.154466,
-      38.876012
+      -7.1544606,
+      38.8760704
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12475729202",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "construction:man_made": "charge_point",
+    "email": "mobilidade-eletrica@edp.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "ALM-00054",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/12475729202"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.2432108,
+      38.6487032
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12475729203",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "construction:man_made": "charge_point",
+    "email": "mobilidade-eletrica@edp.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "ALM-00053",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/12475729203"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.243182,
+      38.6486625
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12475729204",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "construction:man_made": "charge_point",
+    "email": "mobilidade-eletrica@edp.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "ALM-00052",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/12475729204"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.2431552,
+      38.6486247
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12475729205",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "construction:man_made": "charge_point",
+    "email": "mobilidade-eletrica@edp.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "ALM-00051",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/12475729205"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.243127,
+      38.6485849
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12475729206",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "construction:man_made": "charge_point",
+    "email": "mobilidade-eletrica@edp.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "ALM-00049",
+    "socket:chademo": "1",
+    "socket:chademo:current": "120",
+    "socket:chademo:output": "50kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "125",
+    "socket:type2_combo:output": "50kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt",
+    "id": "node/12475729206"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.2430724,
+      38.6485076
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12475729207",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "construction:man_made": "charge_point",
+    "email": "mobilidade-eletrica@edp.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "ALM-00048",
+    "socket:chademo": "1",
+    "socket:chademo:current": "120",
+    "socket:chademo:output": "50kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "125",
+    "socket:type2_combo:output": "50kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt",
+    "id": "node/12475729207"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.2430456,
+      38.6484697
     ]
   }
 }
