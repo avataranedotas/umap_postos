@@ -4364,6 +4364,51 @@
 },
 {
   "type": "Feature",
+  "id": "way/1349092728",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "capacity": "9",
+    "layer": "-1",
+    "level": "-1",
+    "motorcar": "yes",
+    "name": "LSB-00119…121/125/126/152/769…771",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "parking:fee": "yes",
+    "ref": "LSB-00119;LSB-00120;LSB-00121;LSB-00125;LSB-00126;LSB-00152;LSB-00769;LSB-00770;LSB-00771",
+    "id": "way/1349092728"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -9.1430938,
+          38.7168389
+        ],
+        [
+          -9.1428245,
+          38.7165324
+        ],
+        [
+          -9.1427757,
+          38.7165585
+        ],
+        [
+          -9.143045,
+          38.716865
+        ],
+        [
+          -9.1430938,
+          38.7168389
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/966120777",
   "properties": {
     "access": "yes",
@@ -5176,9 +5221,9 @@
     "phone": "+351 800 296 929",
     "ref": "STR-80001",
     "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "7.4kW",
-    "socket:type2:voltage": "230",
+    "socket:type2:current": "16",
+    "socket:type2:output": "11kW",
+    "socket:type2:voltage": "400",
     "website": "https://www.mobie.pt",
     "id": "node/966120933"
   },
@@ -7023,6 +7068,31 @@
 },
 {
   "type": "Feature",
+  "id": "way/1349092728",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "capacity": "9",
+    "layer": "-1",
+    "level": "-1",
+    "motorcar": "yes",
+    "name": "LSB-00119…121/125/126/152/769…771",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "parking:fee": "yes",
+    "ref": "LSB-00119;LSB-00120;LSB-00121;LSB-00125;LSB-00126;LSB-00152;LSB-00769;LSB-00770;LSB-00771",
+    "id": "way/1349092728"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1429348,
+      38.7166987
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/2083900944",
   "properties": {
     "access": "yes",
@@ -8280,9 +8350,9 @@
     "phone": "+351 800 296 929",
     "ref": "CSC-80002",
     "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "7.4kW",
-    "socket:type2:voltage": "230",
+    "socket:type2:current": "16",
+    "socket:type2:output": "11kW",
+    "socket:type2:voltage": "400",
     "website": "https://www.mobie.pt",
     "id": "node/3697279495"
   },
@@ -27544,7 +27614,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "LRS-00013",
+    "name": "LRS-80013",
     "network": "Mobi.E",
     "old_ref": "LRS-90013",
     "opening_hours": "24/7",
@@ -27558,8 +27628,8 @@
     "ref": "LRS-80013",
     "socket:type2": "2",
     "socket:type2:current": "32",
-    "socket:type2:output": "7.4kW",
-    "socket:type2:voltage": "230",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
     "website": "https://www.mobie.pt",
     "id": "node/8127217944"
   },
@@ -33027,12 +33097,12 @@
     "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "10",
+    "capacity": "2",
     "email": "opc@emel.pt",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "LSB-00259/60/61/62/63 - Parking Campo das Cebolas",
+    "name": "LSB-00259",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EMEL",
@@ -33042,8 +33112,8 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 910 255",
-    "ref": "LSB-00259;LSB-00260;LSB-00261;LSB-00262;LSB-00263",
-    "socket:type2": "10",
+    "ref": "LSB-00259",
+    "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
     "socket:type2:voltage": "400",
@@ -33053,8 +33123,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.1310723,
-      38.7087482
+      -9.1310777,
+      38.708709
     ]
   }
 },
@@ -36952,18 +37022,17 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "9",
+    "capacity": "1",
     "email": "ev_portugal@maksu.com",
     "fee": "yes",
     "layer": "-1",
     "level": "-1",
     "location": "underground",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "LSB-00119/120/121/125/126/152/769/770/771 - telpark",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Maksu Services",
@@ -36973,8 +37042,8 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 910 124",
-    "ref": "LSB-00119;LSB-00120;LSB-00121;LSB-00125;LSB-00126;LSB-00152;LSB-00769;LSB-00770;LSB-00771",
-    "socket:type2": "9",
+    "ref": "LSB-00119",
+    "socket:type2": "1",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
     "socket:type2:voltage": "400",
@@ -36984,8 +37053,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.1429163,
-      38.716642
+      -9.1429126,
+      38.7166439
     ]
   }
 },
@@ -66203,8 +66272,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.4191242,
-      41.8138684
+      -8.4184805,
+      41.8139604
     ]
   }
 },
@@ -85373,6 +85442,45 @@
 },
 {
   "type": "Feature",
+  "id": "node/12343723285",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "SJM-00045",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "SJM-00045",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12343723285"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4848367,
+      40.893017
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12343738265",
   "properties": {
     "access": "yes",
@@ -92248,6 +92356,502 @@
     "coordinates": [
       -8.9424528,
       38.7518502
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12479330753",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "opc@emel.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LSB-00263",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EMEL",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 910 255",
+    "ref": "LSB-00263",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/12479330753"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1312198,
+      38.7086639
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12479330754",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "opc@emel.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LSB-00262",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EMEL",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 910 255",
+    "ref": "LSB-00262",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/12479330754"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1311871,
+      38.7086743
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12479330755",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "opc@emel.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LSB-00261",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EMEL",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 910 255",
+    "ref": "LSB-00261",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/12479330755"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1311507,
+      38.7086858
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12479330756",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "opc@emel.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LSB-00260",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EMEL",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 910 255",
+    "ref": "LSB-00260",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/12479330756"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1311131,
+      38.7086977
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12479372300",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "email": "ev_portugal@maksu.com",
+    "fee": "yes",
+    "layer": "-1",
+    "level": "-1",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Maksu Services",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 910 124",
+    "ref": "LSB-00771",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/12479372300"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1428378,
+      38.7165552
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12479373301",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "email": "ev_portugal@maksu.com",
+    "fee": "yes",
+    "layer": "-1",
+    "level": "-1",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Maksu Services",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 910 124",
+    "ref": "LSB-00770",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/12479373301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1428641,
+      38.7165864
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12479373302",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "email": "ev_portugal@maksu.com",
+    "fee": "yes",
+    "layer": "-1",
+    "level": "-1",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Maksu Services",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 910 124",
+    "ref": "LSB-00769",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/12479373302"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.142889,
+      38.716616
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12479373303",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "email": "ev_portugal@maksu.com",
+    "fee": "yes",
+    "layer": "-1",
+    "level": "-1",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Maksu Services",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 910 124",
+    "ref": "LSB-00152",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/12479373303"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1430725,
+      38.7168336
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12479373304",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "email": "ev_portugal@maksu.com",
+    "fee": "yes",
+    "layer": "-1",
+    "level": "-1",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Maksu Services",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 910 124",
+    "ref": "LSB-00126",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/12479373304"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1430418,
+      38.7167972
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12479373305",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "email": "ev_portugal@maksu.com",
+    "fee": "yes",
+    "layer": "-1",
+    "level": "-1",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Maksu Services",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 910 124",
+    "ref": "LSB-00125",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/12479373305"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1430086,
+      38.7167578
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12479373306",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "email": "ev_portugal@maksu.com",
+    "fee": "yes",
+    "layer": "-1",
+    "level": "-1",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Maksu Services",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 910 124",
+    "ref": "LSB-00121",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/12479373306"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1429771,
+      38.7167205
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12479373307",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "email": "ev_portugal@maksu.com",
+    "fee": "yes",
+    "layer": "-1",
+    "level": "-1",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Maksu Services",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 910 124",
+    "ref": "LSB-00120",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/12479373307"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.142945,
+      38.7166824
     ]
   }
 }
