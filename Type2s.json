@@ -1111,8 +1111,8 @@
 {
   "type": "node",
   "id": 3171124810,
-  "lat": 40.6337069,
-  "lon": -8.6562646,
+  "lat": 40.6338621,
+  "lon": -8.6565268,
   "tags": {
     "access": "yes",
     "addr:country": "PT",
@@ -1371,12 +1371,11 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "2",
-    "disused:amenity": "charging_station",
     "email": "mobilidade-eletrica@edp.pt",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VNG-00013",
+    "name": "VNG-90013",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -27943,7 +27942,6 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "2",
-    "construction:amenity": "charging_station",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -32577,7 +32575,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "ODV-00021 - Pingo Doce",
+    "name": "ODV-00021",
     "network": "Mobi.E",
     "old_ref": "ODV-00014",
     "opening_hours": "24/7",
@@ -33230,6 +33228,38 @@
     "socket:type2:output": "22kW",
     "socket:type2:voltage": "400",
     "website": "https://plugcharge.continente.pt/"
+  }
+},
+{
+  "type": "node",
+  "id": 8830368192,
+  "lat": 41.1192369,
+  "lon": -8.5112913,
+  "tags": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "GDM-00010 - Santa Justa",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Evio",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "GDM-00010",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt"
   }
 },
 {
@@ -35441,12 +35471,14 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Galp electric",
-    "capacity": "4",
+    "capacity": "2",
     "email": "mobilidade.electricacrc@galp.com",
     "fee": "yes",
+    "level": "-1",
+    "location": "underground",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "PRT-00123/124",
+    "name": "PRT-00123",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -35456,8 +35488,8 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
-    "ref": "PRT-00123;PRT-00124",
-    "socket:type2": "4",
+    "ref": "PRT-00123",
+    "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
     "socket:type2:voltage": "400",
@@ -36069,19 +36101,18 @@
 {
   "type": "node",
   "id": 9316451536,
-  "lat": 41.1529932,
-  "lon": -8.6537142,
+  "lat": 41.1527670,
+  "lon": -8.6541132,
   "tags": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "4",
+    "capacity": "1",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "PRT-00110/111/112/113 - Retail Park",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Mobiletric",
@@ -36090,8 +36121,8 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "PRT-00110;PRT-00111;PRT-00112;PRT-00113",
-    "socket:type2": "4",
+    "ref": "PRT-00110",
+    "socket:type2": "1",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
     "socket:type2:voltage": "400",
@@ -36286,6 +36317,8 @@
     "capacity": "2",
     "email": "mobilidade.electricacrc@galp.com",
     "fee": "yes",
+    "level": "-1",
+    "location": "underground",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "PRT-00122",
@@ -36299,6 +36332,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "PRT-00122",
+    "ref:EU:EVSE": "PT*GLP*EPRT*00122*01;PT*GLP*EPRT*00122*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4kW",
@@ -36466,7 +36500,6 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "PRT-00116 - CUF",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -36501,7 +36534,6 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "PRT-00121 - CUF",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -36512,6 +36544,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "PRT-00121",
+    "ref:EU:EVSE": "PT*GLP*EPRT*00121*01;PT*GLP*EPRT*00121*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4kW",
@@ -46334,8 +46367,8 @@
 {
   "type": "node",
   "id": 10773710818,
-  "lat": 41.2080950,
-  "lon": -8.5664339,
+  "lat": 41.2078448,
+  "lon": -8.5658760,
   "tags": {
     "access": "yes",
     "addr:country": "PT",
@@ -46346,17 +46379,18 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "MAI-00033 - Aldi",
+    "name": "MAI-00053",
     "network": "Mobi.E",
+    "old_operator": "KLC Serviços",
+    "old_ref": "MAI-00033",
     "opening_hours": "24/7",
-    "operator": "KLC Serviços",
+    "operator": "EDP",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "phone": "+351 800 202 060",
-    "ref": "MAI-00033",
+    "ref": "MAI-00053",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -49843,7 +49877,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "PRT-00182 - KFC",
+    "name": "PRT-00182",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -65560,39 +65594,6 @@
 },
 {
   "type": "node",
-  "id": 12205419876,
-  "lat": 41.2105203,
-  "lon": -8.5631456,
-  "tags": {
-    "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "2",
-    "fee": "yes",
-    "fixme": "Move to correct location",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "MAI-00053",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "EDP",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "ref": "MAI-00053",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22kW",
-    "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt/"
-  }
-},
-{
-  "type": "node",
   "id": 12205419877,
   "lat": 40.8842288,
   "lon": -6.9653717,
@@ -67833,8 +67834,8 @@
 {
   "type": "node",
   "id": 12352267684,
-  "lat": 40.6549774,
-  "lon": -7.9125686,
+  "lat": 40.6551330,
+  "lon": -7.9121850,
   "tags": {
     "access": "yes",
     "addr:country": "PT",
@@ -67842,9 +67843,7 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "4",
-    "construction:amenity": "charging_station",
     "fee": "yes",
-    "fixme": "Move to correct location",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "VIS-00110/111",
@@ -73816,6 +73815,137 @@
   }
 },
 {
+  "type": "node",
+  "id": 12487184092,
+  "lat": 41.1528412,
+  "lon": -8.6541139,
+  "tags": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Mobiletric",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "PRT-00113",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/"
+  }
+},
+{
+  "type": "node",
+  "id": 12487184093,
+  "lat": 41.1528164,
+  "lon": -8.6541136,
+  "tags": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Mobiletric",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "PRT-00112",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/"
+  }
+},
+{
+  "type": "node",
+  "id": 12487184094,
+  "lat": 41.1527907,
+  "lon": -8.6541134,
+  "tags": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Mobiletric",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "PRT-00111",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/"
+  }
+},
+{
+  "type": "node",
+  "id": 12487193791,
+  "lat": 41.1560068,
+  "lon": -8.6305607,
+  "tags": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Galp electric",
+    "capacity": "2",
+    "email": "mobilidade.electricacrc@galp.com",
+    "fee": "yes",
+    "level": "-1",
+    "location": "underground",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "PRT-00124",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 249 249",
+    "ref": "PRT-00124",
+    "ref:EU:EVSE": "PT*GLP*EPRT*00124*01;PT*GLP*EPRT*00124*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/"
+  }
+},
+{
   "type": "way",
   "id": 1211961490,
   "center": {
@@ -75452,11 +75582,11 @@
     "brand": "Powerdot",
     "capacity": "13",
     "motorcar": "yes",
-    "name": "MLD-????? - Pedro dos Leitões",
+    "name": "MLD-00008/9/10 - Pedro dos Leitões",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "parking:fee": "no",
-    "ref": "MLD-?????"
+    "ref": "MLD-00008;MLD-00009;MLD-00010"
   }
 },
 {
@@ -76079,6 +76209,85 @@
     "opening_hours": "24/7",
     "parking:fee": "yes",
     "ref": "LSB-00119;LSB-00120;LSB-00121;LSB-00125;LSB-00126;LSB-00152;LSB-00769;LSB-00770;LSB-00771"
+  }
+},
+{
+  "type": "way",
+  "id": 1349859415,
+  "center": {
+    "lat": 41.1527368,
+    "lon": -8.6540802
+  },
+  "nodes": [
+    12487184098,
+    12487184097,
+    12487184096,
+    12487184095,
+    12487184098
+  ],
+  "tags": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "capacity": "10",
+    "motorcar": "yes",
+    "name": "PRT-00110…113/136…138",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "parking:fee": "no",
+    "ref": "PRT-00110;PRT-00111;PRT-00112;PRT-00113;PRT-00136;PRT-00137;PRT-00138"
+  }
+},
+{
+  "type": "way",
+  "id": 1349862798,
+  "center": {
+    "lat": 40.6463873,
+    "lon": -8.5991577
+  },
+  "nodes": [
+    12487231337,
+    12487231336,
+    12487231335,
+    12487231334,
+    12487231337
+  ],
+  "tags": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "brand": "edp Charge",
+    "capacity": "6",
+    "motorcar": "yes",
+    "name": "AVR-00065/66/67",
+    "network": "Mobi.E",
+    "opening_hours": "09:00-22:00",
+    "parking:fee": "no",
+    "ref": "AVR-00065;AVR-00066;AVR-00067"
+  }
+},
+{
+  "type": "way",
+  "id": 1349869109,
+  "center": {
+    "lat": 38.7710844,
+    "lon": -9.2716585
+  },
+  "nodes": [
+    12487297114,
+    12487297113,
+    12487297112,
+    12487297111,
+    12487297114
+  ],
+  "tags": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "brand": "Continente Plug&Charge",
+    "capacity": "4",
+    "motorcar": "yes",
+    "name": "Continente Modelo Belas",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "parking:fee": "no"
   }
 },
 {
@@ -76764,6 +76973,30 @@
   "id": 12465617969,
   "lat": 38.7429914,
   "lon": -9.2339728
+},
+{
+  "type": "node",
+  "id": 12487297111,
+  "lat": 38.7710744,
+  "lon": -9.2717224
+},
+{
+  "type": "node",
+  "id": 12487297112,
+  "lat": 38.7710435,
+  "lon": -9.2716198
+},
+{
+  "type": "node",
+  "id": 12487297113,
+  "lat": 38.7710946,
+  "lon": -9.2715946
+},
+{
+  "type": "node",
+  "id": 12487297114,
+  "lat": 38.7711254,
+  "lon": -9.2716972
 },
 {
   "type": "node",
@@ -78411,6 +78644,30 @@
 },
 {
   "type": "node",
+  "id": 12487231334,
+  "lat": 40.6464120,
+  "lon": -8.5992332
+},
+{
+  "type": "node",
+  "id": 12487231335,
+  "lat": 40.6464347,
+  "lon": -8.5991041
+},
+{
+  "type": "node",
+  "id": 12487231336,
+  "lat": 40.6463625,
+  "lon": -8.5990821
+},
+{
+  "type": "node",
+  "id": 12487231337,
+  "lat": 40.6463399,
+  "lon": -8.5992112
+},
+{
+  "type": "node",
   "id": 12460866544,
   "lat": 40.6778527,
   "lon": -8.4722462
@@ -78768,6 +79025,30 @@
   "id": 11432730265,
   "lat": 40.9500960,
   "lon": -8.5138180
+},
+{
+  "type": "node",
+  "id": 12487184095,
+  "lat": 41.1528539,
+  "lon": -8.6540407
+},
+{
+  "type": "node",
+  "id": 12487184096,
+  "lat": 41.1526198,
+  "lon": -8.6540415
+},
+{
+  "type": "node",
+  "id": 12487184097,
+  "lat": 41.1526197,
+  "lon": -8.6541197
+},
+{
+  "type": "node",
+  "id": 12487184098,
+  "lat": 41.1528537,
+  "lon": -8.6541188
 },
 {
   "type": "node",
