@@ -39,6 +39,11 @@ sleep 30
 echo "NotAuto"
 wget -O NotAuto.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(nwr%5B%22amenity%22%3D%22charging_station%22%5D%5B~%22socket%22~%22.*%22%5D%5B%22socket%3Atesla_destination%22!~%22.%22%5D%5B%22socket%3Atype2%22!~%22.%22%5D%5B%22socket%3Achademo%22!~%22.%22%5D%5B%22socket%3Atype2_combo%22!~%22.%22%5D%5B%22socket%3Atype2_cable%22!~%22.%22%5D%5B%22socket%3Atesla_supercharger%22!~%22.%22%5D%5B%22socket%3Atesla_supercharger_ccs%22!~%22.%22%5D(area.searchArea)%3Bnwr%5B%22man_made%22%3D%22charge_point%22%5D%5B%22socket%3Atesla_destination%22!~%22.%22%5D%5B%22socket%3Atype2%22!~%22.%22%5D%5B%22socket%3Achademo%22!~%22.%22%5D%5B%22socket%3Atype2_combo%22!~%22.%22%5D%5B%22socket%3Atype2_cable%22!~%22.%22%5D%5B%22socket%3Atesla_supercharger%22!~%22.%22%5D%5B%22socket%3Atesla_supercharger_ccs%22!~%22.%22%5D(area.searchArea)%3B)%3Bout%20center%3B%3E%3Bout%20skel%20qt%3B'
 sleep 30
+
+echo "Areas"
+wget -O Areas.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(%0Away%5B%22amenity%22%3D%22charging_station%22%5D%5B%22motorcar%22%3D%22yes%22%5D(area.searchArea)%3B%0A)%3Bout%20geom%3B%0A'
+sleep 30
+
 sed -i '/.*timestamp_.*/d' *.json
 
 osmtogeojson NotAuto.json >| NotAuto.geojson
@@ -51,5 +56,6 @@ osmtogeojson PCSR.json >| PCSR.geojson
 osmtogeojson PCR.json >| PCR.geojson
 osmtogeojson Type2s.json >| Type2s.geojson
 osmtogeojson SuC.json >| SuC.geojson
+osmtogeojson Areas.json >| Areas.geojson
 
 
