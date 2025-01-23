@@ -6735,8 +6735,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -6.953057,
-      40.603758
+      -6.9530221,
+      40.6038975
     ]
   }
 },
@@ -7008,7 +7008,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VFR-????? - BP",
+    "name": "VFR-00090",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Charging Together",
@@ -7017,7 +7017,8 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "VFR-?????",
+    "ref": "VFR-00090",
+    "ref:EU:EVSE": "PT*FCT*E*VFR*00090*01;PT*FCT*E*VFR*00090*02;PT*FCT*E*VFR*00090*03",
     "socket:chademo": "1",
     "socket:chademo:current": "200",
     "socket:chademo:output": "80kW",
@@ -8421,45 +8422,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12297749108",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "edp Charge",
-    "capacity": "2",
-    "construction:amenity": "charging_station",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "VLG-00041 - Staples",
-    "network": "Mobi.E",
-    "opening_hours": "09:00-20:00",
-    "operator": "EDP",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "ref": "VLG-00041",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22kW",
-    "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt/",
-    "id": "node/12297749108"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.5396878,
-      41.2063523
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12297775352",
   "properties": {
     "access": "yes",
@@ -8588,14 +8550,14 @@
     "addr:country": "PT",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "3",
-    "construction:amenity": "charging_station",
+    "capacity": "1",
+    "construction:man_made": "charge_point",
     "fee": "yes",
+    "layer": "-1",
     "level": "-1",
     "location": "underground",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CSC-00212/213/214",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Maksu Services",
@@ -8604,8 +8566,8 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "CSC-00212;CSC-00213;CSC-00214",
-    "socket:type2_cable": "3",
+    "ref": "CSC-00212",
+    "socket:type2_cable": "1",
     "socket:type2_cable:current": "32",
     "socket:type2_cable:output": "22kW",
     "socket:type2_cable:voltage": "400",
@@ -8615,8 +8577,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.4188591,
-      38.7006819
+      -9.4189058,
+      38.7006157
     ]
   }
 },
@@ -12649,78 +12611,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12487231333",
-  "properties": {
-    "access": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "2",
-    "construction:man_made": "charge_point",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "09:00-22:00",
-    "operator": "EDP",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "ref": "AVR-00067",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22kW",
-    "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt/",
-    "id": "node/12487231333"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.5991624,
-      40.646401
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12487231338",
-  "properties": {
-    "access": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "2",
-    "construction:man_made": "charge_point",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "09:00-22:00",
-    "operator": "EDP",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "ref": "AVR-00066",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22kW",
-    "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt/",
-    "id": "node/12487231338"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.5991611,
-      40.6463962
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12487297110",
   "properties": {
     "access": "yes",
@@ -14785,40 +14675,81 @@
 },
 {
   "type": "Feature",
-  "id": "node/12521416977",
+  "id": "node/12522757243",
   "properties": {
     "access": "yes",
     "addr:country": "PT",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "2",
-    "construction:amenity": "charging_station",
+    "capacity": "1",
+    "construction:man_made": "charge_point",
     "fee": "yes",
+    "layer": "-1",
+    "level": "-1",
+    "location": "underground",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "MLD-00035",
     "network": "Mobi.E",
     "opening_hours": "24/7",
-    "operator": "EDP",
+    "operator": "Maksu Services",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "MLD-00035",
-    "ref:EU:EVSE": "PT*EDP*E*MLD*00035*01;PT*EDP*E*MLD*00035*02",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "300",
-    "socket:type2_combo:output": "120kW",
-    "socket:type2_combo:voltage": "1000",
+    "ref": "CSC-00214",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22kW",
+    "socket:type2_cable:voltage": "400",
     "website": "https://www.mobie.pt/",
-    "id": "node/12521416977"
+    "id": "node/12522757243"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.4509399,
-      40.3758986
+      -9.4189175,
+      38.7006601
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12522757244",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "construction:man_made": "charge_point",
+    "fee": "yes",
+    "layer": "-1",
+    "level": "-1",
+    "location": "underground",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Maksu Services",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "CSC-00213",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12522757244"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.4189116,
+      38.7006379
     ]
   }
 }

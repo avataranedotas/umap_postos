@@ -25554,12 +25554,11 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Galp electric",
-    "capacity": "4",
+    "capacity": "2",
     "email": "mobilidade.electricacrc@galp.com",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VNG-00119/120",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -25569,8 +25568,9 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
-    "ref": "VNG-00119;VNG-00120",
-    "socket:type2": "4",
+    "ref": "VNG-00119",
+    "ref:EU:EVSE": "PT*GLP*EVNG*00119*01;PT*GLP*EVNG*00119*02",
+    "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
     "socket:type2:voltage": "400",
@@ -25580,8 +25580,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6128254,
-      41.1278837
+      -8.6126229,
+      41.1273776
     ]
   }
 },
@@ -38364,6 +38364,47 @@
     "coordinates": [
       -9.1764245,
       38.7022515
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12522729091",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Galp electric",
+    "capacity": "2",
+    "email": "mobilidade.electricacrc@galp.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 249 249",
+    "ref": "VNG-00120",
+    "ref:EU:EVSE": "PT*GLP*EVNG*00120*01;PT*GLP*EVNG*00120*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12522729091"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6125678,
+      41.1273783
     ]
   }
 }
