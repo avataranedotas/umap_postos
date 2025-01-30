@@ -1047,6 +1047,7 @@
     "construction:amenity": "charging_station",
     "email": "mobilidade.electricacrc@galp.com",
     "fee": "yes",
+    "fixme": "Verificar se existe posto em construção",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "VFR-00032",
@@ -1316,8 +1317,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.951641,
-      41.378618
+      -7.9516102,
+      41.3786593
     ]
   }
 },
@@ -7620,45 +7621,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12236249968",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "edp Charge",
-    "capacity": "2",
-    "construction:amenity": "charging_station",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "VIS-00112 - Staples",
-    "network": "Mobi.E",
-    "opening_hours": "09:00-20:00",
-    "operator": "EDP",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "ref": "VIS-00112",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22kW",
-    "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt/",
-    "id": "node/12236249968"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.9140846,
-      40.6740033
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12239239691",
   "properties": {
     "access": "yes",
@@ -11239,7 +11201,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "ELV-?????",
+    "name": "ELV-00016",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -11250,18 +11212,15 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
-    "ref": "ELV-?????",
-    "socket:chademo": "1",
-    "socket:chademo:current": "125",
-    "socket:chademo:output": "50kW",
-    "socket:chademo:voltage": "500",
+    "ref": "ELV-00016",
+    "ref:EU:EVSE": "PT*EDP*E*ELV*00016*01;PT*EDP*E*ELV*00016*02;PT*EDP*E*ELV*00016*03",
     "socket:type2": "1",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
     "socket:type2:voltage": "400",
-    "socket:type2_combo": "1",
+    "socket:type2_combo": "2",
     "socket:type2_combo:current": "200",
-    "socket:type2_combo:output": "90kW",
+    "socket:type2_combo:output": "120kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt",
     "id": "node/12473410336"
@@ -14102,7 +14061,7 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "SNT-?????",
+    "ref": "SNT-00172",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -14138,7 +14097,7 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "SNT-?????",
+    "ref": "SNT-00171",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -14453,6 +14412,45 @@
     "coordinates": [
       -25.4224147,
       37.7190638
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12542525113",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "construction:amenity": "charging_station",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "SNT-00162",
+    "network": "Mobi.E",
+    "opening_hours": "09:00-20:00",
+    "operator": "EDP",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "SNT-00162",
+    "ref:EU:EVSE": "PT*EDP*E*SNT*00162*01;PT*EDP*E*SNT*00162*02",
+    "socket:type2": "2",
+    "socket:type2:current": "16",
+    "socket:type2:output": "11kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12542525113"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.3394274,
+      38.778077
     ]
   }
 }
