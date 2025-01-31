@@ -8072,7 +8072,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VNC-00001",
+    "name": "VNC-90001",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -8083,6 +8083,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "VNC-90001",
+    "ref:EU:EVSE": "PT*GLP*EVNC*90001*01;PT*GLP*EVNC*90001*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -26178,15 +26179,14 @@
     "addr:city": "Coimbra",
     "addr:country": "PT",
     "addr:street": "Rua Garcia da Horta",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "10",
+    "capacity": "2",
     "email": "electric@prioenergy.com",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CBR-00065/66/67/68/69",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Prio.E",
@@ -26196,8 +26196,8 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 450 111",
-    "ref": "CBR-00065;CBR-00066;CBR-00067;CBR-00068;CBR-00069",
-    "socket:type2": "10",
+    "ref": "CBR-00065",
+    "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
     "socket:type2:voltage": "400",
@@ -26207,8 +26207,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.4120539,
-      40.1939114
+      -8.4121233,
+      40.193926
     ]
   }
 },
@@ -34225,7 +34225,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VLN-00002",
+    "name": "VLN-90002",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -34236,6 +34236,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "VLN-90002",
+    "ref:EU:EVSE": "PT*GLP*EVLN*90002*01;PT*GLP*EVLN*90002*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -36311,7 +36312,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "OVR-00009/10 - Mercadona",
+    "name": "OVR-00009/10",
     "network": "Mobi.E",
     "opening_hours": "09:00-21:30",
     "operator": "Iberdrola",
@@ -37816,20 +37817,17 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "10",
+    "capacity": "2",
     "fee": "yes",
+    "man_made": "charge_point",
     "motorcar": "yes",
-    "name": "Régia Douro Park",
     "no:network": "yes",
-    "note": "É necessário um cartão que pode ser obtido no local",
-    "note:en": "A card is required for charging, it can be obtained at the site",
     "opening_hours": "24/7",
     "operator": "Régia Douro Park",
     "parking:fee": "no",
-    "socket:type2": "7",
+    "socket:type2": "6",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
     "socket:type2:voltage": "400",
@@ -37838,8 +37836,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.6965067,
-      41.2700468
+      -7.6964537,
+      41.2701491
     ]
   }
 },
@@ -41370,6 +41368,47 @@
     "coordinates": [
       -9.1600628,
       38.6576149
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9033085853",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Galp electric",
+    "capacity": "2",
+    "email": "mobilidade.electricacrc@galp.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "ALM-00016",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 249 249",
+    "ref": "ALM-00016",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "7.4kW",
+    "socket:type2:voltage": "230",
+    "website": "https://www.mobie.pt",
+    "id": "node/9033085853"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1477094,
+      38.6875148
     ]
   }
 },
@@ -51386,6 +51425,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LRS-00085",
+    "ref:EU:EVSE": "PT*GLP*ELRS*00085*01;PT*GLP*ELRS*00085*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4kW",
@@ -51427,6 +51467,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LRS-00079",
+    "ref:EU:EVSE": "PT*GLP*ELRS*00079*01;PT*GLP*ELRS*00079*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -69732,6 +69773,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LRS-00115",
+    "ref:EU:EVSE": "PT*GLP*ELRS*00115*01;PT*GLP*ELRS*00115*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -85405,6 +85447,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LRS-00119",
+    "ref:EU:EVSE": "PT*GLP*ELRS*00119*01;PT*GLP*ELRS*00119*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -85446,6 +85489,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LRS-00120",
+    "ref:EU:EVSE": "PT*GLP*ELRS*00120*01;PT*GLP*ELRS*00120*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -85487,6 +85531,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LRS-00118",
+    "ref:EU:EVSE": "PT*GLP*ELRS*00118*01;PT*GLP*ELRS*00118*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -85528,6 +85573,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LRS-00117",
+    "ref:EU:EVSE": "PT*GLP*ELRS*00117*01;PT*GLP*ELRS*00117*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -85569,6 +85615,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LRS-00116",
+    "ref:EU:EVSE": "PT*GLP*ELRS*00116*01;PT*GLP*ELRS*00116*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -85610,6 +85657,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LRS-00089",
+    "ref:EU:EVSE": "PT*GLP*ELRS*00089*01;PT*GLP*ELRS*00089*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4kW",
@@ -85651,6 +85699,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LRS-00088",
+    "ref:EU:EVSE": "PT*GLP*ELRS*00088*01;PT*GLP*ELRS*00088*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4kW",
@@ -85692,6 +85741,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LRS-00087",
+    "ref:EU:EVSE": "PT*GLP*ELRS*00087*01;PT*GLP*ELRS*00087*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4kW",
@@ -85733,6 +85783,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LRS-00086",
+    "ref:EU:EVSE": "PT*GLP*ELRS*00086*01;PT*GLP*ELRS*00086*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4kW",
@@ -85774,6 +85825,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LRS-00084",
+    "ref:EU:EVSE": "PT*GLP*ELRS*00084*01;PT*GLP*ELRS*00084*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -85815,6 +85867,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LRS-00083",
+    "ref:EU:EVSE": "PT*GLP*ELRS*00083*01;PT*GLP*ELRS*00083*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -85856,6 +85909,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LRS-00082",
+    "ref:EU:EVSE": "PT*GLP*ELRS*00082*01;PT*GLP*ELRS*00082*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -85897,6 +85951,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LRS-00081",
+    "ref:EU:EVSE": "PT*GLP*ELRS*00081*01;PT*GLP*ELRS*00081*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -85938,6 +85993,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LRS-00080",
+    "ref:EU:EVSE": "PT*GLP*ELRS*00080*01;PT*GLP*ELRS*00080*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -93470,6 +93526,344 @@
     "coordinates": [
       -8.6389214,
       41.1592937
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12544869900",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "no:network": "yes",
+    "opening_hours": "24/7",
+    "operator": "Régia Douro Park",
+    "parking:fee": "no",
+    "socket:type2": "6",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "id": "node/12544869900"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.6963882,
+      41.2702198
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12544882165",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Coimbra",
+    "addr:country": "PT",
+    "addr:street": "Rua Garcia da Horta",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "electric@prioenergy.com",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Prio.E",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 450 111",
+    "ref": "CBR-00069",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/12544882165"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.411898,
+      40.1939622
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12544882166",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Coimbra",
+    "addr:country": "PT",
+    "addr:street": "Rua Garcia da Horta",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "electric@prioenergy.com",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Prio.E",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 450 111",
+    "ref": "CBR-00068",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/12544882166"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4119538,
+      40.1939532
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12544882167",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Coimbra",
+    "addr:country": "PT",
+    "addr:street": "Rua Garcia da Horta",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "electric@prioenergy.com",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Prio.E",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 450 111",
+    "ref": "CBR-00067",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/12544882167"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4120122,
+      40.1939439
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12544882168",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Coimbra",
+    "addr:country": "PT",
+    "addr:street": "Rua Garcia da Horta",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "electric@prioenergy.com",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Prio.E",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 450 111",
+    "ref": "CBR-00066",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/12544882168"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.412068,
+      40.1939349
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12544932801",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "no:network": "yes",
+    "opening_hours": "24/7",
+    "operator": "Régia Douro Park",
+    "parking:fee": "no",
+    "socket:type2": "6",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "id": "node/12544932801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.6964217,
+      41.2701871
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12544944598",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "layer": "-1",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "Mo-Su 08:00-23:00",
+    "operator": "Sonae",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/12544944598"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6211581,
+      41.1191468
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12544944599",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "layer": "-1",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "Mo-Su 08:00-23:00",
+    "operator": "Sonae",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/12544944599"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6211399,
+      41.119117
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12544944600",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "layer": "-1",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "Mo-Su 08:00-23:00",
+    "operator": "Sonae",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/12544944600"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6211474,
+      41.1191153
     ]
   }
 }
