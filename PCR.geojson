@@ -15927,47 +15927,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8238565075",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Portimão",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "authentication:app": "yes",
-    "authentication:none": "no",
-    "capacity": "5",
-    "fee": "yes",
-    "motorcar": "yes",
-    "name": "Continente Portimão",
-    "network": "Continente Plug&Charge",
-    "opening_hours": "Mo-Su 09:00-21:00",
-    "operator": "Sonae",
-    "parking:fee": "no",
-    "socket:chademo": "1",
-    "socket:chademo:current": "120",
-    "socket:chademo:output": "50kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2": "4",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22kW",
-    "socket:type2:voltage": "400",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "125",
-    "socket:type2_combo:output": "50kW",
-    "socket:type2_combo:voltage": "500",
-    "website": "https://plugcharge.continente.pt/",
-    "id": "node/8238565075"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.5532897,
-      37.1516627
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8238566464",
   "properties": {
     "access": "yes",
@@ -17906,6 +17865,56 @@
     "coordinates": [
       -9.3438003,
       38.6960317
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8418653275",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Maia",
+    "addr:country": "PT",
+    "addr:street": "Rua Engenheiro Frederico Ulrich",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "MAI-00049",
+    "network": "Mobi.E",
+    "old_ref": "MAI-00015",
+    "opening_hours": "24/7",
+    "operator": "KLC Serviços",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 202 060",
+    "ref": "MAI-00049",
+    "socket:chademo": "1",
+    "socket:chademo:current": "120",
+    "socket:chademo:output": "50kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "63",
+    "socket:type2_cable:output": "43kW",
+    "socket:type2_cable:voltage": "400",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "125",
+    "socket:type2_combo:output": "50kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt",
+    "id": "node/8418653275"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.651134,
+      41.2555883
     ]
   }
 },
@@ -57790,6 +57799,7 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "ref": "VFR-00074",
+    "ref:EU:EVSE": "PT*GLP*EVFR*00074*01;PT*GLP*EVFR*00074*02",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "200",
     "socket:type2_combo:output": "120kW",
@@ -75630,7 +75640,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VFR-00091 - Burger King",
+    "name": "VFR-00091",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -81983,7 +81993,7 @@
     "ref": "PRG-00005",
     "ref:EU:EVSE": "PT*ATL*EPRG*00005*1;PT*ATL*EPRG*00005*2",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "375",
+    "socket:type2_combo:current": "300",
     "socket:type2_combo:output": "120kW",
     "socket:type2_combo:voltage": "500",
     "website": "https://www.mobie.pt/",
@@ -82768,7 +82778,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VNF-00049 - Pingo Doce",
+    "name": "VNF-00049",
     "network": "Mobi.E",
     "opening_hours": "08:00-21:30",
     "operator": "Atlante",
@@ -82797,8 +82807,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.5199374,
-      41.4012822
+      -8.5204346,
+      41.4038146
     ]
   }
 },
@@ -83427,6 +83437,46 @@
     "coordinates": [
       -7.5154072,
       39.8086823
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12456144862",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "fixme": "Move to exact location",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LGA-00038",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "LGA-00038",
+    "ref:EU:EVSE": "PT*EDP*E*LGA*00038*01;PT*EDP*E*LGA*00038*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "200",
+    "socket:type2_combo:output": "120kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12456144862"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5204803,
+      37.137643
     ]
   }
 },
