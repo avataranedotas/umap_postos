@@ -3854,50 +3854,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10913978957",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "4",
-    "email": "ajuda@powerdot.pt",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "MTJ-00032 - Roady",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Powerdot",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 180 292",
-    "ref": "MTJ-00032",
-    "socket:chademo": "1",
-    "socket:chademo:current": "125",
-    "socket:chademo:output": "50kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_combo": "3",
-    "socket:type2_combo:current": "375",
-    "socket:type2_combo:output": "200kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt",
-    "id": "node/10913978957"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.9685695,
-      38.7102027
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10948848125",
   "properties": {
     "access": "yes",
@@ -4695,7 +4651,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "SCD-00004 - Galp",
+    "name": "SCD-00004",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Geste",
@@ -4705,6 +4661,7 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "ref": "SCD-00004",
+    "ref:EU:EVSE": "PT*GLG*ESCD*00004*01;PT*GLG*ESCD*00004*02",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "190",
     "socket:type2_combo:output": "180kW",
@@ -4715,8 +4672,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.1294852,
-      40.397617
+      -8.1294684,
+      40.3976257
     ]
   }
 },
