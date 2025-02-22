@@ -7094,7 +7094,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VIS-00038",
+    "name": "VIS-90038",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -7105,6 +7105,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "VIS-90038",
+    "ref:EU:EVSE": "PT*GLP*EVIS*90038*01;PT*GLP*EVIS*90038*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4kW",
@@ -7216,7 +7217,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VIS-00039",
+    "name": "VIS-90039",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -7227,6 +7228,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "VIS-90039",
+    "ref:EU:EVSE": "PT*GLP*EVIS*90039*01;PT*GLP*EVIS*90039*02",
     "socket:type2": "2",
     "socket:type2:current": "16",
     "socket:type2:output": "3.7kW",
@@ -21520,20 +21522,20 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "2",
     "email": "geral@eplug.pt",
     "fee": "yes",
+    "level": "-1",
     "location": "underground",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "AMD-00031",
     "network": "Mobi.E",
-    "opening_hours": "Mo-Su 09:00-21:00",
+    "opening_hours": "09:00-21:00",
     "operator": "E-Plug",
-    "parking:fee": "yes",
+    "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
     "payment:cash": "no",
@@ -21550,8 +21552,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.2201686,
-      38.7771586
+      -9.2199747,
+      38.7771501
     ]
   }
 },
@@ -35020,20 +35022,20 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "2",
     "email": "geral@eplug.pt",
     "fee": "yes",
+    "level": "-2",
     "location": "underground",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "AMD-00033",
     "network": "Mobi.E",
-    "opening_hours": "Mo-Su 09:00-21:00",
+    "opening_hours": "09:00-21:00",
     "operator": "E-Plug",
-    "parking:fee": "yes",
+    "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
     "payment:cash": "no",
@@ -35050,8 +35052,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.2201512,
-      38.7770983
+      -9.2198934,
+      38.7766987
     ]
   }
 },
@@ -37580,18 +37582,18 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "2",
     "email": "geral@eplug.pt",
     "fee": "yes",
-    "level": "-2",
+    "level": "-1",
+    "location": "underground",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "AMD-00040",
     "network": "Mobi.E",
-    "opening_hours": "24/7",
+    "opening_hours": "09:00-21:00",
     "operator": "E-Plug",
     "parking:fee": "no",
     "payment:app": "yes",
@@ -37610,8 +37612,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.2200881,
-      38.7768592
+      -9.2199416,
+      38.7769313
     ]
   }
 },
@@ -38459,28 +38461,27 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "8",
+    "capacity": "2",
     "email": "geral@eplug.pt",
     "fee": "yes",
     "level": "-1",
     "location": "underground",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "AMD-00035/36/37/38",
     "network": "Mobi.E",
-    "opening_hours": "Mo-Su 09:00-21:00",
+    "opening_hours": "09:00-21:00",
     "operator": "E-Plug",
-    "parking:fee": "yes",
+    "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 211 648 577",
-    "ref": "AMD-00035;AMD-00036;AMD-00037;AMD-00038",
-    "socket:type2": "8",
+    "ref": "AMD-00035",
+    "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4kW",
     "socket:type2:voltage": "230",
@@ -38490,8 +38491,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.220119,
-      38.7769773
+      -9.2199684,
+      38.7771085
     ]
   }
 },
@@ -73179,9 +73180,11 @@
     "brand": "Galp electric",
     "capacity": "2",
     "fee": "yes",
+    "layer": "-1",
+    "location": "underground",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "LSB-00795 - Parking Alcântara-Rio",
+    "name": "LSB-00795",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -73191,6 +73194,7 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "ref": "LSB-00795",
+    "ref:EU:EVSE": "PT*GLP*ELSB*00795*01;PT*GLP*ELSB*00795*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -75266,15 +75270,14 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Galp electric",
     "capacity": "2",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VFX-00064",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -75284,6 +75287,7 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "ref": "VFX-00064",
+    "ref:EU:EVSE": "PT*GLP*EVFX*00064*01;PT*GLP*EVFX*00064*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -75294,8 +75298,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.0346731,
-      38.8932833
+      -9.0346832,
+      38.8932911
     ]
   }
 },
@@ -75879,6 +75883,45 @@
     "coordinates": [
       -9.0385512,
       38.5895028
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12046802449",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Galp electric",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "SLV-00021",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "SLV-00021",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12046802449"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.3779136,
+      37.3624689
     ]
   }
 },
@@ -83979,20 +84022,20 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "2",
     "email": "geral@eplug.pt",
     "fee": "yes",
+    "level": "-2",
     "location": "underground",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "AMD-00034",
     "network": "Mobi.E",
-    "opening_hours": "Mo-Su 09:00-21:00",
+    "opening_hours": "09:00-21:00",
     "operator": "E-Plug",
-    "parking:fee": "yes",
+    "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
     "payment:cash": "no",
@@ -84009,8 +84052,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.2201337,
-      38.777038
+      -9.2198869,
+      38.7766546
     ]
   }
 },
@@ -84020,20 +84063,20 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "2",
     "email": "geral@eplug.pt",
     "fee": "yes",
+    "level": "-1",
     "location": "underground",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "AMD-00030",
     "network": "Mobi.E",
-    "opening_hours": "Mo-Su 09:00-21:00",
+    "opening_hours": "09:00-21:00",
     "operator": "E-Plug",
-    "parking:fee": "yes",
+    "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
     "payment:cash": "no",
@@ -84050,8 +84093,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.220186,
-      38.7772189
+      -9.219982,
+      38.7771985
     ]
   }
 },
@@ -92159,6 +92202,7 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "ref": "VIS-00075",
+    "ref:EU:EVSE": "PT*GLP*EVIS*00075*01",
     "socket:type2_cable": "1",
     "socket:type2_cable:current": "16",
     "socket:type2_cable:output": "11kW",
@@ -92197,6 +92241,7 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "ref": "VIS-00074",
+    "ref:EU:EVSE": "PT*GLP*EVIS*00074*01",
     "socket:type2_cable": "1",
     "socket:type2_cable:current": "16",
     "socket:type2_cable:output": "11kW",
@@ -94263,7 +94308,7 @@
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "09:30-22:00",
-    "operator": "unknown",
+    "operator": "EDP",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
@@ -99740,6 +99785,169 @@
     "coordinates": [
       -9.1483224,
       38.7275619
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12607100917",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Galp electric",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "VFX-00044",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "VFX-00044",
+    "ref:EU:EVSE": "PT*GLP*EVFX*00044*01;PT*GLP*EVFX*00044*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12607100917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.9868687,
+      38.9589635
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12608568191",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "geral@eplug.pt",
+    "fee": "yes",
+    "level": "-1",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "09:00-21:00",
+    "operator": "E-Plug",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 211 648 577",
+    "ref": "AMD-00038",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "7.4kW",
+    "socket:type2:voltage": "230",
+    "website": "https://www.mobie.pt",
+    "id": "node/12608568191"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.2199482,
+      38.7769752
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12608568192",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "geral@eplug.pt",
+    "fee": "yes",
+    "level": "-1",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "09:00-21:00",
+    "operator": "E-Plug",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 211 648 577",
+    "ref": "AMD-00037",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "7.4kW",
+    "socket:type2:voltage": "230",
+    "website": "https://www.mobie.pt",
+    "id": "node/12608568192"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.2199549,
+      38.7770197
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12608568193",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "geral@eplug.pt",
+    "fee": "yes",
+    "level": "-1",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "09:00-21:00",
+    "operator": "E-Plug",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 211 648 577",
+    "ref": "AMD-00036",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "7.4kW",
+    "socket:type2:voltage": "230",
+    "website": "https://www.mobie.pt",
+    "id": "node/12608568193"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.2199618,
+      38.7770651
     ]
   }
 }
