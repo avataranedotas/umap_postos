@@ -24544,12 +24544,11 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Galp electric",
-    "capacity": "4",
+    "capacity": "2",
     "email": "mobilidade.electricacrc@galp.com",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VIS-00060/61/62/63 - Hotel Principe Perfeito",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -24559,18 +24558,19 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
-    "ref": "VIS-00060;VIS-00061;VIS-00062;VIS-00063",
-    "socket:type2": "4",
-    "socket:type2:current": "16",
-    "socket:type2:output": "11kW",
-    "socket:type2:voltage": "400",
+    "ref": "VIS-00060;VIS-00061",
+    "ref:EU:EVSE": "PT*GLP*EVIS*00060*01;PT*GLP*EVIS*00061*01",
+    "socket:type2_cable": "2",
+    "socket:type2_cable:current": "16",
+    "socket:type2_cable:output": "11kW",
+    "socket:type2_cable:voltage": "400",
     "website": "https://www.mobie.pt/",
     "id": "node/11071979377"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.9073242,
+      -7.9073376,
       40.63101
     ]
   }
@@ -41239,6 +41239,127 @@
     "coordinates": [
       -9.1771591,
       38.771963
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12616808446",
+  "properties": {
+    "access": "private",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "layer": "-1",
+    "location": "underground",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "LSB-00881",
+    "ref:EU:EVSE": "PT*EDP*E*LSB*00881*01;PT*EDP*E*LSB*00881*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "7.4kW",
+    "socket:type2:voltage": "230",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12616808446"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1537504,
+      38.7132585
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12616808447",
+  "properties": {
+    "access": "private",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "layer": "-1",
+    "location": "underground",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "LSB-00877",
+    "ref:EU:EVSE": "PT*EDP*E*LSB*00877*01;PT*EDP*E*LSB*00877*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12616808447"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1538178,
+      38.7132804
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12616831353",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Galp electric",
+    "capacity": "2",
+    "email": "mobilidade.electricacrc@galp.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 249 249",
+    "ref": "VIS-00062;VIS-00063",
+    "ref:EU:EVSE": "PT*GLP*EVIS*00062*01;PT*GLP*EVIS*00063*01",
+    "socket:type2_cable": "2",
+    "socket:type2_cable:current": "16",
+    "socket:type2_cable:output": "11kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12616831353"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.9073299,
+      40.6309614
     ]
   }
 }
