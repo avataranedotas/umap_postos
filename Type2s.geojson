@@ -16152,7 +16152,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CDR-00001",
+    "name": "CDR-90001",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -16163,6 +16163,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "CDR-90001",
+    "ref:EU:EVSE": "PT*GLP*ECDR*90001*01;PT*GLP*ECDR*90001*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -23051,44 +23052,6 @@
     "coordinates": [
       -8.3410893,
       41.490945
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8132614458",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "2",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "TRF-00004",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Intertrofa",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "ref": "TRF-00004",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "7.4kW",
-    "socket:type2:voltage": "230",
-    "website": "https://www.mobie.pt",
-    "id": "node/8132614458"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.563368,
-      41.3299095
     ]
   }
 },
@@ -31280,7 +31243,7 @@
     "location": "underground",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "LSB-00245/246/247 - Parking Berna",
+    "name": "LSB-00245/246/247",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Maksu Services",
@@ -34447,17 +34410,17 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "8",
+    "capacity": "2",
     "email": "geral.pt@helexia.eu",
     "fee": "yes",
+    "location": "indoor",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VFX-00009/10/11/12",
     "network": "Mobi.E",
-    "opening_hours": "24/7",
+    "opening_hours": "08:30-22:00",
     "operator": "Helexia II",
     "parking:fee": "no",
     "payment:app": "yes",
@@ -34465,8 +34428,8 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 100 303",
-    "ref": "VFX-00009;VFX-00010;VFX-00011;VFX-00012",
-    "socket:type2": "8",
+    "ref": "VFX-00009",
+    "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
     "socket:type2:voltage": "400",
@@ -34476,8 +34439,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.0447816,
-      38.8881246
+      -9.0446814,
+      38.8881351
     ]
   }
 },
@@ -40545,46 +40508,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8934113941",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "2",
-    "email": "ajuda@powerdot.pt",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "TRF-00009",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Powerdot",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 180 292",
-    "ref": "TRF-00009",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "7.4kW",
-    "socket:type2:voltage": "230",
-    "website": "https://www.mobie.pt",
-    "id": "node/8934113941"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.564744,
-      41.3303627
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8947335630",
   "properties": {
     "access": "yes",
@@ -45235,7 +45158,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "OFR-00002",
+    "name": "OFR-90002",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -45246,6 +45169,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "OFR-90002",
+    "ref:EU:EVSE": "PT*GLP*EOFR*90002*01;PT*GLP*EOFR*90002*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -68670,6 +68594,45 @@
     "coordinates": [
       -7.8346841,
       37.0375448
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11483627280",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "OLH-00022",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "OLH-00022",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/11483627280"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.8286333,
+      37.0346318
     ]
   }
 },
@@ -94316,6 +94279,42 @@
 },
 {
   "type": "Feature",
+  "id": "node/12530159269",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "09:30-22:00",
+    "operator": "EDP",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "SNT-00171",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12530159269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.35554,
+      38.781934
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12530184415",
   "properties": {
     "access": "yes",
@@ -100218,6 +100217,126 @@
     "coordinates": [
       -9.096855,
       38.7645481
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12624256949",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "geral.pt@helexia.eu",
+    "fee": "yes",
+    "location": "indoor",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "08:30-22:00",
+    "operator": "Helexia II",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 100 303",
+    "ref": "VFX-00012",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/12624256949"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.0447836,
+      38.8880317
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12624256950",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "geral.pt@helexia.eu",
+    "fee": "yes",
+    "location": "indoor",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "08:30-22:00",
+    "operator": "Helexia II",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 100 303",
+    "ref": "VFX-00011",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/12624256950"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.0447496,
+      38.8880662
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12624256951",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "geral.pt@helexia.eu",
+    "fee": "yes",
+    "location": "indoor",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "08:30-22:00",
+    "operator": "Helexia II",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 100 303",
+    "ref": "VFX-00010",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/12624256951"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.0447155,
+      38.8881006
     ]
   }
 }
