@@ -3513,15 +3513,14 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "8",
+    "capacity": "2",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "AVR-00071",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Powerdot",
@@ -3532,12 +3531,8 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 180 292",
     "ref": "AVR-00071",
-    "ref:EU:EVSE": "PT*HRZ*E*AVR*00071*01;PT*HRZ*E*AVR*00071*02;PT*HRZ*E*AVR*00071*03;PT*HRZ*E*AVR*00071*04;PT*HRZ*E*AVR*00071*05;PT*HRZ*E*AVR*00071*06;PT*HRZ*E*AVR*00071*07;PT*HRZ*E*AVR*00071*08",
-    "socket:chademo": "1",
-    "socket:chademo:current": "120",
-    "socket:chademo:output": "50kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_combo": "7",
+    "ref:EU:EVSE": "PT*HRZ*E*AVR*00071*01;PT*HRZ*E*AVR*00071*02",
+    "socket:type2_combo": "2",
     "socket:type2_combo:current": "375",
     "socket:type2_combo:output": "150kW",
     "socket:type2_combo:voltage": "500",
@@ -3547,8 +3542,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6145423,
-      40.6503784
+      -8.6145141,
+      40.6504059
     ]
   }
 },
@@ -4032,50 +4027,6 @@
     "coordinates": [
       -8.5316559,
       41.2379241
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10992882423",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "8",
-    "email": "ajuda@powerdot.pt",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "MTS-00115",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Powerdot",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 180 292",
-    "ref": "MTS-00115",
-    "socket:chademo": "1",
-    "socket:chademo:current": "125",
-    "socket:chademo:output": "50kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_combo": "7",
-    "socket:type2_combo:current": "375",
-    "socket:type2_combo:output": "150kW",
-    "socket:type2_combo:voltage": "500",
-    "website": "https://www.mobie.pt",
-    "id": "node/10992882423"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.6270559,
-      41.1990073
     ]
   }
 },
@@ -5775,15 +5726,13 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "8",
-    "description": "2 tomadas CCS de 150kW (375A@500V) + 3 tomadas CCS de 80kW (200A@500V)",
+    "capacity": "2",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "MCD-00005",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Powerdot",
@@ -5793,26 +5742,19 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "ref": "MCD-00005",
-    "socket:chademo": "1",
-    "socket:chademo:current": "125",
-    "socket:chademo:output": "50kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22kW",
-    "socket:type2:voltage": "400",
-    "socket:type2_combo": "5",
+    "ref:EU:EVSE": "PT*HRZ*E*MCD*00005*01;PT*HRZ*E*MCD*00005*02",
+    "socket:type2_combo": "2",
     "socket:type2_combo:current": "375",
     "socket:type2_combo:output": "150kW",
     "socket:type2_combo:voltage": "500",
-    "website": "https://www.mobie.pt",
+    "website": "https://www.mobie.pt/",
     "id": "node/11607745532"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -6.9461792,
-      41.5779038
+      -6.9461457,
+      41.577893
     ]
   }
 },
@@ -12018,6 +11960,206 @@
     "coordinates": [
       -9.3219259,
       38.6943339
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12634216606",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 180 292",
+    "ref": "AVR-00070",
+    "ref:EU:EVSE": "PT*HRZ*E*AVR*00070*01;PT*HRZ*E*AVR*00070*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "375",
+    "socket:type2_combo:output": "150kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12634216606"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6144229,
+      40.6503798
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12634216607",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 180 292",
+    "ref": "AVR-00071",
+    "ref:EU:EVSE": "PT*HRZ*E*AVR*00071*05;PT*HRZ*E*AVR*00071*06",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "375",
+    "socket:type2_combo:output": "150kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12634216607"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6144685,
+      40.6503928
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12634216608",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 180 292",
+    "ref": "AVR-00071",
+    "ref:EU:EVSE": "PT*HRZ*E*AVR*00071*03;PT*HRZ*E*AVR*00071*04",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "375",
+    "socket:type2_combo:output": "150kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12634216608"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6144913,
+      40.6503994
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12634228627",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 180 292",
+    "ref": "MTS-00115",
+    "ref:EU:EVSE": "PT*HRZ*E*MTS*00115*01;PT*HRZ*E*MTS*00115*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "375",
+    "socket:type2_combo:output": "150kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt",
+    "id": "node/12634228627"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6271511,
+      41.1990178
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12634228628",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 180 292",
+    "ref": "MTS-00115",
+    "ref:EU:EVSE": "PT*HRZ*E*MTS*00115*03;PT*HRZ*E*MTS*00115*04",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "375",
+    "socket:type2_combo:output": "150kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt",
+    "id": "node/12634228628"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6271398,
+      41.1990695
     ]
   }
 }
