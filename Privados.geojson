@@ -10286,7 +10286,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CSC-00045 - Makro",
+    "name": "CSC-00045",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -10297,6 +10297,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "CSC-00045",
+    "ref:EU:EVSE": "PT*GLP*ECSC*00045*01;PT*GLP*ECSC*00045*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4kW",
@@ -10483,12 +10484,12 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Galp electric",
-    "capacity": "4",
+    "capacity": "2",
     "email": "mobilidade.electricacrc@galp.com",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "OER-00021/22 - Makro",
+    "name": "OER-00022",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -10498,7 +10499,8 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
-    "ref": "OER-00021;OER-00022",
+    "ref": "OER-00022",
+    "ref:EU:EVSE": "PT*GLP*EOER*00022*01;PT*GLP*EOER*00022*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -10509,8 +10511,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.2135563,
-      38.7232398
+      -9.2135845,
+      38.7232272
     ]
   }
 },
@@ -41916,6 +41918,48 @@
     "coordinates": [
       -9.12641,
       38.7674997
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12663508461",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Galp electric",
+    "capacity": "2",
+    "email": "mobilidade.electricacrc@galp.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "OER-00021",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 249 249",
+    "ref": "OER-00021",
+    "ref:EU:EVSE": "PT*GLP*EOER*00021*01;PT*GLP*EOER*00021*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/12663508461"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.2135999,
+      38.7232827
     ]
   }
 }
