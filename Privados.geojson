@@ -2979,11 +2979,9 @@
     "capacity": "4",
     "fee": "no",
     "motorcar": "yes",
-    "name": "Hotel Vincci Liberdade Tesla Destination Charger",
     "network": "Tesla",
     "operator": "Tesla",
     "ref": "dc22787",
-    "short_name": "Tesla",
     "socket:tesla_destination": "2",
     "socket:tesla_destination:output": "11kW",
     "socket:type2_cable": "2",
@@ -7488,7 +7486,6 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "EVR-00014/15/32 - Vila Galé Évora",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -7528,7 +7525,6 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "EVR-00012/13 - Pestana Pousada Convento",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -10517,7 +10513,6 @@
     "amenity": "charging_station",
     "capacity": "2",
     "motorcar": "yes",
-    "name": "Hotel Florida",
     "no:network": "yes",
     "operator": "Hotel Florida",
     "socket:tesla_destination": "1",
@@ -16174,11 +16169,11 @@
     "access": "customers",
     "addr:city": "Viseu",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:none": "no",
     "capacity": "2",
     "fee": "yes",
+    "man_made": "charge_point",
     "motorcar": "yes",
     "network": "EVIO",
     "opening_hours": "24/7",
@@ -16194,8 +16189,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.9090083,
-      40.6374592
+      -7.9090507,
+      40.6374701
     ]
   }
 },
@@ -17424,7 +17419,6 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "MOBI-LSB-00049",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -17683,7 +17677,6 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "LSB-00809 - Hotel Vincci Liberdade",
     "network": "Mobi.E",
     "old_operator": "Evaz Energy",
     "old_ref": "LSB-00445",
@@ -19402,7 +19395,6 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "LSB-00475/476/477 - Hotel Iberostar",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Ucharge",
@@ -19666,7 +19658,6 @@
     "email": "mobilidade-eletrica@edp.pt",
     "fee": "yes",
     "motorcar": "yes",
-    "name": "LSB-00159/160 - Hotel Pestana Vintage Lisboa",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -28162,7 +28153,6 @@
     "location": "underground",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "EVR-00034/35 - Moov",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Ucharge",
@@ -31626,23 +31616,22 @@
     "access": "customers",
     "addr:country": "PT",
     "amenity": "charging_station",
-    "capacity": "6",
+    "capacity": "2",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "Casa do Soutinho",
     "no:network": "yes",
     "operator": "Casa do Soutinho",
-    "socket:type2": "6",
-    "socket:type2:current": "16",
-    "socket:type2:output": "11kW",
-    "socket:type2:voltage": "400",
+    "socket:type2_cable": "2",
+    "socket:type2_cable:current": "16",
+    "socket:type2_cable:output": "11kW",
+    "socket:type2_cable:voltage": "400",
     "id": "node/11980639518"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.1640121,
-      40.9704792
+      -8.1640664,
+      40.9704169
     ]
   }
 },
@@ -42799,6 +42788,32 @@
     "coordinates": [
       -9.1757108,
       38.8220895
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12674315195",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "capacity": "2",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "no:network": "yes",
+    "operator": "Casa do Soutinho",
+    "socket:type2_cable": "2",
+    "socket:type2_cable:current": "16",
+    "socket:type2_cable:output": "11kW",
+    "socket:type2_cable:voltage": "400",
+    "id": "node/12674315195"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.1640133,
+      40.9703854
     ]
   }
 }
