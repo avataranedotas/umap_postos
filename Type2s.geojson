@@ -176,50 +176,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/966120799",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Lisboa",
-    "addr:country": "PT",
-    "addr:housenumber": "4A",
-    "addr:postcode": "1990-024",
-    "addr:street": "Rua dos Aventureiros",
-    "amenity": "charging_station",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "2",
-    "email": "mobilidade-eletrica@edp.pt",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "LSB-00045",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "EDP",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 222 222",
-    "ref": "LSB-90045",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22kW",
-    "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt",
-    "id": "node/966120799"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.0947634,
-      38.757615
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/966120802",
   "properties": {
     "access": "yes",
@@ -20477,7 +20433,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "LRS-00029",
+    "name": "LRS-80029",
     "network": "Mobi.E",
     "old_ref": "LRS-90029",
     "opening_hours": "24/7",
@@ -20489,6 +20445,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LRS-80029",
+    "ref:EU:EVSE": "PT*GLP*ELRS*80029*01;PT*GLP*ELRS*80029*02",
     "socket:type2": "2",
     "socket:type2:current": "16",
     "socket:type2:output": "3.7kW",
@@ -21018,6 +20975,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LRS-80033",
+    "ref:EU:EVSE": "PT*GLP*ELRS*80033*01;PT*GLP*ELRS*80033*02",
     "socket:type2": "2",
     "socket:type2:current": "16",
     "socket:type2:output": "3.7kW",
@@ -24569,21 +24527,19 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "brand": "Tesla, Inc.",
     "brand:wikidata": "Q478214",
-    "capacity": "6",
+    "capacity": "1",
     "fee": "no",
+    "location": "underground",
+    "man_made": "charge_point",
     "motorcar": "yes",
-    "name": "El Corte Ingles de Gaia Tesla Destination Charger",
     "network": "Tesla",
+    "node": "8199361953",
     "operator": "Tesla",
     "parking:fee": "yes",
     "ref": "dc63384",
-    "short_name": "Tesla",
-    "socket:tesla_destination": "3",
-    "socket:tesla_destination:output": "22kW",
-    "socket:type2_cable": "3",
+    "socket:type2_cable": "1",
     "socket:type2_cable:output": "22kW",
     "website": "https://www.tesla.com/pt_PT/findus/list/chargers/Portugal",
     "id": "node/8199361953"
@@ -24591,8 +24547,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6048269,
-      41.1255503
+      -8.6047508,
+      41.1256268
     ]
   }
 },
@@ -26139,7 +26095,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CVR-00003 - Intermarché Contact",
+    "name": "CVR-00003",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -26150,6 +26106,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "CVR-00003",
+    "ref:EU:EVSE": "PT*GLP*ECVR*00003*01;PT*GLP*ECVR*00003*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -26160,8 +26117,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.0849934,
-      37.7062485
+      -8.085039,
+      37.7062082
     ]
   }
 },
@@ -44224,7 +44181,7 @@
     "location": "underground",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "AMD-00047 - Hospital Lusíadas",
+    "name": "AMD-00047",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Mobiletric",
@@ -44234,6 +44191,7 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "ref": "AMD-00047",
+    "ref:EU:EVSE": "PT*MLT*EAMD*00047*01;PT*MLT*EAMD*00047*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -44923,6 +44881,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "AGD-00008",
+    "ref:EU:EVSE": "PT*GLP*EAGD*00008*01;PT*GLP*EAGD*00008*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -46309,7 +46268,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "EVR-00023 - Évora Hotel",
+    "name": "EVR-00023",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "powercharge",
@@ -49569,6 +49528,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LLE-00111",
+    "ref:EU:EVSE": "PT*GLP*ELLE*00111*01;PT*GLP*ELLE*00111*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4kW",
@@ -49611,6 +49571,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LLE-00108",
+    "ref:EU:EVSE": "PT*GLP*ELLE*00108*01;PT*GLP*ELLE*00108*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -51436,15 +51397,15 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "5",
+    "capacity": "1",
     "email": "manutencaors@repsol.com",
     "fee": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VNG-00095/96/97/98/99 - El Corte Ingles",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Repsol",
@@ -51455,11 +51416,11 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 226 624",
-    "ref": "VNG-00095;VNG-00096;VNG-00097;VNG-00098;VNG-00099",
-    "socket:type2": "5",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22kW",
-    "socket:type2:voltage": "400",
+    "ref": "VNG-00095",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22kW",
+    "socket:type2_cable:voltage": "400",
     "website": "https://www.mobie.pt/",
     "wheelchair": "yes",
     "id": "node/10282210176"
@@ -51467,8 +51428,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6048403,
-      41.125619
+      -8.6049151,
+      41.1257352
     ]
   }
 },
@@ -62572,7 +62533,7 @@
     "motorcar": "yes",
     "name": "MTS-00119",
     "network": "Mobi.E",
-    "opening_hours": "24/7",
+    "opening_hours": "09:00-22:00",
     "operator": "EDP",
     "parking:fee": "no",
     "payment:app": "yes",
@@ -62580,6 +62541,7 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "ref": "MTS-00119",
+    "ref:EU:EVSE": "PT*EDP*EMTS*00119*1;PT*EDP*EMTS*00119*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4kW",
@@ -62590,8 +62552,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.675775,
-      41.2185408
+      -8.6755899,
+      41.2181655
     ]
   }
 },
@@ -73918,6 +73880,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LLE-00105",
+    "ref:EU:EVSE": "PT*GLP*ELLE*00105*01;PT*GLP*ELLE*00105*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4kW",
@@ -73960,6 +73923,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LLE-00100",
+    "ref:EU:EVSE": "PT*GLP*ELLE*00100*01;PT*GLP*ELLE*00100*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -77981,7 +77945,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VFX-00080 - Staples",
+    "name": "VFX-00080",
     "network": "Mobi.E",
     "opening_hours": "09:00-20:00",
     "operator": "EDP",
@@ -87385,6 +87349,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LLE-00104",
+    "ref:EU:EVSE": "PT*GLP*ELLE*00104*01;PT*GLP*ELLE*00104*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -87427,6 +87392,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LLE-00103",
+    "ref:EU:EVSE": "PT*GLP*ELLE*00103*01;PT*GLP*ELLE*00103*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -87469,6 +87435,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LLE-00102",
+    "ref:EU:EVSE": "PT*GLP*ELLE*00102*01;PT*GLP*ELLE*00102*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -87511,6 +87478,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LLE-00101",
+    "ref:EU:EVSE": "PT*GLP*ELLE*00101*01;PT*GLP*ELLE*00101*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -100827,6 +100795,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LLE-00113",
+    "ref:EU:EVSE": "PT*GLP*ELLE*00113*01;PT*GLP*ELLE*00113*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4kW",
@@ -100869,6 +100838,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LLE-00112",
+    "ref:EU:EVSE": "PT*GLP*ELLE*00112*01;PT*GLP*ELLE*00112*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4kW",
@@ -100911,6 +100881,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LLE-00110",
+    "ref:EU:EVSE": "PT*GLP*ELLE*00110*01;PT*GLP*ELLE*00110*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -100953,6 +100924,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LLE-00109",
+    "ref:EU:EVSE": "PT*GLP*ELLE*00109*01;PT*GLP*ELLE*00109*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -106540,6 +106512,372 @@
     "coordinates": [
       -7.7339634,
       41.3109505
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12682246006",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Galp electric",
+    "capacity": "2",
+    "email": "mobilidade.electricacrc@galp.com",
+    "fee": "yes",
+    "level": "0",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "08:00-23:00",
+    "operator": "Galp Power",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 249 249",
+    "ref": "LLE-00106",
+    "ref:EU:EVSE": "PT*GLP*ELLE*00106*01;PT*GLP*ELLE*00106*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "7.4kW",
+    "socket:type2:voltage": "230",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12682246006"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.9965516,
+      37.097082
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12682323572",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "brand": "Tesla, Inc.",
+    "brand:wikidata": "Q478214",
+    "capacity": "1",
+    "fee": "no",
+    "location": "underground",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "node": "8199361953",
+    "operator": "Tesla",
+    "parking:fee": "yes",
+    "ref": "dc63384",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:output": "22kW",
+    "website": "https://www.tesla.com/pt_PT/findus/list/chargers/Portugal",
+    "id": "node/12682323572"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6046497,
+      41.1256689
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12682323573",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "brand": "Tesla, Inc.",
+    "brand:wikidata": "Q478214",
+    "capacity": "1",
+    "fee": "no",
+    "location": "underground",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "node": "8199361953",
+    "operator": "Tesla",
+    "parking:fee": "yes",
+    "ref": "dc63384",
+    "socket:tesla_destination": "1",
+    "socket:tesla_destination:output": "22kW",
+    "website": "https://www.tesla.com/pt_PT/findus/list/chargers/Portugal",
+    "id": "node/12682323573"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6046263,
+      41.1256785
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12682323574",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "brand": "Tesla, Inc.",
+    "brand:wikidata": "Q478214",
+    "capacity": "1",
+    "fee": "no",
+    "location": "underground",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "node": "8199361953",
+    "operator": "Tesla",
+    "parking:fee": "yes",
+    "ref": "dc63384",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:output": "22kW",
+    "website": "https://www.tesla.com/pt_PT/findus/list/chargers/Portugal",
+    "id": "node/12682323574"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6047,
+      41.1256476
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12682323575",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "brand": "Tesla, Inc.",
+    "brand:wikidata": "Q478214",
+    "capacity": "1",
+    "fee": "no",
+    "location": "underground",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "node": "8199361953",
+    "operator": "Tesla",
+    "parking:fee": "yes",
+    "ref": "dc63384",
+    "socket:tesla_destination": "1",
+    "socket:tesla_destination:output": "22kW",
+    "website": "https://www.tesla.com/pt_PT/findus/list/chargers/Portugal",
+    "id": "node/12682323575"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6046766,
+      41.1256572
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12682323576",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "brand": "Tesla, Inc.",
+    "brand:wikidata": "Q478214",
+    "capacity": "1",
+    "fee": "no",
+    "location": "underground",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "node": "8199361953",
+    "operator": "Tesla",
+    "parking:fee": "yes",
+    "ref": "dc63384",
+    "socket:tesla_destination": "1",
+    "socket:tesla_destination:output": "22kW",
+    "website": "https://www.tesla.com/pt_PT/findus/list/chargers/Portugal",
+    "id": "node/12682323576"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6047274,
+      41.1256365
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12682323581",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "email": "manutencaors@repsol.com",
+    "fee": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Repsol",
+    "operator:wikidata": "Q174747",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 226 624",
+    "ref": "VNG-00099",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "wheelchair": "yes",
+    "id": "node/12682323581"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6048152,
+      41.1257787
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12682323582",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "email": "manutencaors@repsol.com",
+    "fee": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Repsol",
+    "operator:wikidata": "Q174747",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 226 624",
+    "ref": "VNG-00098",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "wheelchair": "yes",
+    "id": "node/12682323582"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6048405,
+      41.1257677
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12682323583",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "email": "manutencaors@repsol.com",
+    "fee": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Repsol",
+    "operator:wikidata": "Q174747",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 226 624",
+    "ref": "VNG-00097",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "wheelchair": "yes",
+    "id": "node/12682323583"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6048658,
+      41.1257563
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12682323584",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "email": "manutencaors@repsol.com",
+    "fee": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Repsol",
+    "operator:wikidata": "Q174747",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 226 624",
+    "ref": "VNG-00096",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "wheelchair": "yes",
+    "id": "node/12682323584"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.604891,
+      41.1257452
     ]
   }
 }

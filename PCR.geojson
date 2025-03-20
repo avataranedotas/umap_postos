@@ -307,8 +307,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.583928,
-      38.5153643
+      -8.5839119,
+      38.5153764
     ]
   }
 },
@@ -445,6 +445,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "AJT-00002",
+    "ref:EU:EVSE": "PT*GLG*EAJT*00002*01;PT*GLG*EAJT*00002*02;PT*GLG*EAJT*00002*03",
     "socket:chademo": "1",
     "socket:chademo:current": "120",
     "socket:chademo:output": "50kW",
@@ -484,7 +485,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "LLE-00003 - Galp E>O",
+    "name": "LLE-00003",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Geste",
@@ -495,6 +496,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LLE-00003",
+    "ref:EU:EVSE": "PT*GLG*ELLE*00003*01;PT*GLG*ELLE*00003*02;PT*GLG*ELLE*00003*03",
     "socket:chademo": "1",
     "socket:chademo:current": "120",
     "socket:chademo:output": "50kW",
@@ -513,8 +515,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.1104279,
-      37.1373133
+      -8.1104655,
+      37.1372983
     ]
   }
 },
@@ -534,7 +536,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "LLE-00002 - Galp O>E",
+    "name": "LLE-00002",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Geste",
@@ -545,6 +547,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LLE-00002",
+    "ref:EU:EVSE": "PT*GLG*ELLE*00002*01;PT*GLG*ELLE*00002*02;PT*GLG*ELLE*00002*03",
     "socket:chademo": "1",
     "socket:chademo:current": "120",
     "socket:chademo:output": "50kW",
@@ -2153,7 +2156,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CVR-00002 - Intermarché",
+    "name": "CVR-00002",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -2164,6 +2167,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "CVR-00002",
+    "ref:EU:EVSE": "PT*GLP*ECVR*00002*01;PT*GLP*ECVR*00002*02;PT*GLP*ECVR*00002*03",
     "socket:chademo": "1",
     "socket:chademo:current": "120",
     "socket:chademo:output": "50kW",
@@ -4818,7 +4822,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VFX-00048 - Lidl",
+    "name": "VFX-00048",
     "network": "Mobi.E",
     "old_ref": "VFX-00013",
     "opening_hours": "24/7",
@@ -7724,55 +7728,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8207138999",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Galp electric",
-    "capacity": "2",
-    "email": "mobilidade.electricacrc@galp.com",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "MMN-00001",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Galp Geste",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 249 249",
-    "ref": "MMN-00001",
-    "socket:chademo": "1",
-    "socket:chademo:current": "120",
-    "socket:chademo:output": "50kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_cable": "1",
-    "socket:type2_cable:current": "63",
-    "socket:type2_cable:output": "43kW",
-    "socket:type2_cable:voltage": "400",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "125",
-    "socket:type2_combo:output": "50kW",
-    "socket:type2_combo:voltage": "500",
-    "website": "https://www.mobie.pt",
-    "id": "node/8207138999"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.0783968,
-      38.6182193
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8207139000",
   "properties": {
     "access": "yes",
@@ -7835,7 +7790,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "EVR-00018 - McDonald's Évora",
+    "name": "EVR-00018",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Powerdot",
@@ -13632,7 +13587,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "EVR-00040 - Lidl",
+    "name": "EVR-00040",
     "network": "Mobi.E",
     "old_operator": "KLC",
     "old_ref": "EVR-00017",
@@ -22160,7 +22115,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "LLE-00054 - Galp",
+    "name": "LLE-00054",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Geste",
@@ -22171,6 +22126,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LLE-00054",
+    "ref:EU:EVSE": "PT*GLG*ELLE*00054*01;PT*GLG*ELLE*00054*02;PT*GLG*ELLE*00054*03",
     "socket:chademo": "1",
     "socket:chademo:current": "120",
     "socket:chademo:output": "50kW",
@@ -22189,8 +22145,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.118016,
-      37.082306
+      -8.1180428,
+      37.082291
     ]
   }
 },
@@ -22940,6 +22896,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "ASL-00009",
+    "ref:EU:EVSE": "PT*GLG*EASL*00009*01;PT*GLG*EASL*00009*02;PT*GLG*EASL*00009*03",
     "socket:chademo": "1",
     "socket:chademo:current": "120",
     "socket:chademo:output": "50kW",
@@ -22958,8 +22915,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.5859227,
-      38.5154662
+      -8.5858838,
+      38.5154305
     ]
   }
 },
@@ -23007,8 +22964,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.5847868,
-      38.5154609
+      -8.584829,
+      38.5155165
     ]
   }
 },
@@ -26810,7 +26767,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VFX-00021 - Repsol",
+    "name": "VFX-00021",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Repsol",
@@ -28427,6 +28384,52 @@
     "coordinates": [
       -8.9371875,
       39.3281709
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9456618843",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LRA-00047",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Moon",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "LRA-00047",
+    "socket:chademo": "1",
+    "socket:chademo:current": "120",
+    "socket:chademo:output": "75kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22kW",
+    "socket:type2_cable:voltage": "400",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "75kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt/",
+    "id": "node/9456618843"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.7741226,
+      39.7672551
     ]
   }
 },
@@ -31706,7 +31709,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VFX-00026 - McDonald's",
+    "name": "VFX-00026",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -32036,7 +32039,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "EVR-00021 - Intermarché",
+    "name": "EVR-00021",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Powerdot",
@@ -36551,7 +36554,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "AMD-00094 - Lidl",
+    "name": "AMD-00094",
     "network": "Mobi.E",
     "old_ref": "AMD-00049",
     "opening_hours": "24/7",
@@ -36581,8 +36584,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.217778,
-      38.754444
+      -9.2177686,
+      38.7543938
     ]
   }
 },
@@ -37756,6 +37759,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "OER-00129",
+    "ref:EU:EVSE": "PT*EDP*EOER*00129*1;PT*EDP*EOER*00129*2;PT*EDP*EOER*00129*3",
     "socket:chademo": "1",
     "socket:chademo:current": "125",
     "socket:chademo:output": "50kW",
@@ -42526,6 +42530,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LLE-00099",
+    "ref:EU:EVSE": "PT*GLP*ELLE*00099*01;PT*GLP*ELLE*00099*02",
     "socket:chademo": "1",
     "socket:chademo:current": "125",
     "socket:chademo:output": "50kW",
@@ -46668,7 +46673,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "EVR-00027 - Burger King",
+    "name": "EVR-00027",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -55288,7 +55293,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "EVR-00026 - Matos Car",
+    "name": "EVR-00026",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Moon",
@@ -56540,11 +56545,11 @@
     "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "4",
+    "capacity": "2",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CVR-00006/7 - Lidl",
+    "name": "CVR-00006",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "KLC Serviços",
@@ -56554,16 +56559,16 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 202 060",
-    "ref": "CVR-00006;CVR-00007",
-    "socket:chademo": "2",
+    "ref": "CVR-00006",
+    "socket:chademo": "1",
     "socket:chademo:current": "120",
     "socket:chademo:output": "50kW",
     "socket:chademo:voltage": "500",
-    "socket:type2_cable": "2",
+    "socket:type2_cable": "1",
     "socket:type2_cable:current": "32",
     "socket:type2_cable:output": "22kW",
     "socket:type2_cable:voltage": "400",
-    "socket:type2_combo": "2",
+    "socket:type2_combo": "1",
     "socket:type2_combo:current": "125",
     "socket:type2_combo:output": "50kW",
     "socket:type2_combo:voltage": "500",
@@ -56573,8 +56578,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.088911,
-      37.6939355
+      -8.089021,
+      37.6938999
     ]
   }
 },
@@ -66337,7 +66342,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VFX-00040 - Burger King",
+    "name": "VFX-00040",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -67178,6 +67183,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "SNT-00140",
+    "ref:EU:EVSE": "PT*EDP*E*SNT*00140*01;PT*EDP*E*SNT*00140*02",
     "socket:chademo": "1",
     "socket:chademo:current": "120",
     "socket:chademo:output": "50kW",
@@ -67192,8 +67198,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.3050978,
-      38.7509391
+      -9.3051032,
+      38.7509579
     ]
   }
 },
@@ -73311,6 +73317,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LLE-00107",
+    "ref:EU:EVSE": "PT*GLP*ELLE*00107*01;PT*GLP*ELLE*00107*02",
     "socket:chademo": "1",
     "socket:chademo:current": "125",
     "socket:chademo:output": "50kW",
@@ -83014,7 +83021,7 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Galp electric",
-    "capacity": "3",
+    "capacity": "2",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -83028,7 +83035,7 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "ref": "OBR-00011",
-    "ref:EU:EVSE": "PT*GLP*E*OBR*00011*01;PT*GLP*E*OBR*00011*02;PT*GLP*E*OBR*00011*03",
+    "ref:EU:EVSE": "PT*GLP*EOBR*00011*01;PT*GLP*EOBR*00011*02;PT*GLP*EOBR*00011*03",
     "socket:chademo": "1",
     "socket:chademo:current": "125",
     "socket:chademo:output": "50kW",
@@ -83040,7 +83047,7 @@
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "150",
     "socket:type2_combo:output": "60kW",
-    "socket:type2_combo:voltage": "500",
+    "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt",
     "id": "node/12434457496"
   },
@@ -91346,6 +91353,96 @@
     "coordinates": [
       -7.8859537,
       40.651607
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12676275904",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "AMT-00020",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "AMT-00020",
+    "ref:EU:EVSE": "PT*EDP*E*AMT*00020*01;PT*EDP*E*AMT*00020*02",
+    "socket:chademo": "1",
+    "socket:chademo:current": "125",
+    "socket:chademo:output": "50kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "300",
+    "socket:type2_combo:output": "120kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12676275904"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.089807,
+      41.272438
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12682180639",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CVR-00007",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "KLC Serviços",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 202 060",
+    "ref": "CVR-00007",
+    "socket:chademo": "1",
+    "socket:chademo:current": "120",
+    "socket:chademo:output": "50kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22kW",
+    "socket:type2_cable:voltage": "400",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "125",
+    "socket:type2_combo:output": "50kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12682180639"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.0889992,
+      37.6939369
     ]
   }
 }
