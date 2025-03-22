@@ -2963,7 +2963,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "BRG-00066 - Jomecsport",
+    "name": "BRG-00066",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -2974,13 +2974,14 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "BRG-00066",
+    "ref:EU:EVSE": "PT*GLP*EBRG*00066*01;PT*GLP*EBRG*00066*02",
     "socket:type2": "1",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
     "socket:type2:voltage": "400",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "300",
-    "socket:type2_combo:output": "150kW",
+    "socket:type2_combo:output": "160kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt/",
     "id": "node/9932668654"
@@ -4690,6 +4691,7 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "ref": "LGS-00030",
+    "ref:EU:EVSE": "PT*GLP*ELGS*00030*01;PT*GLP*ELGS*00030*02",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "190",
     "socket:type2_combo:output": "180kW",
@@ -10822,6 +10824,46 @@
 },
 {
   "type": "Feature",
+  "id": "node/12456825609",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "STC-00012",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "STC-00012",
+    "ref:EU:EVSE": "PT*TRK*E*STC*00012*01;PT*TRK*E*STC*00012*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "230",
+    "socket:type2_combo:output": "150kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12456825609"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.7325189,
+      38.0392107
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12460808592",
   "properties": {
     "access": "yes",
@@ -12564,6 +12606,49 @@
     "coordinates": [
       -7.8968902,
       38.5599014
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12647315943",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "AND-00013",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "InstaVolt",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "AND-00013",
+    "ref:EU:EVSE": "PT*ITV*E*AND*00013*01;PT*ITV*E*AND*00013*02",
+    "socket:chademo": "1",
+    "socket:chademo:current": "125",
+    "socket:chademo:output": "50kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "400",
+    "socket:type2_combo:output": "160kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/12647315943"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.453494,
+      40.403895
     ]
   }
 },
