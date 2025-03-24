@@ -11700,12 +11700,12 @@
   "properties": {
     "access": "customers",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "6",
+    "capacity": "2",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -11717,8 +11717,8 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 180 292",
-    "ref": "PRT-00023;PRT-00024;PRT-00025",
-    "socket:type2": "6",
+    "ref": "PRT-00023",
+    "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
     "socket:type2:voltage": "400",
@@ -11728,8 +11728,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6063648,
-      41.1810608
+      -8.6062703,
+      41.1812203
     ]
   }
 },
@@ -16228,16 +16228,15 @@
   "type": "Feature",
   "id": "node/8994025212",
   "properties": {
-    "access": "customers",
+    "access": "private",
     "addr:country": "PT",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:none": "no",
-    "capacity": "6",
+    "capacity": "1",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "MOBI-MTS-00002 - CEIIA",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Evio",
@@ -16247,7 +16246,7 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "ref": "MOBI-MTS-00002",
-    "socket:type2": "2",
+    "socket:type2": "1",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4kW",
     "socket:type2:voltage": "230",
@@ -21367,12 +21366,12 @@
   "type": "Feature",
   "id": "node/10020701685",
   "properties": {
-    "access": "customers",
+    "access": "private",
     "addr:country": "PT",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:none": "no",
-    "capacity": "6",
+    "capacity": "2",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -21384,7 +21383,7 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "MOBI-MTS-00002",
+    "ref": "MOBI-MTS-00001",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4kW",
@@ -43098,6 +43097,84 @@
     "coordinates": [
       -8.1770428,
       37.0929773
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12692944239",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 180 292",
+    "ref": "PRT-00025",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/12692944239"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6063229,
+      41.1811012
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12692944240",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 180 292",
+    "ref": "PRT-00024",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/12692944240"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6062968,
+      41.1811598
     ]
   }
 }
