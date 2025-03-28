@@ -3147,6 +3147,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LSB-90135",
+    "ref:EU:EVSE": "PT*GLP*ELSB*90135*01;PT*GLP*ELSB*90135*02",
     "socket:type2": "2",
     "socket:type2:current": "16",
     "socket:type2:output": "3.7kW",
@@ -4034,6 +4035,52 @@
     "coordinates": [
       -9.1495926,
       38.73876
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/3724919268",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Lisboa",
+    "addr:country": "PT",
+    "addr:housenumber": "4",
+    "addr:postcode": "1070-238",
+    "addr:street": "Rua da Mesquita",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "support.portugal@atlante.energy",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LSB-80081",
+    "network": "Mobi.E",
+    "old_operator": "KLC",
+    "old_ref": "LSB-90081",
+    "opening_hours": "24/7",
+    "operator": "Atlante",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 296 929",
+    "ref": "LSB-80081",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "7.4kW",
+    "socket:type2:voltage": "230",
+    "website": "https://www.mobie.pt",
+    "id": "node/3724919268"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1584775,
+      38.7353709
     ]
   }
 },
@@ -9010,6 +9057,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "BJA-00006",
+    "ref:EU:EVSE": "PT*GLP*EBJA*00006*01;PT*GLP*EBJA*00006*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -12619,7 +12667,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "LSB-00004",
+    "name": "LSB-90004",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -12630,6 +12678,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LSB-90004",
+    "ref:EU:EVSE": "PT*GLP*ELSB*90004*01;PT*GLP*ELSB*90004*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -15402,6 +15451,7 @@
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
+    "operator:wikidata": "Q1341222",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
@@ -30897,8 +30947,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.4062311,
-      41.5568855
+      -8.4063367,
+      41.5575596
     ]
   }
 },
@@ -31877,6 +31927,47 @@
     "coordinates": [
       -8.6302495,
       41.1589572
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8309478322",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "mobilidade-eletrica@edp.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "ARC-90001",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "ARC-90001",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/8309478322"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.2481605,
+      40.9297791
     ]
   }
 },
@@ -37167,7 +37258,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "MRA-00002 - Intermarché",
+    "name": "MRA-00002",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Mobiletric",
@@ -37178,6 +37269,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 210 204",
     "ref": "MRA-00002",
+    "ref:EU:EVSE": "PT*MLT*EMRA*00002*01;PT*MLT*EMRA*00002*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -37189,8 +37281,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.459308,
-      38.139911
+      -7.4593053,
+      38.1399405
     ]
   }
 },
@@ -57386,6 +57478,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "SNT-00111",
+    "ref:EU:EVSE": "PT*EDP*ESNT*00111*1;PT*EDP*ESNT*00111*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4kW",
@@ -76320,6 +76413,7 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "ref": "SNT-00146",
+    "ref:EU:EVSE": "PT*EDP*ESNT*00146*1;PT*EDP*ESNT*00146*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -81391,6 +81485,44 @@
     "coordinates": [
       -8.9669981,
       38.7116314
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12374523916",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Continente Modelo Lourel",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "Mo-Su 09:00-21:00",
+    "operator": "Sonae",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/12374523916"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.3623676,
+      38.8139704
     ]
   }
 },
@@ -88706,46 +88838,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12479330755",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "2",
-    "email": "opc@emel.pt",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "LSB-00261",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "EMEL",
-    "parking:fee": "yes",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 910 255",
-    "ref": "LSB-00261",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22kW",
-    "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt",
-    "id": "node/12479330755"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.1311507,
-      38.7086858
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12479330756",
   "properties": {
     "access": "yes",
@@ -89383,6 +89475,43 @@
     "coordinates": [
       -8.5991611,
       40.6463962
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12487297110",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Continente Modelo Belas",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "24/7",
+    "operator": "Sonae",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/12487297110"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.2716764,
+      38.7710661
     ]
   }
 },
@@ -92167,6 +92296,43 @@
     "coordinates": [
       -9.0665796,
       38.6515049
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12521331601",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "24/7",
+    "operator": "Sonae",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "socket:type2_cable": "2",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/12521331601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.4312628,
+      39.2774077
     ]
   }
 },
@@ -96167,6 +96333,45 @@
     "coordinates": [
       -8.6658367,
       40.6184522
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12566186670",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "capacity": "2",
+    "fee": "yes",
+    "fixme": "Move to exact location",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Continente Bom Dia Leiria São Romão",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "24/7",
+    "operator": "Sonae",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/12566186670"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.7986259,
+      39.7329648
     ]
   }
 },
@@ -103761,6 +103966,7 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "ref": "BBR-00004",
+    "ref:EU:EVSE": "PT*GLP*EBBR*00004*01;PT*GLP*EBBR*00004*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -106787,6 +106993,44 @@
 },
 {
   "type": "Feature",
+  "id": "node/12670948314",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Continente Modelo Lourel",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "Mo-Su 09:00-21:00",
+    "operator": "Sonae",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/12670948314"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.3623695,
+      38.8139688
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12673988178",
   "properties": {
     "access": "yes",
@@ -109015,8 +109259,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.4062268,
-      41.556842
+      -8.4063615,
+      41.557559
     ]
   }
 },
@@ -109204,6 +109448,157 @@
     "coordinates": [
       -7.92097,
       38.5574382
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12705904729",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "24/7",
+    "operator": "Sonae",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "ref": "3776PR0001.01;3776PR0001.02",
+    "socket:type2_cable": "2",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/12705904729"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5175544,
+      41.4174013
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12705949013",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Continente Modelo Tapada das Mercês",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "Mo-Su 09:00-21:00",
+    "operator": "Sonae",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/12705949013"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.3264952,
+      38.7993748
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12705949014",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Continente Modelo Tapada das Mercês",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "Mo-Su 09:00-21:00",
+    "operator": "Sonae",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/12705949014"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.3264966,
+      38.7993743
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12706014525",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Continente Modelo Arroja",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "24/7",
+    "operator": "Sonae",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "socket:type2_cable": "2",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/12706014525"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1960039,
+      38.7923465
     ]
   }
 }
