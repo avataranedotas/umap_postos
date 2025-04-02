@@ -3329,6 +3329,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LSB-00301",
+    "ref:EU:EVSE": "PT*GLG*ELSB*00301*01;PT*GLG*ELSB*00301*02;PT*GLG*ELSB*00301*03",
     "socket:chademo": "1",
     "socket:chademo:current": "120",
     "socket:chademo:output": "50kW",
@@ -3347,8 +3348,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.2043516,
-      38.710387
+      -9.2043335,
+      38.7104278
     ]
   }
 },
@@ -3432,6 +3433,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LSB-00281",
+    "ref:EU:EVSE": "PT*GLG*ELSB*00281*01;PT*GLG*ELSB*00281*02;PT*GLG*ELSB*00281*03",
     "socket:chademo": "1",
     "socket:chademo:current": "120",
     "socket:chademo:output": "50kW",
@@ -3876,6 +3878,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LSB-00279",
+    "ref:EU:EVSE": "PT*GLG*ELSB*00279*01;PT*GLG*ELSB*00279*02;PT*GLG*ELSB*00279*03",
     "socket:chademo": "1",
     "socket:chademo:current": "120",
     "socket:chademo:output": "50kW",
@@ -3894,8 +3897,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.1705222,
-      38.7680973
+      -9.1705034,
+      38.7681057
     ]
   }
 },
@@ -16626,7 +16629,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CSC-00173 - Lidl",
+    "name": "CSC-00173",
     "network": "Mobi.E",
     "old_ref": "CSC-00067",
     "opening_hours": "24/7",
@@ -28726,7 +28729,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CSC-00082 - Prio",
+    "name": "CSC-00082",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Prio.E",
@@ -28751,8 +28754,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.3374965,
-      38.6962203
+      -9.3374804,
+      38.6962611
     ]
   }
 },
@@ -55204,6 +55207,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LSB-00609",
+    "ref:EU:EVSE": "PT*GLP*ELSB*00609*01;PT*GLP*ELSB*00609*02",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "200",
     "socket:type2_combo:output": "120kW",
@@ -68345,6 +68349,55 @@
 },
 {
   "type": "Feature",
+  "id": "node/11753862877",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "mobilidade-eletrica@edp.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "BRG-00105",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "BRG-00105",
+    "socket:chademo": "1",
+    "socket:chademo:current": "125",
+    "socket:chademo:output": "50kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "200",
+    "socket:type2_combo:output": "90kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/11753862877"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4398366,
+      41.5658932
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11764556853",
   "properties": {
     "access": "yes",
@@ -79497,7 +79550,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "ALT-00007 - Intermarché",
+    "name": "ALT-00007",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -88707,6 +88760,47 @@
 },
 {
   "type": "Feature",
+  "id": "node/12605314336",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "layer": "-1",
+    "location": "underground",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LSB-00886",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "LSB-00886",
+    "ref:EU:EVSE": "PT*GLP*ELSB*00886*01;PT*GLP*ELSB*00886*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "50kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12605314336"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.2211813,
+      38.693357
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12605316061",
   "properties": {
     "access": "yes",
@@ -91880,6 +91974,54 @@
 },
 {
   "type": "Feature",
+  "id": "node/12692816133",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "support.portugal@atlante.energy",
+    "fee": "yes",
+    "location": "underground",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LSB-00643",
+    "network": "Mobi.E",
+    "opening_hours": "09:00-21:00",
+    "operator": "Atlante",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 296 929",
+    "ref": "LSB-00643",
+    "socket:chademo": "1",
+    "socket:chademo:current": "125",
+    "socket:chademo:output": "50kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22kW",
+    "socket:type2_cable:voltage": "400",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "60kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12692816133"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1753288,
+      38.7038074
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12692932047",
   "properties": {
     "access": "yes",
@@ -92902,6 +93044,53 @@
     "coordinates": [
       -9.1197605,
       38.7858751
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12719057538",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "VNG-00193",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Atlante",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "VNG-00193",
+    "ref:EU:EVSE": "PT*ATL*EVNG*00193*1;PT*ATL*EVNG*00193*2;PT*ATL*EVNG*00193*3",
+    "socket:chademo": "1",
+    "socket:chademo:current": "125",
+    "socket:chademo:output": "50kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "60kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt",
+    "id": "node/12719057538"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6306491,
+      41.137124
     ]
   }
 }
