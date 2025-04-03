@@ -3726,6 +3726,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 210 204",
     "ref": "LSB-00090",
+    "ref:EU:EVSE": "PT*MLT*ELSB*00090*01;PT*MLT*ELSB*00090*02;PT*MLT*ELSB*00090*03",
     "socket:chademo": "1",
     "socket:chademo:current": "120",
     "socket:chademo:output": "50kW",
@@ -5146,8 +5147,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.4912799,
-      40.2639453
+      -7.4911968,
+      40.26389
     ]
   }
 },
@@ -8100,6 +8101,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LSB-00011",
+    "ref:EU:EVSE": "PT*GLG*ELSB*00011*01;PT*GLG*ELSB*00011*02;PT*GLG*ELSB*00011*03",
     "socket:chademo": "1",
     "socket:chademo:current": "120",
     "socket:chademo:output": "50kW",
@@ -13634,55 +13636,6 @@
     "coordinates": [
       -7.6061386,
       37.9421838
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8232520453",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Elvas",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "2",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "ELV-00010 - Lidl",
-    "network": "Mobi.E",
-    "old_ref": "ELV-00004",
-    "opening_hours": "24/7",
-    "operator": "KLC Serviços",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 202 060",
-    "ref": "ELV-00010",
-    "socket:chademo": "1",
-    "socket:chademo:current": "120",
-    "socket:chademo:output": "50kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_cable": "1",
-    "socket:type2_cable:current": "63",
-    "socket:type2_cable:output": "43kW",
-    "socket:type2_cable:voltage": "400",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "125",
-    "socket:type2_combo:output": "50kW",
-    "socket:type2_combo:voltage": "500",
-    "website": "https://www.mobie.pt",
-    "id": "node/8232520453"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.1589935,
-      38.8753622
     ]
   }
 },
@@ -34766,7 +34719,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CVL-00007 - Intermarché",
+    "name": "CVL-00007",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -34791,8 +34744,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.4939971,
-      40.270465
+      -7.494213,
+      40.2704097
     ]
   }
 },
@@ -35560,7 +35513,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CVL-00016 - Lidl",
+    "name": "CVL-00016",
     "network": "Mobi.E",
     "old_ref": "CVL-00006",
     "opening_hours": "24/7",
@@ -38319,8 +38272,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.5923412,
-      40.6616595
+      -8.5926322,
+      40.6619464
     ]
   }
 },
@@ -38367,8 +38320,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.5913864,
-      40.6604245
+      -8.5910712,
+      40.6601946
     ]
   }
 },
@@ -44326,7 +44279,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CVL-00010 - GALP",
+    "name": "CVL-00010",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Geste",
@@ -44351,8 +44304,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.491451,
-      40.2648391
+      -7.4912176,
+      40.264746
     ]
   }
 },
@@ -45446,7 +45399,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CVL-00011 - Covilhã Shopping",
+    "name": "CVL-00011",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Powerdot",
@@ -45475,8 +45428,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.4903128,
-      40.2641504
+      -7.4913213,
+      40.2636981
     ]
   }
 },
@@ -55660,7 +55613,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "BRB-00003 - Pingo Doce",
+    "name": "BRB-00003",
     "network": "Mobi.E",
     "old_ref": "BRB-00002",
     "opening_hours": "24/7",
@@ -63578,7 +63531,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CVL-00013 - Burger King",
+    "name": "CVL-00013",
     "network": "Mobi.E",
     "old_ref": "CVL-00005",
     "opening_hours": "24/7",
@@ -63604,8 +63557,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.4904147,
-      40.2651431
+      -7.4904757,
+      40.2646765
     ]
   }
 },
@@ -66459,6 +66412,7 @@
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
+    "operator:wikidata": "Q1341222",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
@@ -71556,6 +71510,7 @@
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
+    "operator:wikidata": "Q1341222",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
@@ -89068,6 +89023,7 @@
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
+    "operator:wikidata": "Q1341222",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
@@ -92715,6 +92671,45 @@
 },
 {
   "type": "Feature",
+  "id": "node/12706036736",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CBC-00018",
+    "network": "Mobi.E",
+    "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-12:00",
+    "operator": "Helexia II",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "CBC-00018",
+    "ref:EU:EVSE": "PT*HLX*E*CBC*00018*01;PT*HLX*E*CBC*00018*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "375",
+    "socket:type2_combo:output": "100kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12706036736"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.9832262,
+      41.49385
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12707295045",
   "properties": {
     "access": "yes",
@@ -93091,6 +93086,45 @@
     "coordinates": [
       -8.6306491,
       41.137124
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12723910800",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "capacity": "2",
+    "fee": "yes",
+    "layer": "-1",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Continente Modelo Lagos",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "Mo-Su 09:00-21:00",
+    "operator": "Sonae",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "125",
+    "socket:type2_combo:output": "50kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/12723910800"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6890262,
+      37.1099247
     ]
   }
 }
