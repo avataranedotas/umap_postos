@@ -245,7 +245,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "OER-00081 - Mercado de Queijas",
+    "name": "OER-00081",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -256,6 +256,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "OER-00081",
+    "ref:EU:EVSE": "PT*GLP*EOER*00081*01;PT*GLP*EOER*00081*02",
     "socket:chademo": "1",
     "socket:chademo:current": "120",
     "socket:chademo:output": "50kW",
@@ -270,7 +271,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.2629834,
+      -9.262964,
       38.7189138
     ]
   }
@@ -445,6 +446,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "OER-00087",
+    "ref:EU:EVSE": "PT*GLP*EOER*00087*01;PT*GLP*EOER*00087*02",
     "socket:chademo": "1",
     "socket:chademo:current": "120",
     "socket:chademo:output": "50kW",
@@ -459,8 +461,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.3052398,
-      38.6915576
+      -9.3052411,
+      38.6915508
     ]
   }
 },
@@ -480,7 +482,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "OER-00057 - Palmeiras",
+    "name": "OER-00057",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Mobiletric",
@@ -491,6 +493,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 210 204",
     "ref": "OER-00057",
+    "ref:EU:EVSE": "PT*MLT*EOER*00057*01;PT*MLT*EOER*00057*02",
     "socket:chademo": "1",
     "socket:chademo:current": "120",
     "socket:chademo:output": "50kW",
@@ -505,8 +508,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.3272936,
-      38.6920773
+      -9.3272876,
+      38.6920752
     ]
   }
 },
@@ -1927,8 +1930,9 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "AZB-00013",
+    "ref:EU:EVSE": "PT*GLP*E*AZB*00013*01;PT*GLP*E*AZB*00013*02",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "400",
+    "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "200kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt",
@@ -1969,8 +1973,9 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "AZB-00014",
+    "ref:EU:EVSE": "PT*GLP*EAZB*00014*01;PT*GLP*EAZB*00014*02",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "400",
+    "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "200kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt",
@@ -7538,7 +7543,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CVL-00018 - Prio",
+    "name": "CVL-00018",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Prio.E",
@@ -10195,7 +10200,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "ODV-00035 - Prio",
+    "name": "ODV-00035",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Prio.E",
@@ -10358,7 +10363,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CSC-00188 - Prio",
+    "name": "CSC-00188",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Prio.E",
@@ -13226,6 +13231,46 @@
     "coordinates": [
       -8.5549995,
       37.1528461
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12707369904",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "fixme": "Move to exact location",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "SCD-00009",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "PowerDot",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "SCD-00009",
+    "ref:EU:EVSE": "PT*HRZ*E*SCD*00009*01;PT*HRZ*E*SCD*00009*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "200",
+    "socket:type2_combo:output": "160kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12707369904"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.1057475,
+      40.4405289
     ]
   }
 },
