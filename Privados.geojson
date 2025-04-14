@@ -6308,46 +6308,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8262611997",
-  "properties": {
-    "access": "customers",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "2",
-    "email": "mobilidade-eletrica@edp.pt",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "ABF-00014/15 - Hotel Vila Galé Atlântico",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "EDP",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 222 222",
-    "ref": "ABF-00014;ABF-00015",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "7.4kW",
-    "socket:type2:voltage": "230",
-    "website": "https://www.mobie.pt",
-    "id": "node/8262611997"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.3152543,
-      37.084496
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8262620579",
   "properties": {
     "access": "customers",
@@ -11350,7 +11310,6 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "IPP-00003",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Atlante",
@@ -23917,13 +23876,13 @@
     "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "4",
+    "capacity": "2",
     "email": "mobilidade-eletrica@edp.pt",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "ABF-00066/68",
     "network": "Mobi.E",
+    "old_ref": "ABF-00015",
     "opening_hours": "24/7",
     "operator": "EDP",
     "parking:fee": "no",
@@ -23932,7 +23891,7 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
-    "ref": "ABF-00066;ABF-00068",
+    "ref": "ABF-00068",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4kW",
@@ -23943,8 +23902,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.3148926,
-      37.0846626
+      -8.3148859,
+      37.0846594
     ]
   }
 },
@@ -26106,14 +26065,13 @@
   "properties": {
     "access": "customers",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "4",
+    "capacity": "2",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "ABF-00063/64",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Iberdrola",
@@ -26122,8 +26080,8 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "ABF-00063;ABF-00064",
-    "socket:type2_cable": "4",
+    "ref": "ABF-00063",
+    "socket:type2_cable": "2",
     "socket:type2_cable:current": "32",
     "socket:type2_cable:output": "22kW",
     "socket:type2_cable:voltage": "400",
@@ -26133,8 +26091,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.3243513,
-      37.090621
+      -8.323711,
+      37.0902173
     ]
   }
 },
@@ -44464,6 +44422,83 @@
     "coordinates": [
       -8.2439072,
       37.0903286
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12752996997",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "mobilidade-eletrica@edp.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "old_ref": "ABF-00014",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "ABF-00066",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "7.4kW",
+    "socket:type2:voltage": "230",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12752996997"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.3149633,
+      37.0846874
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12753075610",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Iberdrola",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "ABF-00064",
+    "socket:type2_cable": "2",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12753075610"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.3236603,
+      37.090195
     ]
   }
 }
