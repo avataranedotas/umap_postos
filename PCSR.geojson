@@ -3526,16 +3526,16 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "4",
+    "capacity": "2",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "PNF-00035",
     "network": "Mobi.E",
+    "node": "10635011299",
     "old_ref": "PNF-00019",
     "opening_hours": "09:00-20:00",
     "operator": "Powerdot",
@@ -3546,11 +3546,12 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 180 292",
     "ref": "PNF-00035",
+    "ref:EU:EVSE": "PT*HRZ*E*PNF*00035*01;PT*HRZ*E*PNF*00035*02",
     "socket:chademo": "1",
     "socket:chademo:current": "125",
     "socket:chademo:output": "50kW",
     "socket:chademo:voltage": "500",
-    "socket:type2_combo": "3",
+    "socket:type2_combo": "1",
     "socket:type2_combo:current": "300",
     "socket:type2_combo:output": "200kW",
     "socket:type2_combo:voltage": "1000",
@@ -3560,8 +3561,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.2833334,
-      41.2151351
+      -8.2833032,
+      41.2150836
     ]
   }
 },
@@ -13719,6 +13720,90 @@
     "coordinates": [
       -8.9620965,
       39.3821351
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12765592898",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "node": "10635011299",
+    "old_ref": "PNF-00019",
+    "opening_hours": "09:00-20:00",
+    "operator": "Powerdot",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 180 292",
+    "ref": "PNF-00035",
+    "ref:EU:EVSE": "PT*HRZ*E*PNF*00035*04",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "250",
+    "socket:type2_combo:output": "200kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/12765592898"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.2833657,
+      41.2151104
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12765592899",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "node": "10635011299",
+    "old_ref": "PNF-00019",
+    "opening_hours": "09:00-20:00",
+    "operator": "Powerdot",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 180 292",
+    "ref": "PNF-00035",
+    "ref:EU:EVSE": "PT*HRZ*E*PNF*00035*03",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "250",
+    "socket:type2_combo:output": "200kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/12765592899"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.2833406,
+      41.2150996
     ]
   }
 }
