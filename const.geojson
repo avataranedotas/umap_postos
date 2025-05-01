@@ -3198,7 +3198,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "ACB-?????",
+    "name": "ACB-00037",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -3207,13 +3207,10 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "ACB-?????",
-    "socket:chademo": "1",
-    "socket:chademo:current": "125",
-    "socket:chademo:output": "50kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "200",
+    "ref": "ACB-00037",
+    "ref:EU:EVSE": "PT*GLP*EACB*00037*01;PT*GLP*EACB*00037*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "250",
     "socket:type2_combo:output": "120kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt/",
@@ -12334,49 +12331,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12712903715",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "2",
-    "construction:amenity": "charging_station",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "RMR-00013",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Charging Together",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "yes",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "ref": "RMR-00013",
-    "ref:EU:EVSE": "PT*FCT*E*RMR*00013*01;PT*FCT*E*RMR*00013*02;PT*FCT*E*RMR*00013*03",
-    "socket:chademo": "1",
-    "socket:chademo:current": "200",
-    "socket:chademo:output": "80kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "500",
-    "socket:type2_combo:output": "150kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt",
-    "id": "node/12712903715"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.8965175,
-      39.3011032
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12714390378",
   "properties": {
     "access": "yes",
@@ -14470,7 +14424,7 @@
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "150",
     "socket:type2_combo:output": "60kW",
-    "socket:type2_combo:voltage": "1000",
+    "socket:type2_combo:voltage": "500",
     "website": "https://www.mobie.pt/",
     "id": "node/12789644824"
   },
@@ -14517,6 +14471,1582 @@
     "coordinates": [
       -8.1488421,
       39.9143742
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12800068199",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "capacity": "2",
+    "construction:amenity": "charging_station",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "BJA-00038",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "BJA-00038",
+    "ref:EU:EVSE": "PT*TRK*E*BJA*00038*01;PT*TRK*E*BJA*00038*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12800068199"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.8656478,
+      38.0130466
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12800103111",
+  "properties": {
+    "access": "customers",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "construction:man_made": "charge_point",
+    "description": "V4",
+    "fee": "yes",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "not:brand:wikidata": "Q478214",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "socket:tesla_supercharger_ccs": "1",
+    "socket:tesla_supercharger_ccs:currrent": "650",
+    "socket:tesla_supercharger_ccs:output": "250 kW",
+    "socket:tesla_supercharger_ccs:voltage": "500",
+    "id": "node/12800103111"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6886755,
+      39.635439
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12800103112",
+  "properties": {
+    "access": "customers",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "construction:man_made": "charge_point",
+    "description": "V4",
+    "fee": "yes",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "not:brand:wikidata": "Q478214",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "socket:tesla_supercharger_ccs": "1",
+    "socket:tesla_supercharger_ccs:currrent": "650",
+    "socket:tesla_supercharger_ccs:output": "250 kW",
+    "socket:tesla_supercharger_ccs:voltage": "500",
+    "id": "node/12800103112"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.68866,
+      39.6354694
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12800103113",
+  "properties": {
+    "access": "customers",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "construction:man_made": "charge_point",
+    "description": "V4",
+    "fee": "yes",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "not:brand:wikidata": "Q478214",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "socket:tesla_supercharger_ccs": "1",
+    "socket:tesla_supercharger_ccs:currrent": "650",
+    "socket:tesla_supercharger_ccs:output": "250 kW",
+    "socket:tesla_supercharger_ccs:voltage": "500",
+    "id": "node/12800103113"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6886473,
+      39.6354973
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12800103114",
+  "properties": {
+    "access": "customers",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "construction:man_made": "charge_point",
+    "description": "V4",
+    "fee": "yes",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "not:brand:wikidata": "Q478214",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "socket:tesla_supercharger_ccs": "1",
+    "socket:tesla_supercharger_ccs:currrent": "650",
+    "socket:tesla_supercharger_ccs:output": "250 kW",
+    "socket:tesla_supercharger_ccs:voltage": "500",
+    "id": "node/12800103114"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6886366,
+      39.6355309
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12800103115",
+  "properties": {
+    "access": "customers",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "construction:man_made": "charge_point",
+    "description": "V4",
+    "fee": "yes",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "not:brand:wikidata": "Q478214",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "socket:tesla_supercharger_ccs": "1",
+    "socket:tesla_supercharger_ccs:currrent": "650",
+    "socket:tesla_supercharger_ccs:output": "250 kW",
+    "socket:tesla_supercharger_ccs:voltage": "500",
+    "id": "node/12800103115"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6886252,
+      39.6355583
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12800103116",
+  "properties": {
+    "access": "customers",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "construction:man_made": "charge_point",
+    "description": "V4",
+    "fee": "yes",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "not:brand:wikidata": "Q478214",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "socket:tesla_supercharger_ccs": "1",
+    "socket:tesla_supercharger_ccs:currrent": "650",
+    "socket:tesla_supercharger_ccs:output": "250 kW",
+    "socket:tesla_supercharger_ccs:voltage": "500",
+    "id": "node/12800103116"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6886151,
+      39.6355836
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12800103117",
+  "properties": {
+    "access": "customers",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "construction:man_made": "charge_point",
+    "description": "V4",
+    "fee": "yes",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "not:brand:wikidata": "Q478214",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "socket:tesla_supercharger_ccs": "1",
+    "socket:tesla_supercharger_ccs:currrent": "650",
+    "socket:tesla_supercharger_ccs:output": "250 kW",
+    "socket:tesla_supercharger_ccs:voltage": "500",
+    "id": "node/12800103117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6886057,
+      39.6356151
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12800103118",
+  "properties": {
+    "access": "customers",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "construction:man_made": "charge_point",
+    "description": "V4",
+    "fee": "yes",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "not:brand:wikidata": "Q478214",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "socket:tesla_supercharger_ccs": "1",
+    "socket:tesla_supercharger_ccs:currrent": "650",
+    "socket:tesla_supercharger_ccs:output": "250 kW",
+    "socket:tesla_supercharger_ccs:voltage": "500",
+    "id": "node/12800103118"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.688595,
+      39.6356424
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12800103119",
+  "properties": {
+    "access": "customers",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "construction:man_made": "charge_point",
+    "description": "V4",
+    "fee": "yes",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "not:brand:wikidata": "Q478214",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "socket:tesla_supercharger_ccs": "1",
+    "socket:tesla_supercharger_ccs:currrent": "650",
+    "socket:tesla_supercharger_ccs:output": "250 kW",
+    "socket:tesla_supercharger_ccs:voltage": "500",
+    "id": "node/12800103119"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.688589,
+      39.6356724
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12800103120",
+  "properties": {
+    "access": "customers",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "construction:man_made": "charge_point",
+    "description": "V4",
+    "fee": "yes",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "not:brand:wikidata": "Q478214",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "socket:tesla_supercharger_ccs": "1",
+    "socket:tesla_supercharger_ccs:currrent": "650",
+    "socket:tesla_supercharger_ccs:output": "250 kW",
+    "socket:tesla_supercharger_ccs:voltage": "500",
+    "id": "node/12800103120"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6885762,
+      39.6357106
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12800103121",
+  "properties": {
+    "access": "customers",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "construction:man_made": "charge_point",
+    "description": "V4",
+    "fee": "yes",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "not:brand:wikidata": "Q478214",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "socket:tesla_supercharger_ccs": "1",
+    "socket:tesla_supercharger_ccs:currrent": "650",
+    "socket:tesla_supercharger_ccs:output": "250 kW",
+    "socket:tesla_supercharger_ccs:voltage": "500",
+    "id": "node/12800103121"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6885259,
+      39.6357333
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12800103122",
+  "properties": {
+    "access": "customers",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "construction:man_made": "charge_point",
+    "description": "V4",
+    "fee": "yes",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "not:brand:wikidata": "Q478214",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "socket:tesla_supercharger_ccs": "1",
+    "socket:tesla_supercharger_ccs:currrent": "650",
+    "socket:tesla_supercharger_ccs:output": "250 kW",
+    "socket:tesla_supercharger_ccs:voltage": "500",
+    "id": "node/12800103122"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6884817,
+      39.635753
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12800103123",
+  "properties": {
+    "access": "customers",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "construction:man_made": "charge_point",
+    "description": "V4",
+    "fee": "yes",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "not:brand:wikidata": "Q478214",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "socket:tesla_supercharger_ccs": "1",
+    "socket:tesla_supercharger_ccs:currrent": "650",
+    "socket:tesla_supercharger_ccs:output": "250 kW",
+    "socket:tesla_supercharger_ccs:voltage": "500",
+    "id": "node/12800103123"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6884367,
+      39.6357762
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12800103124",
+  "properties": {
+    "access": "customers",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "construction:man_made": "charge_point",
+    "description": "V4",
+    "fee": "yes",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "not:brand:wikidata": "Q478214",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "socket:tesla_supercharger_ccs": "1",
+    "socket:tesla_supercharger_ccs:currrent": "650",
+    "socket:tesla_supercharger_ccs:output": "250 kW",
+    "socket:tesla_supercharger_ccs:voltage": "500",
+    "id": "node/12800103124"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6883429,
+      39.6358103
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12800103125",
+  "properties": {
+    "access": "customers",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "construction:man_made": "charge_point",
+    "description": "V4",
+    "fee": "yes",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "not:brand:wikidata": "Q478214",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "socket:tesla_supercharger_ccs": "1",
+    "socket:tesla_supercharger_ccs:currrent": "650",
+    "socket:tesla_supercharger_ccs:output": "250 kW",
+    "socket:tesla_supercharger_ccs:voltage": "500",
+    "id": "node/12800103125"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6883013,
+      39.6358247
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12800103126",
+  "properties": {
+    "access": "customers",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "construction:man_made": "charge_point",
+    "description": "V4",
+    "fee": "yes",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "not:brand:wikidata": "Q478214",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "socket:tesla_supercharger_ccs": "1",
+    "socket:tesla_supercharger_ccs:currrent": "650",
+    "socket:tesla_supercharger_ccs:output": "250 kW",
+    "socket:tesla_supercharger_ccs:voltage": "500",
+    "id": "node/12800103126"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6882235,
+      39.635833
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12800103127",
+  "properties": {
+    "access": "customers",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "construction:man_made": "charge_point",
+    "description": "V4",
+    "fee": "yes",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "not:brand:wikidata": "Q478214",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "socket:tesla_supercharger_ccs": "1",
+    "socket:tesla_supercharger_ccs:currrent": "650",
+    "socket:tesla_supercharger_ccs:output": "250 kW",
+    "socket:tesla_supercharger_ccs:voltage": "500",
+    "id": "node/12800103127"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6882094,
+      39.6358098
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12800103128",
+  "properties": {
+    "access": "customers",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "construction:man_made": "charge_point",
+    "description": "V4",
+    "fee": "yes",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "not:brand:wikidata": "Q478214",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "socket:tesla_supercharger_ccs": "1",
+    "socket:tesla_supercharger_ccs:currrent": "650",
+    "socket:tesla_supercharger_ccs:output": "250 kW",
+    "socket:tesla_supercharger_ccs:voltage": "500",
+    "id": "node/12800103128"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6881987,
+      39.6357881
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12800149619",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "capacity": "2",
+    "construction:amenity": "charging_station",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "BJA-00040",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "BJA-00040",
+    "ref:EU:EVSE": "PT*TRK*E*BJA*00040*01;PT*TRK*E*BJA*00040*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12800149619"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.862391,
+      38.00661
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12800150676",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "capacity": "2",
+    "construction:amenity": "charging_station",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CSC-00300",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "CSC-00300",
+    "ref:EU:EVSE": "PT*TRK*E*CSC*00300*01;PT*TRK*E*CSC*00300*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12800150676"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.361915,
+      38.706264
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12801267200",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "capacity": "2",
+    "construction:amenity": "charging_station",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CSC-00352",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "CSC-00352",
+    "ref:EU:EVSE": "PT*TRK*E*CSC*00352*01;PT*TRK*E*CSC*00352*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12801267200"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.338027,
+      38.688805
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12801323401",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "capacity": "2",
+    "construction:amenity": "charging_station",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CSC-00349",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "CSC-00349",
+    "ref:EU:EVSE": "PT*TRK*E*CSC*00349*01;PT*TRK*E*CSC*00349*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12801323401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.383506,
+      38.70081
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12801323402",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "capacity": "2",
+    "construction:amenity": "charging_station",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CSC-00343",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "CSC-00343",
+    "ref:EU:EVSE": "PT*TRK*E*CSC*00343*01;PT*TRK*E*CSC*00343*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12801323402"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.4221134,
+      38.7022344
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12801323403",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "capacity": "2",
+    "construction:amenity": "charging_station",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CSC-00342",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "CSC-00342",
+    "ref:EU:EVSE": "PT*TRK*E*CSC*00342*01;PT*TRK*E*CSC*00342*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12801323403"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.4220947,
+      38.7022731
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12801323404",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "capacity": "2",
+    "construction:amenity": "charging_station",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CSC-00341",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "CSC-00341",
+    "ref:EU:EVSE": "PT*TRK*E*CSC*00341*01;PT*TRK*E*CSC*00341*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12801323404"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.4220652,
+      38.702315
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12801323405",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "capacity": "2",
+    "construction:amenity": "charging_station",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CSC-00340",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "CSC-00340",
+    "ref:EU:EVSE": "PT*TRK*E*CSC*00340*01;PT*TRK*E*CSC*00340*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12801323405"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.422039,
+      38.7023641
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12801323406",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "capacity": "2",
+    "construction:amenity": "charging_station",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CSC-00339",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "CSC-00339",
+    "ref:EU:EVSE": "PT*TRK*E*CSC*00339*01;PT*TRK*E*CSC*00339*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12801323406"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.4220129,
+      38.7024155
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12801323407",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "capacity": "2",
+    "construction:amenity": "charging_station",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CSC-00328",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "CSC-00328",
+    "ref:EU:EVSE": "PT*TRK*E*CSC*00328*01;PT*TRK*E*CSC*00328*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12801323407"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.346036,
+      38.690086
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12801323408",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "capacity": "2",
+    "construction:amenity": "charging_station",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CSC-00327",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "CSC-00327",
+    "ref:EU:EVSE": "PT*TRK*E*CSC*00327*01;PT*TRK*E*CSC*00327*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12801323408"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.329602,
+      38.681335
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12801323409",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "capacity": "2",
+    "construction:amenity": "charging_station",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CSC-00326",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "CSC-00326",
+    "ref:EU:EVSE": "PT*TRK*E*CSC*00326*01;PT*TRK*E*CSC*00326*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12801323409"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.334844,
+      38.705765
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12801323410",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "capacity": "2",
+    "construction:amenity": "charging_station",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CSC-00306",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "CSC-00306",
+    "ref:EU:EVSE": "PT*TRK*E*CSC*00306*01;PT*TRK*E*CSC*00306*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12801323410"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.4056956,
+      38.7067955
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12801323411",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "capacity": "2",
+    "construction:amenity": "charging_station",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CSC-00305",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "CSC-00305",
+    "ref:EU:EVSE": "PT*TRK*E*CSC*00305*01;PT*TRK*E*CSC*00305*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12801323411"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.444815,
+      38.706177
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12801323412",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "capacity": "2",
+    "construction:amenity": "charging_station",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CSC-00304",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "CSC-00304",
+    "ref:EU:EVSE": "PT*TRK*E*CSC*00304*01;PT*TRK*E*CSC*00304*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12801323412"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.34576,
+      38.688408
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12801323413",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "capacity": "2",
+    "construction:amenity": "charging_station",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CSC-00303",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "CSC-00303",
+    "ref:EU:EVSE": "PT*TRK*E*CSC*00303*01;PT*TRK*E*CSC*00303*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12801323413"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.42263,
+      38.707863
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12801323414",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "capacity": "2",
+    "construction:amenity": "charging_station",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CSC-00302",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "CSC-00302",
+    "ref:EU:EVSE": "PT*TRK*E*CSC*00302*01;PT*TRK*E*CSC*00302*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12801323414"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.3411166,
+      38.727554
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12801323415",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "capacity": "2",
+    "construction:amenity": "charging_station",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CSC-00301",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "CSC-00301",
+    "ref:EU:EVSE": "PT*TRK*E*CSC*00301*01;PT*TRK*E*CSC*00301*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12801323415"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.3467134,
+      38.7072056
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12801323416",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "construction:man_made": "charge_point",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Ionity",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "ETR-?????",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "600",
+    "socket:type2_combo:output": "400kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12801323416"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.566179,
+      40.7808918
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12801323417",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "construction:man_made": "charge_point",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Ionity",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "ETR-?????",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "600",
+    "socket:type2_combo:output": "400kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12801323417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.566238,
+      40.780908
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12801323418",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "construction:man_made": "charge_point",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Ionity",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "ETR-?????",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "600",
+    "socket:type2_combo:output": "400kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12801323418"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5663131,
+      40.7809162
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12801323419",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "construction:man_made": "charge_point",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Ionity",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "ETR-?????",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "600",
+    "socket:type2_combo:output": "400kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12801323419"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5662729,
+      40.7810086
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12801323420",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "construction:man_made": "charge_point",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Ionity",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "ETR-?????",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "600",
+    "socket:type2_combo:output": "400kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12801323420"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5662138,
+      40.7809923
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12801323421",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "construction:man_made": "charge_point",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Ionity",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "ETR-?????",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "600",
+    "socket:type2_combo:output": "400kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12801323421"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.56615,
+      40.780978
     ]
   }
 }
