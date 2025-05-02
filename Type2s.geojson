@@ -159,6 +159,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LSB-90064",
+    "ref:EU:EVSE": "PT*GLP*ELSB*90064*01;PT*GLP*ELSB*90064*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -2041,7 +2042,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "LRS-00030",
+    "name": "LRS-90030",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -2052,6 +2053,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LRS-90030",
+    "ref:EU:EVSE": "PT*GLP*ELRS*90030*01;PT*GLP*ELRS*90030*02",
     "socket:type2": "2",
     "socket:type2:current": "16",
     "socket:type2:output": "3.7kW",
@@ -9273,7 +9275,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CRT-00001",
+    "name": "CRT-90001",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -33870,43 +33872,6 @@
     "coordinates": [
       -8.4769902,
       41.3319669
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8381761689",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "authentication:app": "yes",
-    "authentication:none": "no",
-    "brand": "Continente Plug&Charge",
-    "capacity": "4",
-    "fee": "yes",
-    "motorcar": "yes",
-    "name": "Continente Bom Dia Guarda",
-    "network": "Continente Plug&Charge",
-    "opening_hours": "Mo-Su 09:00-21:00",
-    "operator": "Sonae",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "no",
-    "socket:type2": "4",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22kW",
-    "socket:type2:voltage": "400",
-    "website": "https://plugcharge.continente.pt/",
-    "id": "node/8381761689"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.2464114,
-      40.5544454
     ]
   }
 },
@@ -108090,46 +108055,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12666599526",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "2",
-    "fee": "yes",
-    "fixme": "Move to exact location",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "ESP-00015",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Atlante",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "ref": "ESP-00015",
-    "ref:EU:EVSE": "PT*ATL*EESP*00015*1;PT*ATL*EESP*00015*2",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22kW",
-    "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt/",
-    "id": "node/12666599526"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.6450125,
-      41.0093865
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12666631199",
   "properties": {
     "access": "yes",
@@ -116247,6 +116172,82 @@
     "coordinates": [
       -8.5147771,
       41.4067502
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12802237647",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Continente Bom Dia Guarda",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "24/7",
+    "operator": "Sonae",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/12802237647"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.2465547,
+      40.5545745
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12802242164",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Continente Modelo Mangualde",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "24/7",
+    "operator": "Sonae",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/12802242164"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.7611379,
+      40.6019531
     ]
   }
 }

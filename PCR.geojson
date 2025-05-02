@@ -30393,6 +30393,7 @@
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
+    "operator:wikidata": "Q1341222",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
@@ -58269,6 +58270,7 @@
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
+    "operator:wikidata": "Q1341222",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
@@ -64698,10 +64700,11 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "ref": "LNH-00016",
+    "ref:EU:EVSE": "PT*GLP*ELNH*00016*01;PT*GLP*ELNH*00016*02",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "250",
+    "socket:type2_combo:current": "125",
     "socket:type2_combo:output": "120kW",
-    "socket:type2_combo:voltage": "950",
+    "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt/",
     "id": "node/11446214797"
   },
@@ -68466,52 +68469,6 @@
     "coordinates": [
       -7.730298,
       41.315184
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11813592527",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "authentication:app": "yes",
-    "authentication:none": "no",
-    "brand": "Continente Plug&Charge",
-    "capacity": "4",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "Continente Modelo Mangualde",
-    "network": "Continente Plug&Charge",
-    "opening_hours": "24/7",
-    "operator": "Sonae",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "no",
-    "socket:chademo": "1",
-    "socket:chademo:current": "120",
-    "socket:chademo:output": "50kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22kW",
-    "socket:type2:voltage": "400",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "125",
-    "socket:type2_combo:output": "50kW",
-    "socket:type2_combo:voltage": "500",
-    "website": "https://plugcharge.continente.pt/",
-    "id": "node/11813592527"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.7612962,
-      40.601915
     ]
   }
 },
@@ -87229,7 +87186,6 @@
     "authentication:none": "no",
     "capacity": "2",
     "fee": "yes",
-    "fixme": "Move to exact location",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "MTS-00176",
@@ -87261,8 +87217,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6978203,
-      41.2287397
+      -8.697887,
+      41.228687
     ]
   }
 },
@@ -89850,46 +89806,6 @@
     "coordinates": [
       -9.0264695,
       38.6535884
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12666599527",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "2",
-    "fee": "yes",
-    "fixme": "Move to exact location",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "ESP-00014",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Atlante",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "yes",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "ref": "ESP-00014",
-    "ref:EU:EVSE": "PT*ATL*EESP*00014*1;PT*ATL*EESP*00014*2",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "300",
-    "socket:type2_combo:output": "120kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/",
-    "id": "node/12666599527"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.6450107,
-      41.0093613
     ]
   }
 },
@@ -94190,6 +94106,90 @@
     "coordinates": [
       -8.5474377,
       41.1710927
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12802237644",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Continente Bom Dia Guarda",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "24/7",
+    "operator": "Sonae",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "socket:chademo": "1",
+    "socket:chademo:current": "120",
+    "socket:chademo:output": "50kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "125",
+    "socket:type2_combo:output": "50kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/12802237644"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.2465739,
+      40.5545268
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12802242166",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Continente Modelo Mangualde",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "24/7",
+    "operator": "Sonae",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "socket:chademo": "1",
+    "socket:chademo:current": "120",
+    "socket:chademo:output": "50kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "125",
+    "socket:type2_combo:output": "50kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/12802242166"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.7611398,
+      40.6019032
     ]
   }
 }
