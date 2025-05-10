@@ -1723,12 +1723,13 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "VNG-00066",
+    "ref:EU:EVSE": "PT*EDP*EVNG*00066*1;PT*EDP*EVNG*00066*2",
     "socket:chademo": "1",
     "socket:chademo:current": "125",
     "socket:chademo:output": "50kW",
     "socket:chademo:voltage": "500",
     "socket:type2_combo": "1",
-    "socket:type2_combo:current": "350",
+    "socket:type2_combo:current": "300",
     "socket:type2_combo:output": "160kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt",
@@ -9631,6 +9632,49 @@
     "coordinates": [
       -7.1711946,
       38.8777813
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12175855268",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "GMR-00134",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "GMR-00134",
+    "socket:chademo": "1",
+    "socket:chademo:current": "200",
+    "socket:chademo:output": "80kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "150kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/12175855268"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.3512168,
+      41.4252651
     ]
   }
 },
