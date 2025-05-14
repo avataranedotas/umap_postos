@@ -7516,6 +7516,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LLE-00079",
+    "ref:EU:EVSE": "PT*GLP*ELLE*00079*01;PT*GLP*ELLE*00079*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -32175,47 +32176,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8309478322",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "2",
-    "email": "mobilidade-eletrica@edp.pt",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "ARC-90001",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "EDP",
-    "operator:wikidata": "Q1341222",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 222 222",
-    "ref": "ARC-90001",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22kW",
-    "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt",
-    "id": "node/8309478322"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.2481605,
-      40.9297791
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8309480494",
   "properties": {
     "access": "yes",
@@ -46643,7 +46603,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CRS-00002 - Repsol",
+    "name": "CRS-00002",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Repsol",
@@ -53119,6 +53079,44 @@
     "coordinates": [
       -8.3426661,
       41.4483045
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10589884566",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Continente Maia Jardim",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "Mo-Su 09:00-21:00",
+    "operator": "Sonae",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/10589884566"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5974243,
+      41.2373244
     ]
   }
 },
@@ -102944,6 +102942,46 @@
 },
 {
   "type": "Feature",
+  "id": "node/12619159933",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "STS-00038",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "STS-00038",
+    "ref:EU:EVSE": "PT*TRK*E*STS*00038*01;PT*TRK*E*STS*00038*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12619159933"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4778365,
+      41.3481983
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12619177530",
   "properties": {
     "access": "yes",
@@ -111888,46 +111926,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12691154252",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Galp electric",
-    "capacity": "2",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "ALQ-00027",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Galp Power",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "ref": "ALQ-00027",
-    "ref:EU:EVSE": "PT*GLP*EALQ*00027*01;PT*GLP*EALQ*00027*02",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22kW",
-    "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt/",
-    "id": "node/12691154252"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.97721,
-      39.023354
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12691453177",
   "properties": {
     "access": "yes",
@@ -116813,6 +116811,43 @@
 },
 {
   "type": "Feature",
+  "id": "node/12760342906",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Continente Modelo Caldas da Rainha",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "24/7",
+    "operator": "Sonae",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "socket:type2_cable": "2",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/12760342906"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1406093,
+      39.4136382
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12762123352",
   "properties": {
     "access": "yes",
@@ -118342,6 +118377,46 @@
     "coordinates": [
       -8.737825,
       40.614613
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12827170711",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "fixme": "Move to exact location",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LSB-00945",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EMEL",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "LSB-00945",
+    "ref:EU:EVSE": "PT*EML*E*LSB*00945*01;PT*EML*E*LSB*00945*02",
+    "socket:type2": "2",
+    "socket:type2:current": "16",
+    "socket:type2:output": "11kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12827170711"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1871747,
+      38.7614122
     ]
   }
 },
