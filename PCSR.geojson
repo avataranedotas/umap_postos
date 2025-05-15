@@ -210,6 +210,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 210 204",
     "ref": "OER-00038",
+    "ref:EU:EVSE": "PT*MLT*EOER*00038*01;PT*MLT*EOER*00038*02",
     "socket:chademo": "1",
     "socket:chademo:current": "120",
     "socket:chademo:output": "50kW",
@@ -352,6 +353,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "OER-00085",
+    "ref:EU:EVSE": "PT*GLP*EOER*00085*01;PT*GLP*EOER*00085*02",
     "socket:chademo": "1",
     "socket:chademo:current": "120",
     "socket:chademo:output": "50kW",
@@ -2392,6 +2394,47 @@
     "coordinates": [
       -7.6410696,
       41.3236528
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9654015683",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "support.portugal@atlante.energy",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "old_operator": "KLC",
+    "old_ref": "LLE-00090",
+    "opening_hours": "24/7",
+    "operator": "Atlante",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 296 929",
+    "ref": "LLE-00164",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "375",
+    "socket:type2_combo:output": "150kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/9654015683"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.1202138,
+      37.0823543
     ]
   }
 },
@@ -11785,7 +11828,7 @@
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
-    "operator": "PowerDot",
+    "operator": "Powerdot",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
@@ -11823,7 +11866,7 @@
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
-    "operator": "PowerDot",
+    "operator": "Powerdot",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
@@ -13520,7 +13563,7 @@
     "name": "SCD-00010",
     "network": "Mobi.E",
     "opening_hours": "24/7",
-    "operator": "PowerDot",
+    "operator": "Powerdot",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "yes",
@@ -13560,7 +13603,7 @@
     "name": "SCD-00009",
     "network": "Mobi.E",
     "opening_hours": "24/7",
-    "operator": "PowerDot",
+    "operator": "Powerdot",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "yes",
@@ -13600,7 +13643,7 @@
     "name": "SCD-00008",
     "network": "Mobi.E",
     "opening_hours": "24/7",
-    "operator": "PowerDot",
+    "operator": "Powerdot",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "yes",
@@ -13640,7 +13683,7 @@
     "name": "SCD-00007",
     "network": "Mobi.E",
     "opening_hours": "24/7",
-    "operator": "PowerDot",
+    "operator": "Powerdot",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "yes",
@@ -14073,6 +14116,44 @@
     "coordinates": [
       -8.2833406,
       41.2150996
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12826393044",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "ACH-00036",
+    "network": "Mobi.E",
+    "opening_hours": "10:00-22:00",
+    "operator": "Atlante",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "ACH-00036",
+    "ref:EU:EVSE": "PT*ATL*EACH*00036*1;PT*ATL*EACH*00036*2",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "375",
+    "socket:type2_combo:output": "150kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12826393044"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.938919,
+      38.7513054
     ]
   }
 }
