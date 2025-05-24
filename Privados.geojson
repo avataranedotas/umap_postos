@@ -12193,13 +12193,15 @@
   "properties": {
     "access": "customers",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Galp electric",
     "capacity": "2",
     "email": "mobilidade.electricacrc@galp.com",
     "fee": "yes",
+    "level": "0",
+    "location": "underground",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -12212,6 +12214,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "SNT-00034",
+    "ref:EU:EVSE": "PT*GLP*ESNT*00034*01;PT*GLP*ESNT*00034*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -12222,8 +12225,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.353241,
-      38.7810966
+      -9.3531647,
+      38.7813193
     ]
   }
 },
@@ -14008,6 +14011,7 @@
     "capacity": "2",
     "email": "mobilidade.electricacrc@galp.com",
     "fee": "yes",
+    "location": "underground",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -14020,6 +14024,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "SNT-00029",
+    "ref:EU:EVSE": "PT*GLP*ESNT*00029*01;PT*GLP*ESNT*00029*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4kW",
@@ -14030,8 +14035,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.3532491,
-      38.7810579
+      -9.353081,
+      38.781498
     ]
   }
 },
@@ -15941,6 +15946,44 @@
     "coordinates": [
       -9.1466202,
       38.7683587
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8978106642",
+  "properties": {
+    "access": "private",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Magnum Cap",
+    "no:network": "yes",
+    "old_ref": "AVR-00020;AVR-00021",
+    "opening_hours": "24/7",
+    "operator": "Atlante",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "7.4kW",
+    "socket:type2:voltage": "230",
+    "website": "https://www.mobie.pt",
+    "id": "node/8978106642"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6080387,
+      40.6480734
     ]
   }
 },
@@ -20426,6 +20469,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LSB-00497",
+    "ref:EU:EVSE": "PT*GLP*ELSB*00497*01;PT*GLP*ELSB*00497*02",
     "socket:type2": "2",
     "socket:type2:current": "16",
     "socket:type2:output": "11kW",
@@ -40028,13 +40072,15 @@
   "properties": {
     "access": "customers",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Galp electric",
     "capacity": "2",
     "email": "mobilidade.electricacrc@galp.com",
     "fee": "yes",
+    "level": "0",
+    "location": "underground",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -40057,8 +40103,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.3532625,
-      38.7810171
+      -9.3531495,
+      38.7813631
     ]
   }
 },
