@@ -5672,7 +5672,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VNG-00178 - BP",
+    "name": "VNG-00178",
     "network": "Mobi.E",
     "old_operator": "EDP",
     "old_ref": "VNG-00033",
@@ -5694,8 +5694,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6418416,
-      41.0279602
+      -8.6418309,
+      41.028027
     ]
   }
 },
@@ -40557,7 +40557,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "PLM-00014 - Mercado Municipal",
+    "name": "PLM-00014",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -40568,6 +40568,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "PLM-00014",
+    "ref:EU:EVSE": "PT*GLP*EPLM*00014*01;PT*GLP*EPLM*00014*02;PT*GLP*EPLM*00014*03",
     "socket:chademo": "1",
     "socket:chademo:current": "120",
     "socket:chademo:output": "50kW",
@@ -44339,7 +44340,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "SSB-00009 - Parque Augusto Pólvora",
+    "name": "SSB-00009",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -44368,8 +44369,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.0873329,
-      38.4718973
+      -9.0872384,
+      38.471913
     ]
   }
 },
@@ -46725,7 +46726,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VNG-00101 - Repsol",
+    "name": "VNG-00101",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Repsol",
@@ -48396,7 +48397,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VNG-00135 - Pingo Doce",
+    "name": "VNG-00135",
     "network": "Mobi.E",
     "old_ref": "VNG-00106",
     "opening_hours": "24/7",
@@ -67211,6 +67212,7 @@
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
+    "operator:wikidata": "Q1341222",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
@@ -68094,6 +68096,7 @@
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
+    "operator:wikidata": "Q1341222",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
@@ -76744,7 +76747,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VNG-00163 - Lidl",
+    "name": "VNG-00163",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "KLC Serviços",
@@ -76772,8 +76775,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6409254,
-      41.0305694
+      -8.6410005,
+      41.0305927
     ]
   }
 },
@@ -96363,6 +96366,84 @@
     "coordinates": [
       -8.4147253,
       40.8838832
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12851884320",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "VFX-00101",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "VFX-00101",
+    "ref:EU:EVSE": "PT*GLP*EVFX*00101*01;PT*GLP*EVFX*00101*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "120",
+    "socket:type2_combo:output": "60kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12851884320"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.0784296,
+      38.8562159
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12851884321",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "VFX-00100",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "VFX-00100",
+    "ref:EU:EVSE": "PT*GLP*EVFX*00100*01;PT*GLP*EVFX*00100*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "200",
+    "socket:type2_combo:output": "120kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12851884321"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.0784111,
+      38.8562586
     ]
   }
 },
