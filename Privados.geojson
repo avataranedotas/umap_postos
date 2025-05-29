@@ -6012,7 +6012,6 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "FAR-00023 - Pousada Palácio de Estoi",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -6052,7 +6051,6 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "FAR-00022 - Hotel Pestana Estoi",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -20175,7 +20173,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "STB-00025 - Seat Arrábida",
+    "name": "STB-00025",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Moon",
@@ -21219,6 +21217,7 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "ref": "PTM-00055",
+    "ref:EU:EVSE": "PT*GLP*EPTM*00055*01;PT*GLP*EPTM*00055*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -31725,7 +31724,6 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "LMG-00015 - Quinta de Casaldronho",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Iberdrola",
@@ -46485,6 +46483,44 @@
     "coordinates": [
       -9.1374151,
       38.7384331
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12871952156",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "Mo-Fr 08:30-20:00; Sa 10:00-20:00; Su 14:00-20:00",
+    "operator": "EDP",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "VCD-00051",
+    "ref:EU:EVSE": "PT*EDP*E*VCD*00051*01;PT*EDP*E*VCD*00051*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "300",
+    "socket:type2_combo:output": "120kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12871952156"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.702897,
+      41.3036472
     ]
   }
 }
