@@ -58393,6 +58393,7 @@
     "authentication:none": "no",
     "capacity": "2",
     "fee": "yes",
+    "fixme": "Verificar se tem ficha Chademo ou não",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "MGR-00008",
@@ -58414,7 +58415,7 @@
     "socket:type2:output": "22kW",
     "socket:type2:voltage": "400",
     "socket:type2_combo": "1",
-    "socket:type2_combo:current": "200",
+    "socket:type2_combo:current": "375",
     "socket:type2_combo:output": "100kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt/",
@@ -90227,6 +90228,45 @@
 },
 {
   "type": "Feature",
+  "id": "node/12688223701",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LSB-00856",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "LSB-00856",
+    "ref:EU:EVSE": "PT*GLP*ELSB*00856*01;PT*GLP*ELSB*00856*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "250",
+    "socket:type2_combo:output": "120kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12688223701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.183501,
+      38.70073
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12688783217",
   "properties": {
     "access": "yes",
@@ -97348,6 +97388,45 @@
     "coordinates": [
       -9.3601293,
       39.1371348
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12957677178",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "fixme": "Move to exact location",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "OER-00243",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "OER-00243",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "200",
+    "socket:type2_combo:output": "120kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12957677178"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.2183233,
+      38.722528
     ]
   }
 }
