@@ -2330,18 +2330,15 @@
   "properties": {
     "access": "customers",
     "addr:country": "PT",
-    "amenity": "charging_station",
-    "capacity": "4",
+    "capacity": "1",
     "fee": "no",
+    "man_made": "charge_point",
     "motorcar": "yes",
-    "name": "Tivoli Évora Ecoresort Tesla Destination Charger",
     "network": "Tesla",
     "operator": "Tesla",
     "parking:fee": "no",
     "ref": "dc33179",
-    "socket:tesla_destination": "2",
-    "socket:tesla_destination:output": "22kW",
-    "socket:type2_cable": "2",
+    "socket:type2_cable": "1",
     "socket:type2_cable:output": "22kW",
     "website": "https://www.tesla.com/pt_PT/findus/list/chargers/Portugal",
     "id": "node/8187046416"
@@ -2349,8 +2346,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.970107,
-      38.5533545
+      -7.9701382,
+      38.5533729
     ]
   }
 },
@@ -2381,36 +2378,6 @@
     "coordinates": [
       -7.8863972,
       38.5695075
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8194571742",
-  "properties": {
-    "access": "customers",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "capacity": "4",
-    "fee": "no",
-    "motorcar": "yes",
-    "name": "Convento do Espinheiro - Hotel & SPA Tesla Destination Charger",
-    "network": "Tesla",
-    "operator": "Tesla",
-    "parking:fee": "no",
-    "ref": "dc71519",
-    "socket:tesla_destination": "2",
-    "socket:tesla_destination:output": "22kW",
-    "socket:type2_cable": "2",
-    "socket:type2_cable:output": "22kW",
-    "website": "https://www.tesla.com/pt_PT/findus/list/chargers/Portugal",
-    "id": "node/8194571742"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.8884666,
-      38.6010964
     ]
   }
 },
@@ -7358,12 +7325,13 @@
   "properties": {
     "access": "customers",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "4",
+    "capacity": "1",
     "email": "mobilidade-eletrica@edp.pt",
     "fee": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -7375,8 +7343,8 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
-    "ref": "EVR-00014;EVR-00015;EVR-00032",
-    "socket:type2": "4",
+    "ref": "EVR-00014",
+    "socket:type2": "1",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4kW",
     "socket:type2:voltage": "230",
@@ -7386,8 +7354,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.9151478,
-      38.5667236
+      -7.9151753,
+      38.5667648
     ]
   }
 },
@@ -12731,8 +12699,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.9701573,
-      38.5532863
+      -7.9701935,
+      38.5532706
     ]
   }
 },
@@ -14981,8 +14949,8 @@
     "authentication:none": "no",
     "capacity": "2",
     "fee": "yes",
+    "fixme": "Verificar se está operacional",
     "motorcar": "yes",
-    "name": "Intermarché de Tábua",
     "opening_hours": "Mo-Su 08:30-20:00",
     "parking:fee": "no",
     "socket:type2": "2",
@@ -18833,13 +18801,12 @@
   "properties": {
     "access": "customers",
     "addr:country": "PT",
-    "amenity": "charging_station",
-    "capacity": "2",
+    "capacity": "1",
+    "man_made": "charge_point",
     "motorcar": "yes",
-    "name": "Restaurante Alxama",
     "no:network": "yes",
     "operator": "Restaurante Alxama",
-    "socket:type2_cable": "2",
+    "socket:type2_cable": "1",
     "socket:type2_cable:current": "16",
     "socket:type2_cable:output": "11kW",
     "socket:type2_cable:voltage": "400",
@@ -18848,8 +18815,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.067231,
-      37.095218
+      -8.0671002,
+      37.0950963
     ]
   }
 },
@@ -32013,17 +31980,16 @@
   "type": "Feature",
   "id": "node/12068698215",
   "properties": {
-    "access": "customers",
+    "access": "private",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "4",
+    "capacity": "2",
     "fee": "yes",
     "location": "underground",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "LSB-00717/718",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -32032,19 +31998,18 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "LSB-00717;LSB-00718",
-    "socket:type2": "4",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22kW",
-    "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt/",
+    "ref": "LSB-00716",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "200",
+    "socket:type2_combo:output": "60kW",
+    "socket:type2_combo:voltage": "1000",
     "id": "node/12068698215"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.149076,
-      38.7077899
+      -9.1490606,
+      38.7078709
     ]
   }
 },
@@ -32763,14 +32728,14 @@
   "properties": {
     "access": "customers",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "4",
+    "capacity": "2",
     "fee": "yes",
+    "fixme": "Move to exact location",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "GDL-00045/46",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -32779,8 +32744,8 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "GDL-00045;GDL-00046",
-    "socket:type2": "4",
+    "ref": "GDL-00045",
+    "socket:type2": "2",
     "socket:type2:current": "16",
     "socket:type2:output": "11kW",
     "socket:type2:voltage": "400",
@@ -32790,8 +32755,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6991195,
-      38.2814714
+      -8.6990377,
+      38.2813759
     ]
   }
 },
@@ -33566,14 +33531,13 @@
   "properties": {
     "access": "customers",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "4",
+    "capacity": "2",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "GDL-00047/48",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Iberdrola",
@@ -33582,8 +33546,8 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "GDL-00047;GDL-00048",
-    "socket:type2_cable": "4",
+    "ref": "GDL-00047",
+    "socket:type2_cable": "2",
     "socket:type2_cable:current": "32",
     "socket:type2_cable:output": "22kW",
     "socket:type2_cable:voltage": "400",
@@ -33593,8 +33557,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.7494807,
-      38.2833785
+      -8.7494789,
+      38.2833215
     ]
   }
 },
@@ -42336,44 +42300,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12670363950",
-  "properties": {
-    "access": "customers",
-    "addr:country": "PT",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "1",
-    "fee": "yes",
-    "man_made": "charge_point",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "Mo-Fr 08:30-19:00;Sa 10:00-13:00",
-    "operator": "Moon",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "ref": "LSB-00847",
-    "ref:EU:EVSE": "PT*MOO*E13011*001*2",
-    "socket:type2": "1",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22kW",
-    "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt/",
-    "id": "node/12670363950"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.1065446,
-      38.7564692
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12670363951",
   "properties": {
     "access": "customers",
@@ -42396,8 +42322,8 @@
     "ref": "LSB-00847",
     "ref:EU:EVSE": "PT*MOO*E13011*001*1",
     "socket:chademo": "1",
-    "socket:chademo:current": "120",
-    "socket:chademo:output": "50kW",
+    "socket:chademo:current": "190",
+    "socket:chademo:output": "75kW",
     "socket:chademo:voltage": "500",
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "190",
@@ -44350,6 +44276,45 @@
     "coordinates": [
       -7.6241235,
       40.266096
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12731930168",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "location": "underground",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Atlante",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "CSC-00279",
+    "ref:EU:EVSE": "PT*ATL*ECSC*00279*1;PT*ATL*ECSC*00279*2",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "125",
+    "socket:type2_combo:output": "50kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12731930168"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.4361185,
+      38.695735
     ]
   }
 },
@@ -47211,6 +47176,420 @@
     "coordinates": [
       -7.9776567,
       37.8208066
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12969409369",
+  "properties": {
+    "access": "private",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "LSB-00718",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12969409369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1490813,
+      38.7077805
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12969409370",
+  "properties": {
+    "access": "private",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "LSB-00717",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12969409370"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1490713,
+      38.7078264
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12969667718",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "capacity": "1",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "no:network": "yes",
+    "operator": "Restaurante Alxama",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "16",
+    "socket:type2_cable:output": "11kW",
+    "socket:type2_cable:voltage": "400",
+    "id": "node/12969667718"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.0671661,
+      37.0950721
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12969667719",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "capacity": "1",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "no:network": "yes",
+    "operator": "Restaurante Alxama",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "16",
+    "socket:type2_cable:output": "11kW",
+    "socket:type2_cable:voltage": "400",
+    "id": "node/12969667719"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.0671359,
+      37.0950839
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12969667720",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "capacity": "1",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "no:network": "yes",
+    "operator": "Restaurante Alxama",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "16",
+    "socket:type2_cable:output": "11kW",
+    "socket:type2_cable:voltage": "400",
+    "id": "node/12969667720"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.0670688,
+      37.0951122
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12969676451",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Iberdrola",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "GDL-00048",
+    "socket:type2_cable": "2",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12969676451"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.7494203,
+      38.2833214
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12969677159",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "fixme": "Move to exact location",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "GDL-00046",
+    "socket:type2": "2",
+    "socket:type2:current": "16",
+    "socket:type2:output": "11kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12969677159"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6990948,
+      38.2813864
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12969828124",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "capacity": "1",
+    "fee": "no",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "operator": "Tesla",
+    "parking:fee": "no",
+    "ref": "dc33179",
+    "socket:tesla_destination": "1",
+    "socket:tesla_destination:output": "22kW",
+    "website": "https://www.tesla.com/pt_PT/findus/list/chargers/Portugal",
+    "id": "node/12969828124"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.9700796,
+      38.5533704
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12969828125",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "capacity": "1",
+    "fee": "no",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "operator": "Tesla",
+    "parking:fee": "no",
+    "ref": "dc33179",
+    "socket:tesla_destination": "1",
+    "socket:tesla_destination:output": "22kW",
+    "website": "https://www.tesla.com/pt_PT/findus/list/chargers/Portugal",
+    "id": "node/12969828125"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.970109,
+      38.5533718
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12969840068",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "mobilidade-eletrica@edp.pt",
+    "fee": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "EVR-00032",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "7.4kW",
+    "socket:type2:voltage": "230",
+    "website": "https://www.mobie.pt",
+    "id": "node/12969840068"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.915178,
+      38.5668209
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12969840069",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "email": "mobilidade-eletrica@edp.pt",
+    "fee": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "EVR-00015",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "7.4kW",
+    "socket:type2:voltage": "230",
+    "website": "https://www.mobie.pt",
+    "id": "node/12969840069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.9151763,
+      38.5667868
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12969937561",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "capacity": "1",
+    "fee": "no",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "operator": "Tesla",
+    "parking:fee": "no",
+    "ref": "dc71519",
+    "socket:tesla_destination": "1",
+    "socket:tesla_destination:output": "22kW",
+    "website": "https://www.tesla.com/pt_PT/findus/list/chargers/Portugal",
+    "id": "node/12969937561"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.8872123,
+      38.6014436
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12969937562",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "capacity": "1",
+    "fee": "no",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "operator": "Tesla",
+    "parking:fee": "no",
+    "ref": "dc71519",
+    "socket:tesla_destination": "1",
+    "socket:tesla_destination:output": "22kW",
+    "website": "https://www.tesla.com/pt_PT/findus/list/chargers/Portugal",
+    "id": "node/12969937562"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.8872098,
+      38.6014663
     ]
   }
 }
