@@ -2297,38 +2297,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8168729215",
-  "properties": {
-    "access": "customers",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "brand": "Tesla",
-    "brand:wikidata": "Q478214",
-    "capacity": "4",
-    "fee": "no",
-    "motorcar": "yes",
-    "name": "Four Points by Sheraton Sesimbra Tesla Destination Charger",
-    "network": "Tesla",
-    "operator": "Tesla",
-    "operator:wikidata": "Q478214",
-    "parking:fee": "yes",
-    "socket:tesla_destination": "2",
-    "socket:tesla_destination:output": "22kW",
-    "socket:type2_cable": "2",
-    "socket:type2_cable:output": "22kW",
-    "website": "https://www.tesla.com/pt_PT/findus/list/chargers/Portugal",
-    "id": "node/8168729215"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.1069428,
-      38.447417
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8168730333",
   "properties": {
     "access": "customers",
@@ -16478,17 +16446,16 @@
   "properties": {
     "access": "customers",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "helexia",
-    "capacity": "4",
+    "capacity": "2",
     "email": "geral.pt@helexia.eu",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "PLM-00008/9 - Parque Industrial Autoeuropa",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Helexia II",
@@ -16498,8 +16465,8 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 210 181 157",
-    "ref": "PLM-00008;PLM-00009",
-    "socket:type2": "4",
+    "ref": "PLM-00009",
+    "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
     "socket:type2:voltage": "400",
@@ -16509,8 +16476,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.999408,
-      38.5856871
+      -8.9994258,
+      38.5857054
     ]
   }
 },
@@ -21678,56 +21645,6 @@
     "coordinates": [
       -9.0953118,
       38.7518545
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9960356556",
-  "properties": {
-    "access": "customers",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Powerdot",
-    "brand:wikidata": "Q123574541",
-    "capacity": "4",
-    "email": "ajuda@powerdot.pt",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "CSC-00112 - Recheio",
-    "opening_hours": "24/7",
-    "operator": "Powerdot",
-    "operator:wikidata": "Q123574541",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 180 292",
-    "ref": "CSC-00112",
-    "socket:chademo": "1",
-    "socket:chademo:current": "125",
-    "socket:chademo:output": "50",
-    "socket:chademo:voltage": "500",
-    "socket:type2": "1",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22kW",
-    "socket:type2:voltage": "400",
-    "socket:type2_combo": "3",
-    "socket:type2_combo:current": "200",
-    "socket:type2_combo:output": "80kW",
-    "socket:type2_combo:voltage": "500",
-    "website": "https://www.mobie.pt/",
-    "id": "node/9960356556"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.388288,
-      38.735502
     ]
   }
 },
@@ -51280,6 +51197,90 @@
 },
 {
   "type": "Feature",
+  "id": "node/12992394215",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "helexia",
+    "capacity": "2",
+    "email": "geral.pt@helexia.eu",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LLE-00240",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Helexia II",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 210 181 157",
+    "ref": "LLE-00240",
+    "ref:EU:EVSE": "PT*HLX*E*LLE*00240*01;PT*HLX*E*LLE*00240*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12992394215"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.1162753,
+      37.0748703
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12992394216",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "helexia",
+    "capacity": "2",
+    "email": "geral.pt@helexia.eu",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LLE-00239",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Helexia II",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 210 181 157",
+    "ref": "LLE-00239",
+    "ref:EU:EVSE": "PT*HLX*E*LLE*00239*01;PT*HLX*E*LLE*00239*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "250",
+    "socket:type2_combo:output": "100kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12992394216"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.116231,
+      37.07487
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12994477765",
   "properties": {
     "access": "customers",
@@ -51585,6 +51586,47 @@
     "coordinates": [
       -8.902247,
       38.530874
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13002781909",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "helexia",
+    "capacity": "2",
+    "email": "geral.pt@helexia.eu",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Helexia II",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 210 181 157",
+    "ref": "PLM-00008",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/13002781909"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.9994952,
+      38.5857086
     ]
   }
 }
