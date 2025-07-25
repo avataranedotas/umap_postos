@@ -28063,11 +28063,10 @@
     "authentication:none": "no",
     "brand": "edp Charge",
     "brand:wikidata": "Q135275389",
-    "capacity": "4",
+    "capacity": "2",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "TMR-00032/33",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -28078,8 +28077,9 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
-    "ref": "TMR-00032;TMR-00033",
-    "socket:type2": "4",
+    "ref": "TMR-00033",
+    "ref:EU:EVSE": "PT*EDP*E*TMR*00033*01;PT*EDP*E*TMR*00033*02",
+    "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
     "socket:type2:voltage": "400",
@@ -35238,6 +35238,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "OVR-00023",
+    "ref:EU:EVSE": "PT*EDP*EOVR*00023*1;PT*EDP*EOVR*00023*2",
     "socket:type2": "2",
     "socket:type2:current": "16",
     "socket:type2:output": "11kW",
@@ -35248,8 +35249,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.622103,
-      40.882195
+      -8.6221882,
+      40.8820652
     ]
   }
 },
@@ -51782,6 +51783,49 @@
     "coordinates": [
       -8.9117344,
       38.5129926
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13021828254",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q135275389",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "TMR-00032",
+    "ref:EU:EVSE": "PT*EDP*E*TMR*00032*01;PT*EDP*E*TMR*00032*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13021828254"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.3960726,
+      39.6090632
     ]
   }
 }

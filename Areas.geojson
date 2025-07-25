@@ -7553,20 +7553,14 @@
   "properties": {
     "access": "yes",
     "amenity": "charging_station",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "4",
+    "capacity": "6",
     "motorcar": "yes",
-    "name": "VLG-00012",
+    "name": "VLG-00012/48",
     "network": "Mobi.E",
     "opening_hours": "24/7",
-    "operator": "Evio",
+    "operator": "Evio;EDP",
     "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "ref": "VLG-00012",
+    "ref": "VLG-00012;VLG-00048",
     "id": "way/1351374155"
   },
   "geometry": {
@@ -7574,15 +7568,15 @@
     "coordinates": [
       [
         [
-          -8.4769068,
-          41.1846015
+          -8.4769067,
+          41.1846016
         ],
         [
-          -8.4769062,
+          -8.4769061,
           41.1845799
         ],
         [
-          -8.4769056,
+          -8.4769055,
           41.1845582
         ],
         [
@@ -7590,19 +7584,15 @@
           41.1845366
         ],
         [
-          -8.4769044,
-          41.1845149
+          -8.4769032,
+          41.1844715
         ],
         [
-          -8.4768469,
-          41.1845158
+          -8.4768394,
+          41.1844724
         ],
         [
-          -8.4768402,
-          41.1845158
-        ],
-        [
-          -8.4768427,
+          -8.4768429,
           41.1846026
         ],
         [
@@ -7610,8 +7600,8 @@
           41.1846025
         ],
         [
-          -8.4769068,
-          41.1846015
+          -8.4769067,
+          41.1846016
         ]
       ]
     ]
@@ -19753,6 +19743,7 @@
     "capacity": "5",
     "email": "apoio.cliente@kmlowcost.com",
     "fee": "yes",
+    "indoor": "yes",
     "layer": "-1",
     "location": "underground",
     "maxstay": "unlimited",
@@ -33754,6 +33745,66 @@
         [
           -9.0403822,
           38.8885479
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1417059476",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Galp electric",
+    "brand:wikidata": "Q135275520",
+    "capacity": "4",
+    "email": "veiculoeletrico@galp.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LSB-00696…699",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "operator:wikidata": "Q135275372",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 249 249",
+    "ref": "LSB-00696;LSB-00697;LSB-00698;LSB-00699",
+    "website": "https://www.mobie.pt/",
+    "id": "way/1417059476"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -9.1555077,
+          38.7264828
+        ],
+        [
+          -9.1555453,
+          38.7265238
+        ],
+        [
+          -9.155639,
+          38.7264715
+        ],
+        [
+          -9.1556013,
+          38.7264305
+        ],
+        [
+          -9.1555077,
+          38.7264828
         ]
       ]
     ]
