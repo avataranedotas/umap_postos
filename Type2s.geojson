@@ -12045,7 +12045,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "AZB-00003",
+    "name": "AZB-90003",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -12057,6 +12057,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "AZB-90003",
+    "ref:EU:EVSE": "PT*GLP*E*AZB*90003*1;PT*GLP*E*AZB*90003*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22kW",
@@ -23474,14 +23475,14 @@
     "authentication:none": "no",
     "brand": "KLC",
     "brand:wikidata": "Q127504745",
-    "capacity": "2",
+    "capacity": "1",
     "description": "No parque de estacionamento. Se estiver fechado pedir na recepção para abrir.",
     "email": "apoio.cliente@kmlowcost.com",
     "fee": "yes",
     "location": "underground",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CLB-00010/11",
+    "name": "CLB-00011",
     "network": "Mobi.E",
     "old_operator": "KLC",
     "old_ref": "CLB-00004;CLB-00005;CLB-00006",
@@ -23494,8 +23495,8 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 202 060",
-    "ref": "CLB-00010;CLB-00011",
-    "socket:type2": "2",
+    "ref": "CLB-00011",
+    "socket:type2": "1",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4kW",
     "socket:type2:voltage": "230",
@@ -68946,8 +68947,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.4161447,
-      38.7019077
+      -9.4162909,
+      38.7021683
     ]
   }
 },
@@ -86716,9 +86717,10 @@
     "capacity": "2",
     "email": "comercial@iberdrola.pt",
     "fee": "yes",
+    "fixme": "Move to exact location",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "MAI-00058 - Mercadona",
+    "name": "MAI-00058",
     "network": "Mobi.E",
     "opening_hours": "09:00-21:30",
     "operator": "Iberdrola",
@@ -91370,8 +91372,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.4161451,
-      38.7016835
+      -9.4162913,
+      38.7019441
     ]
   }
 },
@@ -91413,8 +91415,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.416145,
-      38.7017051
+      -9.4162912,
+      38.7019657
     ]
   }
 },
@@ -91456,8 +91458,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.416145,
-      38.701728
+      -9.4162912,
+      38.7019886
     ]
   }
 },
@@ -91499,8 +91501,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.416145,
-      38.7017504
+      -9.4162912,
+      38.702011
     ]
   }
 },
@@ -91542,8 +91544,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.4161449,
-      38.7017736
+      -9.4162911,
+      38.7020342
     ]
   }
 },
@@ -91585,8 +91587,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.4161449,
-      38.701796
+      -9.4162911,
+      38.7020566
     ]
   }
 },
@@ -91628,8 +91630,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.4161449,
-      38.7018189
+      -9.4162911,
+      38.7020795
     ]
   }
 },
@@ -91671,8 +91673,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.4161448,
-      38.7018404
+      -9.416291,
+      38.702101
     ]
   }
 },
@@ -91714,8 +91716,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.4161448,
-      38.7018631
+      -9.416291,
+      38.7021237
     ]
   }
 },
@@ -91757,8 +91759,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.4161447,
-      38.701885
+      -9.4162909,
+      38.7021456
     ]
   }
 },
@@ -91800,8 +91802,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.4161447,
-      38.7019308
+      -9.4162909,
+      38.7021914
     ]
   }
 },
@@ -91843,8 +91845,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.4161446,
-      38.7019528
+      -9.4162908,
+      38.7022134
     ]
   }
 },
@@ -91886,8 +91888,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.4161446,
-      38.7019755
+      -9.4162908,
+      38.7022361
     ]
   }
 },
@@ -91929,8 +91931,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.4161445,
-      38.7019976
+      -9.4162907,
+      38.7022582
     ]
   }
 },
@@ -137433,6 +137435,49 @@
 },
 {
   "type": "Feature",
+  "id": "node/12992462082",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Powerdot",
+    "brand:wikidata": "Q123574541",
+    "capacity": "1",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "operator:wikidata": "Q123574541",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 180 292",
+    "ref": "PRT-00330",
+    "ref:EU:EVSE": "PT*HRZ*E*PRT*00330*01;PT*HRZ*E*PRT*00330*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/12992462082"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6010219,
+      41.1541007
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12993975876",
   "properties": {
     "access": "yes",
@@ -138520,6 +138565,45 @@
 },
 {
   "type": "Feature",
+  "id": "node/13012276801",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LRA-00160",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "CME",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "LRA-00160",
+    "ref:EU:EVSE": "PT*CME*E*LRA*00160*01",
+    "socket:type2": "1",
+    "socket:type2:current": "16",
+    "socket:type2:output": "11kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13012276801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.8550103,
+      39.7541184
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13012288572",
   "properties": {
     "access": "yes",
@@ -138803,6 +138887,54 @@
     "coordinates": [
       -25.535208,
       37.812927
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13022968245",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "KLC",
+    "brand:wikidata": "Q127504745",
+    "capacity": "1",
+    "description": "No parque de estacionamento. Se estiver fechado pedir na recepção para abrir.",
+    "email": "apoio.cliente@kmlowcost.com",
+    "fee": "yes",
+    "location": "underground",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CLB-00010",
+    "network": "Mobi.E",
+    "old_operator": "KLC",
+    "old_ref": "CLB-00004;CLB-00005;CLB-00006",
+    "opening_hours": "24/7",
+    "operator": "KLC Serviços",
+    "operator:wikidata": "Q127504745",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 202 060",
+    "ref": "CLB-00010",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "7.4kW",
+    "socket:type2:voltage": "230",
+    "website": "https://www.mobie.pt",
+    "id": "node/13022968245"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.4026863,
+      40.6263389
     ]
   }
 }
