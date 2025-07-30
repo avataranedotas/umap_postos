@@ -3322,15 +3322,15 @@
     "addr:housenumber": "1",
     "addr:postcode": "1950",
     "addr:street": "Rua Fernando Palha",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
-    "capacity": "4",
+    "capacity": "2",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "LSB-90150",
@@ -3345,7 +3345,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 180 292",
     "ref": "LSB-90150",
-    "socket:type2": "4",
+    "socket:type2": "2",
     "socket:type2:current": "16",
     "socket:type2:output": "3.7 kW",
     "socket:type2:voltage": "230",
@@ -3355,8 +3355,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.1019666,
-      38.7427706
+      -9.1019795,
+      38.7428398
     ]
   }
 },
@@ -12222,6 +12222,47 @@
     "coordinates": [
       -9.0038317,
       39.0508884
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8086093765",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "veiculoeletrico@galp.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "MFR-00001",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Mobiletric",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 249 249",
+    "ref": "MFR-00001",
+    "ref:EU:EVSE": "PT*MLT*EMFR*00001*01;PT*MLT*EMFR*00001*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/8086093765"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.419731,
+      38.9702816
     ]
   }
 },
@@ -25035,51 +25076,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8146818847",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Atlante",
-    "brand:wikidata": "Q126913632",
-    "capacity": "2",
-    "email": "support.portugal@atlante.energy",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "BRG-00005",
-    "network": "Mobi.E",
-    "old_ref": "BRG-90005",
-    "opening_hours": "24/7",
-    "operator": "Atlante",
-    "operator:wikidata": "Q126913632",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 296 929;+351 234 246 050",
-    "ref": "BRG-80005",
-    "socket:type2": "2",
-    "socket:type2:current": "16",
-    "socket:type2:output": "3.7 kW",
-    "socket:type2:voltage": "230",
-    "website": "https://www.mobie.pt",
-    "id": "node/8146818847"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.4195536,
-      41.5463996
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8146818848",
   "properties": {
     "access": "yes",
@@ -32956,10 +32952,10 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 910 124",
     "ref": "LSB-00119",
-    "socket:type2": "1",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
     "website": "https://www.mobie.pt",
     "id": "node/8304177143"
   },
@@ -87851,7 +87847,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "FLG-00023 - Staples",
+    "name": "FLG-00023",
     "network": "Mobi.E",
     "opening_hours": "09:00-20:00",
     "operator": "EDP",
@@ -97557,10 +97553,10 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 910 124",
     "ref": "LSB-00771",
-    "socket:type2": "1",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
     "website": "https://www.mobie.pt",
     "id": "node/12479372300"
   },
@@ -97600,10 +97596,10 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 910 124",
     "ref": "LSB-00770",
-    "socket:type2": "1",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
     "website": "https://www.mobie.pt",
     "id": "node/12479373301"
   },
@@ -97643,10 +97639,10 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 910 124",
     "ref": "LSB-00769",
-    "socket:type2": "1",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
     "website": "https://www.mobie.pt",
     "id": "node/12479373302"
   },
@@ -97686,10 +97682,10 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 910 124",
     "ref": "LSB-00152",
-    "socket:type2": "1",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
     "website": "https://www.mobie.pt",
     "id": "node/12479373303"
   },
@@ -97729,10 +97725,10 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 910 124",
     "ref": "LSB-00126",
-    "socket:type2": "1",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
     "website": "https://www.mobie.pt",
     "id": "node/12479373304"
   },
@@ -97772,10 +97768,10 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 910 124",
     "ref": "LSB-00125",
-    "socket:type2": "1",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
     "website": "https://www.mobie.pt",
     "id": "node/12479373305"
   },
@@ -97815,10 +97811,10 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 910 124",
     "ref": "LSB-00121",
-    "socket:type2": "1",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
     "website": "https://www.mobie.pt",
     "id": "node/12479373306"
   },
@@ -97858,10 +97854,10 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 910 124",
     "ref": "LSB-00120",
-    "socket:type2": "1",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
     "website": "https://www.mobie.pt",
     "id": "node/12479373307"
   },
@@ -129192,8 +129188,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.9648144,
-      38.7050659
+      -8.9632735,
+      38.7066347
     ]
   }
 },
@@ -138152,7 +138148,7 @@
     "payment:membership_card": "yes",
     "ref": "SLV-00034",
     "ref:EU:EVSE": "PT*IHM*E*SLV*00034*01",
-    "socket:type2": "2",
+    "socket:type2": "1",
     "socket:type2:current": "16",
     "socket:type2:output": "11 kW",
     "socket:type2:voltage": "400",
@@ -138162,8 +138158,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.35572,
-      37.100864
+      -8.355714,
+      37.1008742
     ]
   }
 },
@@ -140184,6 +140180,54 @@
     "coordinates": [
       -9.1345409,
       38.7271969
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13033717185",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Lisboa",
+    "addr:country": "PT",
+    "addr:housenumber": "1",
+    "addr:postcode": "1950",
+    "addr:street": "Rua Fernando Palha",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Powerdot",
+    "brand:wikidata": "Q123574541",
+    "capacity": "2",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LSB-90150",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "operator:wikidata": "Q123574541",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 180 292",
+    "ref": "LSB-90150",
+    "socket:type2": "2",
+    "socket:type2:current": "16",
+    "socket:type2:output": "3.7 kW",
+    "socket:type2:voltage": "230",
+    "website": "https://www.mobie.pt",
+    "id": "node/13033717185"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1019363,
+      38.7429235
     ]
   }
 }
