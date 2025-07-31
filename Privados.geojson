@@ -19675,11 +19675,10 @@
     "authentication:none": "no",
     "brand": "edp Charge",
     "brand:wikidata": "Q135275389",
-    "capacity": "3",
+    "capacity": "1",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CSC-00096/98 - Quinta da Marinha Resort",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -19689,19 +19688,19 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
-    "ref": "CSC-00096;CSC-00098",
-    "socket:type2": "3",
+    "ref": "CSC-00095",
+    "socket:type2": "1",
     "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
+    "socket:type2:output": "7.4 kW",
+    "socket:type2:voltage": "230",
     "website": "https://www.mobie.pt/",
     "id": "node/9624761324"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.4568105,
-      38.7076928
+      -9.4571377,
+      38.70727
     ]
   }
 },
@@ -19717,11 +19716,10 @@
     "authentication:none": "no",
     "brand": "edp Charge",
     "brand:wikidata": "Q135275389",
-    "capacity": "2",
+    "capacity": "1",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CSC-00094/95 - Quinta da Marinha Resort",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -19731,8 +19729,8 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
-    "ref": "CSC-00094;CSC-00095",
-    "socket:type2": "2",
+    "ref": "CSC-00094",
+    "socket:type2": "1",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4 kW",
     "socket:type2:voltage": "230",
@@ -19742,8 +19740,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.456861,
-      38.7076817
+      -9.4571641,
+      38.7073322
     ]
   }
 },
@@ -28594,17 +28592,16 @@
   "properties": {
     "access": "customers",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "edp Charge",
     "brand:wikidata": "Q135275389",
-    "capacity": "4",
+    "capacity": "2",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "FLG-00011/12",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -28615,8 +28612,8 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
-    "ref": "FLG-00011;FLG-00012",
-    "socket:type2": "4",
+    "ref": "FLG-00011",
+    "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
     "socket:type2:voltage": "400",
@@ -28626,8 +28623,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.20334,
-      41.370043
+      -8.2020723,
+      41.3704036
     ]
   }
 },
@@ -32161,6 +32158,8 @@
     "brand:wikidata": "Q135275389",
     "capacity": "2",
     "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -32174,6 +32173,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "FLG-00013",
+    "ref:EU:EVSE": "PT*EDP*EFLG*00013*1;PT*EDP*EFLG*00013*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4 kW",
@@ -32184,8 +32184,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.2003047,
-      41.3632631
+      -8.2005193,
+      41.3630014
     ]
   }
 },
@@ -52562,6 +52562,48 @@
     "coordinates": [
       -9.4228502,
       38.6915655
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13038227616",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q135275389",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "FLG-00012",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13038227616"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.2021244,
+      41.370423
     ]
   }
 }
