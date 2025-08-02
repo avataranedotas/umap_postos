@@ -1513,7 +1513,7 @@
     "authentication:none": "no",
     "brand": "Tesla Supercharger",
     "brand:wikidata": "Q17089620",
-    "capacity": "10",
+    "capacity": "14",
     "description": "V2",
     "fee": "yes",
     "motorcar": "yes",
@@ -5604,10 +5604,6 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 910 124",
     "ref": "LSB-00226",
-    "socket:type2": "1",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
     "website": "https://www.mobie.pt"
   }
 },
@@ -7692,7 +7688,7 @@
     "motorcar": "yes",
     "name": "MAI-00023/25",
     "network": "Mobi.E",
-    "opening_hours": "24/7",
+    "opening_hours": "09:30-21:00",
     "operator": "Powerdot",
     "operator:wikidata": "Q123574541",
     "parking:fee": "no",
@@ -21663,6 +21659,7 @@
     "brand": "Galp electric",
     "brand:wikidata": "Q135275520",
     "capacity": "3",
+    "indoor": "yes",
     "location": "underground",
     "motorcar": "yes",
     "name": "LSB-00982…894",
@@ -23186,6 +23183,7 @@
     "capacity": "4",
     "fixme": "Move to exact location",
     "motorcar": "yes",
+    "name": "ILH-00033",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Powerdot",
@@ -23194,7 +23192,7 @@
     "payment:app": "yes",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "ILH-?????"
+    "ref": "ILH-00033"
   }
 },
 {
@@ -23902,10 +23900,6 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 910 124",
     "ref": "LSB-00226",
-    "socket:type2": "1",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
     "website": "https://www.mobie.pt"
   }
 },
@@ -28055,10 +28049,6 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 910 255",
     "ref": "LSB-00624;LSB-00625",
-    "socket:type2": "4",
-    "socket:type2:current": "32",
-    "socket:type2:output": "7.4 kW",
-    "socket:type2:voltage": "230",
     "website": "https://www.mobie.pt"
   }
 },
@@ -29566,6 +29556,92 @@
     "phone": "+351 800 222 222",
     "ref": "FLG-00011;FLG-00012",
     "website": "https://www.mobie.pt/"
+  }
+},
+{
+  "type": "way",
+  "id": 1419288227,
+  "bounds": {
+    "minlat": 41.2367179,
+    "minlon": -8.6542218,
+    "maxlat": 41.2368153,
+    "maxlon": -8.6539813
+  },
+  "nodes": [
+    13042223560,
+    13042223543,
+    13042223542,
+    13042223541,
+    13042223560
+  ],
+  "geometry": [
+    { "lat": 41.2367651, "lon": -8.6542218 },
+    { "lat": 41.2367179, "lon": -8.6540002 },
+    { "lat": 41.2367680, "lon": -8.6539813 },
+    { "lat": 41.2368153, "lon": -8.6542029 },
+    { "lat": 41.2367651, "lon": -8.6542218 }
+  ],
+  "tags": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "8",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "MAI-?????",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "ref": "MAI-?????",
+    "website": "https://www.mobie.pt"
+  }
+},
+{
+  "type": "way",
+  "id": 1419288414,
+  "bounds": {
+    "minlat": 41.2365934,
+    "minlon": -8.6522066,
+    "maxlat": 41.2367675,
+    "maxlon": -8.6521332
+  },
+  "nodes": [
+    13042178374,
+    13042178391,
+    13042178392,
+    13042178393,
+    13042178374
+  ],
+  "geometry": [
+    { "lat": 41.2365944, "lon": -8.6521332 },
+    { "lat": 41.2367675, "lon": -8.6521373 },
+    { "lat": 41.2367666, "lon": -8.6522066 },
+    { "lat": 41.2365934, "lon": -8.6522025 },
+    { "lat": 41.2365944, "lon": -8.6521332 }
+  ],
+  "tags": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "8",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "MAI-?????",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "ref": "MAI-?????",
+    "website": "https://www.mobie.pt"
   }
 }
 
