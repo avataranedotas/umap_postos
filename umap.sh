@@ -58,4 +58,8 @@ osmtogeojson Type2s.json >| Type2s.geojson
 osmtogeojson SuC.json >| SuC.geojson
 osmtogeojson Areas.json >| Areas.geojson
 
+echo "Todos"
+wget -O Todos.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A60%5D%3B%0Aarea(id%3A3600295480)-%3E.searchArea%3B%0A(%0Anwr%5B%22construction%3Aamenity%22%3D%22charging_station%22%5D(area.searchArea)%3B%0Anwr%5B%22amenity%22%3D%22charging_station%22%5D(area.searchArea)%3B%0Anwr%5B%22disused%3Aamenity%22%3D%22charging_station%22%5D(area.searchArea)%3B%0Anwr%5B%22removed%3Aamenity%22%3D%22charging_station%22%5D(area.searchArea)%3B%0Anwr%5B%22man_made%22%3D%22charge_point%22%5D(area.searchArea)%3B%0Anwr%5B%22construction%3Aman_made%22%3D%22charge_point%22%5D(area.searchArea)%3B%0Anwr%5B%22disused%3Aman_made%22%3D%22charge_point%22%5D(area.searchArea)%3B%0Anwr%5B%22removed%3Aman_made%22%3D%22charge_point%22%5D(area.searchArea)%3B%0A)%3B%0Aout%20body%3B%0A%3E%3B%0Aout%20skel%20qt%3B'
+sleep 30
 
+osmtogeojson Todos.json >| Todos.geojson
