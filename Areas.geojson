@@ -2019,14 +2019,14 @@
   "type": "Feature",
   "id": "way/1346610986",
   "properties": {
-    "access": "customers",
+    "access": "yes",
     "addr:country": "PT",
     "amenity": "charging_station",
     "authentication:none": "no",
     "brand": "Tesla Supercharger",
     "brand:wikidata": "Q17089620",
-    "capacity": "14",
-    "description": "V2",
+    "capacity": "32",
+    "description": "V2 + V4",
     "fee": "yes",
     "motorcar": "yes",
     "name": "Fátima Supercharger",
@@ -2055,72 +2055,32 @@
           39.6356654
         ],
         [
-          -8.6881748,
-          39.6356706
+          -8.6881343,
+          39.6356941
         ],
         [
-          -8.6882336,
-          39.6357082
+          -8.6882262,
+          39.6358697
         ],
         [
-          -8.6882572,
-          39.6356862
+          -8.6886084,
+          39.6357122
         ],
         [
-          -8.6882804,
-          39.6356647
+          -8.68866,
+          39.6356905
         ],
         [
-          -8.6883034,
-          39.6356434
+          -8.6887593,
+          39.6354064
         ],
         [
-          -8.6883263,
-          39.6356222
+          -8.6886736,
+          39.6353875
         ],
         [
-          -8.6883521,
-          39.6355982
-        ],
-        [
-          -8.6883761,
-          39.635576
-        ],
-        [
-          -8.6883991,
-          39.6355546
-        ],
-        [
-          -8.6884231,
-          39.6355325
-        ],
-        [
-          -8.6884466,
-          39.6355107
-        ],
-        [
-          -8.6884713,
-          39.6354877
-        ],
-        [
-          -8.688497,
-          39.6354639
-        ],
-        [
-          -8.6885195,
-          39.635443
-        ],
-        [
-          -8.6885435,
-          39.6354208
-        ],
-        [
-          -8.6885674,
-          39.6353986
-        ],
-        [
-          -8.6885075,
-          39.6353603
+          -8.6885356,
+          39.6353249
         ],
         [
           -8.6885006,
@@ -7397,7 +7357,6 @@
     "layer": "-1",
     "level": "-3",
     "location": "underground",
-    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "LSB-00223…231/264",
@@ -29483,7 +29442,6 @@
     "layer": "-1",
     "level": "-3",
     "location": "underground",
-    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "LSB-00902…913/916…918/922…923",
@@ -37433,10 +37391,6 @@
     "phone": "+351 800 249 249",
     "ref": "MTS-00094",
     "ref:EU:EVSE": "PT*GLG*EMTS*00094*01;PT*GLG*EMTS*00094*02",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "250",
-    "socket:type2_combo:output": "120 kW",
-    "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt/",
     "id": "way/1420057288"
   },
@@ -37500,14 +37454,6 @@
     "name": "Bomcar Automóveis",
     "no:network": "yes",
     "operator": "Bomcar Automóveis",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "125",
-    "socket:type2_combo:output": "50 kW",
-    "socket:type2_combo:voltage": "500",
     "id": "way/1420060453"
   },
   "geometry": {
@@ -37841,6 +37787,68 @@
         [
           -9.1811357,
           38.7507746
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1421046404",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Lisboa",
+    "addr:country": "PT",
+    "addr:postcode": "1200",
+    "addr:street": "Jardim 9 de Abril",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q135275389",
+    "capacity": "4",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LSB-90074",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "LSB-90074",
+    "website": "https://www.mobie.pt",
+    "id": "way/1421046404"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -9.1623835,
+          38.7043278
+        ],
+        [
+          -9.1623556,
+          38.7042801
+        ],
+        [
+          -9.1622508,
+          38.7043174
+        ],
+        [
+          -9.1622788,
+          38.7043652
+        ],
+        [
+          -9.1623835,
+          38.7043278
         ]
       ]
     ]
