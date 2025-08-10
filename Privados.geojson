@@ -3,10 +3,79 @@
 "features": [
 {
   "type": "Feature",
+  "id": "way/1421329999",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "addr:postcode": "8600-645",
+    "amenity": "charging_station",
+    "capacity": "2",
+    "fee": "no",
+    "motorcar": "yes",
+    "operator": "Lagos Avenida Hotel",
+    "socket:type2": "2",
+    "socket:type2:output": "7.4 kW",
+    "id": "way/1421329999"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -8.6754446,
+          37.1072137
+        ],
+        [
+          -8.6753871,
+          37.107238
+        ],
+        [
+          -8.6754141,
+          37.1072786
+        ],
+        [
+          -8.6754716,
+          37.1072543
+        ],
+        [
+          -8.6754446,
+          37.1072137
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1421329999",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "addr:postcode": "8600-645",
+    "amenity": "charging_station",
+    "capacity": "2",
+    "fee": "no",
+    "motorcar": "yes",
+    "operator": "Lagos Avenida Hotel",
+    "socket:type2": "2",
+    "socket:type2:output": "7.4 kW",
+    "id": "way/1421329999"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6754293,
+      37.1072461
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/6399252557",
   "properties": {
     "access": "customers",
     "amenity": "charging_station",
+    "capacity": "2",
     "motorcar": "yes",
     "name": "Magnum Cap",
     "no:network": "yes",
@@ -457,9 +526,9 @@
     "phone": "+351 289 590 000",
     "ref": "dc33214",
     "short_name": "Tesla",
-    "socket:tesla_destination": "2",
+    "socket:tesla_destination": "1",
     "socket:tesla_destination:output": "17 kW",
-    "socket:type2_cable": "2",
+    "socket:type2_cable": "1",
     "socket:type2_cable:output": "17 kW",
     "website": "https://www.tesla.com/pt_PT/findus/list/chargers/Portugal",
     "id": "node/6971573781"
@@ -892,33 +961,27 @@
     "access": "customers",
     "addr:country": "PT",
     "addr:postcode": "8600-645",
-    "amenity": "charging_station",
     "brand": "Tesla",
     "brand:wikidata": "Q478214",
-    "capacity": "2",
+    "capacity": "1",
     "fee": "no",
+    "man_made": "charge_point",
     "motorcar": "yes",
-    "name": "Lagos Avenida Hotel Tesla Destination Charger",
     "network": "Tesla",
     "operator": "Tesla",
     "operator:wikidata": "Q478214",
     "phone": "+351 282 780 090",
     "ref": "dc41908",
-    "short_name": "Tesla",
     "socket:tesla_destination": "1",
     "socket:tesla_destination:output": "22 kW",
-    "socket:type2": "2",
-    "socket:type2:output": "7.4 kW",
-    "socket:type2_cable": "1",
-    "socket:type2_cable:output": "22 kW",
     "website": "https://www.tesla.com/pt_PT/findus/list/chargers/Portugal",
     "id": "node/7031340600"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6753704,
-      37.1071907
+      -8.6754323,
+      37.1072997
     ]
   }
 },
@@ -3010,9 +3073,9 @@
     "operator": "Tesla",
     "operator:wikidata": "Q478214",
     "ref": "dc14400",
-    "socket:tesla_destination": "2",
+    "socket:tesla_destination": "1",
     "socket:tesla_destination:output": "22 kW",
-    "socket:type2_cable": "2",
+    "socket:type2_cable": "1",
     "socket:type2_cable:output": "22 kW",
     "website": "https://www.tesla.com/pt_PT/findus/list/chargers/Portugal",
     "id": "node/8198602710"
@@ -4337,9 +4400,9 @@
     "operator:wikipedia": "en:Tesla, Inc.",
     "ref": "dc17031",
     "short_name": "Tesla",
-    "socket:tesla_destination": "2",
+    "socket:tesla_destination": "1",
     "socket:tesla_destination:output": "22 kW",
-    "socket:type2": "2",
+    "socket:type2": "1",
     "socket:type2:output": "22 kW",
     "website": "https://www.tesla.com/pt_PT/findus/list/chargers/Portugal",
     "id": "node/8199379238"
@@ -5052,9 +5115,9 @@
     "operator:wikidata": "Q478214",
     "ref": "dc513566",
     "short_name": "Tesla",
-    "socket:tesla_destination": "3",
+    "socket:tesla_destination": "2",
     "socket:tesla_destination:output": "11 kW",
-    "socket:type2_cable": "3",
+    "socket:type2_cable": "1",
     "socket:type2_cable:output": "11 kW",
     "website": "https://www.tesla.com/pt_PT/findus/list/chargers/Portugal",
     "id": "node/8199671207"
@@ -18988,10 +19051,6 @@
     "phone": "+351 800 249 249",
     "ref": "PNI-00006",
     "ref:EU:EVSE": "PT*GLP*EPNI*00006*01",
-    "socket:type2": "3",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
     "socket:type2_cable": "1",
     "socket:type2_cable:current": "32",
     "socket:type2_cable:output": "22 kW",
@@ -24363,7 +24422,7 @@
     "authentication:none": "no",
     "brand": "edp Charge",
     "brand:wikidata": "Q135275389",
-    "capacity": "2",
+    "capacity": "4",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -46554,10 +46613,6 @@
     "phone": "+351 800 249 249",
     "ref": "PNI-00008",
     "ref:EU:EVSE": "PT*GLP*EPNI*00008*01",
-    "socket:type2": "3",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
     "socket:type2_cable": "1",
     "socket:type2_cable:current": "32",
     "socket:type2_cable:output": "22 kW",
@@ -46602,10 +46657,6 @@
     "phone": "+351 800 249 249",
     "ref": "PNI-00007",
     "ref:EU:EVSE": "PT*GLP*EPNI*00007*01",
-    "socket:type2": "3",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
     "socket:type2_cable": "1",
     "socket:type2_cable:current": "32",
     "socket:type2_cable:output": "22 kW",
@@ -47070,7 +47121,7 @@
     "network": "Tesla",
     "operator": "Tesla",
     "ref": "dc40417",
-    "socket:type2_cable": "2",
+    "socket:type2_cable": "1",
     "socket:type2_cable:output": "22 kW",
     "website": "https://www.tesla.com/pt_PT/findus/list/chargers/Portugal",
     "id": "node/12729049150"
@@ -47127,7 +47178,7 @@
     "network": "Tesla",
     "operator": "Tesla",
     "ref": "dc40417",
-    "socket:type2_cable": "2",
+    "socket:type2_cable": "1",
     "socket:type2_cable:output": "22 kW",
     "website": "https://www.tesla.com/pt_PT/findus/list/chargers/Portugal",
     "id": "node/12729049152"
@@ -52714,6 +52765,85 @@
     "coordinates": [
       -9.1676322,
       38.7040722
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13061550565",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "addr:postcode": "8600-645",
+    "capacity": "1",
+    "fee": "no",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "operator": "Lagos Avenida Hotel",
+    "socket:type2": "1",
+    "socket:type2:output": "7.4 kW",
+    "id": "node/13061550565"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6754033,
+      37.1072558
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13061550566",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "addr:postcode": "8600-645",
+    "capacity": "1",
+    "fee": "no",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "operator": "Lagos Avenida Hotel",
+    "socket:type2": "1",
+    "socket:type2:output": "7.4 kW",
+    "id": "node/13061550566"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6754169,
+      37.1072761
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13061550567",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "addr:postcode": "8600-645",
+    "brand": "Tesla",
+    "brand:wikidata": "Q478214",
+    "capacity": "1",
+    "fee": "no",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "phone": "+351 282 780 090",
+    "ref": "dc41908",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:output": "22 kW",
+    "website": "https://www.tesla.com/pt_PT/findus/list/chargers/Portugal",
+    "id": "node/13061550567"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6754299,
+      37.1072959
     ]
   }
 }

@@ -5993,6 +5993,7 @@
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
     "capacity": "9",
+    "charging_station:output": "400 kW",
     "motorcar": "yes",
     "name": "AMD-00052/54",
     "network": "Mobi.E",
@@ -7688,6 +7689,7 @@
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
     "capacity": "9",
+    "charging_station:output": "400 kW",
     "motorcar": "yes",
     "name": "MAI-00023/25",
     "network": "Mobi.E",
@@ -9388,6 +9390,7 @@
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
     "capacity": "8",
+    "charging_station:output": "400 kW",
     "motorcar": "yes",
     "name": "MTS-00115",
     "network": "Mobi.E",
@@ -13267,7 +13270,7 @@
     "authentication:none": "no",
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
-    "capacity": "2",
+    "capacity": "4",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
     "layer": "-1",
@@ -14403,7 +14406,8 @@
     "authentication:none": "no",
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
-    "capacity": "6",
+    "capacity": "10",
+    "charging_station:output": "488 kW",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
     "location": "underground",
@@ -20222,6 +20226,7 @@
     "brand": "Atlante",
     "brand:wikidata": "Q126913632",
     "capacity": "4",
+    "charging_station:output": "600 kW",
     "motorcar": "yes",
     "name": "BGC-00017/18",
     "network": "Mobi.E",
@@ -21808,7 +21813,7 @@
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
-    "capacity": "2",
+    "capacity": "4",
     "fee": "yes",
     "motorcar": "yes",
     "name": "Continente Bom Dia Queluz Paiva Couceiro",
@@ -23242,7 +23247,7 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Circuitos",
-    "capacity": "2",
+    "capacity": "4",
     "fee": "yes",
     "level": "-1",
     "maxstay": "unlimited",
@@ -23795,6 +23800,7 @@
     "brand": "Atlante",
     "brand:wikidata": "Q126913632",
     "capacity": "4",
+    "charging_station:output": "600 kW",
     "motorcar": "yes",
     "name": "TND-00011/12",
     "network": "Mobi.E",
@@ -24052,6 +24058,7 @@
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
     "capacity": "6",
+    "charging_station:output": "400 kW",
     "level": "1",
     "motorcar": "yes",
     "name": "LRS-00139",
@@ -29211,7 +29218,7 @@
     "authentication:none": "no",
     "brand": "Galp electric",
     "brand:wikidata": "Q135275520",
-    "capacity": "2",
+    "capacity": "4",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -31291,6 +31298,136 @@
     "operator:wikidata": "Q123574541",
     "parking:fee": "no",
     "ref": "SCD-00007;SCD-00008;SCD-00009;SCD-00010;SCD-00011"
+  }
+},
+{
+  "type": "way",
+  "id": 1421329999,
+  "bounds": {
+    "minlat": 37.1072137,
+    "minlon": -8.6754716,
+    "maxlat": 37.1072786,
+    "maxlon": -8.6753871
+  },
+  "nodes": [
+    13061550579,
+    13061550576,
+    13061550569,
+    13061550568,
+    13061550579
+  ],
+  "geometry": [
+    { "lat": 37.1072137, "lon": -8.6754446 },
+    { "lat": 37.1072543, "lon": -8.6754716 },
+    { "lat": 37.1072786, "lon": -8.6754141 },
+    { "lat": 37.1072380, "lon": -8.6753871 },
+    { "lat": 37.1072137, "lon": -8.6754446 }
+  ],
+  "tags": {
+    "access": "customers",
+    "addr:country": "PT",
+    "addr:postcode": "8600-645",
+    "amenity": "charging_station",
+    "capacity": "2",
+    "fee": "no",
+    "motorcar": "yes",
+    "operator": "Lagos Avenida Hotel",
+    "socket:type2": "2",
+    "socket:type2:output": "7.4 kW"
+  }
+},
+{
+  "type": "way",
+  "id": 1421330000,
+  "bounds": {
+    "minlat": 37.1072543,
+    "minlon": -8.6754985,
+    "maxlat": 37.1073192,
+    "maxlon": -8.6754141
+  },
+  "nodes": [
+    13061550576,
+    13061550573,
+    13061550570,
+    13061550569,
+    13061550576
+  ],
+  "geometry": [
+    { "lat": 37.1072543, "lon": -8.6754716 },
+    { "lat": 37.1072949, "lon": -8.6754985 },
+    { "lat": 37.1073192, "lon": -8.6754410 },
+    { "lat": 37.1072786, "lon": -8.6754141 },
+    { "lat": 37.1072543, "lon": -8.6754716 }
+  ],
+  "tags": {
+    "access": "customers",
+    "addr:country": "PT",
+    "addr:postcode": "8600-645",
+    "amenity": "charging_station",
+    "brand": "Tesla",
+    "brand:wikidata": "Q478214",
+    "capacity": "2",
+    "fee": "no",
+    "motorcar": "yes",
+    "name": "Lagos Avenida Hotel Tesla Destination Charger",
+    "network": "Tesla",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "phone": "+351 282 780 090",
+    "ref": "dc41908",
+    "short_name": "Tesla",
+    "website": "https://www.tesla.com/pt_PT/findus/list/chargers/Portugal"
+  }
+},
+{
+  "type": "way",
+  "id": 1421330156,
+  "bounds": {
+    "minlat": 39.7466879,
+    "minlon": -8.8212228,
+    "maxlat": 39.7467476,
+    "maxlon": -8.8210753
+  },
+  "nodes": [
+    13061586882,
+    13061586890,
+    13061586881,
+    13061586880,
+    13061586882
+  ],
+  "geometry": [
+    { "lat": 39.7466879, "lon": -8.8212190 },
+    { "lat": 39.7466939, "lon": -8.8210753 },
+    { "lat": 39.7467476, "lon": -8.8210791 },
+    { "lat": 39.7467415, "lon": -8.8212228 },
+    { "lat": 39.7466879, "lon": -8.8212190 }
+  ],
+  "tags": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Powerdot",
+    "brand:wikidata": "Q123574541",
+    "capacity": "5",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LRA-00075/76",
+    "network": "Mobi.E",
+    "opening_hours": "Mo-Th 10:00-23:00; Fr,Sa 10:00-00:00; Su 10:00-24:00",
+    "operator": "Powerdot",
+    "operator:wikidata": "Q123574541",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 180 292",
+    "ref": "LRA-00075;LRA-00076",
+    "website": "https://www.mobie.pt/"
   }
 }
 
