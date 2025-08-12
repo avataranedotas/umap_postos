@@ -164,6 +164,9 @@ for way_id, way_data in data.items():
         'capacity': way_capacity,
         'charging_station:output': output,
         'access': access,
+        'payment:cards': props.get('payment:cards', ''),
+        'opening_hours': props.get('opening_hours', ''),
+        'network': props.get('network', ''),
         'total_sockets': total_sockets,
         'total_kw': total_kw,
         'flag_missing_tag': 'yes' if missing_tag else 'no',
@@ -189,7 +192,7 @@ for way_id, way_data in data.items():
 
         child_id = child_point.get('id', '')
         child_capacity = parse_capacity(cprops.get('capacity'))
-        child_identifier = get_identifier(cprops, child_id)
+        child_identifier = f"{identifier} / {get_identifier(cprops, child_id)}"
         child_missing_tag = 'yes' if cprops.get('man_made') != 'charge_point' else 'no'
         child_output = get_numeric_output(cprops.get('charge_point:output'))
 
@@ -204,6 +207,9 @@ for way_id, way_data in data.items():
             'capacity': child_capacity,
             'charging_station:output': child_output,
             'access': access,
+            'payment:cards': cprops.get('payment:cards', ''),
+            'opening_hours': cprops.get('opening_hours', ''),
+            'network': cprops.get('network', ''),
             'total_sockets': child_total_sockets,
             'total_kw': child_total_kw,
             'flag_missing_tag': child_missing_tag,
@@ -255,6 +261,9 @@ for point in data.get('unassigned_points', []):
         'capacity': capacity,
         'charging_station:output': output,
         'access': access,
+        'payment:cards': pprops.get('payment:cards', ''),
+        'opening_hours': pprops.get('opening_hours', ''),
+        'network': pprops.get('network', ''),
         'total_sockets': total_sockets,
         'total_kw': total_kw,
         'flag_missing_tag': 'yes' if missing_tag else 'no',
@@ -268,7 +277,7 @@ for point in data.get('unassigned_points', []):
 # CSV output
 fieldnames = [
     'identifier', 'type', 'id', 'capacity', 'charging_station:output',
-    'access', 'total_sockets', 'total_kw', 'flag_missing_tag', 'overflow',
+    'access', 'payment:cards', 'opening_hours', 'network', 'total_sockets', 'total_kw', 'flag_missing_tag', 'overflow',
     'overflow_power', 'adjusted_kw'
 ] + sorted(all_socket_types)
 
