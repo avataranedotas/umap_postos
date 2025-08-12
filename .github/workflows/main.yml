@@ -23,7 +23,8 @@ jobs:
         #./umap.sh
       shell: bash
     - name: setup python
-    - run: pip install shapely
+      run: |
+        pip install shapely
     - name: Processa Todos.geojson e depois cria a lista
       run: |
         python proc_postos_osm2.py
