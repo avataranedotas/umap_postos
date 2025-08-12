@@ -23,10 +23,6 @@ jobs:
         #./umap.sh
       shell: bash
     - name: setup python
-      uses: actions/setup-python@v5
-      with:
-         python-version: 3.8 #install the python needed    
-         cache: 'pip' # caching pip dependencies
     - run: pip install shapely
     - name: Processa Todos.geojson e depois cria a lista
       run: |
