@@ -9244,49 +9244,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8286113387",
-  "properties": {
-    "access": "customers",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "edp Charge",
-    "brand:wikidata": "Q135275389",
-    "capacity": "2",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "CVL-00003/4 - Pousada Serra da Estrela",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "EDP",
-    "operator:wikidata": "Q1341222",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 222 222",
-    "ref": "CVL-00003;CVL-00004",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "7.4 kW",
-    "socket:type2:voltage": "230",
-    "website": "https://www.mobie.pt",
-    "id": "node/8286113387"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.5332361,
-      40.2921908
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8286115414",
   "properties": {
     "access": "customers",
@@ -20370,7 +20327,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CLD-00016 - Lubrigaz",
+    "name": "CLD-00016",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Moon",
@@ -29351,6 +29308,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "MTS-00130",
+    "ref:EU:EVSE": "PT*EDP*EMTS*00130*1;PT*EDP*EMTS*00130*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
@@ -52895,6 +52853,55 @@
     "coordinates": [
       -8.5746662,
       41.1427621
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13072147866",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Moon",
+    "capacity": "2",
+    "charging_station:output": "97 kW",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Moon",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "AZB-00021",
+    "ref:EU:EVSE": "PT*MOO*E0021*001*1;PT*MOO*E0021*001*2",
+    "socket:chademo": "1",
+    "socket:chademo:current": "120",
+    "socket:chademo:output": "50 kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "200",
+    "socket:type2_combo:output": "75 kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt",
+    "id": "node/13072147866"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.9139515,
+      39.0497849
     ]
   }
 }
