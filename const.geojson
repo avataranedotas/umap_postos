@@ -660,6 +660,7 @@
     "brand": "Repsol",
     "brand:wikidata": "Q174747",
     "capacity": "2",
+    "charging_station:output": "82 kW",
     "construction:amenity": "charging_station",
     "email": "crc.mobilidade.eletrica.pt@repsol.com",
     "fee": "yes",
@@ -677,6 +678,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 226 624",
     "ref": "GRD-00019",
+    "ref:EU:EVSE": "PT*REP*E*GRD*00019*01;PT*REP*E*GRD*00019*02;PT*REP*E*GRD*00019*03",
     "socket:chademo": "1",
     "socket:chademo:current": "125",
     "socket:chademo:output": "50 kW",
@@ -16963,46 +16965,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13072321113",
-  "properties": {
-    "access": "yes",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "2",
-    "construction:man_made": "charge_point",
-    "fee": "yes",
-    "fixme": "Move to exact location",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Galp Power",
-    "operator:wikidata": "Q135275372",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "ref": "TND-00021",
-    "ref:EU:EVSE": "PT*GLP*ETND*00021*01;PT*GLP*ETND*00021*02",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "150",
-    "socket:type2_combo:output": "60 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/",
-    "id": "node/13072321113"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.0908423,
-      40.5185269
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13072350974",
   "properties": {
     "access": "yes",
@@ -18041,6 +18003,137 @@
     "coordinates": [
       -8.5895266,
       41.1644844
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13084045281",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q135275389",
+    "capacity": "2",
+    "construction:amenity": "charging_station",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CCH-00009",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "CCH-00009",
+    "ref:EU:EVSE": "PT*EDP*ECCH*00009*1;PT*EDP*ECCH*00009*2",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/13084045281"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5303367,
+      38.9559456
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13084045282",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q135275389",
+    "capacity": "2",
+    "construction:amenity": "charging_station",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CCH-00008",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "CCH-00008",
+    "ref:EU:EVSE": "PT*EDP*ECCH*00008*1;PT*EDP*ECCH*00008*2",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/13084045282"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5304024,
+      38.9559296
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13084078773",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Powerdot",
+    "brand:wikidata": "Q123574541",
+    "capacity": "1",
+    "construction:man_made": "charge_point",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "operator:wikidata": "Q123574541",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 180 292",
+    "ref": "PRT-00331",
+    "ref:EU:EVSE": "PT*HRZ*E*PRT*00331*01;PT*HRZ*E*PRT*00331*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "300",
+    "socket:type2_combo:output": "120 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/13084078773"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6012693,
+      41.1541001
     ]
   }
 }
