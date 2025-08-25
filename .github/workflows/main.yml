@@ -27,8 +27,10 @@ jobs:
         pip install shapely
     - name: Processa Todos.geojson e depois cria a lista
       run: |
-        python proc_postos_osm2.py
+        #python proc_postos_osm2.py
+        python proc_postos_osm3.py
         python list2d.py
+        python listf1.py
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
