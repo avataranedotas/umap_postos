@@ -95,8 +95,15 @@ for way_id, way_data in data.items():
         sockets = extract_sockets(p_props)
         # Hack: use parent centroid
         lat, lon = way_data.get("centroid", [None, None])
+
         # Determine child identifier: parent_identifier / child_name_or_ref
-        child_identifier = f"{way_identifier} / {p_props.get('name') or p_props.get('ref') or point.get('id')}"
+        #child_identifier = f"{way_identifier} / {p_props.get('name') or p_props.get('ref') or point.get('id')}"
+        child_name = p_props.get('name') or p_props.get('ref') or point.get('id')
+        if child_name != way_identifier:
+            child_identifier = f"{way_identifier} -> {child_name}"
+        else:
+            child_identifier = child_name
+
         # Determine construction/disused for child
         construction = "no" if p_props.get("man_made") == "charge_point" else "yes"
         child_row = {
