@@ -1516,6 +1516,7 @@
     "brand": "edp Charge",
     "brand:wikidata": "Q135275389",
     "capacity": "2",
+    "charge_point:output": "200 kW",
     "fee": "yes",
     "man_made": "charge_point",
     "maxstay": "unlimited",
@@ -5106,15 +5107,15 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
-    "capacity": "4",
+    "capacity": "2",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "OBD-00024",
@@ -5130,6 +5131,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 180 292",
     "ref": "OBD-00024",
+    "ref:EU:EVSE": "PT*HRZ*E*OBD*00024*01;PT*HRZ*E*OBD*00024*02;PT*HRZ*E*OBD*00024*03",
     "socket:chademo": "1",
     "socket:chademo:current": "125",
     "socket:chademo:output": "50 kW",
@@ -5138,8 +5140,8 @@
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
     "socket:type2:voltage": "400",
-    "socket:type2_combo": "3",
-    "socket:type2_combo:current": "200",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "375",
     "socket:type2_combo:output": "150 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt",
@@ -5148,8 +5150,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.1386209,
-      39.375424
+      -9.1386164,
+      39.3753884
     ]
   }
 },
@@ -9826,6 +9828,7 @@
     "brand": "edp Charge",
     "brand:wikidata": "Q135275389",
     "capacity": "2",
+    "charge_point:output": "300 kW",
     "fee": "yes",
     "man_made": "charge_point",
     "maxstay": "unlimited",
@@ -9867,6 +9870,7 @@
     "brand": "edp Charge",
     "brand:wikidata": "Q135275389",
     "capacity": "2",
+    "charge_point:output": "300 kW",
     "fee": "yes",
     "man_made": "charge_point",
     "maxstay": "unlimited",
@@ -20547,6 +20551,50 @@
     "coordinates": [
       -9.0765687,
       38.8511401
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13038118940",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q135275389",
+    "capacity": "2",
+    "fee": "yes",
+    "fixme": "Move to exact location",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "BGC-00025",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "BGC-00025",
+    "ref:EU:EVSE": "PT*EDP*EBGC*00025*1;PT*EDP*EBGC*00025*2",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "300",
+    "socket:type2_combo:output": "180 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13038118940"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -6.7410357,
+      41.8130169
     ]
   }
 },

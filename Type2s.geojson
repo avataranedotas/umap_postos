@@ -5643,8 +5643,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.1592495,
-      39.3549485
+      -9.1592884,
+      39.354667
     ]
   }
 },
@@ -35582,18 +35582,19 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "edp Charge",
     "brand:wikidata": "Q135275389",
-    "capacity": "4",
+    "capacity": "2",
     "fee": "yes",
+    "indoor": "yes",
+    "layer": "-1",
     "location": "underground",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "PVZ-00005/6 - Parque SABA",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -35604,8 +35605,9 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
-    "ref": "PVZ-00005;PVZ-00006",
-    "socket:type2": "4",
+    "ref": "PVZ-00005",
+    "ref:EU:EVSE": "PT*EDP*EPVZ*00005*1;PT*EDP*EPVZ*00005*2",
+    "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
     "socket:type2:voltage": "400",
@@ -35615,8 +35617,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.76151,
-      41.3823111
+      -8.7614924,
+      41.3821397
     ]
   }
 },
@@ -137536,6 +137538,47 @@
 },
 {
   "type": "Feature",
+  "id": "node/12993945866",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q135275389",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "LRS-80017",
+    "socket:type2": "2",
+    "socket:type2:current": "30",
+    "socket:type2:output": "6.9 kW",
+    "socket:type2:voltage": "230",
+    "website": "https://www.mobie.pt",
+    "id": "node/12993945866"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.167086,
+      38.8289897
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12994773575",
   "properties": {
     "access": "yes",
@@ -143054,6 +143097,46 @@
 },
 {
   "type": "Feature",
+  "id": "node/13062405912",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Renewing",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "VLC-00021",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Mota Engil II",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "VLC-00021",
+    "ref:EU:EVSE": "PT*MOT*E*VLC*00021*01;PT*MOT*E*VLC*00021*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13062405912"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.3814918,
+      40.898847
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13062405913",
   "properties": {
     "access": "yes",
@@ -144104,6 +144187,93 @@
 },
 {
   "type": "Feature",
+  "id": "node/13090796680",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q135275389",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "FAF-00013",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "FAF-00013",
+    "ref:EU:EVSE": "PT*EDP*EFAF*00013*1;PT*EDP*EFAF*00013*2",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/13090796680"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.1712586,
+      41.4478855
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13092312904",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "ecoinside",
+    "capacity": "2",
+    "email": "contact@ecoinside.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "MLD-00048",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EcoInside",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 22 617 33 43",
+    "ref": "MLD-00027",
+    "ref:EU:EVSE": "PT*ECI*E*MLD*00048*01;PT*ECI*E*MLD*00048*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13092312904"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4510433,
+      40.377743
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13096915837",
   "properties": {
     "access": "yes",
@@ -144438,6 +144608,52 @@
     "coordinates": [
       -8.933474,
       37.0056926
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13104592722",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q135275389",
+    "capacity": "2",
+    "fee": "yes",
+    "indoor": "yes",
+    "layer": "-1",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "PVZ-00006",
+    "ref:EU:EVSE": "PT*EDP*EPVZ*00006*1;PT*EDP*EPVZ*00006*2",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/13104592722"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.7615204,
+      41.3821777
     ]
   }
 }
