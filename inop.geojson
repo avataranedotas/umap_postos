@@ -772,47 +772,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/5378152458",
-  "properties": {
-    "access": "yes",
-    "authentication:none": "no",
-    "brand": "Tesla Supercharger",
-    "brand:wikidata": "Q17089620",
-    "capacity": "1",
-    "description": "V2",
-    "disused:man_made": "charge_point",
-    "fee": "yes",
-    "motorcar": "yes",
-    "network": "Tesla",
-    "not:brand:wikidata": "Q478214",
-    "opening_hours": "24/7",
-    "operator": "Tesla",
-    "operator:wikidata": "Q478214",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "phone": "+351 300 527 476",
-    "ref": "1A",
-    "socket:tesla_supercharger": "1",
-    "socket:tesla_supercharger:current": "390",
-    "socket:tesla_supercharger:output": "150 kW",
-    "socket:tesla_supercharger:voltage": "500",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "390",
-    "socket:type2_combo:output": "150 kW",
-    "socket:type2_combo:voltage": "500",
-    "id": "node/5378152458"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.6882014,
-      39.6356386
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6610289091",
   "properties": {
     "access": "yes",
@@ -3991,52 +3950,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8207446548",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Atlante",
-    "brand:wikidata": "Q126913632",
-    "capacity": "2",
-    "disused:amenity": "charging_station",
-    "email": "support.portugal@atlante.energy",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "ODV-00042",
-    "network": "Mobi.E",
-    "old_ref": "ODV-00007;ODV-00020",
-    "opening_hours": "24/7",
-    "operator": "Atlante",
-    "operator:wikidata": "Q126913632",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "yes",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 296 929;+351 234 246 050",
-    "ref": "ODV-00042",
-    "ref:EU:EVSE": "PT*ATL*EODV*00042*1;PT*ATL*EODV*00042*2",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "125",
-    "socket:type2_combo:output": "50 kW",
-    "socket:type2_combo:voltage": "500",
-    "website": "https://www.mobie.pt",
-    "id": "node/8207446548"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.1676831,
-      38.7948058
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8220843747",
   "properties": {
     "access": "yes",
@@ -4157,23 +4070,25 @@
     "capacity": "2",
     "charging_station:output": "93 kW",
     "disused:amenity": "charging_station",
-    "email": "apoio.cliente@kmlowcost.com",
+    "email": "veiculoeletrico@galp.com",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VIS-00098",
+    "name": "VIS-00114",
     "network": "Mobi.E",
-    "old_ref": "VIS-00006",
+    "old_operator": "KLC;KLC Serviços",
+    "old_ref": "VIS-00006;VIS-00098",
     "opening_hours": "24/7",
-    "operator": "KLC Serviços",
-    "operator:wikidata": "Q127504745",
+    "operator": "Galp Power",
+    "operator:wikidata": "Q135275372",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "phone": "+351 800 202 060",
-    "ref": "VIS-00098",
+    "phone": "+351 800 249 249",
+    "ref": "VIS-00114",
+    "ref:EU:EVSE": "PT*GLP*EVIS*00114*01;PT*GLP*EVIS*00114*02;PT*GLP*EVIS*00114*03",
     "socket:chademo": "1",
     "socket:chademo:current": "120",
     "socket:chademo:output": "50 kW",
@@ -4474,6 +4389,49 @@
     "coordinates": [
       -9.2420165,
       38.7258581
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8304177143",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "disused:man_made": "charge_point",
+    "email": "ev_portugal@maksu.com",
+    "fee": "yes",
+    "layer": "-1",
+    "level": "-1",
+    "location": "underground",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Maksu Services",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 910 124",
+    "ref": "LSB-00119",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/8304177143"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1429126,
+      38.7166439
     ]
   }
 },
@@ -5115,60 +5073,6 @@
     "coordinates": [
       -7.9304648,
       37.0267045
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8781101650",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Faro",
-    "addr:country": "PT",
-    "addr:street": "Avenida Doutor Júlio Filipe de Almeida Carrapato",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Repsol",
-    "brand:wikidata": "Q174747",
-    "capacity": "1",
-    "disused:amenity": "charging_station",
-    "email": "crc.mobilidade.eletrica.pt@repsol.com",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "FAR-00011",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Repsol",
-    "operator:wikidata": "Q174747",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 226 624",
-    "ref": "FAR-00011",
-    "socket:chademo": "1",
-    "socket:chademo:current": "120",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_cable": "1",
-    "socket:type2_cable:current": "32",
-    "socket:type2_cable:output": "22 kW",
-    "socket:type2_cable:voltage": "400",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "125",
-    "socket:type2_combo:output": "50 kW",
-    "socket:type2_combo:voltage": "500",
-    "website": "https://www.mobie.pt",
-    "id": "node/8781101650"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.923571,
-      37.0199921
     ]
   }
 },
@@ -7287,6 +7191,61 @@
 },
 {
   "type": "Feature",
+  "id": "node/10300370621",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Atlante",
+    "brand:wikidata": "Q126913632",
+    "capacity": "2",
+    "charging_station:output": "72 kW",
+    "disused:amenity": "charging_station",
+    "email": "support.portugal@atlante.energy",
+    "fee": "yes",
+    "location": "underground",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LSB-00647",
+    "network": "Mobi.E",
+    "old_ref": "LSB-00547",
+    "opening_hours": "08:00-21:00",
+    "operator": "Atlante",
+    "operator:wikidata": "Q126913632",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 296 929;+351 234 246 050",
+    "ref": "LSB-00647",
+    "socket:chademo": "1",
+    "socket:chademo:current": "120",
+    "socket:chademo:output": "50 kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "125",
+    "socket:type2_combo:output": "50 kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt/",
+    "id": "node/10300370621"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1625243,
+      38.7263087
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10589884562",
   "properties": {
     "access": "yes",
@@ -8699,10 +8658,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/11929201346",
+  "id": "node/11931765169",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "edp Charge",
@@ -8710,10 +8669,9 @@
     "capacity": "2",
     "disused:amenity": "charging_station",
     "fee": "yes",
-    "location": "underground",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "ALM-00083",
+    "name": "CBR-00119",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -8724,23 +8682,20 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
-    "ref": "ALM-00083",
-    "socket:chademo": "1",
-    "socket:chademo:current": "125",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "300",
-    "socket:type2_combo:output": "120 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt",
-    "id": "node/11929201346"
+    "ref": "CBR-00119",
+    "ref:EU:EVSE": "PT*EDP*ECBR*00119*1;PT*EDP*ECBR*00119*2",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/11931765169"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.1261503,
-      38.6250766
+      -8.4437113,
+      40.2095883
     ]
   }
 },
@@ -9203,59 +9158,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12437725054",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Atlante",
-    "brand:wikidata": "Q126913632",
-    "capacity": "2",
-    "disused:amenity": "charging_station",
-    "email": "support.portugal@atlante.energy",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "ODV-00043",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Atlante",
-    "operator:wikidata": "Q126913632",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 296 929;+351 234 246 050",
-    "ref": "ODV-00043",
-    "ref:EU:EVSE": "PT*ATL*EODV*00043*1;PT*ATL*EODV*00043*2;PT*ATL*EODV*00043*3",
-    "socket:chademo": "1",
-    "socket:chademo:current": "125",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_cable": "1",
-    "socket:type2_cable:current": "32",
-    "socket:type2_cable:output": "22 kW",
-    "socket:type2_cable:voltage": "400",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "150",
-    "socket:type2_combo:output": "60 kW",
-    "socket:type2_combo:voltage": "500",
-    "website": "https://www.mobie.pt",
-    "id": "node/12437725054"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.1676711,
-      38.7947572
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12437796659",
   "properties": {
     "access": "yes",
@@ -9295,170 +9197,6 @@
     "coordinates": [
       -9.3291873,
       38.7928122
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12455731098",
-  "properties": {
-    "access": "yes",
-    "authentication:none": "no",
-    "brand": "Tesla Supercharger",
-    "brand:wikidata": "Q17089620",
-    "capacity": "1",
-    "description": "V2",
-    "disused:man_made": "charge_point",
-    "fee": "yes",
-    "motorcar": "yes",
-    "network": "Tesla",
-    "not:brand:wikidata": "Q478214",
-    "opening_hours": "24/7",
-    "operator": "Tesla",
-    "operator:wikidata": "Q478214",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "phone": "+351 300 527 476",
-    "ref": "4A",
-    "socket:tesla_supercharger": "1",
-    "socket:tesla_supercharger:current": "390",
-    "socket:tesla_supercharger:output": "150 kW",
-    "socket:tesla_supercharger:voltage": "500",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "390",
-    "socket:type2_combo:output": "150 kW",
-    "socket:type2_combo:voltage": "500",
-    "id": "node/12455731098"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.6883384,
-      39.6355128
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12455731099",
-  "properties": {
-    "access": "yes",
-    "authentication:none": "no",
-    "brand": "Tesla Supercharger",
-    "brand:wikidata": "Q17089620",
-    "capacity": "1",
-    "description": "V2",
-    "disused:man_made": "charge_point",
-    "fee": "yes",
-    "motorcar": "yes",
-    "network": "Tesla",
-    "not:brand:wikidata": "Q478214",
-    "opening_hours": "24/7",
-    "operator": "Tesla",
-    "operator:wikidata": "Q478214",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "phone": "+351 300 527 476",
-    "ref": "3B",
-    "socket:tesla_supercharger": "1",
-    "socket:tesla_supercharger:current": "390",
-    "socket:tesla_supercharger:output": "150 kW",
-    "socket:tesla_supercharger:voltage": "500",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "390",
-    "socket:type2_combo:output": "150 kW",
-    "socket:type2_combo:voltage": "500",
-    "id": "node/12455731099"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.6883162,
-      39.6355332
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12455731100",
-  "properties": {
-    "access": "yes",
-    "authentication:none": "no",
-    "brand": "Tesla Supercharger",
-    "brand:wikidata": "Q17089620",
-    "capacity": "1",
-    "description": "V2",
-    "disused:man_made": "charge_point",
-    "fee": "yes",
-    "motorcar": "yes",
-    "network": "Tesla",
-    "not:brand:wikidata": "Q478214",
-    "opening_hours": "24/7",
-    "operator": "Tesla",
-    "operator:wikidata": "Q478214",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "phone": "+351 300 527 476",
-    "ref": "3A",
-    "socket:tesla_supercharger": "1",
-    "socket:tesla_supercharger:current": "390",
-    "socket:tesla_supercharger:output": "150 kW",
-    "socket:tesla_supercharger:voltage": "500",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "390",
-    "socket:type2_combo:output": "150 kW",
-    "socket:type2_combo:voltage": "500",
-    "id": "node/12455731100"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.6882929,
-      39.6355547
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12455741003",
-  "properties": {
-    "access": "yes",
-    "authentication:none": "no",
-    "brand": "Tesla Supercharger",
-    "brand:wikidata": "Q17089620",
-    "capacity": "1",
-    "description": "V2",
-    "disused:man_made": "charge_point",
-    "fee": "yes",
-    "motorcar": "yes",
-    "network": "Tesla",
-    "not:brand:wikidata": "Q478214",
-    "opening_hours": "24/7",
-    "operator": "Tesla",
-    "operator:wikidata": "Q478214",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "phone": "+351 300 527 476",
-    "ref": "1B",
-    "socket:tesla_supercharger": "1",
-    "socket:tesla_supercharger:current": "390",
-    "socket:tesla_supercharger:output": "150 kW",
-    "socket:tesla_supercharger:voltage": "500",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "390",
-    "socket:type2_combo:output": "150 kW",
-    "socket:type2_combo:voltage": "500",
-    "id": "node/12455741003"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.6882239,
-      39.6356179
     ]
   }
 },
@@ -10192,6 +9930,135 @@
     "coordinates": [
       -9.142889,
       38.716616
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12479373304",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "disused:man_made": "charge_point",
+    "email": "ev_portugal@maksu.com",
+    "fee": "yes",
+    "layer": "-1",
+    "level": "-1",
+    "location": "underground",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Maksu Services",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 910 124",
+    "ref": "LSB-00126",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/12479373304"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1430418,
+      38.7167972
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12479373305",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "disused:man_made": "charge_point",
+    "email": "ev_portugal@maksu.com",
+    "fee": "yes",
+    "layer": "-1",
+    "level": "-1",
+    "location": "underground",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Maksu Services",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 910 124",
+    "ref": "LSB-00125",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/12479373305"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1430086,
+      38.7167578
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12479373306",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "disused:man_made": "charge_point",
+    "email": "ev_portugal@maksu.com",
+    "fee": "yes",
+    "layer": "-1",
+    "level": "-1",
+    "location": "underground",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Maksu Services",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 910 124",
+    "ref": "LSB-00121",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/12479373306"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1429771,
+      38.7167205
     ]
   }
 },
