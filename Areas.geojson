@@ -8553,6 +8553,7 @@
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
     "capacity": "4",
+    "charging_station:output": "382 kW",
     "motorcar": "yes",
     "name": "NLS-00005/6/7",
     "network": "Mobi.E",
@@ -34185,6 +34186,8 @@
     "brand:wikidata": "Q135275520",
     "capacity": "6",
     "email": "veiculoeletrico@galp.com",
+    "indoor": "yes",
+    "location": "underground",
     "motorcar": "yes",
     "name": "TVD-00091…93",
     "network": "Mobi.E",
@@ -34200,24 +34203,24 @@
     "coordinates": [
       [
         [
-          -9.2429925,
-          39.0348768
+          -9.2432837,
+          39.0346074
         ],
         [
-          -9.2428619,
-          39.034789
+          -9.2433948,
+          39.0345046
         ],
         [
-          -9.2428164,
-          39.0348297
+          -9.2433417,
+          39.0344699
         ],
         [
-          -9.2429471,
-          39.0349176
+          -9.2432305,
+          39.0345728
         ],
         [
-          -9.2429925,
-          39.0348768
+          -9.2432837,
+          39.0346074
         ]
       ]
     ]
@@ -39046,12 +39049,12 @@
     "capacity": "6",
     "charging_station:output": "1400 kW",
     "motorcar": "yes",
-    "name": "SXL-?????",
+    "name": "SXL-00075",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Charging Together",
     "parking:fee": "no",
-    "ref": "SXL-?????",
+    "ref": "SXL-00075",
     "id": "way/1422438081"
   },
   "geometry": {
@@ -39909,7 +39912,7 @@
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "7",
+    "capacity": "9",
     "fee": "yes",
     "indoor": "yes",
     "location": "underground",
@@ -39923,7 +39926,7 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "MOBI-LSB-00366;MOBI-LSB-00367;MOBI-LSB-00368;MOBI-LSB-00369;MOBI-LSB-00370;MOBI-LSB-00371;MOBI-LSB-00767",
+    "ref": "MOBI-LSB-00366;MOBI-LSB-00367;MOBI-LSB-00368;MOBI-LSB-00369;MOBI-LSB-00370;MOBI-LSB-00371;MOBI-LSB-00767;MOBI-LSB-01376;MOBI-LSB-01377",
     "website": "https://www.mobie.pt/",
     "id": "way/1424383018"
   },
@@ -39932,12 +39935,12 @@
     "coordinates": [
       [
         [
-          -9.0975628,
-          38.7613018
+          -9.0976248,
+          38.7612919
         ],
         [
-          -9.0975484,
-          38.7612496
+          -9.0976104,
+          38.7612397
         ],
         [
           -9.097351,
@@ -39948,8 +39951,8 @@
           38.7613347
         ],
         [
-          -9.0975628,
-          38.7613018
+          -9.0976248,
+          38.7612919
         ]
       ]
     ]
@@ -41171,6 +41174,151 @@
         [
           -9.1836475,
           38.7008442
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1427339690",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "brand": "Tesla",
+    "brand:wikidata": "Q478214",
+    "capacity": "3",
+    "description": "Posto de carregamento Tesla localizado dentro da garagem do hotel. Permite carregar VE's de outras marcas. Disponível apenas para clientes do hotel.",
+    "fee": "no",
+    "indoor": "yes",
+    "location": "underground",
+    "motorcar": "yes",
+    "name": "Dolce CampoReal Lisboa Tesla Destination Charger",
+    "network": "Tesla",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "ref": "dc38685",
+    "short_name": "Tesla",
+    "website": "https://www.tesla.com/pt_PT/findus/list/chargers/Portugal",
+    "id": "way/1427339690"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -9.2435004,
+          39.0344004
+        ],
+        [
+          -9.2434476,
+          39.0343668
+        ],
+        [
+          -9.2433929,
+          39.0344187
+        ],
+        [
+          -9.2434456,
+          39.0344523
+        ],
+        [
+          -9.2435004,
+          39.0344004
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1427402359",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "brand": "Continente Plug&Charge",
+    "capacity": "6",
+    "indoor": "yes",
+    "level": "-1",
+    "location": "underground",
+    "motorcar": "yes",
+    "name": "Continente Modelo Rio Maior",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "Mo-Su 09:00-21:00",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "no",
+    "id": "way/1427402359"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -8.9304969,
+          39.3391034
+        ],
+        [
+          -8.9304775,
+          39.3389959
+        ],
+        [
+          -8.9303731,
+          39.3390072
+        ],
+        [
+          -8.9303926,
+          39.3391147
+        ],
+        [
+          -8.9304969,
+          39.3391034
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1427408690",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "brand": "Galp electric",
+    "capacity": "4",
+    "motorcar": "yes",
+    "name": "ACB-?????",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "parking:fee": "no",
+    "ref": "ACB-?????",
+    "id": "way/1427408690"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -8.9742594,
+          39.5528679
+        ],
+        [
+          -8.9742407,
+          39.5528199
+        ],
+        [
+          -8.9741303,
+          39.5528454
+        ],
+        [
+          -8.9741491,
+          39.5528935
+        ],
+        [
+          -8.9742594,
+          39.5528679
         ]
       ]
     ]

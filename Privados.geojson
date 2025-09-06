@@ -3278,14 +3278,15 @@
   "properties": {
     "access": "customers",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "brand": "Tesla",
     "brand:wikidata": "Q478214",
-    "capacity": "3",
+    "capacity": "1",
     "description": "Posto de carregamento Tesla localizado dentro da garagem do hotel. Permite carregar VE's de outras marcas. Disponível apenas para clientes do hotel.",
     "fee": "no",
+    "indoor": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
     "motorcar": "yes",
-    "name": "Dolce CampoReal Lisboa Tesla Destination Charger",
     "network": "Tesla",
     "operator": "Tesla",
     "operator:wikidata": "Q478214",
@@ -3293,16 +3294,14 @@
     "short_name": "Tesla",
     "socket:tesla_destination": "1",
     "socket:tesla_destination:output": "22 kW",
-    "socket:type2_cable": "2",
-    "socket:type2_cable:output": "22 kW",
     "website": "https://www.tesla.com/pt_PT/findus/list/chargers/Portugal",
     "id": "node/8198652345"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.2434613,
-      39.034413
+      -9.2434075,
+      39.0344118
     ]
   }
 },
@@ -26944,6 +26943,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "OHP-00009",
+    "ref:EU:EVSE": "PT*EDP*EOHP*00009*1;PT*EDP*EOHP*00009*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
@@ -33878,6 +33878,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "OHP-00016",
+    "ref:EU:EVSE": "PT*EDP*EOHP*00016*1;PT*EDP*EOHP*00016*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
@@ -39115,6 +39116,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "BGC-00011",
+    "ref:EU:EVSE": "PT*EDP*EBGC*00011*1;PT*EDP*EBGC*00011*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4 kW",
@@ -45435,7 +45437,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "AVR-00060",
-    "ref:EU:EVSE": "PT*EDP*E*AVR*00060*01;PT*EDP*E*AVR*00060*02",
+    "ref:EU:EVSE": "PT*EDP*EAVR*00060*1;PT*EDP*EAVR*00060*2",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "300",
     "socket:type2_combo:output": "120 kW",
@@ -53440,6 +53442,8 @@
     "authentication:none": "no",
     "capacity": "2",
     "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -53464,8 +53468,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.2428426,
-      39.034842
+      -9.2433263,
+      39.0344905
     ]
   }
 },
@@ -53479,6 +53483,8 @@
     "authentication:none": "no",
     "capacity": "2",
     "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -53503,8 +53509,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.2428859,
-      39.0348706
+      -9.2432901,
+      39.0345245
     ]
   }
 },
@@ -53518,6 +53524,8 @@
     "authentication:none": "no",
     "capacity": "2",
     "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -53542,8 +53550,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.2429295,
-      39.0348998
+      -9.2432532,
+      39.0345588
     ]
   }
 },
@@ -55866,6 +55874,278 @@
     "coordinates": [
       -8.8477527,
       38.7294056
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13121441487",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "brand": "Tesla",
+    "brand:wikidata": "Q478214",
+    "capacity": "1",
+    "description": "Posto de carregamento Tesla localizado dentro da garagem do hotel. Permite carregar VE's de outras marcas. Disponível apenas para clientes do hotel.",
+    "fee": "no",
+    "indoor": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "ref": "dc38685",
+    "short_name": "Tesla",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:output": "22 kW",
+    "website": "https://www.tesla.com/pt_PT/findus/list/chargers/Portugal",
+    "id": "node/13121441487"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.2434431,
+      39.0343785
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13121441488",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "brand": "Tesla",
+    "brand:wikidata": "Q478214",
+    "capacity": "1",
+    "description": "Posto de carregamento Tesla localizado dentro da garagem do hotel. Permite carregar VE's de outras marcas. Disponível apenas para clientes do hotel.",
+    "fee": "no",
+    "indoor": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "ref": "dc38685",
+    "short_name": "Tesla",
+    "socket:tesla_destination": "1",
+    "socket:tesla_destination:output": "22 kW",
+    "website": "https://www.tesla.com/pt_PT/findus/list/chargers/Portugal",
+    "id": "node/13121441488"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.2434241,
+      39.0343954
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13121761501",
+  "properties": {
+    "access": "private",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Galp electric",
+    "brand:wikidata": "Q135275520",
+    "capacity": "1",
+    "email": "veiculoeletrico@galp.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "operator:wikidata": "Q135275372",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 249 249",
+    "ref": "MOBI-VFX-00062",
+    "ref:EU:EVSE": "PT*GLP*EMOBI*VFX*00062*01",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "16",
+    "socket:type2_cable:output": "11 kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13121761501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.9601662,
+      38.9870036
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13121761502",
+  "properties": {
+    "access": "private",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Galp electric",
+    "brand:wikidata": "Q135275520",
+    "capacity": "1",
+    "email": "veiculoeletrico@galp.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "operator:wikidata": "Q135275372",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 249 249",
+    "ref": "MOBI-VFX-00061",
+    "ref:EU:EVSE": "PT*GLP*EMOBI*VFX*00061*01",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "16",
+    "socket:type2_cable:output": "11 kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13121761502"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.9601507,
+      38.9870219
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13121761503",
+  "properties": {
+    "access": "private",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Galp electric",
+    "brand:wikidata": "Q135275520",
+    "capacity": "1",
+    "email": "veiculoeletrico@galp.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "operator:wikidata": "Q135275372",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 249 249",
+    "ref": "MOBI-VFX-00060",
+    "ref:EU:EVSE": "PT*GLP*EMOBI*VFX*00060*01",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "16",
+    "socket:type2_cable:output": "11 kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13121761503"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.9601346,
+      38.9870401
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13121913621",
+  "properties": {
+    "access": "customers",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "MOBI-LSB-01377",
+    "ref:EU:EVSE": "PT*GLP*EMOBI*LSB*01377*01",
+    "socket:type2": "1",
+    "socket:type2:current": "16",
+    "socket:type2:output": "11 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13121913621"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.0975916,
+      38.7612472
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13121913622",
+  "properties": {
+    "access": "customers",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "MOBI-LSB-01376",
+    "ref:EU:EVSE": "PT*GLP*EMOBI*LSB*01376*01",
+    "socket:type2": "1",
+    "socket:type2:current": "16",
+    "socket:type2:output": "11 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13121913622"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.0975652,
+      38.7612514
     ]
   }
 }
