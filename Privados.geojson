@@ -27335,6 +27335,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "SPS-00005",
+    "ref:EU:EVSE": "PT*EDP*ESPS*00005*1;PT*EDP*ESPS*00005*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
@@ -36001,7 +36002,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "VRL-00040",
-    "ref:EU:EVSE": "PT*EDP*E*VRL*00040*01;PT*EDP*E*VRL*00040*02",
+    "ref:EU:EVSE": "PT*EDP*EVRL*00040*1;PT*EDP*EVRL*00040*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
@@ -51355,6 +51356,50 @@
     "coordinates": [
       -9.405817,
       38.704174
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12931760977",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "2",
+    "fee": "yes",
+    "location": "underground",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "OER-00258",
+    "network": "Mobi.E",
+    "opening_hours": "10:00-21:00",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "OER-00258",
+    "ref:EU:EVSE": "PT*EDP*EOER*00258*1;PT*EDP*EOER*00258*2",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12931760977"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.2224249,
+      38.726136
     ]
   }
 },
