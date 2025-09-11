@@ -3306,6 +3306,7 @@
     "brand": "Galp electric",
     "brand:wikidata": "Q135275372",
     "capacity": "2",
+    "charging_station:output": "180 kW",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -3323,11 +3324,7 @@
     "phone": "+351 800 249 249",
     "ref": "SXL-00027",
     "ref:EU:EVSE": "PT*GLP*ESXL*00027*01;PT*GLP*ESXL*00027*02",
-    "socket:chademo": "1",
-    "socket:chademo:current": "125",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_combo": "1",
+    "socket:type2_combo": "2",
     "socket:type2_combo:current": "195",
     "socket:type2_combo:output": "180 kW",
     "socket:type2_combo:voltage": "1000",
@@ -3337,8 +3334,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.0953813,
-      38.6214016
+      -9.0953525,
+      38.6214026
     ]
   }
 },
@@ -3403,7 +3400,8 @@
     "authentication:none": "no",
     "brand": "Galp electric",
     "brand:wikidata": "Q135275372",
-    "capacity": "1",
+    "capacity": "2",
+    "charging_station:output": "180 kW",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -3421,12 +3419,8 @@
     "phone": "+351 800 249 249",
     "ref": "SXL-00028",
     "ref:EU:EVSE": "PT*GLP*ESXL*00028*01;PT*GLP*ESXL*00028*02",
-    "socket:chademo": "1",
-    "socket:chademo:current": "125",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "190",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "195",
     "socket:type2_combo:output": "180 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt",
@@ -3435,8 +3429,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.1020014,
-      38.6165392
+      -9.1020899,
+      38.6166398
     ]
   }
 },
@@ -5727,54 +5721,6 @@
     "coordinates": [
       -8.9780367,
       39.5596832
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11349894184",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Iberdrola bp pulse",
-    "capacity": "2",
-    "email": "suporte@chargingtogether.pt",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "ACH-00019 - BP",
-    "network": "Mobi.E",
-    "old_operator": "BP Pulse",
-    "old_ref": "ACH-00012",
-    "opening_hours": "24/7",
-    "operator": "Charging Together",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 917 576",
-    "ref": "ACH-00019",
-    "socket:chademo": "1",
-    "socket:chademo:current": "200",
-    "socket:chademo:output": "80 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "500",
-    "socket:type2_combo:output": "150 kW",
-    "socket:type2_combo:voltage": "500",
-    "website": "https://www.mobie.pt",
-    "id": "node/11349894184"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.946112,
-      38.751684
     ]
   }
 },
@@ -21780,6 +21726,174 @@
     "coordinates": [
       -6.7409043,
       41.8120493
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13039503708",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Renewing",
+    "capacity": "1",
+    "email": "renewing.charging@mota-engil.pt",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "Mo-Su 10:00-23:00",
+    "operator": "Mota Engil II",
+    "operator:wikidata": "Q1949595",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 020 940",
+    "ref": "FAR-00078",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "250",
+    "socket:type2_combo:output": "200 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/13039503708"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.9444758,
+      37.0296147
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13039503709",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Renewing",
+    "capacity": "1",
+    "email": "renewing.charging@mota-engil.pt",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "Mo-Su 10:00-23:00",
+    "operator": "Mota Engil II",
+    "operator:wikidata": "Q1949595",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 020 940",
+    "ref": "FAR-00078",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "250",
+    "socket:type2_combo:output": "200 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/13039503709"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.9444478,
+      37.029621
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13039503710",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Renewing",
+    "capacity": "1",
+    "email": "renewing.charging@mota-engil.pt",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "Mo-Su 10:00-23:00",
+    "operator": "Mota Engil II",
+    "operator:wikidata": "Q1949595",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 020 940",
+    "ref": "FAR-00078",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "250",
+    "socket:type2_combo:output": "200 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/13039503710"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.944421,
+      37.0296277
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13039503711",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Renewing",
+    "capacity": "1",
+    "email": "renewing.charging@mota-engil.pt",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "Mo-Su 10:00-23:00",
+    "operator": "Mota Engil II",
+    "operator:wikidata": "Q1949595",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 020 940",
+    "ref": "FAR-00078",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "250",
+    "socket:type2_combo:output": "200 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/13039503711"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.9443923,
+      37.029634
     ]
   }
 },
