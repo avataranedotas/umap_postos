@@ -26903,7 +26903,6 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "MDR-00004 - Pousada do Picote",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -26915,6 +26914,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "MDR-00004",
+    "ref:EU:EVSE": "PT*EDP*EMDR*00004*1;PT*EDP*EMDR*00004*2",
     "socket:type2_cable": "2",
     "socket:type2_cable:current": "32",
     "socket:type2_cable:output": "22 kW",
@@ -29932,11 +29932,12 @@
     "authentication:none": "no",
     "brand": "edp Charge",
     "brand:wikidata": "Q1341222",
-    "capacity": "3",
+    "capacity": "1",
     "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "TMR-00039/40/41",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -29947,8 +29948,9 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
-    "ref": "TMR-00039;TMR-00040;TMR-00041",
-    "socket:type2": "3",
+    "ref": "TMR-00041",
+    "ref:EU:EVSE": "PT*EDP*ETMR*00041*1",
+    "socket:type2": "1",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4 kW",
     "socket:type2:voltage": "230",
@@ -29958,8 +29960,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.4101983,
-      39.6043138
+      -8.409666,
+      39.6042088
     ]
   }
 },
@@ -55364,6 +55366,96 @@
     "coordinates": [
       -8.2611674,
       37.1017843
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13139778936",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "1",
+    "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "TMR-00039",
+    "ref:EU:EVSE": "PT*EDP*ETMR*00039*1",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "7.4 kW",
+    "socket:type2:voltage": "230",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13139778936"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4097134,
+      39.6042006
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13139778937",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "1",
+    "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "TMR-00040",
+    "ref:EU:EVSE": "PT*EDP*ETMR*00040*1",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "7.4 kW",
+    "socket:type2:voltage": "230",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13139778937"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4096927,
+      39.6042034
     ]
   }
 }
