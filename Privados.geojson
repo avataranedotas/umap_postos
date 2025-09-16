@@ -15113,12 +15113,12 @@
   "properties": {
     "access": "private",
     "addr:country": "PT",
-    "amenity": "charging_station",
-    "capacity": "4",
+    "capacity": "2",
+    "man_made": "charge_point",
     "motorcar": "yes",
     "no:network": "yes",
     "operator": "RTP",
-    "socket:type2": "4",
+    "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
     "socket:type2:voltage": "400",
@@ -15127,8 +15127,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.11861,
-      38.759508
+      -9.1187293,
+      38.7593345
     ]
   }
 },
@@ -17412,55 +17412,6 @@
     "coordinates": [
       -7.6508752,
       37.1161369
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9354037424",
-  "properties": {
-    "access": "private",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "uCharge",
-    "capacity": "3",
-    "email": "geral@ucharge.pt",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Logical Gravity",
-    "parking:fee": "yes",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 210 939 606;+351 224 801 080",
-    "ref": "MOBI-LSB-00008;MOBI-LSB-00009",
-    "socket:chademo": "1",
-    "socket:chademo:current": "120",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "125",
-    "socket:type2_combo:output": "50 kW",
-    "socket:type2_combo:voltage": "500",
-    "website": "https://www.mobie.pt/",
-    "id": "node/9354037424"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.09653,
-      38.77451
     ]
   }
 },
@@ -26253,19 +26204,19 @@
   "properties": {
     "access": "customers",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
-    "capacity": "4",
+    "capacity": "2",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
+    "indoor": "yes",
     "location": "underground",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "Hotel Moxy",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Powerdot",
@@ -26276,7 +26227,7 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 180 292",
-    "ref": "MOBI-LSB-00358;MOBI-LSB-00359",
+    "ref": "MOBI-LSB-00358",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
@@ -26287,8 +26238,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.1006353,
-      38.7689176
+      -9.1006461,
+      38.7690481
     ]
   }
 },
@@ -55332,6 +55283,76 @@
     "coordinates": [
       -8.4096927,
       39.6042034
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13144528908",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Powerdot",
+    "brand:wikidata": "Q123574541",
+    "capacity": "2",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "operator:wikidata": "Q123574541",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 180 292",
+    "ref": "MOBI-LSB-00359",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13144528908"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1006467,
+      38.769093
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13146013345",
+  "properties": {
+    "access": "private",
+    "addr:country": "PT",
+    "capacity": "2",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "no:network": "yes",
+    "operator": "RTP",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "id": "node/13146013345"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1187712,
+      38.7592509
     ]
   }
 }
