@@ -24282,8 +24282,10 @@
     "authentication:none": "no",
     "brand": "edp Charge",
     "brand:wikidata": "Q1341222",
-    "capacity": "4",
+    "capacity": "2",
     "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -24296,8 +24298,9 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
-    "ref": "ACN-00006;ACN-00007",
-    "socket:type2": "4",
+    "ref": "ACN-00006",
+    "ref:EU:EVSE": "PT*EDP*EACN*00006*1;PT*EDP*EACN*00006*2",
+    "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4 kW",
     "socket:type2:voltage": "230",
@@ -24307,8 +24310,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6676595,
-      39.4568253
+      -8.6679036,
+      39.4568357
     ]
   }
 },
@@ -55353,6 +55356,51 @@
     "coordinates": [
       -9.1187712,
       38.7592509
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13148367115",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "2",
+    "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "ACN-00007",
+    "ref:EU:EVSE": "PT*EDP*EACN*00007*1;PT*EDP*EACN*00007*2",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "7.4 kW",
+    "socket:type2:voltage": "230",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13148367115"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.66795,
+      39.4568496
     ]
   }
 }
