@@ -15122,6 +15122,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "CBR-00038",
+    "ref:EU:EVSE": "PT*EDP*ECBR*00038*1;PT*EDP*ECBR*00038*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
@@ -17701,6 +17702,51 @@
     "coordinates": [
       -8.5375605,
       41.2310804
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8113026406",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "2",
+    "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "MTS-00028",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "MTS-00028",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/8113026406"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6902466,
+      41.181885
     ]
   }
 },
@@ -63648,8 +63694,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.7510795,
-      40.3190229
+      -8.7510205,
+      40.3198634
     ]
   }
 },
@@ -85917,6 +85963,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "CBR-00118",
+    "ref:EU:EVSE": "PT*EDP*ECBR*00118*1;PT*EDP*ECBR*00118*2",
     "socket:type2": "2",
     "socket:type2:current": "16",
     "socket:type2:output": "11 kW",
@@ -116422,52 +116469,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12663436706",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Galp electric",
-    "brand:wikidata": "Q135275372",
-    "capacity": "2",
-    "email": "veiculoeletrico@galp.com",
-    "fee": "yes",
-    "location": "underground",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "LSB-00340",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Galp Power",
-    "operator:wikidata": "Q135275372",
-    "parking:fee": "yes",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 249 249",
-    "ref": "LSB-00340",
-    "ref:EU:EVSE": "PT*GLP*ELSB*00340*01;PT*GLP*ELSB*00340*02",
-    "socket:type2": "2",
-    "socket:type2:current": "16",
-    "socket:type2:output": "3.7 kW",
-    "socket:type2:voltage": "230",
-    "website": "https://www.mobie.pt",
-    "id": "node/12663436706"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.1282842,
-      38.7710318
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12663488701",
   "properties": {
     "access": "yes",
@@ -127556,6 +127557,47 @@
 },
 {
   "type": "Feature",
+  "id": "node/12801323401",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "capacity": "2",
+    "email": "suporte@wowplug.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CSC-00349",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "CSC-00349",
+    "ref:EU:EVSE": "PT*TRK*E*CSC*00349*01;PT*TRK*E*CSC*00349*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12801323401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.383506,
+      38.70081
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12801323402",
   "properties": {
     "access": "yes",
@@ -135970,7 +136012,7 @@
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Maksu Services",
-    "parking:fee": "no",
+    "parking:fee": "yes",
     "payment:app": "yes",
     "payment:cards": "no",
     "payment:cash": "no",
@@ -136010,7 +136052,7 @@
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Maksu Services",
-    "parking:fee": "no",
+    "parking:fee": "yes",
     "payment:app": "yes",
     "payment:cards": "no",
     "payment:cash": "no",
@@ -136050,7 +136092,7 @@
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Maksu Services",
-    "parking:fee": "no",
+    "parking:fee": "yes",
     "payment:app": "yes",
     "payment:cards": "no",
     "payment:cash": "no",
@@ -136090,7 +136132,7 @@
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Maksu Services",
-    "parking:fee": "no",
+    "parking:fee": "yes",
     "payment:app": "yes",
     "payment:cards": "no",
     "payment:cash": "no",
@@ -136118,6 +136160,7 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
+    "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "1",
@@ -136129,7 +136172,7 @@
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Maksu Services",
-    "parking:fee": "no",
+    "parking:fee": "yes",
     "payment:app": "yes",
     "payment:cards": "no",
     "payment:cash": "no",
@@ -136169,7 +136212,7 @@
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Maksu Services",
-    "parking:fee": "no",
+    "parking:fee": "yes",
     "payment:app": "yes",
     "payment:cards": "no",
     "payment:cash": "no",
@@ -136209,7 +136252,7 @@
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Maksu Services",
-    "parking:fee": "no",
+    "parking:fee": "yes",
     "payment:app": "yes",
     "payment:cards": "no",
     "payment:cash": "no",
@@ -136249,7 +136292,7 @@
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Maksu Services",
-    "parking:fee": "no",
+    "parking:fee": "yes",
     "payment:app": "yes",
     "payment:cards": "no",
     "payment:cash": "no",
@@ -136277,6 +136320,7 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
+    "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "1",
@@ -136288,7 +136332,7 @@
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Maksu Services",
-    "parking:fee": "no",
+    "parking:fee": "yes",
     "payment:app": "yes",
     "payment:cards": "no",
     "payment:cash": "no",
@@ -145884,6 +145928,86 @@
 },
 {
   "type": "Feature",
+  "id": "node/13108432564",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "capacity": "2",
+    "email": "suporte@wowplug.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CSC-00346",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "CSC-00346",
+    "ref:EU:EVSE": "PT*TRK*E*CSC*00346*01;PT*TRK*E*CSC*00346*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13108432564"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.3309026,
+      38.717491
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13108432565",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "capacity": "2",
+    "email": "suporte@wowplug.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CSC-00324",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "CSC-00324",
+    "ref:EU:EVSE": "PT*TRK*E*CSC*00324*01;PT*TRK*E*CSC*00324*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13108432565"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.347376,
+      38.722157
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13108484438",
   "properties": {
     "access": "yes",
@@ -146652,6 +146776,47 @@
 },
 {
   "type": "Feature",
+  "id": "node/13140673448",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "loulé concelho Global",
+    "capacity": "2",
+    "email": "geral@lcglobal.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LLE-00187",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Loulé Concelho Global",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 289 401 080",
+    "ref": "LLE-00187",
+    "ref:EU:EVSE": "PT*LCG*E*LLE*00187*01;PT*LCG*E*LLE*00187*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13140673448"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.036899,
+      37.1288204
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13140683833",
   "properties": {
     "access": "yes",
@@ -146993,6 +147158,44 @@
     "coordinates": [
       -9.0985175,
       38.7664061
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13148229291",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LSB-01017",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "mobel",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "LSB-01017",
+    "ref:EU:EVSE": "PT*MOA*E*LSB*01017*01;PT*MOA*E*LSB*01017*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13148229291"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1874365,
+      38.7468796
     ]
   }
 }

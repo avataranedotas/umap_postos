@@ -5423,7 +5423,7 @@
     "man_made": "charge_point",
     "motorcar": "yes",
     "network": "Porsche",
-    "opening_hours": "Mo-Fr 09:00-17:00",
+    "opening_hours": "Mo-Fr 09:00-18:00",
     "operator": "Porsche",
     "parking:fee": "no",
     "socket:type2_cable": "1",
@@ -16682,48 +16682,6 @@
     "coordinates": [
       -8.322369,
       37.089032
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9194542208",
-  "properties": {
-    "access": "private",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "2",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "none",
-    "opening_hours": "24/7",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "socket:chademo": "1",
-    "socket:chademo:current": "120",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2": "1",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "125",
-    "socket:type2_combo:output": "50 kW",
-    "socket:type2_combo:voltage": "500",
-    "id": "node/9194542208"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -16.9030384,
-      32.647119
     ]
   }
 },
@@ -28932,6 +28890,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "CBR-00083",
+    "ref:EU:EVSE": "PT*EDP*ECBR*00083*1;PT*EDP*ECBR*00083*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
@@ -50237,6 +50196,7 @@
     "brand:wikidata": "Q1341222",
     "capacity": "2",
     "fee": "yes",
+    "fixme": "Verificar se o acesso é público e qual o horário",
     "location": "underground",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -55401,6 +55361,49 @@
     "coordinates": [
       -8.66795,
       39.4568496
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13151516132",
+  "properties": {
+    "access": "private",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "2",
+    "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "MOBI-BRG-00047",
+    "ref:EU:EVSE": "PT*EDP*EMOBI*BRG*00047*1;PT*EDP*EMOBI*BRG*00047*2",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13151516132"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.429687,
+      41.563217
     ]
   }
 }
