@@ -104,6 +104,53 @@
 },
 {
   "type": "Feature",
+  "id": "node/8112816712",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Renewing",
+    "brand:wikidata": "Q127504745",
+    "capacity": "2",
+    "email": "apoio.cliente@kmlowcost.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "VLC-00019",
+    "network": "Mobi.E",
+    "old_operator": "KLC;KLC Serviços",
+    "old_ref": "VLC-00005;VLC-00013",
+    "opening_hours": "24/7",
+    "operator": "Mota Engil II",
+    "operator:wikidata": "Q1949595",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 202 060",
+    "ref": "VLC-00019",
+    "ref:EU:EVSE": "PT*MOT*E*VLC*00019*01;PT*MOT*E*VLC*00019*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "125",
+    "socket:type2_combo:output": "45 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/8112816712"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.3939899,
+      40.8458805
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8207446548",
   "properties": {
     "access": "yes",
@@ -1082,17 +1129,17 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Iberdrola bp pulse",
     "capacity": "2",
+    "charge_point:output": "300 kW",
     "email": "suporte@chargingtogether.pt",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VNG-00174",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Charging Together",
@@ -1118,8 +1165,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.632044,
-      41.10929
+      -8.6319096,
+      41.1091958
     ]
   }
 },
@@ -1355,6 +1402,7 @@
     "brand": "Moeve",
     "brand:wikidata": "Q608819",
     "capacity": "2",
+    "charging_station:output": "300 kW",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -1397,6 +1445,7 @@
     "brand": "Moeve",
     "brand:wikidata": "Q608819",
     "capacity": "2",
+    "charging_station:output": "300 kW",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -2458,17 +2507,17 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Iberdrola bp pulse",
     "capacity": "2",
+    "charge_point:output": "300 kW",
     "email": "suporte@chargingtogether.pt",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "MTJ-00108",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Charging Together",
@@ -2494,8 +2543,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.9443076,
-      38.7071826
+      -8.9444727,
+      38.7071075
     ]
   }
 },
@@ -4413,17 +4462,17 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Iberdrola bp pulse",
     "capacity": "2",
+    "charge_point:output": "300 kW",
     "email": "suporte@chargingtogether.pt",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VNG-00173",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Charging Together",
@@ -4449,8 +4498,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.632046,
-      41.1093314
+      -8.6319169,
+      41.1092387
     ]
   }
 },
@@ -5353,17 +5402,17 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Iberdrola bp pulse",
     "capacity": "2",
+    "charge_point:output": "300 kW",
     "email": "suporte@chargingtogether.pt",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "MTJ-00107",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Charging Together",
@@ -5389,8 +5438,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.9443081,
-      38.7072302
+      -8.9444129,
+      38.7071075
     ]
   }
 },
