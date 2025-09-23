@@ -20502,8 +20502,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.0970797,
-      38.7683847
+      -9.0970867,
+      38.7683808
     ]
   }
 },
@@ -20551,8 +20551,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.0970776,
-      38.7684196
+      -9.0970846,
+      38.7684157
     ]
   }
 },
@@ -29337,16 +29337,17 @@
   "id": "node/8284084023",
   "properties": {
     "access": "yes",
+    "addr:city": "Cascais",
     "addr:country": "PT",
-    "amenity": "charging_station",
+    "addr:street": "Parque de Estacionamento Marechal Carmona",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "4",
+    "capacity": "2",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CSC-00105/111",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Cascais Proxima",
@@ -29355,8 +29356,8 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "CSC-00105;CSC-00111",
-    "socket:type2": "4",
+    "ref": "CSC-00105",
+    "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
     "socket:type2:voltage": "400",
@@ -29366,8 +29367,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.4233587,
-      38.6943085
+      -9.4233237,
+      38.6943348
     ]
   }
 },
@@ -43608,6 +43609,46 @@
 },
 {
   "type": "Feature",
+  "id": "node/9238885739",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "OER-00163",
+    "network": "Mobi.E",
+    "old_ref": "OER-00107",
+    "opening_hours": "24/7",
+    "operator": "GreenCharge",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 210 432",
+    "ref": "OER-00163",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/9238885739"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.3021858,
+      38.7014646
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9238885740",
   "properties": {
     "access": "yes",
@@ -44087,47 +44128,6 @@
     "coordinates": [
       -8.8013992,
       39.7404166
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9281258490",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "helexia",
-    "capacity": "2",
-    "email": "geral.pt@helexia.eu",
-    "fee": "yes",
-    "man_made": "charge_point",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Helexia II",
-    "parking:fee": "yes",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 210 181 157",
-    "ref": "BRR-00012",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt/",
-    "id": "node/9281258490"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.0569011,
-      38.6562609
     ]
   }
 },
@@ -54033,15 +54033,14 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "4",
+    "capacity": "2",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CSC-00106/108",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Cascais Proxima",
@@ -54050,8 +54049,8 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "CSC-00106;CSC-00108",
-    "socket:type2": "4",
+    "ref": "CSC-00106",
+    "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
     "socket:type2:voltage": "400",
@@ -54061,8 +54060,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.3341157,
-      38.6872344
+      -9.3339528,
+      38.6871891
     ]
   }
 },
@@ -61438,6 +61437,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "SNT-00113",
+    "ref:EU:EVSE": "PT*EDP*ESNT*00113*1;PT*EDP*ESNT*00113*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4 kW",
@@ -76259,6 +76259,49 @@
 },
 {
   "type": "Feature",
+  "id": "node/11805769223",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "VCD-00026",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "VCD-00026",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/11805769223"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.7532911,
+      41.3495305
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11805769224",
   "properties": {
     "access": "yes",
@@ -81374,6 +81417,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "SNT-00144",
+    "ref:EU:EVSE": "PT*EDP*ESNT*00144*1;PT*EDP*ESNT*00144*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
@@ -81418,6 +81462,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "SNT-00145",
+    "ref:EU:EVSE": "PT*EDP*ESNT*00145*1;PT*EDP*ESNT*00145*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4 kW",
@@ -114083,6 +114128,51 @@
 },
 {
   "type": "Feature",
+  "id": "node/12650552071",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Bluecharge",
+    "brand:wikidata": "Q113289672",
+    "capacity": "2",
+    "email": "geral@bluecharge.pt",
+    "fee": "yes",
+    "layer": "-1",
+    "location": "underground",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "AMD-00028",
+    "network": "Mobi.E",
+    "opening_hours": "07:00-21:00",
+    "operator": "Bluecharge",
+    "operator:wikidata": "Q113289672",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 450 165",
+    "ref": "AMD-00028",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/12650552071"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.2195379,
+      38.7796204
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12650581429",
   "properties": {
     "access": "yes",
@@ -114203,88 +114293,6 @@
     "coordinates": [
       -8.8733383,
       38.5349591
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12650654450",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "helexia",
-    "capacity": "2",
-    "email": "geral.pt@helexia.eu",
-    "fee": "yes",
-    "man_made": "charge_point",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Helexia II",
-    "parking:fee": "yes",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 210 181 157",
-    "ref": "BRR-00014",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt/",
-    "id": "node/12650654450"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.0568737,
-      38.6561741
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12650654451",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "helexia",
-    "capacity": "2",
-    "email": "geral.pt@helexia.eu",
-    "fee": "yes",
-    "man_made": "charge_point",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Helexia II",
-    "parking:fee": "yes",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 210 181 157",
-    "ref": "BRR-00013",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt/",
-    "id": "node/12650654451"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.0568869,
-      38.6562165
     ]
   }
 },
@@ -146493,6 +146501,46 @@
 },
 {
   "type": "Feature",
+  "id": "node/13108505858",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "capacity": "2",
+    "email": "suporte@wowplug.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CSC-00445",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "CSC-00445",
+    "ref:EU:EVSE": "PT*TRK*E*CSC*00445*01;PT*TRK*E*CSC*00445*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13108505858"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.368278,
+      38.73554
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13108519072",
   "properties": {
     "access": "yes",
@@ -147695,6 +147743,49 @@
 },
 {
   "type": "Feature",
+  "id": "node/13157799328",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Galp electric",
+    "brand:wikidata": "Q135275372",
+    "capacity": "2",
+    "email": "veiculoeletrico@galp.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "VFX-00105",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "operator:wikidata": "Q135275372",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 249 249",
+    "ref": "VFX-00105",
+    "ref:EU:EVSE": "PT*GLP*EVFX*00105*01;PT*GLP*EVFX*00105*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13157799328"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.0738507,
+      38.8523885
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13157816177",
   "properties": {
     "access": "yes",
@@ -148666,6 +148757,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "SNT-00114",
+    "ref:EU:EVSE": "PT*EDP*ESNT*00114*1;PT*EDP*ESNT*00114*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4 kW",
@@ -148808,6 +148900,84 @@
     "coordinates": [
       -9.3339274,
       38.7246024
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13163665729",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Cascais Proxima",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "CSC-00108",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13163665729"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.3340099,
+      38.6871944
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13163720132",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Cascais",
+    "addr:country": "PT",
+    "addr:street": "Parque de Estacionamento Marechal Carmona",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Cascais Proxima",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "CSC-00111",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13163720132"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.4233174,
+      38.6942766
     ]
   }
 }

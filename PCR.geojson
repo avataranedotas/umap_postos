@@ -3229,17 +3229,17 @@
     "addr:city": "Cascais",
     "addr:country": "PT",
     "addr:street": "Parque de Estacionamento Marechal Carmona",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "edp Charge",
     "brand:wikidata": "Q1341222",
     "capacity": "2",
+    "charge_point:output": "93 kW",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CSC-00027",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -3269,8 +3269,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.423366,
-      38.6943896
+      -9.4233306,
+      38.6943916
     ]
   }
 },
@@ -27582,58 +27582,6 @@
     "coordinates": [
       -8.6188412,
       39.1941443
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9258336761",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Repsol",
-    "brand:wikidata": "Q174747",
-    "capacity": "2",
-    "email": "crc.mobilidade.eletrica.pt@repsol.com",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "LSB-00408",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Repsol",
-    "operator:wikidata": "Q174747",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 226 624",
-    "ref": "LSB-00408",
-    "socket:chademo": "1",
-    "socket:chademo:current": "120",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_cable": "1",
-    "socket:type2_cable:current": "32",
-    "socket:type2_cable:output": "22 kW",
-    "socket:type2_cable:voltage": "400",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "125",
-    "socket:type2_combo:output": "50 kW",
-    "socket:type2_combo:voltage": "500",
-    "website": "https://www.mobie.pt/",
-    "id": "node/9258336761"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.17534,
-      38.74058
     ]
   }
 },
@@ -111341,6 +111289,146 @@
     "coordinates": [
       -16.9030978,
       32.6472979
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13154272993",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Galp electric",
+    "brand:wikidata": "Q135275372",
+    "capacity": "2",
+    "charging_station:output": "82 kW",
+    "email": "veiculoeletrico@galp.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "OBR-00012",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "operator:wikidata": "Q135275372",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 249 249",
+    "ref": "OBR-00012",
+    "ref:EU:EVSE": "PT*GLP*EOBR*00012*01;PT*GLP*EOBR*00012*02;PT*GLP*EOBR*00012*03",
+    "socket:chademo": "1",
+    "socket:chademo:current": "150",
+    "socket:chademo:output": "60 kW",
+    "socket:chademo:voltage": "400",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "60 kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13154272993"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5368387,
+      40.5064529
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13155782235",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "ev_portugal@maksu.com",
+    "fee": "yes",
+    "indoor": "yes",
+    "level": "-1",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Maksu Services",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 910 124",
+    "ref": "LSB-00987",
+    "ref:EU:EVSE": "PT*MAK*E*LSB*00987*01;PT*MAK*E*LSB*00987*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "173",
+    "socket:type2_combo:output": "120 kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt",
+    "id": "node/13155782235"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1430212,
+      38.7167618
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13155782236",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "email": "ev_portugal@maksu.com",
+    "fee": "yes",
+    "indoor": "yes",
+    "level": "-1",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Maksu Services",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 910 124",
+    "ref": "LSB-00986",
+    "ref:EU:EVSE": "PT*MAK*E*LSB*00986*01;PT*MAK*E*LSB*00986*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "173",
+    "socket:type2_combo:output": "120 kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt",
+    "id": "node/13155782236"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1429888,
+      38.7167235
     ]
   }
 },
