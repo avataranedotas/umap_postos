@@ -4663,52 +4663,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8308903232",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Bluecharge",
-    "brand:wikidata": "Q113289672",
-    "capacity": "2",
-    "disused:amenity": "charging_station",
-    "email": "geral@bluecharge.pt",
-    "fee": "yes",
-    "indoor": "yes",
-    "location": "underground",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "OER-00173",
-    "network": "Mobi.E",
-    "old_ref": "OER-00060",
-    "opening_hours": "Mo-Su 09:00-21:00",
-    "operator": "Bluecharge",
-    "operator:wikidata": "Q113289672",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 450 165",
-    "ref": "OER-00173",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt",
-    "id": "node/8308903232"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.3042277,
-      38.7046059
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8308930719",
   "properties": {
     "access": "yes",
@@ -4886,7 +4840,7 @@
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
     "capacity": "2",
-    "charging_station:output": "93 kW",
+    "charge_point:output": "93 kW",
     "disused:man_made": "charge_point",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
@@ -7774,6 +7728,55 @@
 },
 {
   "type": "Feature",
+  "id": "node/10760011358",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Galp electric",
+    "brand:wikidata": "Q135275372",
+    "capacity": "2",
+    "disused:amenity": "charging_station",
+    "email": "veiculoeletrico@galp.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "OER-00231",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Geste",
+    "operator:wikidata": "Q1492739",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 249 249",
+    "ref": "OER-00231",
+    "ref:EU:EVSE": "PT*GLP*EOER*00231*01;PT*GLP*EOER*00231*02",
+    "socket:chademo": "1",
+    "socket:chademo:current": "120",
+    "socket:chademo:output": "50 kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "250",
+    "socket:type2_combo:output": "120 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/10760011358"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.263733,
+      38.715734
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10792431597",
   "properties": {
     "access": "yes",
@@ -8426,6 +8429,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "AGN-00003",
+    "ref:EU:EVSE": "PT*EDP*EAGN*00003*1;PT*EDP*EAGN*00003*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
@@ -10229,50 +10233,6 @@
     "coordinates": [
       -9.1312491,
       38.7086383
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12479373305",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "1",
-    "disused:man_made": "charge_point",
-    "email": "ev_portugal@maksu.com",
-    "fee": "yes",
-    "indoor": "yes",
-    "layer": "-1",
-    "level": "-1",
-    "location": "underground",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Maksu Services",
-    "parking:fee": "yes",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 910 124",
-    "ref": "LSB-00125",
-    "socket:type2_cable": "1",
-    "socket:type2_cable:current": "32",
-    "socket:type2_cable:output": "22 kW",
-    "socket:type2_cable:voltage": "400",
-    "website": "https://www.mobie.pt",
-    "id": "node/12479373305"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.1429295,
-      38.7166584
     ]
   }
 },
@@ -12699,6 +12659,52 @@
     "coordinates": [
       -9.1379535,
       38.743476
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13165504298",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Bluecharge",
+    "brand:wikidata": "Q113289672",
+    "capacity": "2",
+    "disused:amenity": "charging_station",
+    "email": "geral@bluecharge.pt",
+    "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "OER-00173",
+    "network": "Mobi.E",
+    "old_ref": "OER-00060",
+    "opening_hours": "Mo-Su 09:00-21:00",
+    "operator": "Bluecharge",
+    "operator:wikidata": "Q113289672",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 450 165",
+    "ref": "OER-00173",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/13165504298"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.3041901,
+      38.7046478
     ]
   }
 }
