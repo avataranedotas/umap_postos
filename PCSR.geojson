@@ -1765,6 +1765,7 @@
     "brand": "edp Charge",
     "brand:wikidata": "Q1341222",
     "capacity": "1",
+    "charging_station:output": "160 kW",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -1813,6 +1814,7 @@
     "brand": "edp Charge",
     "brand:wikidata": "Q1341222",
     "capacity": "1",
+    "charging_station:output": "160 kW",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -1828,6 +1830,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "LRS-00058",
+    "ref:EU:EVSE": "PT*EDP*ELRS*00058*1;PT*EDP*ELRS*00058*2;PT*EDP*ELRS*00058*3",
     "socket:chademo": "1",
     "socket:chademo:current": "120",
     "socket:chademo:output": "50 kW",
@@ -16017,6 +16020,49 @@
     "coordinates": [
       -9.0336632,
       38.9057562
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12569233031",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "charging_station:output": "150 kW",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "FIG-00042",
+    "network": "Mobi.E",
+    "old_operator": "KLC;KLC Serviços",
+    "old_ref": "FIG-00028;FIG-00038",
+    "opening_hours": "24/7",
+    "operator": "Enable Mobility Solutions",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "FIG-00042",
+    "ref:EU:EVSE": "PT*ENB*E*FIG*00042*01;PT*ENB*E*FIG*00042*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "150 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12569233031"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.8522185,
+      40.1216738
     ]
   }
 },
