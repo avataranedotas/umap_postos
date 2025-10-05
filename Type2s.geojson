@@ -33213,51 +33213,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8308903232",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Bluecharge",
-    "brand:wikidata": "Q113289672",
-    "capacity": "2",
-    "email": "geral@bluecharge.pt",
-    "fee": "yes",
-    "indoor": "yes",
-    "location": "underground",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "OER-00060",
-    "network": "Mobi.E",
-    "opening_hours": "Mo-Su 09:00-21:00",
-    "operator": "Bluecharge",
-    "operator:wikidata": "Q113289672",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 450 165",
-    "ref": "OER-00060",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt",
-    "id": "node/8308903232"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.3042277,
-      38.7046059
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8308904614",
   "properties": {
     "access": "yes",
@@ -69376,6 +69331,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "CSC-00141",
+    "ref:EU:EVSE": "PT*EDP*ECSC*00141*1;PT*EDP*ECSC*00141*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
@@ -103736,6 +103692,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "CSC-00142",
+    "ref:EU:EVSE": "PT*EDP*ECSC*00142*1;PT*EDP*ECSC*00142*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
@@ -150664,6 +150621,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "OER-00124",
+    "ref:EU:EVSE": "PT*EDP*EOER*00124*1;PT*EDP*EOER*00124*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
@@ -151305,6 +151263,46 @@
 },
 {
   "type": "Feature",
+  "id": "node/13172044009",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "capacity": "2",
+    "email": "suporte@wowplug.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CSC-00476",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "CSC-00476",
+    "ref:EU:EVSE": "PT*TRK*E*CSC*00476*01;PT*TRK*E*CSC*00476*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13172044009"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.388065,
+      38.73948
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13172077917",
   "properties": {
     "access": "yes",
@@ -151510,6 +151508,48 @@
     "coordinates": [
       -9.3020162,
       38.7826253
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13178537193",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "ACB-00025",
+    "network": "Mobi.E",
+    "opening_hours": "09:00-20:00",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "bi",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "ACB-00025",
+    "ref:EU:EVSE": "PT*EDP*EACB*00025*1;PT*EDP*EACB*00025*2",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13178537193"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.9624866,
+      39.4240544
     ]
   }
 },
