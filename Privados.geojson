@@ -8087,6 +8087,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "CSC-00040",
+    "ref:EU:EVSE": "PT*EDP*ECSC*00040*1",
     "socket:type2": "1",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4 kW",
@@ -24377,7 +24378,6 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "TBU-00004 - Palace Hotel",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Powerdot",
@@ -24391,8 +24391,8 @@
     "ref": "TBU-00004",
     "socket:type2": "2",
     "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
+    "socket:type2:output": "7.4 kW",
+    "socket:type2:voltage": "230",
     "website": "https://www.mobie.pt/",
     "id": "node/11061423024"
   },
@@ -24957,6 +24957,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "SEI-00006",
+    "ref:EU:EVSE": "PT*EDP*ESEI*00006*1;PT*EDP*ESEI*00006*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4 kW",
@@ -25335,6 +25336,8 @@
     "brand:wikidata": "Q1341222",
     "capacity": "2",
     "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -25348,6 +25351,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "GVA-00004",
+    "ref:EU:EVSE": "PT*EDP*EGVA*00004*1;PT*EDP*EGVA*00004*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4 kW",
@@ -28404,14 +28408,13 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "uCharge",
-    "capacity": "2",
+    "capacity": "1",
     "covered": "yes",
     "email": "geral@ucharge.pt",
     "fee": "yes",
     "level": "-1",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "LSB-00613/614",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Logical Gravity",
@@ -28421,8 +28424,8 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 210 939 606;+351 224 801 080",
-    "ref": "LSB-00613;LSB-00614",
-    "socket:type2": "2",
+    "ref": "LSB-00614",
+    "socket:type2": "1",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
     "socket:type2:voltage": "400",
@@ -28432,8 +28435,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.1049665,
-      38.7654604
+      -9.104988,
+      38.7654656
     ]
   }
 },
@@ -34862,7 +34865,6 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VZL-00005",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -34874,6 +34876,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "VZL-00005",
+    "ref:EU:EVSE": "PT*EDP*EVZL*00005*1;PT*EDP*EVZL*00005*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
@@ -34884,8 +34887,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.1153522,
-      40.7210184
+      -8.1153616,
+      40.7210154
     ]
   }
 },
@@ -54266,6 +54269,8 @@
     "brand:wikidata": "Q1341222",
     "capacity": "2",
     "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -54279,6 +54284,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "GVA-00003",
+    "ref:EU:EVSE": "PT*EDP*EGVA*00003*1;PT*EDP*EGVA*00003*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4 kW",
@@ -57882,6 +57888,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "SEI-00007",
+    "ref:EU:EVSE": "PT*EDP*ESEI*00007*1;PT*EDP*ESEI*00007*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4 kW",
@@ -58242,6 +58249,49 @@
     "coordinates": [
       -9.15092,
       38.7230442
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13205685771",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "uCharge",
+    "capacity": "1",
+    "covered": "yes",
+    "email": "geral@ucharge.pt",
+    "fee": "yes",
+    "level": "-1",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Logical Gravity",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 210 939 606;+351 224 801 080",
+    "ref": "LSB-00613",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13205685771"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1050401,
+      38.7654633
     ]
   }
 }

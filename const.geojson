@@ -2066,26 +2066,26 @@
     "authentication:none": "no",
     "brand": "Iberdrola bp pulse",
     "capacity": "2",
-    "construction:amenity": "charging_station",
+    "construction:man_made": "charge_point",
     "email": "suporte@chargingtogether.pt",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CNT-????? - BP",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Charging Together",
     "parking:fee": "no",
     "payment:app": "yes",
-    "payment:cards": "no",
+    "payment:cards": "yes",
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 917 576",
-    "ref": "CNT-?????",
+    "ref": "CNT-00029",
+    "ref:EU:EVSE": "PT*FCT*E*CNT*00029*01;PT*FCT*E*CNT*00029*02;PT*FCT*E*CNT*00029*03",
     "socket:chademo": "1",
     "socket:chademo:current": "200",
     "socket:chademo:output": "80 kW",
-    "socket:chademo:voltage": "500",
+    "socket:chademo:voltage": "400",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "150 kW",
@@ -2096,8 +2096,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.5853237,
-      40.3479353
+      -8.5853106,
+      40.3479376
     ]
   }
 },
@@ -2463,8 +2463,8 @@
     "authentication:none": "no",
     "brand": "Repsol",
     "brand:wikidata": "Q174747",
-    "capacity": "2",
-    "charge_point:output": "93 kW",
+    "capacity": "1",
+    "charge_point:output": "50 kW",
     "construction:man_made": "charge_point",
     "email": "crc.mobilidade.eletrica.pt@repsol.com",
     "fee": "yes",
@@ -2500,8 +2500,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.4542487,
-      40.3641598
+      -8.4542596,
+      40.3641542
     ]
   }
 },
@@ -8825,8 +8825,8 @@
     "authentication:none": "no",
     "brand": "Repsol",
     "brand:wikidata": "Q174747",
-    "capacity": "2",
-    "charge_point:output": "93 kW",
+    "capacity": "1",
+    "charge_point:output": "50 kW",
     "construction:man_made": "charge_point",
     "email": "crc.mobilidade.eletrica.pt@repsol.com",
     "fee": "yes",
@@ -8862,8 +8862,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.4542018,
-      40.3641862
+      -8.4542367,
+      40.3641663
     ]
   }
 },
@@ -15688,7 +15688,6 @@
     "capacity": "2",
     "construction:amenity": "charging_station",
     "fee": "yes",
-    "fixme": "Move to correct location",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "CDN-?????",
@@ -15716,8 +15715,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.489384,
-      40.1262956
+      -8.489392,
+      40.1262915
     ]
   }
 },
@@ -15734,7 +15733,6 @@
     "capacity": "2",
     "construction:amenity": "charging_station",
     "fee": "yes",
-    "fixme": "Move to correct location",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "CDN-?????",
@@ -15758,8 +15756,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.4894316,
-      40.1262761
+      -8.4894396,
+      40.126272
     ]
   }
 },
@@ -16737,90 +16735,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13184110731",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "1",
-    "construction:man_made": "charge_point",
-    "email": "ev_portugal@maksu.com",
-    "fee": "yes",
-    "location": "underground",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Maksu Services",
-    "parking:fee": "yes",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 910 124",
-    "ref": "LSB-00773",
-    "ref:EU:EVSE": "PT*MAK*E*LSB*00773*01",
-    "socket:type2_cable": "1",
-    "socket:type2_cable:current": "32",
-    "socket:type2_cable:output": "22 kW",
-    "socket:type2_cable:voltage": "400",
-    "website": "https://www.mobie.pt/",
-    "id": "node/13184110731"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.1378677,
-      38.7435015
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/13184110732",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "1",
-    "construction:man_made": "charge_point",
-    "email": "ev_portugal@maksu.com",
-    "fee": "yes",
-    "location": "underground",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Maksu Services",
-    "parking:fee": "yes",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 910 124",
-    "ref": "LSB-00772",
-    "ref:EU:EVSE": "PT*MAK*E*LSB*00772*01",
-    "socket:type2_cable": "1",
-    "socket:type2_cable:current": "32",
-    "socket:type2_cable:output": "22 kW",
-    "socket:type2_cable:voltage": "400",
-    "website": "https://www.mobie.pt/",
-    "id": "node/13184110732"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.1378955,
-      38.7434941
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13184121895",
   "properties": {
     "access": "yes",
@@ -17659,6 +17573,133 @@
     "coordinates": [
       -9.1042434,
       38.7896024
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13205750159",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Powerdot",
+    "brand:wikidata": "Q123574541",
+    "capacity": "2",
+    "charging_station:output": "150 kW",
+    "construction:amenity": "charging_station",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "fixme": "Move to exact location",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CSC-00510",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "operator:wikidata": "Q123574541",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 180 292",
+    "ref": "CSC-00510",
+    "ref:EU:EVSE": "PT*HRZ*E*CSC*00510*01;PT*HRZ*E*CSC*00510*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "375",
+    "socket:type2_combo:output": "150 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13205750159"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.386098,
+      38.714104
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13205770592",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "construction:man_made": "charge_point",
+    "email": "suporte@chargingtogether.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "CNT-00030",
+    "ref:EU:EVSE": "PT*FCT*E*CNT*00030*01;PT*FCT*E*CNT*00030*02;PT*FCT*E*CNT*00030*03",
+    "socket:chademo": "1",
+    "socket:chademo:current": "200",
+    "socket:chademo:output": "80 kW",
+    "socket:chademo:voltage": "400",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "300 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13205770592"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5853365,
+      40.3479771
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13205770599",
+  "properties": {
+    "access": "private",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "construction:amenity": "charging_station",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Enercom",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "PRD-00041",
+    "ref:EU:EVSE": "PT*ENE*E*PRD*00041*01",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "7 kW",
+    "socket:type2_cable:voltage": "230",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13205770599"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4031139,
+      41.2270956
     ]
   }
 }
