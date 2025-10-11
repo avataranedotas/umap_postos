@@ -24811,10 +24811,10 @@
     "brand:wikidata": "Q1341222",
     "capacity": "2",
     "fee": "yes",
+    "indoor": "yes",
     "location": "underground",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "LSB-00794",
     "network": "Mobi.E",
     "old_ref": "LSB-00612",
     "opening_hours": "24/7",
@@ -24827,6 +24827,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "LSB-00794",
+    "ref:EU:EVSE": "PT*EDP*ELSB*00794*1;PT*EDP*ELSB*00794*2",
     "socket:type2": "2",
     "socket:type2:current": "16",
     "socket:type2:output": "11 kW",
@@ -25599,7 +25600,6 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "ACB-00008 - Hotel Vale d'Azenha",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -25611,6 +25611,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "ACB-00008",
+    "ref:EU:EVSE": "PT*EDP*EACB*00008*1;PT*EDP*EACB*00008*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4 kW",
@@ -29568,7 +29569,6 @@
     "location": "underground",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "MTJ-00043",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -29580,6 +29580,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "MTJ-00043",
+    "ref:EU:EVSE": "PT*EDP*EMTJ*00043*1;PT*EDP*EMTJ*00043*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4 kW",
@@ -29992,7 +29993,6 @@
   "properties": {
     "access": "customers",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -30000,9 +30000,11 @@
     "brand:wikidata": "Q1341222",
     "capacity": "2",
     "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "LRS-00114",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -30014,6 +30016,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "LRS-00114",
+    "ref:EU:EVSE": "PT*EDP*ELRS*00114*1;PT*EDP*ELRS*00114*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4 kW",
@@ -30024,8 +30027,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.1171554,
-      38.7862829
+      -9.1171408,
+      38.7865331
     ]
   }
 },
@@ -34908,7 +34911,6 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "LSB-00839",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -34920,6 +34922,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "LSB-00839",
+    "ref:EU:EVSE": "PT*EDP*ELSB*00839*1;PT*EDP*ELSB*00839*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4 kW",
@@ -37805,7 +37808,6 @@
     "location": "underground",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "MTJ-00044",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -37817,6 +37819,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "MTJ-00044",
+    "ref:EU:EVSE": "PT*EDP*EMTJ*00044*1;PT*EDP*EMTJ*00044*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4 kW",
@@ -58292,6 +58295,51 @@
     "coordinates": [
       -9.1050401,
       38.7654633
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13207386340",
+  "properties": {
+    "access": "customers",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "2",
+    "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "LRS-00113",
+    "ref:EU:EVSE": "PT*EDP*ELRS*00113*1;PT*EDP*ELRS*00113*2",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "7.4 kW",
+    "socket:type2:voltage": "230",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13207386340"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1171768,
+      38.7864982
     ]
   }
 }
