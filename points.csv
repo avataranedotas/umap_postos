@@ -575,7 +575,8 @@ AVR-00009,unassigned_point,node/8112609044,yes,40.6225213,-8.6585107,,,,,,,,,,,0
 AVR-00010,unassigned_point,node/8112640731,yes,40.6388228,-8.6524422,EDP,yes,24/7,Mobi.E,,,,PT,+351 800 222 222,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
 AVR-00011,unassigned_point,node/8286363089,no,40.6503142,-8.6147455,Powerdot,yes,24/7,Mobi.E,,,,PT,+351 800 180 292,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
 AVR-00014,unassigned_point,node/8225295433,no,40.6649576,-8.610937,Galp Geste,yes,24/7,Mobi.E,Avenida da Europa,Cacia,,PT,+351 800 249 249,https://www.mobie.pt,1,120,50 kW,500,0,0,0,0,0,0,0,0,0,0,0,0,1,63,43 kW,400,1,125,50 kW,500
-AVR-00023/24,unassigned_point,node/8419320251,no,40.6232568,-8.6502596,Iberdrola,yes,09:00-21:30,Mobi.E,,,,PT,+351 800 607 717,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
+AVR-00023/24 -> AVR-00023,child_point,child/node/8419320251,no,40.6232231,-8.650192350000001,Iberdrola,yes,09:00-21:30,Mobi.E,,,,PT,+351 800 607 717,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,1,32,22 kW,400,0,0,0,0,0,0,0,0
+AVR-00023/24 -> AVR-00024,child_point,child/node/13231793209,no,40.6232231,-8.650192350000001,Iberdrola,yes,09:00-21:30,Mobi.E,,,,PT,+351 800 607 717,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,1,32,22 kW,400,0,0,0,0,0,0,0,0
 AVR-00029,unassigned_point,node/8781101651,no,40.644672,-8.608196,Powerdot,yes,24/7,Mobi.E,,Aveiro,,PT,+351 800 180 292,https://www.mobie.pt,1,125,50 kW,500,0,0,0,0,0,0,0,0,0,0,0,0,1,63,43 kW,400,1,125,50 kW,500
 AVR-00031,unassigned_point,node/9289779712,no,40.665836,-8.609402,Galp Geste,yes,24/7,Mobi.E,Avenida da Europa,Cacia,,PT,+351 800 249 249,https://www.mobie.pt,1,120,50 kW,500,0,0,0,0,0,0,0,0,0,0,0,0,1,63,43 kW,400,1,125,50 kW,500
 AVR-00032,unassigned_point,node/9247173584,no,40.618878,-8.655322,Prio.E,yes,24/7,Mobi.E,,,,PT,+351 800 100 303,https://www.mobie.pt/,1,120,50 kW,500,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,125,50 kW,500
@@ -1166,12 +1167,12 @@ CBR-00010,unassigned_point,node/5377859410,no,40.2034548,-8.4254063,Prio.E,yes,2
 CBR-00011…13 -> CBR-00011,child_point,child/node/8224981780,no,40.254529649999995,-8.4307622,Helexia II,yes,24/7,Mobi.E,Estrada da Ribeira de Eiras,Coimbra,,PT,+351 210 181 157,https://www.mobie.pt,1,120,50 kW,500,0,0,0,0,0,0,0,0,0,0,0,0,1,63,43 kW,400,1,125,50 kW,500
 CBR-00011…13 -> CBR-00012,child_point,child/node/8379501971,no,40.254529649999995,-8.4307622,Helexia II,yes,24/7,Mobi.E,,,,PT,+351 210 181 157,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
 CBR-00011…13 -> CBR-00013,child_point,child/node/12766897375,no,40.254529649999995,-8.4307622,Helexia II,yes,24/7,Mobi.E,,,,PT,+351 210 181 157,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
-CBR-00014/15,unassigned_point,node/8419283215,no,40.2145586,-8.4340198,Prio.E,yes,Mo-Fr 07:30-22:00; Sa 08:30-15:00,Mobi.E,,,,PT,+351 800 100 303,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
+CBR-00014,unassigned_point,node/8419283215,no,40.2145545,-8.4339863,Prio.E,yes,Mo-Fr 07:30-22:00; Sa 08:30-15:00,Mobi.E,,,,PT,+351 800 100 303,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,1,32,22 kW,400,0,0,0,0,0,0,0,0
+CBR-00015,unassigned_point,node/13231701256,no,40.2145279,-8.4338616,Prio.E,yes,Mo-Fr 07:30-22:00; Sa 08:30-15:00,Mobi.E,,,,PT,+351 800 100 303,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,1,32,22 kW,400,0,0,0,0,0,0,0,0
 CBR-00016,unassigned_point,node/8225026508,no,40.2511344,-8.4420133,Galp Geste,yes,24/7,Mobi.E,,Coimbra,,PT,+351 800 249 249,https://www.mobie.pt,1,120,50 kW,500,0,0,0,0,0,0,0,0,0,0,0,0,1,63,43 kW,400,1,125,50 kW,500
 CBR-00017,unassigned_point,node/8224954914,no,40.2220956,-8.4306818,Galp Geste,yes,24/7,Mobi.E,Circular Externa,Coimbra,,PT,+351 800 249 249,https://www.mobie.pt,1,120,50 kW,500,0,0,0,0,0,0,0,0,0,0,0,0,1,63,43 kW,400,1,125,50 kW,500
 CBR-00021,unassigned_point,node/8461342309,yes,40.19197,-8.51091,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 CBR-00022,unassigned_point,node/8461358776,no,40.1926759,-8.4064813,Prio.E,private,24/7,Mobi.E,,,,PT,+351 800 100 303,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,1,32,7.2 kW,230,0,0,0,0,0,0,0,0
-CBR-00023/24,unassigned_point,node/8461365462,no,40.208849,-8.408647,Prio.E,private,24/7,Mobi.E,,,,PT,+351 800 100 303,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,2,32,7.2 kW,230,0,0,0,0,0,0,0,0
 CBR-00025,unassigned_point,node/3930573518,no,40.2113753,-8.4442074,Mota Engil II,yes,Mo-Su 08:00-23:59,Mobi.E,Rua Cova do Portão,Coimbra,3030,PT,+351 800 020 940,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
 CBR-00032,unassigned_point,node/3930573517,no,40.1912225,-8.5093861,Powerdot,yes,24/7,Mobi.E,,Coimbra,,PT,+351 800 180 292,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
 CBR-00034/35/82/132/133 -> CBR-00034,child_point,child/node/13205765603,no,40.213542999999994,-8.436328849999999,EDP,yes,24/7,Mobi.E,,,,PT,+351 800 222 222,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,2,32,7.4 kW,240,0,0,0,0,0,0,0,0
@@ -1230,7 +1231,8 @@ CBR-00103,unassigned_point,node/11624943335,no,40.1992828,-8.5068325,EDP,custome
 CBR-00104,unassigned_point,node/12090293632,no,40.2184708,-8.4084915,EDP,private,24/7,Mobi.E,,,,PT,+351 800 222 222,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
 CBR-00105,unassigned_point,node/12090293631,no,40.1974945,-8.4611591,EDP,private,24/7,Mobi.E,,,,PT,+351 800 222 222,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
 CBR-00106,unassigned_point,node/13046653829,no,40.1974641,-8.4612013,EDP,private,24/7,Mobi.E,,,,PT,+351 800 222 222,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
-CBR-00107/108,unassigned_point,node/11892126464,no,40.194213,-8.432725,Prio.E,yes,24/7,Mobi.E,,,,PT,+351 800 100 303,https://www.mobie.pt/,1,120,50 kW,500,0,0,0,0,0,0,0,0,1,32,22 kW,400,0,0,0,0,1,125,50 kW,500
+CBR-00107/108 -> CBR-00107,child_point,child/node/11892126464,no,40.1942381,-8.4326905,Prio.E,yes,24/7,Mobi.E,,,,PT,+351 800 100 303,https://www.mobie.pt/,1,120,50 kW,500,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,125,50 kW,500
+CBR-00107/108 -> CBR-00108,child_point,child/node/13231687401,no,40.1942381,-8.4326905,Prio.E,yes,24/7,Mobi.E,,,,PT,+351 800 100 303,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,1,32,22 kW,400,0,0,0,0,0,0,0,0
 CBR-00109,unassigned_point,node/11867258964,yes,40.1959999,-8.4321055,EDP,yes,24/7,Mobi.E,,,,PT,+351 800 222 222,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,2,32,7.4 kW,230,0,0,0,0,0,0,0,0
 CBR-00110/111 -> CBR-00110,child_point,child/node/12050811583,no,40.1977104,-8.433065950000001,Helexia II,yes,24/7,Mobi.E,,,,PT,+351 210 181 157,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,150,50 kW,1000
 CBR-00110/111 -> CBR-00111,child_point,child/node/13048849838,no,40.1977104,-8.433065950000001,Helexia II,yes,24/7,Mobi.E,,,,PT,+351 210 181 157,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
@@ -2661,7 +2663,8 @@ FIG-00024,unassigned_point,node/10831642482,no,40.1494381,-8.8500169,Atlante,yes
 FIG-00025,unassigned_point,node/9456391414,no,40.1631913,-8.8471485,Atlante,yes,24/7,Mobi.E,,,,PT,+351 800 296 929;+351 234 246 050,https://www.mobie.pt/,1,120,50 kW,500,0,0,0,0,0,0,0,0,0,0,0,0,1,32,22 kW,400,1,125,50 kW,500
 FIG-00029,unassigned_point,node/12607375212,no,40.1757757,-8.8942601,EDP,customers,24/7,Mobi.E,,,,PT,+351 800 222 222,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,2,32,7.4 kW,230,0,0,0,0,0,0,0,0
 FIG-00030,unassigned_point,node/12607375213,no,40.1757584,-8.8942003,EDP,customers,24/7,Mobi.E,,,,PT,+351 800 222 222,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,2,32,7.4 kW,230,0,0,0,0,0,0,0,0
-FIG-00031/32,unassigned_point,node/11861626512,no,40.159093,-8.864847,Helexia II,yes,24/7,Mobi.E,,,,PT,+351 210 181 157,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,1,32,22 kW,400,0,0,0,0,1,125,50 kW,1000
+FIG-00031/32 -> FIG-00031,child_point,child/node/11861626512,no,40.15911512943537,-8.864841216691286,Helexia II,yes,24/7,Mobi.E,,,,PT,+351 210 181 157,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,125,50 kW,1000
+FIG-00031/32 -> FIG-00032,child_point,child/node/13231651265,no,40.15911512943537,-8.864841216691286,Helexia II,yes,24/7,Mobi.E,,,,PT,+351 210 181 157,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,1,32,22 kW,400,0,0,0,0,0,0,0,0
 FIG-00034,unassigned_point,node/12029888511,no,40.1503579,-8.8650448,Galp Power,customers,24/7,Mobi.E,,,,PT,+351 800 249 249,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,2,16,3.7 kW,230,0,0,0,0,0,0,0,0
 FIG-00035,unassigned_point,node/8779356631,no,40.1622475,-8.8478789,Charging Together,yes,24/7,Mobi.E,Avenida Dom João Alves,Figueira da Foz,,PT,+351 800 917 576,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,150,50 kW,1000
 FIG-00036,unassigned_point,node/12728560981,no,40.084824,-8.824648,Powerdot,yes,24/7,Mobi.E,,,,PT,+351 800 180 292,https://www.mobie.pt,1,125,50 kW,500,0,0,0,0,0,0,0,0,1,32,22 kW,400,0,0,0,0,2,100,80 kW,1000
@@ -4146,7 +4149,8 @@ LSB-00381…386 -> LSB-00383,child_point,child/node/12591009224,no,38.7257865463
 LSB-00381…386 -> LSB-00384,child_point,child/node/9074902464,no,38.72578654630212,-9.154619666363267,Galp Power,yes,24/7,Mobi.E,,,,PT,+351 800 249 249,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,1,32,22 kW,400,0,0,0,0,0,0,0,0
 LSB-00381…386 -> LSB-00385,child_point,child/node/12591009226,no,38.72578654630212,-9.154619666363267,Galp Power,yes,24/7,Mobi.E,,,,PT,+351 800 249 249,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,1,32,22 kW,400,0,0,0,0,0,0,0,0
 LSB-00381…386 -> LSB-00386,child_point,child/node/12591009223,no,38.72578654630212,-9.154619666363267,Galp Power,yes,24/7,Mobi.E,,,,PT,+351 800 249 249,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,2,16,11 kW,400,0,0,0,0,0,0,0,0
-LSB-00387/388,unassigned_point,node/9065817477,no,38.7370877,-9.139073,Image4all,customers,24/7,Mobi.E,,,,PT,,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
+LSB-00387/388 -> LSB-00387,child_point,child/node/9065817477,no,38.7371515,-9.139044250000001,Image4all,customers,24/7,Mobi.E,,,,PT,,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
+LSB-00387/388 -> LSB-00388,child_point,child/node/13231635979,no,38.7371515,-9.139044250000001,Image4all,customers,24/7,Mobi.E,,,,PT,,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
 LSB-00389,unassigned_point,node/9118724924,no,38.7230862,-9.1455498,Galp Power,yes,24/7,Mobi.E,,,,PT,+351 800 249 249,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
 LSB-00390…392 -> LSB-00390,child_point,child/node/9194542205,no,38.71860725000001,-9.170472000000004,EMEL,yes,24/7,Mobi.E,,,,PT,+351 800 910 255,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
 LSB-00390…392 -> LSB-00391,child_point,child/node/13159583987,no,38.71860725000001,-9.170472000000004,EMEL,yes,24/7,Mobi.E,,,,PT,+351 800 910 255,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
@@ -5256,7 +5260,6 @@ MOBI-PRT-00068,unassigned_point,node/12484465702,no,41.17654,-8.605093,Galp Powe
 MOBI-PRT-00089,unassigned_point,node/11695238828,no,41.175659,-8.6459465,Moon,customers,24/7,Mobi.E,,,,PT,,https://www.mobie.pt,1,125,50 kW,500,0,0,0,0,0,0,0,0,1,32,22 kW,400,0,0,0,0,1,125,60 kW,500
 MOBI-PRT-00116,unassigned_point,node/12321262354,no,41.1606155,-8.6105261,Helexia II,customers,24/7,Mobi.E,,,,PT,+351 210 181 157,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,1,32,7.4 kW,230,0,0,0,0,0,0,0,0
 MOBI-SLV-00001,unassigned_point,node/9344872575,no,37.2658212,-8.2715213,DPC-Privado,private,24/7,Mobi.E,,,,PT,,,0,0,0,0,0,0,0,0,0,0,0,0,1,16,11 kW,400,0,0,0,0,0,0,0,0
-MOBI-SNT-00001/50,unassigned_point,node/11736513120,no,38.8282756,-9.2718244,DPC-Privado,private,24/7,Mobi.E,,,,PT,,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,2,32,7.4 kW,230,0,0,0,0,0,0,0,0
 MOBI-SNT-00014 - Mercedes,unassigned_point,node/10157924950,no,38.774332,-9.348001,EV Power,private,24/7,Mobi.E,,,,PT,+351 800 254 565,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
 MOBI-STB-00012;MOBI-STB-00013,unassigned_point,node/10229505398,no,38.5307485,-8.897303,DPC-Privado,private,24/7,Mobi.E,,,,PT,,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
 MOBI-SXL-00001,unassigned_point,node/13184128905,no,38.6402642,-9.0915352,EDP,private,24/7,Mobi.E,,,,,+351 800 222 222,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,1,32,7.4 kW,240,0,0,0,0,0,0,0,0
@@ -5309,8 +5312,9 @@ MTA-00023,unassigned_point,node/13038180797,yes,38.6457561,-8.978401,EDP,yes,24/
 MTA-?????,child_point,child/node/13072809071,yes,38.64775174548454,-8.993935198765923,Charging Together,yes,24/7,Mobi.E,,,,,,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,600,400 kW,1000
 MTA-?????,child_point,child/node/13072809074,yes,38.64775174548454,-8.993935198765923,Charging Together,yes,24/7,Mobi.E,,,,,,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,600,400 kW,1000
 MTG-00001,unassigned_point,node/8286136168,no,40.4005524,-7.5406256,Powerdot,yes,24/7,Mobi.E,,,,PT,+351 800 180 292,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
-MTG-00002/3 - Vila Galé Serra da Estrela,unassigned_point,node/8286115414,no,40.3818351,-7.5459672,EDP,customers,24/7,Mobi.E,,,,PT,+351 800 222 222,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,2,32,7.4 kW,230,0,0,0,0,0,0,0,0
-MTG-00004,unassigned_point,node/11386032323,no,40.381866,-7.5459663,EDP,customers,24/7,Mobi.E,,,,PT,+351 800 222 222,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,2,32,7.4 kW,230,0,0,0,0,0,0,0,0
+MTG-00002/3/4 -> MTG-00002,child_point,child/node/8286115414,no,40.38193431611995,-7.546113801462798,EDP,customers,24/7,Mobi.E,,,,PT,+351 800 222 222,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,1,32,7.4 kW,230,0,0,0,0,0,0,0,0
+MTG-00002/3/4 -> MTG-00003,child_point,child/node/13231721661,no,40.38193431611995,-7.546113801462798,EDP,customers,24/7,Mobi.E,,,,PT,+351 800 222 222,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,1,32,7.4 kW,230,0,0,0,0,0,0,0,0
+MTG-00002/3/4 -> MTG-00004,child_point,child/node/11386032323,no,40.38193431611995,-7.546113801462798,EDP,customers,24/7,Mobi.E,,,,PT,+351 800 222 222,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,2,32,7.4 kW,230,0,0,0,0,0,0,0,0
 MTJ-00001,unassigned_point,node/8464607494,yes,38.695593,-8.9415902,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 MTJ-00002,unassigned_point,node/5037277447,yes,38.695634,-8.941615,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 MTJ-00004,unassigned_point,node/8279700171,no,38.7035981,-8.9683159,Mobiletric,yes,24/7,Mobi.E,,,,PT,+351 800 249 249,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,1,16,11 kW,400,0,0,0,0,0,0,0,0
@@ -5889,7 +5893,8 @@ OER-00174,unassigned_point,node/10998269607,no,38.7026454,-9.3043137,Galp Geste,
 OER-00175,unassigned_point,node/11014854730,no,38.6962934,-9.289901,EDP,customers,24/7,Mobi.E,,,,PT,+351 800 222 222,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,1,32,7.4 kW,230,0,0,0,0,0,0,0,0
 OER-00178,unassigned_point,node/10759985335,no,38.6943353,-9.321986,Galp Geste,yes,24/7,Mobi.E,,,,PT,+351 800 249 249,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,195,180 kW,1000
 OER-00179,unassigned_point,node/12621450249,no,38.6943339,-9.3219259,Galp Geste,yes,24/7,Mobi.E,,,,PT,+351 800 249 249,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,195,180 kW,1000
-OER-00180/182,unassigned_point,node/11359317373,no,38.7073356,-9.3029254,Logical Gravity,yes,24/7,Mobi.E,,,,PT,+351 210 939 606;+351 224 801 080,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
+OER-00180/182 -> OER-00180,child_point,child/node/11359317373,no,38.70733995,-9.30293095,Logical Gravity,yes,24/7,Mobi.E,,,,PT,+351 210 939 606;+351 224 801 080,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,1,32,22 kW,400,0,0,0,0,0,0,0,0
+OER-00180/182 -> OER-00182,child_point,child/node/13231609461,no,38.70733995,-9.30293095,Logical Gravity,yes,24/7,Mobi.E,,,,PT,+351 210 939 606;+351 224 801 080,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,1,32,22 kW,400,0,0,0,0,0,0,0,0
 OER-00181;OER-00183,unassigned_point,node/11404287202,no,38.714705,-9.3016235,Logical Gravity,customers,24/7,Mobi.E,,,,PT,+351 210 939 606;+351 224 801 080,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
 OER-00185,unassigned_point,node/9238885740,no,38.7145031,-9.3096956,GreenCharge,yes,24/7,Mobi.E,,,,PT,+351 800 210 432,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,1,32,22 kW,400,0,0,0,0,0,0,0,0
 OER-00186,unassigned_point,node/9261898436,no,38.6766956,-9.3218776,GreenCharge,yes,24/7,Mobi.E,,,,PT,+351 800 210 432,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,1,32,22 kW,400,0,0,0,0,0,0,0,0
@@ -5945,7 +5950,7 @@ OER-00250,unassigned_point,node/13072266278,no,38.7088476,-9.2447799,Mota Engil 
 OER-00251,unassigned_point,node/13072293573,no,38.7101482,-9.2455856,Mota Engil II,yes,24/7,Mobi.E,,,,PT,+351 800 020 940,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
 OER-00252,unassigned_point,node/13072293574,no,38.7101873,-9.2456117,Mota Engil II,yes,24/7,Mobi.E,,,,PT,+351 800 020 940,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
 OER-00254,unassigned_point,node/10110145672,no,38.7065212,-9.2387126,Galp Power,yes,24/7,Mobi.E,,,,PT,+351 800 249 249,https://www.mobie.pt/,1,120,50 kW,500,0,0,0,0,0,0,0,0,0,0,0,0,1,32,22 kW,400,1,125,50 kW,500
-OER-00255,unassigned_point,node/9091883670,no,38.7152197,-9.3002263,Galp Power,yes,24/7,Mobi.E,,,,PT,+351 800 249 249,https://www.mobie.pt,1,120,50 kW,500,0,0,0,0,0,0,0,0,0,0,0,0,1,63,43 kW,400,1,125,50 kW,500
+OER-00255,unassigned_point,node/9091883670,yes,38.7152197,-9.3002263,Galp Power,yes,24/7,Mobi.E,,,,PT,+351 800 249 249,https://www.mobie.pt,1,120,50 kW,500,0,0,0,0,0,0,0,0,0,0,0,0,1,63,43 kW,400,1,125,50 kW,500
 OER-00256,unassigned_point,node/9848183328,yes,38.7158548,-9.2392677,Galp Power,yes,24/7,Mobi.E,,,,PT,+351 800 249 249,https://www.mobie.pt/,1,120,50 kW,500,0,0,0,0,0,0,0,0,0,0,0,0,1,32,22 kW,400,1,125,50 kW,500
 OER-00257,unassigned_point,node/12992451807,no,38.7500716,-9.3038212,Iberdrola,yes,09:00-21:30,Mobi.E,,,,PT,+351 800 607 717,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
 OER-00258,unassigned_point,node/12931760977,no,38.7258231,-9.2224007,EDP,permissive,24/7,Mobi.E,,,,PT,+351 800 222 222,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
@@ -6062,7 +6067,8 @@ OVR-00007,unassigned_point,node/8429989495,no,40.8749022,-8.6349917,Powerdot,yes
 OVR-00008,unassigned_point,node/8225360031,no,40.874884,-8.6349897,Powerdot,yes,24/7,Mobi.E,,Ovar,,PT,+351 800 180 292,https://www.mobie.pt,1,120,50 kW,500,0,0,0,0,0,0,0,0,0,0,0,0,1,63,43 kW,400,1,125,50 kW,500
 OVR-00009,unassigned_point,node/8419326543,no,40.8644921,-8.6108002,Iberdrola,yes,09:00-21:30,Mobi.E,,,,PT,+351 800 607 717,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,1,32,22 kW,400,0,0,0,0,0,0,0,0
 OVR-00010,unassigned_point,node/13038022383,no,40.8645108,-8.6108109,Iberdrola,yes,09:00-21:30,Mobi.E,,,,PT,+351 800 607 717,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,1,32,22 kW,400,0,0,0,0,0,0,0,0
-OVR-00011/12 - Restaurante Oxalá,unassigned_point,node/8710878294,no,40.8597338,-8.6591442,Iberdrola,yes,24/7,Mobi.E,Rua Família Colares Pinto,Ovar,,PT,+351 800 607 717,https://www.mobie.pt,1,120,50 kW,500,0,0,0,0,0,0,0,0,1,32,7.4 kW,230,0,0,0,0,1,125,50 kW,500
+OVR-00011/12 -> OVR-00011,child_point,child/node/13231808308,no,40.8596445,-8.65913175,Iberdrola,yes,24/7,Mobi.E,Rua Família Colares Pinto,Ovar,,PT,+351 800 607 717,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,1,32,7.4 kW,230,0,0,0,0,0,0,0,0
+OVR-00011/12 -> OVR-00012,child_point,child/node/8710878294,no,40.8596445,-8.65913175,Iberdrola,yes,24/7,Mobi.E,Rua Família Colares Pinto,Ovar,,PT,+351 800 607 717,https://www.mobie.pt,1,120,50 kW,500,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,125,50 kW,500
 OVR-00015,unassigned_point,node/11033968437,no,40.8646085,-8.6091037,Powerdot,yes,24/7,Mobi.E,,,,PT,+351 800 180 292,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,1,32,22 kW,400,0,0,0,0,2,125,100 kW,1000
 OVR-00017,unassigned_point,node/11421521134,no,40.9533531,-8.6240381,Atlante,yes,24/7,Mobi.E,,,,,+351 800 296 929;+351 234 246 050,https://www.mobie.pt/,1,125,50 kW,500,0,0,0,0,0,0,0,0,0,0,0,0,1,32,22 kW,400,1,150,60 kW,500
 OVR-00018,unassigned_point,node/11404287216,no,40.8656807,-8.6104653,Atlante,yes,24/7,Mobi.E,,,,,+351 800 296 929;+351 234 246 050,https://www.mobie.pt/,1,125,50 kW,500,0,0,0,0,0,0,0,0,0,0,0,0,1,32,22 kW,400,1,150,60 kW,500
@@ -6335,8 +6341,10 @@ PNL-00003,unassigned_point,node/12884674811,no,40.0183412,-8.3725606,Prio.E,yes,
 PNL-90001,unassigned_point,node/8285023835,no,40.0277675,-8.3926427,Galp Power,yes,24/7,Mobi.E,,,,PT,+351 800 249 249,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
 PNV-00002,unassigned_point,node/8419230189,no,39.7509082,-7.917417,EDP,yes,24/7,Mobi.E,,,,PT,+351 800 222 222,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
 PNV-00003 - Amoras,unassigned_point,node/11654639436,no,39.7494901,-7.9196207,Iberdrola,customers,24/7,Mobi.E,,,,PT,+351 800 607 717,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0
-PNV-00004/6,unassigned_point,node/12090293628,no,39.771252,-7.84993,High Green Power,yes,24/7,Mobi.E,,,,PT,,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
-PNV-00005/7,unassigned_point,node/12090293627,no,39.7498037,-7.9205528,High Green Power,yes,24/7,Mobi.E,,,,PT,,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
+PNV-00004/6 -> PNV-00004,child_point,child/node/12090293628,no,39.7712739764034,-7.849925509481469,High Green Power,yes,24/7,Mobi.E,,,,PT,,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,1,32,22 kW,400,0,0,0,0,0,0,0,0
+PNV-00004/6 -> PNV-00006,child_point,child/node/13231665610,no,39.7712739764034,-7.849925509481469,High Green Power,yes,24/7,Mobi.E,,,,PT,,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,1,32,22 kW,400,0,0,0,0,0,0,0,0
+PNV-00005/7 -> PNV-00005,child_point,child/node/12090293627,no,39.7498093,-7.9204878999999995,High Green Power,yes,24/7,Mobi.E,,,,PT,,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,1,32,22 kW,400,0,0,0,0,0,0,0,0
+PNV-00005/7 -> PNV-00007,child_point,child/node/13231665601,no,39.7498093,-7.9204878999999995,High Green Power,yes,24/7,Mobi.E,,,,PT,,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,1,32,22 kW,400,0,0,0,0,0,0,0,0
 PNV-90001,unassigned_point,node/8290184543,no,39.7522558,-7.9260457,EDP,yes,24/7,Mobi.E,,,,PT,+351 800 222 222,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
 PPS-00001,unassigned_point,node/8285021258,no,40.0476366,-7.951473,EDP,yes,24/7,Mobi.E,,,,PT,+351 800 222 222,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
 PPS-00002,unassigned_point,node/11910670622,no,40.0422309,-7.9493981,Helexia II,yes,24/7,Mobi.E,,,,PT,+351 210 181 157,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,63,60 kW,1000
@@ -6573,7 +6581,7 @@ PRT-00263…281 -> PRT-00272,child_point,child/node/12465284466,no,41.1634234650
 PRT-00263…281 -> PRT-00273,child_point,child/node/12465284465,no,41.163423465039294,-8.666811236345591,Maksu Services,yes,24/7,Mobi.E,,,,PT,,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,1,32,22 kW,400,0,0,0,0,0,0,0,0
 PRT-00263…281 -> PRT-00274,child_point,child/node/12465284464,no,41.163423465039294,-8.666811236345591,Maksu Services,yes,24/7,Mobi.E,,,,PT,,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,1,32,22 kW,400,0,0,0,0,0,0,0,0
 PRT-00263…281 -> PRT-00275,child_point,child/node/12465284463,no,41.163423465039294,-8.666811236345591,Maksu Services,yes,24/7,Mobi.E,,,,PT,,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,1,32,22 kW,400,0,0,0,0,0,0,0,0
-PRT-00263…281 -> PRT-00276,child_point,child/node/12465284462,yes,41.163423465039294,-8.666811236345591,Maksu Services,yes,24/7,Mobi.E,,,,PT,,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,1,32,22 kW,400,0,0,0,0,0,0,0,0
+PRT-00263…281 -> PRT-00276,child_point,child/node/12465284462,no,41.163423465039294,-8.666811236345591,Maksu Services,yes,24/7,Mobi.E,,,,PT,,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,1,32,22 kW,400,0,0,0,0,0,0,0,0
 PRT-00263…281 -> PRT-00277,child_point,child/node/12465284461,no,41.163423465039294,-8.666811236345591,Maksu Services,yes,24/7,Mobi.E,,,,PT,,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,1,32,22 kW,400,0,0,0,0,0,0,0,0
 PRT-00263…281 -> PRT-00278,child_point,child/node/12465284460,no,41.163423465039294,-8.666811236345591,Maksu Services,yes,24/7,Mobi.E,,,,PT,,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,1,32,22 kW,400,0,0,0,0,0,0,0,0
 PRT-00263…281 -> PRT-00279,child_point,child/node/12465284459,no,41.163423465039294,-8.666811236345591,Maksu Services,yes,24/7,Mobi.E,,,,PT,,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,1,32,22 kW,400,0,0,0,0,0,0,0,0
@@ -7054,7 +7062,8 @@ SEI-00016,unassigned_point,node/12505318208,no,40.4208255,-7.7070661,EDP,yes,24/
 SEI-00017,unassigned_point,node/8082216633,no,40.4302861,-7.7168842,Galp Power,yes,24/7,Mobi.E,,Seia,,PT,+351 800 249 249,https://www.mobie.pt,1,120,50 kW,500,0,0,0,0,0,0,0,0,0,0,0,0,1,63,43 kW,400,1,125,50 kW,500
 SEI-90001,unassigned_point,node/10588855285,no,40.4217791,-7.7036086,Powerdot,yes,24/7,Mobi.E,,,,PT,+351 800 180 292,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
 SJM-00001,unassigned_point,node/8112779813,no,40.8989438,-8.4896924,Powerdot,yes,24/7,Mobi.E,,,,PT,+351 800 180 292,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
-SJM-00003/4,unassigned_point,node/8419344956,no,40.8856261,-8.4896395,Iberdrola,yes,09:00-21:30,Mobi.E,,,,PT,+351 800 607 717,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
+SJM-00003/4 -> SJM-00003,child_point,child/node/8419344956,no,40.88566413123917,-8.48961104140345,Iberdrola,yes,09:00-21:30,Mobi.E,,,,PT,+351 800 607 717,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,1,32,22 kW,400,0,0,0,0,0,0,0,0
+SJM-00003/4 -> SJM-00004,child_point,child/node/13231827119,no,40.88566413123917,-8.48961104140345,Iberdrola,yes,09:00-21:30,Mobi.E,,,,PT,+351 800 607 717,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,1,32,22 kW,400,0,0,0,0,0,0,0,0
 SJM-00005…7 -> SJM-00005,child_point,child/node/8309480493,no,40.88904812432373,-8.492122110956428,Powerdot,yes,10:00-23:00,Mobi.E,,São João da Madeira,,PT,+351 800 180 292,https://www.mobie.pt,1,120,50 kW,500,0,0,0,0,0,0,0,0,0,0,0,0,1,63,43 kW,400,1,125,50 kW,500
 SJM-00005…7 -> SJM-00006,child_point,child/node/12856276253,no,40.88904812432373,-8.492122110956428,Powerdot,yes,10:00-23:00,Mobi.E,,,,PT,+351 800 180 292,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
 SJM-00005…7 -> SJM-00007,child_point,child/node/8309480494,no,40.88904812432373,-8.492122110956428,Powerdot,yes,10:00-23:00,Mobi.E,,,,PT,+351 800 180 292,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
@@ -7232,7 +7241,7 @@ SNT-00112,unassigned_point,node/10948848123,no,38.7519027,-9.2839589,EDP,yes,24/
 SNT-00113/114 -> SNT-00113,child_point,child/node/10884713936,no,38.769673450000006,-9.30413695,EDP,yes,24/7,Mobi.E,,,,PT,+351 800 222 222,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,2,32,7.4 kW,230,0,0,0,0,0,0,0,0
 SNT-00113/114 -> SNT-00114,child_point,child/node/13159980636,no,38.769673450000006,-9.30413695,EDP,yes,24/7,Mobi.E,,,,PT,+351 800 222 222,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,2,32,7.4 kW,230,0,0,0,0,0,0,0,0
 SNT-00115,unassigned_point,node/13042146474,no,38.7645556,-9.2970085,EDP,yes,24/7,Mobi.E,,,,PT,+351 800 222 222,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,2,16,3.7 kW,230,0,0,0,0,0,0,0,0
-SNT-00116,unassigned_point,node/10884713939,yes,38.7645091,-9.2969949,EDP,yes,24/7,Mobi.E,,,,PT,+351 800 222 222,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,1,16,3.7 kW,230,0,0,0,0,0,0,0,0
+SNT-00116,unassigned_point,node/10884713939,no,38.7645091,-9.2969949,EDP,yes,24/7,Mobi.E,,,,PT,+351 800 222 222,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,1,16,3.7 kW,230,0,0,0,0,0,0,0,0
 SNT-00117,child_point,child/node/11634211673,no,38.76108158568791,-9.386067730610145,Powerdot,yes,24/7,Mobi.E,,,,PT,+351 800 180 292,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,200,80 kW,500
 SNT-00117,child_point,child/node/12650119283,no,38.76108158568791,-9.386067730610145,Powerdot,yes,24/7,Mobi.E,,,,PT,+351 800 180 292,https://www.mobie.pt/,1,125,50 kW,500,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,200,80 kW,500
 SNT-00117,child_point,child/node/12650119284,no,38.76108158568791,-9.386067730610145,Powerdot,yes,24/7,Mobi.E,,,,PT,+351 800 180 292,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,300,100 kW,500
@@ -7379,7 +7388,7 @@ STB-00017,unassigned_point,node/8644953935,no,38.5341715,-8.8679653,Repsol,yes,2
 STB-00019 - Minipreço,unassigned_point,node/8989449930,no,38.544806,-9.030972,Plug,yes,24/7,Mobi.E,,,,PT,+351 211 648 577,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
 STB-00020/21 -> STB-00020,child_point,child/node/9458440999,no,38.53329984664488,-8.910028275388472,EDP,yes,24/7,Mobi.E,,,,PT,+351 800 222 222,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
 STB-00020/21 -> STB-00021,child_point,child/node/13002714082,no,38.53329984664488,-8.910028275388472,EDP,yes,24/7,Mobi.E,,,,PT,+351 800 222 222,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
-STB-00023,unassigned_point,node/9848264273,yes,38.5302935,-9.0209723,Repsol,yes,24/7,Mobi.E,,,,,+351 800 226 624,https://www.mobie.pt/,1,125,50 kW,500,0,0,0,0,0,0,0,0,0,0,0,0,1,63,43 kW,400,1,150,60 kW,1000
+STB-00023,unassigned_point,node/9848264273,no,38.5302935,-9.0209723,Repsol,yes,24/7,Mobi.E,,,,,+351 800 226 624,https://www.mobie.pt/,1,125,50 kW,500,0,0,0,0,0,0,0,0,0,0,0,0,1,63,43 kW,400,1,150,60 kW,1000
 STB-00024,unassigned_point,node/9847687369,no,38.539399,-8.8677515,Iberdrola,yes,09:00-21:30,Mobi.E,,,,PT,+351 800 607 717,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,2,32,22 kW,400,0,0,0,0,0,0,0,0
 STB-00025,unassigned_point,node/9848264272,no,38.5409643,-8.8713703,Moon,customers,24/7,Mobi.E,,,,PT,,https://www.mobie.pt,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,60,25 kW,1000
 STB-00030,unassigned_point,node/9894976372,no,38.5238849,-8.8773777,Powerdot,customers,24/7,Mobi.E,,,,PT,+351 800 180 292,https://www.mobie.pt/,0,0,0,0,0,0,0,0,0,0,0,0,2,32,7.4 kW,230,0,0,0,0,0,0,0,0
@@ -8827,7 +8836,6 @@ node/8225244922,unassigned_point,node/8225244922,yes,40.60589,-8.6624663,,,,,,,,
 node/8232073281,unassigned_point,node/8232073281,yes,41.6056885,-8.5509038,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 node/8232073284,unassigned_point,node/8232073284,yes,41.6040022,-8.5498805,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 node/8255624776,unassigned_point,node/8255624776,yes,41.199058,-8.3115514,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-node/8255643986,unassigned_point,node/8255643986,yes,40.8855815,-8.4897226,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 node/8255643987,unassigned_point,node/8255643987,yes,40.864629,-8.6108726,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 node/8255656844,unassigned_point,node/8255656844,yes,41.7066797,-8.8252214,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 node/8255663750,unassigned_point,node/8255663750,yes,41.1685794,-8.5423073,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
