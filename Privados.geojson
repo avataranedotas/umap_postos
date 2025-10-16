@@ -28261,7 +28261,7 @@
     "brand": "Prio",
     "brand:wikidata": "Q62530421",
     "capacity": "2",
-    "charging_station:output": "60 kW",
+    "charge_point:output": "60 kW",
     "email": "electric@prioenergy.com",
     "fee": "yes",
     "man_made": "charge_point",
@@ -28846,6 +28846,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "PNH-00002",
+    "ref:EU:EVSE": "PT*EDP*EPNH*00002*1;PT*EDP*EPNH*00002*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
@@ -35371,7 +35372,6 @@
   "properties": {
     "access": "customers",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -35379,7 +35379,9 @@
     "brand:wikidata": "Q1341222",
     "capacity": "2",
     "fee": "yes",
-    "fixme": "Move to correct location",
+    "indoor": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -35393,7 +35395,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "CSC-00199",
-    "ref:EU:EVSE": "PT*EDP*E*CSC*00199*01;PT*EDP*E*CSC*00199*02",
+    "ref:EU:EVSE": "PT*EDP*ECSC*00199*1;PT*EDP*ECSC*00199*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
@@ -35404,8 +35406,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.4576008,
-      38.7025587
+      -9.4578763,
+      38.7015922
     ]
   }
 },
@@ -35660,8 +35662,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.4578832,
-      38.7016068
+      -9.4578956,
+      38.7016345
     ]
   }
 },
@@ -51778,6 +51780,8 @@
     "authentication:none": "no",
     "capacity": "1",
     "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -51801,8 +51805,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.3967693,
-      38.7616355
+      -9.3966138,
+      38.7615395
     ]
   }
 },
@@ -51816,6 +51820,8 @@
     "authentication:none": "no",
     "capacity": "1",
     "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -51839,8 +51845,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.3967827,
-      38.761619
+      -9.3966364,
+      38.761531
     ]
   }
 },
@@ -51854,6 +51860,8 @@
     "authentication:none": "no",
     "capacity": "1",
     "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -51877,8 +51885,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.3968006,
-      38.7616013
+      -9.3966636,
+      38.7615234
     ]
   }
 },
@@ -51892,6 +51900,8 @@
     "authentication:none": "no",
     "capacity": "1",
     "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -51915,8 +51925,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.3968185,
-      38.761583
+      -9.3966912,
+      38.7615153
     ]
   }
 },
@@ -55169,8 +55179,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.4579022,
-      38.7016507
+      -9.4579146,
+      38.7016784
     ]
   }
 },

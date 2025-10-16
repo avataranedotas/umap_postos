@@ -17109,6 +17109,7 @@
     "addr:country": "PT",
     "amenity": "charging_station",
     "capacity": "4",
+    "charging_station:output": "200 kW",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -25209,6 +25210,7 @@
     "brand": "Galp electric",
     "brand:wikidata": "Q135275372",
     "capacity": "4",
+    "charging_station:output": "120 kW",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -25229,24 +25231,24 @@
     "coordinates": [
       [
         [
-          -9.2540047,
-          39.097541
+          -9.2540134,
+          39.0975361
         ],
         [
-          -9.2540051,
-          39.0974912
+          -9.2540138,
+          39.0974863
         ],
         [
-          -9.2538751,
-          39.0974905
+          -9.2538838,
+          39.0974856
         ],
         [
-          -9.2538746,
-          39.0975403
+          -9.2538833,
+          39.0975354
         ],
         [
-          -9.2540047,
-          39.097541
+          -9.2540134,
+          39.0975361
         ]
       ]
     ]
@@ -29751,12 +29753,12 @@
     "brand": "helexia",
     "capacity": "4",
     "motorcar": "yes",
-    "name": "BRG-?????",
+    "name": "BRG-00145",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Helexia II",
     "parking:fee": "no",
-    "ref": "BRG-?????",
+    "ref": "BRG-00145",
     "id": "way/1414423346"
   },
   "geometry": {
@@ -31301,6 +31303,8 @@
     "amenity": "charging_station",
     "capacity": "4",
     "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "SNT-00211…214",
@@ -31317,24 +31321,24 @@
     "coordinates": [
       [
         [
-          -9.3968763,
-          38.7616051
+          -9.3967252,
+          38.761558
         ],
         [
-          -9.3968228,
-          38.7615732
+          -9.3967016,
+          38.7615088
         ],
         [
-          -9.3967534,
-          38.7616437
+          -9.3965948,
+          38.7615398
         ],
         [
-          -9.3968068,
-          38.7616757
+          -9.3966182,
+          38.7615891
         ],
         [
-          -9.3968763,
-          38.7616051
+          -9.3967252,
+          38.761558
         ]
       ]
     ]
@@ -41189,7 +41193,7 @@
     "amenity": "charging_station",
     "brand": "edp Charge",
     "brand:wikidata": "Q1341222",
-    "capacity": "4",
+    "capacity": "6",
     "fee": "yes",
     "indoor": "yes",
     "location": "underground",
@@ -41201,7 +41205,7 @@
     "operator:wikidata": "Q1341222",
     "parking:fee": "no",
     "phone": "+351 800 222 222",
-    "ref": "CSC-00200;CSC-00201",
+    "ref": "CSC-00199;CSC-00200;CSC-00201",
     "website": "https://www.mobie.pt/",
     "id": "way/1432318259"
   },
@@ -41210,24 +41214,24 @@
     "coordinates": [
       [
         [
-          -9.4578519,
-          38.7016877
+          -9.4578643,
+          38.7017154
         ],
         [
-          -9.4579156,
-          38.7016706
+          -9.457928,
+          38.7016983
         ],
         [
-          -9.4578775,
-          38.7015841
+          -9.4578718,
+          38.7015691
         ],
         [
-          -9.4578137,
-          38.7016013
+          -9.457808,
+          38.7015863
         ],
         [
-          -9.4578519,
-          38.7016877
+          -9.4578643,
+          38.7017154
         ]
       ]
     ]
@@ -42459,7 +42463,7 @@
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
     "capacity": "4",
-    "charge_point:output": "100 kW",
+    "charging_station:output": "100 kW",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -43204,7 +43208,7 @@
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
     "capacity": "5",
-    "charge_point:output": "215 kW",
+    "charging_station:output": "215 kW",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -44034,6 +44038,7 @@
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
     "capacity": "4",
+    "charging_station:output": "116 kW",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -44086,6 +44091,7 @@
     "brand": "Prio",
     "brand:wikidata": "Q62530421",
     "capacity": "3",
+    "charging_station:output": "104 kW",
     "email": "electric@prioenergy.com",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -46306,7 +46312,7 @@
     "amenity": "charging_station",
     "brand": "ecoinside",
     "capacity": "4",
-    "charge_point:output": "104 kW",
+    "charging_station:output": "104 kW",
     "email": "contact@ecoinside.pt",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -46344,6 +46350,56 @@
         [
           -8.4476163,
           41.5283691
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1441509571",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "capacity": "3",
+    "charging_station:output": "104 kW",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "BRG-00062/63",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "CEVE",
+    "parking:fee": "no",
+    "phone": "+351 800 965 656",
+    "ref": "BRG-00062;BRG-00063",
+    "website": "https://www.mobie.pt/",
+    "id": "way/1441509571"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -8.4486993,
+          41.5265649
+        ],
+        [
+          -8.4489592,
+          41.5266224
+        ],
+        [
+          -8.4489749,
+          41.5265742
+        ],
+        [
+          -8.4487158,
+          41.5265197
+        ],
+        [
+          -8.4486993,
+          41.5265649
         ]
       ]
     ]
@@ -47122,6 +47178,522 @@
         [
           -8.4896521,
           40.8856741
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1442403194",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "brand": "helexia",
+    "capacity": "4",
+    "fixme": "Move to exact location",
+    "motorcar": "yes",
+    "name": "VNG-00216/217",
+    "network": "Mobi.E",
+    "opening_hours": "09:00-21:00",
+    "operator": "Helexia II",
+    "parking:fee": "no",
+    "ref": "VNG-00216;VNG-00217",
+    "id": "way/1442403194"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -8.6236715,
+          41.1211888
+        ],
+        [
+          -8.6236437,
+          41.1211005
+        ],
+        [
+          -8.6235866,
+          41.1211107
+        ],
+        [
+          -8.6236143,
+          41.121199
+        ],
+        [
+          -8.6236715,
+          41.1211888
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1442468967",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CTM-00005/6",
+    "network": "Mobi.E",
+    "old_ref": "CTM-00003",
+    "opening_hours": "24/7",
+    "operator": "High Green Power",
+    "parking:fee": "no",
+    "ref": "CTM-00005;CTM-00006",
+    "website": "https://www.mobie.pt",
+    "id": "way/1442468967"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -7.4819456,
+          37.1753136
+        ],
+        [
+          -7.4819907,
+          37.175285
+        ],
+        [
+          -7.4819497,
+          37.1752439
+        ],
+        [
+          -7.4819046,
+          37.1752724
+        ],
+        [
+          -7.4819456,
+          37.1753136
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1442472079",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "4",
+    "fee": "yes",
+    "fixme": "Move to exact location",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Continente Bom Dia Vila Viçosa",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "24/7",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "no",
+    "phone": "+351 210 19 19 19",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "way/1442472079"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -7.4242215,
+          38.7763224
+        ],
+        [
+          -7.4241297,
+          38.7763765
+        ],
+        [
+          -7.4241644,
+          38.7764123
+        ],
+        [
+          -7.4242562,
+          38.7763582
+        ],
+        [
+          -7.4242215,
+          38.7763224
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1442473172",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "SCR-00018/19",
+    "network": "Mobi.E",
+    "old_ref": "SCR-00011;SCR-00013;SCR-00014",
+    "opening_hours": "24/7",
+    "operator": "Município de Santa Cruz",
+    "parking:fee": "no",
+    "ref": "SCR-00018;SCR-00019",
+    "website": "https://www.mobie.pt",
+    "id": "way/1442473172"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -16.8398726,
+          32.6519419
+        ],
+        [
+          -16.8398242,
+          32.6519188
+        ],
+        [
+          -16.8397782,
+          32.6519484
+        ],
+        [
+          -16.8398265,
+          32.6519708
+        ],
+        [
+          -16.8398726,
+          32.6519419
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1442473511",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "brand": "Iberdrola",
+    "brand:wikidata": "Q1437502",
+    "capacity": "2",
+    "email": "comercial@iberdrola.pt",
+    "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "PRT-00069/70",
+    "network": "Mobi.E",
+    "opening_hours": "09:00-21:30",
+    "operator": "Iberdrola",
+    "operator:wikidata": "Q1437502",
+    "parking:fee": "no",
+    "phone": "+351 800 607 717",
+    "ref": "PRT-00069;PRT-00070",
+    "website": "https://www.mobie.pt",
+    "id": "way/1442473511"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -8.6299924,
+          41.1629614
+        ],
+        [
+          -8.6299642,
+          41.1629237
+        ],
+        [
+          -8.6299084,
+          41.1629473
+        ],
+        [
+          -8.6299367,
+          41.1629851
+        ],
+        [
+          -8.6299924,
+          41.1629614
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1442474173",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "brand": "Iberdrola",
+    "brand:wikidata": "Q1437502",
+    "capacity": "2",
+    "covered": "yes",
+    "email": "comercial@iberdrola.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "GDM-00005/6",
+    "network": "Mobi.E",
+    "opening_hours": "09:00-21:30",
+    "operator": "Iberdrola",
+    "operator:wikidata": "Q1437502",
+    "parking:fee": "no",
+    "phone": "+351 800 607 717",
+    "ref": "GDM-00005;GDM-00006",
+    "website": "https://www.mobie.pt",
+    "id": "way/1442474173"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -8.5420641,
+          41.1688044
+        ],
+        [
+          -8.542063,
+          41.168761
+        ],
+        [
+          -8.5419992,
+          41.1687619
+        ],
+        [
+          -8.5420002,
+          41.1688052
+        ],
+        [
+          -8.5420641,
+          41.1688044
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1442474462",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "brand": "Iberdrola",
+    "brand:wikidata": "Q1437502",
+    "capacity": "2",
+    "email": "comercial@iberdrola.pt",
+    "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "MTS-00033/34",
+    "network": "Mobi.E",
+    "opening_hours": "09:00-21:30",
+    "operator": "Iberdrola",
+    "operator:wikidata": "Q1437502",
+    "parking:fee": "no",
+    "phone": "+351 800 607 717",
+    "ref": "MTS-00033;MTS-00034",
+    "website": "https://www.mobie.pt",
+    "id": "way/1442474462"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -8.682098,
+          41.1773178
+        ],
+        [
+          -8.6821024,
+          41.177361
+        ],
+        [
+          -8.6821674,
+          41.1773572
+        ],
+        [
+          -8.682163,
+          41.177314
+        ],
+        [
+          -8.682098,
+          41.1773178
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1442475383",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "brand": "Iberdrola",
+    "brand:wikidata": "Q1437502",
+    "capacity": "2",
+    "email": "comercial@iberdrola.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "PNF-00007/8",
+    "network": "Mobi.E",
+    "opening_hours": "09:00-21:30",
+    "operator": "Iberdrola",
+    "operator:wikidata": "Q1437502",
+    "parking:fee": "no",
+    "phone": "+351 800 607 717",
+    "ref": "PNF-00007;PNF-00008",
+    "website": "https://www.mobie.pt",
+    "id": "way/1442475383"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -8.3115212,
+          41.1991331
+        ],
+        [
+          -8.3114638,
+          41.1991146
+        ],
+        [
+          -8.311441,
+          41.1991544
+        ],
+        [
+          -8.3114984,
+          41.1991729
+        ],
+        [
+          -8.3115212,
+          41.1991331
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1442476122",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "VLG-00030/31",
+    "network": "Mobi.E",
+    "old_ref": "VLG-00008",
+    "opening_hours": "24/7",
+    "operator": "High Green Power",
+    "parking:fee": "no",
+    "ref": "VLG-00030;VLG-00031",
+    "website": "https://www.mobie.pt",
+    "id": "way/1442476122"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -8.5504734,
+          41.2136644
+        ],
+        [
+          -8.5504132,
+          41.213679
+        ],
+        [
+          -8.5504308,
+          41.2137203
+        ],
+        [
+          -8.550491,
+          41.2137057
+        ],
+        [
+          -8.5504734,
+          41.2136644
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1442476125",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "brand": "Iberdrola",
+    "brand:wikidata": "Q1437502",
+    "capacity": "2",
+    "covered": "yes",
+    "email": "comercial@iberdrola.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "VLG-00006/7",
+    "network": "Mobi.E",
+    "opening_hours": "09:00-21:30",
+    "operator": "Iberdrola",
+    "operator:wikidata": "Q1437502",
+    "parking:fee": "no",
+    "phone": "+351 800 607 717",
+    "ref": "VLG-00006;VLG-00007",
+    "website": "https://www.mobie.pt",
+    "id": "way/1442476125"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -8.5468964,
+          41.2105557
+        ],
+        [
+          -8.5469376,
+          41.2105937
+        ],
+        [
+          -8.5469823,
+          41.2105664
+        ],
+        [
+          -8.546941,
+          41.2105283
+        ],
+        [
+          -8.5468964,
+          41.2105557
         ]
       ]
     ]
