@@ -18471,7 +18471,6 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -18480,9 +18479,9 @@
     "capacity": "2",
     "email": "geral@bluecharge.pt",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "BRG-00022",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Bluecharge",
@@ -35461,6 +35460,7 @@
   "id": "node/8350172525",
   "properties": {
     "access": "yes",
+    "addr:city": "Lagoa",
     "addr:country": "PT",
     "amenity": "charging_station",
     "authentication:app": "yes",
@@ -37666,18 +37666,17 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Iberdrola",
     "brand:wikidata": "Q1437502",
-    "capacity": "2",
+    "capacity": "1",
     "email": "comercial@iberdrola.pt",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "BCL-00006/7",
     "network": "Mobi.E",
     "opening_hours": "09:00-21:30",
     "operator": "Iberdrola",
@@ -37688,8 +37687,8 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 607 717",
-    "ref": "BCL-00006;BCL-00007",
-    "socket:type2": "2",
+    "ref": "BCL-00006",
+    "socket:type2": "1",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
     "socket:type2:voltage": "400",
@@ -37699,8 +37698,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6257581,
-      41.5326136
+      -8.6257658,
+      41.5326005
     ]
   }
 },
@@ -37800,18 +37799,19 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Iberdrola",
     "brand:wikidata": "Q1437502",
-    "capacity": "2",
+    "capacity": "1",
     "email": "comercial@iberdrola.pt",
     "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "STS-00007/8",
     "network": "Mobi.E",
     "opening_hours": "09:00-21:30",
     "operator": "Iberdrola",
@@ -37822,8 +37822,8 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 607 717",
-    "ref": "STS-00007;STS-00008",
-    "socket:type2": "2",
+    "ref": "STS-00007",
+    "socket:type2": "1",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
     "socket:type2:voltage": "400",
@@ -37833,8 +37833,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.4817511,
-      41.33921
+      -8.4814763,
+      41.3391687
     ]
   }
 },
@@ -37979,18 +37979,19 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Iberdrola",
     "brand:wikidata": "Q1437502",
-    "capacity": "2",
+    "capacity": "1",
     "email": "comercial@iberdrola.pt",
     "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "TRF-00005/6 - Mercadona",
     "network": "Mobi.E",
     "opening_hours": "09:00-21:30",
     "operator": "Iberdrola",
@@ -38001,8 +38002,8 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 607 717",
-    "ref": "TRF-00005;TRF-00006",
-    "socket:type2": "2",
+    "ref": "TRF-00005",
+    "socket:type2": "1",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
     "socket:type2:voltage": "400",
@@ -38012,8 +38013,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.5563929,
-      41.3436353
+      -8.5560895,
+      41.3436445
     ]
   }
 },
@@ -51733,15 +51734,14 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "capacity": "2",
+    "capacity": "1",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "STS-00030/31",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "High Green Power",
@@ -51750,9 +51750,9 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "STS-00030;STS-00031",
-    "ref:EU:EVSE": "PT*HGP*E*STS*00030*01;PT*HGP*E*STS*00031*01",
-    "socket:type2": "2",
+    "ref": "STS-00030",
+    "ref:EU:EVSE": "PT*HGP*E*STS*00030*01",
+    "socket:type2": "1",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
     "socket:type2:voltage": "400",
@@ -51762,8 +51762,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.4079795,
-      41.3614769
+      -8.40798,
+      41.361469
     ]
   }
 },
@@ -53117,8 +53117,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6886147,
-      41.2099088
+      -8.6884399,
+      41.2104002
     ]
   }
 },
@@ -53136,6 +53136,7 @@
     "capacity": "2",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "indoor": "yes",
     "level": "-1",
     "location": "underground",
     "man_made": "charge_point",
@@ -53163,8 +53164,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6886258,
-      41.2106463
+      -8.6871915,
+      41.2097145
     ]
   }
 },
@@ -53497,6 +53498,7 @@
     "capacity": "2",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "indoor": "yes",
     "level": "-1",
     "location": "underground",
     "man_made": "charge_point",
@@ -53524,8 +53526,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6876465,
-      41.2092159
+      -8.6875431,
+      41.2088834
     ]
   }
 },
@@ -53543,6 +53545,7 @@
     "capacity": "2",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "indoor": "yes",
     "level": "-1",
     "location": "underground",
     "man_made": "charge_point",
@@ -53569,8 +53572,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6876453,
-      41.2090858
+      -8.6877737,
+      41.2088827
     ]
   }
 },
@@ -61405,6 +61408,52 @@
 },
 {
   "type": "Feature",
+  "id": "node/10870494272",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "ABF-00093",
+    "network": "Mobi.E",
+    "old_operator": "KLC Serviços",
+    "old_ref": "ABF-00058",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "ABF-00093",
+    "ref:EU:EVSE": "PT*EDP*E*ABF*00093*01;PT*EDP*E*ABF*00093*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/10870494272"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.2369225,
+      37.1256451
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10870494273",
   "properties": {
     "access": "yes",
@@ -67561,7 +67610,6 @@
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
-    "old_ref": "PRT-00053",
     "opening_hours": "24/7",
     "operator": "Maksu Services",
     "parking:fee": "yes",
@@ -69526,7 +69574,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "LRA-00095 - Intermarché",
+    "name": "LRA-00095",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -69548,8 +69596,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.8949555,
-      39.6849038
+      -8.8949287,
+      39.68491
     ]
   }
 },
@@ -70634,6 +70682,8 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
+    "addr:postcode": "2955-189",
+    "addr:street": "Rua Gago Coutinho e Sacadura Cabral",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -72248,17 +72298,18 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "helexia",
-    "capacity": "2",
+    "capacity": "1",
     "email": "geral.pt@helexia.eu",
     "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VCD-00021/22/23",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Helexia II",
@@ -72268,8 +72319,8 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 210 181 157",
-    "ref": "VCD-00021;VCD-00022;VCD-00023",
-    "socket:type2": "3",
+    "ref": "VCD-00021",
+    "socket:type2": "1",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4 kW",
     "socket:type2:voltage": "230",
@@ -72279,8 +72330,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.745026,
-      41.3615467
+      -8.7451323,
+      41.361594
     ]
   }
 },
@@ -77779,17 +77830,16 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Plug4Us",
-    "capacity": "2",
+    "capacity": "1",
     "email": "support@plug4us.com",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "MAI-00065/66",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Plug Four The World",
@@ -77799,9 +77849,9 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 100 995",
-    "ref": "MAI-00065;MAI-00066",
-    "ref:EU:EVSE": "PT*PFU*E*MAI*00065*01;PT*PFU*E*MAI*00066*02",
-    "socket:type2_cable": "2",
+    "ref": "MAI-00065",
+    "ref:EU:EVSE": "PT*PFU*E*MAI*00065*01",
+    "socket:type2_cable": "1",
     "socket:type2_cable:current": "32",
     "socket:type2_cable:output": "22 kW",
     "socket:type2_cable:voltage": "400",
@@ -77811,8 +77861,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.667393,
-      41.2377871
+      -8.6673989,
+      41.2377725
     ]
   }
 },
@@ -86000,6 +86050,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "VIS-00112",
+    "ref:EU:EVSE": "PT*EDP*EVIS*00112*1;PT*EDP*EVIS*00112*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
@@ -89557,8 +89608,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6886173,
-      41.2100823
+      -8.6884696,
+      41.2105804
     ]
   }
 },
@@ -89603,8 +89654,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6886212,
-      41.2103426
+      -8.6884658,
+      41.2103137
     ]
   }
 },
@@ -89733,8 +89784,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6886206,
-      41.2102992
+      -8.6884664,
+      41.2103571
     ]
   }
 },
@@ -98733,6 +98784,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "VNG-00090",
+    "ref:EU:EVSE": "PT*EDP*EVNG*00090*1;PT*EDP*EVNG*00090*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
@@ -101237,6 +101289,7 @@
     "capacity": "2",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "indoor": "yes",
     "level": "-1",
     "location": "underground",
     "man_made": "charge_point",
@@ -101264,8 +101317,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6876468,
-      41.2092593
+      -8.6876008,
+      41.2088833
     ]
   }
 },
@@ -101283,6 +101336,7 @@
     "capacity": "2",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "indoor": "yes",
     "level": "-1",
     "location": "underground",
     "man_made": "charge_point",
@@ -101310,8 +101364,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6876457,
-      41.2091291
+      -8.6873989,
+      41.2088839
     ]
   }
 },
@@ -101329,6 +101383,7 @@
     "capacity": "2",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "indoor": "yes",
     "level": "-1",
     "location": "underground",
     "man_made": "charge_point",
@@ -101356,8 +101411,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6876461,
-      41.2091725
+      -8.6874572,
+      41.2088837
     ]
   }
 },
@@ -101375,6 +101430,7 @@
     "capacity": "2",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "indoor": "yes",
     "level": "-1",
     "location": "underground",
     "man_made": "charge_point",
@@ -101402,8 +101458,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6876445,
-      41.208999
+      -8.6876583,
+      41.2088831
     ]
   }
 },
@@ -101421,6 +101477,7 @@
     "capacity": "2",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "indoor": "yes",
     "level": "-1",
     "location": "underground",
     "man_made": "charge_point",
@@ -101448,8 +101505,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6876449,
-      41.2090424
+      -8.687716,
+      41.2088829
     ]
   }
 },
@@ -101494,8 +101551,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6886134,
-      41.209822
+      -8.6884389,
+      41.2103134
     ]
   }
 },
@@ -101540,8 +101597,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6886141,
-      41.2098654
+      -8.6884395,
+      41.2103568
     ]
   }
 },
@@ -101586,8 +101643,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6886154,
-      41.2099522
+      -8.6884404,
+      41.2104436
     ]
   }
 },
@@ -101632,8 +101689,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.688616,
-      41.2099955
+      -8.6884408,
+      41.2104869
     ]
   }
 },
@@ -101678,8 +101735,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6886167,
-      41.2100389
+      -8.6884406,
+      41.2105299
     ]
   }
 },
@@ -101724,8 +101781,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.688618,
-      41.2101257
+      -8.6884684,
+      41.2105302
     ]
   }
 },
@@ -101770,8 +101827,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6886186,
-      41.2101691
+      -8.6884675,
+      41.2104872
     ]
   }
 },
@@ -101816,8 +101873,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6886193,
-      41.2102124
+      -8.6884674,
+      41.2104439
     ]
   }
 },
@@ -101862,8 +101919,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6886199,
-      41.2102558
+      -8.6884666,
+      41.2104005
     ]
   }
 },
@@ -101908,8 +101965,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6886239,
-      41.2105161
+      -8.6884649,
+      41.2101415
     ]
   }
 },
@@ -101954,8 +102011,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6886232,
-      41.2104727
+      -8.6884652,
+      41.2101846
     ]
   }
 },
@@ -102000,8 +102057,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6886225,
-      41.2104294
+      -8.6884656,
+      41.2102279
     ]
   }
 },
@@ -102046,8 +102103,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6886219,
-      41.210386
+      -8.6884661,
+      41.2102713
     ]
   }
 },
@@ -102065,6 +102122,7 @@
     "capacity": "2",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "indoor": "yes",
     "level": "-1",
     "location": "underground",
     "man_made": "charge_point",
@@ -102092,8 +102150,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6886245,
-      41.2105595
+      -8.6870759,
+      41.2097145
     ]
   }
 },
@@ -102111,6 +102169,7 @@
     "capacity": "2",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "indoor": "yes",
     "level": "-1",
     "location": "underground",
     "man_made": "charge_point",
@@ -102138,8 +102197,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6886252,
-      41.2106029
+      -8.6871339,
+      41.2097145
     ]
   }
 },
@@ -105520,17 +105579,16 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Plug4Us",
-    "capacity": "2",
+    "capacity": "1",
     "email": "support@plug4us.com",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "MAI-00067/68",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Plug Four The World",
@@ -105540,9 +105598,9 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 100 995",
-    "ref": "MAI-00067;MAI-00068",
-    "ref:EU:EVSE": "PT*PFU*E*MAI*00067*01;PT*PFU*E*MAI*00068*01",
-    "socket:type2_cable": "2",
+    "ref": "MAI-00067",
+    "ref:EU:EVSE": "PT*PFU*E*MAI*00067*01",
+    "socket:type2_cable": "1",
     "socket:type2_cable:current": "32",
     "socket:type2_cable:output": "22 kW",
     "socket:type2_cable:voltage": "400",
@@ -105552,8 +105610,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6673874,
-      41.2377406
+      -8.667396,
+      41.2377283
     ]
   }
 },
@@ -111270,48 +111328,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12608568192",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "E-Plug",
-    "capacity": "2",
-    "email": "geral@eplug.pt",
-    "fee": "yes",
-    "level": "-1",
-    "location": "underground",
-    "man_made": "charge_point",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "09:00-21:00",
-    "operator": "Plug",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 211 648 577",
-    "ref": "AMD-00037",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "7.4 kW",
-    "socket:type2:voltage": "230",
-    "website": "https://www.mobie.pt",
-    "id": "node/12608568192"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.2199549,
-      38.7770197
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12608568193",
   "properties": {
     "access": "yes",
@@ -116735,6 +116751,50 @@
     "coordinates": [
       -9.1569248,
       39.2679446
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12660903173",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Lagoa",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "helexia",
+    "capacity": "2",
+    "email": "geral.pt@helexia.eu",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LGA-00009",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Helexia II",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 210 181 157",
+    "ref": "LGA-00010",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "start_date": "2021-08-06",
+    "website": "https://www.mobie.pt",
+    "id": "node/12660903173"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4641343,
+      37.1371026
     ]
   }
 },
@@ -122676,7 +122736,6 @@
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
-    "old_ref": "PRT-00058",
     "opening_hours": "24/7",
     "operator": "Maksu Services",
     "parking:fee": "yes",
@@ -122717,7 +122776,6 @@
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
-    "old_ref": "PRT-00057",
     "opening_hours": "24/7",
     "operator": "Maksu Services",
     "parking:fee": "yes",
@@ -122758,7 +122816,6 @@
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
-    "old_ref": "PRT-00056",
     "opening_hours": "24/7",
     "operator": "Maksu Services",
     "parking:fee": "yes",
@@ -122799,7 +122856,6 @@
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
-    "old_ref": "PRT-00055",
     "opening_hours": "24/7",
     "operator": "Maksu Services",
     "parking:fee": "yes",
@@ -122840,7 +122896,6 @@
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
-    "old_ref": "PRT-00054",
     "opening_hours": "24/7",
     "operator": "Maksu Services",
     "parking:fee": "yes",
@@ -123393,6 +123448,7 @@
     "brand:wikidata": "Q2995683",
     "capacity": "2",
     "fee": "yes",
+    "fixme": "Verificar a disposição, localização e características dos postos novos",
     "man_made": "charge_point",
     "motorcar": "yes",
     "name": "Continente Évora",
@@ -123433,6 +123489,7 @@
     "brand:wikidata": "Q2995683",
     "capacity": "2",
     "fee": "yes",
+    "fixme": "Verificar a disposição, localização e características dos postos novos",
     "man_made": "charge_point",
     "motorcar": "yes",
     "name": "Continente Évora",
@@ -126570,7 +126627,6 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -126578,9 +126634,9 @@
     "brand:wikidata": "Q1341222",
     "capacity": "2",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CTM-00009",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -126603,7 +126659,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.4717398,
+      -7.4717234,
       37.2317444
     ]
   }
@@ -126614,7 +126670,6 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -126622,9 +126677,9 @@
     "brand:wikidata": "Q1341222",
     "capacity": "2",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CTM-00010",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -126647,8 +126702,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.471774,
-      37.2317085
+      -7.471768,
+      37.2317154
     ]
   }
 },
@@ -131188,6 +131243,32 @@
     "coordinates": [
       -8.4308191,
       41.5418035
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12846852963",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "capacity": "1",
+    "covered": "no",
+    "fee": "yes",
+    "fixme": "Verificar qual o operador e a rede",
+    "motorcar": "yes",
+    "motorcycle": "yes",
+    "note": "Não é claro se está em funcionamento ou não",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "7.4 kW",
+    "id": "node/12846852963"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1364609,
+      38.7396575
     ]
   }
 },
@@ -139945,8 +140026,8 @@
     "ref": "LSB-01002",
     "ref:EU:EVSE": "PT*ATL*ELSB*01002*1",
     "socket:type2": "1",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
+    "socket:type2:current": "16",
+    "socket:type2:output": "11 kW",
     "socket:type2:voltage": "400",
     "website": "https://www.mobie.pt/",
     "id": "node/13009266342"
@@ -139984,8 +140065,8 @@
     "ref": "LSB-01001",
     "ref:EU:EVSE": "PT*ATL*ELSB*01001*1",
     "socket:type2": "1",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
+    "socket:type2:current": "16",
+    "socket:type2:output": "11 kW",
     "socket:type2:voltage": "400",
     "website": "https://www.mobie.pt/",
     "id": "node/13009266343"
@@ -152741,49 +152822,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13191484417",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "authentication:app": "yes",
-    "authentication:none": "no",
-    "brand": "Continente Plug&Charge",
-    "brand:wikidata": "Q2995683",
-    "capacity": "2",
-    "fee": "yes",
-    "indoor": "yes",
-    "location": "underground",
-    "man_made": "charge_point",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "Continente Bom Odivelas Dom Dinis",
-    "network": "Continente Plug&Charge",
-    "opening_hours": "08:00-21:00",
-    "operator": "Continente",
-    "operator:wikidata": "Q2995683",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "no",
-    "phone": "+351 210 19 19 19",
-    "socket:type2_cable": "2",
-    "socket:type2_cable:current": "32",
-    "socket:type2_cable:output": "22 kW",
-    "socket:type2_cable:voltage": "400",
-    "website": "https://plugcharge.continente.pt/",
-    "id": "node/13191484417"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.1836249,
-      38.7856206
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13191492557",
   "properties": {
     "access": "yes",
@@ -152861,8 +152899,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6619988,
-      40.5955521
+      -8.6619762,
+      40.5955315
     ]
   }
 },
@@ -155543,6 +155581,594 @@
     "coordinates": [
       -8.3114605,
       41.1991255
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13238871129",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "email": "ev_portugal@maksu.com",
+    "fee": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Maksu Services",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "PRT-00058",
+    "ref:EU:EVSE": "PT*MAK*E*PRT*00058*1",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13238871129"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6089468,
+      41.1476279
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13238871130",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "email": "ev_portugal@maksu.com",
+    "fee": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Maksu Services",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "PRT-00057",
+    "ref:EU:EVSE": "PT*MAK*E*PRT*00057*1",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13238871130"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6089743,
+      41.1476334
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13238871131",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "email": "ev_portugal@maksu.com",
+    "fee": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Maksu Services",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "PRT-00056",
+    "ref:EU:EVSE": "PT*MAK*E*PRT*00056*1",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13238871131"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6090041,
+      41.147639
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13238871132",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "email": "ev_portugal@maksu.com",
+    "fee": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Maksu Services",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "PRT-00055",
+    "ref:EU:EVSE": "PT*MAK*E*PRT*00055*1",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13238871132"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.609032,
+      41.1476443
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13238871133",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "email": "ev_portugal@maksu.com",
+    "fee": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Maksu Services",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "PRT-00054",
+    "ref:EU:EVSE": "PT*MAK*E*PRT*00054*1",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13238871133"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6090605,
+      41.1476504
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13238871134",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "email": "ev_portugal@maksu.com",
+    "fee": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Maksu Services",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "PRT-00053",
+    "ref:EU:EVSE": "PT*MAK*E*PRT*00053*1",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13238871134"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6090886,
+      41.1476557
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13238977543",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "1",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "High Green Power",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "STS-00031",
+    "ref:EU:EVSE": "PT*HGP*E*STS*00031*01",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13238977543"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4079729,
+      41.3614689
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13238983040",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Plug4Us",
+    "capacity": "1",
+    "email": "support@plug4us.com",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Plug Four The World",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 100 995",
+    "ref": "MAI-00068",
+    "ref:EU:EVSE": "PT*PFU*E*MAI*00068*01",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13238983040"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6673959,
+      41.2377258
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13238983041",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Plug4Us",
+    "capacity": "1",
+    "email": "support@plug4us.com",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Plug Four The World",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 100 995",
+    "ref": "MAI-00066",
+    "ref:EU:EVSE": "PT*PFU*E*MAI*00066*02",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13238983041"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6673987,
+      41.2377696
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13239001847",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola",
+    "brand:wikidata": "Q1437502",
+    "capacity": "1",
+    "email": "comercial@iberdrola.pt",
+    "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "09:00-21:30",
+    "operator": "Iberdrola",
+    "operator:wikidata": "Q1437502",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 607 717",
+    "ref": "STS-00008",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/13239001847"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4814839,
+      41.3391895
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13239001857",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "helexia",
+    "capacity": "1",
+    "email": "geral.pt@helexia.eu",
+    "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Helexia II",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 210 181 157",
+    "ref": "VCD-00023",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "7.4 kW",
+    "socket:type2:voltage": "230",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13239001857"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.7451611,
+      41.3616321
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13239001858",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "helexia",
+    "capacity": "1",
+    "email": "geral.pt@helexia.eu",
+    "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Helexia II",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 210 181 157",
+    "ref": "VCD-00022",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "7.4 kW",
+    "socket:type2:voltage": "230",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13239001858"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.7451464,
+      41.361613
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13239012712",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola",
+    "brand:wikidata": "Q1437502",
+    "capacity": "1",
+    "email": "comercial@iberdrola.pt",
+    "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "09:00-21:30",
+    "operator": "Iberdrola",
+    "operator:wikidata": "Q1437502",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 607 717",
+    "ref": "TRF-00006",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/13239012712"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5560905,
+      41.3436661
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13239048684",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola",
+    "brand:wikidata": "Q1437502",
+    "capacity": "1",
+    "email": "comercial@iberdrola.pt",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "09:00-21:30",
+    "operator": "Iberdrola",
+    "operator:wikidata": "Q1437502",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 607 717",
+    "ref": "BCL-00007",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/13239048684"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6257767,
+      41.5326208
     ]
   }
 }
