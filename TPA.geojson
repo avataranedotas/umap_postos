@@ -1263,7 +1263,6 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -1271,9 +1270,9 @@
     "capacity": "2",
     "email": "renewing.charging@mota-engil.pt",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "LLE-00219",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Mota Engil II",
@@ -1295,8 +1294,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.073996,
-      37.0918723
+      -8.0740238,
+      37.0918659
     ]
   }
 },
@@ -1306,18 +1305,17 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Renewing",
     "capacity": "2",
-    "charging_station:output": "60 kW",
+    "charge_point:output": "60 kW",
     "email": "renewing.charging@mota-engil.pt",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "LLE-00218",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Mota Engil II",
@@ -1339,8 +1337,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.0739344,
-      37.0918723
+      -8.0739668,
+      37.0918621
     ]
   }
 },
@@ -1350,18 +1348,17 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Renewing",
     "capacity": "2",
-    "charging_station:output": "120 kW",
+    "charge_point:output": "120 kW",
     "email": "renewing.charging@mota-engil.pt",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "LLE-00217",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Mota Engil II",
@@ -1383,8 +1380,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.0738821,
-      37.0918709
+      -8.0739094,
+      37.0918583
     ]
   }
 },
@@ -2290,6 +2287,52 @@
     "coordinates": [
       -8.0018951,
       37.1008668
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12233141245",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "charge_point:output": "300 kW",
+    "email": "suporte@chargingtogether.pt",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "ACB-00033",
+    "ref:EU:EVSE": "PT*FCT*E*ACB*00033*01;PT*FCT*E*ACB*00033*02;PT*FCT*E*ACB*00033*03",
+    "socket:chademo": "1",
+    "socket:chademo:current": "200",
+    "socket:chademo:output": "80 kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "150 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/12233141245"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.9101954,
+      39.5247747
     ]
   }
 },
@@ -5120,6 +5163,52 @@
     "coordinates": [
       -9.0417876,
       39.638998
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12674314948",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "charge_point:output": "300 kW",
+    "email": "suporte@chargingtogether.pt",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "NZR-00043",
+    "ref:EU:EVSE": "PT*FCT*E*NZR*00043*01;PT*FCT*E*NZR*00043*02;PT*FCT*E*NZR*00043*03",
+    "socket:chademo": "1",
+    "socket:chademo:current": "200",
+    "socket:chademo:output": "80 kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "150 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/12674314948"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.0418389,
+      39.6390202
     ]
   }
 },
@@ -8769,20 +8858,103 @@
 },
 {
   "type": "Feature",
-  "id": "node/12992394215",
+  "id": "node/12992394213",
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "helexia",
     "capacity": "2",
     "email": "geral.pt@helexia.eu",
     "fee": "yes",
+    "fixme": "Move to exact location",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "LLE-00240",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Helexia II",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 210 181 157",
+    "ref": "LLE-00242",
+    "ref:EU:EVSE": "PT*HLX*E*LLE*00242*01;PT*HLX*E*LLE*00242*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12992394213"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.1175258,
+      37.0748583
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12992394214",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "helexia",
+    "capacity": "2",
+    "email": "geral.pt@helexia.eu",
+    "fee": "yes",
+    "fixme": "Move to exact location",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Helexia II",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 210 181 157",
+    "ref": "LLE-00241",
+    "ref:EU:EVSE": "PT*HLX*E*LLE*00241*01;PT*HLX*E*LLE*00241*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12992394214"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.1175245,
+      37.074904
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12992394215",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "helexia",
+    "capacity": "2",
+    "email": "geral.pt@helexia.eu",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Helexia II",
@@ -8804,8 +8976,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.1162753,
-      37.0748703
+      -8.1162248,
+      37.0748679
     ]
   }
 },
@@ -8815,16 +8987,15 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "helexia",
     "capacity": "2",
     "email": "geral.pt@helexia.eu",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "LLE-00239",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Helexia II",
@@ -8846,8 +9017,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.116231,
-      37.07487
+      -8.1162823,
+      37.0748677
     ]
   }
 },
@@ -12573,6 +12744,51 @@
     "coordinates": [
       -8.0821372,
       41.2757684
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13184740980",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "charge_point:output": "300 kW",
+    "email": "suporte@chargingtogether.pt",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "ACB-00034",
+    "socket:chademo": "1",
+    "socket:chademo:current": "200",
+    "socket:chademo:output": "80 kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "150 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/13184740980"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.9102219,
+      39.5247353
     ]
   }
 },
