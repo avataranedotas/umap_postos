@@ -3127,7 +3127,6 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -3135,9 +3134,9 @@
     "capacity": "2",
     "charging_station:output": "322 kW",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "EVR-00022",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Moon",
@@ -3161,8 +3160,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.913289,
-      38.5497482
+      -7.9133121,
+      38.5497529
     ]
   }
 },
@@ -10186,6 +10185,48 @@
     "coordinates": [
       -8.289191,
       41.202026
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12115804086",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "email": "suporte@chargingtogether.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LRA-00127",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "LRA-00127",
+    "ref:EU:EVSE": "PT*FCT*E*LRA*00127*01;PT*FCT*E*LRA*00127*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "150 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/12115804086"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.675567,
+      39.675059
     ]
   }
 },

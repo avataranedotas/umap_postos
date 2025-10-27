@@ -4150,20 +4150,20 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Renewing",
     "capacity": "2",
+    "charge_point:output": "90 kW",
     "email": "renewing.charging@mota-engil.pt",
     "fee": "yes",
     "indoor": "yes",
     "level": "-1",
     "location": "underground",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "EVR-00059",
     "network": "Mobi.E",
     "opening_hours": "07:00-01:00",
     "operator": "Mota Engil II",
@@ -4186,8 +4186,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.9049501,
-      38.5494073
+      -7.904999,
+      38.5494775
     ]
   }
 },
@@ -5125,52 +5125,6 @@
     "coordinates": [
       -8.6772282,
       39.6304309
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12691522026",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Atlante",
-    "brand:wikidata": "Q126913632",
-    "capacity": "2",
-    "email": "support.portugal@atlante.energy",
-    "fee": "yes",
-    "location": "underground",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "PRT-00295",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Atlante",
-    "operator:wikidata": "Q126913632",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "yes",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 296 929;+351 234 246 050",
-    "ref": "PRT-00295",
-    "ref:EU:EVSE": "PT*ATL*EPRT*00295*1;PT*ATL*EPRT*00295*2",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "125",
-    "socket:type2_combo:output": "50 kW",
-    "socket:type2_combo:voltage": "500",
-    "website": "https://www.mobie.pt/",
-    "id": "node/12691522026"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.6051192,
-      41.1419318
     ]
   }
 },
