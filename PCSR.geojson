@@ -9428,18 +9428,18 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Repsol",
     "brand:wikidata": "Q174747",
     "capacity": "2",
+    "charge_point:output": "150 kW",
     "email": "crc.mobilidade.eletrica.pt@repsol.com",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "GDL-00034",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Repsol",
@@ -9461,8 +9461,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.4466646,
-      38.1212902
+      -8.4466757,
+      38.1213058
     ]
   }
 },
@@ -15113,18 +15113,18 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "wowplug",
     "capacity": "2",
+    "charge_point:output": "150 kW",
     "charging_station:output": "150 kW",
     "email": "suporte@wowplug.com",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "STC-00012",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "True Kare",
@@ -15145,8 +15145,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.7325189,
-      38.0392107
+      -8.7325209,
+      38.0392037
     ]
   }
 },
@@ -21222,54 +21222,6 @@
     "coordinates": [
       -8.6012896,
       41.1540743
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12997103183",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Powerdot",
-    "brand:wikidata": "Q123574541",
-    "capacity": "2",
-    "email": "ajuda@powerdot.pt",
-    "fee": "yes",
-    "man_made": "charge_point",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Powerdot",
-    "operator:wikidata": "Q123574541",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "yes",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 180 292",
-    "ref": "TMR-00037",
-    "ref:EU:EVSE": "PT*HRZ*E*TMR*00037*03;PT*HRZ*E*TMR*00037*04",
-    "socket:chademo": "1",
-    "socket:chademo:current": "125",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "200",
-    "socket:type2_combo:output": "160 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt",
-    "id": "node/12997103183"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.3961933,
-      39.6075095
     ]
   }
 },
