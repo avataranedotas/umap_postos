@@ -292,54 +292,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8207755912",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Algés",
-    "addr:country": "PT",
-    "addr:street": "Rua Parque Anjos",
-    "amenity": "charging_station",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "1",
-    "email": "veiculoeletrico@galp.com",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "OER-00032",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Mobiletric",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 249 249",
-    "ref": "OER-00032",
-    "ref:EU:EVSE": "PT*MLT*EOER*00032*01;PT*MLT*EOER*00032*02",
-    "socket:chademo": "1",
-    "socket:chademo:current": "120",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "350",
-    "socket:type2_combo:output": "160 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt",
-    "id": "node/8207755912"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.2314258,
-      38.6999998
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8220947977",
   "properties": {
     "access": "yes",
@@ -902,6 +854,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "STR-00019",
+    "ref:EU:EVSE": "PT*EDP*ESTR*00019*1;PT*EDP*ESTR*00019*2",
     "socket:chademo": "1",
     "socket:chademo:current": "120",
     "socket:chademo:output": "50 kW",
@@ -1419,6 +1372,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "CNT-00007",
+    "ref:EU:EVSE": "PT*EDP*ECNT*00007*1;PT*EDP*ECNT*00007*2",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "200 kW",
@@ -1461,6 +1415,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "CNT-00008",
+    "ref:EU:EVSE": "PT*EDP*ECNT*00008*1;PT*EDP*ECNT*00008*2",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "200 kW",
@@ -1505,6 +1460,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "STR-00022",
+    "ref:EU:EVSE": "PT*EDP*ESTR*00022*1;PT*EDP*ESTR*00022*2",
     "socket:chademo": "1",
     "socket:chademo:current": "120",
     "socket:chademo:output": "50 kW",
@@ -3471,6 +3427,49 @@
     "coordinates": [
       -8.6171031,
       41.254101
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10056853554",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Powerdot",
+    "brand:wikidata": "Q123574541",
+    "capacity": "2",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "operator:wikidata": "Q123574541",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 180 292",
+    "ref": "CSC-00103",
+    "ref:EU:EVSE": "PT*HRZ*E*CSC*00103*01;PT*HRZ*E*CSC*00103*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "300",
+    "socket:type2_combo:output": "150 kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt/",
+    "id": "node/10056853554"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.4248027,
+      38.6912334
     ]
   }
 },
@@ -7598,6 +7597,52 @@
 },
 {
   "type": "Feature",
+  "id": "node/11889655235",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "email": "suporte@chargingtogether.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CSC-00184",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "CSC-00184",
+    "socket:chademo": "1",
+    "socket:chademo:current": "200",
+    "socket:chademo:output": "80 kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "150 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/11889655235"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.328458,
+      38.7283291
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11892126460",
   "properties": {
     "access": "yes",
@@ -9396,6 +9441,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "STR-00054",
+    "ref:EU:EVSE": "PT*EDP*ESTR*00054*1;PT*EDP*ESTR*00054*2",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "300 kW",
@@ -9439,6 +9485,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "STR-00052",
+    "ref:EU:EVSE": "PT*EDP*ESTR*00052*1;PT*EDP*ESTR*00052*2",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "300 kW",
@@ -9481,6 +9528,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "CNT-00026",
+    "ref:EU:EVSE": "PT*EDP*ECNT*00026*1;PT*EDP*ECNT*00026*2",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "300 kW",
@@ -9523,6 +9571,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "CNT-00025",
+    "ref:EU:EVSE": "PT*EDP*ECNT*00025*1;PT*EDP*ECNT*00025*2",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "300 kW",
@@ -9564,6 +9613,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "CNT-00024",
+    "ref:EU:EVSE": "PT*EDP*ECNT*00024*1;PT*EDP*ECNT*00024*2",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "300 kW",
@@ -9605,6 +9655,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "CNT-00023",
+    "ref:EU:EVSE": "PT*EDP*ECNT*00023*1;PT*EDP*ECNT*00023*2",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "300 kW",
@@ -9731,6 +9782,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "ETR-00018",
+    "ref:EU:EVSE": "PT*EDP*EETR*00018*1;PT*EDP*EETR*00018*2",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "300 kW",
@@ -9773,6 +9825,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "ETR-00019",
+    "ref:EU:EVSE": "PT*EDP*EETR*00019*1;PT*EDP*EETR*00019*2",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "300 kW",
@@ -26055,6 +26108,582 @@
     "coordinates": [
       -8.6354995,
       41.1254915
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13280893005",
+  "properties": {
+    "access": "yes",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "description": "V4",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:membership_card": "no",
+    "phone": "+351 300 527 476",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "650",
+    "socket:type2_combo:output": "250 kW",
+    "socket:type2_combo:voltage": "500",
+    "id": "node/13280893005"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.514001,
+      38.3914953
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13280893006",
+  "properties": {
+    "access": "yes",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "description": "V4",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:membership_card": "no",
+    "phone": "+351 300 527 476",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "650",
+    "socket:type2_combo:output": "250 kW",
+    "socket:type2_combo:voltage": "500",
+    "id": "node/13280893006"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5140226,
+      38.391514
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13280893007",
+  "properties": {
+    "access": "yes",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "description": "V4",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:membership_card": "no",
+    "phone": "+351 300 527 476",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "650",
+    "socket:type2_combo:output": "250 kW",
+    "socket:type2_combo:voltage": "500",
+    "id": "node/13280893007"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5140442,
+      38.3915327
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13280893008",
+  "properties": {
+    "access": "yes",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "description": "V4",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:membership_card": "no",
+    "phone": "+351 300 527 476",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "650",
+    "socket:type2_combo:output": "250 kW",
+    "socket:type2_combo:voltage": "500",
+    "id": "node/13280893008"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5140658,
+      38.3915514
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13280893009",
+  "properties": {
+    "access": "yes",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "description": "V4",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:membership_card": "no",
+    "phone": "+351 300 527 476",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "650",
+    "socket:type2_combo:output": "250 kW",
+    "socket:type2_combo:voltage": "500",
+    "id": "node/13280893009"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5140874,
+      38.39157
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13280893010",
+  "properties": {
+    "access": "yes",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "description": "V4",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:membership_card": "no",
+    "phone": "+351 300 527 476",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "650",
+    "socket:type2_combo:output": "250 kW",
+    "socket:type2_combo:voltage": "500",
+    "id": "node/13280893010"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.514109,
+      38.3915887
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13280893011",
+  "properties": {
+    "access": "yes",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "description": "V4",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:membership_card": "no",
+    "phone": "+351 300 527 476",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "650",
+    "socket:type2_combo:output": "250 kW",
+    "socket:type2_combo:voltage": "500",
+    "id": "node/13280893011"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5141306,
+      38.3916074
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13280893012",
+  "properties": {
+    "access": "yes",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "description": "V4",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:membership_card": "no",
+    "phone": "+351 300 527 476",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "650",
+    "socket:type2_combo:output": "250 kW",
+    "socket:type2_combo:voltage": "500",
+    "id": "node/13280893012"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5141522,
+      38.391626
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13280893013",
+  "properties": {
+    "access": "yes",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "description": "V4",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:membership_card": "no",
+    "phone": "+351 300 527 476",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "650",
+    "socket:type2_combo:output": "250 kW",
+    "socket:type2_combo:voltage": "500",
+    "id": "node/13280893013"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5141738,
+      38.3916447
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13280893014",
+  "properties": {
+    "access": "yes",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "description": "V4",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:membership_card": "no",
+    "phone": "+351 300 527 476",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "650",
+    "socket:type2_combo:output": "250 kW",
+    "socket:type2_combo:voltage": "500",
+    "id": "node/13280893014"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5141955,
+      38.3916634
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13280893015",
+  "properties": {
+    "access": "yes",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "description": "V4",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:membership_card": "no",
+    "phone": "+351 300 527 476",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "650",
+    "socket:type2_combo:output": "250 kW",
+    "socket:type2_combo:voltage": "500",
+    "id": "node/13280893015"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5142171,
+      38.391682
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13280893016",
+  "properties": {
+    "access": "yes",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "description": "V4",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:membership_card": "no",
+    "phone": "+351 300 527 476",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "650",
+    "socket:type2_combo:output": "250 kW",
+    "socket:type2_combo:voltage": "500",
+    "id": "node/13280893016"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5142387,
+      38.3917007
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13280893017",
+  "properties": {
+    "access": "yes",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "description": "V4",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:membership_card": "no",
+    "phone": "+351 300 527 476",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "650",
+    "socket:type2_combo:output": "250 kW",
+    "socket:type2_combo:voltage": "500",
+    "id": "node/13280893017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5142762,
+      38.3917346
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13280893018",
+  "properties": {
+    "access": "yes",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "description": "V4",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:membership_card": "no",
+    "phone": "+351 300 527 476",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "650",
+    "socket:type2_combo:output": "250 kW",
+    "socket:type2_combo:voltage": "500",
+    "id": "node/13280893018"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5142979,
+      38.3917535
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13280893019",
+  "properties": {
+    "access": "yes",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "description": "V4",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:membership_card": "no",
+    "phone": "+351 300 527 476",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "650",
+    "socket:type2_combo:output": "250 kW",
+    "socket:type2_combo:voltage": "500",
+    "id": "node/13280893019"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5143196,
+      38.3917724
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13280893020",
+  "properties": {
+    "access": "yes",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "description": "V4",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:membership_card": "no",
+    "phone": "+351 300 527 476",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "650",
+    "socket:type2_combo:output": "250 kW",
+    "socket:type2_combo:voltage": "500",
+    "id": "node/13280893020"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5143413,
+      38.3917912
     ]
   }
 }
