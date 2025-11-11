@@ -3,6 +3,60 @@
 "features": [
 {
   "type": "Feature",
+  "id": "way/1449439066",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "brand": "Galp electric",
+    "brand:wikidata": "Q135275372",
+    "capacity": "4",
+    "charging_station:output": "224 kW",
+    "email": "veiculoeletrico@galp.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "SXL-00033/34",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "operator:wikidata": "Q135275372",
+    "parking:fee": "no",
+    "phone": "+351 800 249 249",
+    "ref": "SXL-00033;SXL-00034",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "way/1449439066"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -9.1432007,
+          38.6511955
+        ],
+        [
+          -9.1432104,
+          38.6511044
+        ],
+        [
+          -9.1431442,
+          38.6511001
+        ],
+        [
+          -9.1431345,
+          38.6511913
+        ],
+        [
+          -9.1432007,
+          38.6511955
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/966120777",
   "properties": {
     "access": "yes",
@@ -986,6 +1040,40 @@
     "coordinates": [
       -6.758,
       41.80483
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1449439066",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "brand": "Galp electric",
+    "brand:wikidata": "Q135275372",
+    "capacity": "4",
+    "charging_station:output": "224 kW",
+    "email": "veiculoeletrico@galp.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "SXL-00033/34",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "operator:wikidata": "Q135275372",
+    "parking:fee": "no",
+    "phone": "+351 800 249 249",
+    "ref": "SXL-00033;SXL-00034",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "way/1449439066"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1431724,
+      38.6511478
     ]
   }
 },
@@ -6776,6 +6864,54 @@
     "coordinates": [
       -7.9088187,
       40.6519454
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6610289091",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "addr:street": "Av. 25 de Abril",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "KLC",
+    "brand:wikidata": "Q127504745",
+    "capacity": "1",
+    "email": "apoio.cliente@kmlowcost.com",
+    "fee": "yes",
+    "indoor": "yes",
+    "location": "indoor",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "ETR-00015",
+    "network": "Mobi.E",
+    "old_operator": "KLC",
+    "old_ref": "ETR-00004",
+    "opening_hours": "24/7",
+    "operator": "KLC Serviços",
+    "operator:wikidata": "Q127504745",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 202 060",
+    "ref": "ETR-00015",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/6610289091"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5690016,
+      40.7541677
     ]
   }
 },
@@ -36207,16 +36343,15 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "2",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "PLM-00007",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Mobiletric",
@@ -36237,8 +36372,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.8990934,
-      38.6358289
+      -8.8991286,
+      38.6359028
     ]
   }
 },
@@ -50295,7 +50430,6 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -50304,9 +50438,9 @@
     "capacity": "2",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "SXL-00035",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -50329,8 +50463,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.095378,
-      38.6412838
+      -9.0953894,
+      38.6412746
     ]
   }
 },
@@ -50422,8 +50556,6 @@
   "id": "node/9920140183",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -50432,9 +50564,9 @@
     "capacity": "2",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "SXL-00023",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -50457,8 +50589,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.099229,
-      38.638047
+      -9.0992449,
+      38.6380946
     ]
   }
 },
@@ -52485,8 +52617,6 @@
   "id": "node/10120585319",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -52495,9 +52625,9 @@
     "capacity": "2",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "MTJ-00028",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -52520,8 +52650,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.9624364,
-      38.7073563
+      -8.9624425,
+      38.7073507
     ]
   }
 },
@@ -52756,8 +52886,6 @@
   "id": "node/10157924953",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -52766,9 +52894,9 @@
     "capacity": "2",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "SXL-00026",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -52791,8 +52919,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.0886916,
-      38.6199689
+      -9.088684,
+      38.6199662
     ]
   }
 },
@@ -52802,7 +52930,6 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -52811,9 +52938,9 @@
     "capacity": "2",
     "email": "electric@prioenergy.com",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "Prio",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Prio.E",
@@ -52834,8 +52961,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.9971265,
-      38.649813
+      -8.9971015,
+      38.649815
     ]
   }
 },
@@ -90206,7 +90333,6 @@
   "id": "node/12437168797",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -90214,9 +90340,9 @@
     "brand:wikidata": "Q1341222",
     "capacity": "2",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "MTJ-00106",
     "network": "Mobi.E",
     "opening_hours": "09:00-22:00",
     "operator": "EDP",
@@ -90239,8 +90365,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.9465384,
-      38.7028425
+      -8.9465374,
+      38.7028509
     ]
   }
 },
@@ -90634,7 +90760,6 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -90643,9 +90768,9 @@
     "capacity": "2",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "SXL-00033",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -90668,8 +90793,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.143157,
-      38.6511402
+      -9.1431459,
+      38.6511232
     ]
   }
 },
@@ -112799,8 +112924,6 @@
   "id": "node/12639685188",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -112809,9 +112932,9 @@
     "capacity": "2",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "SXL-00025",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -112834,8 +112957,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.0886948,
-      38.6200422
+      -9.0886869,
+      38.6200353
     ]
   }
 },
@@ -117247,8 +117370,6 @@
   "id": "node/12663488701",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -117257,9 +117378,9 @@
     "capacity": "2",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "MTJ-00027",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -117282,8 +117403,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.9624559,
-      38.7073992
+      -8.9624602,
+      38.707394
     ]
   }
 },
@@ -129867,8 +129988,6 @@
   "id": "node/12817762980",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -129877,9 +129996,9 @@
     "capacity": "2",
     "email": "electric@prioenergy.com",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "PSR-00015",
     "network": "Mobi.E",
     "old_operator": "KLC;Galp Power",
     "old_ref": "PSR-00003;PSR-00005",
@@ -129903,8 +130022,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.0562224,
-      39.2076692
+      -8.0562282,
+      39.2076801
     ]
   }
 },
@@ -157355,7 +157474,6 @@
   "id": "node/13252953874",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Prio",
@@ -157363,12 +157481,13 @@
     "capacity": "2",
     "email": "electric@prioenergy.com",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "PSR-00017",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Prio.E",
+    "operator:wikidata": "Q127504745",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
@@ -157387,8 +157506,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.0067828,
-      39.2463109
+      -8.0067892,
+      39.2463192
     ]
   }
 },

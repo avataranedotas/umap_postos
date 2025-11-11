@@ -2629,19 +2629,17 @@
   "id": "node/9783866977",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Prio",
     "brand:wikidata": "Q62530421",
     "capacity": "2",
-    "charging_station:output": "180 kW",
+    "charge_point:output": "180 kW",
     "email": "electric@prioenergy.com",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "PSR-00016",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Prio.E",
@@ -2664,8 +2662,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.0067158,
-      39.2462839
+      -8.0067379,
+      39.2462995
     ]
   }
 },
@@ -2674,8 +2672,6 @@
   "id": "node/9783866978",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -2684,9 +2680,9 @@
     "capacity": "2",
     "email": "electric@prioenergy.com",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "PSR-00014",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Prio.E",
@@ -2708,8 +2704,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.056251,
-      39.2076202
+      -8.0562542,
+      39.207628
     ]
   }
 },
@@ -3035,19 +3031,19 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Galp electric",
     "brand:wikidata": "Q135275372",
     "capacity": "2",
+    "charge_point:output": "180 kW",
     "charging_station:output": "180 kW",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "SXL-00034",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -3070,8 +3066,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.143155,
-      38.6511705
+      -9.1431421,
+      38.6511689
     ]
   }
 },
@@ -10774,6 +10770,49 @@
 },
 {
   "type": "Feature",
+  "id": "node/12176539849",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "charge_point:output": "300 kW",
+    "email": "suporte@chargingtogether.pt",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "BRR-00151",
+    "ref:EU:EVSE": "PT*FCT*E*BRR*00151*01;PT*FCT*E*BRR*00151*02;PT*FCT*E*BRR*00151*03",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "150 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/12176539849"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.0475243,
+      38.6401764
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12176539852",
   "properties": {
     "access": "yes",
@@ -14545,19 +14584,18 @@
   "properties": {
     "access": "yes",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Galp electric",
     "brand:wikidata": "Q135275372",
     "capacity": "2",
-    "charging_station:output": "180 kW",
+    "charge_point:output": "180 kW",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "SXL-00036",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -14580,8 +14618,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.0954318,
-      38.6412808
+      -9.0954474,
+      38.6412691
     ]
   }
 },
