@@ -28669,7 +28669,6 @@
   "properties": {
     "access": "customers",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -28677,9 +28676,9 @@
     "brand:wikidata": "Q1341222",
     "capacity": "2",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "ORM-00012",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -28702,8 +28701,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6767902,
-      39.6308196
+      -8.6768335,
+      39.6308191
     ]
   }
 },
@@ -48080,14 +48079,15 @@
   "properties": {
     "access": "customers",
     "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "edp Charge",
     "brand:wikidata": "Q1341222",
     "capacity": "2",
+    "charge_point:output": "120 kW",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -48112,8 +48112,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6768464,
-      39.6307827
+      -8.6768829,
+      39.6307941
     ]
   }
 },
@@ -54617,8 +54617,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.9133555,
-      38.5497775
+      -7.9133592,
+      38.5497793
     ]
   }
 },
@@ -58768,6 +58768,34 @@
     "coordinates": [
       -8.533739,
       37.1291065
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13256680429",
+  "properties": {
+    "access": "private",
+    "amenity": "charging_station",
+    "bicycle": "no",
+    "capacity": "2",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "no:network": "yes",
+    "opening_hours": "24/7",
+    "operator": "Câmara Municipal de Estremoz",
+    "panoramax": "c4cc48de-bc02-4aae-ba4e-a35b828c5825",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "id": "node/13256680429"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.5860231,
+      38.8416292
     ]
   }
 },
