@@ -129,15 +129,17 @@ for way_id, way_data in data.items():
 
     child_points = way_data.get('points', [])
 
-    missing_tag = any(
-        p.get('properties', {}).get('man_made') != 'charge_point'
-        for p in child_points
-    )
+    #missing_tag = any(
+    #    p.get('properties', {}).get('man_made') != 'charge_point'
+    #    for p in child_points
+    #)
 
     valid_points = [
         p for p in child_points
         if p.get('properties', {}).get('man_made') == 'charge_point'
     ]
+
+    missing_tag = len(valid_points) == 0
 
     socket_counts, total_sockets, total_kw = extract_sockets_and_kw(valid_points)
     all_socket_types.update(socket_counts.keys())
