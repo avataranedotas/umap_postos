@@ -9753,14 +9753,14 @@
   "id": "node/8289841756",
   "properties": {
     "access": "customers",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "edp Charge",
     "brand:wikidata": "Q1341222",
-    "capacity": "2",
+    "capacity": "1",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -9773,8 +9773,9 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
-    "ref": "CSC-00055;CSC-00056",
-    "socket:type2": "2",
+    "ref": "CSC-00055",
+    "ref:EU:EVSE": "PT*EDP*ECSC*00055*1",
+    "socket:type2": "1",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4 kW",
     "socket:type2:voltage": "230",
@@ -9784,8 +9785,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.438295,
-      38.6968108
+      -9.4378679,
+      38.6971676
     ]
   }
 },
@@ -23859,7 +23860,6 @@
   "id": "node/11061423024",
   "properties": {
     "access": "customers",
-    "addr:country": "PT",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -27061,7 +27061,6 @@
   "id": "node/11356898137",
   "properties": {
     "access": "customers",
-    "addr:country": "PT",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -28352,7 +28351,6 @@
   "id": "node/11439936378",
   "properties": {
     "access": "customers",
-    "addr:country": "PT",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -33330,6 +33328,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "CSC-00189",
+    "ref:EU:EVSE": "PT*EDP*ECSC*00189*1;PT*EDP*ECSC*00189*2",
     "socket:type2": "2",
     "socket:type2:current": "16",
     "socket:type2:output": "11 kW",
@@ -47921,7 +47920,7 @@
     "operator:wikidata": "Q1949595",
     "parking:fee": "no",
     "payment:app": "yes",
-    "payment:cards": "yes",
+    "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 020 940",
@@ -47963,7 +47962,7 @@
     "operator:wikidata": "Q1949595",
     "parking:fee": "no",
     "payment:app": "yes",
-    "payment:cards": "yes",
+    "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 020 940",
@@ -59527,6 +59526,48 @@
     "coordinates": [
       -25.6730354,
       37.7442395
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13332637782",
+  "properties": {
+    "access": "customers",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "1",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "CSC-00056",
+    "ref:EU:EVSE": "PT*EDP*ECSC*00056*1",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "7.4 kW",
+    "socket:type2:voltage": "230",
+    "website": "https://www.mobie.pt",
+    "id": "node/13332637782"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.4378585,
+      38.6971465
     ]
   }
 }
