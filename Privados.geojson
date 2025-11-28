@@ -7202,14 +7202,14 @@
   "id": "node/8275207528",
   "properties": {
     "access": "customers",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "edp Charge",
     "brand:wikidata": "Q1341222",
-    "capacity": "2",
+    "capacity": "1",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -7222,8 +7222,9 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
-    "ref": "EVR-00012;EVR-00013",
-    "socket:type2": "2",
+    "ref": "EVR-00012",
+    "ref:EU:EVSE": "PT*EDP*EEVR*00012*1",
+    "socket:type2": "1",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4 kW",
     "socket:type2:voltage": "230",
@@ -7233,8 +7234,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.9066828,
-      38.5726196
+      -7.9066412,
+      38.5725559
     ]
   }
 },
@@ -25001,6 +25002,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "ABT-00024",
+    "ref:EU:EVSE": "PT*EDP*EABT*00024*1;PT*EDP*EABT*00024*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "7.4 kW",
@@ -29084,6 +29086,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "MTA-00016",
+    "ref:EU:EVSE": "PT*EDP*EMTA*00016*1;PT*EDP*EMTA*00016*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
@@ -33953,6 +33956,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "OBR-00009",
+    "ref:EU:EVSE": "PT*EDP*EOBR*00009*1;PT*EDP*EOBR*00009*2",
     "socket:type2": "2",
     "socket:type2:current": "16",
     "socket:type2:output": "11 kW",
@@ -33963,8 +33967,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.5042986,
-      40.5223245
+      -8.5041149,
+      40.5223378
     ]
   }
 },
@@ -59568,6 +59572,88 @@
     "coordinates": [
       -9.4378585,
       38.6971465
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13336931061",
+  "properties": {
+    "access": "customers",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LRA-00179",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "ConectaMais",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "LRA-00179",
+    "ref:EU:EVSE": "PT*CON*E*LRA*00179*01;PT*CON*E*LRA*00179*02",
+    "socket:type2": "2",
+    "socket:type2:current": "16",
+    "socket:type2:output": "11 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13336931061"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.8056586,
+      39.7509348
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13337075466",
+  "properties": {
+    "access": "customers",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "1",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "EVR-00013",
+    "ref:EU:EVSE": "PT*EDP*EEVR*00013*1",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "7.4 kW",
+    "socket:type2:voltage": "230",
+    "website": "https://www.mobie.pt",
+    "id": "node/13337075466"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.9066737,
+      38.5725932
     ]
   }
 }
