@@ -3723,8 +3723,8 @@
   "type": "way",
   "id": 1347586312,
   "bounds": {
-    "minlat": 41.1820070,
-    "minlon": -8.6592135,
+    "minlat": 41.1819779,
+    "minlon": -8.6592574,
     "maxlat": 41.1823682,
     "maxlon": -8.6587088
   },
@@ -3738,8 +3738,8 @@
   "geometry": [
     { "lat": 41.1823682, "lon": -8.6587916 },
     { "lat": 41.1823023, "lon": -8.6587088 },
-    { "lat": 41.1820070, "lon": -8.6591253 },
-    { "lat": 41.1820770, "lon": -8.6592135 },
+    { "lat": 41.1819779, "lon": -8.6591692 },
+    { "lat": 41.1820479, "lon": -8.6592574 },
     { "lat": 41.1823682, "lon": -8.6587916 }
   ],
   "tags": {
@@ -3751,8 +3751,8 @@
     "amenity": "charging_station",
     "brand": "Continente Plug&Charge",
     "brand:wikidata": "Q2995683",
-    "capacity": "24",
-    "charging_station:output": "640 kW",
+    "capacity": "28",
+    "charging_station:output": "880 kW",
     "covered": "yes",
     "fee": "yes",
     "level": "0",
@@ -13453,8 +13453,8 @@
   "id": 1372517035,
   "bounds": {
     "minlat": 38.7229735,
-    "minlon": -9.1521442,
-    "maxlat": 38.7230401,
+    "minlon": -9.1521784,
+    "maxlat": 38.7230772,
     "maxlon": -9.1520563
   },
   "nodes": [
@@ -13465,28 +13465,28 @@
     12708483849
   ],
   "geometry": [
-    { "lat": 38.7230401, "lon": -9.1520893 },
+    { "lat": 38.7230772, "lon": -9.1521235 },
     { "lat": 38.7230044, "lon": -9.1520563 },
     { "lat": 38.7229735, "lon": -9.1521111 },
-    { "lat": 38.7230092, "lon": -9.1521442 },
-    { "lat": 38.7230401, "lon": -9.1520893 }
+    { "lat": 38.7230463, "lon": -9.1521784 },
+    { "lat": 38.7230772, "lon": -9.1521235 }
   ],
   "tags": {
     "access": "yes",
     "amenity": "charging_station",
-    "capacity": "2",
+    "capacity": "4",
     "email": "ev_portugal@maksu.com",
     "fee": "yes",
     "location": "underground",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "LSB-00435/436",
+    "name": "LSB-00435/436/1125/1126",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Maksu Services",
     "parking:fee": "yes",
     "phone": "+351 800 910 124",
-    "ref": "LSB-00435;LSB-00436",
+    "ref": "LSB-00435;LSB-00436;LSB-01125;LSB-01126",
     "website": "https://www.mobie.pt"
   }
 },
@@ -42772,14 +42772,14 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VIS-00129",
+    "name": "VIS-00128/129",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
     "operator:wikidata": "Q1341222",
     "parking:fee": "no",
     "phone": "+351 800 222 222",
-    "ref": "VIS-00129",
+    "ref": "VIS-00128;VIS-00129",
     "website": "https://www.mobie.pt/"
   }
 },
@@ -47331,6 +47331,50 @@
 },
 {
   "type": "way",
+  "id": 1452129961,
+  "bounds": {
+    "minlat": 38.7503576,
+    "minlon": -8.9612257,
+    "maxlat": 38.7504259,
+    "maxlon": -8.9611000
+  },
+  "nodes": [
+    13317703612,
+    13317703614,
+    13317703607,
+    13317703606,
+    13317703612
+  ],
+  "geometry": [
+    { "lat": 38.7504093, "lon": -8.9612257 },
+    { "lat": 38.7504259, "lon": -8.9611125 },
+    { "lat": 38.7503742, "lon": -8.9611000 },
+    { "lat": 38.7503576, "lon": -8.9612132 },
+    { "lat": 38.7504093, "lon": -8.9612257 }
+  ],
+  "tags": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "4",
+    "charging_station:output": "202 kW",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "ACH-00040/41",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "phone": "+351 800 222 222",
+    "ref": "ACH-00040;ACH-00041",
+    "website": "https://www.mobie.pt/"
+  }
+},
+{
+  "type": "way",
   "id": 1452135553,
   "bounds": {
     "minlat": 40.5908530,
@@ -47845,7 +47889,7 @@
     "amenity": "charging_station",
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
-    "capacity": "5",
+    "capacity": "4",
     "charging_station:output": "244 kW",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
@@ -49510,6 +49554,51 @@
     "parking:fee": "yes",
     "phone": "+351 800 222 222",
     "ref": "STB-00051",
+    "website": "https://www.mobie.pt/"
+  }
+},
+{
+  "type": "way",
+  "id": 1454462727,
+  "bounds": {
+    "minlat": 41.4400523,
+    "minlon": -8.3221770,
+    "maxlat": 41.4401475,
+    "maxlon": -8.3220904
+  },
+  "nodes": [
+    13338690374,
+    13338690377,
+    13338690368,
+    13338690367,
+    13338690374
+  ],
+  "geometry": [
+    { "lat": 41.4400610, "lon": -8.3220904 },
+    { "lat": 41.4401475, "lon": -8.3221105 },
+    { "lat": 41.4401388, "lon": -8.3221770 },
+    { "lat": 41.4400523, "lon": -8.3221569 },
+    { "lat": 41.4400610, "lon": -8.3220904 }
+  ],
+  "tags": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "brand": "Repsol",
+    "brand:wikidata": "Q174747",
+    "capacity": "4",
+    "charging_station:output": "320 kW",
+    "email": "crc.mobilidade.eletrica.pt@repsol.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "GMR-00163/164",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Repsol",
+    "operator:wikidata": "Q174747",
+    "parking:fee": "no",
+    "phone": "+351 800 226 624",
+    "ref": "GMR-00163;GMR-00164",
     "website": "https://www.mobie.pt/"
   }
 }
