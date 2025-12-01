@@ -9164,32 +9164,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8286241425",
-  "properties": {
-    "access": "customers",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "capacity": "1",
-    "motorcar": "yes",
-    "name": "Renault Litocar",
-    "network": "Renault",
-    "operator": "Renault",
-    "socket:type2": "1",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
-    "id": "node/8286241425"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.8459173,
-      40.6360018
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8286252796",
   "properties": {
     "access": "customers",
@@ -9298,10 +9272,9 @@
   "id": "node/8286294645",
   "properties": {
     "access": "customers",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "capacity": "2",
+    "capacity": "1",
     "fee": "yes",
+    "man_made": "charge_point",
     "motorcar": "yes",
     "no:network": "yes",
     "operator": "Viseu Garden Hotel",
@@ -9314,8 +9287,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.9158653,
-      40.6923461
+      -7.9158708,
+      40.6923575
     ]
   }
 },
@@ -10627,7 +10600,6 @@
   "id": "node/8308341661",
   "properties": {
     "access": "customers",
-    "addr:country": "PT",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -14381,7 +14353,6 @@
   "id": "node/8480193992",
   "properties": {
     "access": "customers",
-    "addr:country": "PT",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -20862,7 +20833,6 @@
   "id": "node/10005184513",
   "properties": {
     "access": "customers",
-    "addr:country": "PT",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -22859,7 +22829,6 @@
   "id": "node/10830120190",
   "properties": {
     "access": "customers",
-    "addr:country": "PT",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -28761,7 +28730,6 @@
   "id": "node/11533583679",
   "properties": {
     "access": "customers",
-    "addr:country": "PT",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -34876,7 +34844,6 @@
   "id": "node/12396877360",
   "properties": {
     "access": "customers",
-    "addr:country": "PT",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -34917,7 +34884,6 @@
   "id": "node/12396883403",
   "properties": {
     "access": "customers",
-    "addr:country": "PT",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -36591,7 +36557,6 @@
   "id": "node/12471528373",
   "properties": {
     "access": "customers",
-    "addr:country": "PT",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -51751,7 +51716,6 @@
   "id": "node/13055186264",
   "properties": {
     "access": "customers",
-    "addr:country": "PT",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -57585,7 +57549,6 @@
   "id": "node/13226431765",
   "properties": {
     "access": "customers",
-    "addr:country": "PT",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -58155,6 +58118,92 @@
     "coordinates": [
       -8.3770537,
       41.5542816
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13252850534",
+  "properties": {
+    "access": "customers",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Galp electric",
+    "brand:wikidata": "Q135275372",
+    "capacity": "2",
+    "email": "veiculoeletrico@galp.com",
+    "fee": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "operator:wikidata": "Q135275372",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 249 249",
+    "ref": "VIS-00118",
+    "ref:EU:EVSE": "PT*GLP*EVIS*00118*01;PT*GLP*EVIS*00118*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13252850534"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.9049371,
+      40.6567725
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13252850535",
+  "properties": {
+    "access": "customers",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Galp electric",
+    "brand:wikidata": "Q135275372",
+    "capacity": "2",
+    "email": "veiculoeletrico@galp.com",
+    "fee": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "operator:wikidata": "Q135275372",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 249 249",
+    "ref": "VIS-00117",
+    "ref:EU:EVSE": "PT*GLP*EVIS*00117*01;PT*GLP*EVIS*00117*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13252850535"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.9049938,
+      40.6567829
     ]
   }
 },
@@ -59735,6 +59784,31 @@
     "coordinates": [
       -8.6172884,
       41.2683562
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13342281551",
+  "properties": {
+    "access": "customers",
+    "capacity": "1",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "no:network": "yes",
+    "operator": "Viseu Garden Hotel",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "7.4 kW",
+    "socket:type2:voltage": "230",
+    "id": "node/13342281551"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.9158998,
+      40.6923596
     ]
   }
 }
