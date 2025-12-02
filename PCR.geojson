@@ -6430,16 +6430,15 @@
   "properties": {
     "access": "yes",
     "addr:city": "Guimarães",
-    "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "2",
+    "charge_point:output": "72 kW",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "GMR-00021",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Superguimarães",
@@ -6468,8 +6467,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.299047,
-      41.4238483
+      -8.2990296,
+      41.4238423
     ]
   }
 },
@@ -13479,7 +13478,6 @@
   "properties": {
     "access": "yes",
     "addr:city": "Guimarães",
-    "addr:country": "PT",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -17171,15 +17169,16 @@
   "id": "node/8397099497",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
+    "addr:city": "Guimarães",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "2",
+    "charge_point:output": "142 kW",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "GMR-00022",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Superguimarães",
@@ -17204,8 +17203,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.2991101,
-      41.4238503
+      -8.2990871,
+      41.4238419
     ]
   }
 },
@@ -36196,7 +36195,6 @@
   "properties": {
     "access": "yes",
     "addr:city": "Caldas das Taipas",
-    "addr:country": "PT",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -55553,57 +55551,6 @@
     "coordinates": [
       -9.0746582,
       38.6072655
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10931338706",
-  "properties": {
-    "access": "yes",
-    "amenity": "charging_station",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Repsol",
-    "brand:wikidata": "Q174747",
-    "capacity": "2",
-    "email": "crc.mobilidade.eletrica.pt@repsol.com",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "LRS-00094",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Repsol",
-    "operator:wikidata": "Q174747",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 226 624",
-    "ref": "LRS-00094",
-    "socket:chademo": "1",
-    "socket:chademo:current": "125",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_cable": "1",
-    "socket:type2_cable:current": "64",
-    "socket:type2_cable:output": "43 kW",
-    "socket:type2_cable:voltage": "400",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "150",
-    "socket:type2_combo:output": "60 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt",
-    "id": "node/10931338706"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.1971096,
-      38.883285
     ]
   }
 },
@@ -82943,8 +82890,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.8397202,
-      39.6490644
+      -8.8397135,
+      39.6490758
     ]
   }
 },
@@ -83404,6 +83351,48 @@
     "coordinates": [
       -8.9425013,
       38.7519037
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12367470342",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "charge_point:output": "50 kW",
+    "email": "suporte@chargingtogether.pt",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "TVD-00046",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "TVD-00046",
+    "ref:EU:EVSE": "PT*FCT*E*TVD*00046*01;PT*FCT*E*TVD*00046*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "50 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/12367470342"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.3390709,
+      39.0919296
     ]
   }
 },
@@ -87851,6 +87840,7 @@
     "brand:wikidata": "Q1341222",
     "capacity": "2",
     "fee": "yes",
+    "level": "-2",
     "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
@@ -104249,17 +104239,16 @@
   "id": "node/13002603774",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "edp Charge",
     "brand:wikidata": "Q1341222",
     "capacity": "2",
-    "charging_station:output": "120 kW",
+    "charge_point:output": "120 kW",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "GMR-00154",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -104272,10 +104261,6 @@
     "phone": "+351 800 222 222",
     "ref": "GMR-00154",
     "ref:EU:EVSE": "PT*EDP*EGMR*00154*1;PT*EDP*EGMR*00154*2",
-    "socket:type2": "1",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "300",
     "socket:type2_combo:output": "120 kW",
@@ -104286,8 +104271,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.313652,
-      41.43676
+      -8.3136684,
+      41.4367584
     ]
   }
 },
@@ -104296,17 +104281,16 @@
   "id": "node/13002645570",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "edp Charge",
     "brand:wikidata": "Q1341222",
     "capacity": "2",
-    "charging_station:output": "120 kW",
+    "charge_point:output": "142 kW",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "GMR-00155",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -104333,8 +104317,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.3135806,
-      41.4367746
+      -8.3136126,
+      41.4367663
     ]
   }
 },
@@ -106874,17 +106858,16 @@
   "id": "node/13114162812",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "edp Charge",
     "brand:wikidata": "Q1341222",
     "capacity": "2",
-    "charging_station:output": "72 kW",
+    "charging_station:output": "82 kW",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "GMR-00140",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -106911,8 +106894,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.3369811,
-      41.4761757
+      -8.3369722,
+      41.4761761
     ]
   }
 },
@@ -106921,17 +106904,16 @@
   "id": "node/13114162813",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "edp Charge",
     "brand:wikidata": "Q1341222",
     "capacity": "2",
-    "charging_station:output": "120 kW",
+    "charge_point:output": "120 kW",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "GMR-00139",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -106954,8 +106936,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.3369469,
-      41.4762103
+      -8.3369412,
+      41.4762123
     ]
   }
 },
@@ -111200,6 +111182,51 @@
     "coordinates": [
       -8.9096215,
       39.6788884
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13284039083",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "2",
+    "charge_point:output": "142 kW",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "VIS-00128",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "300",
+    "socket:type2_combo:output": "120 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13284039083"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.8961886,
+      40.6651211
     ]
   }
 },
