@@ -16945,7 +16945,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "AMM-00001",
+    "name": "AMM-90001",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -16956,7 +16956,8 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
-    "ref": "AMM-00001",
+    "ref": "AMM-90001",
+    "ref:EU:EVSE": "PT*EDP*EAMM*90001*1;PT*EDP*EAMM*90001*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
@@ -16967,8 +16968,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.6936322,
-      41.1087089
+      -7.6936577,
+      41.1086937
     ]
   }
 },
@@ -17542,7 +17543,6 @@
   "id": "node/8113026405",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -17551,9 +17551,9 @@
     "capacity": "2",
     "email": "electric@prioenergy.com",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VLG-00005",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Prio.E",
@@ -17574,8 +17574,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.5375605,
-      41.2310804
+      -8.537569,
+      41.2310896
     ]
   }
 },
@@ -33720,7 +33720,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "RSD-00001",
+    "name": "RSD-90001",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -33732,6 +33732,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "RSD-90001",
+    "ref:EU:EVSE": "PT*EDP*ERSD*90001*1;PT*EDP*ERSD*90001*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
@@ -38764,7 +38765,8 @@
   "id": "node/8480199508",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
+    "addr:city": "Valongo",
+    "addr:street": "Rua Tristão Vaz Teixeira",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -38773,9 +38775,9 @@
     "capacity": "2",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VLG-00003",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Powerdot",
@@ -38797,8 +38799,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.5106826,
-      41.1969279
+      -8.5107052,
+      41.1968709
     ]
   }
 },
@@ -119607,47 +119609,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12674377241",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "authentication:app": "yes",
-    "authentication:none": "no",
-    "brand": "Continente Plug&Charge",
-    "brand:wikidata": "Q2995683",
-    "capacity": "2",
-    "fee": "yes",
-    "man_made": "charge_point",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "Continente Vila Real",
-    "network": "Continente Plug&Charge",
-    "opening_hours": "24/7",
-    "operator": "Continente",
-    "operator:wikidata": "Q2995683",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "no",
-    "phone": "+351 210 19 19 19",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
-    "website": "https://plugcharge.continente.pt/",
-    "id": "node/12674377241"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.7339087,
-      41.310945
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12674377242",
   "properties": {
     "access": "yes",
@@ -123805,52 +123766,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12728927391",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Santarém",
-    "addr:country": "PT",
-    "addr:postcode": "2005-181",
-    "addr:street": "Rua Alexandre Herculano",
-    "authentication:app": "yes",
-    "authentication:none": "no",
-    "brand": "Continente Plug&Charge",
-    "brand:wikidata": "Q2995683",
-    "capacity": "2",
-    "fee": "yes",
-    "indoor": "yes",
-    "level": "-1",
-    "location": "underground",
-    "man_made": "charge_point",
-    "motorcar": "yes",
-    "name": "Continente Santarém",
-    "network": "Continente Plug&Charge",
-    "opening_hours": "09:00-21:00",
-    "operator": "Continente",
-    "operator:wikidata": "Q2995683",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "no",
-    "phone": "+351 210 19 19 19",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
-    "website": "https://plugcharge.continente.pt/",
-    "id": "node/12728927391"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.6877157,
-      39.2434611
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12728932216",
   "properties": {
     "access": "yes",
@@ -124074,88 +123989,6 @@
     "coordinates": [
       -8.815291,
       41.7044946
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12729063994",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Viseu",
-    "addr:country": "PT",
-    "authentication:app": "yes",
-    "authentication:none": "no",
-    "brand": "Continente Plug&Charge",
-    "brand:wikidata": "Q2995683",
-    "capacity": "2",
-    "fee": "yes",
-    "man_made": "charge_point",
-    "motorcar": "yes",
-    "name": "Continente Viseu",
-    "network": "Continente Plug&Charge",
-    "opening_hours": "24/7",
-    "operator": "Continente",
-    "operator:wikidata": "Q2995683",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "no",
-    "phone": "+351 210 19 19 19",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
-    "website": "https://plugcharge.continente.pt/",
-    "id": "node/12729063994"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.9194201,
-      40.6722975
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12729063995",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Viseu",
-    "addr:country": "PT",
-    "authentication:app": "yes",
-    "authentication:none": "no",
-    "brand": "Continente Plug&Charge",
-    "brand:wikidata": "Q2995683",
-    "capacity": "2",
-    "fee": "yes",
-    "man_made": "charge_point",
-    "motorcar": "yes",
-    "name": "Continente Viseu",
-    "network": "Continente Plug&Charge",
-    "opening_hours": "24/7",
-    "operator": "Continente",
-    "operator:wikidata": "Q2995683",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "no",
-    "phone": "+351 210 19 19 19",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
-    "website": "https://plugcharge.continente.pt/",
-    "id": "node/12729063995"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.9194232,
-      40.6722956
     ]
   }
 },
@@ -127869,7 +127702,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "CNF-00006",
-    "ref:EU:EVSE": "PT*EDP*E*CNF*00006*01;PT*EDP*E*CNF*00006*02",
+    "ref:EU:EVSE": "PT*EDP*ECNF*00006*1;PT*EDP*ECNF*00006*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
@@ -127880,8 +127713,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.2306803,
-      41.0703836
+      -8.2307044,
+      41.0703887
     ]
   }
 },
@@ -127913,7 +127746,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "CNF-00005",
-    "ref:EU:EVSE": "PT*EDP*E*CNF*00005*01;PT*EDP*E*CNF*00005*02",
+    "ref:EU:EVSE": "PT*EDP*ECNF*00005*1;PT*EDP*ECNF*00005*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
@@ -127924,8 +127757,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.176155,
-      41.00084
+      -8.17586,
+      41.0008284
     ]
   }
 },
@@ -147645,6 +147478,48 @@
 },
 {
   "type": "Feature",
+  "id": "node/13135277260",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Galp electric",
+    "brand:wikidata": "Q135275372",
+    "capacity": "2",
+    "email": "veiculoeletrico@galp.com",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "operator:wikidata": "Q135275372",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 249 249",
+    "ref": "PRD-00037",
+    "ref:EU:EVSE": "PT*GLP*EPRD*00037*01;PT*GLP*EPRD*00037*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13135277260"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.3309823,
+      41.2052141
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13135285374",
   "properties": {
     "access": "yes",
@@ -163145,6 +163020,47 @@
     "coordinates": [
       -8.9723204,
       38.9972047
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13357476506",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "e-flow",
+    "capacity": "2",
+    "email": "geral@dte.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "TMC-00006",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "DTE",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 912 872 459",
+    "ref": "TMC-00006",
+    "ref:EU:EVSE": "PT*DTE*E*TMC*00006*01;PT*DTE*E*TMC*00006*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13357476506"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.050329,
+      41.173946
     ]
   }
 },

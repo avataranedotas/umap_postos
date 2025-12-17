@@ -156,9 +156,7 @@
   "properties": {
     "access": "yes",
     "addr:city": "Rio Tinto",
-    "addr:country": "PT",
     "addr:street": "Avenida Infante Dom Henrique",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -167,9 +165,9 @@
     "capacity": "2",
     "email": "support.portugal@atlante.energy",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "GDM-00055",
     "network": "Mobi.E",
     "old_ref": "GDM-00003;GDM-00041;GDM-00056",
     "opening_hours": "24/7",
@@ -201,8 +199,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.5473419,
-      41.1711017
+      -8.5473429,
+      41.1711045
     ]
   }
 },
@@ -294,52 +292,6 @@
     "coordinates": [
       -9.3044973,
       38.7507386
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11308364022",
-  "properties": {
-    "access": "yes",
-    "amenity": "charging_station",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "InstaVolt",
-    "brand:wikidata": "Q111173904",
-    "capacity": "2",
-    "fee": "yes",
-    "fixme": "Verificar se este posto ainda está operacional",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "ACB-00017",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "InstaVolt",
-    "operator:wikidata": "Q111173904",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "yes",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "ref": "ACB-00017",
-    "socket:chademo": "1",
-    "socket:chademo:current": "125",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "190",
-    "socket:type2_combo:output": "75 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/",
-    "id": "node/11308364022"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.9627201,
-      39.4105968
     ]
   }
 },
@@ -1960,6 +1912,7 @@
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
+    "old_ref": "NZR-00042",
     "opening_hours": "24/7",
     "operator": "Charging Together",
     "parking:fee": "no",
@@ -1968,8 +1921,8 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 917 576",
-    "ref": "NZR-00042",
-    "ref:EU:EVSE": "PT*FCT*E*NZR*00042*01;PT*FCT*E*NZR*00042*02;PT*FCT*E*NZR*00042*03",
+    "ref": "ACB-00046",
+    "ref:EU:EVSE": "PT*FCT*E*ACB*00046*01;PT*FCT*E*ACB*00046*02;PT*FCT*E*ACB*00046*03",
     "socket:chademo": "1",
     "socket:chademo:current": "200",
     "socket:chademo:output": "80 kW",
@@ -3066,6 +3019,52 @@
     "coordinates": [
       -8.639113,
       41.1592559
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12412449464",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "charge_point:output": "300 kW",
+    "email": "suporte@chargingtogether.pt",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "PFR-00018",
+    "ref:EU:EVSE": "PT*FCT*E*PFR*00018*01;PT*FCT*E*PFR*00018*02;PT*FCT*E*PFR*00018*03",
+    "socket:chademo": "1",
+    "socket:chademo:current": "200",
+    "socket:chademo:output": "80 kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "150 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/12412449464"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4118391,
+      41.2686267
     ]
   }
 },
@@ -5178,6 +5177,7 @@
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
+    "old_ref": "NZR-00044",
     "opening_hours": "24/7",
     "operator": "Charging Together",
     "parking:fee": "no",
@@ -5186,8 +5186,8 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 917 576",
-    "ref": "NZR-00044",
-    "ref:EU:EVSE": "PT*FCT*E*NZR*00044*01;PT*FCT*E*NZR*00044*02;PT*FCT*E*NZR*00044*03",
+    "ref": "ACB-00048",
+    "ref:EU:EVSE": "PT*FCT*E*ACB*00048*01;PT*FCT*E*ACB*00048*02;PT*FCT*E*ACB*00048*03",
     "socket:chademo": "1",
     "socket:chademo:current": "200",
     "socket:chademo:output": "80 kW",
@@ -5223,6 +5223,7 @@
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
+    "old_ref": "NZR-00043",
     "opening_hours": "24/7",
     "operator": "Charging Together",
     "parking:fee": "no",
@@ -5231,8 +5232,8 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 917 576",
-    "ref": "NZR-00043",
-    "ref:EU:EVSE": "PT*FCT*E*NZR*00043*01;PT*FCT*E*NZR*00043*02;PT*FCT*E*NZR*00043*03",
+    "ref": "ACB-00047",
+    "ref:EU:EVSE": "PT*FCT*E*ACB*00047*01;PT*FCT*E*ACB*00047*02;PT*FCT*E*ACB*00047*03",
     "socket:chademo": "1",
     "socket:chademo:current": "200",
     "socket:chademo:output": "80 kW",
@@ -5943,9 +5944,7 @@
   "properties": {
     "access": "yes",
     "addr:city": "Rio Tinto",
-    "addr:country": "PT",
     "addr:street": "Avenida Infante Dom Henrique",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -5954,9 +5953,9 @@
     "capacity": "2",
     "email": "support.portugal@atlante.energy",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "GDM-00057",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Atlante",
@@ -5979,8 +5978,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.5474377,
-      41.1710927
+      -8.5474404,
+      41.1710967
     ]
   }
 },
