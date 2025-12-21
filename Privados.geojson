@@ -7720,7 +7720,6 @@
   "id": "node/8280600899",
   "properties": {
     "access": "customers",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -7730,6 +7729,7 @@
     "fee": "yes",
     "indoor": "yes",
     "location": "underground",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -7754,8 +7754,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.4042835,
-      38.8307915
+      -9.4042014,
+      38.8305007
     ]
   }
 },
@@ -7764,7 +7764,6 @@
   "id": "node/8280604422",
   "properties": {
     "access": "customers",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -7772,6 +7771,9 @@
     "brand:wikidata": "Q1341222",
     "capacity": "1",
     "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -7796,8 +7798,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.4008878,
-      38.8289809
+      -9.4041836,
+      38.8304832
     ]
   }
 },
@@ -32526,7 +32528,6 @@
     "capacity": "2",
     "email": "geral@luzigas.pt",
     "fee": "yes",
-    "fixme": "Move to exact location",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -49039,7 +49040,6 @@
     "capacity": "2",
     "email": "geral@luzigas.pt",
     "fee": "yes",
-    "fixme": "Move to exact location",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -49062,8 +49062,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.5811216,
-      37.1308549
+      -8.5816607,
+      37.1310516
     ]
   }
 },
@@ -54133,7 +54133,6 @@
   "id": "node/13159464955",
   "properties": {
     "access": "customers",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -54143,6 +54142,7 @@
     "fee": "yes",
     "indoor": "yes",
     "location": "underground",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -54167,8 +54167,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.4042245,
-      38.8307361
+      -9.4042284,
+      38.8305271
     ]
   }
 },
@@ -59956,6 +59956,53 @@
     "coordinates": [
       -8.0587889,
       37.4964034
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13391286829",
+  "properties": {
+    "access": "customers",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "2",
+    "fee": "yes",
+    "fixme": "Move to exact location",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "SNT-00225",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "SNT-00225",
+    "ref:EU:EVSE": "PT*EDP*ESNT*00225*1;PT*EDP*ESNT*00225*2;PT*EDP*ESNT*00225*3",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "120",
+    "socket:type2_combo:output": "60 kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13391286829"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.4037746,
+      38.8305332
     ]
   }
 }
