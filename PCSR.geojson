@@ -1267,17 +1267,17 @@
   "id": "node/9043918678",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "edp Charge",
     "brand:wikidata": "Q1341222",
     "capacity": "1",
+    "charge_point:output": "160 kW",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VNG-00066",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -1304,8 +1304,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.5982841,
-      41.1014889
+      -8.5982499,
+      41.1015172
     ]
   }
 },
@@ -1314,17 +1314,17 @@
   "id": "node/9043918680",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "edp Charge",
     "brand:wikidata": "Q1341222",
     "capacity": "1",
+    "charge_point:output": "160 kW",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VNG-00067",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -1351,8 +1351,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.5987171,
-      41.1009238
+      -8.598721,
+      41.1009184
     ]
   }
 },
@@ -10203,19 +10203,18 @@
   "id": "node/12132211015",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Prio",
     "brand:wikidata": "Q62530421",
     "capacity": "2",
-    "charging_station:output": "180 kW",
+    "charge_point:output": "180 kW",
     "email": "electric@prioenergy.com",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "MTS-00121",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Prio.E",
@@ -10227,7 +10226,7 @@
     "phone": "+351 800 100 303",
     "ref": "MTS-00121",
     "ref:EU:EVSE": "PT*PRI*E*MTS*00121*01;PT*PRI*E*MTS*00121*02",
-    "socket:type2_combo": "1",
+    "socket:type2_combo": "2",
     "socket:type2_combo:current": "200",
     "socket:type2_combo:output": "180 kW",
     "socket:type2_combo:voltage": "1000",
@@ -10237,8 +10236,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6949709,
-      41.2181816
+      -8.694988,
+      41.2182001
     ]
   }
 },
@@ -16702,18 +16701,20 @@
   "id": "node/12666701074",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
+    "addr:city": "Vila Nova de Gaia",
+    "addr:street": "Avenida Poeta Eugénio de Andrade",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Prio",
     "brand:wikidata": "Q62530421",
     "capacity": "2",
+    "charge_point:output": "150 kW",
     "email": "electric@prioenergy.com",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VNG-00187",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Prio.E",
@@ -16735,8 +16736,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6470197,
-      41.1168942
+      -8.6470107,
+      41.1168891
     ]
   }
 },
@@ -23411,6 +23412,50 @@
 },
 {
   "type": "Feature",
+  "id": "node/13104206624",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Powerdot",
+    "brand:wikidata": "Q123574541",
+    "capacity": "2",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "old_ref": "OBD-00023",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "operator:wikidata": "Q123574541",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 180 292",
+    "ref": "OBD-00024",
+    "ref:EU:EVSE": "PT*HRZ*E*OBD*00024*04;PT*HRZ*E*OBD*00024*05",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "200",
+    "socket:type2_combo:output": "150 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/13104206624"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1385652,
+      39.3753686
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13108505676",
   "properties": {
     "access": "yes",
@@ -28009,6 +28054,50 @@
     "coordinates": [
       -8.5839615,
       41.1640326
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13391265620",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Repsol",
+    "brand:wikidata": "Q174747",
+    "capacity": "2",
+    "charge_point:output": "150 kW",
+    "email": "crc.mobilidade.eletrica.pt@repsol.com",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Repsol",
+    "operator:wikidata": "Q174747",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 226 624",
+    "ref": "LRA-00183",
+    "ref:EU:EVSE": "PT*REP*E*LRA*00183*01;PT*REP*E*LRA*00183*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "250",
+    "socket:type2_combo:output": "150 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13391265620"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.7750467,
+      39.767661
     ]
   }
 },
