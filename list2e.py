@@ -177,24 +177,29 @@ for way_id, way_data in data.items():
     row['adjusted_kw'] = 0.0
     rows.append(row)
 
-    # Process child points
-    for child_point in valid_points:
+    # Process child points - Option B (all children)
+    for child_point in child_points:
         cprops = child_point.get('properties', {})
-        child_socket_counts, child_socket_outputs, child_total_sockets, child_total_kw = extract_sockets_and_kw(cprops)
 
+        # Fix: normalize man_made for missing_tag
+        man_made_value = str(cprops.get('man_made', '')).strip().lower()
+        child_missing_tag = 'no' if man_made_value == 'charge_point' else 'yes'
 
-        child_socket_outputs = {}
-        for k, v in cprops.items():
-            if k.endswith(':output'):
-                base_key = k.rsplit(":", 1)[0]
-                if base_key in ALLOWED_SOCKETS:
-                    num_val = get_numeric_output(v)
-                    child_socket_outputs[base_key] = num_val
+        # Only extract sockets/outputs if valid
+        if child_missing_tag == 'yes':
+            child_socket_counts, child_socket_outputs, child_total_sockets, child_total_kw = {}, {}, 0, 0.0
+        else:
+            child_socket_counts, child_socket_outputs, child_total_sockets, child_total_kw = extract_sockets_and_kw([child_point])
+            # Ensure socket_outputs is numeric
+            for k, v in cprops.items():
+                if k.endswith(':output'):
+                    base_key = k.rsplit(":", 1)[0]
+                    if base_key in ALLOWED_SOCKETS:
+                        child_socket_outputs[base_key] = get_numeric_output(v)
 
         child_id = child_point.get('id', '')
         child_capacity = parse_capacity(cprops.get('capacity'))
         child_identifier = f"{identifier} / {get_identifier(cprops, child_id)}"
-        child_missing_tag = 'yes' if cprops.get('man_made') != 'charge_point' else 'no'
         child_output = get_numeric_output(cprops.get('charge_point:output'))
 
         child_overflow = child_total_sockets - child_capacity
@@ -223,6 +228,7 @@ for way_id, way_data in data.items():
             child_row[f"{sock}:kw"] = power
         child_row['adjusted_kw'] = compute_adjusted_kw(child_total_kw, child_overflow_power, child_output)
         rows.append(child_row)
+
 
     # Update way with aggregated child overflow
     rows[-(len(valid_points) + 1)]['overflow_power'] = round(overflow_power_agg, 2)
@@ -295,4 +301,3 @@ with open('stations_2.csv', 'w', newline='', encoding='utf-8') as csvfile:
         writer.writerow(row)
 
 print(f"CSV file 'stations_2.csv' created with {len(rows)} entries. Socket types: {sorted(all_socket_types)}")
-
