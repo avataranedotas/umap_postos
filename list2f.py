@@ -275,7 +275,7 @@ for point in data.get('unassigned_points', []):
         'overflow': overflow,
         'overflow_power': overflow_power,
         'adjusted_kw': compute_adjusted_kw(total_kw, overflow_power, output),
-        'evse_id': cprops.get('ref:EU:EVSE', '')
+        'evse_id': pprops.get('ref:EU:EVSE', '')
     }
     row.update(socket_counts)
     for sock, power in socket_outputs.items():
