@@ -9625,8 +9625,8 @@
     "socket:chademo:output": "50 kW",
     "socket:chademo:voltage": "500",
     "socket:type2_cable": "1",
-    "socket:type2_cable:current": "63",
-    "socket:type2_cable:output": "43 kW",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
     "socket:type2_cable:voltage": "400",
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "125",
@@ -15917,7 +15917,6 @@
   "properties": {
     "access": "yes",
     "addr:city": "Santarém",
-    "addr:country": "PT",
     "addr:postcode": "2005-181",
     "addr:street": "Rua Alexandre Herculano",
     "authentication:app": "yes",
@@ -20361,64 +20360,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8733712596",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Belverde",
-    "addr:country": "PT",
-    "addr:street": "Avenida do Mar",
-    "amenity": "charging_station",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Lidl",
-    "brand:wikidata": "Q151954",
-    "capacity": "2",
-    "charging_station:output": "72 kW",
-    "email": "veiculoeletrico@galp.com",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "SXL-00071",
-    "network": "Mobi.E",
-    "old_operator": "KLC Serviços",
-    "old_ref": "SXL-00015;SXL-00054",
-    "opening_hours": "24/7",
-    "operator": "Galp Power",
-    "operator:wikidata": "Q135275372",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 249 249",
-    "ref": "SXL-00071",
-    "ref:EU:EVSE": "PT*GLP*ESXL*00071*01;PT*GLP*ESXL*00071*02;PT*GLP*ESXL*00071*03",
-    "socket:chademo": "1",
-    "socket:chademo:current": "120",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_cable": "1",
-    "socket:type2_cable:current": "32",
-    "socket:type2_cable:output": "22 kW",
-    "socket:type2_cable:voltage": "400",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "125",
-    "socket:type2_combo:output": "50 kW",
-    "socket:type2_combo:voltage": "500",
-    "website": "https://www.mobie.pt",
-    "id": "node/8733712596"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.1409888,
-      38.5976708
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8733712597",
   "properties": {
     "access": "yes",
@@ -21750,62 +21691,6 @@
     "coordinates": [
       -9.3044776,
       38.7632871
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8781165395",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Casal de Cambra",
-    "amenity": "charging_station",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Lidl",
-    "brand:wikidata": "Q151954",
-    "capacity": "2",
-    "charging_station:output": "72 kW",
-    "email": "veiculoeletrico@galp.com",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "SNT-00196",
-    "network": "Mobi.E",
-    "old_operator": "KLC;KLC Serviços",
-    "old_ref": "SNT-00049;SNT-00132",
-    "opening_hours": "24/7",
-    "operator": "Galp Power",
-    "operator:wikidata": "Q135275372",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 249 249",
-    "ref": "SNT-00196",
-    "ref:EU:EVSE": "PT*GLP*ESNT*00196*01;PT*GLP*ESNT*00196*02;PT*GLP*ESNT*00196*03",
-    "socket:chademo": "1",
-    "socket:chademo:current": "120",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_cable": "1",
-    "socket:type2_cable:current": "32",
-    "socket:type2_cable:output": "22 kW",
-    "socket:type2_cable:voltage": "400",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "125",
-    "socket:type2_combo:output": "50 kW",
-    "socket:type2_combo:voltage": "500",
-    "website": "https://www.mobie.pt",
-    "id": "node/8781165395"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.2288498,
-      38.79671
     ]
   }
 },
@@ -26024,21 +25909,22 @@
   "id": "node/9065817476",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Galp electric",
     "brand:wikidata": "Q135275372",
     "capacity": "2",
+    "charge_point:output": "93 kW",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "ALQ-00003",
     "network": "Mobi.E",
-    "opening_hours": "24/7",
+    "opening_hours": "10:00-22:00",
     "operator": "Galp Power",
     "operator:wikidata": "Q135275372",
     "parking:fee": "no",
@@ -26067,8 +25953,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.967155,
-      39.028514
+      -8.9671486,
+      39.0284861
     ]
   }
 },
@@ -28463,7 +28349,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "SSB-00006",
-    "ref:EU:EVSE": "PT*EDP*E*SSB*00006*01;PT*EDP*E*SSB*00006*02;PT*EDP*E*SSB*00006*03",
+    "ref:EU:EVSE": "PT*EDP*ESSB*00006*1;PT*EDP*ESSB*00006*2;PT*EDP*ESSB*00006*3",
     "socket:chademo": "1",
     "socket:chademo:current": "125",
     "socket:chademo:output": "50 kW",
@@ -44732,6 +44618,51 @@
 },
 {
   "type": "Feature",
+  "id": "node/10110145676",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Galp electric",
+    "brand:wikidata": "Q135275372",
+    "capacity": "2",
+    "charging_station:output": "120 kW",
+    "email": "veiculoeletrico@galp.com",
+    "fee": "yes",
+    "location": "underground",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LSB-00537",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "operator:wikidata": "Q135275372",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 249 249",
+    "ref": "LSB-00537",
+    "ref:EU:EVSE": "PT*GLP*ELSB*00537*01;PT*GLP*ELSB*00537*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "200",
+    "socket:type2_combo:output": "120 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/10110145676"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1076239,
+      38.7567665
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10112116964",
   "properties": {
     "access": "yes",
@@ -48340,53 +48271,6 @@
     "coordinates": [
       -9.117754,
       38.7824739
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10553244017",
-  "properties": {
-    "access": "yes",
-    "amenity": "charging_station",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "edp Charge",
-    "brand:wikidata": "Q1341222",
-    "capacity": "2",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "MFR-00027",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "EDP",
-    "operator:wikidata": "Q1341222",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 222 222",
-    "ref": "MFR-00027",
-    "ref:EU:EVSE": "PT*EDP*E*MFR*00027*01;PT*EDP*E*MFR*00027*02",
-    "socket:chademo": "1",
-    "socket:chademo:current": "120",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "200",
-    "socket:type2_combo:output": "120 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/",
-    "id": "node/10553244017"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.2515439,
-      38.9300011
     ]
   }
 },
@@ -68949,6 +68833,7 @@
     "brand": "Repsol",
     "brand:wikidata": "Q174747",
     "capacity": "2",
+    "charging_station:output": "82 kW",
     "email": "crc.mobilidade.eletrica.pt@repsol.com",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -68984,8 +68869,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.667452,
-      40.507326
+      -8.6674091,
+      40.5073586
     ]
   }
 },
@@ -77234,8 +77119,6 @@
   "id": "node/12062120946",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -77243,9 +77126,9 @@
     "brand:wikidata": "Q1341222",
     "capacity": "2",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "TMR-00045",
     "network": "Mobi.E",
     "old_operator": "KLC Serviços",
     "old_ref": "TMR-00042",
@@ -77278,8 +77161,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.3975478,
-      39.609618
+      -8.3975651,
+      39.6096103
     ]
   }
 },
@@ -79130,61 +79013,6 @@
     "coordinates": [
       -8.4496188,
       41.5649216
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12102487895",
-  "properties": {
-    "access": "yes",
-    "amenity": "charging_station",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Lidl",
-    "brand:wikidata": "Q151954",
-    "capacity": "2",
-    "charging_station:output": "72 kW",
-    "email": "veiculoeletrico@galp.com",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "SNT-00200",
-    "network": "Mobi.E",
-    "old_operator": "KLC Serviços",
-    "old_ref": "SNT-00102;SNT-00152",
-    "opening_hours": "24/7",
-    "operator": "Galp Power",
-    "operator:wikidata": "Q135275372",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 249 249",
-    "ref": "SNT-00200",
-    "ref:EU:EVSE": "PT*GLP*ESNT*00200*01;PT*GLP*ESNT*00200*02;PT*GLP*ESNT*00200*03",
-    "socket:chademo": "1",
-    "socket:chademo:current": "120",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_cable": "1",
-    "socket:type2_cable:current": "32",
-    "socket:type2_cable:output": "22 kW",
-    "socket:type2_cable:voltage": "400",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "125",
-    "socket:type2_combo:output": "50 kW",
-    "socket:type2_combo:voltage": "500",
-    "website": "https://www.mobie.pt/",
-    "id": "node/12102487895"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.3366297,
-      38.7832259
     ]
   }
 },
@@ -90468,7 +90296,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "LRA-00136",
-    "ref:EU:EVSE": "PT*GLP*E*LRA*00136*01",
+    "ref:EU:EVSE": "PT*GLP*ELRA*00136*01",
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "60",
     "socket:type2_combo:output": "25 kW",
@@ -98825,6 +98653,52 @@
 },
 {
   "type": "Feature",
+  "id": "node/12728927391",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Santarém",
+    "addr:postcode": "2005-181",
+    "addr:street": "Rua Alexandre Herculano",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "2",
+    "charge_point:output": "50 kW",
+    "fee": "yes",
+    "indoor": "yes",
+    "level": "-1",
+    "location": "underground",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "name": "Continente Santarém",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "09:00-21:00",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "phone": "+351 210 19 19 19",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "50 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/12728927391"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6877157,
+      39.2434611
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12728987155",
   "properties": {
     "access": "yes",
@@ -101198,6 +101072,48 @@
     "coordinates": [
       -8.6382957,
       41.0158497
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12817858411",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "TMR-00047",
+    "ref:EU:EVSE": "PT*EDP*E*TMR*00047*01;PT*EDP*E*TMR*00047*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "200",
+    "socket:type2_combo:output": "120 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12817858411"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.3975385,
+      39.6095714
     ]
   }
 },
@@ -108804,6 +108720,48 @@
 },
 {
   "type": "Feature",
+  "id": "node/13104312488",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "2",
+    "charge_point:output": "50 kW",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Continente Bom Dia Arruda dos Vinhos",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "24/7",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "phone": "+351 210 19 19 19",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "50 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/13104312488"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.0803909,
+      38.9822757
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13104589397",
   "properties": {
     "access": "yes",
@@ -111938,6 +111896,53 @@
 },
 {
   "type": "Feature",
+  "id": "node/13207647660",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Parede",
+    "addr:country": "PT",
+    "addr:postcode": "2775-291",
+    "addr:street": "Rua de Timor",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "2",
+    "charge_point:output": "50 kW",
+    "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Continente Bom Dia Parede II",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "08:00-21:00",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "phone": "+351 210 19 19 19",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "50 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/13207647660"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.358059,
+      38.6927854
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13207673185",
   "properties": {
     "access": "yes",
@@ -113883,6 +113888,50 @@
     "coordinates": [
       -9.4127949,
       38.9640033
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13285382984",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "2",
+    "charge_point:output": "50 kW",
+    "fee": "yes",
+    "fixme": "Confirmar quantidade e potência das tomadas",
+    "indoor": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Continente Modelo São João da Talha",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "08:00-22:00",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "50 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/13285382984"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.0880957,
+      38.8263611
     ]
   }
 },
@@ -117294,6 +117343,48 @@
     "coordinates": [
       -8.3997991,
       41.5409064
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13453373774",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "2",
+    "charge_point:output": "180 kW",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Continente Bom Dia Arruda dos Vinhos",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "24/7",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "phone": "+351 210 19 19 19",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "350",
+    "socket:type2_combo:output": "120 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/13453373774"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.0803952,
+      38.9822743
     ]
   }
 }
