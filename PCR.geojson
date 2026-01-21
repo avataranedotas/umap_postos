@@ -1466,6 +1466,58 @@
 },
 {
   "type": "Feature",
+  "id": "node/5393259003",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Cascais",
+    "addr:country": "PT",
+    "addr:street": "Rua Dom Francisco de Avilez",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Mobiletric",
+    "capacity": "2",
+    "email": "veiculoeletrico@galp.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CSC-00015",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Mobiletric",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 249 249",
+    "ref": "CSC-00015",
+    "ref:EU:EVSE": "PT*MLT*ECSC*00015*01;PT*MLT*ECSC*00015*02;PT*MLT*ECSC*00015*03",
+    "socket:chademo": "1",
+    "socket:chademo:current": "120",
+    "socket:chademo:output": "50 kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "63",
+    "socket:type2_cable:output": "43 kW",
+    "socket:type2_cable:voltage": "400",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "125",
+    "socket:type2_combo:output": "50 kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt",
+    "id": "node/5393259003"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.4229303,
+      38.6995238
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/5398312785",
   "properties": {
     "access": "yes",
@@ -43362,7 +43414,9 @@
   "id": "node/10061965480",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Braga",
+    "addr:postcode": "4705-076",
+    "addr:street": "Rua de Abraão",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -62442,8 +62496,6 @@
   "id": "node/11293800146",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -62452,9 +62504,9 @@
     "capacity": "2",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VFX-00043",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -62477,8 +62529,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.9870014,
-      38.9589958
+      -8.986998,
+      38.9589924
     ]
   }
 },
@@ -63239,8 +63291,6 @@
   "id": "node/11332057549",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -63249,9 +63299,9 @@
     "capacity": "2",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VFX-00042",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -63274,8 +63324,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.986929,
-      38.9589791
+      -8.986934,
+      38.9589775
     ]
   }
 },
@@ -73628,7 +73678,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "TMR-00038",
-    "ref:EU:EVSE": "PT*EDP*E*TMR*00038*01;PT*EDP*E*TMR*00038*02",
+    "ref:EU:EVSE": "PT*EDP*ETMR*00038*1;PT*EDP*ETMR*00038*2",
     "socket:chademo": "1",
     "socket:chademo:current": "125",
     "socket:chademo:output": "50 kW",
@@ -80014,6 +80064,55 @@
 },
 {
   "type": "Feature",
+  "id": "node/12140868083",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "2",
+    "charging_station:output": "120 kW",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "BNV-00012",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "BNV-00012",
+    "ref:EU:EVSE": "PT*EDP*E*BNV*00012*01;PT*EDP*E*BNV*00012*02",
+    "socket:chademo": "1",
+    "socket:chademo:current": "125",
+    "socket:chademo:output": "50 kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "300",
+    "socket:type2_combo:output": "120 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12140868083"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.8828293,
+      38.9220758
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12142756326",
   "properties": {
     "access": "yes",
@@ -82310,61 +82409,6 @@
     "coordinates": [
       -8.997985,
       38.9550323
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12200052184",
-  "properties": {
-    "access": "yes",
-    "amenity": "charging_station",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Lidl",
-    "brand:wikidata": "Q151954",
-    "capacity": "2",
-    "charging_station:output": "72 kW",
-    "email": "veiculoeletrico@galp.com",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "VCD-00059",
-    "network": "Mobi.E",
-    "old_operator": "KLC Serviços",
-    "old_ref": "VCD-00046",
-    "opening_hours": "24/7",
-    "operator": "Galp Power",
-    "operator:wikidata": "Q135275372",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 249 249",
-    "ref": "VCD-00059",
-    "ref:EU:EVSE": "PT*GLP*EVCD*00059*01;PT*GLP*EVCD*00059*02;PT*GLP*EVCD*00059*03",
-    "socket:chademo": "1",
-    "socket:chademo:current": "120",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_cable": "1",
-    "socket:type2_cable:current": "32",
-    "socket:type2_cable:output": "22 kW",
-    "socket:type2_cable:voltage": "400",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "125",
-    "socket:type2_combo:output": "50 kW",
-    "socket:type2_combo:voltage": "500",
-    "website": "https://www.mobie.pt/",
-    "id": "node/12200052184"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.749543,
-      41.3673739
     ]
   }
 },
@@ -88922,7 +88966,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "VNG-00086",
-    "ref:EU:EVSE": "PT*EDP*E*VNG*00086*01;PT*EDP*E*VNG*00086*02",
+    "ref:EU:EVSE": "PT*EDP*EVNG*00086*1;PT*EDP*EVNG*00086*2",
     "socket:chademo": "1",
     "socket:chademo:current": "120",
     "socket:chademo:output": "50 kW",
@@ -88969,7 +89013,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "VNG-00085",
-    "ref:EU:EVSE": "PT*EDP*E*VNG*00085*01;PT*EDP*E*VNG*00085*02",
+    "ref:EU:EVSE": "PT*EDP*EVNG*00085*1;PT*EDP*EVNG*00085*2",
     "socket:chademo": "1",
     "socket:chademo:current": "120",
     "socket:chademo:output": "50 kW",
@@ -89817,7 +89861,9 @@
   "id": "node/12521311543",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Oliveira de Azeméis",
+    "addr:postcode": "3720-256",
+    "addr:street": "Avenida Ferreira de Castro",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -97693,7 +97739,9 @@
   "id": "node/12708005476",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Torres Novas",
+    "addr:postcode": "2350-537",
+    "addr:street": "Rua de Santo António",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -99867,7 +99915,9 @@
   "id": "node/12758447085",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Mafra",
+    "addr:postcode": "2640-577",
+    "addr:street": "Rua da Escola",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -99959,7 +100009,9 @@
   "id": "node/12760298710",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Almeirim",
+    "addr:postcode": "2080-107",
+    "addr:street": "Rua do Matadouro",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -100005,7 +100057,9 @@
   "id": "node/12760336546",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Bombarral",
+    "addr:postcode": "2540-095",
+    "addr:street": "N361",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -100051,7 +100105,9 @@
   "id": "node/12760342907",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Caldas da Rainha",
+    "addr:postcode": "2500-136",
+    "addr:street": "Rua Doutor Bernardino António Carvalho Pargana",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -100836,7 +100892,9 @@
   "id": "node/12806870659",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Torres Vedras",
+    "addr:postcode": "2560-271",
+    "addr:street": "Avenida da Liberdade",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -100976,7 +101034,9 @@
   "id": "node/12810581117",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Vila Nova de Gaia",
+    "addr:postcode": "4410-151",
+    "addr:street": "Rua dos Limites",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -105842,6 +105902,49 @@
 },
 {
   "type": "Feature",
+  "id": "node/12994773574",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Helexia",
+    "brand:wikidata": "Q137294295",
+    "capacity": "2",
+    "email": "geral.pt@helexia.eu",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Helexia II",
+    "operator:wikidata": "Q137294295",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 210 181 157",
+    "ref": "SNT-00122",
+    "ref:EU:EVSE": "PT*HLX*E*SNT*00122*01;PT*HLX*E*SNT*00122*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "125",
+    "socket:type2_combo:output": "50 kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12994773574"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.3552312,
+      38.7787352
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12996105403",
   "properties": {
     "access": "yes",
@@ -108592,7 +108695,9 @@
   "id": "node/13097030317",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Benedita",
+    "addr:postcode": "2475-102",
+    "addr:street": "Avenida Padre Inácio Antunes",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -109232,7 +109337,9 @@
   "id": "node/13121932537",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Rio Maior",
+    "addr:postcode": "2040-413",
+    "addr:street": "Avenida Doutor Mário Soares",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -109276,7 +109383,9 @@
   "id": "node/13121932538",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Rio Maior",
+    "addr:postcode": "2040-413",
+    "addr:street": "Avenida Doutor Mário Soares",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -109284,7 +109393,6 @@
     "capacity": "2",
     "charge_point:output": "180 kW",
     "fee": "yes",
-    "fixme": "Confirmar a potência máxima por tomada",
     "indoor": "yes",
     "level": "-1",
     "location": "underground",
@@ -114031,7 +114139,9 @@
   "id": "node/13285302734",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Mafra",
+    "addr:postcode": "2640-453",
+    "addr:street": "Rua Professor Armindo Ayres de Carvalho",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -114075,7 +114185,9 @@
   "id": "node/13285302735",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Mafra",
+    "addr:postcode": "2640-453",
+    "addr:street": "Rua Professor Armindo Ayres de Carvalho",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -114119,7 +114231,9 @@
   "id": "node/13285339948",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Ericeira",
+    "addr:postcode": "2655-350",
+    "addr:street": "Urbanização Quinta Ribeira da Baleia",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -114162,7 +114276,9 @@
   "id": "node/13285339949",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Ericeira",
+    "addr:postcode": "2655-350",
+    "addr:street": "Urbanização Quinta Ribeira da Baleia",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -116146,6 +116262,52 @@
 },
 {
   "type": "Feature",
+  "id": "node/13367322428",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Torres Novas",
+    "addr:postcode": "2350-484",
+    "addr:street": "Rua da Tonova",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "2",
+    "charge_point:output": "50 kW",
+    "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Continente Torres Novas",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "08:00-22:00",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "phone": "+351 210 19 19 19",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "50 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/13367322428"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5323568,
+      39.4617748
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13368248868",
   "properties": {
     "access": "yes",
@@ -116281,6 +116443,98 @@
     "coordinates": [
       -8.5493159,
       37.1469667
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13370653853",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Torres Novas",
+    "addr:postcode": "2350-484",
+    "addr:street": "Rua da Tonova",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "2",
+    "charge_point:output": "50 kW",
+    "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Continente Torres Novas",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "08:00-22:00",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "phone": "+351 210 19 19 19",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "50 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/13370653853"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5323919,
+      39.4617753
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13370653854",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Torres Novas",
+    "addr:postcode": "2350-484",
+    "addr:street": "Rua da Tonova",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "2",
+    "charge_point:output": "50 kW",
+    "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Continente Torres Novas",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "08:00-22:00",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "phone": "+351 210 19 19 19",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "50 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/13370653854"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5323873,
+      39.4617753
     ]
   }
 },
@@ -117269,7 +117523,9 @@
   "id": "node/13400620191",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Mafra",
+    "addr:postcode": "2640-453",
+    "addr:street": "Rua Professor Armindo Ayres de Carvalho",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -117680,6 +117936,9 @@
   "id": "node/13443816008",
   "properties": {
     "access": "yes",
+    "addr:city": "Braga",
+    "addr:postcode": "4710-249",
+    "addr:street": "Avenida Robert Smith",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -117725,6 +117984,9 @@
   "id": "node/13443816009",
   "properties": {
     "access": "yes",
+    "addr:city": "Braga",
+    "addr:postcode": "4710-249",
+    "addr:street": "Avenida Robert Smith",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -117770,6 +118032,9 @@
   "id": "node/13443816010",
   "properties": {
     "access": "yes",
+    "addr:city": "Braga",
+    "addr:postcode": "4710-249",
+    "addr:street": "Avenida Robert Smith",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -117811,6 +118076,9 @@
   "id": "node/13443816015",
   "properties": {
     "access": "yes",
+    "addr:city": "Braga",
+    "addr:postcode": "4710-249",
+    "addr:street": "Avenida Robert Smith",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
