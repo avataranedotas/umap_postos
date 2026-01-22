@@ -1783,8 +1783,7 @@
   "properties": {
     "access": "yes",
     "addr:city": "Vilamoura",
-    "addr:country": "PT",
-    "addr:street": "Avenida Engeneiro João Meireles",
+    "addr:street": "Avenida Engheneiro João Meireles",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -33669,6 +33668,53 @@
 },
 {
   "type": "Feature",
+  "id": "node/9668119751",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "2",
+    "charge_point:output": "60 kW",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "VNG-00084",
+    "ref:EU:EVSE": "PT*EDP*EVNG*00084*1;PT*EDP*EVNG*00084*2",
+    "socket:chademo": "1",
+    "socket:chademo:current": "120",
+    "socket:chademo:output": "50 kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "60 kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt",
+    "id": "node/9668119751"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6478576,
+      41.1431268
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9668119754",
   "properties": {
     "access": "yes",
@@ -36236,6 +36282,7 @@
     "brand": "edp Charge",
     "brand:wikidata": "Q1341222",
     "capacity": "2",
+    "charging_station:output": "120 kW",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -36251,15 +36298,11 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "LMG-00010",
-    "ref:EU:EVSE": "PT*EDP*E*LMG*00010*01;PT*EDP*E*LMG*00010*02",
+    "ref:EU:EVSE": "PT*EDP*ELMG*00010*1;PT*EDP*ELMG*00010*2",
     "socket:chademo": "1",
     "socket:chademo:current": "125",
     "socket:chademo:output": "50 kW",
     "socket:chademo:voltage": "500",
-    "socket:type2": "1",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "200",
     "socket:type2_combo:output": "120 kW",
@@ -36270,8 +36313,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.8188933,
-      41.0997594
+      -7.8185822,
+      41.0995694
     ]
   }
 },
@@ -42115,6 +42158,58 @@
 },
 {
   "type": "Feature",
+  "id": "node/10013162987",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Powerdot",
+    "brand:wikidata": "Q123574541",
+    "capacity": "3",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "OER-00127",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "operator:wikidata": "Q123574541",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 180 292",
+    "ref": "OER-00127",
+    "ref:EU:EVSE": "PT*HRZ*E*OER*00127*01;PT*HRZ*E*OER*00127*02;PT*HRZ*E*OER*00127*03",
+    "socket:chademo": "1",
+    "socket:chademo:current": "125",
+    "socket:chademo:output": "50 kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "200",
+    "socket:type2_combo:output": "120 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/10013162987"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.2885676,
+      38.7096885
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10022775162",
   "properties": {
     "access": "yes",
@@ -45747,6 +45842,7 @@
     "capacity": "2",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
+    "fixme": "Verificar se existem",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -55807,8 +55903,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.3467314,
-      38.7712726
+      -9.3466322,
+      38.7713204
     ]
   }
 },
@@ -80091,7 +80187,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "BNV-00012",
-    "ref:EU:EVSE": "PT*EDP*E*BNV*00012*01;PT*EDP*E*BNV*00012*02",
+    "ref:EU:EVSE": "PT*EDP*EBNV*00012*1;PT*EDP*EBNV*00012*2",
     "socket:chademo": "1",
     "socket:chademo:current": "125",
     "socket:chademo:output": "50 kW",
@@ -86911,6 +87007,7 @@
     "capacity": "2",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
+    "fixme": "Verificar se existem",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -99963,7 +100060,9 @@
   "id": "node/12758477293",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Samora Correia",
+    "addr:postcode": "2135-133",
+    "addr:street": "Rua João Folheiro",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -100847,7 +100946,9 @@
   "id": "node/12805973793",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Vila Franca de Xira",
+    "addr:postcode": "2600-660",
+    "addr:street": "Estrada da Várzea",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -101320,7 +101421,9 @@
   "id": "node/12824398143",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Porto",
+    "addr:postcode": "4150-414",
+    "addr:street": "Rua João de Barros",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -105991,7 +106094,9 @@
   "id": "node/12996556413",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Vila Nova de Gaia",
+    "addr:postcode": "4400-382",
+    "addr:street": "Avenida da Beira-Mar",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -108828,7 +108933,9 @@
   "id": "node/13104312488",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Arruda dos Vinhos",
+    "addr:postcode": "2630-299",
+    "addr:street": "Avenida Engenheiro Ariana Brito da Conceição",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -111290,7 +111397,9 @@
   "id": "node/13191492558",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Avintes",
+    "addr:postcode": "4430-826",
+    "addr:street": "Rua Estádio do Futebol Clube de Avintes",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -111334,7 +111443,9 @@
   "id": "node/13191492559",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Avintes",
+    "addr:postcode": "4430-826",
+    "addr:street": "Rua Estádio do Futebol Clube de Avintes",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -113478,7 +113589,9 @@
   "id": "node/13273092806",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Carregado",
+    "addr:postcode": "2580-351",
+    "addr:street": "Rua do Casal Machado",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -113524,7 +113637,9 @@
   "id": "node/13273129090",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Porto",
+    "addr:postcode": "4150-138",
+    "addr:street": "Alameda de Basílio Teles",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -113567,7 +113682,9 @@
   "id": "node/13273129092",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Porto",
+    "addr:postcode": "4150-138",
+    "addr:street": "Alameda de Basílio Teles",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -115048,6 +115165,9 @@
   "id": "node/13318058363",
   "properties": {
     "access": "yes",
+    "addr:city": "Vila Nova de Gaia",
+    "addr:postcode": "4400-504",
+    "addr:street": "Avenida dos Escultores",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -115091,6 +115211,9 @@
   "id": "node/13318058364",
   "properties": {
     "access": "yes",
+    "addr:city": "Vila Nova de Gaia",
+    "addr:postcode": "4400-504",
+    "addr:street": "Avenida dos Escultores",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -115134,6 +115257,9 @@
   "id": "node/13318058365",
   "properties": {
     "access": "yes",
+    "addr:city": "Vila Nova de Gaia",
+    "addr:postcode": "4400-504",
+    "addr:street": "Avenida dos Escultores",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -115177,6 +115303,9 @@
   "id": "node/13318058366",
   "properties": {
     "access": "yes",
+    "addr:city": "Vila Nova de Gaia",
+    "addr:postcode": "4400-504",
+    "addr:street": "Avenida dos Escultores",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -118120,7 +118249,9 @@
   "id": "node/13453373774",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Arruda dos Vinhos",
+    "addr:postcode": "2630-299",
+    "addr:street": "Avenida Engenheiro Ariana Brito da Conceição",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
