@@ -15999,6 +15999,53 @@
 },
 {
   "type": "Feature",
+  "id": "node/8284932969",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Oeiras",
+    "addr:postcode": "2780-316",
+    "addr:street": "Avenida Duarte Pacheco",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "2",
+    "fee": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "name": "Continente Bom Dia Santo Amaro de Oeiras",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "09:00-21:00",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "phone": "+351 210 19 19 19",
+    "socket:chademo": "1",
+    "socket:chademo:current": "120",
+    "socket:chademo:output": "50 kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "200",
+    "socket:type2_combo:output": "120 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/8284932969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.3077997,
+      38.6873779
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8286412765",
   "properties": {
     "access": "yes",
@@ -25272,18 +25319,17 @@
   "id": "node/9044026706",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "edp Charge",
     "brand:wikidata": "Q1341222",
     "capacity": "2",
-    "charging_station:output": "93 kW",
+    "charge_point:output": "93 kW",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "LRS-00059",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -25315,7 +25361,7 @@
     "type": "Point",
     "coordinates": [
       -9.1613866,
-      38.8595451
+      38.8595952
     ]
   }
 },
@@ -25324,18 +25370,17 @@
   "id": "node/9044026707",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "edp Charge",
     "brand:wikidata": "Q1341222",
     "capacity": "2",
-    "charging_station:output": "93 kW",
+    "charge_point:output": "93 kW",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "LRS-00057",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -25366,8 +25411,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.1610538,
-      38.858709
+      -9.1610739,
+      38.8587134
     ]
   }
 },
@@ -45143,13 +45188,16 @@
   "id": "node/10202043194",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Porto",
+    "addr:postcode": "4250-507",
+    "addr:street": "Rua João dos Santos Ferreira",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
     "brand:wikidata": "Q2995683",
     "capacity": "1",
     "fee": "yes",
+    "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -45928,8 +45976,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.1410803,
-      38.7569709
+      -9.1408507,
+      38.7567484
     ]
   }
 },
@@ -60481,6 +60529,7 @@
     "capacity": "2",
     "charge_point:output": "120 kW",
     "fee": "yes",
+    "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -61512,7 +61561,9 @@
   "id": "node/11211049171",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Tapada das Mercês",
+    "addr:postcode": "2725-537",
+    "addr:street": "Avenida Embaixador Aristides Sousa Mendes",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -61520,6 +61571,7 @@
     "capacity": "2",
     "charge_point:output": "120 kW",
     "fee": "yes",
+    "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -63776,7 +63828,9 @@
   "id": "node/11339567981",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Trofa",
+    "addr:postcode": "4785-716",
+    "addr:street": "Avenida Trofa Velha",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -69654,7 +69708,9 @@
   "id": "node/11666814285",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Vila do Conde",
+    "addr:postcode": "4480-776",
+    "addr:street": "Avenida General Humberto Delgado",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -70614,7 +70670,9 @@
   "id": "node/11794081573",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Leça da Palmeira",
+    "addr:postcode": "4450-617",
+    "addr:street": "Rua Manuel da Silva Araújo",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -70622,11 +70680,10 @@
     "capacity": "2",
     "charge_point:output": "120 kW",
     "fee": "yes",
-    "fixme": "Move to exact location",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "Continente Bom Dia Leça da Palmeira II",
+    "name": "Continente Bom Dia Leça da Palmeira",
     "network": "Continente Plug&Charge",
     "opening_hours": "24/7",
     "operator": "Continente",
@@ -70647,8 +70704,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6997427,
-      41.2011607
+      -8.6995647,
+      41.2011399
     ]
   }
 },
@@ -76621,7 +76678,9 @@
   "id": "node/12041546646",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Porto",
+    "addr:postcode": "4200-008",
+    "addr:street": "Rua Henrique de Sousa Reis",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -85990,8 +86049,6 @@
   "id": "node/12412557902",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -85999,9 +86056,9 @@
     "capacity": "2",
     "email": "renewing.charging@mota-engil.pt",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VFX-00085",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Mota Engil II",
@@ -86024,8 +86081,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.0400553,
-      38.892988
+      -9.0400404,
+      38.8929697
     ]
   }
 },
@@ -87425,7 +87482,8 @@
   "properties": {
     "access": "yes",
     "addr:city": "Amadora",
-    "addr:country": "PT",
+    "addr:postcode": "2724-510",
+    "addr:street": "Estrada dos Cabos d'Ávila",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -89878,7 +89936,9 @@
   "id": "node/12519296074",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "São Marcos",
+    "addr:postcode": "2735-529",
+    "addr:street": "Estrada de São Marcos",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -90841,8 +90901,6 @@
   "id": "node/12546712451",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -90850,9 +90908,9 @@
     "capacity": "2",
     "email": "renewing.charging@mota-engil.pt",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VFX-00089",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Mota Engil II",
@@ -90875,8 +90933,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.0826356,
-      38.8774747
+      -9.0826353,
+      38.8774781
     ]
   }
 },
@@ -96207,13 +96265,16 @@
   "id": "node/12670948312",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Lourel",
+    "addr:postcode": "2710-140",
+    "addr:street": "Estrada da Cavaleira",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
     "brand:wikidata": "Q2995683",
     "capacity": "2",
     "fee": "yes",
+    "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -96252,13 +96313,16 @@
   "id": "node/12670948313",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Lourel",
+    "addr:postcode": "2710-140",
+    "addr:street": "Estrada da Cavaleira",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
     "brand:wikidata": "Q2995683",
     "capacity": "2",
     "fee": "yes",
+    "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -97412,7 +97476,9 @@
   "id": "node/12705904728",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Vila Nova de Famalicão",
+    "addr:postcode": "4764-501",
+    "addr:street": "Avenida Engenheiro Pinheiro Braga",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -98072,7 +98138,9 @@
   "id": "node/12714467849",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "São Cosme",
+    "addr:postcode": "4420-490",
+    "addr:street": "Rua Luís de Camões",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -98080,6 +98148,7 @@
     "capacity": "2",
     "charge_point:output": "120 kW",
     "fee": "yes",
+    "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -98162,7 +98231,9 @@
   "id": "node/12714569175",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Paços de Ferreira",
+    "addr:postcode": "4590-136",
+    "addr:street": "Travessa de São Domingos",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -98208,7 +98279,9 @@
   "id": "node/12714581185",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Lousada",
+    "addr:postcode": "4620-134",
+    "addr:street": "Avenida Hans Isler",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -99464,8 +99537,9 @@
   "id": "node/12748855327",
   "properties": {
     "access": "yes",
-    "addr:city": "Amadora",
-    "addr:country": "PT",
+    "addr:city": "Paredes",
+    "addr:postcode": "4580-223",
+    "addr:street": "Rua António Araújo",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -99505,8 +99579,9 @@
   "id": "node/12748855328",
   "properties": {
     "access": "yes",
-    "addr:city": "Amadora",
-    "addr:country": "PT",
+    "addr:city": "Paredes",
+    "addr:postcode": "4580-223",
+    "addr:street": "Rua António Araújo",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -99882,7 +99957,9 @@
   "id": "node/12755490794",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Belas",
+    "addr:postcode": "2605-663",
+    "addr:street": "Rua Dona Maria Ana de Austria",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -99928,7 +100005,9 @@
   "id": "node/12755495420",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Lisboa",
+    "addr:postcode": "1250-012",
+    "addr:street": "Rua Alexandre Herculano",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -100027,7 +100106,9 @@
   "id": "node/12756947005",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Estoril",
+    "addr:postcode": "2765-306",
+    "addr:street": "Rua do Campo Santo",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -100039,7 +100120,7 @@
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "Continente Modelo Estoril Galiza",
+    "name": "Continente Modelo Estoril",
     "network": "Continente Plug&Charge",
     "opening_hours": "09:00-21:00",
     "operator": "Continente",
@@ -100070,7 +100151,9 @@
   "id": "node/12756958522",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Rio de Mouro",
+    "addr:postcode": "2635-600",
+    "addr:street": "Rua Marquês de Pombal",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -100112,7 +100195,9 @@
   "id": "node/12756960104",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Mem Martins",
+    "addr:postcode": "2725-397",
+    "addr:street": "Rua António Feijó",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -100123,7 +100208,7 @@
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "Continente Modelo Mem-Martins",
+    "name": "Continente Modelo Mem Martins",
     "network": "Continente Plug&Charge",
     "opening_hours": "24/7",
     "operator": "Continente",
@@ -102039,7 +102124,7 @@
   "id": "node/12828821146",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Valongo",
     "addr:postcode": "4440-837",
     "addr:street": "Avenida do Conhecimento",
     "authentication:app": "yes",
@@ -102142,7 +102227,9 @@
   "id": "node/12828895083",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Porto",
+    "addr:postcode": "4350-214",
+    "addr:street": "Companhia Portuguesa do Cobre",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -102188,7 +102275,9 @@
   "id": "node/12829178790",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Matosinhos",
+    "addr:postcode": "4450-016",
+    "addr:street": "Avenida Villagarcia de Arosa",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -102196,6 +102285,7 @@
     "capacity": "1",
     "description": "Postos de carga no piso 1 do estacionamento interior",
     "fee": "yes",
+    "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -102234,7 +102324,9 @@
   "id": "node/12829191168",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Porto",
+    "addr:postcode": "4200-062",
+    "addr:street": "Rua do Amial",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -102242,6 +102334,8 @@
     "capacity": "2",
     "charge_point:output": "120 kW",
     "fee": "yes",
+    "level": "-1",
+    "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -102250,7 +102344,7 @@
     "opening_hours": "09:00-21:00",
     "operator": "Continente",
     "operator:wikidata": "Q2995683",
-    "parking:fee": "no",
+    "parking:fee": "yes",
     "payment:app": "yes",
     "payment:cards": "no",
     "payment:cash": "no",
@@ -103057,7 +103151,9 @@
   "id": "node/12846794262",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Póvoa de Varzim",
+    "addr:postcode": "4495-252",
+    "addr:street": "Rua 25 de Abril",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -104292,7 +104388,9 @@
   "id": "node/12875761899",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Vila Nova de Famalicão",
+    "addr:postcode": "4770-405",
+    "addr:street": "Avenida Riopele",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -106821,7 +106919,9 @@
   "id": "node/13009160676",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Esposende",
+    "addr:postcode": "4740-010",
+    "addr:street": "Rua Doutor Francisco Sá Carneiro",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -108410,17 +108510,17 @@
   "id": "node/13072364681",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Galp electric",
     "brand:wikidata": "Q135275372",
     "capacity": "2",
+    "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VFX-00108",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -108430,6 +108530,7 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
+    "phone": "+351 800 249 249",
     "ref": "VFX-00108",
     "ref:EU:EVSE": "PT*GLP*EVFX*00108*01;PT*GLP*EVFX*00108*02",
     "socket:type2_combo": "2",
@@ -108442,8 +108543,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.0097286,
-      38.9250009
+      -9.0097973,
+      38.9250666
     ]
   }
 },
@@ -108539,7 +108640,9 @@
   "id": "node/13090102158",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Leça do Balio",
+    "addr:postcode": "4465-675",
+    "addr:street": "Rua da Mainça",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -108580,7 +108683,9 @@
   "id": "node/13090102159",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Leça do Balio",
+    "addr:postcode": "4465-675",
+    "addr:street": "Rua da Mainça",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -111697,7 +111802,9 @@
   "id": "node/13191505073",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Maia",
+    "addr:postcode": "4470-108",
+    "addr:street": "Rua Ponte da Pedra",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -111741,7 +111848,9 @@
   "id": "node/13191505074",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Maia",
+    "addr:postcode": "4470-108",
+    "addr:street": "Rua Ponte da Pedra",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -112291,7 +112400,9 @@
   "id": "node/13207673185",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Maia",
+    "addr:postcode": "4470-108",
+    "addr:street": "Rua Ponte da Pedra",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -114222,7 +114333,9 @@
   "id": "node/13285316533",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Lisboa",
+    "addr:postcode": "1600-528",
+    "addr:street": "Avenida das Nações Unidas",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -114267,7 +114380,9 @@
   "id": "node/13285316534",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
+    "addr:city": "Lisboa",
+    "addr:postcode": "1600-528",
+    "addr:street": "Avenida das Nações Unidas",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -114683,6 +114798,9 @@
   "id": "node/13306280409",
   "properties": {
     "access": "yes",
+    "addr:city": "Vila Frescainha (São Pedro)",
+    "addr:postcode": "4750-850",
+    "addr:street": "Rua do Passal",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -114728,6 +114846,9 @@
   "id": "node/13306280412",
   "properties": {
     "access": "yes",
+    "addr:city": "Vila Frescainha (São Pedro)",
+    "addr:postcode": "4750-850",
+    "addr:street": "Rua do Passal",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -115823,7 +115944,8 @@
   "properties": {
     "access": "yes",
     "addr:city": "Amadora",
-    "addr:country": "PT",
+    "addr:postcode": "2724-510",
+    "addr:street": "Estrada dos Cabos d'Ávila",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -115865,7 +115987,8 @@
   "properties": {
     "access": "yes",
     "addr:city": "Amadora",
-    "addr:country": "PT",
+    "addr:postcode": "2724-510",
+    "addr:street": "Estrada dos Cabos d'Ávila",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -116316,6 +116439,9 @@
   "id": "node/13356516795",
   "properties": {
     "access": "yes",
+    "addr:city": "Massamá",
+    "addr:postcode": "2734-838",
+    "addr:street": "Rua Sebastião e Silva",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -116358,6 +116484,9 @@
   "id": "node/13356516796",
   "properties": {
     "access": "yes",
+    "addr:city": "Massamá",
+    "addr:postcode": "2734-838",
+    "addr:street": "Rua Sebastião e Silva",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -118032,6 +118161,9 @@
   "id": "node/13443647261",
   "properties": {
     "access": "yes",
+    "addr:city": "Oeiras",
+    "addr:postcode": "2780-155",
+    "addr:street": "Rua Norton de Matos",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -118075,6 +118207,9 @@
   "id": "node/13443647266",
   "properties": {
     "access": "yes",
+    "addr:city": "Oeiras",
+    "addr:postcode": "2780-155",
+    "addr:street": "Rua Norton de Matos",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
@@ -118128,6 +118263,7 @@
     "capacity": "2",
     "charge_point:output": "120 kW",
     "fee": "yes",
+    "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -118176,6 +118312,7 @@
     "capacity": "2",
     "charge_point:output": "120 kW",
     "fee": "yes",
+    "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -118224,6 +118361,7 @@
     "capacity": "2",
     "charge_point:output": "50 kW",
     "fee": "yes",
+    "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -118268,6 +118406,7 @@
     "capacity": "2",
     "charge_point:output": "50 kW",
     "fee": "yes",
+    "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
