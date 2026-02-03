@@ -579,7 +579,6 @@
   "id": "node/5137692866",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
     "addr:street": "Área de Serviço de Loulé Sentido O/E",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -833,7 +832,6 @@
   "properties": {
     "access": "yes",
     "addr:city": "Almancil",
-    "addr:country": "PT",
     "addr:street": "Centro Comercial Buganvilia Plaza",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -3260,7 +3258,6 @@
   "properties": {
     "access": "yes",
     "addr:city": "Algés",
-    "addr:country": "PT",
     "addr:street": "Rua Parque Anjos",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -3305,11 +3302,63 @@
 },
 {
   "type": "Feature",
+  "id": "node/8220959778",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Linda-a-Velha",
+    "addr:street": "Avenida José Gomes Ferreira",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Mobiletric",
+    "capacity": "2",
+    "charging_station:output": "93 kW",
+    "disused:amenity": "charging_station",
+    "email": "veiculoeletrico@galp.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "OER-00035",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Mobiletric",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 249 249",
+    "ref": "OER-00035",
+    "ref:EU:EVSE": "PT*MLT*EOER*00035*01;PT*MLT*EOER*00035*02;PT*MLT*EOER*00035*03",
+    "socket:chademo": "1",
+    "socket:chademo:current": "120",
+    "socket:chademo:output": "50 kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "63",
+    "socket:type2_cable:output": "43 kW",
+    "socket:type2_cable:voltage": "400",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "125",
+    "socket:type2_combo:output": "50 kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt",
+    "id": "node/8220959778"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.2303248,
+      38.7145257
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8221002951",
   "properties": {
     "access": "yes",
     "addr:city": "Linda-a-Velha",
-    "addr:country": "PT",
     "addr:street": "Alameda António Sérgio",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -4807,63 +4856,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8733712596",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Belverde",
-    "addr:street": "Avenida do Mar",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Lidl",
-    "brand:wikidata": "Q151954",
-    "capacity": "2",
-    "charging_station:output": "72 kW",
-    "disused:amenity": "charging_station",
-    "email": "veiculoeletrico@galp.com",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "SXL-00071",
-    "network": "Mobi.E",
-    "old_operator": "KLC Serviços",
-    "old_ref": "SXL-00015;SXL-00054",
-    "opening_hours": "24/7",
-    "operator": "Galp Power",
-    "operator:wikidata": "Q135275372",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 249 249",
-    "ref": "SXL-00071",
-    "ref:EU:EVSE": "PT*GLP*ESXL*00071*01;PT*GLP*ESXL*00071*02;PT*GLP*ESXL*00071*03",
-    "socket:chademo": "1",
-    "socket:chademo:current": "120",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_cable": "1",
-    "socket:type2_cable:current": "32",
-    "socket:type2_cable:output": "22 kW",
-    "socket:type2_cable:voltage": "400",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "125",
-    "socket:type2_combo:output": "50 kW",
-    "socket:type2_combo:voltage": "500",
-    "website": "https://www.mobie.pt",
-    "id": "node/8733712596"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.1409888,
-      38.5976708
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8733712654",
   "properties": {
     "access": "yes",
@@ -5823,54 +5815,6 @@
     "coordinates": [
       -8.187878,
       37.0931638
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9108791147",
-  "properties": {
-    "access": "yes",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "edp Charge",
-    "brand:wikidata": "Q1341222",
-    "capacity": "2",
-    "charging_station:output": "142 kW",
-    "disused:amenity": "charging_station",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "LRS-00061",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "EDP",
-    "operator:wikidata": "Q1341222",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 222 222",
-    "ref": "LRS-00061",
-    "ref:EU:EVSE": "PT*EDP*ELRS*00061*1;PT*EDP*ELRS*00061*2;PT*EDP*ELRS*00061*3",
-    "socket:type2": "1",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "200",
-    "socket:type2_combo:output": "120 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt",
-    "id": "node/9108791147"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.156803,
-      38.8085312
     ]
   }
 },
