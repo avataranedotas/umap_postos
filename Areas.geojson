@@ -25171,7 +25171,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CBR-00004",
+    "name": "CBR-80004",
     "network": "Mobi.E",
     "old_operator": "KLC",
     "old_ref": "CBR-90004",
@@ -26038,60 +26038,6 @@
         [
           -8.6273849,
           40.6458643
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/1389035684",
-  "properties": {
-    "access": "yes",
-    "amenity": "charging_station",
-    "brand": "Atlante",
-    "brand:wikidata": "Q126913632",
-    "capacity": "4",
-    "email": "support.portugal@atlante.energy",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "AVR-80001",
-    "network": "Mobi.E",
-    "old_operator": "KLC",
-    "old_ref": "AVR-90001",
-    "opening_hours": "24/7",
-    "operator": "Atlante",
-    "operator:wikidata": "Q126913632",
-    "parking:fee": "no",
-    "phone": "+351 800 296 929;+351 234 246 050",
-    "ref": "AVR-80001",
-    "website": "https://www.mobie.pt",
-    "id": "way/1389035684"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -8.656437,
-          40.6338322
-        ],
-        [
-          -8.6564891,
-          40.6339118
-        ],
-        [
-          -8.6565495,
-          40.6338891
-        ],
-        [
-          -8.6564974,
-          40.6338094
-        ],
-        [
-          -8.656437,
-          40.6338322
         ]
       ]
     ]
@@ -36638,6 +36584,7 @@
     "brand": "Repsol",
     "brand:wikidata": "Q174747",
     "capacity": "4",
+    "charging_station:output": "320 kW",
     "email": "crc.mobilidade.eletrica.pt@repsol.com",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -36648,7 +36595,7 @@
     "operator:wikidata": "Q174747",
     "parking:fee": "no",
     "phone": "+351 800 226 624",
-    "ref": "FAR-?????",
+    "ref": "FAR-00087",
     "website": "https://www.mobie.pt",
     "id": "way/1422316737"
   },
@@ -54502,58 +54449,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/1447959689",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "brand": "Galp electric",
-    "brand:wikidata": "Q135275372",
-    "capacity": "12",
-    "charging_station:output": "2400 kW",
-    "email": "veiculoeletrico@galp.com",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Galp Power",
-    "operator:wikidata": "Q135275372",
-    "parking:fee": "no",
-    "phone": "+351 800 249 249",
-    "website": "https://www.mobie.pt",
-    "id": "way/1447959689"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -8.6004445,
-          40.0139848
-        ],
-        [
-          -8.6003806,
-          40.0139673
-        ],
-        [
-          -8.6002631,
-          40.0142212
-        ],
-        [
-          -8.6003269,
-          40.0142386
-        ],
-        [
-          -8.6004445,
-          40.0139848
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/1447959690",
   "properties": {
     "access": "yes",
@@ -54567,12 +54462,14 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
+    "name": "PBL-?????",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
     "operator:wikidata": "Q135275372",
     "parking:fee": "no",
     "phone": "+351 800 249 249",
+    "ref": "PBL-?????",
     "website": "https://www.mobie.pt",
     "id": "way/1447959690"
   },
@@ -54581,24 +54478,48 @@
     "coordinates": [
       [
         [
-          -8.5997888,
-          40.0126451
+          -8.5997604,
+          40.0120104
         ],
         [
-          -8.5998535,
-          40.0126608
+          -8.5998159,
+          40.0120219
         ],
         [
-          -8.5999593,
-          40.0124038
+          -8.5998799,
+          40.0120361
         ],
         [
-          -8.5998946,
-          40.0123882
+          -8.5998707,
+          40.0120617
         ],
         [
-          -8.5997888,
-          40.0126451
+          -8.5999263,
+          40.0120732
+        ],
+        [
+          -8.5999864,
+          40.0119028
+        ],
+        [
+          -8.5999308,
+          40.0118914
+        ],
+        [
+          -8.5999099,
+          40.0119498
+        ],
+        [
+          -8.5998459,
+          40.0119367
+        ],
+        [
+          -8.5997904,
+          40.0119252
+        ],
+        [
+          -8.5997604,
+          40.0120104
         ]
       ]
     ]
@@ -63699,14 +63620,13 @@
   "type": "Feature",
   "id": "way/1454877939",
   "properties": {
-    "access": "customers",
+    "access": "yes",
     "amenity": "charging_station",
     "brand": "Galp electric",
     "brand:wikidata": "Q135275372",
     "capacity": "4",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
-    "location": "underground",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "VIS-00117/118",
@@ -63725,24 +63645,24 @@
     "coordinates": [
       [
         [
-          -7.905037,
-          40.6567421
+          -7.9053153,
+          40.6565371
         ],
         [
-          -7.9049253,
-          40.6567211
+          -7.9052036,
+          40.6565161
         ],
         [
-          -7.9049093,
-          40.65677
+          -7.9051876,
+          40.656565
         ],
         [
-          -7.905021,
-          40.6567911
+          -7.9052993,
+          40.6565861
         ],
         [
-          -7.905037,
-          40.6567421
+          -7.9053153,
+          40.6565371
         ]
       ]
     ]
@@ -75700,6 +75620,147 @@
         [
           -9.094444,
           38.807996
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1474547235",
+  "properties": {
+    "access": "yes",
+    "addr:country": "PT",
+    "amenity": "charging_station",
+    "brand": "Galp electric",
+    "brand:wikidata": "Q135275372",
+    "capacity": "12",
+    "charging_station:output": "2400 kW",
+    "email": "veiculoeletrico@galp.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "PBL-?????",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "operator:wikidata": "Q135275372",
+    "parking:fee": "no",
+    "phone": "+351 800 249 249",
+    "ref": "PBL-?????",
+    "website": "https://www.mobie.pt",
+    "id": "way/1474547235"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -8.6004813,
+          40.0145593
+        ],
+        [
+          -8.6004263,
+          40.0145464
+        ],
+        [
+          -8.600363,
+          40.0145305
+        ],
+        [
+          -8.6003733,
+          40.0145052
+        ],
+        [
+          -8.6003183,
+          40.0144922
+        ],
+        [
+          -8.6002507,
+          40.0146609
+        ],
+        [
+          -8.6003057,
+          40.0146738
+        ],
+        [
+          -8.6003292,
+          40.014616
+        ],
+        [
+          -8.6003925,
+          40.0146307
+        ],
+        [
+          -8.6004475,
+          40.0146436
+        ],
+        [
+          -8.6004813,
+          40.0145593
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1474557654",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "9",
+    "charging_station:output": "1200 kW",
+    "email": "suporte@chargingtogether.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "PFR-00019…22",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "PFR-00019;PFR-00020;PFR-00021;PFR-00022",
+    "website": "https://www.mobie.pt/",
+    "id": "way/1474557654"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -8.3871483,
+          41.2827379
+        ],
+        [
+          -8.387089,
+          41.282817
+        ],
+        [
+          -8.3871416,
+          41.2828392
+        ],
+        [
+          -8.3871201,
+          41.282868
+        ],
+        [
+          -8.3871347,
+          41.2828742
+        ],
+        [
+          -8.3871866,
+          41.2828961
+        ],
+        [
+          -8.3872674,
+          41.2827883
+        ],
+        [
+          -8.3871483,
+          41.2827379
         ]
       ]
     ]
