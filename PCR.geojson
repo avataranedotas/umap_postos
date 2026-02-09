@@ -2778,7 +2778,6 @@
   "properties": {
     "access": "yes",
     "addr:city": "Grandola",
-    "addr:country": "PT",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -25062,7 +25061,6 @@
   "id": "node/9033085848",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -25114,7 +25112,6 @@
   "id": "node/9033085849",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -72922,7 +72919,6 @@
   "id": "node/11897459230",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -75863,7 +75859,6 @@
   "id": "node/12018724385",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -77655,7 +77650,6 @@
   "id": "node/12063966299",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -86379,18 +86373,18 @@
   "id": "node/12427213987",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Galp electric",
     "brand:wikidata": "Q135275372",
     "capacity": "2",
+    "charge_point:output": "120 kW",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "LRS-00135",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
@@ -86413,8 +86407,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.101422,
-      38.79244
+      -9.1014435,
+      38.7925443
     ]
   }
 },
@@ -95478,7 +95472,6 @@
   "id": "node/12650619589",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -106305,49 +106298,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12994421693",
-  "properties": {
-    "access": "yes",
-    "amenity": "charging_station",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Renewing",
-    "capacity": "2",
-    "email": "renewing.charging@mota-engil.pt",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "TVD-00079",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Mota Engil II",
-    "operator:wikidata": "Q1949595",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "yes",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 020 940",
-    "ref": "TVD-00079",
-    "ref:EU:EVSE": "PT*MOT*E*TVD*00079*01;PT*MOT*E*TVD*00079*02",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "400",
-    "socket:type2_combo:output": "90 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/",
-    "id": "node/12994421693"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.3709165,
-      39.0680811
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12994535096",
   "properties": {
     "access": "yes",
@@ -107757,10 +107707,10 @@
     "payment:membership_card": "yes",
     "ref": "SLV-00036",
     "ref:EU:EVSE": "PT*IHM*E*SLV*00036*01;PT*IHM*E*SLV*00036*02",
-    "socket:type2": "1",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "125",
     "socket:type2_combo:output": "50 kW",
@@ -114787,49 +114737,6 @@
     "coordinates": [
       -9.0000969,
       38.6425341
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/13286161333",
-  "properties": {
-    "access": "yes",
-    "amenity": "charging_station",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "REMO",
-    "capacity": "2",
-    "charging_station:output": "90 kW",
-    "email": "renewing.charging@mota-engil.pt",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "TVD-00062",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Mota Engil II",
-    "operator:wikidata": "Q1949595",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "yes",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 020 940",
-    "ref": "TVD-00062",
-    "ref:EU:EVSE": "PT*MOT*E*TVD*00062*01;PT*MOT*E*TVD*00062*02",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "400",
-    "socket:type2_combo:output": "90 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/",
-    "id": "node/13286161333"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.321421,
-      39.09009
     ]
   }
 },
