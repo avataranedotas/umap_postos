@@ -2219,7 +2219,7 @@
     "authentication:none": "no",
     "brand": "Iberdrola bp pulse",
     "capacity": "2",
-    "charging_station:output": "200 kW",
+    "charging_station:output": "150 kW",
     "email": "suporte@chargingtogether.pt",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -2238,7 +2238,7 @@
     "ref:EU:EVSE": "PT*FCT*E*ELV*00017*01;PT*FCT*E*ELV*00017*02",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "500",
-    "socket:type2_combo:output": "200 kW",
+    "socket:type2_combo:output": "150 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt",
     "id": "node/12175855267"
@@ -2345,7 +2345,6 @@
   "id": "node/12176539849",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -5760,7 +5759,6 @@
   "id": "node/12712854602",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -7664,43 +7662,6 @@
     "coordinates": [
       -9.1685719,
       38.793182
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12874070479",
-  "properties": {
-    "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
-    "authentication:app": "yes",
-    "authentication:none": "no",
-    "capacity": "1",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "EVA 70 - Carcentury",
-    "network": "Plug4Us",
-    "opening_hours": "24/7",
-    "operator": "EVA",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "yes",
-    "payment:cash": "no",
-    "payment:membership_card": "no",
-    "ref": "4457645",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "125",
-    "socket:type2_combo:output": "40 kW",
-    "socket:type2_combo:voltage": "500",
-    "id": "node/12874070479"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.2534431,
-      39.0972017
     ]
   }
 },
@@ -16350,6 +16311,86 @@
     "coordinates": [
       -8.3871784,
       41.2828025
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13529595862",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "charge_point:output": "50 kW",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "EVR-00073",
+    "ref:EU:EVSE": "PT*FCT*E*EVR*00073*01;PT*FCT*E*EVR*00073*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "50 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13529595862"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.8913958,
+      38.5568569
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13529595863",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "charge_point:output": "200 kW",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "EVR-00072",
+    "ref:EU:EVSE": "PT*FCT*E*EVR*00072*01;PT*FCT*E*EVR*00072*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "200 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13529595863"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.8913509,
+      38.5568849
     ]
   }
 }
