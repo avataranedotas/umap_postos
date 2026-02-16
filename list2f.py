@@ -176,6 +176,7 @@ for way_id, way_data in data.items():
         row[f"{sock}:kw"] = power
     row['adjusted_kw'] = 0.0
     rows.append(row)
+    way_row_index = len(rows) - 1
 
     # Process child points - Option B (all children)
     for child_point in child_points:
@@ -232,12 +233,13 @@ for way_id, way_data in data.items():
 
 
     # Update way with aggregated child overflow
-    rows[-(len(valid_points) + 1)]['overflow_power'] = round(overflow_power_agg, 2)
-    rows[-(len(valid_points) + 1)]['adjusted_kw'] = compute_adjusted_kw(
-        rows[-(len(valid_points) + 1)]['total_kw'],
+    rows[way_row_index]['overflow_power'] = round(overflow_power_agg, 2)
+    rows[way_row_index]['adjusted_kw'] = compute_adjusted_kw(
+        rows[way_row_index]['total_kw'],
         overflow_power_agg,
         output
     )
+
 
 # Process unassigned points
 for point in data.get('unassigned_points', []):
