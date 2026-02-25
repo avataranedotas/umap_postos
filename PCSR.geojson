@@ -5759,12 +5759,8 @@
     "phone": "+351 800 180 292",
     "ref": "PTM-00042",
     "ref:EU:EVSE": "PT*HRZ*E*PTM*00042*01;PT*HRZ*E*PTM*00042*02",
-    "socket:chademo": "1",
-    "socket:chademo:current": "125",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "500",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "300",
     "socket:type2_combo:output": "200 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt/",
@@ -11221,47 +11217,6 @@
     "coordinates": [
       -8.481497,
       40.978265
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12176539855",
-  "properties": {
-    "access": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Iberdrola bp pulse",
-    "capacity": "2",
-    "charge_point:output": "300 kW",
-    "email": "suporte@chargingtogether.pt",
-    "fee": "yes",
-    "man_made": "charge_point",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Charging Together",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 917 576",
-    "ref": "MRT-00002",
-    "ref:EU:EVSE": "PT*FCT*E*MRT*00002*01;PT*FCT*E*MRT*00002*02",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "500",
-    "socket:type2_combo:output": "150 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt",
-    "id": "node/12176539855"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.2313477,
-      40.4034872
     ]
   }
 },
@@ -19788,7 +19743,7 @@
     "ref": "PTM-00042",
     "ref:EU:EVSE": "PT*HRZ*E*PTM*00042*04",
     "socket:type2_combo": "1",
-    "socket:type2_combo:current": "500",
+    "socket:type2_combo:current": "250",
     "socket:type2_combo:output": "200 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt/",
@@ -19831,7 +19786,7 @@
     "ref": "PTM-00042",
     "ref:EU:EVSE": "PT*HRZ*E*PTM*00042*03",
     "socket:type2_combo": "1",
-    "socket:type2_combo:current": "500",
+    "socket:type2_combo:current": "250",
     "socket:type2_combo:output": "200 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt/",
@@ -32565,6 +32520,92 @@
     "coordinates": [
       -8.3102862,
       41.3728833
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13585373941",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Powerdot",
+    "brand:wikidata": "Q123574541",
+    "capacity": "1",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "VIZ-00016",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "operator:wikidata": "Q123574541",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 180 292",
+    "ref": "VIZ-00016",
+    "ref:EU:EVSE": "PT*HRZ*E*VIZ*00016*04",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "250",
+    "socket:type2_combo:output": "200 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13585373941"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.3102423,
+      41.3728407
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13585586892",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Prio",
+    "brand:wikidata": "Q62530421",
+    "capacity": "2",
+    "charging_station:output": "180 kW",
+    "email": "electric@prioenergy.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "VNF-00064",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Prio.E",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 100 303",
+    "ref": "VNF-00064",
+    "ref:EU:EVSE": "PT*PRI*E*VNF*00064*01;PT*PRI*E*VNF*00064*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "400",
+    "socket:type2_combo:output": "180 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13585586892"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4305028,
+      41.428084
     ]
   }
 }
