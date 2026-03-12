@@ -3279,9 +3279,9 @@ SXL-00075…77 / SXL-00075,child_point,child/node/13072155977,Charging Together,
 SXL-?????,way,way/1422452577,Charging Together,4,800.0,yes,,24/7,Mobi.E,0,0.0,yes,-4,0.0,800.0,,,,,,,,,,,
 SXL-????? / SXL-?????,child_point,child/node/13072291984,Charging Together,2,400.0,yes,yes,24/7,Mobi.E,0,0.0,yes,-2,0.0,400.0,,,,,,,,,,,
 SXL-????? / SXL-?????,child_point,child/node/13072291985,Charging Together,2,400.0,yes,yes,24/7,Mobi.E,0,0.0,yes,-2,0.0,400.0,,,,,,,,,,,
-TND-00021/22,way,way/1422455621,Galp Power,4,0.0,yes,,24/7,Mobi.E,2,44.0,no,-2,0.0,44.0,,,,,,2,22.0,,,,
+TND-00021/22,way,way/1422455621,Galp Power,4,0.0,yes,,24/7,Mobi.E,4,164.0,no,0,0.0,164.0,,,,,,2,22.0,,,2,60.0
 TND-00021/22 / TND-00022,child_point,child/node/13072321112,Galp Power,2,0.0,yes,no,24/7,Mobi.E,2,44.0,no,0,0.0,44.0,PT*GLP*ETND*00022*01;PT*GLP*ETND*00022*02,,,,,2,22.0,,,,
-TND-00021/22 / TND-00021,child_point,child/node/13072321113,Galp Power,2,0.0,yes,no,24/7,Mobi.E,0,0.0,yes,-2,0.0,0.0,PT*GLP*ETND*00021*01;PT*GLP*ETND*00021*02,,,,,,,,,,
+TND-00021/22 / TND-00021,child_point,child/node/13072321113,Galp Power,2,0.0,yes,no,24/7,Mobi.E,2,120.0,no,0,0.0,120.0,PT*GLP*ETND*00021*01;PT*GLP*ETND*00021*02,,,,,,,,,2,60.0
 TNV-00026…29,way,way/1422457490,Evio,6,0.0,yes,,24/7,Mobi.E,6,394.0,no,0,0.0,394.0,,1,50.0,,,,,2,22.0,3,120.0
 TNV-00026…29 / TNV-00028,child_point,child/node/13072350974,Evio,1,0.0,yes,no,24/7,Mobi.E,1,22.0,no,0,0.0,22.0,PT*EVI*E*TNV*00028*01,,,,,,,1,22.0,,
 TNV-00026…29 / TNV-00026,child_point,child/node/13072350977,Evio,2,120.0,yes,no,24/7,Mobi.E,2,240.0,no,0,0.0,120.0,PT*EVI*E*TNV*00026*01;PT*EVI*E*TNV*00026*02,,,,,,,,,2,120.0
@@ -4414,10 +4414,8 @@ ASL-00024…29 / ASL-00027,child_point,child/node/13285063857,Galp Power,2,400.0
 ASL-00024…29 / ASL-00026,child_point,child/node/13285063858,Galp Power,2,400.0,yes,yes,24/7,Mobi.E,2,800.0,no,0,0.0,400.0,PT*GLP*EASL*00026*01;PT*GLP*EASL*00026*02,,,,,,,,,2,400.0
 ASL-00024…29 / ASL-00025,child_point,child/node/13285063859,Galp Power,2,400.0,yes,yes,24/7,Mobi.E,2,800.0,no,0,0.0,400.0,PT*GLP*EASL*00025*01;PT*GLP*EASL*00025*02,,,,,,,,,2,400.0
 ASL-00024…29 / ASL-00024,child_point,child/node/13285063860,Galp Power,2,400.0,yes,yes,24/7,Mobi.E,2,800.0,no,0,0.0,400.0,PT*GLP*EASL*00024*01;PT*GLP*EASL*00024*02,,,,,,,,,2,400.0
-ASL-00001/7/17,way,way/1447184171,Galp Geste,6,486.0,yes,,24/7,Mobi.E,3,143.0,no,-3,43.0,486.0,,1,50.0,,,,,1,43.0,1,50.0
-ASL-00001/7/17 / ASL-00001,child_point,child/node/5137692861,Galp Geste,2,93.0,yes,no,24/7,Mobi.E,3,143.0,no,1,43.0,93.0,PT*GLG*EASL*00001*01;PT*GLG*EASL*00001*02;PT*GLG*EASL*00001*03,1,50.0,,,,,1,43.0,1,50.0
-ASL-00001/7/17 / ASL-00017,child_point,child/node/8964307128,Galp Power,2,300.0,yes,no,24/7,Mobi.E,0,0.0,yes,-2,0.0,300.0,PT*GLP*EASL*00017*01;PT*GLP*EASL*00017*02,,,,,,,,,,
-ASL-00001/7/17 / ASL-00007,child_point,child/node/8964307130,Galp Geste,2,93.0,yes,no,24/7,Mobi.E,0,0.0,yes,-2,0.0,93.0,PT*GLG*EASL*00007*01;PT*GLG*EASL*00007*02;PT*GLG*EASL*00007*03,,,,,,,,,,
+ASL-00001,way,way/1447184171,Galp Geste,2,0.0,yes,,24/7,Mobi.E,3,143.0,no,1,43.0,100.0,,1,50.0,,,,,1,43.0,1,50.0
+ASL-00001 / ASL-00001,child_point,child/node/5137692861,Galp Geste,2,93.0,yes,no,24/7,Mobi.E,3,143.0,no,1,43.0,93.0,PT*GLG*EASL*00001*01;PT*GLG*EASL*00001*02;PT*GLG*EASL*00001*03,1,50.0,,,,,1,43.0,1,50.0
 MTJ-00017/18,way,way/1447188212,Galp Geste,4,0.0,yes,,24/7,Mobi.E,5,187.0,no,1,43.0,144.0,,1,50.0,,,2,22.0,1,43.0,1,50.0
 MTJ-00017/18 / MTJ-00017,child_point,child/node/9043907637,Galp Geste,2,0.0,yes,no,24/7,Mobi.E,3,143.0,no,1,43.0,100.0,PT*GLG*EMTJ*00017*01;PT*GLG*EMTJ*00017*02;PT*GLG*EMTJ*00017*03,1,50.0,,,,,1,43.0,1,50.0
 MTJ-00017/18 / MTJ-00018,child_point,child/node/9043954460,Galp Geste,2,0.0,yes,no,24/7,Mobi.E,2,44.0,no,0,0.0,44.0,PT*GLG*EMTJ*00018*01;PT*GLG*EMTJ*00018*02,,,,,2,22.0,,,,
@@ -4459,10 +4457,8 @@ ASL-00030…35 / ASL-00033,child_point,child/node/13285063825,Galp Power,2,400.0
 ASL-00030…35 / ASL-00032,child_point,child/node/13285063833,Galp Power,2,400.0,yes,yes,24/7,Mobi.E,2,800.0,no,0,0.0,400.0,PT*GLP*EASL*00032*01;PT*GLP*EASL*00032*02,,,,,,,,,2,400.0
 ASL-00030…35 / ASL-00031,child_point,child/node/13285063839,Galp Power,2,400.0,yes,yes,24/7,Mobi.E,2,800.0,no,0,0.0,400.0,PT*GLP*EASL*00031*01;PT*GLP*EASL*00031*02,,,,,,,,,2,400.0
 ASL-00030…35 / ASL-00030,child_point,child/node/13285063842,Galp Power,2,400.0,yes,yes,24/7,Mobi.E,2,800.0,no,0,0.0,400.0,PT*GLP*EASL*00030*01;PT*GLP*EASL*00030*02,,,,,,,,,2,400.0
-ASL-00002/9/16,way,way/1447943797,Galp Geste,4,486.0,yes,,24/7,Mobi.E,3,143.0,no,-1,43.0,486.0,,1,50.0,,,,,1,43.0,1,50.0
-ASL-00002/9/16 / ASL-00002,child_point,child/node/5137692862,Galp Geste,2,93.0,yes,no,24/7,Mobi.E,3,143.0,no,1,43.0,93.0,PT*GLG*EASL*00002*01;PT*GLG*EASL*00002*02;PT*GLG*EASL*00002*03,1,50.0,,,,,1,43.0,1,50.0
-ASL-00002/9/16 / ASL-00009,child_point,child/node/8964307129,Galp Geste,2,93.0,yes,no,24/7,Mobi.E,0,0.0,yes,-2,0.0,93.0,PT*GLG*EASL*00009*01;PT*GLG*EASL*00009*02;PT*GLG*EASL*00009*03,,,,,,,,,,
-ASL-00002/9/16 / ASL-00016,child_point,child/node/8964307131,Galp Power,2,300.0,yes,no,24/7,Mobi.E,0,0.0,yes,-2,0.0,300.0,PT*GLP*EASL*00016*01;PT*GLP*EASL*00016*02,,,,,,,,,,
+ASL-00002,way,way/1447943797,Galp Geste,2,0.0,yes,,24/7,Mobi.E,3,143.0,no,1,43.0,100.0,,1,50.0,,,,,1,43.0,1,50.0
+ASL-00002 / ASL-00002,child_point,child/node/5137692862,Galp Geste,2,93.0,yes,no,24/7,Mobi.E,3,143.0,no,1,43.0,93.0,PT*GLG*EASL*00002*01;PT*GLG*EASL*00002*02;PT*GLG*EASL*00002*03,1,50.0,,,,,1,43.0,1,50.0
 AZB-0006/10/14,way,way/1447948379,Galp Power,6,483.0,yes,,24/7,Mobi.E,0,0.0,yes,-6,0.0,483.0,,,,,,,,,,,
 AZB-0006/10/14 / AZB-00006,child_point,child/node/9247019982,Galp Geste,2,93.0,yes,no,24/7,Mobi.E,0,0.0,yes,-2,0.0,93.0,PT*GLG*EAZB*00006*01;PT*GLG*EAZB*00006*02;PT*GLG*EAZB*00006*03,,,,,,,,,,
 AZB-0006/10/14 / AZB-00010,child_point,child/node/10948894574,Galp Geste,2,90.0,yes,no,24/7,Mobi.E,0,0.0,yes,-2,0.0,90.0,PT*GLG*EAZB*00010*01;PT*GLG*EAZB*00010*02,,,,,,,,,,
@@ -4561,7 +4557,7 @@ PLM-00006/7,way,way/1449428952,Powerdot,3,104.0,yes,,24/7,Mobi.E,5,187.0,no,2,43
 PLM-00006/7 / PLM-00006,child_point,child/node/8232546962,Powerdot,2,93.0,yes,no,24/7,Mobi.E,3,143.0,no,1,43.0,93.0,PT*HRZ*E*PLM*00006*01;PT*HRZ*E*PLM*00006*02;PT*HRZ*E*PLM*00006*03,1,50.0,,,,,1,43.0,1,50.0
 PLM-00006/7 / PLM-00007,child_point,child/node/8397160646,Powerdot,2,0.0,yes,no,24/7,Mobi.E,2,44.0,no,0,0.0,44.0,PT*HRZ*E*PLM*00007*01;PT*HRZ*E*PLM*00007*02,,,,,2,22.0,,,,
 MTJ-00105/106,way,way/1449429539,EDP,4,164.0,yes,,09:00-22:00,Mobi.E,4,284.0,no,0,0.0,164.0,,,,,,2,22.0,,,2,120.0
-MTJ-00105/106 / MTJ-00105,child_point,child/node/11931765172,EDP,2,120.0,yes,no,09:00-22:00,Mobi.E,2,240.0,no,0,0.0,120.0,PT*EDP*E*MTJ*00105*01;PT*EDP*E*MTJ*00105*02,,,,,,,,,2,120.0
+MTJ-00105/106 / MTJ-00105,child_point,child/node/11931765172,EDP,2,120.0,yes,no,09:00-22:00,Mobi.E,2,240.0,no,0,0.0,120.0,PT*EDP*EMTJ*00105*1;PT*EDP*EMTJ*00105*2,,,,,,,,,2,120.0
 MTJ-00105/106 / MTJ-00106,child_point,child/node/12437168797,EDP,2,0.0,yes,no,09:00-22:00,Mobi.E,2,44.0,no,0,0.0,44.0,PT*EDP*EMTJ*00106*1;PT*EDP*EMTJ*00106*2,,,,,2,22.0,,,,
 MTJ-00027/28,way,way/1449429935,Galp Power,4,0.0,yes,,24/7,Mobi.E,4,88.0,no,0,0.0,88.0,,,,,,4,22.0,,,,
 MTJ-00027/28 / MTJ-00028,child_point,child/node/10120585319,Galp Power,2,0.0,yes,no,24/7,Mobi.E,2,44.0,no,0,0.0,44.0,PT*GLP*EMTJ*00028*01;PT*GLP*EMTJ*00028*02,,,,,2,22.0,,,,
@@ -5390,8 +5386,8 @@ PRT-00354…357 / PRT-00357,child_point,child/node/13391155311,Powerdot,1,200.0,
 PRT-00354…357 / PRT-00356,child_point,child/node/13391155312,Powerdot,1,200.0,yes,no,09:00-21:00,Mobi.E,1,200.0,no,0,0.0,200.0,PT*HRZ*E*PRT*00356*04,,,,,,,,,1,200.0
 PRT-00354…357 / PRT-00355,child_point,child/node/13391155313,Powerdot,1,200.0,yes,no,09:00-21:00,Mobi.E,1,200.0,no,0,0.0,200.0,PT*HRZ*E*PRT*00355*04,,,,,,,,,1,200.0
 PRT-00354…357 / PRT-00354,child_point,child/node/13391155314,Powerdot,1,200.0,yes,no,09:00-21:00,Mobi.E,1,200.0,no,0,0.0,200.0,PT*HRZ*E*PRT*00354*04,,,,,,,,,1,200.0
-LRA-00182/183,way,way/1460106682,Repsol,4,232.0,yes,,24/7,Mobi.E,0,0.0,yes,-4,0.0,232.0,,,,,,,,,,,
-LRA-00182/183 / LRA-00183,child_point,child/node/13391265620,Repsol,2,150.0,yes,no,24/7,Mobi.E,0,0.0,yes,-2,0.0,150.0,PT*REP*E*LRA*00183*01;PT*REP*E*LRA*00183*02,,,,,,,,,,
+LRA-00182/183,way,way/1460106682,Repsol,4,232.0,yes,,24/7,Mobi.E,2,300.0,no,-2,0.0,232.0,,,,,,,,,,2,150.0
+LRA-00182/183 / LRA-00183,child_point,child/node/13391265620,Repsol,2,150.0,yes,no,24/7,Mobi.E,2,300.0,no,0,0.0,150.0,PT*REP*E*LRA*00183*01;PT*REP*E*LRA*00183*02,,,,,,,,,2,150.0
 LRA-00182/183 / LRA-00182,child_point,child/node/13391265631,Repsol,2,82.0,yes,no,24/7,Mobi.E,0,0.0,yes,-2,0.0,82.0,PT*REP*E*LRA*00182*01;PT*REP*E*LRA*00182*02;PT*REP*E*LRA*00182*03,,,,,,,,,,
 SNT-00017;SNT-00018;SNT-00119,way,way/1460111066,EDP,4,0.0,customers,,24/7,Mobi.E,4,29.6,no,0,0.0,29.6,,,,,,4,7.4,,,,
 SNT-00017;SNT-00018;SNT-00119 / SNT-00018,child_point,child/node/8280600899,EDP,1,0.0,customers,no,24/7,Mobi.E,1,7.4,no,0,0.0,7.4,PT*EDP*ESNT*00018*1,,,,,1,7.4,,,,
@@ -5587,8 +5583,8 @@ Continente Bom Dia Esmoriz / Continente Bom Dia Esmoriz,child_point,child/node/1
 ACH-00038/39,way,way/1463892635,EDP,4,0.0,yes,,24/7,Mobi.E,4,88.0,no,0,0.0,88.0,,,,,,4,22.0,,,,
 ACH-00038/39 / ACH-00038,child_point,child/node/13155695614,EDP,2,0.0,yes,no,24/7,Mobi.E,2,44.0,no,0,0.0,44.0,PT*EDP*EACH*00038*1;PT*EDP*EACH*00038*2,,,,,2,22.0,,,,
 ACH-00038/39 / ACH-00039,child_point,child/node/13428323574,EDP,2,0.0,yes,no,24/7,Mobi.E,2,44.0,no,0,0.0,44.0,PT*EDP*EACH*00039*1;PT*EDP*EACH*00039*2,,,,,2,22.0,,,,
-MTA-00022/23,way,way/1463896133,EDP,4,202.0,yes,,24/7,Mobi.E,3,122.0,no,-1,22.0,202.0,,,,,,,,1,22.0,2,50.0
-MTA-00022/23 / MTA-00023,child_point,child/node/13038180797,EDP,2,120.0,yes,no,24/7,Mobi.E,0,0.0,yes,-2,0.0,120.0,PT*EDP*EMTA*00023*1;PT*EDP*EMTA*00023*2,,,,,,,,,,
+MTA-00022/23,way,way/1463896133,EDP,4,202.0,yes,,24/7,Mobi.E,5,362.0,no,1,22.0,202.0,,,,,,,,1,22.0,4,120.0
+MTA-00022/23 / MTA-00023,child_point,child/node/13038180797,EDP,2,120.0,yes,no,24/7,Mobi.E,2,240.0,no,0,0.0,120.0,PT*EDP*EMTA*00023*1;PT*EDP*EMTA*00023*2,,,,,,,,,2,120.0
 MTA-00022/23 / MTA-00022,child_point,child/node/13038180798,EDP,2,82.0,yes,no,24/7,Mobi.E,3,122.0,no,1,22.0,82.0,PT*EDP*EMTA*00022*1;PT*EDP*EMTA*00022*2;PT*EDP*EMTA*00022*3,,,,,,,1,22.0,2,50.0
 LOU-00010/14,way,way/1464016998,Repsol,3,200.0,yes,,24/7,Mobi.E,5,443.0,no,2,93.0,200.0,,1,50.0,,,,,1,43.0,3,150.0
 LOU-00010/14 / LOU-00010,child_point,child/node/12833771771,Repsol,1,93.0,yes,no,24/7,Mobi.E,3,143.0,no,2,93.0,93.0,PT*REP*E*LOU*00010*01;PT*REP*E*LOU*00010*02;PT*REP*E*LOU*00010*03,1,50.0,,,,,1,43.0,1,50.0
@@ -6114,14 +6110,14 @@ AMT-00039/40 / AMT-00039,child_point,child/node/13625811535,EDP,2,120.0,yes,no,2
 PNF-00063/64,way,way/1486395469,EDP,4,0.0,yes,,24/7,Mobi.E,0,0.0,yes,-4,0.0,0.0,,,,,,,,,,,
 PNF-00063/64 / PNF-00063,child_point,child/node/13625811537,EDP,2,120.0,yes,no,24/7,Mobi.E,0,0.0,yes,-2,0.0,120.0,PT*EDP*EPNF*00063*1;PT*EDP*EPNF*00063*2,,,,,,,,,,
 PNF-00063/64 / PNF-00064,child_point,child/node/13625811540,EDP,2,60.0,yes,no,24/7,Mobi.E,0,0.0,yes,-2,0.0,60.0,PT*EDP*EPNF*00064*1;PT*EDP*EPNF*00064*2,,,,,,,,,,
-EVR-00074/75,way,way/1486398903,EDP,4,0.0,yes,,24/7,Mobi.E,3,142.0,no,-1,22.0,120.0,,,,,,1,22.0,,,2,60.0
-EVR-00074/75 / EVR-00075,child_point,child/node/13625845428,EDP,2,120.0,yes,no,24/7,Mobi.E,0,0.0,yes,-2,0.0,120.0,PT*EDP*EEVR*00075*1;PT*EDP*EEVR*00075*2,,,,,,,,,,
+EVR-00074/75,way,way/1486398903,EDP,4,0.0,yes,,24/7,Mobi.E,5,382.0,no,1,22.0,360.0,,,,,,1,22.0,,,4,120.0
+EVR-00074/75 / EVR-00075,child_point,child/node/13625845428,EDP,2,120.0,yes,no,24/7,Mobi.E,2,240.0,no,0,0.0,120.0,PT*EDP*EEVR*00075*1;PT*EDP*EEVR*00075*2,,,,,,,,,2,120.0
 EVR-00074/75 / EVR-00074,child_point,child/node/13625845431,EDP,2,82.0,yes,no,24/7,Mobi.E,3,142.0,no,1,22.0,82.0,PT*EDP*EEVR*00074*1;PT*EDP*EEVR*00074*2;PT*EDP*EEVR*00074*3,,,,,1,22.0,,,2,60.0
 PLM-00074/75,way,way/1486401144,EDP,4,0.0,yes,,24/7,Mobi.E,5,382.0,no,1,22.0,360.0,,,,,,1,22.0,,,4,120.0
 PLM-00074/75 / PLM-00075,child_point,child/node/13625884647,EDP,2,82.0,yes,no,24/7,Mobi.E,3,142.0,no,1,22.0,82.0,PT*EDP*EPLM*00075*1;PT*EDP*EPLM*00075*2;PT*EDP*EPLM*00075*3,,,,,1,22.0,,,2,60.0
 PLM-00074/75 / PLM-00074,child_point,child/node/13625884650,EDP,2,120.0,yes,no,24/7,Mobi.E,2,240.0,no,0,0.0,120.0,PT*EDP*EPLM*00074*1;PT*EDP*EPLM*00074*2,,,,,,,,,2,120.0
-LRA-00185/186/187,way,way/1487231624,Galp Power,6,0.0,yes,,24/7,Mobi.E,4,88.0,no,-2,0.0,88.0,,,,,,4,22.0,,,,
-LRA-00185/186/187 / LRA-00187,child_point,child/node/13634035069,Galp Power,2,60.0,yes,no,24/7,Mobi.E,0,0.0,yes,-2,0.0,60.0,PT*GLP*ELRA*00187*01;PT*GLP*ELRA*00187*02,,,,,,,,,,
+LRA-00185/186/187,way,way/1487231624,Galp Power,6,0.0,yes,,24/7,Mobi.E,6,208.0,no,0,0.0,208.0,,,,,,4,22.0,,,2,60.0
+LRA-00185/186/187 / LRA-00187,child_point,child/node/13634035069,Galp Power,2,60.0,yes,no,24/7,Mobi.E,2,120.0,no,0,0.0,60.0,PT*GLP*ELRA*00187*01;PT*GLP*ELRA*00187*02,,,,,,,,,2,60.0
 LRA-00185/186/187 / LRA-00186,child_point,child/node/13634035070,Galp Power,2,0.0,yes,no,24/7,Mobi.E,2,44.0,no,0,0.0,44.0,PT*GLP*ELRA*00186*01;PT*GLP*ELRA*00186*02,,,,,2,22.0,,,,
 LRA-00185/186/187 / LRA-00185,child_point,child/node/13634035085,Galp Power,2,0.0,yes,no,24/7,Mobi.E,2,44.0,no,0,0.0,44.0,PT*GLP*ELRA*00185*01;PT*GLP*ELRA*00185*02,,,,,2,22.0,,,,
 OER-00251/252,way,way/1487359608,Mota Engil II,4,0.0,yes,,24/7,Mobi.E,4,88.0,no,0,0.0,88.0,,,,,,4,22.0,,,,
@@ -6130,6 +6126,22 @@ OER-00251/252 / OER-00252,child_point,child/node/13072293574,Mota Engil II,2,0.0
 OER-00125/126,way,way/1487362911,Powerdot,4,0.0,yes,,24/7,Mobi.E,4,88.0,no,0,0.0,88.0,,,,,,4,22.0,,,,
 OER-00125/126 / OER-00125,child_point,child/node/9917778740,Powerdot,2,0.0,yes,no,24/7,Mobi.E,2,44.0,no,0,0.0,44.0,PT*HRZ*E*OER*00125*01;PT*HRZ*E*OER*00125*02,,,,,2,22.0,,,,
 OER-00125/126 / OER-00126,child_point,child/node/12663508460,Powerdot,2,0.0,yes,no,24/7,Mobi.E,2,44.0,no,0,0.0,44.0,PT*HRZ*E*OER*00126*01;PT*HRZ*E*OER*00126*02,,,,,2,22.0,,,,
+CBR-00127/128,way,way/1487815043,EDP,4,0.0,yes,no,24/7,Mobi.E,0,0.0,yes,-4,0.0,0.0,,,,,,,,,,,
+CBR-00127/128 / CBR-00128,child_point,child/node/13639662893,EDP,2,0.0,yes,no,24/7,Mobi.E,0,0.0,yes,-2,0.0,0.0,PT*EDP*ECBR*00128*1;PT*EDP*ECBR*00128*2,,,,,,,,,,
+CBR-00127/128 / CBR-00127,child_point,child/node/13639687204,EDP,2,0.0,yes,no,24/7,Mobi.E,0,0.0,yes,-2,0.0,0.0,PT*EDP*ECBR*00127*1;PT*EDP*ECBR*00127*2,,,,,,,,,,
+LSB-00946…949,way,way/1487817557,EMEL,8,0.0,yes,,24/7,Mobi.E,0,0.0,yes,-8,0.0,0.0,,,,,,,,,,,
+LSB-00946…949 / LSB-00949,child_point,child/node/13639686557,EMEL,2,0.0,yes,no,24/7,Mobi.E,0,0.0,yes,-2,0.0,0.0,PT*EML*E*LSB*00949*01;PT*EML*E*LSB*00949*02,,,,,,,,,,
+LSB-00946…949 / LSB-00948,child_point,child/node/13639686558,EMEL,2,0.0,yes,no,24/7,Mobi.E,0,0.0,yes,-2,0.0,0.0,PT*EML*E*LSB*00948*01;PT*EML*E*LSB*00948*02,,,,,,,,,,
+LSB-00946…949 / LSB-00947,child_point,child/node/13639686559,EMEL,2,0.0,yes,no,24/7,Mobi.E,0,0.0,yes,-2,0.0,0.0,PT*EML*E*LSB*00947*01;PT*EML*E*LSB*00947*02,,,,,,,,,,
+LSB-00946…949 / LSB-00946,child_point,child/node/13639686560,EMEL,2,0.0,yes,no,24/7,Mobi.E,0,0.0,yes,-2,0.0,0.0,PT*EML*E*LSB*00946*01;PT*EML*E*LSB*00946*02,,,,,,,,,,
+VRL-00056…58,way,way/1487821336,Powerdot,8,200.0,yes,,09:00-23:00,Mobi.E,0,0.0,yes,-8,0.0,200.0,,,,,,,,,,,
+VRL-00056…58 / VRL-00059,child_point,child/node/13639708292,Powerdot,2,0.0,yes,no,09:00-23:00,Mobi.E,0,0.0,yes,-2,0.0,0.0,,,,,,,,,,,
+VRL-00056…58 / VRL-00058,child_point,child/node/13639708293,Powerdot,2,0.0,yes,no,09:00-23:00,Mobi.E,0,0.0,yes,-2,0.0,0.0,,,,,,,,,,,
+VRL-00056…58 / VRL-00057,child_point,child/node/13639708294,Powerdot,2,0.0,yes,no,09:00-23:00,Mobi.E,0,0.0,yes,-2,0.0,0.0,,,,,,,,,,,
+VRL-00056…58 / VRL-00056,child_point,child/node/13639708295,Powerdot,2,0.0,yes,no,09:00-23:00,Mobi.E,0,0.0,yes,-2,0.0,0.0,,,,,,,,,,,
+VRL-00054/55,way,way/1487821337,Powerdot,4,0.0,yes,,09:00-23:00,Mobi.E,0,0.0,yes,-4,0.0,0.0,,,,,,,,,,,
+VRL-00054/55 / VRL-00055,child_point,child/node/13639743202,Powerdot,2,0.0,yes,no,09:00-23:00,Mobi.E,0,0.0,yes,-2,0.0,0.0,PT*HRZ*E*VRL*00055*01;PT*HRZ*E*VRL*00055*02,,,,,,,,,,
+VRL-00054/55 / VRL-00054,child_point,child/node/13639743203,Powerdot,2,0.0,yes,no,09:00-23:00,Mobi.E,0,0.0,yes,-2,0.0,0.0,PT*HRZ*E*VRL*00054*01;PT*HRZ*E*VRL*00054*02,,,,,,,,,,
 LSB-90050,unassigned_point,node/966120777,EDP,2,0.0,yes,no,24/7,Mobi.E,2,7.4,no,0,0.0,7.4,PT*EDP*E*LSB*90050*1;PT*EDP*E*LSB*90050*2,,,,,2,3.7,,,,
 LSB-90032,unassigned_point,node/966120783,EDP,2,0.0,yes,no,24/7,Mobi.E,2,7.4,no,0,0.0,7.4,PT*EDP*E*LSB*90032*1;PT*EDP*E*LSB*90032*2,,,,,2,3.7,,,,
 LSB-90064,unassigned_point,node/966120797,Galp Power,2,0.0,yes,no,24/7,Mobi.E,2,44.0,no,0,0.0,44.0,PT*GLP*ELSB*90064*01;PT*GLP*ELSB*90064*02,,,,,2,22.0,,,,
@@ -6929,7 +6941,7 @@ OER-00032,unassigned_point,node/8207755912,Mobiletric,1,0.0,yes,no,24/7,Mobi.E,2
 Caetano Power Nissan,unassigned_point,node/8209216364,Nissan,2,0.0,customers,,Mo-Fr 09:00-17:00,Nissan,3,143.0,no,1,43.0,100.0,,1,50.0,,,,,1,43.0,1,50.0
 ANS-90001,unassigned_point,node/8219434234,Powerdot,2,0.0,yes,no,24/7,Mobi.E,2,44.0,no,0,0.0,44.0,PT*HRZ*E*ANS*90001*01;PT*HRZ*E*ANS*90001*02,,,,,2,22.0,,,,
 Chelas TVDE Only,unassigned_point,node/8220212030,Mobiletric,2,0.0,private,,,TVDE Only,4,200.0,no,2,100.0,100.0,,2,50.0,,,,,,,2,50.0
-PDL-00004,unassigned_point,node/8220680995,Galp Geste,2,0.0,yes,no,24/7,Mobi.E,3,143.0,yes,1,43.0,100.0,PT*GLG*EPDL*00004*01;PT*GLG*EPDL*00004*02;PT*GLG*EPDL*00004*03,1,50.0,,,,,1,43.0,1,50.0
+PDL-00004,unassigned_point,node/8220680995,Galp Geste,2,0.0,yes,no,24/7,Mobi.E,3,143.0,no,1,43.0,100.0,PT*GLG*EPDL*00004*01;PT*GLG*EPDL*00004*02;PT*GLG*EPDL*00004*03,1,50.0,,,,,1,43.0,1,50.0
 NRD-00001,unassigned_point,node/8220689265,Galp Geste,2,93.0,yes,no,24/7,Mobi.E,3,143.0,no,1,43.0,93.0,PT*GLG*ENRD*00001*01;PT*GLG*ENRD*00001*02;PT*GLG*ENRD*00001*03,1,50.0,,,,,1,43.0,1,50.0
 RGR-00001,unassigned_point,node/8220719523,Mobiletric,2,0.0,yes,no,24/7,Mobi.E,3,143.0,no,1,43.0,100.0,PT*MLT*ERGR*00001*01;PT*MLT*ERGR*00001*02;PT*MLT*ERGR*00001*03,1,50.0,,,,,1,43.0,1,50.0
 AGH-00003,unassigned_point,node/8220729785,SEGMA,2,0.0,yes,no,24/7,Mobi.E,3,143.0,no,1,43.0,100.0,PT*SEG*E*AGH*00003*01;PT*SEG*E*AGH*00003*02;PT*SEG*E*AGH*00003*03,1,50.0,,,,,1,43.0,1,50.0
@@ -7615,6 +7627,8 @@ ESP-00003,unassigned_point,node/8947335630,Iberdrola,2,0.0,yes,no,09:00-21:30,Mo
 BCL-90004,unassigned_point,node/8958085916,Powerdot,2,0.0,yes,no,24/7,Mobi.E,2,44.0,no,0,0.0,44.0,PT*HRZ*E*BCL*90004*1;PT*HRZ*E*BCL*90004*2,,,,,2,22.0,,,,
 TRF-00010,unassigned_point,node/8958089019,Powerdot,2,0.0,yes,no,24/7,Mobi.E,3,143.0,no,1,43.0,100.0,PT*HRZ*E*TRF*00010*01;PT*HRZ*E*TRF*00010*02;PT*HRZ*E*TRF*00010*03,1,50.0,,,,,1,43.0,1,50.0
 LSB-00377,unassigned_point,node/8958089020,Repsol,2,0.0,yes,no,24/7,Mobi.E,3,122.0,no,1,22.0,100.0,PT*REP*E*LSB*00377*01;PT*REP*E*LSB*00377*02;PT*REP*E*LSB*00377*03,1,50.0,,,,,1,22.0,1,50.0
+ASL-00009,unassigned_point,node/8964307129,Galp Geste,2,0.0,yes,no,24/7,Mobi.E,3,143.0,yes,1,43.0,100.0,PT*GLG*EASL*00009*01;PT*GLG*EASL*00009*02;PT*GLG*EASL*00009*03,1,50.0,,,,,1,43.0,1,50.0
+ASL-00007,unassigned_point,node/8964307130,Galp Geste,2,0.0,yes,no,24/7,Mobi.E,3,143.0,yes,1,43.0,100.0,PT*GLG*EASL*00007*01;PT*GLG*EASL*00007*02;PT*GLG*EASL*00007*03,1,50.0,,,,,1,43.0,1,50.0
 PLM-00010,unassigned_point,node/8968514559,Plug,2,0.0,yes,no,24/7,Mobi.E,2,44.0,no,0,0.0,44.0,PT*PLG*E*PLM*00010*01;PT*PLG*E*PLM*00010*02,,,,,2,22.0,,,,
 FEC-00003,unassigned_point,node/8968514561,Atlante,2,0.0,yes,no,24/7,Mobi.E,2,44.0,no,0,0.0,44.0,PT*ATL*EFEC*00003*1;PT*ATL*EFEC*00003*2,,,,,2,22.0,,,,
 CSC-00073,unassigned_point,node/8968514562,True Kare,2,0.0,yes,no,24/7,Mobi.E,2,44.0,no,0,0.0,44.0,PT*TRK*E*CSC*00073*01;PT*TRK*E*CSC*00073*02,,,,,2,22.0,,,,
@@ -7845,7 +7859,7 @@ PMZ-00004,unassigned_point,node/9458801229,Factor Energia,2,0.0,yes,no,24/7,Mobi
 AGH-00002,unassigned_point,node/9458801230,EDP,2,0.0,yes,no,24/7,Mobi.E,2,44.0,no,0,0.0,44.0,PT*EDP*E*AGH*00002*01;PT*EDP*E*AGH*00002*02,,,,,2,22.0,,,,
 TVD-00021,unassigned_point,node/9464421020,Powerdot,2,0.0,yes,no,24/7,Mobi.E,2,44.0,no,0,0.0,44.0,PT*HRZ*E*TVD*00021*01;PT*HRZ*E*TVD*00021*02,,,,,2,22.0,,,,
 GMR-00148,unassigned_point,node/9464421021,Galp Power,2,93.0,yes,no,24/7,Mobi.E,3,143.0,no,1,43.0,93.0,PT*GLP*EGMR*00148*01;PT*GLP*EGMR*00148*02;PT*GLP*EGMR*00148*03,1,50.0,,,,,1,43.0,1,50.0
-SNT-00061,unassigned_point,node/9464421024,Repsol,2,52.0,yes,no,24/7,Mobi.E,3,82.0,yes,1,22.0,52.0,PT*REP*E*SNT*00061*01;PT*REP*E*SNT*00061*02;PT*REP*E*SNT*00061*03,1,30.0,,,,,1,22.0,1,30.0
+SNT-00061,unassigned_point,node/9464421024,Repsol,2,52.0,yes,no,24/7,Mobi.E,3,82.0,no,1,22.0,52.0,PT*REP*E*SNT*00061*01;PT*REP*E*SNT*00061*02;PT*REP*E*SNT*00061*03,1,30.0,,,,,1,22.0,1,30.0
 SNT-00079,unassigned_point,node/9464421025,EDP,2,0.0,yes,no,24/7,Mobi.E,3,162.0,no,1,22.0,140.0,PT*EDP*ESNT*00079*1;PT*EDP*ESNT*00079*2;PT*EDP*ESNT*00079*3,1,50.0,,,1,22.0,,,1,90.0
 OFR-90002,unassigned_point,node/9464505384,Galp Power,2,0.0,yes,no,24/7,Mobi.E,2,44.0,no,0,0.0,44.0,PT*GLP*EOFR*90002*01;PT*GLP*EOFR*90002*02,,,,,2,22.0,,,,
 LSB-00440,unassigned_point,node/9472327433,Neureifen,2,0.0,customers,no,24/7,Mobi.E,2,44.0,no,0,0.0,44.0,PT*NEU*E*LSB*00440*01;PT*NEU*E*LSB*00440*02,,,,,2,22.0,,,,
@@ -7921,7 +7935,7 @@ PNL-00002,unassigned_point,node/9631176943,EDP,2,93.0,yes,no,24/7,Mobi.E,3,143.0
 LOU-90002,unassigned_point,node/9631176944,EDP,2,0.0,yes,no,24/7,Mobi.E,2,44.0,no,0,0.0,44.0,PT*EDP*E*LOU*90002*01;PT*EDP*E*LOU*90002*02,,,,,2,22.0,,,,
 VFX-00026,unassigned_point,node/9646897024,EDP,2,0.0,yes,no,24/7,Mobi.E,3,162.0,no,1,22.0,140.0,PT*EDP*EVFX*00026*1;PT*EDP*EVFX*00026*2;PT*EDP*EVFX*00026*3,1,50.0,,,1,22.0,,,1,90.0
 FUN-00032,unassigned_point,node/9649768012,Powerdot,2,0.0,yes,no,24/7,Mobi.E,2,44.0,no,0,0.0,44.0,PT*HRZ*E*FUN*00032*01;PT*HRZ*E*FUN*00032*02,,,,,2,22.0,,,,
-ORM-00003,unassigned_point,node/9654015688,EDP,2,142.0,yes,no,24/7,Mobi.E,3,262.0,no,1,22.0,142.0,PT*EDP*EORM*00003*1;PT*EDP*EORM*00003*2;PT*EDP*EORM*00003*3,,,,,1,22.0,,,2,120.0
+ORM-00003,unassigned_point,node/9654015688,EDP,2,142.0,yes,no,24/7,Mobi.E,3,262.0,yes,1,22.0,142.0,PT*EDP*EORM*00003*1;PT*EDP*EORM*00003*2;PT*EDP*EORM*00003*3,,,,,1,22.0,,,2,120.0
 Plugged Drive,unassigned_point,node/9654015689,Plugged Drive,1,0.0,customers,,,,1,22.0,no,0,0.0,22.0,,,,,,1,22.0,,,,
 Hotel Lusitano,unassigned_point,node/9654015690,Hotel Lusitano,1,0.0,customers,,,,1,22.0,no,0,0.0,22.0,,,,,,1,22.0,,,,
 PTM-00053,unassigned_point,node/9659313462,KLC Serviços,2,0.0,yes,no,24/7,Mobi.E,2,44.0,no,0,0.0,44.0,PT*KLS*E*PTM*00053*01;PT*KLS*E*PTM*00053*02,,,,,2,22.0,,,,
@@ -8142,7 +8156,7 @@ node/9937155495,unassigned_point,node/9937155495,,0,0.0,private,,,,0,0.0,no,0,0.
 node/9937155496,unassigned_point,node/9937155496,,0,0.0,private,,,,0,0.0,no,0,0.0,0.0,,,,,,,,,,,
 CTB-00017,unassigned_point,node/9939052842,Repsol,2,52.0,yes,no,24/7,Mobi.E,3,82.0,no,1,22.0,52.0,PT*REP*E*CTB*00017*01;PT*REP*E*CTB*00017*02;PT*REP*E*CTB*00017*03,1,30.0,,,,,1,22.0,1,30.0
 MGR-00005,unassigned_point,node/9947919964,Powerdot,2,0.0,yes,no,24/7,Mobi.E,2,14.8,no,0,0.0,14.8,PT*HRZ*E*MGR*00005*01;PT*HRZ*E*MGR*00005*02,,,,,2,7.4,,,,
-LRA-00046,unassigned_point,node/9947919965,Moon,2,180.0,yes,no,24/7,Mobi.E,2,202.0,yes,0,0.0,180.0,PT*MOO*E*LRA*00046*01;PT*MOO*E*LRA*00046*02,,,,,,,1,22.0,1,180.0
+LRA-00046,unassigned_point,node/9947919965,Moon,2,180.0,yes,no,24/7,Mobi.E,2,202.0,no,0,0.0,180.0,PT*MOO*E*LRA*00046*01;PT*MOO*E*LRA*00046*02,,,,,,,1,22.0,1,180.0
 PNF-00017,unassigned_point,node/9956726498,Moon,2,0.0,yes,no,08:00-18:00,Mobi.E,3,172.0,no,1,22.0,150.0,PT*MOO*E*PNF*00017*01;PT*MOO*E*PNF*00017*02;PT*MOO*E*PNF*00017*03,1,75.0,,,1,22.0,,,1,75.0
 GDL-00017,unassigned_point,node/9960356554,Charging Together,2,0.0,yes,no,24/7,Mobi.E,3,380.0,no,1,80.0,300.0,PT*FCT*E*GDL*00017*01;PT*FCT*E*GDL*00017*02;PT*FCT*E*GDL*00017*03,1,80.0,,,,,,,2,150.0
 LSB-00499,unassigned_point,node/9960356557,Image4all,2,0.0,private,no,24/7,Mobi.E,2,44.0,no,0,0.0,44.0,PT*IMG*E*LSB*00499*01;PT*IMG*E*LSB*00499*02,,,,,2,22.0,,,,
@@ -11212,3 +11226,4 @@ OVR-00044,unassigned_point,node/13625820833,Galp Power,2,0.0,yes,no,24/7,Mobi.E,
 VFR-00100,unassigned_point,node/13625825414,Galp Power,2,72.0,yes,no,24/7,Mobi.E,3,122.0,yes,1,22.0,72.0,PT*GLP*EVFR*00100*01;PT*GLP*EVFR*00100*02;PT*GLP*EVFR*00100*03,1,50.0,,,,,1,22.0,1,50.0
 FLG-00024,unassigned_point,node/13625864783,KPM,2,72.0,yes,no,24/7,Mobi.E,3,122.0,yes,1,22.0,72.0,PT*KPM*E*FLG*00024*01;PT*KPM*E*FLG*00024*02;PT*KPM*E*FLG*00024*03,1,50.0,,,,,1,22.0,1,50.0
 PLM-00071,unassigned_point,node/13634047216,EDP,2,112.0,yes,no,24/7,Mobi.E,3,162.0,yes,1,22.0,112.0,PT*EDP*EPLM*00071*1;PT*EDP*EPLM*00071*2;PT*EDP*EPLM*00071*3,1,50.0,,,1,22.0,,,1,90.0
+VCD-00079,unassigned_point,node/13639687234,EDP,2,0.0,yes,no,24/7,Mobi.E,2,44.0,yes,0,0.0,44.0,PT*EDP*EVCD*00079*1;PT*EDP*EVCD*00079*2,,,,,2,22.0,,,,
