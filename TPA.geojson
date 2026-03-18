@@ -396,7 +396,6 @@
     "capacity": "2",
     "charge_point:output": "82 kW",
     "fee": "yes",
-    "fixme": "Verificar se está disponível o pagamento com cartão bancário",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -430,47 +429,6 @@
     "coordinates": [
       -9.3467806,
       38.771249
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9528248002",
-  "properties": {
-    "access": "yes",
-    "brand": "Enable Mobility",
-    "capacity": "2",
-    "charge_point:output": "30 kW",
-    "fee": "yes",
-    "man_made": "charge_point",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "old_ref": "SNT-00058",
-    "opening_hours": "24/7",
-    "operator": "Enable Mobility Solutions",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "yes",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "ref": "SNT-00190",
-    "ref:EU:EVSE": "PT*ENB*E*SNT*00190*01;PT*ENB*E*SNT*00190*02",
-    "socket:chademo": "1",
-    "socket:chademo:current": "60",
-    "socket:chademo:output": "30 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "60",
-    "socket:type2_combo:output": "30 kW",
-    "socket:type2_combo:voltage": "500",
-    "id": "node/9528248002"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.3466802,
-      38.7712971
     ]
   }
 },
@@ -749,7 +707,6 @@
     "capacity": "2",
     "charge_point:output": "30 kW",
     "fee": "yes",
-    "fixme": "Verificar se está disponível o pagamento com cartão bancário",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -777,8 +734,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.3466322,
-      38.7713204
+      -9.3467298,
+      38.7712728
     ]
   }
 },
@@ -791,7 +748,6 @@
     "capacity": "1",
     "charge_point:output": "120 kW",
     "fee": "yes",
-    "fixme": "Verificar se está disponível o pagamento com cartão bancário",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -19843,6 +19799,88 @@
     "coordinates": [
       -8.1758177,
       41.2476518
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13656887313",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "charge_point:output": "200 kW",
+    "fee": "yes",
+    "fixme": "Confirmar que permite pagamento com cartão bancário",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "TRF-00021",
+    "ref:EU:EVSE": "PT*FCT*E*TRF*00021*01;PT*FCT*E*TRF*00021*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "600",
+    "socket:type2_combo:output": "200 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13656887313"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.545825,
+      41.3396201
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13656887324",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "charge_point:output": "50 kW",
+    "fee": "yes",
+    "fixme": "Confirmar que permite pagamento com cartão bancário",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "TRF-00020",
+    "ref:EU:EVSE": "PT*FCT*E*TRF*00020*01;PT*FCT*E*TRF*00020*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "50 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13656887324"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5458345,
+      41.3396622
     ]
   }
 }
