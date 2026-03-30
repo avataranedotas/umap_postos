@@ -2668,12 +2668,12 @@
     "authentication:none": "no",
     "brand": "Iberdrola bp pulse",
     "capacity": "2",
-    "construction:amenity": "charging_station",
+    "charge_point:output": "300 kW",
+    "construction:man_made": "charge_point",
     "email": "suporte@chargingtogether.pt",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "MTJ-?????",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Charging Together",
@@ -2698,8 +2698,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6065485,
-      38.6830337
+      -8.6057452,
+      38.6828479
     ]
   }
 },
@@ -8967,11 +8967,11 @@
     "brand": "IONITY",
     "brand:wikidata": "Q42717773",
     "capacity": "2",
-    "construction:amenity": "charging_station",
+    "charge_point:output": "400 kW",
+    "construction:man_made": "charge_point",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "PLM-?????",
     "network": "Mobi.E;Ionity",
     "opening_hours": "24/7",
     "operator": "IONITY",
@@ -8993,8 +8993,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.0239824,
-      38.5758017
+      -9.0240032,
+      38.5758083
     ]
   }
 },
@@ -9009,11 +9009,11 @@
     "brand": "IONITY",
     "brand:wikidata": "Q42717773",
     "capacity": "2",
-    "construction:amenity": "charging_station",
+    "charge_point:output": "400 kW",
+    "construction:man_made": "charge_point",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "PLM-?????",
     "network": "Mobi.E;Ionity",
     "opening_hours": "24/7",
     "operator": "IONITY",
@@ -9035,8 +9035,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.0240401,
-      38.5757875
+      -9.024085,
+      38.5757867
     ]
   }
 },
@@ -9051,11 +9051,11 @@
     "brand": "IONITY",
     "brand:wikidata": "Q42717773",
     "capacity": "2",
-    "construction:amenity": "charging_station",
+    "charge_point:output": "400 kW",
+    "construction:man_made": "charge_point",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "PLM-?????",
     "network": "Mobi.E;Ionity",
     "opening_hours": "24/7",
     "operator": "IONITY",
@@ -9077,8 +9077,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.0240951,
-      38.5757723
+      -9.0241675,
+      38.5757668
     ]
   }
 },
@@ -9093,11 +9093,11 @@
     "brand": "IONITY",
     "brand:wikidata": "Q42717773",
     "capacity": "2",
-    "construction:amenity": "charging_station",
+    "charge_point:output": "350 kW",
+    "construction:man_made": "charge_point",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "PLM-?????",
     "network": "Mobi.E;Ionity",
     "opening_hours": "24/7",
     "operator": "IONITY",
@@ -9109,9 +9109,9 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "ref": "PLM-?????",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "600",
-    "socket:type2_combo:output": "400 kW",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "350 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt/",
     "id": "node/13140030921"
@@ -9119,8 +9119,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.0241551,
-      38.5757624
+      -9.024248,
+      38.5757438
     ]
   }
 },
@@ -15187,46 +15187,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13663661943",
-  "properties": {
-    "access": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "wowplug",
-    "capacity": "2",
-    "construction:amenity": "charging_station",
-    "email": "suporte@wowplug.com",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "MTA-00054",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "True Kare",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "ref": "MTA-00054",
-    "ref:EU:EVSE": "PT*TRK*E*MTA*00054*01;PT*TRK*E*MTA*00054*02",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt/",
-    "id": "node/13663661943"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.9933378,
-      38.6570085
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13667119940",
   "properties": {
     "access": "yes",
@@ -15470,48 +15430,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13687411242",
-  "properties": {
-    "access": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Powerdot",
-    "brand:wikidata": "Q123574541",
-    "capacity": "2",
-    "construction:man_made": "charge_point",
-    "email": "ajuda@powerdot.pt",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Powerdot",
-    "operator:wikidata": "Q123574541",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 180 292",
-    "ref": "VNG-00236",
-    "ref:EU:EVSE": "PT*HRZ*E*VNG*00236*01;PT*HRZ*E*VNG*00236*02",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "300",
-    "socket:type2_combo:output": "200 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/",
-    "id": "node/13687411242"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.5668497,
-      41.0543268
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13688158134",
   "properties": {
     "access": "yes",
@@ -15581,46 +15499,6 @@
     "coordinates": [
       -8.4311061,
       40.2533721
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/13688206151",
-  "properties": {
-    "access": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "wowplug",
-    "capacity": "2",
-    "construction:amenity": "charging_station",
-    "email": "suporte@wowplug.com",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "MTA-00094",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "True Kare",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "ref": "MTA-00094",
-    "ref:EU:EVSE": "PT*TRK*E*MTA*00094*01;PT*TRK*E*MTA*00094*02",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt/",
-    "id": "node/13688206151"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.9884901,
-      38.6481168
     ]
   }
 },
@@ -16085,51 +15963,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13688379233",
-  "properties": {
-    "access": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Iberdrola bp pulse",
-    "capacity": "2",
-    "charging_station:output": "300 kW",
-    "construction:amenity": "charging_station",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "ALQ-00025",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Charging Together",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "yes",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 917 576",
-    "ref": "ALQ-00025",
-    "ref:EU:EVSE": "PT*FCT*E*ALQ*00025*01;PT*FCT*E*ALQ*00025*02;PT*FCT*E*ALQ*00025*03",
-    "socket:chademo": "1",
-    "socket:chademo:current": "200",
-    "socket:chademo:output": "80 kW",
-    "socket:chademo:voltage": "400",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "500",
-    "socket:type2_combo:output": "150 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/",
-    "id": "node/13688379233"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.9574991,
-      39.0325748
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13688399315",
   "properties": {
     "access": "yes",
@@ -16209,6 +16042,666 @@
     "coordinates": [
       -7.74502,
       41.304093
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13689572143",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "charge_point:output": "400 kW",
+    "construction:man_made": "charge_point",
+    "email": "suporte@chargingtogether.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "PLM-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "600",
+    "socket:type2_combo:output": "400 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/13689572143"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.0229773,
+      38.5769961
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13689572144",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "charge_point:output": "400 kW",
+    "construction:man_made": "charge_point",
+    "email": "suporte@chargingtogether.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "PLM-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "600",
+    "socket:type2_combo:output": "400 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/13689572144"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.023034,
+      38.5769961
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13689572145",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "charge_point:output": "400 kW",
+    "construction:man_made": "charge_point",
+    "email": "suporte@chargingtogether.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "PLM-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "600",
+    "socket:type2_combo:output": "400 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/13689572145"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.023091,
+      38.5769961
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13689572146",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "charge_point:output": "400 kW",
+    "construction:man_made": "charge_point",
+    "email": "suporte@chargingtogether.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "PLM-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "600",
+    "socket:type2_combo:output": "400 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/13689572146"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.023149,
+      38.5769961
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13689572147",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "charge_point:output": "50 kW",
+    "construction:man_made": "charge_point",
+    "email": "suporte@chargingtogether.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "PLM-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "50 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/13689572147"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.0232063,
+      38.5769961
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13689572150",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "charge_point:output": "50 kW",
+    "construction:man_made": "charge_point",
+    "email": "suporte@chargingtogether.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "PLM-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "50 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/13689572150"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.0232641,
+      38.5769961
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13689621268",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "IONITY",
+    "brand:wikidata": "Q42717773",
+    "capacity": "2",
+    "charge_point:output": "350 kW",
+    "construction:man_made": "charge_point",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E;Ionity",
+    "opening_hours": "24/7",
+    "operator": "IONITY",
+    "operator:wikidata": "Q42717773",
+    "operator:wikipedia": "en:IONITY",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "PLM-?????",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "350 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13689621268"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.0242565,
+      38.5757626
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13689698325",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "IONITY",
+    "brand:wikidata": "Q42717773",
+    "capacity": "2",
+    "construction:man_made": "charge_point",
+    "fee": "yes",
+    "fixme": "Mover para o local exacto",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "IONITY",
+    "operator:wikidata": "Q42717773",
+    "operator:wikipedia": "en:IONITY",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "ABT-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "600",
+    "socket:type2_combo:output": "400 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13689698325"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.186904,
+      39.4823968
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13689725434",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "IONITY",
+    "brand:wikidata": "Q42717773",
+    "capacity": "2",
+    "construction:man_made": "charge_point",
+    "fee": "yes",
+    "fixme": "Mover para o local exacto",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "IONITY",
+    "operator:wikidata": "Q42717773",
+    "operator:wikipedia": "en:IONITY",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "ABT-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "600",
+    "socket:type2_combo:output": "400 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13689725434"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.1870521,
+      39.482465
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13689725435",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "IONITY",
+    "brand:wikidata": "Q42717773",
+    "capacity": "2",
+    "construction:man_made": "charge_point",
+    "fee": "yes",
+    "fixme": "Mover para o local exacto",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "IONITY",
+    "operator:wikidata": "Q42717773",
+    "operator:wikipedia": "en:IONITY",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "ABT-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "600",
+    "socket:type2_combo:output": "400 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13689725435"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.1869803,
+      39.4824309
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13689725478",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "charge_point:output": "300 kW",
+    "construction:man_made": "charge_point",
+    "email": "suporte@chargingtogether.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "MTJ-?????",
+    "socket:chademo": "2",
+    "socket:chademo:current": "200",
+    "socket:chademo:output": "80 kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_combo": "4",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "150 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/13689725478"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6057453,
+      38.6828039
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13689790705",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "2",
+    "charge_point:output": "120 kW",
+    "construction:man_made": "charge_point",
+    "fee": "yes",
+    "fixme": "Mover para o local exacto",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "PLM-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "300",
+    "socket:type2_combo:output": "120 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13689790705"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.0233223,
+      38.5756652
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13689790716",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "2",
+    "charge_point:output": "82 kW",
+    "construction:man_made": "charge_point",
+    "fee": "yes",
+    "fixme": "Mover para o local exacto",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "PLM-?????",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "60 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13689790716"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.0232663,
+      38.575675
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13689794640",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "charge_point:output": "400 kW",
+    "construction:man_made": "charge_point",
+    "email": "suporte@chargingtogether.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "AND-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "600",
+    "socket:type2_combo:output": "400 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/13689794640"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4534772,
+      40.4550031
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13689794641",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "charge_point:output": "400 kW",
+    "construction:man_made": "charge_point",
+    "email": "suporte@chargingtogether.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "AND-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "600",
+    "socket:type2_combo:output": "400 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/13689794641"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4535336,
+      40.454998
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13689794656",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "charge_point:output": "400 kW",
+    "construction:man_made": "charge_point",
+    "email": "suporte@chargingtogether.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "AND-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "600",
+    "socket:type2_combo:output": "400 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/13689794656"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4535906,
+      40.4549937
     ]
   }
 }
