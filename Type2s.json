@@ -68289,7 +68289,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "LSB-00793",
-    "ref:EU:EVSE": "PT*EDP*E*LSB*00793*01;PT*EDP*E*LSB*00793*02",
+    "ref:EU:EVSE": "PT*EDP*ELSB*00793*1;PT*EDP*ELSB*00793*2",
     "socket:type2": "2",
     "socket:type2:current": "16",
     "socket:type2:output": "11 kW",
@@ -104603,8 +104603,8 @@
 {
   "type": "node",
   "id": 12670363865,
-  "lat": 40.9389604,
-  "lon": -8.5408656,
+  "lat": 40.9389639,
+  "lon": -8.5408589,
   "tags": {
     "access": "yes",
     "authentication:app": "yes",
@@ -107822,8 +107822,8 @@
 {
   "type": "node",
   "id": 12697580393,
-  "lat": 38.5574381,
-  "lon": -7.9209700,
+  "lat": 38.5574153,
+  "lon": -7.9210108,
   "tags": {
     "access": "yes",
     "addr:city": "Évora",
@@ -107835,7 +107835,6 @@
     "brand:wikidata": "Q2995683",
     "capacity": "2",
     "fee": "yes",
-    "fixme": "Verificar a disposição, localização e características dos postos novos",
     "man_made": "charge_point",
     "motorcar": "yes",
     "name": "Continente Évora",
@@ -107849,10 +107848,10 @@
     "payment:cash": "no",
     "payment:membership_card": "no",
     "phone": "+351 210 19 19 19",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
+    "socket:type2_cable": "2",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "7.4 kW",
+    "socket:type2_cable:voltage": "230",
     "website": "https://plugcharge.continente.pt/"
   }
 },
@@ -151996,6 +151995,42 @@
     "socket:type2:output": "22 kW",
     "socket:type2:voltage": "400",
     "website": "https://www.mobie.pt/"
+  }
+},
+{
+  "type": "node",
+  "id": 13696575280,
+  "lat": 37.1390318,
+  "lon": -8.5383423,
+  "tags": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Maksu",
+    "capacity": "1",
+    "email": "ev_portugal@maksu.com",
+    "fee": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Maksu Services",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 910 124",
+    "ref": "PTM-00082",
+    "ref:EU:EVSE": "PT*MAK*E*PTM*00082*01",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://www.mobie.pt"
   }
 }
 
