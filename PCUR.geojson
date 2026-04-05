@@ -4125,16 +4125,15 @@
   "id": "node/13108555929",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Iberdrola bp pulse",
     "capacity": "2",
-    "charging_station:output": "400 kW",
+    "charge_point:output": "400 kW",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "PTL-00031",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Charging Together",
@@ -4156,8 +4155,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6026563,
-      41.784179
+      -8.6026957,
+      41.7841811
     ]
   }
 },
@@ -4166,16 +4165,15 @@
   "id": "node/13108555930",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Iberdrola bp pulse",
     "capacity": "2",
-    "charging_station:output": "400 kW",
+    "charge_point:output": "400 kW",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "PTL-00030",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Charging Together",
@@ -4197,7 +4195,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6027697,
+      -8.6027526,
       41.7841811
     ]
   }
@@ -6304,6 +6302,7 @@
     "authentication:none": "no",
     "brand": "Iberdrola bp pulse",
     "capacity": "2",
+    "charging_station:output": "400 kW",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -6411,6 +6410,46 @@
     "coordinates": [
       -9.1806094,
       38.7591121
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13702543173",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "charge_point:output": "400 kW",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "ORM-00033",
+    "ref:EU:EVSE": "PT*FCT*E*ORM*00033*01;PT*FCT*E*ORM*00033*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "600",
+    "socket:type2_combo:output": "400 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13702543173"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.681265,
+      39.6279413
     ]
   }
 }
