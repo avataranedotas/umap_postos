@@ -27,26 +27,18 @@ def parse_capacity(value):
         return 0
 
 def get_numeric_output(value):
-    """Extract numeric part of a string and return as float."""
     if value is None:
         return 0.0
     match = re.search(r'[\d\.]+', str(value))
     return float(match.group(0)) if match else 0.0
 
 def extract_sockets_and_kw(data):
-    """
-    Returns:
-      socket_counts = {socket:type → count}
-      socket_outputs = {socket:type → power per socket}
-      total_sockets
-      total_kw
-    """
     if isinstance(data, dict):
         points = [{'properties': data}]
     elif isinstance(data, list):
         points = data
     else:
-        raise ValueError("Invalid data type for extract_sockets_and_kw")
+        raise ValueError("Invalid data type")
 
     total_sockets = 0
     total_kw = 0.0
@@ -56,7 +48,11 @@ def extract_sockets_and_kw(data):
     for p in points:
         props = p.get('properties', {})
         for sock in ALLOWED_SOCKETS:
-            count = int(float(props.get(sock, 0))) if props.get(sock) else 0
+            try:
+                count = int(float(props.get(sock, 0)))
+            except (ValueError, TypeError):
+                count = 0
+
             output = get_numeric_output(props.get(f"{sock}:output"))
 
             if count > 0:
@@ -72,14 +68,12 @@ def compute_overflow_power(socket_counts, socket_outputs, overflow):
     if overflow <= 0:
         return 0.0
 
-    # Build list of (socket_type, power)
     power_list = []
     for sock_type, count in socket_counts.items():
-        power = socket_outputs.get(sock_type, 0.0)  # FIXED
+        power = socket_outputs.get(sock_type, 0.0)
         if power > 0:
             power_list.append((sock_type, power))
 
-    # Sort weakest sockets first
     power_list.sort(key=lambda x: x[1])
 
     overflow_power = 0.0
@@ -95,12 +89,7 @@ def compute_overflow_power(socket_counts, socket_outputs, overflow):
 
     return round(overflow_power, 2)
 
-
 def compute_adjusted_kw(total_kw, overflow_power, charging_station_output):
-    """
-    Use charging_station_output only if it's a positive numeric value.
-    Otherwise return total_kw - overflow_power (rounded).
-    """
     try:
         val = float(charging_station_output)
     except (ValueError, TypeError):
@@ -135,11 +124,6 @@ for way_id, way_data in data.items():
 
     child_points = way_data.get('points', [])
 
-    #missing_tag = any(
-    #    p.get('properties', {}).get('man_made') != 'charge_point'
-    #    for p in child_points
-    #)
-
     valid_points = [
         p for p in child_points
         if p.get('properties', {}).get('man_made') == 'charge_point'
@@ -153,6 +137,7 @@ for way_id, way_data in data.items():
     overflow = total_sockets - way_capacity
 
     overflow_power_agg = 0.0
+    child_adjusted_kw_sum = 0.0
 
     row = {
         'identifier': identifier,
@@ -171,27 +156,27 @@ for way_id, way_data in data.items():
         'overflow': overflow,
         'overflow_power': 0.0,
     }
+
     row.update(socket_counts)
     for sock, power in socket_outputs.items():
         row[f"{sock}:kw"] = power
+
     row['adjusted_kw'] = 0.0
     rows.append(row)
     way_row_index = len(rows) - 1
 
-    # Process child points - Option B (all children)
+    # Process child points
     for child_point in child_points:
         cprops = child_point.get('properties', {})
 
-        # Fix: normalize man_made for missing_tag
         man_made_value = str(cprops.get('man_made', '')).strip().lower()
         child_missing_tag = 'no' if man_made_value == 'charge_point' else 'yes'
 
-        # Only extract sockets/outputs if valid
         if child_missing_tag == 'yes':
             child_socket_counts, child_socket_outputs, child_total_sockets, child_total_kw = {}, {}, 0, 0.0
         else:
             child_socket_counts, child_socket_outputs, child_total_sockets, child_total_kw = extract_sockets_and_kw([child_point])
-            # Ensure socket_outputs is numeric
+
             for k, v in cprops.items():
                 if k.endswith(':output'):
                     base_key = k.rsplit(":", 1)[0]
@@ -206,6 +191,11 @@ for way_id, way_data in data.items():
         child_overflow = child_total_sockets - child_capacity
         child_overflow_power = compute_overflow_power(child_socket_counts, child_socket_outputs, child_overflow)
         overflow_power_agg += child_overflow_power
+
+        child_adjusted = compute_adjusted_kw(child_total_kw, child_overflow_power, child_output)
+
+        if child_missing_tag == 'no':
+            child_adjusted_kw_sum += child_adjusted
 
         child_row = {
             'identifier': child_identifier,
@@ -223,22 +213,23 @@ for way_id, way_data in data.items():
             'flag_missing_tag': child_missing_tag,
             'overflow': child_overflow,
             'overflow_power': child_overflow_power,
+            'adjusted_kw': child_adjusted,
             'evse_id': cprops.get('ref:EU:EVSE', '')
         }
+
         child_row.update(child_socket_counts)
         for sock, power in child_socket_outputs.items():
             child_row[f"{sock}:kw"] = power
-        child_row['adjusted_kw'] = compute_adjusted_kw(child_total_kw, child_overflow_power, child_output)
+
         rows.append(child_row)
 
-
-    # Update way with aggregated child overflow
+    # Final way aggregation
     rows[way_row_index]['overflow_power'] = round(overflow_power_agg, 2)
-    rows[way_row_index]['adjusted_kw'] = compute_adjusted_kw(
-        rows[way_row_index]['total_kw'],
-        overflow_power_agg,
-        output
-    )
+
+    if output > 0:
+        rows[way_row_index]['adjusted_kw'] = round(output, 2)
+    else:
+        rows[way_row_index]['adjusted_kw'] = round(child_adjusted_kw_sum, 2)
 
 
 # Process unassigned points
@@ -284,6 +275,7 @@ for point in data.get('unassigned_points', []):
         row[f"{sock}:kw"] = power    
     rows.append(row)
 
+
 # CSV output
 fieldnames = [
     'identifier', 'type', 'id', 'operator', 'capacity', 'charging_station:output',
@@ -305,3 +297,4 @@ with open('stations_3.csv', 'w', newline='', encoding='utf-8') as csvfile:
         writer.writerow(row)
 
 print(f"CSV file 'stations_3.csv' created with {len(rows)} entries. Socket types: {sorted(all_socket_types)}")
+
