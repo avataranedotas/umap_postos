@@ -11153,14 +11153,15 @@
   "properties": {
     "access": "yes",
     "amenity": "charging_station",
-    "capacity": "12",
+    "capacity": "4",
+    "charging_station:output": "164 kW",
     "motorcar": "yes",
-    "name": "VIS-00019…24",
+    "name": "VIS-00021/22",
     "network": "Mobi.E",
     "opening_hours": "07:00-01:00",
     "operator": "Visacasa",
     "parking:fee": "yes",
-    "ref": "VIS-00019;VIS-00020;VIS-00021;VIS-00022;VIS-00023;VIS-00024",
+    "ref": "VIS-00021;VIS-00022",
     "id": "way/1364343846"
   },
   "geometry": {
@@ -11168,24 +11169,24 @@
     "coordinates": [
       [
         [
-          -7.9117543,
-          40.6437457
+          -7.9118545,
+          40.6437117
         ],
         [
-          -7.9117837,
-          40.643794
+          -7.9118835,
+          40.6437601
         ],
         [
-          -7.9120973,
-          40.643684
+          -7.9119951,
+          40.6437216
         ],
         [
-          -7.9120679,
-          40.6436357
+          -7.9119661,
+          40.6436732
         ],
         [
-          -7.9117543,
-          40.6437457
+          -7.9118545,
+          40.6437117
         ]
       ]
     ]
@@ -24531,6 +24532,7 @@
     "amenity": "charging_station",
     "brand": "Renewing",
     "capacity": "3",
+    "charging_station:output": "47 kW",
     "email": "renewing.charging@mota-engil.pt",
     "fee": "yes",
     "indoor": "yes",
@@ -30472,7 +30474,7 @@
     "amenity": "charging_station",
     "brand": "Helexia",
     "capacity": "6",
-    "charging_station:output": "200 kW",
+    "charging_station:output": "244 kW",
     "motorcar": "yes",
     "name": "BRG-00145/146",
     "network": "Mobi.E",
@@ -49902,6 +49904,7 @@
     "amenity": "charging_station",
     "brand": "loulé concelho Global",
     "capacity": "8",
+    "charging_station:output": "254 kW",
     "email": "geral@lcglobal.pt",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -65066,12 +65069,12 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "OER-00275…278",
+    "name": "OER-00275/286…278",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Via Verde",
     "parking:fee": "no",
-    "ref": "OER-00275;OER-00276;OER-00277;OER-00278",
+    "ref": "OER-00275;OER-00286;OER-00287;OER-00288",
     "website": "https://www.mobie.pt/",
     "id": "way/1456361908"
   },
@@ -88811,6 +88814,141 @@
         [
           -9.174625,
           38.6758839
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1497629831",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "capacity": "4",
+    "motorcar": "yes",
+    "name": "VIS-00023/24",
+    "network": "Mobi.E",
+    "opening_hours": "07:00-01:00",
+    "operator": "Visacasa",
+    "parking:fee": "yes",
+    "ref": "VIS-00023;VIS-00024",
+    "id": "way/1497629831"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -7.9116242,
+          40.6434716
+        ],
+        [
+          -7.9115182,
+          40.6435094
+        ],
+        [
+          -7.9115488,
+          40.6435587
+        ],
+        [
+          -7.9116548,
+          40.6435209
+        ],
+        [
+          -7.9116242,
+          40.6434716
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1497629832",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "capacity": "4",
+    "motorcar": "yes",
+    "name": "VIS-00019/20",
+    "network": "Mobi.E",
+    "opening_hours": "07:00-01:00",
+    "operator": "Visacasa",
+    "parking:fee": "yes",
+    "ref": "VIS-00019;VIS-00020",
+    "id": "way/1497629832"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -7.9115578,
+          40.6437552
+        ],
+        [
+          -7.9114518,
+          40.6437931
+        ],
+        [
+          -7.9114824,
+          40.6438424
+        ],
+        [
+          -7.9115884,
+          40.6438045
+        ],
+        [
+          -7.9115578,
+          40.6437552
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1497675406",
+  "properties": {
+    "access": "private",
+    "amenity": "charging_station",
+    "brand": "Via Verde Electric",
+    "capacity": "4",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Via Verde",
+    "parking:fee": "no",
+    "ref": "MOBI-CSC-00188;MOBI-CSC-00189",
+    "website": "https://www.mobie.pt/",
+    "id": "way/1497675406"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -9.3371834,
+          38.7088473
+        ],
+        [
+          -9.3371854,
+          38.708899
+        ],
+        [
+          -9.3373025,
+          38.7088963
+        ],
+        [
+          -9.3373005,
+          38.7088445
+        ],
+        [
+          -9.3371834,
+          38.7088473
         ]
       ]
     ]
