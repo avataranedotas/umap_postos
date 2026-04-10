@@ -1255,10 +1255,16 @@
     "brand": "Enable Mobility",
     "capacity": "18",
     "charging_station:output": "1976 kW",
+    "email": "support@enable-mobility.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "SNT-00186…189/201…203/234/235",
+    "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Enable Mobility Solutions",
+    "parking:fee": "no",
+    "phone": "+351 800 207 020",
     "ref": "SNT-00186;SNT-00187;SNT-00188;SNT-00189;SNT-00201;SNT-00202;SNT-00203;SNT-00234;SNT-00235"
   }
 },
@@ -3216,7 +3222,7 @@
     "capacity": "2",
     "motorcar": "yes",
     "name": "Centro Porsche Leiria",
-    "network": "Mobi.E",
+    "network": "Porsche",
     "opening_hours": "Mo-Fr 09:00-18:00",
     "operator": "Porsche",
     "operator:wikidata": "Q40993",
@@ -3254,7 +3260,7 @@
     "capacity": "4",
     "motorcar": "yes",
     "name": "Centro Porsche Faro",
-    "network": "Mobi.E",
+    "network": "Porsche",
     "opening_hours": "Mo-Fr 09:00-18:00",
     "operator": "Porsche",
     "operator:wikidata": "Q40993",
@@ -15594,6 +15600,7 @@
   "tags": {
     "access": "yes",
     "amenity": "charging_station",
+    "bicycle": "no",
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
     "capacity": "4",
@@ -23455,7 +23462,7 @@
     "capacity": "4",
     "motorcar": "yes",
     "name": "Restaurante Alxama",
-    "network": "Mobi.E",
+    "no:network": "yes",
     "opening_hours": "24/7",
     "operator": "Restaurante Alxama",
     "parking:fee": "no"
@@ -73445,6 +73452,115 @@
     "operator": "EDP",
     "parking:fee": "no",
     "ref": "VLG-00048"
+  }
+},
+{
+  "type": "way",
+  "id": 1497894671,
+  "bounds": {
+    "minlat": 40.2804345,
+    "minlon": -7.5033569,
+    "maxlat": 40.2805220,
+    "maxlon": -7.5031691
+  },
+  "nodes": [
+    13718168897,
+    13718168896,
+    13718168895,
+    13718168894,
+    13718168897
+  ],
+  "geometry": [
+    { "lat": 40.2805220, "lon": -7.5031880 },
+    { "lat": 40.2804860, "lon": -7.5033569 },
+    { "lat": 40.2804345, "lon": -7.5033380 },
+    { "lat": 40.2804705, "lon": -7.5031691 },
+    { "lat": 40.2805220, "lon": -7.5031880 }
+  ],
+  "tags": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "brand": "Maksu",
+    "capacity": "5",
+    "email": "ev_portugal@maksu.com",
+    "fee": "yes",
+    "layer": "-1",
+    "location": "underground",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CVL-00049…54",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Maksu Services",
+    "parking:fee": "yes",
+    "ref": "CVL-00049;CVL-00050;CVL-00051;CVL-00053;CVL-00054",
+    "website": "https://www.mobie.pt/"
+  }
+},
+{
+  "type": "way",
+  "id": 1497896190,
+  "bounds": {
+    "minlat": 37.0437882,
+    "minlon": -7.8159107,
+    "maxlat": 37.0438347,
+    "maxlon": -7.8158460
+  },
+  "nodes": [
+    13718251522,
+    13718251518,
+    13718251516,
+    13718251515,
+    13718251522
+  ],
+  "geometry": [
+    { "lat": 37.0438347, "lon": -7.8158461 },
+    { "lat": 37.0437882, "lon": -7.8158460 },
+    { "lat": 37.0437882, "lon": -7.8159106 },
+    { "lat": 37.0438347, "lon": -7.8159107 },
+    { "lat": 37.0438347, "lon": -7.8158461 }
+  ],
+  "tags": {
+    "access": "customers",
+    "amenity": "charging_station",
+    "capacity": "2",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "no:network": "yes",
+    "operator": "Serviplaco"
+  }
+},
+{
+  "type": "way",
+  "id": 1497897906,
+  "bounds": {
+    "minlat": 37.0437650,
+    "minlon": -7.8170656,
+    "maxlat": 37.0438351,
+    "maxlon": -7.8170010
+  },
+  "nodes": [
+    13718232977,
+    13718232975,
+    13718232967,
+    13718232966,
+    13718232977
+  ],
+  "geometry": [
+    { "lat": 37.0438351, "lon": -7.8170014 },
+    { "lat": 37.0437652, "lon": -7.8170010 },
+    { "lat": 37.0437650, "lon": -7.8170652 },
+    { "lat": 37.0438349, "lon": -7.8170656 },
+    { "lat": 37.0438351, "lon": -7.8170014 }
+  ],
+  "tags": {
+    "access": "customers",
+    "amenity": "charging_station",
+    "capacity": "3",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "no:network": "yes",
+    "operator": "Ibéricafrio"
   }
 }
 
