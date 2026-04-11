@@ -175,7 +175,6 @@
   "properties": {
     "access": "yes",
     "addr:city": "Évora",
-    "addr:country": "PT",
     "addr:postcode": "7005-297",
     "addr:street": "Rua do Chafariz D'el Rei",
     "amenity": "charging_station",
@@ -25051,7 +25050,7 @@
     "authentication:none": "no",
     "capacity": "2",
     "charging_station:output": "82 kW",
-    "email": "evaz.energy@grcapp.com",
+    "email": "geral@evazenergy.pt",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -25065,7 +25064,7 @@
     "payment:cards": "yes",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "phone": "+351 800 913 723",
+    "phone": "+351 800 181 742",
     "ref": "BRG-00149",
     "ref:EU:EVSE": "PT*EVA*E*BRG*00149*01;PT*EVA*E*BRG*00149*02;PT*EVA*E*BRG*00149*03",
     "socket:chademo": "1",
@@ -25102,7 +25101,7 @@
     "authentication:none": "no",
     "capacity": "1",
     "charging_station:output": "60 kW",
-    "email": "evaz.energy@grcapp.com",
+    "email": "geral@evazenergy.pt",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -25116,7 +25115,7 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "phone": "+351 800 913 723",
+    "phone": "+351 800 181 742",
     "ref": "BRG-00150",
     "ref:EU:EVSE": "PT*EVA*E*BRG*00150*01;PT*EVA*E*BRG*00150*02",
     "socket:chademo": "1",
@@ -62003,15 +62002,16 @@
     "brand": "Atlante",
     "brand:wikidata": "Q126913632",
     "capacity": "2",
-    "charging_station:output": "82 kW",
+    "charging_station:output": "60 kW",
     "email": "support.portugal@atlante.energy",
     "fee": "yes",
     "location": "underground",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "LRS-00104",
+    "name": "LRS-00201",
     "network": "Mobi.E",
-    "old_ref": "LRS-00095",
+    "old_ref": "LRS-00095;LRS-00104",
+    "old_ref:EU:EVSE": "PT*ATL*ELRS*00104*1;PT*ATL*ELRS*00104*2;PT*ATL*ELRS*00104*3",
     "opening_hours": "09:00-21:00",
     "operator": "Atlante",
     "operator:wikidata": "Q126913632",
@@ -62021,17 +62021,9 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 296 929;+351 234 246 050",
-    "ref": "LRS-00104",
-    "ref:EU:EVSE": "PT*ATL*ELRS*00104*1;PT*ATL*ELRS*00104*2;PT*ATL*ELRS*00104*3",
-    "socket:chademo": "1",
-    "socket:chademo:current": "125",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_cable": "1",
-    "socket:type2_cable:current": "32",
-    "socket:type2_cable:output": "22 kW",
-    "socket:type2_cable:voltage": "400",
-    "socket:type2_combo": "1",
+    "ref": "LRS-00201",
+    "ref:EU:EVSE": "PT*ATL*ELRS*00201*1;PT*ATL*ELRS*00201*2",
+    "socket:type2_combo": "2",
     "socket:type2_combo:current": "150",
     "socket:type2_combo:output": "60 kW",
     "socket:type2_combo:voltage": "500",
@@ -101565,8 +101557,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.5664332,
-      38.1901743
+      -8.5663146,
+      38.1905835
     ]
   }
 },
@@ -111143,48 +111135,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13114162813",
-  "properties": {
-    "access": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "edp Charge",
-    "brand:wikidata": "Q1341222",
-    "capacity": "2",
-    "charge_point:output": "120 kW",
-    "fee": "yes",
-    "man_made": "charge_point",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "EDP",
-    "operator:wikidata": "Q1341222",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 222 222",
-    "ref": "GMR-00139",
-    "ref:EU:EVSE": "PT*EDP*EGMR*00139*1;PT*EDP*EGMR*00139*2",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "300",
-    "socket:type2_combo:output": "120 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/",
-    "id": "node/13114162813"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.3369412,
-      41.4762123
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13114278574",
   "properties": {
     "access": "yes",
@@ -117702,8 +117652,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6378486,
-      41.1376276
+      -8.6380005,
+      41.138289
     ]
   }
 },
@@ -117748,8 +117698,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6378529,
-      41.1376299
+      -8.6380048,
+      41.1382913
     ]
   }
 },
@@ -117794,8 +117744,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6378146,
-      41.1376661
+      -8.6379665,
+      41.1383275
     ]
   }
 },
@@ -117840,8 +117790,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6378126,
-      41.1376685
+      -8.6379645,
+      41.1383299
     ]
   }
 },
