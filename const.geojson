@@ -11329,47 +11329,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13336928152",
-  "properties": {
-    "access": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "edp Charge",
-    "brand:wikidata": "Q1341222",
-    "capacity": "2",
-    "construction:man_made": "charge_point",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "EDP",
-    "operator:wikidata": "Q1341222",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 222 222",
-    "ref": "GLG-00004",
-    "ref:EU:EVSE": "PT*EDP*EGLG*00004*1;PT*EDP*EGLG*00004*2",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt/",
-    "id": "node/13336928152"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.4890212,
-      39.4027288
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13337076033",
   "properties": {
     "access": "yes",
@@ -11547,7 +11506,7 @@
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
     "capacity": "2",
-    "charge_point:output": "200 kW",
+    "charge_point:output": "150 kW",
     "construction:man_made": "charge_point",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
@@ -11564,6 +11523,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 180 292",
     "ref": "FIG-00067",
+    "ref:EU:EVSE": "PT*HRZ*E*FIG*00067*01;PT*HRZ*E*FIG*00067*02",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "300",
     "socket:type2_combo:output": "150 kW",
@@ -14793,49 +14753,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13688216924",
-  "properties": {
-    "access": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "edp Charge",
-    "brand:wikidata": "Q1341222",
-    "capacity": "2",
-    "charge_point:output": "120 kW",
-    "construction:man_made": "charge_point",
-    "fee": "yes",
-    "fixme": "Confirma se a corrente máxima é 200 ou 300A",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "EDP",
-    "operator:wikidata": "Q1341222",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 222 222",
-    "ref": "NZR-00046",
-    "ref:EU:EVSE": "PT*EDP*ENZR*00046*1;PT*EDP*ENZR*00046*2",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "200",
-    "socket:type2_combo:output": "120 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/",
-    "id": "node/13688216924"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.0601545,
-      39.6099666
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13688352447",
   "properties": {
     "access": "yes",
@@ -16653,6 +16570,49 @@
     "coordinates": [
       -8.483313,
       40.70529
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13722802706",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "REMO",
+    "capacity": "2",
+    "charging_station:output": "200 kW",
+    "construction:amenity": "charging_station",
+    "email": "charging@me-remo.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "BCL-00050",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "REMO",
+    "operator:wikidata": "Q1949595",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 020 940",
+    "ref": "BCL-00050",
+    "ref:EU:EVSE": "PT*REM*E*BCL*00050*01;PT*REM*E*BCL*00050*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "120 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13722802706"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6090713,
+      41.5318884
     ]
   }
 }
