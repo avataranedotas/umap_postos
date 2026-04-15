@@ -11759,7 +11759,6 @@
   "id": "node/12188552517",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -26785,8 +26784,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.2609549,
-      42.1134932
+      -8.2611722,
+      42.1141538
     ]
   }
 },
@@ -26804,6 +26803,7 @@
     "charging_station:output": "150 kW",
     "email": "electric@prioenergy.com",
     "fee": "yes",
+    "fixme": "Verificar se o TPA funciona",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "ARL-00004",
@@ -26812,7 +26812,7 @@
     "operator": "Prio.E",
     "parking:fee": "no",
     "payment:app": "yes",
-    "payment:cards": "yes",
+    "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 100 303",
@@ -31361,6 +31361,7 @@
     "charging_station:output": "150 kW",
     "email": "electric@prioenergy.com",
     "fee": "yes",
+    "fixme": "Verificar se o TPA funciona",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "BRG-00148",
@@ -31369,7 +31370,7 @@
     "operator": "Prio.E",
     "parking:fee": "no",
     "payment:app": "yes",
-    "payment:cards": "yes",
+    "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 100 303",
@@ -33518,7 +33519,7 @@
     "operator:wikidata": "Q1341222",
     "parking:fee": "no",
     "payment:app": "yes",
-    "payment:cards": "yes",
+    "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
@@ -34243,6 +34244,49 @@
 },
 {
   "type": "Feature",
+  "id": "node/13667135433",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Atlante",
+    "brand:wikidata": "Q126913632",
+    "capacity": "2",
+    "charge_point:output": "150 kW",
+    "email": "support.portugal@atlante.energy",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Atlante",
+    "operator:wikidata": "Q126913632",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 296 929;+351 234 246 050",
+    "ref": "SSB-00029",
+    "ref:EU:EVSE": "PT*ATL*ESSB*00029*1;PT*ATL*ESSB*00029*2",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "375",
+    "socket:type2_combo:output": "150 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13667135433"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.0373566,
+      38.5647528
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13687411241",
   "properties": {
     "access": "yes",
@@ -34792,6 +34836,49 @@
     "coordinates": [
       -8.3980635,
       41.5466224
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13730421354",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "helexia",
+    "capacity": "2",
+    "email": "geral.pt@helexia.eu",
+    "fee": "yes",
+    "fixme": "Verificar se o TPA funciona",
+    "man_made": "charge_point",
+    "manufacturer": "i-charging",
+    "maxstay": "unlimited",
+    "model": "blueberry CLUSTER",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Helexia II",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 210 181 157",
+    "ref": "GDM-00068",
+    "ref:EU:EVSE": "PT*HLX*E*GDM*00068*01;PT*HLX*E*GDM*00068*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "200 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13730421354"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5092695,
+      41.1171188
     ]
   }
 }
