@@ -4135,7 +4135,6 @@
   "lon": -8.6293530,
   "tags": {
     "access": "private",
-    "addr:country": "PT",
     "amenity": "charging_station",
     "capacity": "1",
     "motorcar": "yes",
@@ -11509,7 +11508,6 @@
   "lon": -8.7449229,
   "tags": {
     "access": "customers",
-    "addr:country": "PT",
     "amenity": "charging_station",
     "capacity": "2",
     "fee": "yes",
@@ -14540,8 +14538,8 @@
 {
   "type": "node",
   "id": 9897893308,
-  "lat": 38.7368922,
-  "lon": -9.1504340,
+  "lat": 38.7369000,
+  "lon": -9.1503907,
   "tags": {
     "access": "customers",
     "authentication:app": "yes",
@@ -22266,7 +22264,6 @@
   "lon": -8.5838464,
   "tags": {
     "access": "customers",
-    "addr:country": "PT",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -25105,8 +25102,8 @@
 {
   "type": "node",
   "id": 12084097245,
-  "lat": 41.4427079,
-  "lon": -8.2508603,
+  "lat": 41.4425240,
+  "lon": -8.2506600,
   "tags": {
     "access": "customers",
     "amenity": "charging_station",
@@ -31473,8 +31470,8 @@
 {
   "type": "node",
   "id": 12554877350,
-  "lat": 38.7368578,
-  "lon": -9.1504716,
+  "lat": 38.7368656,
+  "lon": -9.1504283,
   "tags": {
     "access": "customers",
     "authentication:app": "yes",
@@ -49438,7 +49435,7 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "ref": "MOBI-CSC-00189",
-    "ref:EU:EVSE": "PT*VIA*E5988;PT*VIA*E8497",
+    "ref:EU:EVSE": "PT*VIA*E5988;PT*VIA*E8497;PT*VIA*E*MOBI*CSC*00189*01;PT*VIA*E*MOBI*CSC*00189*02",
     "socket:type2_cable": "2",
     "socket:type2_cable:current": "32",
     "socket:type2_cable:output": "22 kW",
@@ -49470,7 +49467,7 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "ref": "MOBI-CSC-00188",
-    "ref:EU:EVSE": "PT*VIA*E8020;PT*VIA*E4445",
+    "ref:EU:EVSE": "PT*VIA*E8020;PT*VIA*E4445;PT*VIA*E*MOBI*CSC*00188*01;PT*VIA*E*MOBI*CSC*00188*02",
     "socket:type2_cable": "2",
     "socket:type2_cable:current": "32",
     "socket:type2_cable:output": "22 kW",
@@ -50371,8 +50368,8 @@
 {
   "type": "node",
   "id": 13760344821,
-  "lat": 41.1627003,
-  "lon": -8.6552109,
+  "lat": 41.1592700,
+  "lon": -8.6351480,
   "tags": {
     "access": "private",
     "authentication:membership_card": "yes",
@@ -50405,8 +50402,8 @@
 {
   "type": "node",
   "id": 13760352999,
-  "lat": 41.1627209,
-  "lon": -8.6552043,
+  "lat": 41.1592906,
+  "lon": -8.6351414,
   "tags": {
     "access": "private",
     "authentication:membership_card": "yes",
@@ -50434,6 +50431,82 @@
     "socket:type2:output": "7.4 kW",
     "socket:type2:voltage": "230",
     "website": "https://www.mobie.pt/"
+  }
+},
+{
+  "type": "node",
+  "id": 13798194910,
+  "lat": 41.2620304,
+  "lon": -8.6380675,
+  "tags": {
+    "access": "private",
+    "amenity": "charging_station",
+    "capacity": "1",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "no:network": "yes",
+    "operator": "PROHS",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400"
+  }
+},
+{
+  "type": "node",
+  "id": 13798194911,
+  "lat": 41.2620405,
+  "lon": -8.6380206,
+  "tags": {
+    "access": "private",
+    "amenity": "charging_station",
+    "capacity": "1",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "no:network": "yes",
+    "operator": "PROHS",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400"
+  }
+},
+{
+  "type": "node",
+  "id": 13798194912,
+  "lat": 41.2620617,
+  "lon": -8.6379334,
+  "tags": {
+    "access": "private",
+    "amenity": "charging_station",
+    "capacity": "2",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "no:network": "yes",
+    "operator": "PROHS",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400"
+  }
+},
+{
+  "type": "node",
+  "id": 13798194913,
+  "lat": 41.2621101,
+  "lon": -8.6377618,
+  "tags": {
+    "access": "private",
+    "amenity": "charging_station",
+    "capacity": "2",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "no:network": "yes",
+    "operator": "PROHS",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400"
   }
 }
 

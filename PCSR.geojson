@@ -4757,7 +4757,7 @@
     "man_made": "charge_point",
     "manufacturer": "Siemens",
     "maxstay": "unlimited",
-    "model": "SICHARGE D 300 DC",
+    "model": "SICHARGE D Dispenser",
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
@@ -8522,7 +8522,6 @@
   "id": "node/12020159641",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Iberdrola bp pulse",
@@ -12377,7 +12376,7 @@
     "man_made": "charge_point",
     "manufacturer": "Siemens",
     "maxstay": "unlimited",
-    "model": "SICHARGE D 300 DC",
+    "model": "SICHARGE D 300",
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
@@ -12423,7 +12422,7 @@
     "man_made": "charge_point",
     "manufacturer": "Siemens",
     "maxstay": "unlimited",
-    "model": "SICHARGE D 300 DC",
+    "model": "SICHARGE D Dispenser",
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
@@ -16382,7 +16381,7 @@
     "man_made": "charge_point",
     "manufacturer": "Siemens",
     "maxstay": "unlimited",
-    "model": "SICHARGE D 300 DC",
+    "model": "SICHARGE D Dispenser",
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
@@ -16428,7 +16427,7 @@
     "man_made": "charge_point",
     "manufacturer": "Siemens",
     "maxstay": "unlimited",
-    "model": "SICHARGE D 300 DC",
+    "model": "SICHARGE D 300",
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
@@ -16474,7 +16473,7 @@
     "man_made": "charge_point",
     "manufacturer": "Siemens",
     "maxstay": "unlimited",
-    "model": "SICHARGE D 300 DC",
+    "model": "SICHARGE D 300",
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
@@ -25788,7 +25787,6 @@
   "id": "node/13205770592",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Iberdrola bp pulse",
@@ -34475,7 +34473,7 @@
     "ref:EU:EVSE": "PT*FCT*E*ORM*00036*01;PT*FCT*E*ORM*00036*02;PT*FCT*E*ORM*00036*03",
     "socket:chademo": "1",
     "socket:chademo:current": "200",
-    "socket:chademo:output": "8 kW",
+    "socket:chademo:output": "80 kW",
     "socket:chademo:voltage": "400",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "500",
@@ -34876,6 +34874,48 @@
     "coordinates": [
       -8.6949465,
       39.2464094
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13798093494",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Moeve",
+    "brand:wikidata": "Q608819",
+    "capacity": "1",
+    "charging_station:output": "150 kW",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LSB-01325",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Cepsa",
+    "operator:wikidata": "Q608819",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "LSB-01325",
+    "ref:EU:EVSE": "PT*CPS*E*LSB*01325*01",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "400",
+    "socket:type2_combo:output": "150 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13798093494"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.2070904,
+      38.7481996
     ]
   }
 }
