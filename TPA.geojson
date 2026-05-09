@@ -16532,7 +16532,7 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "ref": "OER-00288",
-    "ref:EU:EVSE": "PT*VIA*EOER-00288-01;PT*VIA*EOER-00288-02",
+    "ref:EU:EVSE": "PT*VIA*EOER-00288-621;PT*VIA*EOER-00288-622",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "400 kW",
@@ -16573,7 +16573,7 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "ref": "OER-00288",
-    "ref:EU:EVSE": "PT*VIA*EOER-00288-03;PT*VIA*EOER-00288-04",
+    "ref:EU:EVSE": "PT*VIA*EOER-00288-623;PT*VIA*EOER-00288-624",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "400",
     "socket:type2_combo:output": "400 kW",
@@ -16614,7 +16614,7 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "ref": "OER-00287",
-    "ref:EU:EVSE": "PT*VIA*EOER-00287-01;PT*VIA*EOER-00287-02;PT*VIA*EOER-00287-03",
+    "ref:EU:EVSE": "PT*VIA*EOER-00287-619;PT*VIA*EOER-00287-625",
     "socket:chademo": "1",
     "socket:chademo:current": "125",
     "socket:chademo:output": "50 kW",
@@ -16659,7 +16659,7 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "ref": "OER-00286",
-    "ref:EU:EVSE": "PT*VIA*EOER-00286-01;PT*VIA*EOER-00286-02",
+    "ref:EU:EVSE": "PT*VIA*EOER-00286-617;PT*VIA*EOER-00286-618",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "600",
     "socket:type2_combo:output": "400 kW",
@@ -19777,6 +19777,48 @@
 },
 {
   "type": "Feature",
+  "id": "node/13521981375",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "REMO",
+    "capacity": "2",
+    "charge_point:output": "150 kW",
+    "email": "renewing.charging@mota-engil.pt",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Mota Engil II",
+    "operator:wikidata": "Q1949595",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 020 940",
+    "ref": "ALM-00120",
+    "ref:EU:EVSE": "PT*MOT*E*ALM*00120*01;PT*MOT*E*ALM*00120*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "375",
+    "socket:type2_combo:output": "150 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13521981375"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1931767,
+      38.6427158
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13527325213",
   "properties": {
     "access": "yes",
@@ -21271,6 +21313,46 @@
     "coordinates": [
       -8.681265,
       39.6279413
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13702543174",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "charge_point:output": "400 kW",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "ORM-00032",
+    "ref:EU:EVSE": "PT*FCT*E*ORM*00032*01;PT*FCT*E*ORM*00032*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "600",
+    "socket:type2_combo:output": "400 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13702543174"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6812237,
+      39.6279706
     ]
   }
 },
