@@ -14882,6 +14882,7 @@
   "properties": {
     "access": "customers",
     "amenity": "charging_station",
+    "bicycle": "no",
     "capacity": "2",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -36164,7 +36165,7 @@
     "operator:wikidata": "Q126913632",
     "parking:fee": "yes",
     "payment:app": "yes",
-    "payment:cards": "yes",
+    "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 296 929;+351 234 246 050",
@@ -36199,6 +36200,7 @@
     "charge_point:output": "50 kW",
     "email": "support.portugal@atlante.energy",
     "fee": "yes",
+    "fixme": "Verificar se ainda existe",
     "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
@@ -36209,7 +36211,7 @@
     "operator:wikidata": "Q126913632",
     "parking:fee": "yes",
     "payment:app": "yes",
-    "payment:cards": "yes",
+    "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 296 929;+351 234 246 050",
@@ -52033,6 +52035,50 @@
     "coordinates": [
       -16.9176089,
       32.6435651
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13858674671",
+  "properties": {
+    "access": "customers",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Atlante",
+    "brand:wikidata": "Q126913632",
+    "capacity": "2",
+    "email": "support.portugal@atlante.energy",
+    "fee": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Atlante",
+    "operator:wikidata": "Q126913632",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 296 929;+351 234 246 050",
+    "ref": "PRT-00366",
+    "ref:EU:EVSE": "PT*ATL*EPRT*00366*1;PT*ATL*EPRT*00366*2",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "7.4 kW",
+    "socket:type2:voltage": "230",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13858674671"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6227133,
+      41.153018
     ]
   }
 }
