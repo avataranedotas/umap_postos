@@ -5378,6 +5378,7 @@
     "charge_point:output": "93 kW",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
+    "fixme": "Verificar se ainda existe",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -41428,54 +41429,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9932668649",
-  "properties": {
-    "access": "yes",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Mobiletric",
-    "capacity": "1",
-    "charge_point:output": "50 kW",
-    "email": "veiculoeletrico@galp.com",
-    "fee": "yes",
-    "fixme": "Verificar se ainda existem",
-    "man_made": "charge_point",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "old_ref": "ETZ-00013",
-    "opening_hours": "24/7",
-    "operator": "Mobiletric",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 249 249",
-    "ref": "ETZ-00012",
-    "ref:EU:EVSE": "PT*MLT*EETZ*00012*01;PT*MLT*EETZ*00012*02",
-    "socket:chademo": "1",
-    "socket:chademo:current": "120",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "125",
-    "socket:type2_combo:output": "50 kW",
-    "socket:type2_combo:voltage": "500",
-    "website": "https://www.mobie.pt/",
-    "id": "node/9932668649"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.5820744,
-      38.8462067
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9932668650",
   "properties": {
     "access": "yes",
@@ -45041,6 +44994,59 @@
     "coordinates": [
       -16.8935448,
       32.6606668
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10112116966",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Repsol",
+    "brand:wikidata": "Q174747",
+    "capacity": "2",
+    "charging_station:output": "82 kW",
+    "email": "crc.mobilidade.eletrica.pt@repsol.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "FUN-00038",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Repsol",
+    "operator:wikidata": "Q174747",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 226 624",
+    "ref": "FUN-00038",
+    "ref:EU:EVSE": "PT*REP*E*FUN*00038*01;PT*REP*E*FUN*00038*02;PT*REP*E*FUN*00038*03",
+    "socket:chademo": "1",
+    "socket:chademo:current": "125",
+    "socket:chademo:output": "50 kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "60 kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt/",
+    "id": "node/10112116966"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -16.926446,
+      32.6519685
     ]
   }
 },
@@ -55880,6 +55886,54 @@
     "coordinates": [
       -8.3431664,
       39.879167
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10870506032",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "2",
+    "charging_station:output": "120 kW",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "MCN-00007",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "MCN-00007",
+    "ref:EU:EVSE": "PT*EDP*EMCN*00007*1;PT*EDP*EMCN*00007*2",
+    "socket:chademo": "1",
+    "socket:chademo:current": "125",
+    "socket:chademo:output": "50 kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "200",
+    "socket:type2_combo:output": "120 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/10870506032"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.1536983,
+      41.1800376
     ]
   }
 },
@@ -88157,59 +88211,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12461082471",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Algés",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "leve",
-    "brand:wikidata": "Q30256831",
-    "capacity": "2",
-    "charge_point:output": "93 kW",
-    "email": "opc@emel.pt",
-    "fee": "yes",
-    "man_made": "charge_point",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "EMEL",
-    "operator:wikidata": "Q30256831",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 910 255",
-    "ref": "LSB-00357",
-    "ref:EU:EVSE": "PT*EML*E*LSB*00357*01;PT*EML*E*LSB*00357*02;PT*EML*E*LSB*00357*03",
-    "socket:chademo": "1",
-    "socket:chademo:current": "120",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_cable": "1",
-    "socket:type2_cable:current": "63",
-    "socket:type2_cable:output": "43 kW",
-    "socket:type2_cable:voltage": "400",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "125",
-    "socket:type2_combo:output": "50 kW",
-    "socket:type2_combo:voltage": "500",
-    "website": "https://www.mobie.pt",
-    "id": "node/12461082471"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.2257014,
-      38.6976203
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12461082474",
   "properties": {
     "access": "yes",
@@ -89284,7 +89285,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "PTL-00021",
-    "ref:EU:EVSE": "PT*EDP*E*PTL*00021*01;PT*EDP*E*PTL*00021*02",
+    "ref:EU:EVSE": "PT*EDP*EPTL*00021*1;PT*EDP*EPTL*00021*2",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "200",
     "socket:type2_combo:output": "120 kW",
@@ -119280,6 +119281,57 @@
 },
 {
   "type": "Feature",
+  "id": "node/13387545877",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "2",
+    "charging_station:output": "93 kW",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "PLM-00064",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "PLM-00064",
+    "ref:EU:EVSE": "PT*EDP*EPLM*00064*1;PT*EDP*EPLM*00064*2;PT*EDP*EPLM*00064*3",
+    "socket:chademo": "1",
+    "socket:chademo:current": "120",
+    "socket:chademo:output": "50 kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "63",
+    "socket:type2_cable:output": "43 kW",
+    "socket:type2_cable:voltage": "400",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "120",
+    "socket:type2_combo:output": "50 kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13387545877"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.9128945,
+      38.6384599
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13389425064",
   "properties": {
     "access": "yes",
@@ -119796,6 +119848,94 @@
     "coordinates": [
       -9.35571,
       38.9445576
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13405920691",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q135275389",
+    "capacity": "2",
+    "charge_point:output": "120 kW",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "BJA-00067",
+    "ref:EU:EVSE": "PT*EDP*EBJA*00067*1;PT*EDP*EBJA*00067*2",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "300",
+    "socket:type2_combo:output": "120 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13405920691"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.8647004,
+      38.0053731
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13406051702",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q135275389",
+    "capacity": "2",
+    "charge_point:output": "82 kW",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "BJA-00068",
+    "ref:EU:EVSE": "PT*EDP*EBJA*00068*1;PT*EDP*EBJA*00068*2;PT*EDP*EBJA*00068*3",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "60 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13406051702"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.8647833,
+      38.0053784
     ]
   }
 },
@@ -125643,10 +125783,9 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "2",
-    "charge_point:output": "60 kW",
+    "charge_point:output": "80 kW",
     "email": "evio@go-evio.com",
     "fee": "yes",
-    "fixme": "Move to exact location, verificar se aceita pagamento por cartão bancário",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -125662,8 +125801,8 @@
     "ref": "ETZ-00030",
     "ref:EU:EVSE": "PT*EVI*E*ETZ*00030*01;PT*EVI*E*ETZ*00030*02",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "87",
-    "socket:type2_combo:output": "30 kW",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "60 kW",
     "socket:type2_combo:voltage": "500",
     "website": "https://www.mobie.pt/",
     "id": "node/13787426233"
@@ -125671,8 +125810,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.5819454,
-      38.8462786
+      -7.5820161,
+      38.8462379
     ]
   }
 },
@@ -125684,10 +125823,9 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "2",
-    "charge_point:output": "60 kW",
+    "charge_point:output": "80 kW",
     "email": "evio@go-evio.com",
     "fee": "yes",
-    "fixme": "Move to exact location, verificar se aceita pagamento por cartão bancário",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -125703,8 +125841,8 @@
     "ref": "ETZ-00029",
     "ref:EU:EVSE": "PT*EVI*E*ETZ*00029*01;PT*EVI*E*ETZ*00029*02",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "87",
-    "socket:type2_combo:output": "30 kW",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "60 kW",
     "socket:type2_combo:voltage": "500",
     "website": "https://www.mobie.pt/",
     "id": "node/13787426234"
@@ -125712,8 +125850,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.5819917,
-      38.8462515
+      -7.5820624,
+      38.8462108
     ]
   }
 },
@@ -126122,6 +126260,54 @@
 },
 {
   "type": "Feature",
+  "id": "node/13822293820",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "e-flow",
+    "capacity": "2",
+    "charging_station:output": "82 kW",
+    "email": "geral@dte.pt",
+    "fee": "yes",
+    "manufacturer": "Vega",
+    "maxstay": "unlimited",
+    "model": "ALOHA Lander 60",
+    "motorcar": "yes",
+    "name": "AGD-00021",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "DTE",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "AGD-00021",
+    "ref:EU:EVSE": "PT*DTE*E*AGD*00021*01;PT*DTE*E*AGD*00021*02;PT*DTE*E*AGD*00021*03",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "60 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/13822293820"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4539761,
+      40.5130503
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13830836772",
   "properties": {
     "access": "yes",
@@ -126489,6 +126675,104 @@
     "coordinates": [
       -8.4652696,
       39.4591643
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13861312602",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "e-flow",
+    "capacity": "2",
+    "charging_station:output": "82 kW",
+    "email": "geral@dte.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "AGD-00022",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "DTE",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 912 872 459",
+    "ref": "AGD-00022",
+    "ref:EU:EVSE": "PT*DTE*E*AGD*00022*01;PT*DTE*E*AGD*00022*02;PT*DTE*E*AGD*00022*03",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "60 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13861312602"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.427545,
+      40.5183555
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13866259469",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Galp electric",
+    "brand:wikidata": "Q135275372",
+    "capacity": "2",
+    "email": "veiculoeletrico@galp.com",
+    "fee": "yes",
+    "fixme": "Verificar o modelo de carregador e a corrente máxima",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "VLG-00055",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "operator:wikidata": "Q135275372",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 249 249",
+    "ref": "VLG-00055",
+    "ref:EU:EVSE": "PT*GLP*EVLG*00055*01;PT*GLP*EVLG*00055*02;PT*GLP*EVLG*00055*03",
+    "socket:chademo": "1",
+    "socket:chademo:current": "60",
+    "socket:chademo:output": "22 kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "16",
+    "socket:type2_cable:output": "11 kW",
+    "socket:type2_cable:voltage": "400",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "60",
+    "socket:type2_combo:output": "22 kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13866259469"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.458927,
+      41.187374
     ]
   }
 }
