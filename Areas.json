@@ -1713,10 +1713,10 @@
   "type": "way",
   "id": 1346643063,
   "bounds": {
-    "minlat": 41.5032827,
-    "minlon": -7.8011446,
-    "maxlat": 41.5035245,
-    "maxlon": -7.8007952
+    "minlat": 41.5032768,
+    "minlon": -7.8011770,
+    "maxlat": 41.5035377,
+    "maxlon": -7.8007858
   },
   "nodes": [
     12456059017,
@@ -1731,7 +1731,8 @@
     12456059011,
     12456059013,
     12456059016,
-    12456019485,
+    13893366525,
+    12456019496,
     12456019486,
     12456019459,
     12456019499,
@@ -1741,14 +1742,14 @@
     12456029703,
     12456019461,
     12456019447,
-    12456019444,
-    12456029710,
+    13893366531,
+    13893366529,
+    13893366527,
     12456019462,
-    12456019463,
     12456059017
   ],
   "geometry": [
-    { "lat": 41.5034944, "lon": -7.8007952 },
+    { "lat": 41.5035075, "lon": -7.8007858 },
     { "lat": 41.5034703, "lon": -7.8008126 },
     { "lat": 41.5034441, "lon": -7.8008334 },
     { "lat": 41.5034173, "lon": -7.8008629 },
@@ -1760,7 +1761,8 @@
     { "lat": 41.5033075, "lon": -7.8010418 },
     { "lat": 41.5032928, "lon": -7.8010815 },
     { "lat": 41.5032827, "lon": -7.8011211 },
-    { "lat": 41.5032910, "lon": -7.8011245 },
+    { "lat": 41.5032768, "lon": -7.8011679 },
+    { "lat": 41.5033381, "lon": -7.8011770 },
     { "lat": 41.5033422, "lon": -7.8011446 },
     { "lat": 41.5033504, "lon": -7.8011087 },
     { "lat": 41.5033610, "lon": -7.8010790 },
@@ -1769,21 +1771,21 @@
     { "lat": 41.5034117, "lon": -7.8009924 },
     { "lat": 41.5034302, "lon": -7.8009652 },
     { "lat": 41.5034483, "lon": -7.8009396 },
-    { "lat": 41.5034592, "lon": -7.8009293 },
-    { "lat": 41.5034806, "lon": -7.8009038 },
-    { "lat": 41.5035016, "lon": -7.8008820 },
-    { "lat": 41.5035245, "lon": -7.8008670 },
-    { "lat": 41.5034994, "lon": -7.8008066 },
-    { "lat": 41.5034944, "lon": -7.8007952 }
+    { "lat": 41.5034582, "lon": -7.8009276 },
+    { "lat": 41.5034704, "lon": -7.8009146 },
+    { "lat": 41.5034922, "lon": -7.8008927 },
+    { "lat": 41.5035136, "lon": -7.8008749 },
+    { "lat": 41.5035377, "lon": -7.8008567 },
+    { "lat": 41.5035075, "lon": -7.8007858 }
   ],
   "tags": {
     "access": "yes",
     "amenity": "charging_station",
     "brand": "Tesla Supercharger",
     "brand:wikidata": "Q17089620",
-    "capacity": "4",
-    "charging_station:output": "300 kW",
-    "description": "V2",
+    "capacity": "12",
+    "charging_station:output": "1050 kW",
+    "description": "v3.5",
     "fee": "yes",
     "motorcar": "yes",
     "name": "Ribeira de Pena Supercharger",
@@ -1797,8 +1799,8 @@
     "phone": "+351 300 527 476",
     "ref:tesla": "vilarealsupercharger",
     "short_name": "Tesla",
-    "socket:type2_combo": "4",
-    "socket:type2_combo:output": "150 kW",
+    "socket:type2_combo": "12",
+    "socket:type2_combo:output": "250 kW",
     "website": "https://www.tesla.com/findus/location/supercharger/vilarealsupercharger"
   }
 },
@@ -56342,14 +56344,14 @@
     "capacity": "3",
     "email": "renewing.charging@mota-engil.pt",
     "motorcar": "yes",
-    "name": "CBC-?????",
+    "name": "CBC-00019/20",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Mota Engil II",
     "operator:wikidata": "Q1949595",
     "parking:fee": "no",
     "phone": "+351 800 020 940",
-    "ref": "CBC-?????"
+    "ref": "CBC-00019;CBC-00020"
   }
 },
 {
@@ -68291,7 +68293,7 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "PLM-00076",
+    "name": "IONITY Quinta do Conde",
     "network": "Mobi.E;Ionity",
     "opening_hours": "24/7",
     "operator": "IONITY",
@@ -73480,14 +73482,14 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "SXL-?????",
+    "name": "SXL-00093/94",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Atlante",
     "operator:wikidata": "Q126913632",
     "parking:fee": "no",
     "phone": "+351 800 296 929;+351 234 246 050",
-    "ref": "SXL-?????",
+    "ref": "SXL-00093;SXL-00094",
     "website": "https://www.mobie.pt/"
   }
 },
@@ -76042,6 +76044,51 @@
     "operator": "Zunder",
     "parking:fee": "no",
     "website": "https://www.zunder.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 1524373015,
+  "bounds": {
+    "minlat": 41.2645224,
+    "minlon": -8.2922960,
+    "maxlat": 41.2646474,
+    "maxlon": -8.2921298
+  },
+  "nodes": [
+    13894036137,
+    13894036134,
+    13894036123,
+    13894036124,
+    13894036137
+  ],
+  "geometry": [
+    { "lat": 41.2646474, "lon": -8.2922167 },
+    { "lat": 41.2645883, "lon": -8.2921298 },
+    { "lat": 41.2645224, "lon": -8.2922091 },
+    { "lat": 41.2645816, "lon": -8.2922960 },
+    { "lat": 41.2646474, "lon": -8.2922167 }
+  ],
+  "tags": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "brand": "Powerdot",
+    "brand:wikidata": "Q123574541",
+    "capacity": "8",
+    "charging_station:output": "400 kW",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LOU-00020/21",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "operator:wikidata": "Q123574541",
+    "parking:fee": "no",
+    "phone": "+351 800 180 292",
+    "ref": "LOU-00020;LOU-00021",
+    "website": "https://www.mobie.pt"
   }
 }
 
