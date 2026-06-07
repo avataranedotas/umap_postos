@@ -1423,7 +1423,7 @@
     "capacity": "2",
     "construction:amenity": "charging_station",
     "fee": "yes",
-    "fixme": "Verificar se existe obra no local",
+    "fixme": "Verificar se existe posto",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "SAT-00003",
@@ -4983,47 +4983,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12801323404",
-  "properties": {
-    "access": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "wowplug",
-    "brand:wikidata": "Q137294207",
-    "capacity": "2",
-    "construction:man_made": "charge_point",
-    "email": "suporte@wowplug.com",
-    "fee": "yes",
-    "manufacturer": "wowplug",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "True Kare",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "ref": "CSC-00341",
-    "ref:EU:EVSE": "PT*TRK*E*CSC*00341*01;PT*TRK*E*CSC*00341*02",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt/",
-    "id": "node/12801323404"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.4221507,
-      38.7024098
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12824235156",
   "properties": {
     "access": "yes",
@@ -8480,9 +8439,9 @@
     "capacity": "1",
     "construction:man_made": "charge_point",
     "fee": "yes",
-    "fixme": "Verificar qual o operador e a forma de pagamento",
     "maxstay": "unlimited",
     "motorcar": "yes",
+    "note": "Não tem informação de qual o operador nem como se activa o posto",
     "opening_hours": "24/7",
     "operator": "unknown",
     "parking:fee": "no",
@@ -8490,6 +8449,10 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
     "id": "node/13294985626"
   },
   "geometry": {
@@ -8511,9 +8474,9 @@
     "capacity": "1",
     "construction:man_made": "charge_point",
     "fee": "yes",
-    "fixme": "Verificar qual o operador e a forma de pagamento",
     "maxstay": "unlimited",
     "motorcar": "yes",
+    "note": "Não tem informação de qual o operador nem como se activa o posto",
     "opening_hours": "24/7",
     "operator": "unknown",
     "parking:fee": "no",
@@ -8521,6 +8484,10 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
     "id": "node/13294985627"
   },
   "geometry": {
@@ -12527,7 +12494,7 @@
     "operator": "DTE",
     "parking:fee": "no",
     "payment:app": "yes",
-    "payment:cards": "no",
+    "payment:cards": "yes",
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "ref": "AGD-00023",
@@ -12613,7 +12580,7 @@
     "operator": "DTE",
     "parking:fee": "no",
     "payment:app": "yes",
-    "payment:cards": "no",
+    "payment:cards": "yes",
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "ref": "AGD-00020",
@@ -16438,48 +16405,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13892522609",
-  "properties": {
-    "access": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "KLC",
-    "brand:wikidata": "Q127504745",
-    "capacity": "1",
-    "construction:man_made": "charge_point",
-    "email": "apoio.cliente@kmlowcost.com",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "KLC Serviços",
-    "operator:wikidata": "Q127504745",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 202 060",
-    "ref": "TVD-00109",
-    "ref:EU:EVSE": "PT*KLS*E*TVD*00109*01",
-    "socket:type2_cable": "1",
-    "socket:type2_cable:current": "16",
-    "socket:type2_cable:output": "11 kW",
-    "socket:type2_cable:voltage": "400",
-    "website": "https://www.mobie.pt/",
-    "id": "node/13892522609"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.2782566,
-      39.097476
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13892522610",
   "properties": {
     "access": "yes",
@@ -16795,48 +16720,6 @@
     "coordinates": [
       -8.7883617,
       41.568503
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/13894036121",
-  "properties": {
-    "access": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Powerdot",
-    "brand:wikidata": "Q123574541",
-    "capacity": "1",
-    "construction:man_made": "charge_point",
-    "email": "ajuda@powerdot.pt",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Powerdot",
-    "operator:wikidata": "Q123574541",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 180 292",
-    "ref": "LOU-00020",
-    "ref:EU:EVSE": "PT*HRZ*E*LOU*00020*04",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "300",
-    "socket:type2_combo:output": "200 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/",
-    "id": "node/13894036121"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.2922999,
-      41.2644291
     ]
   }
 },
@@ -18588,6 +18471,365 @@
     "coordinates": [
       -8.7113257,
       39.7127518
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13914861750",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "charge_point:output": "400 kW",
+    "construction:man_made": "charge_point",
+    "email": "suporte@chargingtogether.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "ALM-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "600",
+    "socket:type2_combo:output": "400 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://iberdrola-bppulse.es/",
+    "id": "node/13914861750"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1792823,
+      38.6646095
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13914861752",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "charge_point:output": "400 kW",
+    "construction:man_made": "charge_point",
+    "email": "suporte@chargingtogether.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "ALM-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "600",
+    "socket:type2_combo:output": "400 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://iberdrola-bppulse.es/",
+    "id": "node/13914861752"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1793354,
+      38.6646267
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13915061733",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Zunder",
+    "capacity": "2",
+    "charge_point:output": "400 kW",
+    "construction:man_made": "charge_point",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Zunder",
+    "opening_hours": "24/7",
+    "operator": "Zunder",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "600",
+    "socket:type2_combo:output": "400 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.zunder.com/",
+    "id": "node/13915061733"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6088915,
+      41.2032599
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13915061734",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Zunder",
+    "capacity": "2",
+    "charge_point:output": "400 kW",
+    "construction:man_made": "charge_point",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Zunder",
+    "opening_hours": "24/7",
+    "operator": "Zunder",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "600",
+    "socket:type2_combo:output": "400 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.zunder.com/",
+    "id": "node/13915061734"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6088842,
+      41.2032599
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13915061735",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Zunder",
+    "capacity": "2",
+    "charge_point:output": "400 kW",
+    "construction:man_made": "charge_point",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Zunder",
+    "opening_hours": "24/7",
+    "operator": "Zunder",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "600",
+    "socket:type2_combo:output": "400 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.zunder.com/",
+    "id": "node/13915061735"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.608881,
+      41.2032204
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13915061738",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Zunder",
+    "capacity": "2",
+    "charge_point:output": "400 kW",
+    "construction:man_made": "charge_point",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Zunder",
+    "opening_hours": "24/7",
+    "operator": "Zunder",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "600",
+    "socket:type2_combo:output": "400 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.zunder.com/",
+    "id": "node/13915061738"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6088744,
+      41.2032206
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13915324949",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "leve",
+    "brand:wikidata": "Q30256831",
+    "capacity": "2",
+    "construction:man_made": "charge_point",
+    "email": "opc@emel.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EMEL",
+    "operator:wikidata": "Q30256831",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 910 255",
+    "ref": "LSB-01182",
+    "ref:EU:EVSE": "PT*EML*E*LSB*01182*01;PT*EML*E*LSB*01182*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13915324949"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1845227,
+      38.7654179
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13915324960",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "leve",
+    "brand:wikidata": "Q30256831",
+    "capacity": "2",
+    "construction:man_made": "charge_point",
+    "email": "opc@emel.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EMEL",
+    "operator:wikidata": "Q30256831",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 910 255",
+    "ref": "LSB-01181",
+    "ref:EU:EVSE": "PT*EML*E*LSB*01181*01;PT*EML*E*LSB*01181*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13915324960"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1845117,
+      38.7654633
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13915414372",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "uCharge",
+    "capacity": "2",
+    "construction:amenity": "charging_station",
+    "email": "geral@ucharge.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "ODV-00051",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Logical Gravity",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 210 939 606;+351 224 801 080",
+    "ref": "ODV-00053",
+    "ref:EU:EVSE": "PT*LOG*E*ODV*00051*01;PT*LOG*E*ODV*00051*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13915414372"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1870896,
+      38.7896552
     ]
   }
 }
