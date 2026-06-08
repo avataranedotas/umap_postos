@@ -21228,62 +21228,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8757687010",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Coimbra",
-    "amenity": "charging_station",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Lidl",
-    "brand:wikidata": "Q151954",
-    "capacity": "2",
-    "charging_station:output": "93 kW",
-    "email": "veiculoeletrico@galp.com",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "CBR-00126",
-    "network": "Mobi.E",
-    "old_operator": "KLC;KLC Serviços",
-    "old_ref": "CBR-00019;CBR-00087",
-    "opening_hours": "24/7",
-    "operator": "Galp Power",
-    "operator:wikidata": "Q135275372",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 249 249",
-    "ref": "CBR-00126",
-    "ref:EU:EVSE": "PT*GLP*ECBR*00126*01;PT*GLP*ECBR*00126*02;PT*GLP*ECBR*00126*03",
-    "socket:chademo": "1",
-    "socket:chademo:current": "120",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_cable": "1",
-    "socket:type2_cable:current": "63",
-    "socket:type2_cable:output": "43 kW",
-    "socket:type2_cable:voltage": "400",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "125",
-    "socket:type2_combo:output": "50 kW",
-    "socket:type2_combo:voltage": "500",
-    "website": "https://www.mobie.pt",
-    "id": "node/8757687010"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.4387376,
-      40.2272667
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8757688907",
   "properties": {
     "access": "yes",
@@ -45847,55 +45791,6 @@
     "coordinates": [
       -6.7745474,
       41.7876585
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10218086016",
-  "properties": {
-    "access": "yes",
-    "amenity": "charging_station",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Galp electric",
-    "brand:wikidata": "Q135275372",
-    "capacity": "2",
-    "charging_station:output": "120 kW",
-    "email": "veiculoeletrico@galp.com",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "ARV-00009",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Galp Power",
-    "operator:wikidata": "Q135275372",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 249 249",
-    "ref": "ARV-00009",
-    "ref:EU:EVSE": "PT*GLP*EARV*00009*01;PT*GLP*EARV*00009*02",
-    "socket:chademo": "1",
-    "socket:chademo:current": "125",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "200",
-    "socket:type2_combo:output": "120 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/",
-    "id": "node/10218086016"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.0782843,
-      38.9884197
     ]
   }
 },
@@ -114116,6 +114011,7 @@
     "charging_station:output": "72 kW",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "fixme": "Verificar o preço utilizando cartão bancário",
     "indoor": "yes",
     "location": "underground",
     "maxstay": "unlimited",
@@ -114127,7 +114023,7 @@
     "operator:wikidata": "Q135275372",
     "parking:fee": "no",
     "payment:app": "yes",
-    "payment:cards": "no",
+    "payment:cards": "yes",
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
@@ -120104,12 +120000,13 @@
     "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "brand": "Galp electric",
-    "brand:wikidata": "Q135275372",
+    "brand": "Lidl",
+    "brand:wikidata": "Q151954",
     "capacity": "2",
     "charging_station:output": "72 kW",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "fixme": "Verificar se aceita pagamento com cartão bancário",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "VFX-00138",
@@ -123352,7 +123249,7 @@
     "charging_station:output": "72 kW",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
-    "fixme": "Move to exact location",
+    "fixme": "Verificar se aceita pagamento com cartão bancário, mover para a posição exacta",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "BRR-00158",
@@ -126188,7 +126085,7 @@
     "model": "Titan V3",
     "motorcar": "yes",
     "network": "Mobi.E",
-    "opening_hours": "24/7",
+    "opening_hours": "11:00-22:30",
     "operator": "Powerdot",
     "operator:wikidata": "Q123574541",
     "parking:fee": "no",
@@ -126213,8 +126110,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.5676073,
-      41.0573869
+      -8.567551,
+      41.0571478
     ]
   }
 },
@@ -126237,7 +126134,7 @@
     "model": "Titan V3",
     "motorcar": "yes",
     "network": "Mobi.E",
-    "opening_hours": "24/7",
+    "opening_hours": "11:00-22:30",
     "operator": "Powerdot",
     "operator:wikidata": "Q123574541",
     "parking:fee": "no",
@@ -126262,8 +126159,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.5676619,
-      41.0573728
+      -8.5674981,
+      41.0571652
     ]
   }
 },
@@ -128055,6 +127952,49 @@
     "coordinates": [
       -9.1589334,
       39.3524687
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13908078529",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Renewing",
+    "capacity": "2",
+    "charging_station:output": "120 kW",
+    "email": "renewing.charging@mota-engil.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "TVD-00059",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Mota Engil II",
+    "operator:wikidata": "Q1949595",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 020 940",
+    "ref": "TVD-00059",
+    "ref:EU:EVSE": "PT*MOT*E*TVD*00059*01;PT*MOT*E*TVD*00059*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "400",
+    "socket:type2_combo:output": "120 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13908078529"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.208222,
+      39.0668806
     ]
   }
 }
