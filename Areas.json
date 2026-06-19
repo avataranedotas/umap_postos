@@ -1895,6 +1895,7 @@
     "brand": "Tesla Supercharger",
     "brand:wikidata": "Q17089620",
     "capacity": "20",
+    "charging_station:output": "1750 kW",
     "description": "V4",
     "fee": "yes",
     "motorcar": "yes",
@@ -28745,10 +28746,10 @@
   "type": "way",
   "id": 1420819165,
   "bounds": {
-    "minlat": 40.4987285,
-    "minlon": -7.8935313,
-    "maxlat": 40.4988269,
-    "maxlon": -7.8934067
+    "minlat": 40.4981782,
+    "minlon": -7.8936975,
+    "maxlat": 40.4982756,
+    "maxlon": -7.8935707
   },
   "nodes": [
     13056909509,
@@ -28758,11 +28759,11 @@
     13056909509
   ],
   "geometry": [
-    { "lat": 40.4987924, "lon": -7.8934067 },
-    { "lat": 40.4987285, "lon": -7.8934776 },
-    { "lat": 40.4987629, "lon": -7.8935313 },
-    { "lat": 40.4988269, "lon": -7.8934604 },
-    { "lat": 40.4987924, "lon": -7.8934067 }
+    { "lat": 40.4982386, "lon": -7.8935707 },
+    { "lat": 40.4981782, "lon": -7.8936467 },
+    { "lat": 40.4982151, "lon": -7.8936975 },
+    { "lat": 40.4982756, "lon": -7.8936215 },
+    { "lat": 40.4982386, "lon": -7.8935707 }
   ],
   "tags": {
     "access": "yes",
@@ -28773,12 +28774,12 @@
     "brand": "Continente Plug&Charge",
     "capacity": "4",
     "check_date": "2026-06-16",
-    "fixme": "Move to exact location",
     "motorcar": "yes",
     "name": "Continente Bom Dia Canas de Senhorim",
     "network": "Continente Plug&Charge",
     "opening_hours": "24/7",
     "operator": "Continente",
+    "operator:wikidata": "Q2995683",
     "parking:fee": "no"
   }
 },
@@ -77571,6 +77572,94 @@
     "payment:membership_card": "yes",
     "ref": "FND-00037;FND-00038",
     "website": "https://www.mobie.pt/"
+  }
+},
+{
+  "type": "way",
+  "id": 1530684417,
+  "bounds": {
+    "minlat": 41.1171362,
+    "minlon": -8.5092931,
+    "maxlat": 41.1172015,
+    "maxlon": -8.5092062
+  },
+  "nodes": [
+    13950695644,
+    13950695647,
+    13950695642,
+    13950695641,
+    13950695644
+  ],
+  "geometry": [
+    { "lat": 41.1171690, "lon": -8.5092931 },
+    { "lat": 41.1172015, "lon": -8.5092529 },
+    { "lat": 41.1171687, "lon": -8.5092062 },
+    { "lat": 41.1171362, "lon": -8.5092464 },
+    { "lat": 41.1171690, "lon": -8.5092931 }
+  ],
+  "tags": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "GDM-00033",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "phone": "+351 800 222 222",
+    "ref": "GDM-00033",
+    "website": "https://www.mobie.pt/"
+  }
+},
+{
+  "type": "way",
+  "id": 1530688010,
+  "bounds": {
+    "minlat": 32.7377780,
+    "minlon": -16.7367180,
+    "maxlat": 32.7378465,
+    "maxlon": -16.7366239
+  },
+  "nodes": [
+    11748041001,
+    11748041002,
+    13950732324,
+    13950732325,
+    11748041001
+  ],
+  "geometry": [
+    { "lat": 32.7378033, "lon": -16.7367180 },
+    { "lat": 32.7377780, "lon": -16.7366449 },
+    { "lat": 32.7378211, "lon": -16.7366239 },
+    { "lat": 32.7378465, "lon": -16.7366969 },
+    { "lat": 32.7378033, "lon": -16.7367180 }
+  ],
+  "tags": {
+    "access": "yes",
+    "addr:city": "Caniçal",
+    "addr:street": "Travessa Centro Cívico",
+    "amenity": "charging_station",
+    "brand": "Factor Energia",
+    "capacity": "3",
+    "charging_station:output": "72 kW",
+    "email": "info@factorenergia.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "MCH-00003/4",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Factor Energia",
+    "parking:fee": "no",
+    "phone": "+351 800 100 013",
+    "ref": "MCH-00003;MCH-00004",
+    "website": "https://www.mobie.pt"
   }
 }
 
