@@ -12445,7 +12445,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 917 576",
     "ref": "ACB-00052",
-    "ref:EU:EVSE": "PT*FCT*E*ACB*00052*01;PT*FCT*E*ACB*00052*02;PT*FCT*E233*3",
+    "ref:EU:EVSE": "PT*FCT*E*ACB*00052*01;PT*FCT*E*ACB*00052*02;PT*FCT*E*ACB*00052*03",
     "socket:chademo": "1",
     "socket:chademo:current": "200",
     "socket:chademo:output": "80 kW",
@@ -14816,6 +14816,46 @@
     "coordinates": [
       -8.6884895,
       41.2044329
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13072809071",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "charge_point:output": "400 kW",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "MTA-00099",
+    "ref:EU:EVSE": "PT*FCT*E244*1;PT*FCT*E244*2;PT*FCT*E*MTA*00099*01;PT*FCT*E*MTA*00099*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "600",
+    "socket:type2_combo:output": "400 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13072809071"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.9939662,
+      38.6477626
     ]
   }
 },
@@ -25019,6 +25059,49 @@
     "coordinates": [
       -8.5458345,
       41.3396622
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13667135432",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Atlante",
+    "brand:wikidata": "Q126913632",
+    "capacity": "2",
+    "charge_point:output": "60 kW",
+    "email": "support.portugal@atlante.energy",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Atlante",
+    "operator:wikidata": "Q126913632",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 296 929;+351 234 246 050",
+    "ref": "SSB-00030",
+    "ref:EU:EVSE": "PT*ATL*ESSB*00030*1;PT*ATL*ESSB*00030*2",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "60 kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13667135432"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.0373553,
+      38.5647077
     ]
   }
 },
