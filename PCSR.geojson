@@ -2051,11 +2051,7 @@
     "payment:membership_card": "yes",
     "ref": "VRL-00061",
     "ref:EU:EVSE": "PT*ACC*E2092;PT*ACC*E8972",
-    "socket:chademo": "1",
-    "socket:chademo:current": "125",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_combo": "1",
+    "socket:type2_combo": "2",
     "socket:type2_combo:current": "250",
     "socket:type2_combo:output": "150 kW",
     "socket:type2_combo:voltage": "1000",
@@ -2189,11 +2185,7 @@
     "payment:membership_card": "yes",
     "ref": "VRL-00063",
     "ref:EU:EVSE": "PT*ACC*E8221;PT*ACC*E8428",
-    "socket:chademo": "1",
-    "socket:chademo:current": "125",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_combo": "1",
+    "socket:type2_combo": "2",
     "socket:type2_combo:current": "250",
     "socket:type2_combo:output": "150 kW",
     "socket:type2_combo:voltage": "1000",
@@ -2261,53 +2253,6 @@
     "coordinates": [
       -8.6876716,
       41.1745776
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9668119753",
-  "properties": {
-    "access": "yes",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "edp Charge",
-    "brand:wikidata": "Q1341222",
-    "capacity": "2",
-    "charge_point:output": "150 kW",
-    "fee": "yes",
-    "man_made": "charge_point",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "EDP",
-    "operator:wikidata": "Q1341222",
-    "parking:fee": "yes",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 222 222",
-    "ref": "VNG-00083",
-    "ref:EU:EVSE": "PT*EDP*EVNG*00083*1;PT*EDP*EVNG*00083*2",
-    "socket:chademo": "1",
-    "socket:chademo:current": "120",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "375",
-    "socket:type2_combo:output": "150 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt",
-    "id": "node/9668119753"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.6478093,
-      41.1431071
     ]
   }
 },
@@ -38263,6 +38208,49 @@
     "coordinates": [
       -8.2922359,
       41.2643869
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13905506865",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Atlante",
+    "brand:wikidata": "Q126913632",
+    "capacity": "2",
+    "email": "support.portugal@atlante.energy",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "manufacturer": "Starcharge",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Atlante",
+    "operator:wikidata": "Q126913632",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 296 929;+351 234 246 050",
+    "ref": "TNV-00032",
+    "ref:EU:EVSE": "PT*ATL*ETNV*00032*1;PT*ATL*ETNV*00032*2",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "400",
+    "socket:type2_combo:output": "150 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13905506865"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6319597,
+      39.4828211
     ]
   }
 },
