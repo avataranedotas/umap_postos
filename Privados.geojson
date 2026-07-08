@@ -1395,7 +1395,7 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
-    "ref": "VNG-00037;VNG-00038",
+    "ref": "VNG-00037",
     "ref:EU:EVSE": "PT*GLP*EVNG*00037*01;PT*GLP*EVNG*00037*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
@@ -27886,8 +27886,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.1756828,
-      38.82205
+      -9.1759805,
+      38.8216467
     ]
   }
 },
@@ -35827,8 +35827,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.1757388,
-      38.8221286
+      -9.1760365,
+      38.8217253
     ]
   }
 },
@@ -35870,8 +35870,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.1757108,
-      38.8220895
+      -9.1760085,
+      38.8216862
     ]
   }
 },
@@ -35897,6 +35897,53 @@
     "coordinates": [
       -8.1640123,
       40.9703844
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12676331151",
+  "properties": {
+    "access": "customers",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Atlante",
+    "brand:wikidata": "Q126913632",
+    "capacity": "2",
+    "email": "support.portugal@atlante.energy",
+    "fee": "yes",
+    "fixme": "Verificar se aceita pagamento com cartão bancário",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "old_ref": "PRT-00297",
+    "old_ref:EU:EVSE": "PT*ATL*EPRT*00297*1;PT*ATL*EPRT*00297*2",
+    "opening_hours": "24/7",
+    "operator": "Atlante",
+    "operator:wikidata": "Q126913632",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 296 929;+351 234 246 050",
+    "ref": "PRT-00367",
+    "ref:EU:EVSE": "PT*ATL*EPRT*00367*1;PT*ATL*EPRT*00367*2",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12676331151"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6227374,
+      41.1530579
     ]
   }
 },
@@ -52727,6 +52774,49 @@
     "coordinates": [
       -9.1484493,
       38.7285815
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13994657168",
+  "properties": {
+    "access": "customers",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "2",
+    "fee": "yes",
+    "fixme": "Verificar se o acesso é público durante as horas de abertura do stand",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LSB-00693",
+    "network": "Mobi.E",
+    "opening_hours": "Mo-Fr 08:30-19:00; Sa 10:00-13:00,14:30-18:00",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "LSB-00693",
+    "ref:EU:EVSE": "PT*EDP*ELSB*00693*1;PT*EDP*ELSB*00693*2",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "300",
+    "socket:type2_combo:output": "120 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.edp.pt/",
+    "id": "node/13994657168"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1157178,
+      38.7877549
     ]
   }
 }
