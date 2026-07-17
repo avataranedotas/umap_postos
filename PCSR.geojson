@@ -265,6 +265,54 @@
 },
 {
   "type": "Feature",
+  "id": "node/8207755912",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Algés",
+    "addr:street": "Rua Parque Anjos",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Mobiletric",
+    "capacity": "2",
+    "email": "veiculoeletrico@galp.com",
+    "fee": "yes",
+    "manufacturer": "Hellonext",
+    "maxstay": "unlimited",
+    "model": "H2 180",
+    "motorcar": "yes",
+    "name": "OER-00295",
+    "network": "Mobi.E",
+    "old_ref": "OER-00032",
+    "old_ref:EU:EVSE": "PT*MLT*EOER*00032*01;PT*MLT*EOER*00032*02",
+    "opening_hours": "24/7",
+    "operator": "Mobiletric",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 249 249",
+    "ref": "OER-00295",
+    "ref:EU:EVSE": "PT*GLP*EOER*00295*01;PT*GLP*EOER*00295*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "300",
+    "socket:type2_combo:output": "180 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/8207755912"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.2314258,
+      38.6999998
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8220947977",
   "properties": {
     "access": "yes",
@@ -2409,7 +2457,6 @@
     "charge_point:output": "172 kW",
     "email": "support.portugal@atlante.energy",
     "fee": "yes",
-    "fixme": "Verificar se aceita pagamento com cartão bancário",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -2422,7 +2469,7 @@
     "operator:wikidata": "Q126913632",
     "parking:fee": "no",
     "payment:app": "yes",
-    "payment:cards": "no",
+    "payment:cards": "yes",
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 296 929;+351 234 246 050",
@@ -2446,8 +2493,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6876716,
-      41.1745776
+      -8.6876715,
+      41.1745769
     ]
   }
 },
@@ -11754,8 +11801,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.2334764,
-      37.6531018
+      -8.2334415,
+      37.6531995
     ]
   }
 },
@@ -25436,6 +25483,88 @@
     "coordinates": [
       -9.1385652,
       39.3753686
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13110851389",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "charge_point:output": "300 kW",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "BRG-00167",
+    "ref:EU:EVSE": "PT*FCT*E275*1;PT*FCT*E275*2;PT*FCT*E275*3",
+    "socket:chademo": "1",
+    "socket:chademo:current": "200",
+    "socket:chademo:output": "80 kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "300 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13110851389"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.430414,
+      41.579618
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13110851391",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "charge_point:output": "400 kW",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "BRG-00165",
+    "ref:EU:EVSE": "PT*FCT*E273*1;PT*FCT*E273*2",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "600",
+    "socket:type2_combo:output": "200 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13110851391"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4303118,
+      41.5796645
     ]
   }
 },
@@ -40091,6 +40220,50 @@
     "coordinates": [
       -8.3875085,
       41.271908
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14014771358",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "helexia",
+    "capacity": "2",
+    "email": "geral.pt@helexia.eu",
+    "fee": "yes",
+    "fixme": "Verificar se aceita pagamento com cartão bancário",
+    "manufacturer": "Iskraemeco",
+    "maxstay": "unlimited",
+    "model": "iFC160-350A",
+    "motorcar": "yes",
+    "name": "NLS-00012",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Helexia II",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 210 181 157",
+    "ref": "NLS-00012",
+    "ref:EU:EVSE": "PT*HLX*E*NLS*00012*01;PT*HLX*E*NLS*00012*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "350",
+    "socket:type2_combo:output": "160 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://helexia.pt/",
+    "id": "node/14014771358"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.903711,
+      40.498547
     ]
   }
 }
