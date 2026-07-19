@@ -5224,7 +5224,6 @@
   "properties": {
     "access": "yes",
     "addr:city": "Viseu",
-    "addr:country": "PT",
     "addr:street": "EN 16",
     "amenity": "charging_station",
     "authentication:app": "yes",
@@ -11585,7 +11584,6 @@
   "properties": {
     "access": "yes",
     "addr:city": "Viseu",
-    "addr:country": "PT",
     "addr:street": "Rua APPACDM",
     "amenity": "charging_station",
     "authentication:app": "yes",
@@ -11809,7 +11807,6 @@
   "properties": {
     "access": "yes",
     "addr:city": "São João da Madeira",
-    "addr:country": "PT",
     "addr:postcode": "3700-346",
     "addr:street": "Avenida Doutor Renato Araújo",
     "authentication:app": "yes",
@@ -14365,7 +14362,6 @@
   "properties": {
     "access": "yes",
     "addr:city": "Serpa",
-    "addr:country": "PT",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -16285,7 +16281,6 @@
   "properties": {
     "access": "yes",
     "addr:city": "São João da Madeira",
-    "addr:country": "PT",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -27192,7 +27187,6 @@
   "id": "node/9254470432",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -27763,6 +27757,9 @@
     "charge_point:output": "50 kW",
     "email": "renewing.charging@mota-engil.pt",
     "fee": "yes",
+    "indoor": "yes",
+    "level": "0",
+    "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -27792,8 +27789,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.4439988,
-      40.2120409
+      -8.4440475,
+      40.2108406
     ]
   }
 },
@@ -35319,7 +35316,6 @@
   "properties": {
     "access": "yes",
     "addr:city": "Nelas",
-    "addr:country": "PT",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -40725,6 +40721,56 @@
     "coordinates": [
       -7.9466982,
       37.0268508
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9920092716",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Atlante",
+    "brand:wikidata": "Q126913632",
+    "capacity": "2",
+    "charging_station:output": "60 kW",
+    "email": "support.portugal@atlante.energy",
+    "fee": "yes",
+    "fixme": "Verificar se aceita pagamento com cartão bancário",
+    "location": "underground",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "FAR-00099",
+    "network": "Mobi.E",
+    "old_operator": "KLC",
+    "old_ref": "FAR-00031;FAR-00041",
+    "old_ref:EU:EVSE": "PT*ATL*EFAR*00041*1;PT*ATL*EFAR*00041*2;PT*ATL*EFAR*00041*3",
+    "opening_hours": "24/7",
+    "operator": "Atlante",
+    "operator:wikidata": "Q126913632",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 296 929;+351 234 246 050",
+    "ref": "FAR-00099",
+    "ref:EU:EVSE": "PT*ATL*EFAR*00099*1;PT*ATL*EFAR*00099*2",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "60 kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt/",
+    "id": "node/9920092716"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.9248596,
+      37.0253723
     ]
   }
 },
@@ -57861,6 +57907,7 @@
     "charging_station:output": "100 kW",
     "email": "support.portugal@atlante.energy",
     "fee": "yes",
+    "fixme": "Verificar se aceita pagamento com cartão bancário",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "CVD-00006",
@@ -73065,7 +73112,6 @@
     "charging_station:output": "60 kW",
     "email": "support.portugal@atlante.energy",
     "fee": "yes",
-    "fixme": "Move to exact location",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "VRL-00037",
@@ -73095,8 +73141,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.760681,
-      41.3122841
+      -7.7606904,
+      41.312267
     ]
   }
 },
@@ -74348,51 +74394,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11931765171",
-  "properties": {
-    "access": "yes",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "edp Charge",
-    "brand:wikidata": "Q1341222",
-    "capacity": "2",
-    "charge_point:output": "60 kW",
-    "fee": "yes",
-    "man_made": "charge_point",
-    "manufacturer": "Starcharge",
-    "maxstay": "unlimited",
-    "model": "Athena",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "EDP",
-    "operator:wikidata": "Q1341222",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 222 222",
-    "ref": "CSC-00197",
-    "ref:EU:EVSE": "PT*EDP*ECSC*00197*1;PT*EDP*ECSC*00197*2;PT*EDP*E*CSC*00197*01;PT*EDP*E*CSC*00197*02",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "200",
-    "socket:type2_combo:output": "60 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/",
-    "id": "node/11931765171"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.4163836,
-      38.7291853
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11931765172",
   "properties": {
     "access": "yes",
@@ -75269,8 +75270,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.3985664,
-      41.2609649
+      -8.3984698,
+      41.2611988
     ]
   }
 },
@@ -85096,55 +85097,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12300225513",
-  "properties": {
-    "access": "yes",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "edp Charge",
-    "brand:wikidata": "Q1341222",
-    "capacity": "2",
-    "charge_point:output": "142 kW",
-    "fee": "yes",
-    "man_made": "charge_point",
-    "manufacturer": "Efacec",
-    "maxstay": "unlimited",
-    "model": "QC120",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "EDP",
-    "operator:wikidata": "Q1341222",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 222 222",
-    "ref": "CSC-00198",
-    "ref:EU:EVSE": "PT*EDP*ECSC*00198*1;PT*EDP*ECSC*00198*2;PT*EDP*ECSC*00198*3;PT*EDP*E*CSC*00198*01;PT*EDP*E*CSC*00198*02;PT*EDP*E*CSC*00198*03",
-    "socket:type2": "1",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "200",
-    "socket:type2_combo:output": "120 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/",
-    "id": "node/12300225513"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.4164426,
-      38.729176
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12302766860",
   "properties": {
     "access": "yes",
@@ -89906,10 +89858,12 @@
     "brand": "Continente Plug&Charge",
     "brand:wikidata": "Q2995683",
     "capacity": "2",
-    "charge_point:output": "50 kW",
+    "charge_point:output": "120 kW",
     "fee": "yes",
     "man_made": "charge_point",
+    "manufacturer": "Efacec",
     "maxstay": "unlimited",
+    "model": "QC120",
     "motorcar": "yes",
     "name": "Continente Modelo Régua",
     "network": "Continente Plug&Charge",
@@ -89927,8 +89881,8 @@
     "socket:chademo:output": "50 kW",
     "socket:chademo:voltage": "500",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "125",
-    "socket:type2_combo:output": "50 kW",
+    "socket:type2_combo:current": "200",
+    "socket:type2_combo:output": "120 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://plugcharge.continente.pt/",
     "id": "node/12472156946"
@@ -89936,8 +89890,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.79445,
-      41.1785932
+      -7.7943037,
+      41.1785097
     ]
   }
 },
@@ -90946,7 +90900,6 @@
     "charging_station:output": "72 kW",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
-    "fixme": "Move to exact location",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "SJM-00051",
@@ -90982,8 +90935,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.4946589,
-      40.9051127
+      -8.4945784,
+      40.9051188
     ]
   }
 },
@@ -93890,7 +93843,6 @@
   "properties": {
     "access": "yes",
     "addr:city": "Santa Maria da Feira",
-    "addr:country": "PT",
     "addr:street": "Rua da Estrada Nacional",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -95721,7 +95673,6 @@
     "charging_station:output": "72 kW",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
-    "fixme": "Move to exact location",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "CTB-00060",
@@ -95757,8 +95708,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.4704188,
-      39.917665
+      -7.470514,
+      39.9181001
     ]
   }
 },
@@ -96657,6 +96608,9 @@
     "charge_point:output": "25 kW",
     "email": "renewing.charging@mota-engil.pt",
     "fee": "yes",
+    "indoor": "yes",
+    "level": "0",
+    "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -96686,8 +96640,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.4439727,
-      40.2120519
+      -8.4440609,
+      40.2108609
     ]
   }
 },
@@ -97781,7 +97735,6 @@
   "properties": {
     "access": "yes",
     "addr:city": "Santa Maria da Feira",
-    "addr:country": "PT",
     "addr:street": "Rua de Santo André",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -106965,7 +106918,6 @@
   "id": "node/12935540611",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -107640,7 +107592,6 @@
     "capacity": "2",
     "charge_point:output": "50 kW",
     "fee": "yes",
-    "fixme": "Move to exact location",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -107665,8 +107616,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.7352799,
-      40.7450945
+      -7.7349587,
+      40.745133
     ]
   }
 },
@@ -109038,8 +108989,9 @@
     "capacity": "2",
     "charging_station:output": "142 kW",
     "fee": "yes",
-    "fixme": "Move to exact location",
+    "manufacturer": "Efacec",
     "maxstay": "unlimited",
+    "model": "QC120",
     "motorcar": "yes",
     "name": "TND-00020",
     "network": "Mobi.E",
@@ -109068,8 +109020,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.087444,
-      40.53035
+      -8.0871409,
+      40.5305702
     ]
   }
 },
@@ -109760,8 +109712,8 @@
     "capacity": "2",
     "charge_point:output": "60 kW",
     "fee": "yes",
-    "fixme": "Add level and move to exact location",
     "indoor": "yes",
+    "level": "-1",
     "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
@@ -109786,8 +109738,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6550486,
-      41.1801163
+      -8.6550587,
+      41.1801658
     ]
   }
 },
@@ -109990,7 +109942,6 @@
     "capacity": "2",
     "charge_point:output": "120 kW",
     "fee": "yes",
-    "fixme": "Move to exact location",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -110019,8 +109970,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -17.0454396,
-      32.8028607
+      -17.0454544,
+      32.8029678
     ]
   }
 },
@@ -110569,7 +110520,6 @@
     "capacity": "2",
     "charge_point:output": "60 kW",
     "fee": "yes",
-    "fixme": "Move to exact location",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -110594,8 +110544,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.0908423,
-      40.5185269
+      -8.0912386,
+      40.5184732
     ]
   }
 },
@@ -111063,7 +111013,7 @@
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
-    "opening_hours": "24/7",
+    "opening_hours": "10:00-22:00",
     "operator": "Helexia II",
     "operator:wikidata": "Q137294295",
     "parking:fee": "no",
@@ -111083,8 +111033,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.3111617,
-      41.2002643
+      -8.3113122,
+      41.2003261
     ]
   }
 },
@@ -111106,7 +111056,7 @@
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
-    "opening_hours": "24/7",
+    "opening_hours": "10:00-22:00",
     "operator": "Helexia II",
     "operator:wikidata": "Q137294295",
     "parking:fee": "no",
@@ -111126,8 +111076,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.3111666,
-      41.2002659
+      -8.3113683,
+      41.2003414
     ]
   }
 },
@@ -111251,8 +111201,8 @@
     "brand:wikidata": "Q2995683",
     "capacity": "2",
     "charge_point:output": "120 kW",
+    "covered": "yes",
     "fee": "yes",
-    "fixme": "Move to exact location",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -111281,8 +111231,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.0862118,
-      40.5262127
+      -8.085828,
+      40.5263324
     ]
   }
 },
@@ -111301,7 +111251,6 @@
     "capacity": "2",
     "charge_point:output": "50 kW",
     "fee": "yes",
-    "fixme": "Move to exact location, check power and charger model",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -111326,8 +111275,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.9755934,
-      39.4251143
+      -8.9755465,
+      39.4251407
     ]
   }
 },
@@ -113061,7 +113010,6 @@
     "capacity": "2",
     "charging_station:output": "142 kW",
     "fee": "yes",
-    "fixme": "Move to exact location",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "CTX-00008",
@@ -113091,8 +113039,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.780297,
-      39.166588
+      -8.7806819,
+      39.1660837
     ]
   }
 },
@@ -113109,7 +113057,6 @@
     "capacity": "2",
     "charging_station:output": "82 kW",
     "fee": "yes",
-    "fixme": "Move to exact location",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "VNG-00183",
@@ -113139,8 +113086,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.632519,
-      41.0850903
+      -8.6325793,
+      41.0850499
     ]
   }
 },
@@ -113389,7 +113336,6 @@
     "charging_station:output": "60 kW",
     "email": "support.portugal@atlante.energy",
     "fee": "yes",
-    "fixme": "Move to exact location",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "RMR-00015",
@@ -113415,8 +113361,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.938185,
-      39.3318433
+      -8.9376781,
+      39.3313889
     ]
   }
 },
@@ -117621,8 +117567,9 @@
     "charging_station:output": "72 kW",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
-    "fixme": "Move to exact location",
+    "manufacturer": "ABB",
     "maxstay": "unlimited",
+    "model": "Terra 54",
     "motorcar": "yes",
     "name": "PMS-00015",
     "network": "Mobi.E",
@@ -117655,8 +117602,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.8542416,
-      39.6291149
+      -8.85488,
+      39.6287916
     ]
   }
 },
@@ -121374,7 +121321,6 @@
   "properties": {
     "access": "yes",
     "addr:city": "São João da Madeira",
-    "addr:country": "PT",
     "addr:postcode": "3700-346",
     "addr:street": "Avenida Doutor Renato Araújo",
     "authentication:app": "yes",
@@ -123083,7 +123029,6 @@
     "charging_station:output": "122 kW",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
-    "fixme": "Move to exact location",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "MBR-00009",
@@ -123113,8 +123058,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.6133471,
-      40.9776084
+      -7.613322,
+      40.9777671
     ]
   }
 },
@@ -127997,7 +127942,6 @@
     "charging_station:output": "200 kW",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
-    "fixme": "Move to exact location",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "FLG-00032",
@@ -129245,9 +129189,8 @@
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
     "capacity": "2",
-    "charge_point:output": "50 kW",
+    "charge_point:output": "120 kW",
     "fee": "yes",
-    "fixme": "Mover para o local exacto, verificar a potência das tomadas e chapa de características",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -129261,9 +129204,9 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "no",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "150",
-    "socket:type2_combo:output": "50 kW",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "300",
+    "socket:type2_combo:output": "120 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://plugcharge.continente.pt/",
     "id": "node/13931869397"
@@ -129271,8 +129214,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6272202,
-      41.0961857
+      -8.6278988,
+      41.0959886
     ]
   }
 },
@@ -130907,6 +130850,93 @@
     "coordinates": [
       -7.5132267,
       39.8070915
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14023277938",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Atlante",
+    "brand:wikidata": "Q126913632",
+    "capacity": "2",
+    "charge_point:output": "200 kW",
+    "email": "support.portugal@atlante.energy",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Atlante",
+    "operator:wikidata": "Q126913632",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 296 929;+351 234 246 050",
+    "ref": "SSB-00039",
+    "ref:EU:EVSE": "PT*ATL*ESSB*00039*1;PT*ATL*ESSB*00039*2",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "300",
+    "socket:type2_combo:output": "100 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/14023277938"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.105997,
+      38.4895235
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14024163122",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Alijó",
+    "addr:postcode": "5070-011",
+    "addr:street": "Avenida 25 de Abril",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "2",
+    "charge_point:output": "50 kW",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Continente Bom Dia Alijó",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "24/7",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "phone": "+351 210 19 19 19",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "50 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/14024163122"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.4787082,
+      41.2709318
     ]
   }
 }

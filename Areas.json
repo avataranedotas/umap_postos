@@ -77,7 +77,6 @@
   "tags": {
     "access": "yes",
     "addr:city": "Santa Maria da Feira",
-    "addr:country": "PT",
     "addr:street": "Rua de Santo André",
     "amenity": "charging_station",
     "brand": "Lidl",
@@ -478,7 +477,6 @@
   ],
   "tags": {
     "access": "customers",
-    "addr:country": "PT",
     "amenity": "charging_station",
     "capacity": "2",
     "check_date": "2026-06-05",
@@ -514,7 +512,6 @@
   "tags": {
     "access": "yes",
     "addr:city": "Santa Maria da Feira",
-    "addr:country": "PT",
     "addr:street": "Rua São Paulo da Cruz",
     "amenity": "charging_station",
     "brand": "Galp electric",
@@ -709,7 +706,6 @@
   "tags": {
     "access": "yes",
     "addr:city": "Santa Maria da Feira",
-    "addr:country": "PT",
     "addr:street": "Rua da Estrada Nacional",
     "amenity": "charging_station",
     "brand": "Galp electric",
@@ -1004,7 +1000,6 @@
   "tags": {
     "access": "yes",
     "addr:city": "Viseu",
-    "addr:country": "PT",
     "addr:street": "Rua 5 de Outubro",
     "amenity": "charging_station",
     "brand": "Atlante",
@@ -4454,10 +4449,10 @@
   "type": "way",
   "id": 1348344183,
   "bounds": {
-    "minlat": 41.1785225,
-    "minlon": -7.7945306,
-    "maxlat": 41.1786141,
-    "maxlon": -7.7943978
+    "minlat": 41.1784559,
+    "minlon": -7.7943717,
+    "maxlat": 41.1785475,
+    "maxlon": -7.7942389
   },
   "nodes": [
     12472156944,
@@ -4467,11 +4462,11 @@
     12472156944
   ],
   "geometry": [
-    { "lat": 41.1786141, "lon": -7.7944927 },
-    { "lat": 41.1785780, "lon": -7.7943978 },
-    { "lat": 41.1785225, "lon": -7.7944357 },
-    { "lat": 41.1785588, "lon": -7.7945306 },
-    { "lat": 41.1786141, "lon": -7.7944927 }
+    { "lat": 41.1785475, "lon": -7.7943338 },
+    { "lat": 41.1785114, "lon": -7.7942389 },
+    { "lat": 41.1784559, "lon": -7.7942768 },
+    { "lat": 41.1784922, "lon": -7.7943717 },
+    { "lat": 41.1785475, "lon": -7.7943338 }
   ],
   "tags": {
     "access": "yes",
@@ -4482,7 +4477,6 @@
     "brand": "Continente Plug&Charge",
     "brand:wikidata": "Q2995683",
     "capacity": "4",
-    "fixme": "Move to exact location",
     "motorcar": "yes",
     "name": "Continente Modelo Régua",
     "network": "Continente Plug&Charge",
@@ -6448,7 +6442,6 @@
     "brand": "Helexia",
     "brand:wikidata": "Q137294295",
     "capacity": "15",
-    "fixme": "Move charge_points to exact location and adjust area according to charging places",
     "level": "-1",
     "location": "underground",
     "motorcar": "yes",
@@ -7102,6 +7095,7 @@
     "brand:wikidata": "Q126913632",
     "capacity": "18",
     "charging_station:output": "550 kW",
+    "check_date": "2026-07-18",
     "motorcar": "yes",
     "name": "GMR-00115…123",
     "network": "Mobi.E",
@@ -7109,7 +7103,11 @@
     "operator": "Atlante",
     "operator:wikidata": "Q126913632",
     "parking:fee": "no",
-    "ref": "GMR-00115;GMR-00116;GMR-00117;GMR-00118;GMR-00119;GMR-00120;GMR-00121;GMR-00122;GMR-00123"
+    "ref": "GMR-00115;GMR-00116;GMR-00117;GMR-00118;GMR-00119;GMR-00120;GMR-00121;GMR-00122;GMR-00123",
+    "socket:chademo": "4",
+    "socket:type2": "8",
+    "socket:type2_combo": "4",
+    "socket:type2_combo:output": "60"
   }
 },
 {
@@ -9078,10 +9076,10 @@
   "type": "way",
   "id": 1365568505,
   "bounds": {
-    "minlat": 40.2119237,
-    "minlon": -8.4441605,
-    "maxlat": 40.2120623,
-    "maxlon": -8.4439281
+    "minlat": 40.2107145,
+    "minlon": -8.4440742,
+    "maxlat": 40.2108936,
+    "maxlon": -8.4438988
   },
   "nodes": [
     12645779379,
@@ -9091,11 +9089,11 @@
     12645779379
   ],
   "geometry": [
-    { "lat": 40.2119237, "lon": -8.4441234 },
-    { "lat": 40.2120170, "lon": -8.4439281 },
-    { "lat": 40.2120623, "lon": -8.4439652 },
-    { "lat": 40.2119691, "lon": -8.4441605 },
-    { "lat": 40.2119237, "lon": -8.4441234 }
+    { "lat": 40.2107411, "lon": -8.4438988 },
+    { "lat": 40.2108936, "lon": -8.4440136 },
+    { "lat": 40.2108670, "lon": -8.4440742 },
+    { "lat": 40.2107145, "lon": -8.4439596 },
+    { "lat": 40.2107411, "lon": -8.4438988 }
   ],
   "tags": {
     "access": "yes",
@@ -9104,6 +9102,9 @@
     "capacity": "8",
     "email": "renewing.charging@mota-engil.pt",
     "fee": "yes",
+    "indoor": "yes",
+    "level": "0",
+    "location": "underground",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "CBR-00043…50",
@@ -11363,45 +11364,6 @@
 },
 {
   "type": "way",
-  "id": 1368154584,
-  "bounds": {
-    "minlat": 38.7291232,
-    "minlon": -9.4164704,
-    "maxlat": 38.7292180,
-    "maxlon": -9.4161698
-  },
-  "nodes": [
-    12670649741,
-    12670649740,
-    12670649739,
-    12670649738,
-    12670649741
-  ],
-  "geometry": [
-    { "lat": 38.7291232, "lon": -9.4164578 },
-    { "lat": 38.7291663, "lon": -9.4161698 },
-    { "lat": 38.7292180, "lon": -9.4161827 },
-    { "lat": 38.7291748, "lon": -9.4164704 },
-    { "lat": 38.7291232, "lon": -9.4164578 }
-  ],
-  "tags": {
-    "access": "yes",
-    "amenity": "charging_station",
-    "brand": "edp Charge",
-    "brand:wikidata": "Q1341222",
-    "capacity": "10",
-    "motorcar": "yes",
-    "name": "CSC-00194…198",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "EDP",
-    "operator:wikidata": "Q1341222",
-    "parking:fee": "no",
-    "ref": "CSC-00194;CSC-00195;CSC-00196;CSC-00197;CSC-00198"
-  }
-},
-{
-  "type": "way",
   "id": 1368155944,
   "bounds": {
     "minlat": 38.7716251,
@@ -12648,10 +12610,10 @@
   "type": "way",
   "id": 1370116728,
   "bounds": {
-    "minlat": 38.7749559,
-    "minlon": -9.3419474,
-    "maxlat": 38.7750560,
-    "maxlon": -9.3418531
+    "minlat": 38.7749120,
+    "minlon": -9.3416993,
+    "maxlat": 38.7750121,
+    "maxlon": -9.3416050
   },
   "nodes": [
     12688777602,
@@ -12661,11 +12623,11 @@
     12688777602
   ],
   "geometry": [
-    { "lat": 38.7750429, "lon": -9.3418531 },
-    { "lat": 38.7749559, "lon": -9.3418818 },
-    { "lat": 38.7749691, "lon": -9.3419474 },
-    { "lat": 38.7750560, "lon": -9.3419187 },
-    { "lat": 38.7750429, "lon": -9.3418531 }
+    { "lat": 38.7749990, "lon": -9.3416050 },
+    { "lat": 38.7749120, "lon": -9.3416337 },
+    { "lat": 38.7749252, "lon": -9.3416993 },
+    { "lat": 38.7750121, "lon": -9.3416706 },
+    { "lat": 38.7749990, "lon": -9.3416050 }
   ],
   "tags": {
     "access": "yes",
@@ -14952,7 +14914,6 @@
   "tags": {
     "access": "yes",
     "addr:city": "São João da Madeira",
-    "addr:country": "PT",
     "addr:postcode": "3700-346",
     "addr:street": "Avenida Doutor Renato Araújo",
     "amenity": "charging_station",
@@ -21703,10 +21664,10 @@
   "type": "way",
   "id": 1391016071,
   "bounds": {
-    "minlat": 39.0508775,
-    "minlon": -8.7163523,
-    "maxlat": 39.0509309,
-    "maxlon": -8.7162321
+    "minlat": 39.0508801,
+    "minlon": -8.7164153,
+    "maxlat": 39.0509335,
+    "maxlon": -8.7162951
   },
   "nodes": [
     12875827492,
@@ -21716,11 +21677,11 @@
     12875827492
   ],
   "geometry": [
-    { "lat": 39.0508775, "lon": -8.7162428 },
-    { "lat": 39.0509051, "lon": -8.7163523 },
-    { "lat": 39.0509309, "lon": -8.7163416 },
-    { "lat": 39.0509034, "lon": -8.7162321 },
-    { "lat": 39.0508775, "lon": -8.7162428 }
+    { "lat": 39.0508801, "lon": -8.7163058 },
+    { "lat": 39.0509077, "lon": -8.7164153 },
+    { "lat": 39.0509335, "lon": -8.7164046 },
+    { "lat": 39.0509060, "lon": -8.7162951 },
+    { "lat": 39.0508801, "lon": -8.7163058 }
   ],
   "tags": {
     "access": "yes",
@@ -21732,7 +21693,6 @@
     "brand:wikidata": "Q2995683",
     "capacity": "2",
     "fee": "yes",
-    "fixme": "Move to exact location",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "Continente Bom Dia Marinhais",
@@ -21794,10 +21754,10 @@
   "type": "way",
   "id": 1391909609,
   "bounds": {
-    "minlat": 39.4633178,
-    "minlon": -8.6593559,
-    "maxlat": 39.4633919,
-    "maxlon": -8.6592423
+    "minlat": 39.4633306,
+    "minlon": -8.6593433,
+    "maxlat": 39.4634060,
+    "maxlon": -8.6592307
   },
   "nodes": [
     12884546258,
@@ -21807,11 +21767,11 @@
     12884546258
   ],
   "geometry": [
-    { "lat": 39.4633919, "lon": -8.6593353 },
-    { "lat": 39.4633396, "lon": -8.6592423 },
-    { "lat": 39.4633178, "lon": -8.6592628 },
-    { "lat": 39.4633700, "lon": -8.6593559 },
-    { "lat": 39.4633919, "lon": -8.6593353 }
+    { "lat": 39.4634060, "lon": -8.6593220 },
+    { "lat": 39.4633520, "lon": -8.6592307 },
+    { "lat": 39.4633306, "lon": -8.6592518 },
+    { "lat": 39.4633845, "lon": -8.6593433 },
+    { "lat": 39.4634060, "lon": -8.6593220 }
   ],
   "tags": {
     "access": "yes",
@@ -21823,7 +21783,6 @@
     "brand:wikidata": "Q2995683",
     "capacity": "2",
     "fee": "yes",
-    "fixme": "Move to exact location",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "Continente Bom Dia Alcanena",
@@ -23755,10 +23714,10 @@
   "type": "way",
   "id": 1412263862,
   "bounds": {
-    "minlat": 40.7450766,
-    "minlon": -7.7353528,
-    "maxlat": 40.7451510,
-    "maxlon": -7.7352207
+    "minlat": 40.7451260,
+    "minlon": -7.7350183,
+    "maxlat": 40.7451800,
+    "maxlon": -7.7348998
   },
   "nodes": [
     12977896860,
@@ -23768,11 +23727,11 @@
     12977896860
   ],
   "geometry": [
-    { "lat": 40.7451282, "lon": -7.7353528 },
-    { "lat": 40.7451510, "lon": -7.7352386 },
-    { "lat": 40.7450994, "lon": -7.7352207 },
-    { "lat": 40.7450766, "lon": -7.7353349 },
-    { "lat": 40.7451282, "lon": -7.7353528 }
+    { "lat": 40.7451794, "lon": -7.7350183 },
+    { "lat": 40.7451800, "lon": -7.7349002 },
+    { "lat": 40.7451266, "lon": -7.7348998 },
+    { "lat": 40.7451260, "lon": -7.7350178 },
+    { "lat": 40.7451794, "lon": -7.7350183 }
   ],
   "tags": {
     "access": "yes",
@@ -23783,7 +23742,6 @@
     "brand": "Continente Plug&Charge",
     "brand:wikidata": "Q2995683",
     "capacity": "4",
-    "fixme": "Move to exact location",
     "motorcar": "yes",
     "name": "Continente Bom Dia Sátão",
     "network": "Continente Plug&Charge",
@@ -23797,10 +23755,10 @@
   "type": "way",
   "id": 1412272871,
   "bounds": {
-    "minlat": 40.7626201,
-    "minlon": -8.5749753,
-    "maxlat": 40.7626885,
-    "maxlon": -8.5748490
+    "minlat": 40.7626270,
+    "minlon": -8.5749766,
+    "maxlat": 40.7626954,
+    "maxlon": -8.5748503
   },
   "nodes": [
     12977869955,
@@ -23810,11 +23768,11 @@
     12977869955
   ],
   "geometry": [
-    { "lat": 40.7626718, "lon": -8.5749753 },
-    { "lat": 40.7626201, "lon": -8.5749620 },
-    { "lat": 40.7626368, "lon": -8.5748490 },
-    { "lat": 40.7626885, "lon": -8.5748624 },
-    { "lat": 40.7626718, "lon": -8.5749753 }
+    { "lat": 40.7626787, "lon": -8.5749766 },
+    { "lat": 40.7626270, "lon": -8.5749633 },
+    { "lat": 40.7626437, "lon": -8.5748503 },
+    { "lat": 40.7626954, "lon": -8.5748637 },
+    { "lat": 40.7626787, "lon": -8.5749766 }
   ],
   "tags": {
     "access": "yes",
@@ -23823,7 +23781,6 @@
     "brand:wikidata": "Q123574541",
     "capacity": "4",
     "charging_station:output": "222 kW",
-    "fixme": "Move to exact location",
     "motorcar": "yes",
     "name": "ETR-00024/25",
     "network": "Mobi.E",
@@ -26674,51 +26631,6 @@
 },
 {
   "type": "way",
-  "id": 1417752688,
-  "bounds": {
-    "minlat": 41.1625465,
-    "minlon": -7.5955690,
-    "maxlat": 41.1626444,
-    "maxlon": -7.5954700
-  },
-  "nodes": [
-    13028627835,
-    13028627836,
-    13028627834,
-    13028627833,
-    13028627835
-  ],
-  "geometry": [
-    { "lat": 41.1626444, "lon": -7.5955048 },
-    { "lat": 41.1625618, "lon": -7.5954700 },
-    { "lat": 41.1625465, "lon": -7.5955342 },
-    { "lat": 41.1626291, "lon": -7.5955690 },
-    { "lat": 41.1626444, "lon": -7.5955048 }
-  ],
-  "tags": {
-    "access": "customers",
-    "amenity": "charging_station",
-    "brand": "Galp electric",
-    "brand:wikidata": "Q135275372",
-    "capacity": "4",
-    "email": "veiculoeletrico@galp.com",
-    "fee": "yes",
-    "fixme": "Move to exact location",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "SBR-00002/3",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Galp Power",
-    "operator:wikidata": "Q135275372",
-    "parking:fee": "no",
-    "phone": "+351 800 249 249",
-    "ref": "SBR-00002;SBR-00003",
-    "website": "https://www.mobie.pt/"
-  }
-},
-{
-  "type": "way",
   "id": 1417755453,
   "bounds": {
     "minlat": 41.4352082,
@@ -27541,10 +27453,10 @@
   "type": "way",
   "id": 1419353486,
   "bounds": {
-    "minlat": 41.1800660,
-    "minlon": -8.6551171,
-    "maxlat": 41.1801602,
-    "maxlon": -8.6550310
+    "minlat": 41.1801155,
+    "minlon": -8.6551272,
+    "maxlat": 41.1802097,
+    "maxlon": -8.6550411
   },
   "nodes": [
     13042778450,
@@ -27554,19 +27466,19 @@
     13042778450
   ],
   "geometry": [
-    { "lat": 41.1801512, "lon": -8.6551171 },
-    { "lat": 41.1800660, "lon": -8.6550964 },
-    { "lat": 41.1800750, "lon": -8.6550310 },
-    { "lat": 41.1801602, "lon": -8.6550517 },
-    { "lat": 41.1801512, "lon": -8.6551171 }
+    { "lat": 41.1802007, "lon": -8.6551272 },
+    { "lat": 41.1801155, "lon": -8.6551065 },
+    { "lat": 41.1801245, "lon": -8.6550411 },
+    { "lat": 41.1802097, "lon": -8.6550618 },
+    { "lat": 41.1802007, "lon": -8.6551272 }
   ],
   "tags": {
     "access": "yes",
     "amenity": "charging_station",
     "brand": "Bright",
     "capacity": "4",
-    "fixme": "Add level and move to exact location",
     "indoor": "yes",
+    "level": "-1",
     "location": "underground",
     "motorcar": "yes",
     "name": "MTS-00190/192",
@@ -28547,10 +28459,10 @@
   "type": "way",
   "id": 1420807103,
   "bounds": {
-    "minlat": 32.8028246,
-    "minlon": -17.0455109,
-    "maxlat": 32.8029083,
-    "maxlon": -17.0453851
+    "minlat": 32.8029317,
+    "minlon": -17.0455257,
+    "maxlat": 32.8030154,
+    "maxlon": -17.0453999
   },
   "nodes": [
     13056763493,
@@ -28560,11 +28472,11 @@
     13056763493
   ],
   "geometry": [
-    { "lat": 32.8028519, "lon": -17.0453851 },
-    { "lat": 32.8028246, "lon": -17.0454902 },
-    { "lat": 32.8028811, "lon": -17.0455109 },
-    { "lat": 32.8029083, "lon": -17.0454058 },
-    { "lat": 32.8028519, "lon": -17.0453851 }
+    { "lat": 32.8029590, "lon": -17.0453999 },
+    { "lat": 32.8029317, "lon": -17.0455050 },
+    { "lat": 32.8029882, "lon": -17.0455257 },
+    { "lat": 32.8030154, "lon": -17.0454206 },
+    { "lat": 32.8029590, "lon": -17.0453999 }
   ],
   "tags": {
     "access": "yes",
@@ -29116,7 +29028,6 @@
     "brand:wikidata": "Q123574541",
     "capacity": "10",
     "charging_station:output": "720 kW",
-    "fixme": "Move to exact location",
     "motorcar": "yes",
     "name": "SCD-00007…11",
     "network": "Mobi.E",
@@ -29773,10 +29684,10 @@
   "type": "way",
   "id": 1422455621,
   "bounds": {
-    "minlat": 40.5184570,
-    "minlon": -8.0908931,
-    "maxlat": 40.5185388,
-    "maxlon": -8.0907604
+    "minlat": 40.5184625,
+    "minlon": -8.0913222,
+    "maxlat": 40.5185402,
+    "maxlon": -8.0911910
   },
   "nodes": [
     13072321115,
@@ -29786,11 +29697,11 @@
     13072321115
   ],
   "geometry": [
-    { "lat": 40.5184909, "lon": -8.0908931 },
-    { "lat": 40.5184570, "lon": -8.0907869 },
-    { "lat": 40.5185049, "lon": -8.0907604 },
-    { "lat": 40.5185388, "lon": -8.0908666 },
-    { "lat": 40.5184909, "lon": -8.0908931 }
+    { "lat": 40.5185116, "lon": -8.0911910 },
+    { "lat": 40.5185402, "lon": -8.0912998 },
+    { "lat": 40.5184912, "lon": -8.0913222 },
+    { "lat": 40.5184625, "lon": -8.0912134 },
+    { "lat": 40.5185116, "lon": -8.0911910 }
   ],
   "tags": {
     "access": "yes",
@@ -29798,7 +29709,6 @@
     "brand": "Galp electric",
     "brand:wikidata": "Q135275372",
     "capacity": "4",
-    "fixme": "Move to exact location",
     "motorcar": "yes",
     "name": "TND-00021/22",
     "network": "Mobi.E",
@@ -30390,10 +30300,10 @@
   "type": "way",
   "id": 1424256388,
   "bounds": {
-    "minlat": 41.2002166,
-    "minlon": -8.3112130,
-    "maxlat": 41.2003131,
-    "maxlon": -8.3111155
+    "minlat": 41.2002805,
+    "minlon": -8.3114137,
+    "maxlat": 41.2003505,
+    "maxlon": -8.3112861
   },
   "nodes": [
     13090745697,
@@ -30403,11 +30313,11 @@
     13090745697
   ],
   "geometry": [
-    { "lat": 41.2002332, "lon": -8.3112130 },
-    { "lat": 41.2002166, "lon": -8.3111598 },
-    { "lat": 41.2002965, "lon": -8.3111155 },
-    { "lat": 41.2003131, "lon": -8.3111687 },
-    { "lat": 41.2002332, "lon": -8.3112130 }
+    { "lat": 41.2003505, "lon": -8.3113944 },
+    { "lat": 41.2003097, "lon": -8.3114137 },
+    { "lat": 41.2002805, "lon": -8.3113053 },
+    { "lat": 41.2003214, "lon": -8.3112861 },
+    { "lat": 41.2003505, "lon": -8.3113944 }
   ],
   "tags": {
     "access": "yes",
@@ -30415,13 +30325,12 @@
     "brand": "Helexia",
     "brand:wikidata": "Q137294295",
     "capacity": "4",
-    "fixme": "Move to exact location",
     "indoor": "yes",
     "location": "underground",
     "motorcar": "yes",
     "name": "PNF-00055/56",
     "network": "Mobi.E",
-    "opening_hours": "24/7",
+    "opening_hours": "10:00-22:00",
     "operator": "Helexia II",
     "operator:wikidata": "Q137294295",
     "parking:fee": "no",
@@ -30644,10 +30553,10 @@
   "type": "way",
   "id": 1424864722,
   "bounds": {
-    "minlat": 39.4250685,
-    "minlon": -8.9756344,
-    "maxlat": 39.4251583,
-    "maxlon": -8.9755541
+    "minlat": 39.4250949,
+    "minlon": -8.9755875,
+    "maxlat": 39.4251847,
+    "maxlon": -8.9755072
   },
   "nodes": [
     13097030318,
@@ -30657,11 +30566,11 @@
     13097030318
   ],
   "geometry": [
-    { "lat": 39.4250737, "lon": -8.9756344 },
-    { "lat": 39.4251583, "lon": -8.9756239 },
-    { "lat": 39.4251531, "lon": -8.9755541 },
-    { "lat": 39.4250685, "lon": -8.9755646 },
-    { "lat": 39.4250737, "lon": -8.9756344 }
+    { "lat": 39.4251001, "lon": -8.9755875 },
+    { "lat": 39.4251847, "lon": -8.9755770 },
+    { "lat": 39.4251795, "lon": -8.9755072 },
+    { "lat": 39.4250949, "lon": -8.9755177 },
+    { "lat": 39.4251001, "lon": -8.9755875 }
   ],
   "tags": {
     "access": "yes",
@@ -30671,7 +30580,6 @@
     "amenity": "charging_station",
     "brand": "Continente Plug&Charge",
     "capacity": "4",
-    "fixme": "Move to exact location",
     "motorcar": "yes",
     "name": "Continente Bom Dia Benedita",
     "network": "Continente Plug&Charge",
@@ -30684,10 +30592,10 @@
   "type": "way",
   "id": 1424865727,
   "bounds": {
-    "minlat": 40.5261627,
-    "minlon": -8.0862741,
-    "maxlat": 40.5262617,
-    "maxlon": -8.0861522
+    "minlat": 40.5262836,
+    "minlon": -8.0858885,
+    "maxlat": 40.5263822,
+    "maxlon": -8.0857648
   },
   "nodes": [
     13097005834,
@@ -30697,11 +30605,11 @@
     13097005834
   ],
   "geometry": [
-    { "lat": 40.5261945, "lon": -8.0862741 },
-    { "lat": 40.5262617, "lon": -8.0862085 },
-    { "lat": 40.5262299, "lon": -8.0861522 },
-    { "lat": 40.5261627, "lon": -8.0862178 },
-    { "lat": 40.5261945, "lon": -8.0862741 }
+    { "lat": 40.5263486, "lon": -8.0857648 },
+    { "lat": 40.5262836, "lon": -8.0858340 },
+    { "lat": 40.5263171, "lon": -8.0858885 },
+    { "lat": 40.5263822, "lon": -8.0858193 },
+    { "lat": 40.5263486, "lon": -8.0857648 }
   ],
   "tags": {
     "access": "yes",
@@ -30711,7 +30619,7 @@
     "amenity": "charging_station",
     "brand": "Continente Plug&Charge",
     "capacity": "4",
-    "fixme": "Move to exact location",
+    "covered": "yes",
     "motorcar": "yes",
     "name": "Continente Bom Dia Tondela",
     "network": "Continente Plug&Charge",
@@ -39039,18 +38947,17 @@
     "capacity": "2",
     "email": "comercial@iberdrola.pt",
     "fee": "yes",
-    "fixme": "Verificar se está operacional",
     "location": "underground",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "AVR-00023/24",
+    "name": "AVR-00108",
     "network": "Mobi.E",
     "opening_hours": "09:00-21:30",
     "operator": "Iberdrola",
     "operator:wikidata": "Q1437502",
     "parking:fee": "no",
     "phone": "+351 800 607 717",
-    "ref": "AVR-00023;AVR-00024",
+    "ref": "AVR-00108",
     "website": "https://www.mobie.pt"
   }
 },
@@ -39441,14 +39348,14 @@
     "location": "underground",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "MTS-00033/34",
+    "name": "MTS-00197",
     "network": "Mobi.E",
     "opening_hours": "09:00-21:30",
     "operator": "Iberdrola",
     "operator:wikidata": "Q1437502",
     "parking:fee": "no",
     "phone": "+351 800 607 717",
-    "ref": "MTS-00033;MTS-00034",
+    "ref": "MTS-00197",
     "website": "https://www.mobie.pt"
   }
 },
@@ -39939,14 +39846,14 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "BCL-00006/7",
+    "name": "BCL-00051",
     "network": "Mobi.E",
     "opening_hours": "09:00-21:30",
     "operator": "Iberdrola",
     "operator:wikidata": "Q1437502",
     "parking:fee": "no",
     "phone": "+351 800 607 717",
-    "ref": "BCL-00006;BCL-00007",
+    "ref": "BCL-00051",
     "website": "https://www.mobie.pt"
   }
 },
@@ -48220,10 +48127,10 @@
   "type": "way",
   "id": 1451806316,
   "bounds": {
-    "minlat": 40.3552995,
-    "minlon": -7.0945289,
-    "maxlat": 40.3553608,
-    "maxlon": -7.0944483
+    "minlat": 40.3553091,
+    "minlon": -7.0945490,
+    "maxlat": 40.3553759,
+    "maxlon": -7.0944564
   },
   "nodes": [
     13315140888,
@@ -48233,11 +48140,11 @@
     13315140888
   ],
   "geometry": [
-    { "lat": 40.3553470, "lon": -7.0944483 },
-    { "lat": 40.3553608, "lon": -7.0945109 },
-    { "lat": 40.3553133, "lon": -7.0945289 },
-    { "lat": 40.3552995, "lon": -7.0944663 },
-    { "lat": 40.3553470, "lon": -7.0944483 }
+    { "lat": 40.3553603, "lon": -7.0944564 },
+    { "lat": 40.3553759, "lon": -7.0945306 },
+    { "lat": 40.3553247, "lon": -7.0945490 },
+    { "lat": 40.3553091, "lon": -7.0944748 },
+    { "lat": 40.3553603, "lon": -7.0944564 }
   ],
   "tags": {
     "access": "yes",
@@ -48247,7 +48154,6 @@
     "charging_station:output": "200 kW",
     "email": "charging@me-remo.com",
     "fee": "yes",
-    "fixme": "Move to exact location",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "SBG-00009",
@@ -54581,14 +54487,14 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "PNF-00012/15/66/67",
+    "name": "PNF-00012/15/68/69",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
     "operator:wikidata": "Q1341222",
     "parking:fee": "no",
     "phone": "+351 800 222 222",
-    "ref": "PNF-00012;PNF-00015;PNF-00066;PNF-00067",
+    "ref": "PNF-00012;PNF-00015;PNF-00068;PNF-00069",
     "website": "https://www.mobie.pt"
   }
 },
@@ -54625,14 +54531,14 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "PNF-00011/14/68/69",
+    "name": "PNF-00011/14/66/67",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
     "operator:wikidata": "Q1341222",
     "parking:fee": "no",
     "phone": "+351 800 222 222",
-    "ref": "PNF-00011;PNF-00014;PNF-00068;PNF-00069",
+    "ref": "PNF-00011;PNF-00014;PNF-00066;PNF-00067",
     "website": "https://www.mobie.pt"
   }
 },
@@ -55843,7 +55749,6 @@
     "brand:wikidata": "Q1341222",
     "capacity": "4",
     "fee": "yes",
-    "fixme": "Move to exact location",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "VLF-00006/7",
@@ -60321,14 +60226,13 @@
     { "lat": 39.0001566, "lon": -8.9637089 }
   ],
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "brand": "Helexia",
     "brand:wikidata": "Q137294295",
     "capacity": "24",
     "email": "geral.pt@helexia.eu",
     "fee": "yes",
-    "fixme": "Move to exact location",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "VFX-00110…121",
@@ -68243,14 +68147,14 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "ABT-?????",
-    "network": "Mobi.E",
+    "name": "ABT-00039",
+    "network": "Mobi.E;Ionity",
     "opening_hours": "24/7",
     "operator": "IONITY",
     "operator:wikidata": "Q42717773",
     "operator:wikipedia": "en:IONITY",
     "parking:fee": "no",
-    "ref": "ABT-?????",
+    "ref": "ABT-00039",
     "website": "https://www.mobie.pt/"
   }
 },
@@ -74591,10 +74495,10 @@
   "type": "way",
   "id": 1508223914,
   "bounds": {
-    "minlat": 38.8642723,
-    "minlon": -9.0717034,
-    "maxlat": 38.8643905,
-    "maxlon": -9.0715416
+    "minlat": 38.8644143,
+    "minlon": -9.0720145,
+    "maxlat": 38.8645325,
+    "maxlon": -9.0718527
   },
   "nodes": [
     13790033020,
@@ -74604,11 +74508,11 @@
     13790033020
   ],
   "geometry": [
-    { "lat": 38.8643905, "lon": -9.0716511 },
-    { "lat": 38.8643363, "lon": -9.0715416 },
-    { "lat": 38.8642723, "lon": -9.0715939 },
-    { "lat": 38.8643265, "lon": -9.0717034 },
-    { "lat": 38.8643905, "lon": -9.0716511 }
+    { "lat": 38.8645325, "lon": -9.0719622 },
+    { "lat": 38.8644783, "lon": -9.0718527 },
+    { "lat": 38.8644143, "lon": -9.0719050 },
+    { "lat": 38.8644685, "lon": -9.0720145 },
+    { "lat": 38.8645325, "lon": -9.0719622 }
   ],
   "tags": {
     "access": "yes",
@@ -77094,10 +76998,10 @@
   "type": "way",
   "id": 1528860535,
   "bounds": {
-    "minlat": 41.0961460,
-    "minlon": -8.6272903,
-    "maxlat": 41.0962263,
-    "maxlon": -8.6271526
+    "minlat": 41.0959000,
+    "minlon": -8.6279352,
+    "maxlat": 41.0960152,
+    "maxlon": -8.6278342
   },
   "nodes": [
     13931899010,
@@ -77107,11 +77011,11 @@
     13931899010
   ],
   "geometry": [
-    { "lat": 41.0961766, "lon": -8.6272903 },
-    { "lat": 41.0962263, "lon": -8.6272669 },
-    { "lat": 41.0961957, "lon": -8.6271526 },
-    { "lat": 41.0961460, "lon": -8.6271760 },
-    { "lat": 41.0961766, "lon": -8.6272903 }
+    { "lat": 41.0959142, "lon": -8.6279352 },
+    { "lat": 41.0960152, "lon": -8.6278885 },
+    { "lat": 41.0960009, "lon": -8.6278342 },
+    { "lat": 41.0959000, "lon": -8.6278809 },
+    { "lat": 41.0959142, "lon": -8.6279352 }
   ],
   "tags": {
     "access": "yes",
@@ -78819,10 +78723,10 @@
   "type": "way",
   "id": 1534046513,
   "bounds": {
-    "minlat": 41.2081138,
-    "minlon": -8.6886438,
-    "maxlat": 41.2082784,
-    "maxlon": -8.6885244
+    "minlat": 41.2081032,
+    "minlon": -8.6886465,
+    "maxlat": 41.2082678,
+    "maxlon": -8.6885271
   },
   "nodes": [
     13978710483,
@@ -78832,11 +78736,11 @@
     13978710483
   ],
   "geometry": [
-    { "lat": 41.2081156, "lon": -8.6885244 },
-    { "lat": 41.2082784, "lon": -8.6885288 },
-    { "lat": 41.2082767, "lon": -8.6886438 },
-    { "lat": 41.2081138, "lon": -8.6886394 },
-    { "lat": 41.2081156, "lon": -8.6885244 }
+    { "lat": 41.2081050, "lon": -8.6885271 },
+    { "lat": 41.2082678, "lon": -8.6885315 },
+    { "lat": 41.2082661, "lon": -8.6886465 },
+    { "lat": 41.2081032, "lon": -8.6886421 },
+    { "lat": 41.2081050, "lon": -8.6885271 }
   ],
   "tags": {
     "access": "yes",
@@ -80518,6 +80422,135 @@
     "parking:fee": "no",
     "phone": "+351 800 222 222",
     "ref": "ALM-00170;ALM-00171",
+    "website": "https://www.edp.pt/"
+  }
+},
+{
+  "type": "way",
+  "id": 1540252258,
+  "bounds": {
+    "minlat": 41.2708895,
+    "minlon": -7.4787412,
+    "maxlat": 41.2709696,
+    "maxlon": -7.4786575
+  },
+  "nodes": [
+    14024163126,
+    14024163127,
+    14024163124,
+    14024163125,
+    14024163126
+  ],
+  "geometry": [
+    { "lat": 41.2709696, "lon": -7.4786585 },
+    { "lat": 41.2708897, "lon": -7.4786575 },
+    { "lat": 41.2708895, "lon": -7.4787404 },
+    { "lat": 41.2709695, "lon": -7.4787412 },
+    { "lat": 41.2709696, "lon": -7.4786585 }
+  ],
+  "tags": {
+    "access": "yes",
+    "addr:city": "Alijó",
+    "addr:postcode": "5070-011",
+    "addr:street": "Avenida 25 de Abril",
+    "amenity": "charging_station",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "4",
+    "fixme": "Move to exact location",
+    "motorcar": "yes",
+    "name": "Continente Bom Dia Alijó",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "24/7",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 1540281106,
+  "bounds": {
+    "minlat": 32.6934350,
+    "minlon": -16.7745197,
+    "maxlat": 32.6935397,
+    "maxlon": -16.7743904
+  },
+  "nodes": [
+    14024318196,
+    14024318195,
+    14024318194,
+    14024318193,
+    14024318196
+  ],
+  "geometry": [
+    { "lat": 32.6934986, "lon": -16.7743904 },
+    { "lat": 32.6934350, "lon": -16.7744773 },
+    { "lat": 32.6934761, "lon": -16.7745197 },
+    { "lat": 32.6935397, "lon": -16.7744328 },
+    { "lat": 32.6934986, "lon": -16.7743904 }
+  ],
+  "tags": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "brand": "Factor Energia",
+    "capacity": "4",
+    "email": "info@factorenergia.pt",
+    "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "SCR-00004/5",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Factor Energia",
+    "parking:fee": "yes",
+    "phone": "+351 800 100 013",
+    "ref": "SCR-00004;SCR-00005",
+    "website": "https://www.mobie.pt"
+  }
+},
+{
+  "type": "way",
+  "id": 1540312569,
+  "bounds": {
+    "minlat": 38.7292182,
+    "minlon": -9.4159998,
+    "maxlat": 38.7294049,
+    "maxlon": -9.4158863
+  },
+  "nodes": [
+    14024661143,
+    14024661152,
+    14024661132,
+    14024661131,
+    14024661143
+  ],
+  "geometry": [
+    { "lat": 38.7292182, "lon": -9.4159527 },
+    { "lat": 38.7293941, "lon": -9.4159998 },
+    { "lat": 38.7294049, "lon": -9.4159334 },
+    { "lat": 38.7292290, "lon": -9.4158863 },
+    { "lat": 38.7292182, "lon": -9.4159527 }
+  ],
+  "tags": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "8",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CSC-00197/198/574",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "phone": "+351 800 222 222",
+    "ref": "CSC-00197;CSC-00198;CSC-00574",
     "website": "https://www.edp.pt/"
   }
 }
