@@ -1531,7 +1531,6 @@
     "charging_station:output": "50 kW",
     "email": "suporte@chargingtogether.pt",
     "fee": "yes",
-    "fixme": "Verificar se aceita pagamento com cartão bancário",
     "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
     "model": "HYC_50",
@@ -1544,7 +1543,7 @@
     "operator": "Charging Together",
     "parking:fee": "no",
     "payment:app": "yes",
-    "payment:cards": "no",
+    "payment:cards": "yes",
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 917 576",
@@ -40665,10 +40664,9 @@
     "brand": "Atlante",
     "brand:wikidata": "Q126913632",
     "capacity": "2",
-    "charging_station:output": "60 kW",
+    "charging_station:output": "120 kW",
     "email": "support.portugal@atlante.energy",
     "fee": "yes",
-    "fixme": "Verificar se aceita pagamento com cartão bancário",
     "location": "underground",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -40689,17 +40687,17 @@
     "ref": "FAR-00099",
     "ref:EU:EVSE": "PT*ATL*EFAR*00099*1;PT*ATL*EFAR*00099*2",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "150",
+    "socket:type2_combo:current": "300",
     "socket:type2_combo:output": "60 kW",
-    "socket:type2_combo:voltage": "500",
+    "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt/",
     "id": "node/9920092716"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.9248596,
-      37.0253723
+      -7.9248757,
+      37.0252213
     ]
   }
 },
@@ -111595,6 +111593,45 @@
 },
 {
   "type": "Feature",
+  "id": "node/13110851394",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "charge_point:output": "50 kW",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "BRG-00162",
+    "ref:EU:EVSE": "PT*FCT*E270*1;PT*FCT*E270*2",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "50 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13110851394"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4301585,
+      41.5797343
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13114162812",
   "properties": {
     "access": "yes",
@@ -118847,7 +118884,7 @@
     "brand": "edp Charge",
     "brand:wikidata": "Q1341222",
     "capacity": "2",
-    "charging_station:output": "82 kW",
+    "charge_point:output": "82 kW",
     "fee": "yes",
     "man_made": "charge_point",
     "manufacturer": "Starcharge",
@@ -131707,6 +131744,102 @@
     "coordinates": [
       -9.0856945,
       38.8703963
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14045692635",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Powerdot",
+    "brand:wikidata": "Q123574541",
+    "capacity": "2",
+    "charging_station:output": "72 kW",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "fixme": "Mover para o local exacto",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "GMR-00107",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "operator:wikidata": "Q123574541",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 180 292",
+    "ref": "GMR-00107",
+    "ref:EU:EVSE": "PT*HRZ*E*GMR*00107*01;PT*HRZ*E*GMR*00107*02;PT*HRZ*E*GMR*00107*03",
+    "socket:chademo": "1",
+    "socket:chademo:current": "125",
+    "socket:chademo:output": "50 kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "250",
+    "socket:type2_combo:output": "50 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://powerdot.eu/",
+    "id": "node/14045692635"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.3465389,
+      41.430952
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14046359272",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "2",
+    "charging_station:output": "50 kW",
+    "fee": "yes",
+    "manufacturer": "Alpitronic",
+    "maxstay": "unlimited",
+    "model": "HYC_50",
+    "motorcar": "yes",
+    "name": "Maxmat Faro",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "24/7",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "phone": "+351 210 19 19 19",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "50 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/14046359272"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.9627389,
+      37.0581144
     ]
   }
 }
