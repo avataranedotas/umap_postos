@@ -48497,56 +48497,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10313727109",
-  "properties": {
-    "access": "yes",
-    "amenity": "charging_station",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Atlante",
-    "brand:wikidata": "Q126913632",
-    "capacity": "2",
-    "charging_station:output": "50 kW",
-    "email": "support.portugal@atlante.energy",
-    "fee": "yes",
-    "fixme": "Verificar o modelo de carregador e a corrente máxima, verificar se aceita pagamento com cartão bancário",
-    "indoor": "yes",
-    "location": "underground",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "LSB-01329",
-    "network": "Mobi.E",
-    "old_ref": "LSB-00543;LSB-00664",
-    "old_ref:EU:EVSE": "PT*ATL*ELSB*00664*1;PT*ATL*ELSB*00664*2;PT*ATL*ELSB*00664*3",
-    "opening_hours": "08:00-21:30",
-    "operator": "Atlante",
-    "operator:wikidata": "Q126913632",
-    "parking:fee": "yes",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 296 929;+351 234 246 050",
-    "ref": "LSB-01329",
-    "ref:EU:EVSE": "PT*ATL*ELSB*01329*1;PT*ATL*ELSB*01329*2",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "150",
-    "socket:type2_combo:output": "50 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/",
-    "id": "node/10313727109"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.1936928,
-      38.7020674
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10553244015",
   "properties": {
     "access": "yes",
@@ -68974,53 +68924,6 @@
     "coordinates": [
       -8.7451032,
       41.3615551
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11523437771",
-  "properties": {
-    "access": "yes",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Powerdot",
-    "brand:wikidata": "Q123574541",
-    "capacity": "2",
-    "charge_point:output": "120 kW",
-    "email": "ajuda@powerdot.pt",
-    "fee": "yes",
-    "fixme": "Verificar se o posto ainda funciona",
-    "layer": "-1",
-    "location": "underground",
-    "man_made": "charge_point",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Powerdot",
-    "operator:wikidata": "Q123574541",
-    "parking:fee": "yes",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 180 292",
-    "ref": "LSB-00677",
-    "ref:EU:EVSE": "PT*HRZ*E*LSB*00677*01;PT*HRZ*E*LSB*00677*02",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "300",
-    "socket:type2_combo:output": "120 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/",
-    "id": "node/11523437771"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.1460652,
-      38.7422347
     ]
   }
 },
@@ -111525,7 +111428,9 @@
     "charge_point:output": "50 kW",
     "fee": "yes",
     "man_made": "charge_point",
+    "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
+    "model": "HYC_50",
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
@@ -111564,7 +111469,9 @@
     "charge_point:output": "50 kW",
     "fee": "yes",
     "man_made": "charge_point",
+    "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
+    "model": "HYC_50",
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
@@ -111603,7 +111510,9 @@
     "charge_point:output": "50 kW",
     "fee": "yes",
     "man_made": "charge_point",
+    "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
+    "model": "HYC_50",
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
@@ -130164,7 +130073,9 @@
     "capacity": "2",
     "fee": "yes",
     "man_made": "charge_point",
+    "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
+    "model": "HYC_50",
     "motorcar": "yes",
     "network": "Mobi.E",
     "old_ref:EU:EVSE": "PT*FCT*E252*1;PT*FCT*E252*2",
@@ -130546,14 +130457,13 @@
     "capacity": "2",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
-    "fixme": "Mover para o local exacto",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "MAI-00109",
     "network": "Mobi.E",
     "opening_hours": "24/7",
-    "operator": "Galp Power",
-    "operator:wikidata": "Q135275372",
+    "operator": "Lidl",
+    "operator:wikidata": "Q151954",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
@@ -130580,8 +130490,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.616451,
-      41.260864
+      -8.6166182,
+      41.2603003
     ]
   }
 },
