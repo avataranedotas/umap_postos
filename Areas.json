@@ -1847,8 +1847,8 @@
     "amenity": "charging_station",
     "brand": "Tesla Supercharger",
     "brand:wikidata": "Q17089620",
-    "capacity": "8",
-    "charging_station:output": "700 kW",
+    "capacity": "16",
+    "charging_station:output": "1400 kW",
     "description": "V4",
     "fee": "yes",
     "motorcar": "yes",
@@ -1863,7 +1863,7 @@
     "phone": "+351 300 527 476",
     "ref:tesla": "14181",
     "short_name": "Tesla",
-    "socket:type2_combo": "8",
+    "socket:type2_combo": "16",
     "socket:type2_combo:output": "250 kW",
     "website": "https://www.tesla.com/findus/location/supercharger/14181"
   }
@@ -8318,12 +8318,12 @@
     "level": "-1",
     "location": "underground",
     "motorcar": "yes",
-    "name": "AMD-00030…32/35…38/40",
+    "name": "AMD-00030…31/35…38/40",
     "network": "Mobi.E",
     "opening_hours": "09:00-21:00",
     "operator": "Plug",
     "parking:fee": "no",
-    "ref": "AMD-00030;AMD-00031;AMD-00032;AMD-00035;AMD-00036;AMD-00037;AMD-00038;AMD-00040"
+    "ref": "AMD-00030;AMD-00031;AMD-00035;AMD-00036;AMD-00037;AMD-00038;AMD-00040"
   }
 },
 {
@@ -9023,10 +9023,10 @@
   "type": "way",
   "id": 1365566957,
   "bounds": {
-    "minlat": 38.7747072,
-    "minlon": -9.1565262,
+    "minlat": 38.7746951,
+    "minlon": -9.1565302,
     "maxlat": 38.7748944,
-    "maxlon": -9.1563837
+    "maxlon": -9.1563836
   },
   "nodes": [
     12645780463,
@@ -9039,10 +9039,11 @@
     12645780456,
     12645780461,
     12645780464,
+    14064951279,
     12645780463
   ],
   "geometry": [
-    { "lat": 38.7747944, "lon": -9.1564668 },
+    { "lat": 38.7747945, "lon": -9.1564668 },
     { "lat": 38.7748287, "lon": -9.1564774 },
     { "lat": 38.7748225, "lon": -9.1565104 },
     { "lat": 38.7748733, "lon": -9.1565262 },
@@ -9050,9 +9051,10 @@
     { "lat": 38.7748439, "lon": -9.1563987 },
     { "lat": 38.7748395, "lon": -9.1564215 },
     { "lat": 38.7748049, "lon": -9.1564108 },
-    { "lat": 38.7747178, "lon": -9.1563837 },
-    { "lat": 38.7747072, "lon": -9.1564397 },
-    { "lat": 38.7747944, "lon": -9.1564668 }
+    { "lat": 38.7747177, "lon": -9.1563836 },
+    { "lat": 38.7746951, "lon": -9.1565030 },
+    { "lat": 38.7747825, "lon": -9.1565302 },
+    { "lat": 38.7747945, "lon": -9.1564668 }
   ],
   "tags": {
     "access": "yes",
@@ -28851,13 +28853,17 @@
   "id": 1421114212,
   "bounds": {
     "minlat": 40.7553097,
-    "minlon": -8.5352076,
-    "maxlat": 40.7554335,
+    "minlon": -8.5354518,
+    "maxlat": 40.7555283,
     "maxlon": -8.5349705
   },
   "nodes": [
     13059412744,
     13059412753,
+    14065092708,
+    14065092723,
+    14065092702,
+    14065092703,
     13059412736,
     13059412735,
     13059412744
@@ -28865,6 +28871,10 @@
   "geometry": [
     { "lat": 40.7554335, "lon": -8.5350008 },
     { "lat": 40.7553565, "lon": -8.5352076 },
+    { "lat": 40.7553700, "lon": -8.5352945 },
+    { "lat": 40.7555283, "lon": -8.5353916 },
+    { "lat": 40.7555072, "lon": -8.5354518 },
+    { "lat": 40.7553485, "lon": -8.5353549 },
     { "lat": 40.7553097, "lon": -8.5351772 },
     { "lat": 40.7553867, "lon": -8.5349705 },
     { "lat": 40.7554335, "lon": -8.5350008 }
@@ -41284,10 +41294,10 @@
   "type": "way",
   "id": 1444665735,
   "bounds": {
-    "minlat": 37.0929563,
-    "minlon": -8.1770623,
-    "maxlat": 37.0930549,
-    "maxlon": -8.1769813
+    "minlat": 37.0928512,
+    "minlon": -8.1770777,
+    "maxlat": 37.0929471,
+    "maxlon": -8.1769893
   },
   "nodes": [
     13255570730,
@@ -41297,11 +41307,11 @@
     13255570730
   ],
   "geometry": [
-    { "lat": 37.0930471, "lon": -8.1769813 },
-    { "lat": 37.0929563, "lon": -8.1769990 },
-    { "lat": 37.0929641, "lon": -8.1770623 },
-    { "lat": 37.0930549, "lon": -8.1770446 },
-    { "lat": 37.0930471, "lon": -8.1769813 }
+    { "lat": 37.0929471, "lon": -8.1769893 },
+    { "lat": 37.0928563, "lon": -8.1770070 },
+    { "lat": 37.0928512, "lon": -8.1770777 },
+    { "lat": 37.0929420, "lon": -8.1770600 },
+    { "lat": 37.0929471, "lon": -8.1769893 }
   ],
   "tags": {
     "access": "customers",
@@ -43892,57 +43902,12 @@
 },
 {
   "type": "way",
-  "id": 1447948379,
-  "bounds": {
-    "minlat": 39.1222349,
-    "minlon": -8.9083455,
-    "maxlat": 39.1223973,
-    "maxlon": -8.9081866
-  },
-  "nodes": [
-    13285089838,
-    13285089847,
-    13285089834,
-    13285089833,
-    13285089838
-  ],
-  "geometry": [
-    { "lat": 39.1223259, "lon": -8.9081866 },
-    { "lat": 39.1222349, "lon": -8.9083308 },
-    { "lat": 39.1223054, "lon": -8.9083455 },
-    { "lat": 39.1223973, "lon": -8.9082001 },
-    { "lat": 39.1223259, "lon": -8.9081866 }
-  ],
-  "tags": {
-    "access": "yes",
-    "amenity": "charging_station",
-    "brand": "Galp electric",
-    "brand:wikidata": "Q135275372",
-    "capacity": "6",
-    "charging_station:output": "483 kW",
-    "email": "veiculoeletrico@galp.com",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "AZB-0006/10/14",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Galp Power",
-    "operator:wikidata": "Q135275372",
-    "parking:fee": "no",
-    "phone": "+351 800 249 249",
-    "ref": "AZB-00006;AZB-00010;AZB-00014",
-    "website": "https://www.mobie.pt"
-  }
-},
-{
-  "type": "way",
   "id": 1447948386,
   "bounds": {
-    "minlat": 39.1232600,
-    "minlon": -8.9078969,
-    "maxlat": 39.1236363,
-    "maxlon": -8.9075218
+    "minlat": 39.1233313,
+    "minlon": -8.9078054,
+    "maxlat": 39.1237775,
+    "maxlon": -8.9073568
   },
   "nodes": [
     13285089855,
@@ -43952,11 +43917,11 @@
     13285089855
   ],
   "geometry": [
-    { "lat": 39.1233274, "lon": -8.9078969 },
-    { "lat": 39.1236363, "lon": -8.9075567 },
-    { "lat": 39.1235669, "lon": -8.9075218 },
-    { "lat": 39.1232600, "lon": -8.9078634 },
-    { "lat": 39.1233274, "lon": -8.9078969 }
+    { "lat": 39.1233937, "lon": -8.9078054 },
+    { "lat": 39.1237775, "lon": -8.9073871 },
+    { "lat": 39.1237157, "lon": -8.9073568 },
+    { "lat": 39.1233313, "lon": -8.9077752 },
+    { "lat": 39.1233937, "lon": -8.9078054 }
   ],
   "tags": {
     "access": "yes",
@@ -43984,8 +43949,8 @@
   "type": "way",
   "id": 1447948387,
   "bounds": {
-    "minlat": 39.1224320,
-    "minlon": -8.9080175,
+    "minlat": 39.1224036,
+    "minlon": -8.9080675,
     "maxlat": 39.1228048,
     "maxlon": -8.9074886
   },
@@ -43998,8 +43963,8 @@
   ],
   "geometry": [
     { "lat": 39.1227353, "lon": -8.9074886 },
-    { "lat": 39.1224320, "lon": -8.9080069 },
-    { "lat": 39.1225014, "lon": -8.9080175 },
+    { "lat": 39.1224036, "lon": -8.9080548 },
+    { "lat": 39.1224710, "lon": -8.9080675 },
     { "lat": 39.1228048, "lon": -8.9074992 },
     { "lat": 39.1227353, "lon": -8.9074886 }
   ],
@@ -44023,52 +43988,6 @@
     "phone": "+351 800 249 249",
     "ref": "AZB-00022;AZB-00023;AZB-00024;AZB-00025;AZB-00026;AZB-00027",
     "website": "https://www.mobie.pt/"
-  }
-},
-{
-  "type": "way",
-  "id": 1447949765,
-  "bounds": {
-    "minlat": 39.1239086,
-    "minlon": -8.9071748,
-    "maxlat": 39.1240182,
-    "maxlon": -8.9070978
-  },
-  "nodes": [
-    13285091364,
-    13285091357,
-    13285091355,
-    13285091354,
-    13285091364
-  ],
-  "geometry": [
-    { "lat": 39.1240182, "lon": -8.9071256 },
-    { "lat": 39.1239730, "lon": -8.9071748 },
-    { "lat": 39.1239086, "lon": -8.9071473 },
-    { "lat": 39.1239548, "lon": -8.9070978 },
-    { "lat": 39.1240182, "lon": -8.9071256 }
-  ],
-  "tags": {
-    "access": "yes",
-    "amenity": "charging_station",
-    "brand": "Galp electric",
-    "brand:wikidata": "Q135275372",
-    "capacity": "4",
-    "charging_station:output": "393 kW",
-    "email": "veiculoeletrico@galp.com",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "AZB-00007/13",
-    "network": "Mobi.E",
-    "old_ref": "AZB-00008",
-    "opening_hours": "24/7",
-    "operator": "Galp Power",
-    "operator:wikidata": "Q135275372",
-    "parking:fee": "no",
-    "phone": "+351 800 249 249",
-    "ref": "AZB-00007;AZB-00013",
-    "website": "https://www.mobie.pt"
   }
 },
 {
@@ -55240,9 +55159,9 @@
   "type": "way",
   "id": 1458856667,
   "bounds": {
-    "minlat": 41.2887685,
-    "minlon": -8.7048127,
-    "maxlat": 41.2888938,
+    "minlat": 41.2887735,
+    "minlon": -8.7048134,
+    "maxlat": 41.2888990,
     "maxlon": -8.7047515
   },
   "nodes": [
@@ -55253,11 +55172,11 @@
     13379217669
   ],
   "geometry": [
-    { "lat": 41.2888938, "lon": -8.7048113 },
-    { "lat": 41.2887938, "lon": -8.7048127 },
-    { "lat": 41.2887685, "lon": -8.7047538 },
-    { "lat": 41.2888683, "lon": -8.7047515 },
-    { "lat": 41.2888938, "lon": -8.7048113 }
+    { "lat": 41.2888990, "lon": -8.7048111 },
+    { "lat": 41.2887990, "lon": -8.7048134 },
+    { "lat": 41.2887735, "lon": -8.7047547 },
+    { "lat": 41.2888732, "lon": -8.7047515 },
+    { "lat": 41.2888990, "lon": -8.7048111 }
   ],
   "tags": {
     "access": "yes",
@@ -55285,10 +55204,10 @@
   "type": "way",
   "id": 1458856672,
   "bounds": {
-    "minlat": 41.2888550,
-    "minlon": -8.7027736,
-    "maxlat": 41.2889775,
-    "maxlon": -8.7027075
+    "minlat": 41.2888497,
+    "minlon": -8.7027727,
+    "maxlat": 41.2889726,
+    "maxlon": -8.7027077
   },
   "nodes": [
     13379217682,
@@ -55298,11 +55217,11 @@
     13379217682
   ],
   "geometry": [
-    { "lat": 41.2888550, "lon": -8.7027075 },
-    { "lat": 41.2889542, "lon": -8.7027131 },
-    { "lat": 41.2889775, "lon": -8.7027736 },
-    { "lat": 41.2888775, "lon": -8.7027682 },
-    { "lat": 41.2888550, "lon": -8.7027075 }
+    { "lat": 41.2888497, "lon": -8.7027077 },
+    { "lat": 41.2889490, "lon": -8.7027124 },
+    { "lat": 41.2889726, "lon": -8.7027727 },
+    { "lat": 41.2888725, "lon": -8.7027682 },
+    { "lat": 41.2888497, "lon": -8.7027077 }
   ],
   "tags": {
     "access": "yes",
@@ -73971,6 +73890,7 @@
   "tags": {
     "access": "yes",
     "amenity": "charging_station",
+    "bicycle": "no",
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
     "capacity": "6",
@@ -80575,8 +80495,7 @@
   "tags": {
     "access": "yes",
     "amenity": "charging_station",
-    "capacity": "2",
-    "charging_station:output": "600 kW",
+    "capacity": "12",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -81685,6 +81604,98 @@
     "phone": "+351 800 020 940",
     "ref": "VCT-00078",
     "website": "https://me-remo.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 1545995468,
+  "bounds": {
+    "minlat": 41.2853617,
+    "minlon": -8.3600695,
+    "maxlat": 41.2854252,
+    "maxlon": -8.3599841
+  },
+  "nodes": [
+    14061454138,
+    14061454139,
+    14061454140,
+    14061454141,
+    14061454138
+  ],
+  "geometry": [
+    { "lat": 41.2853617, "lon": -8.3600352 },
+    { "lat": 41.2853893, "lon": -8.3599841 },
+    { "lat": 41.2854252, "lon": -8.3600183 },
+    { "lat": 41.2853976, "lon": -8.3600695 },
+    { "lat": 41.2853617, "lon": -8.3600352 }
+  ],
+  "tags": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "brand": "Renewing",
+    "capacity": "2",
+    "email": "renewing.charging@mota-engil.pt",
+    "fee": "yes",
+    "manufacturer": "Volt-E",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "PFR-00015",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Mota Engil II",
+    "operator:wikidata": "Q1949595",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 020 940",
+    "ref": "PFR-00015",
+    "ref:EU:EVSE": "PT*MOT*E*PFR*00015*01;PT*MOT*E*PFR*00015*02",
+    "website": "https://www.mobie.pt/"
+  }
+},
+{
+  "type": "way",
+  "id": 1546320748,
+  "bounds": {
+    "minlat": 40.8904389,
+    "minlon": -8.4749470,
+    "maxlat": 40.8905391,
+    "maxlon": -8.4748170
+  },
+  "nodes": [
+    14064249570,
+    14064249569,
+    14064249561,
+    14064249560,
+    14064249570
+  ],
+  "geometry": [
+    { "lat": 40.8905039, "lon": -8.4748170 },
+    { "lat": 40.8904389, "lon": -8.4748966 },
+    { "lat": 40.8904741, "lon": -8.4749470 },
+    { "lat": 40.8905391, "lon": -8.4748675 },
+    { "lat": 40.8905039, "lon": -8.4748170 }
+  ],
+  "tags": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "brand": "Prio",
+    "brand:wikidata": "Q62530421",
+    "capacity": "4",
+    "charging_station:output": "300 kW",
+    "email": "electric@prioenergy.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "SJM-?????",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Prio.E",
+    "parking:fee": "no",
+    "phone": "+351 800 100 303",
+    "ref": "SJM-?????"
   }
 }
 

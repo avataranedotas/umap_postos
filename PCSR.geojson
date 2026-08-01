@@ -508,6 +508,55 @@
 },
 {
   "type": "Feature",
+  "id": "node/8222847552",
+  "properties": {
+    "access": "yes",
+    "addr:street": "Estrada da Malveira da Serra",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Galp electric",
+    "brand:wikidata": "Q135275372",
+    "capacity": "2",
+    "charging_station:output": "180 kW",
+    "email": "veiculoeletrico@galp.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CSC-00571",
+    "network": "Mobi.E",
+    "old_operator": "Galp Geste",
+    "old_ref": "CSC-00080;CSC-00421",
+    "old_ref:EU:EVSE": "PT*GLP*ECSC*00421*01;PT*GLP*ECSC*00421*02",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "operator:wikidata": "Q135275372",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 249 249",
+    "ref": "CSC-00571",
+    "ref:EU:EVSE": "PT*GLP*ECSC*00571*01;PT*GLP*ECSC*00571*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "400",
+    "socket:type2_combo:output": "180 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/8222847552"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.4414406,
+      38.7196982
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8222924827",
   "properties": {
     "access": "yes",
@@ -1534,9 +1583,7 @@
     "charge_point:output": "200 kW",
     "fee": "yes",
     "man_made": "charge_point",
-    "manufacturer": "Efacec",
     "maxstay": "unlimited",
-    "model": "HV160",
     "motorcar": "yes",
     "network": "Mobi.E",
     "old_ref": "GDL-00006",
@@ -2832,50 +2879,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9786970340",
-  "properties": {
-    "access": "yes",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Galp electric",
-    "brand:wikidata": "Q135275372",
-    "capacity": "2",
-    "charge_point:output": "180 kW",
-    "email": "veiculoeletrico@galp.com",
-    "fee": "yes",
-    "man_made": "charge_point",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Galp Power",
-    "operator:wikidata": "Q135275372",
-    "parking:fee": "yes",
-    "payment:app": "yes",
-    "payment:cards": "yes",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 249 249",
-    "ref": "LSB-00465",
-    "ref:EU:EVSE": "PT*GLP*ELSB*00465*01;PT*GLP*ELSB*00465*02",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "195",
-    "socket:type2_combo:output": "180 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/",
-    "id": "node/9786970340"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.1260941,
-      38.7794304
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9786970341",
   "properties": {
     "access": "yes",
@@ -2889,7 +2892,9 @@
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
     "man_made": "charge_point",
+    "manufacturer": "Hellonext",
     "maxstay": "unlimited",
+    "model": "H2 180",
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
@@ -11058,7 +11063,6 @@
     "charging_station:output": "300 kW",
     "email": "suporte@chargingtogether.pt",
     "fee": "yes",
-    "fixme": "Verificar se aceita pagamento com cartão bancário",
     "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
     "model": "HYC_300",
@@ -11858,6 +11862,51 @@
     "coordinates": [
       -7.009445,
       40.032802
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12176539857",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "email": "suporte@chargingtogether.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "MTJ-00104",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "MTJ-00104",
+    "ref:EU:EVSE": "PT*FCT*E*MTJ*00104*01;PT*FCT*E*MTJ*00104*02;PT*FCT*E*MTJ*00104*03",
+    "socket:chademo": "1",
+    "socket:chademo:current": "200",
+    "socket:chademo:output": "80 kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "150 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/12176539857"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.9566013,
+      38.6829494
     ]
   }
 },
@@ -17880,7 +17929,9 @@
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
     "man_made": "charge_point",
+    "manufacturer": "Hellonext",
     "maxstay": "unlimited",
+    "model": "H2 180",
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
@@ -17924,7 +17975,9 @@
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
     "man_made": "charge_point",
+    "manufacturer": "Hellonext",
     "maxstay": "unlimited",
+    "model": "H2 180",
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
@@ -17968,7 +18021,9 @@
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
     "man_made": "charge_point",
+    "manufacturer": "Hellonext",
     "maxstay": "unlimited",
+    "model": "H2 180",
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
@@ -18183,6 +18238,92 @@
 },
 {
   "type": "Feature",
+  "id": "node/12697471126",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "charge_point:output": "400 kW",
+    "email": "suporte@chargingtogether.pt",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "manufacturer": "Alpitronic",
+    "maxstay": "unlimited",
+    "model": "HYC_400",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "ABF-00108",
+    "ref:EU:EVSE": "PT*FCT*E*ABF*00108*01;PT*FCT*E*ABF*00108*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "200 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://iberdrola-bppulse.es/",
+    "id": "node/12697471126"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.278716,
+      37.1279007
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12697471127",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "charge_point:output": "400 kW",
+    "email": "suporte@chargingtogether.pt",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "manufacturer": "Alpitronic",
+    "maxstay": "unlimited",
+    "model": "HYC_400",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "ABF-00107",
+    "ref:EU:EVSE": "PT*FCT*E*ABF*00107*01;PT*FCT*E*ABF*00107*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "200 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://iberdrola-bppulse.es/",
+    "id": "node/12697471127"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.2786442,
+      37.1279012
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12697471131",
   "properties": {
     "access": "yes",
@@ -18208,6 +18349,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 917 576",
     "ref": "ABF-00104",
+    "ref:EU:EVSE": "PT*FCT*E*ABF*00104*01;PT*FCT*E*ABF*00104*02",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "200 kW",
@@ -18250,6 +18392,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 917 576",
     "ref": "ABF-00103",
+    "ref:EU:EVSE": "PT*FCT*E*ABF*00103*01;PT*FCT*E*ABF*00103*02",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "200 kW",
@@ -28607,8 +28750,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.907602,
-      39.123504
+      -8.9074394,
+      39.1236419
     ]
   }
 },
@@ -28649,8 +28792,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.9075544,
-      39.1235474
+      -8.9073854,
+      39.123692
     ]
   }
 },
@@ -28691,8 +28834,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.9076497,
-      39.1234595
+      -8.9075002,
+      39.1235922
     ]
   }
 },
@@ -28733,8 +28876,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.9078449,
-      39.1232875
+      -8.9077447,
+      39.1233661
     ]
   }
 },
@@ -28775,8 +28918,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.9077867,
-      39.1233412
+      -8.9076187,
+      39.1234822
     ]
   }
 },
@@ -28817,8 +28960,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.9077458,
-      39.1233831
+      -8.9075607,
+      39.1235366
     ]
   }
 },
@@ -34876,6 +35019,48 @@
 },
 {
   "type": "Feature",
+  "id": "node/13474657687",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "charge_point:output": "400 kW",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "manufacturer": "Alpitronic",
+    "maxstay": "unlimited",
+    "model": "HYC_400",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "LSB-01159",
+    "ref:EU:EVSE": "PT*FCT*E*LSB*01159*01;PT*FCT*E*LSB*01159*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "600",
+    "socket:type2_combo:output": "200 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13474657687"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1052385,
+      38.7737732
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13474657688",
   "properties": {
     "access": "yes",
@@ -34885,7 +35070,6 @@
     "capacity": "2",
     "charge_point:output": "400 kW",
     "fee": "yes",
-    "fixme": "Verirficar se estão a funcionar",
     "man_made": "charge_point",
     "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
@@ -36524,6 +36708,49 @@
     "coordinates": [
       -8.331415,
       40.6691907
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13667135433",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Atlante",
+    "brand:wikidata": "Q126913632",
+    "capacity": "2",
+    "charge_point:output": "150 kW",
+    "email": "support.portugal@atlante.energy",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Atlante",
+    "operator:wikidata": "Q126913632",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 296 929;+351 234 246 050",
+    "ref": "SSB-00029",
+    "ref:EU:EVSE": "PT*ATL*ESSB*00029*1;PT*ATL*ESSB*00029*2",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "375",
+    "socket:type2_combo:output": "150 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13667135433"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.0373566,
+      38.5647528
     ]
   }
 },
@@ -40298,6 +40525,48 @@
 },
 {
   "type": "Feature",
+  "id": "node/13978906668",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CTB-00081",
+    "network": "Mobi.E",
+    "old_ref": "CTB-00082",
+    "old_ref:EU:EVSE": "PT*FCT*E258*1;PT*FCT*E258*2",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "CTB-00081",
+    "ref:EU:EVSE": "PT*FCT*E*CTB*00081*01;PT*FCT*E*CTB*00081*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "600",
+    "socket:type2_combo:output": "200 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://iberdrola-bppulse.es/",
+    "id": "node/13978906668"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.5358201,
+      39.8023494
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13983986889",
   "properties": {
     "access": "yes",
@@ -40523,6 +40792,318 @@
     "coordinates": [
       -7.4678308,
       41.7401198
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14049909248",
+  "properties": {
+    "access": "yes",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "charge_point:output": "250 kW",
+    "description": "V4",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "manufacturer": "Tesla",
+    "model": "Supercharger V4",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:membership_card": "no",
+    "phone": "+351 300 527 476",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "650",
+    "socket:type2_combo:output": "250 kW",
+    "socket:type2_combo:voltage": "500",
+    "id": "node/14049909248"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.5156172,
+      39.806279
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14049909249",
+  "properties": {
+    "access": "yes",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "charge_point:output": "250 kW",
+    "description": "V4",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "manufacturer": "Tesla",
+    "model": "Supercharger V4",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:membership_card": "no",
+    "phone": "+351 300 527 476",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "650",
+    "socket:type2_combo:output": "250 kW",
+    "socket:type2_combo:voltage": "500",
+    "id": "node/14049909249"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.515644,
+      39.8062964
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14049909250",
+  "properties": {
+    "access": "yes",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "charge_point:output": "250 kW",
+    "description": "V4",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "manufacturer": "Tesla",
+    "model": "Supercharger V4",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:membership_card": "no",
+    "phone": "+351 300 527 476",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "650",
+    "socket:type2_combo:output": "250 kW",
+    "socket:type2_combo:voltage": "500",
+    "id": "node/14049909250"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.5156705,
+      39.8063139
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14049909251",
+  "properties": {
+    "access": "yes",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "charge_point:output": "250 kW",
+    "description": "V4",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "manufacturer": "Tesla",
+    "model": "Supercharger V4",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:membership_card": "no",
+    "phone": "+351 300 527 476",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "650",
+    "socket:type2_combo:output": "250 kW",
+    "socket:type2_combo:voltage": "500",
+    "id": "node/14049909251"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.5156984,
+      39.806332
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14049909252",
+  "properties": {
+    "access": "yes",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "charge_point:output": "250 kW",
+    "description": "V4",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "manufacturer": "Tesla",
+    "model": "Supercharger V4",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:membership_card": "no",
+    "phone": "+351 300 527 476",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "650",
+    "socket:type2_combo:output": "250 kW",
+    "socket:type2_combo:voltage": "500",
+    "id": "node/14049909252"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.5157321,
+      39.8063973
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14049909253",
+  "properties": {
+    "access": "yes",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "charge_point:output": "250 kW",
+    "description": "V4",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "manufacturer": "Tesla",
+    "model": "Supercharger V4",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:membership_card": "no",
+    "phone": "+351 300 527 476",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "650",
+    "socket:type2_combo:output": "250 kW",
+    "socket:type2_combo:voltage": "500",
+    "id": "node/14049909253"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.5157689,
+      39.8067105
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14049909254",
+  "properties": {
+    "access": "yes",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "charge_point:output": "250 kW",
+    "description": "V4",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "manufacturer": "Tesla",
+    "model": "Supercharger V4",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:membership_card": "no",
+    "phone": "+351 300 527 476",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "650",
+    "socket:type2_combo:output": "250 kW",
+    "socket:type2_combo:voltage": "500",
+    "id": "node/14049909254"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.5157649,
+      39.8066816
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14049909255",
+  "properties": {
+    "access": "yes",
+    "authentication:none": "no",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "1",
+    "charge_point:output": "250 kW",
+    "description": "V4",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "manufacturer": "Tesla",
+    "model": "Supercharger V4",
+    "motorcar": "yes",
+    "network": "Tesla",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:membership_card": "no",
+    "phone": "+351 300 527 476",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "650",
+    "socket:type2_combo:output": "250 kW",
+    "socket:type2_combo:voltage": "500",
+    "id": "node/14049909255"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.5157616,
+      39.8066525
     ]
   }
 }
