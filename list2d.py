@@ -54,7 +54,8 @@ def extract_sockets_and_kw(data):
     for p in points:
         props = p.get('properties', {})
         for sock in ALLOWED_SOCKETS:
-            count = int(float(props.get(sock, 0))) if props.get(sock) else 0
+            #count = int(float(props.get(sock, 0))) if props.get(sock) else 0
+            count = parse_socket_count(props.get(sock))
             output = get_numeric_output(props.get(f"{sock}:output"))
             socket_counts[sock] += count
             total_sockets += count
@@ -103,6 +104,32 @@ def compute_adjusted_kw(total_kw, overflow_power, charging_station_output):
     if val is not None and val > 0:
         return round(val, 2)
     return round(total_kw - overflow_power, 2)
+
+def parse_socket_count(value):
+    if value is None:
+        return 0
+
+    s = str(value).strip().lower()
+
+    if s == "":
+        return 0
+
+    if s == "yes":
+        return 1
+
+    try:
+        return int(float(s))
+    except ValueError:
+        pass
+
+    # Extract the last numeric value, e.g.
+    # "yes;1" -> 1
+    # "foo;2" -> 2
+    numbers = re.findall(r"\d+(?:\.\d+)?", s)
+    if numbers:
+        return int(float(numbers[-1]))
+
+    return 0
 
 # Load JSON
 with open('points_grouped_by_polygon_with_unassigned.json', 'r', encoding='utf-8') as f:
