@@ -22846,8 +22846,8 @@
       "id": "way/1347653499"
     },
     "centroid": [
-      37.149968910265635,
-      -7.893217401631021
+      37.149943162875026,
+      -7.893196491411922
     ],
     "points": [
       {
@@ -22863,7 +22863,9 @@
           "charge_point:output": "120 kW",
           "fee": "yes",
           "man_made": "charge_point",
+          "manufacturer": "Starcharge",
           "maxstay": "unlimited",
+          "model": "Titan V3",
           "motorcar": "yes",
           "network": "Mobi.E",
           "opening_hours": "24/7",
@@ -22885,8 +22887,8 @@
           "id": "node/12396758435"
         },
         "coordinates": [
-          37.1499857,
-          -7.8932522
+          37.1499639,
+          -7.8932278
         ]
       },
       {
@@ -22902,7 +22904,9 @@
           "charge_point:output": "82 kW",
           "fee": "yes",
           "man_made": "charge_point",
+          "manufacturer": "Starcharge",
           "maxstay": "unlimited",
+          "model": "Jupiter V3",
           "motorcar": "yes",
           "network": "Mobi.E",
           "opening_hours": "24/7",
@@ -22928,8 +22932,8 @@
           "id": "node/12396758436"
         },
         "coordinates": [
-          37.1499419,
-          -7.8932416
+          37.1499193,
+          -7.8932255
         ]
       }
     ]
@@ -73468,10 +73472,12 @@
           "brand": "Atlante",
           "brand:wikidata": "Q126913632",
           "capacity": "2",
+          "disused:man_made": "charge_point",
           "email": "support.portugal@atlante.energy",
           "fee": "yes",
-          "man_made": "charge_point",
+          "manufacturer": "Efacec",
           "maxstay": "unlimited",
+          "model": "EV C1",
           "motorcar": "yes",
           "network": "Mobi.E",
           "old_operator": "KLC",
@@ -73511,10 +73517,12 @@
           "brand": "Atlante",
           "brand:wikidata": "Q126913632",
           "capacity": "2",
+          "disused:man_made": "charge_point",
           "email": "support.portugal@atlante.energy",
           "fee": "yes",
-          "man_made": "charge_point",
+          "manufacturer": "Efacec",
           "maxstay": "unlimited",
+          "model": "EV C1",
           "motorcar": "yes",
           "network": "Mobi.E",
           "old_operator": "KLC",
@@ -180325,6 +180333,7 @@
     "properties": {
       "access": "yes",
       "amenity": "charging_station",
+      "bicycle": "no",
       "brand": "edp Charge",
       "brand:wikidata": "Q1341222",
       "capacity": "4",
@@ -213647,7 +213656,7 @@
           "man_made": "charge_point",
           "manufacturer": "i-charging",
           "maxstay": "unlimited",
-          "model": "blueberry Fusion",
+          "model": "blueberry",
           "motorcar": "yes",
           "network": "Mobi.E",
           "opening_hours": "24/7",
@@ -270659,6 +270668,7 @@
           "brand": "Seeligg",
           "capacity": "1",
           "fee": "yes",
+          "fixme": "Confirmar localização exacta",
           "man_made": "charge_point",
           "maxstay": "unlimited",
           "motorcar": "yes",
@@ -270717,6 +270727,7 @@
           "brand": "Seeligg",
           "capacity": "1",
           "fee": "yes",
+          "fixme": "Confirmar localização exacta",
           "man_made": "charge_point",
           "maxstay": "unlimited",
           "motorcar": "yes",
@@ -273339,6 +273350,99 @@
         "coordinates": [
           40.4129683,
           -7.6745817
+        ]
+      }
+    ]
+  },
+  "way/1548352153": {
+    "properties": {
+      "access": "customers",
+      "amenity": "charging_station",
+      "brand": "Seeligg",
+      "capacity": "2",
+      "fee": "yes",
+      "maxstay": "unlimited",
+      "motorcar": "yes",
+      "name": "Hotel Porto de Mós",
+      "network": "Seeligg",
+      "opening_hours": "24/7",
+      "operator": "Seeligg",
+      "parking:fee": "no",
+      "website": "https://seeligg.com/",
+      "id": "way/1548352153"
+    },
+    "centroid": [
+      37.086340324141354,
+      -8.685334712191773
+    ],
+    "points": [
+      {
+        "id": "node/14083635402",
+        "properties": {
+          "access": "customers",
+          "authentication:app": "yes",
+          "authentication:membership_card": "no",
+          "authentication:none": "no",
+          "brand": "Seeligg",
+          "capacity": "1",
+          "fee": "yes",
+          "man_made": "charge_point",
+          "maxstay": "unlimited",
+          "motorcar": "yes",
+          "network": "Seeligg",
+          "opening_hours": "24/7",
+          "operator": "Seeligg",
+          "parking:fee": "no",
+          "payment:app": "yes",
+          "payment:cards": "no",
+          "payment:cash": "no",
+          "payment:membership_card": "yes",
+          "ref": "3011002508280033",
+          "socket:type2": "1",
+          "socket:type2:current": "32",
+          "socket:type2:output": "22 kW",
+          "socket:type2:voltage": "400",
+          "website": "https://seeligg.com/",
+          "id": "node/14083635402"
+        },
+        "coordinates": [
+          37.086315,
+          -8.68534
+        ]
+      },
+      {
+        "id": "node/14083635403",
+        "properties": {
+          "access": "customers",
+          "authentication:app": "yes",
+          "authentication:membership_card": "no",
+          "authentication:none": "no",
+          "brand": "Seeligg",
+          "capacity": "1",
+          "fee": "yes",
+          "fixme": "Confirmar localização exacta",
+          "man_made": "charge_point",
+          "maxstay": "unlimited",
+          "motorcar": "yes",
+          "network": "Seeligg",
+          "opening_hours": "24/7",
+          "operator": "Seeligg",
+          "parking:fee": "no",
+          "payment:app": "yes",
+          "payment:cards": "no",
+          "payment:cash": "no",
+          "payment:membership_card": "yes",
+          "ref": "3011002508280035",
+          "socket:type2": "1",
+          "socket:type2:current": "32",
+          "socket:type2:output": "22 kW",
+          "socket:type2:voltage": "400",
+          "website": "https://seeligg.com/",
+          "id": "node/14083635403"
+        },
+        "coordinates": [
+          37.0863218,
+          -8.6853127
         ]
       }
     ]
@@ -283942,17 +284046,19 @@
       "properties": {
         "access": "yes",
         "addr:city": "Beja",
-        "amenity": "charging_station",
         "authentication:app": "yes",
         "authentication:membership_card": "yes",
         "authentication:none": "no",
         "brand": "Powerdot",
         "brand:wikidata": "Q123574541",
         "capacity": "2",
+        "disused:amenity": "charging_station",
         "email": "ajuda@powerdot.pt",
         "fee": "yes",
         "fixme": "Verificar se está operacional",
+        "manufacturer": "Magnum Cap",
         "maxstay": "unlimited",
+        "model": "MCCWB",
         "motorcar": "yes",
         "name": "BJA-90004",
         "network": "Mobi.E",
@@ -317595,7 +317701,9 @@
         "brand:wikidata": "Q1341222",
         "capacity": "2",
         "fee": "yes",
+        "manufacturer": "Magnum Cap",
         "maxstay": "unlimited",
+        "model": "MCCWB",
         "motorcar": "yes",
         "name": "PNV-90001",
         "network": "Mobi.E",
@@ -317618,8 +317726,8 @@
         "id": "node/8290184543"
       },
       "coordinates": [
-        39.7522558,
-        -7.9260457
+        39.7522166,
+        -7.9259907
       ]
     },
     {
@@ -345045,7 +345153,6 @@
       "id": "node/9731276111",
       "properties": {
         "access": "yes",
-        "amenity": "charging_station",
         "authentication:app": "yes",
         "authentication:membership_card": "yes",
         "authentication:none": "no",
@@ -345053,8 +345160,11 @@
         "brand:wikidata": "Q1341222",
         "capacity": "2",
         "charging_station:output": "142 kW",
+        "disused:amenity": "charging_station",
         "fee": "yes",
+        "manufacturer": "Efacec",
         "maxstay": "unlimited",
+        "model": "QC120",
         "motorcar": "yes",
         "name": "VFX-00028",
         "network": "Mobi.E",
@@ -346173,7 +346283,6 @@
       "id": "node/9786970339",
       "properties": {
         "access": "yes",
-        "amenity": "charging_station",
         "authentication:app": "yes",
         "authentication:membership_card": "yes",
         "authentication:none": "no",
@@ -346181,6 +346290,7 @@
         "brand:wikidata": "Q174747",
         "capacity": "2",
         "charging_station:output": "52 kW",
+        "disused:amenity": "charging_station",
         "email": "crc.mobilidade.eletrica.pt@repsol.com",
         "fee": "yes",
         "fixme": "Verificar se ainda existe",
@@ -358693,7 +358803,9 @@
         "brand:wikidata": "Q1341222",
         "capacity": "2",
         "fee": "yes",
+        "manufacturer": "Efacec",
         "maxstay": "unlimited",
+        "model": "Public Charger G2",
         "motorcar": "yes",
         "name": "BRR-00026",
         "network": "Mobi.E",
@@ -358716,8 +358828,8 @@
         "id": "node/10218080758"
       },
       "coordinates": [
-        38.5814504,
-        -9.042843
+        38.581431,
+        -9.0428282
       ]
     },
     {
@@ -369550,7 +369662,6 @@
       "id": "node/10777898546",
       "properties": {
         "access": "yes",
-        "amenity": "charging_station",
         "authentication:app": "yes",
         "authentication:membership_card": "yes",
         "authentication:none": "no",
@@ -369558,9 +369669,12 @@
         "brand:wikidata": "Q126913632",
         "capacity": "2",
         "charging_station:output": "100 kW",
+        "disused:amenity": "charging_station",
         "email": "support.portugal@atlante.energy",
         "fee": "yes",
+        "manufacturer": "i-charging",
         "maxstay": "unlimited",
+        "model": "blueberry PLUS",
         "motorcar": "yes",
         "name": "LLE-00179",
         "network": "Mobi.E",
@@ -376292,8 +376406,8 @@
         "id": "node/10981449251"
       },
       "coordinates": [
-        37.5425991,
-        -8.7360243
+        37.5427203,
+        -8.7359331
       ]
     },
     {
@@ -395370,7 +395484,9 @@
         "capacity": "2",
         "charging_station:output": "120 kW",
         "fee": "yes",
+        "manufacturer": "Starcharge",
         "maxstay": "unlimited",
+        "model": "Titan V3",
         "motorcar": "yes",
         "name": "VFX-00040",
         "network": "Mobi.E",
@@ -395397,8 +395513,8 @@
         "id": "node/11533583681"
       },
       "coordinates": [
-        38.9740949,
-        -8.9802901
+        38.9741783,
+        -8.980215
       ]
     },
     {
@@ -403915,7 +404031,9 @@
         "brand:wikidata": "Q1341222",
         "capacity": "2",
         "fee": "yes",
+        "manufacturer": "Alfen",
         "maxstay": "unlimited",
+        "model": "Eve Double Pro-line",
         "motorcar": "yes",
         "name": "SLV-00015",
         "network": "Mobi.E",
@@ -403938,8 +404056,8 @@
         "id": "node/11867258956"
       },
       "coordinates": [
-        37.1091458,
-        -8.3528735
+        37.1092613,
+        -8.3534032
       ]
     },
     {
@@ -423733,7 +423851,9 @@
         "brand:wikidata": "Q1341222",
         "capacity": "2",
         "fee": "yes",
+        "manufacturer": "Volt-E",
         "maxstay": "unlimited",
+        "model": "AC22STAT",
         "motorcar": "yes",
         "name": "PLM-00040",
         "network": "Mobi.E",
@@ -423756,8 +423876,8 @@
         "id": "node/12259416537"
       },
       "coordinates": [
-        38.5771824,
-        -9.0146216
+        38.5769187,
+        -9.0154645
       ]
     },
     {
@@ -449078,8 +449198,8 @@
         "id": "node/13038151259"
       },
       "coordinates": [
-        38.7078241,
-        -9.4563626
+        38.7077906,
+        -9.4563666
       ]
     },
     {
@@ -471505,7 +471625,6 @@
         "charging_station:output": "100 kW",
         "email": "geral.pt@helexia.eu",
         "fee": "yes",
-        "fixme": "Verificar a corrente máxima na chapa de características, Verificar se aceita pagamento com cartão bancário",
         "manufacturer": "i-charging",
         "maxstay": "unlimited",
         "model": "blueberry Fusion",
@@ -471523,15 +471642,15 @@
         "ref": "SEI-00018",
         "ref:EU:EVSE": "PT*HLX*E*SEI*00018*01;PT*HLX*E*SEI*00018*02",
         "socket:type2_combo": "2",
-        "socket:type2_combo:current": "250",
+        "socket:type2_combo:current": "375",
         "socket:type2_combo:output": "100 kW",
         "socket:type2_combo:voltage": "1000",
         "website": "https://www.mobie.pt/",
         "id": "node/13739803132"
       },
       "coordinates": [
-        40.406797,
-        -7.7088971
+        40.4068087,
+        -7.7088991
       ]
     },
     {
@@ -484250,6 +484369,41 @@
       "coordinates": [
         38.6440437,
         -9.2319818
+      ]
+    },
+    {
+      "id": "node/14083625688",
+      "properties": {
+        "access": "customers",
+        "amenity": "charging_station",
+        "authentication:app": "yes",
+        "authentication:membership_card": "no",
+        "authentication:none": "no",
+        "brand": "Seeligg",
+        "capacity": "1",
+        "fee": "yes",
+        "maxstay": "unlimited",
+        "motorcar": "yes",
+        "name": "Verride",
+        "network": "Seeligg",
+        "opening_hours": "24/7",
+        "operator": "Seeligg",
+        "parking:fee": "no",
+        "payment:app": "yes",
+        "payment:cards": "no",
+        "payment:cash": "no",
+        "payment:membership_card": "yes",
+        "ref": "782184D03410",
+        "socket:type2": "1",
+        "socket:type2:current": "32",
+        "socket:type2:output": "22 kW",
+        "socket:type2:voltage": "400",
+        "website": "https://seeligg.com/",
+        "id": "node/14083625688"
+      },
+      "coordinates": [
+        38.7095291,
+        -9.1470241
       ]
     }
   ]
