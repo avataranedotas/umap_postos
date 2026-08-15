@@ -3370,8 +3370,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.3284775,
-      38.7283613
+      -9.3284841,
+      38.7283478
     ]
   }
 },
@@ -3930,8 +3930,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.3285358,
-      38.7283438
+      -9.3285429,
+      38.7283314
     ]
   }
 },
@@ -4930,8 +4930,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.5429305,
-      39.471134
+      -8.5429225,
+      39.4711464
     ]
   }
 },
@@ -5653,8 +5653,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.0419308,
-      39.6390519
+      -9.041957,
+      39.6390364
     ]
   }
 },
@@ -5719,12 +5719,12 @@
     "authentication:none": "no",
     "brand": "Iberdrola bp pulse",
     "capacity": "2",
-    "charging_station:output": "150 kW",
+    "charging_station:output": "200 kW",
     "email": "suporte@chargingtogether.pt",
     "fee": "yes",
     "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
-    "model": "HYC_150",
+    "model": "HYC_200",
     "motorcar": "yes",
     "name": "ELV-00017",
     "network": "Mobi.E",
@@ -5739,8 +5739,8 @@
     "ref": "ELV-00017",
     "ref:EU:EVSE": "PT*FCT*E*ELV*00017*01;PT*FCT*E*ELV*00017*02",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "500",
-    "socket:type2_combo:output": "150 kW",
+    "socket:type2_combo:current": "600",
+    "socket:type2_combo:output": "200 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt",
     "id": "node/12175855267"
@@ -6133,7 +6133,9 @@
     "capacity": "2",
     "email": "suporte@chargingtogether.pt",
     "fee": "yes",
+    "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
+    "model": "HYC_300",
     "motorcar": "yes",
     "name": "MTJ-00104",
     "network": "Mobi.E",
@@ -6146,11 +6148,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 917 576",
     "ref": "MTJ-00104",
-    "ref:EU:EVSE": "PT*FCT*E*MTJ*00104*01;PT*FCT*E*MTJ*00104*02;PT*FCT*E*MTJ*00104*03",
-    "socket:chademo": "1",
-    "socket:chademo:current": "200",
-    "socket:chademo:output": "80 kW",
-    "socket:chademo:voltage": "500",
+    "ref:EU:EVSE": "PT*FCT*E*MTJ*00104*01;PT*FCT*E*MTJ*00104*02",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "150 kW",
@@ -6345,8 +6343,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -6.7082148,
-      41.3535429
+      -6.7082403,
+      41.3535515
     ]
   }
 },
@@ -6388,8 +6386,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -6.7082777,
-      41.3535055
+      -6.7083032,
+      41.3535141
     ]
   }
 },
@@ -6581,8 +6579,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.3871926,
-      41.2827838
+      -8.3872174,
+      41.2827823
     ]
   }
 },
@@ -6836,7 +6834,7 @@
     "authentication:none": "no",
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
-    "capacity": "2",
+    "capacity": "3",
     "charging_station:output": "122 kW",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
@@ -6856,15 +6854,11 @@
     "phone": "+351 800 180 292",
     "ref": "PRG-00004",
     "ref:EU:EVSE": "PT*HRZ*E*PRG*00004*01;PT*HRZ*E*PRG*00004*02;PT*HRZ*E*PRG*00004*03",
-    "socket:chademo": "1",
-    "socket:chademo:current": "125",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
     "socket:type2": "1",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
     "socket:type2:voltage": "400",
-    "socket:type2_combo": "1",
+    "socket:type2_combo": "2",
     "socket:type2_combo:current": "400",
     "socket:type2_combo:output": "100 kW",
     "socket:type2_combo:voltage": "1000",
@@ -6874,8 +6868,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.8034491,
-      41.1625903
+      -7.8034317,
+      41.1626418
     ]
   }
 },
@@ -7171,6 +7165,61 @@
     "coordinates": [
       -8.6728632,
       37.1198112
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12343627019",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Powerdot",
+    "brand:wikidata": "Q123574541",
+    "capacity": "2",
+    "charging_station:output": "150 kW",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "manufacturer": "Kempower",
+    "maxstay": "unlimited",
+    "model": "Station Charger C501",
+    "motorcar": "yes",
+    "name": "FAR-00060",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "operator:wikidata": "Q123574541",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 180 292",
+    "ref": "FAR-00060",
+    "ref:EU:EVSE": "PT*HRZ*E*FAR*00060*01;PT*HRZ*E*FAR*00060*02;PT*HRZ*E*FAR*00060*03",
+    "socket:chademo": "1",
+    "socket:chademo:current": "125",
+    "socket:chademo:output": "50 kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "200",
+    "socket:type2_combo:output": "150 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12343627019"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.967168,
+      37.0450597
     ]
   }
 },
@@ -11694,8 +11743,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.0418305,
-      39.6390078
+      -9.0418567,
+      39.6389923
     ]
   }
 },
@@ -11742,8 +11791,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.0418818,
-      39.63903
+      -9.041908,
+      39.6390145
     ]
   }
 },
@@ -14405,8 +14454,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.6609247,
-      39.656721
+      -7.6609254,
+      39.6567623
     ]
   }
 },
@@ -14766,8 +14815,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.5864974,
-      41.782731
+      -8.5867265,
+      41.7828362
     ]
   }
 },
@@ -14814,8 +14863,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.5864464,
-      41.7827137
+      -8.5866788,
+      41.7828092
     ]
   }
 },
@@ -20064,8 +20113,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.7749025,
-      40.605103
+      -7.7749079,
+      40.6051223
     ]
   }
 },
@@ -20106,8 +20155,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.7749649,
-      40.6051056
+      -7.7749703,
+      40.6051249
     ]
   }
 },
@@ -20686,8 +20735,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.5429477,
-      39.4710915
+      -8.5429397,
+      39.4711039
     ]
   }
 },
@@ -25272,8 +25321,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.5431402,
-      39.4711949
+      -8.5431405,
+      39.4711913
     ]
   }
 },
@@ -29753,8 +29802,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.3871467,
-      41.2828425
+      -8.3871715,
+      41.282841
     ]
   }
 },
@@ -29800,8 +29849,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.3871622,
-      41.2828238
+      -8.387187,
+      41.2828223
     ]
   }
 },
@@ -29847,8 +29896,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.3871784,
-      41.2828025
+      -8.3872032,
+      41.282801
     ]
   }
 },
@@ -30165,8 +30214,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.8913958,
-      38.5568569
+      -7.8914079,
+      38.556849
     ]
   }
 },
@@ -30207,8 +30256,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.8913509,
-      38.5568849
+      -7.891363,
+      38.556877
     ]
   }
 },
@@ -30431,90 +30480,6 @@
     "coordinates": [
       -9.2359449,
       38.6403962
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/13608233365",
-  "properties": {
-    "access": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "REMO",
-    "capacity": "2",
-    "charge_point:output": "50 kW",
-    "email": "charging@me-remo.com",
-    "fee": "yes",
-    "man_made": "charge_point",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Mota Engil II",
-    "operator:wikidata": "Q1949595",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "yes",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 020 940",
-    "ref": "ALM-00115",
-    "ref:EU:EVSE": "PT*MOT*E*ALM*00115*01;PT*MOT*E*ALM*00115*02",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "150",
-    "socket:type2_combo:output": "50 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/",
-    "id": "node/13608233365"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.186738,
-      38.6681133
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/13608236333",
-  "properties": {
-    "access": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "REMO",
-    "capacity": "2",
-    "charge_point:output": "50 kW",
-    "email": "charging@me-remo.com",
-    "fee": "yes",
-    "man_made": "charge_point",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Mota Engil II",
-    "operator:wikidata": "Q1949595",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "yes",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 020 940",
-    "ref": "ALM-00153",
-    "ref:EU:EVSE": "PT*MOT*E*ALM*00153*01;PT*MOT*E*ALM*00153*02",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "150",
-    "socket:type2_combo:output": "50 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/",
-    "id": "node/13608236333"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.1866939,
-      38.6681414
     ]
   }
 },
@@ -32492,8 +32457,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.4889448,
-      41.5076614
+      -8.4889414,
+      41.5076147
     ]
   }
 },
@@ -34202,49 +34167,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13908078529",
-  "properties": {
-    "access": "yes",
-    "amenity": "charging_station",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Renewing",
-    "capacity": "2",
-    "charging_station:output": "120 kW",
-    "email": "renewing.charging@mota-engil.pt",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "TVD-00059",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Mota Engil II",
-    "operator:wikidata": "Q1949595",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "yes",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 020 940",
-    "ref": "TVD-00059",
-    "ref:EU:EVSE": "PT*MOT*E*TVD*00059*01;PT*MOT*E*TVD*00059*02",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "400",
-    "socket:type2_combo:output": "120 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/",
-    "id": "node/13908078529"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.208222,
-      39.0668806
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13922039703",
   "properties": {
     "access": "yes",
@@ -34871,51 +34793,6 @@
     "coordinates": [
       -8.2505671,
       37.6011053
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/13968599882",
-  "properties": {
-    "access": "yes",
-    "amenity": "charging_station",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "REMO",
-    "capacity": "2",
-    "charging_station:output": "150 kW",
-    "email": "renewing.charging@mota-engil.pt",
-    "fee": "yes",
-    "manufacturer": "Alpitronic",
-    "maxstay": "unlimited",
-    "model": "HYC_150",
-    "motorcar": "yes",
-    "name": "ALM-00133",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Mota Engil II",
-    "operator:wikidata": "Q1949595",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "yes",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 020 940",
-    "ref": "ALM-00133",
-    "ref:EU:EVSE": "PT*MOT*E*ALM*00133*01;PT*MOT*E*ALM*00133*02",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "375",
-    "socket:type2_combo:output": "150 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/",
-    "id": "node/13968599882"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.1619417,
-      38.6651172
     ]
   }
 },
