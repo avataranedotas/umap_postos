@@ -4857,7 +4857,9 @@
     "capacity": "2",
     "construction:man_made": "charge_point",
     "fee": "yes",
+    "manufacturer": "enelion",
     "maxstay": "unlimited",
+    "model": "Wallbox Duo",
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
@@ -4893,7 +4895,9 @@
     "capacity": "2",
     "construction:man_made": "charge_point",
     "fee": "yes",
+    "manufacturer": "enelion",
     "maxstay": "unlimited",
+    "model": "Wallbox Duo",
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
@@ -12715,7 +12719,7 @@
   "type": "Feature",
   "id": "node/13908045867",
   "properties": {
-    "access": "yes",
+    "access": "customers",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "KLC",
@@ -12724,6 +12728,7 @@
     "construction:man_made": "charge_point",
     "email": "apoio.cliente@kmlowcost.com",
     "fee": "yes",
+    "fixme": "Mover para o local certo",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -12748,8 +12753,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.3476454,
-      39.9735884
+      -7.471115,
+      39.7300682
     ]
   }
 },
@@ -12757,7 +12762,7 @@
   "type": "Feature",
   "id": "node/13908045868",
   "properties": {
-    "access": "yes",
+    "access": "customers",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "KLC",
@@ -12766,6 +12771,7 @@
     "construction:man_made": "charge_point",
     "email": "apoio.cliente@kmlowcost.com",
     "fee": "yes",
+    "fixme": "Mover para o local certo",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -12790,8 +12796,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.3476645,
-      39.9735709
+      -7.4711438,
+      39.730074
     ]
   }
 },
@@ -24687,50 +24693,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/14075429166",
-  "properties": {
-    "access": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Galp electric",
-    "brand:wikidata": "Q135275372",
-    "capacity": "2",
-    "construction:amenity": "charging_station",
-    "email": "veiculoeletrico@galp.com",
-    "fee": "yes",
-    "fixme": "Confirmar a corrente máxima na chapa de características",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "CPV-00006",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Galp Power",
-    "operator:wikidata": "Q135275372",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 249 249",
-    "ref": "CPV-00006",
-    "ref:EU:EVSE": "PT*GLP*ECPV*00006*01;PT*GLP*ECPV*00006*02",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "250",
-    "socket:type2_combo:output": "120 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/",
-    "id": "node/14075429166"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.2650996,
-      41.0450308
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/14075632048",
   "properties": {
     "access": "yes",
@@ -25932,19 +25894,151 @@
 },
 {
   "type": "Feature",
-  "id": "node/14095417057",
+  "id": "node/14099480092",
   "properties": {
     "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Galp electric",
+    "brand:wikidata": "Q135275372",
+    "capacity": "2",
+    "construction:man_made": "charge_point",
+    "email": "veiculoeletrico@galp.com",
+    "fee": "yes",
+    "manufacturer": "Alfen",
+    "maxstay": "unlimited",
+    "model": "Eve Double Pro-line",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "operator:wikidata": "Q135275372",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 249 249",
+    "ref": "AVV-?????",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "id": "node/14099480092"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4196472,
+      41.8341031
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14099480093",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Galp electric",
+    "brand:wikidata": "Q135275372",
+    "capacity": "2",
+    "charge_point:output": "90 kW",
+    "construction:man_made": "charge_point",
+    "email": "veiculoeletrico@galp.com",
+    "fee": "yes",
+    "manufacturer": "Hellonext",
+    "maxstay": "unlimited",
+    "model": "H2 90",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "operator:wikidata": "Q135275372",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 249 249",
+    "ref": "AVV-?????",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "200",
+    "socket:type2_combo:output": "90 kW",
+    "socket:type2_combo:voltage": "1000",
+    "id": "node/14099480093"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4196492,
+      41.8341461
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14099487256",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "2",
+    "charging_station:output": "50 kW",
+    "construction:amenity": "charging_station",
+    "fee": "yes",
+    "manufacturer": "Alpitronic",
+    "maxstay": "unlimited",
+    "model": "HYC_50",
+    "motorcar": "yes",
+    "name": "Maxmat Seixal",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "24/7",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "phone": "+351 210 19 19 19",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "50 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/14099487256"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1069604,
+      38.6121462
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14099513280",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "edp Charge",
     "brand:wikidata": "Q1341222",
     "capacity": "2",
+    "charging_station:output": "120 kW",
     "construction:amenity": "charging_station",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "ALM-00192",
+    "name": "ALM-?????",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
@@ -25955,20 +26049,19 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
-    "ref": "ALM-00192",
-    "ref:EU:EVSE": "PT*EDP*EALM*00192*1;PT*EDP*EALM*00192*2",
-    "socket:type2_cable": "2",
-    "socket:type2_cable:current": "32",
-    "socket:type2_cable:output": "22 kW",
-    "socket:type2_cable:voltage": "400",
-    "website": "https://www.edp.pt/",
-    "id": "node/14095417057"
+    "ref": "ALM-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "300",
+    "socket:type2_combo:output": "120 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/14099513280"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.1693735,
-      38.6464226
+      -9.1685928,
+      38.6557543
     ]
   }
 }
