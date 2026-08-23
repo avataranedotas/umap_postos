@@ -2700,7 +2700,7 @@
     "socket:chademo:voltage": "500",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "500",
-    "socket:type2_combo:output": "300 kW",
+    "socket:type2_combo:output": "150 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt/",
     "id": "node/11607745533"
@@ -5087,14 +5087,14 @@
     "email": "support.portugal@atlante.energy",
     "fee": "yes",
     "location": "underground",
-    "maxstay": "unlimited",
+    "maxstay": "2 hours",
     "motorcar": "yes",
     "name": "VNG-00168",
     "network": "Mobi.E",
-    "opening_hours": "09:00-21:00",
+    "opening_hours": "08:00-21:00",
     "operator": "Atlante",
     "operator:wikidata": "Q126913632",
-    "parking:fee": "no",
+    "parking:fee": "yes",
     "payment:app": "yes",
     "payment:cards": "yes",
     "payment:cash": "no",
@@ -9651,7 +9651,7 @@
     "ref:EU:EVSE": "PT*FCT*E*SNT*00159*01;PT*FCT*E*SNT*00159*03",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "500",
-    "socket:type2_combo:output": "300 kW",
+    "socket:type2_combo:output": "150 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt/",
     "id": "node/12505276075"
@@ -10351,49 +10351,6 @@
     "coordinates": [
       -8.6319169,
       41.1092387
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12615567328",
-  "properties": {
-    "access": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Iberdrola bp pulse",
-    "capacity": "2",
-    "charge_point:output": "300 kW",
-    "email": "suporte@chargingtogether.pt",
-    "fee": "yes",
-    "man_made": "charge_point",
-    "manufacturer": "Alpitronic",
-    "maxstay": "unlimited",
-    "model": "HYC_300",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Charging Together",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "yes",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 917 576",
-    "ref": "OVR-00029",
-    "ref:EU:EVSE": "PT*FCT*E*OVR*00029*01;PT*FCT*E*OVR*00029*02;PT*FCT*E296*1;PT*FCT*E296*2",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "500",
-    "socket:type2_combo:output": "150 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt",
-    "id": "node/12615567328"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.6123539,
-      40.9051283
     ]
   }
 },
@@ -15074,6 +15031,52 @@
     "coordinates": [
       -9.3467052,
       38.7709506
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12892687937",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Renewing",
+    "capacity": "2",
+    "charging_station:output": "60 kW",
+    "email": "renewing.charging@mota-engil.pt",
+    "fee": "yes",
+    "manufacturer": "Ekoenergetyka",
+    "maxstay": "unlimited",
+    "model": "Axon Easy 60",
+    "motorcar": "yes",
+    "name": "GMR-00142",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Mota Engil II",
+    "operator:wikidata": "Q1949595",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 020 940",
+    "ref": "GMR-00142",
+    "ref:EU:EVSE": "PT*MOT*E*GMR*00142*01;PT*MOT*E*GMR*00142*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "60 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/12892687937"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.3110087,
+      41.437063
     ]
   }
 },
@@ -22977,48 +22980,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13289871489",
-  "properties": {
-    "access": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "REMO",
-    "capacity": "2",
-    "charge_point:output": "60 kW",
-    "email": "charging@me-remo.com",
-    "fee": "yes",
-    "man_made": "charge_point",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Mota Engil II",
-    "operator:wikidata": "Q1949595",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "yes",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 020 940",
-    "ref": "TVD-00076",
-    "ref:EU:EVSE": "PT*MOT*E*TVD*00076*01;PT*MOT*E*TVD*00076*02",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "250",
-    "socket:type2_combo:output": "60 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/",
-    "id": "node/13289871489"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.2586117,
-      39.0854065
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13289914381",
   "properties": {
     "access": "yes",
@@ -23361,53 +23322,6 @@
     "coordinates": [
       -8.1569613,
       41.0642424
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/13332586459",
-  "properties": {
-    "access": "yes",
-    "amenity": "charging_station",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Helexia",
-    "brand:wikidata": "Q137294295",
-    "capacity": "2",
-    "charging_station:output": "160 kW",
-    "email": "geral.pt@helexia.eu",
-    "fee": "yes",
-    "fixme": "Verificar se aceita pagamento com cartão bancário",
-    "manufacturer": "iskraemeco",
-    "maxstay": "unlimited",
-    "model": "iFC160-350A",
-    "motorcar": "yes",
-    "name": "LRA-00177",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Helexia II",
-    "operator:wikidata": "Q137294295",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "yes",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 210 181 157",
-    "ref": "LRA-00177",
-    "ref:EU:EVSE": "PT*HLX*E*LRA*00177*01;PT*HLX*E*LRA*00177*02",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "350",
-    "socket:type2_combo:output": "120 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/",
-    "id": "node/13332586459"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.780123,
-      39.774586
     ]
   }
 },
@@ -36244,7 +36158,6 @@
     "charge_point:output": "200 kW",
     "email": "suporte@chargingtogether.pt",
     "fee": "yes",
-    "fixme": "Mover para o local exacto",
     "man_made": "charge_point",
     "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
@@ -36263,7 +36176,7 @@
     "ref:EU:EVSE": "PT*FCT*E*MRS*00006*01;PT*FCT*E*MRS*00006*02",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "600",
-    "socket:type2_combo:output": "200 kW",
+    "socket:type2_combo:output": "150 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://iberdrola-bppulse.es/",
     "id": "node/14094951601"

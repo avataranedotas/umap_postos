@@ -29075,6 +29075,7 @@
     "capacity": "1",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "fixme": "Mover para o local exacto",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "OVR-00004",
@@ -31205,7 +31206,9 @@
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
     "man_made": "charge_point",
+    "manufacturer": "Alfen",
     "maxstay": "unlimited",
+    "model": "Eve Double Pro-line",
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
@@ -46902,11 +46905,13 @@
     "capacity": "2",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "indoor": "yes",
+    "location": "indoor",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "LRS-00066",
     "network": "Mobi.E",
-    "opening_hours": "24/7",
+    "opening_hours": "Mo-Fr 07:30-20:00; Sa 07:30-17:00",
     "operator": "Mobiletric",
     "parking:fee": "yes",
     "payment:app": "yes",
@@ -46926,8 +46931,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.1028166,
-      38.7943904
+      -9.1033437,
+      38.7940559
     ]
   }
 },
@@ -55817,6 +55822,47 @@
     "coordinates": [
       -8.281268,
       41.4431792
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10740188508",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "capacity": "2",
+    "fee": "yes",
+    "manufacturer": "Magnum Cap",
+    "maxstay": "unlimited",
+    "model": "MCCWB",
+    "motorcar": "yes",
+    "name": "GMR-00073",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Generation Journey",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "GMR-00073",
+    "ref:EU:EVSE": "PT*GEN*E*GMR*00073*01;PT*GEN*E*GMR*00073*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/10740188508"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.2681858,
+      41.4313254
     ]
   }
 },
@@ -99411,7 +99457,9 @@
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
     "man_made": "charge_point",
+    "manufacturer": "Alfen",
     "maxstay": "unlimited",
+    "model": "Eve Double Pro-line",
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
@@ -132926,49 +132974,6 @@
     "coordinates": [
       -9.353406,
       38.696026
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12926569125",
-  "properties": {
-    "access": "yes",
-    "amenity": "charging_station",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "wowplug",
-    "brand:wikidata": "Q137294207",
-    "capacity": "2",
-    "email": "suporte@wowplug.com",
-    "fee": "yes",
-    "manufacturer": "wowplug",
-    "maxstay": "unlimited",
-    "model": "eDOT",
-    "motorcar": "yes",
-    "name": "BJA-00061",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "True Kare",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "ref": "BJA-00061",
-    "ref:EU:EVSE": "PT*TRK*E*BJA*00061*01;PT*TRK*E*BJA*00061*02",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt/",
-    "id": "node/12926569125"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.7764264,
-      37.9357619
     ]
   }
 },
@@ -171118,6 +171123,50 @@
 },
 {
   "type": "Feature",
+  "id": "node/13534432028",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "ecoinside",
+    "capacity": "2",
+    "email": "contact@ecoinside.pt",
+    "fee": "yes",
+    "manufacturer": "V2C",
+    "maxstay": "unlimited",
+    "model": "Pole PRO",
+    "motorcar": "yes",
+    "name": "ACN-00014",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EcoInside",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 22 617 33 43",
+    "ref": "ACN-00014",
+    "ref:EU:EVSE": "PT*ECI*E*ACN*00014*01;PT*ECI*E*ACN*00014*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13534432028"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.7097909,
+      39.4423673
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13541990850",
   "properties": {
     "access": "yes",
@@ -181200,6 +181249,50 @@
 },
 {
   "type": "Feature",
+  "id": "node/13918431296",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "brand:wikidata": "Q137294207",
+    "capacity": "2",
+    "email": "suporte@wowplug.com",
+    "fee": "yes",
+    "manufacturer": "wowplug",
+    "maxstay": "unlimited",
+    "model": "eDOT",
+    "motorcar": "yes",
+    "name": "CSC-00556",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "CSC-00556",
+    "ref:EU:EVSE": "PT*TRK*E*CSC*00556*01;PT*TRK*E*CSC*00556*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13918431296"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.378144,
+      38.7070518
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13922021983",
   "properties": {
     "access": "yes",
@@ -186180,6 +186273,50 @@
 },
 {
   "type": "Feature",
+  "id": "node/14108304957",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "brand:wikidata": "Q137294207",
+    "capacity": "2",
+    "email": "suporte@wowplug.com",
+    "fee": "yes",
+    "manufacturer": "wowplug",
+    "maxstay": "unlimited",
+    "model": "eDOT",
+    "motorcar": "yes",
+    "name": "CSC-00558",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "CSC-00558",
+    "ref:EU:EVSE": "PT*TRK*E*CSC*00558*01;PT*TRK*E*CSC*00558*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/14108304957"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.37809,
+      38.70023
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/14108306622",
   "properties": {
     "access": "yes",
@@ -186219,6 +186356,94 @@
     "coordinates": [
       -9.37771,
       38.73183
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14108316964",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "brand:wikidata": "Q137294207",
+    "capacity": "2",
+    "email": "suporte@wowplug.com",
+    "fee": "yes",
+    "manufacturer": "wowplug",
+    "maxstay": "unlimited",
+    "model": "eDOT",
+    "motorcar": "yes",
+    "name": "LSB-01216",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "LSB-01216",
+    "ref:EU:EVSE": "PT*TRK*E*LSB*01216*01;PT*TRK*E*LSB*01216*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/14108316964"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.17384,
+      38.76118
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14108316965",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "brand:wikidata": "Q137294207",
+    "capacity": "2",
+    "email": "suporte@wowplug.com",
+    "fee": "yes",
+    "manufacturer": "wowplug",
+    "maxstay": "unlimited",
+    "model": "eDOT",
+    "motorcar": "yes",
+    "name": "LSB-01210",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "LSB-01210",
+    "ref:EU:EVSE": "PT*TRK*E*LSB*01210*01;PT*TRK*E*LSB*01210*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/14108316965"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.15912,
+      38.76778
     ]
   }
 },
@@ -186351,6 +186576,249 @@
     "coordinates": [
       -9.121761,
       38.738674
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14110963731",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "ecoinside",
+    "capacity": "2",
+    "email": "contact@ecoinside.pt",
+    "fee": "yes",
+    "fixme": "Move to exact location",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "ACN-00016",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EcoInside",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 22 617 33 43",
+    "ref": "ACN-00016",
+    "ref:EU:EVSE": "PT*ECI*E*ACN*00016*01;PT*ECI*E*ACN*00016*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/14110963731"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6668879,
+      39.4555392
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14113148420",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "no",
+    "authentication:none": "no",
+    "brand": "Seeligg",
+    "capacity": "1",
+    "fee": "no",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Navegantes 5",
+    "network": "Seeligg",
+    "opening_hours": "24/7",
+    "operator": "Seeligg",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "ref": "TACW2241922G2383",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://seeligg.com/",
+    "id": "node/14113148420"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.2924702,
+      38.6979099
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14113148421",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "no",
+    "authentication:none": "no",
+    "brand": "Seeligg",
+    "capacity": "1",
+    "fee": "no",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Navegantes 4",
+    "network": "Seeligg",
+    "opening_hours": "24/7",
+    "operator": "Seeligg",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "ref": "TACW2241922G2387",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://seeligg.com/",
+    "id": "node/14113148421"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.292482,
+      38.6979298
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14113148422",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "no",
+    "authentication:none": "no",
+    "brand": "Seeligg",
+    "capacity": "1",
+    "fee": "no",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Navegantes 3",
+    "network": "Seeligg",
+    "opening_hours": "24/7",
+    "operator": "Seeligg",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "ref": "TACW2241922G2388",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://seeligg.com/",
+    "id": "node/14113148422"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.2924934,
+      38.6979505
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14113148423",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "no",
+    "authentication:none": "no",
+    "brand": "Seeligg",
+    "capacity": "1",
+    "fee": "no",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Navegantes 2",
+    "network": "Seeligg",
+    "opening_hours": "24/7",
+    "operator": "Seeligg",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "ref": "TACW2241922G2353",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://seeligg.com/",
+    "id": "node/14113148423"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.2925041,
+      38.697972
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14113148427",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "no",
+    "authentication:none": "no",
+    "brand": "Seeligg",
+    "capacity": "1",
+    "fee": "no",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Navegantes 1",
+    "network": "Seeligg",
+    "opening_hours": "24/7",
+    "operator": "Seeligg",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "ref": "TACW2241922G2392",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://seeligg.com/",
+    "id": "node/14113148427"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.2925176,
+      38.6979918
     ]
   }
 }
