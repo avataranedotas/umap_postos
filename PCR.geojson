@@ -84170,6 +84170,7 @@
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
+    "bicycle": "no",
     "brand": "Helexia",
     "brand:wikidata": "Q137294295",
     "capacity": "2",
@@ -131792,6 +131793,49 @@
 },
 {
   "type": "Feature",
+  "id": "node/14094951605",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "charge_point:output": "50 kW",
+    "email": "suporte@chargingtogether.pt",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "manufacturer": "Alpitronic",
+    "maxstay": "unlimited",
+    "model": "HYC_50",
+    "motorcar": "yes",
+    "network": "Iberdrola BP Pulse",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "MRS-00005",
+    "ref:EU:EVSE": "PT*FCT*E*MRS*00005*01;PT*FCT*E*MRS*00005*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "50 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://iberdrola-bppulse.es/",
+    "id": "node/14094951605"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6463068,
+      40.7501895
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/14095374777",
   "properties": {
     "access": "yes",
@@ -131944,11 +131988,14 @@
     "brand": "Galp electric",
     "brand:wikidata": "Q135275372",
     "capacity": "2",
+    "charge_point:output": "120 kW",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
-    "fixme": "Move to correct location",
+    "fixme": "Confirma se a corrente máxima é mesmo 300A",
     "man_made": "charge_point",
+    "manufacturer": "Hellonext",
     "maxstay": "unlimited",
+    "model": "H2 120",
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
@@ -131972,8 +132019,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.8212013,
-      39.7332397
+      -8.8225341,
+      39.7342731
     ]
   }
 },
