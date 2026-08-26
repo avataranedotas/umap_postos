@@ -19214,7 +19214,9 @@
     "capacity": "2",
     "charging_station:output": "93 kW",
     "fee": "yes",
+    "manufacturer": "Efacec",
     "maxstay": "unlimited",
+    "model": "QC45",
     "motorcar": "yes",
     "name": "VNF-00018",
     "network": "Mobi.E",
@@ -32668,6 +32670,7 @@
     "email": "contact@ecoinside.pt",
     "fee": "yes",
     "man_made": "charge_point",
+    "manufacturer": "Magnum Cap",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -45852,6 +45855,56 @@
     "coordinates": [
       -7.4912176,
       40.264746
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10243291873",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "2",
+    "charging_station:output": "142 kW",
+    "fee": "yes",
+    "manufacturer": "Efacec",
+    "maxstay": "unlimited",
+    "model": "QC120",
+    "motorcar": "yes",
+    "name": "PBL-00012",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "PBL-00012",
+    "ref:EU:EVSE": "PT*EDP*EPBL*00012*1;PT*EDP*EPBL*00012*2;PT*EDP*EPBL*00012*3",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "200",
+    "socket:type2_combo:output": "120 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/10243291873"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6281809,
+      39.9236828
     ]
   }
 },
@@ -65930,7 +65983,9 @@
     "charging_station:output": "51 kW",
     "email": "info@mobismart.pt;info@evce.pt",
     "fee": "yes",
+    "manufacturer": "Circutor",
     "maxstay": "unlimited",
+    "model": "Raption 50",
     "motorcar": "yes",
     "name": "GMR-00114",
     "network": "Mobi.E",
@@ -85143,7 +85198,9 @@
     "charging_station:output": "60 kW",
     "email": "info@alfaenergia.pt",
     "fee": "yes",
+    "manufacturer": "Schneider",
     "maxstay": "unlimited",
+    "model": "EVlink Pro DC 60",
     "motorcar": "yes",
     "name": "AND-00014",
     "network": "Mobi.E",
@@ -85158,9 +85215,9 @@
     "ref": "AND-00014",
     "ref:EU:EVSE": "PT*ALF*E*AND*00014*01;PT*ALF*E*AND*00014*02",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "48",
-    "socket:type2_combo:output": "25 kW",
-    "socket:type2_combo:voltage": "500",
+    "socket:type2_combo:current": "200",
+    "socket:type2_combo:output": "40 kW",
+    "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt/",
     "id": "node/12345011087"
   },
@@ -131648,7 +131705,7 @@
     "ref:EU:EVSE": "PT*ATL*EODV*00061*1;PT*ATL*EODV*00061*2",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "300",
-    "socket:type2_combo:output": "30 kW",
+    "socket:type2_combo:output": "100 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt/",
     "id": "node/14056970902"
@@ -131749,6 +131806,46 @@
     "coordinates": [
       -8.6184652,
       41.2463739
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14071460755",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Galp electric",
+    "capacity": "2",
+    "charge_point:output": "60 kW",
+    "fee": "yes",
+    "fixme": "Move to exact location",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "MGR-00032",
+    "ref:EU:EVSE": "PT*GLP*EMGR*00032*01;PT*GLP*EMGR*00032*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "120",
+    "socket:type2_combo:output": "60 kW",
+    "socket:type2_combo:voltage": "1000",
+    "id": "node/14071460755"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.9306603,
+      39.7210338
     ]
   }
 },

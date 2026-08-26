@@ -46947,9 +46947,9 @@
           "brand": "Iberdrola bp pulse",
           "capacity": "2",
           "charge_point:output": "300 kW",
-          "construction:man_made": "charge_point",
           "email": "suporte@chargingtogether.pt",
           "fee": "yes",
+          "man_made": "charge_point",
           "manufacturer": "Alpitronic",
           "maxstay": "unlimited",
           "model": "HYC_300",
@@ -58166,6 +58166,7 @@
     "properties": {
       "access": "yes",
       "amenity": "charging_station",
+      "bicycle": "no",
       "brand": "Galp electric",
       "brand:wikidata": "Q135275372",
       "capacity": "6",
@@ -58312,6 +58313,7 @@
     "properties": {
       "access": "yes",
       "amenity": "charging_station",
+      "bicycle": "no",
       "brand": "Galp electric",
       "brand:wikidata": "Q135275372",
       "capacity": "6",
@@ -73486,9 +73488,9 @@
           "brand": "Atlante",
           "brand:wikidata": "Q126913632",
           "capacity": "2",
-          "disused:man_made": "charge_point",
           "email": "support.portugal@atlante.energy",
           "fee": "yes",
+          "man_made": "charge_point",
           "manufacturer": "Efacec",
           "maxstay": "unlimited",
           "model": "EV C1",
@@ -73531,9 +73533,9 @@
           "brand": "Atlante",
           "brand:wikidata": "Q126913632",
           "capacity": "2",
-          "disused:man_made": "charge_point",
           "email": "support.portugal@atlante.energy",
           "fee": "yes",
+          "man_made": "charge_point",
           "manufacturer": "Efacec",
           "maxstay": "unlimited",
           "model": "EV C1",
@@ -200522,6 +200524,7 @@
           "email": "contact@ecoinside.pt",
           "fee": "yes",
           "man_made": "charge_point",
+          "manufacturer": "Magnum Cap",
           "maxstay": "unlimited",
           "motorcar": "yes",
           "network": "Mobi.E",
@@ -200563,7 +200566,9 @@
           "email": "contact@ecoinside.pt",
           "fee": "yes",
           "man_made": "charge_point",
+          "manufacturer": "Hager",
           "maxstay": "unlimited",
+          "model": "Dual Witty Park",
           "motorcar": "yes",
           "network": "Mobi.E",
           "opening_hours": "Mo-Fr 09:00-18:00",
@@ -230281,10 +230286,13 @@
           "brand": "Powerdot",
           "brand:wikidata": "Q123574541",
           "capacity": "2",
+          "charge_point:output": "200 kW",
           "email": "ajuda@powerdot.pt",
           "fee": "yes",
           "man_made": "charge_point",
+          "manufacturer": "i-charging",
           "maxstay": "unlimited",
+          "model": "blueberry PLUS",
           "motorcar": "yes",
           "network": "Mobi.E",
           "opening_hours": "10:00-21:00",
@@ -230319,10 +230327,13 @@
           "brand": "Powerdot",
           "brand:wikidata": "Q123574541",
           "capacity": "2",
+          "charge_point:output": "200 kW",
           "email": "ajuda@powerdot.pt",
           "fee": "yes",
           "man_made": "charge_point",
+          "manufacturer": "i-charging",
           "maxstay": "unlimited",
+          "model": "blueberry PLUS",
           "motorcar": "yes",
           "network": "Mobi.E",
           "opening_hours": "10:00-21:00",
@@ -256905,21 +256916,21 @@
       "capacity": "6",
       "charging_station:output": "800 kW",
       "motorcar": "yes",
-      "name": "ADV-?????",
+      "name": "ADV-00019…24",
       "network": "Mobi.E",
       "opening_hours": "24/7",
       "operator": "Cepsa",
       "parking:fee": "no",
-      "ref": "ADV-?????",
+      "ref": "ADV-00019;ADV-00020;ADV-00021;ADV-00022;ADV-00023;ADV-00024",
       "id": "way/1529242054"
     },
     "centroid": [
-      37.53631868266171,
-      -8.182544156124075
+      37.536315293388,
+      -8.182545513080987
     ],
     "points": [
       {
-        "id": "node/13937126289",
+        "id": "node/14122901614",
         "properties": {
           "access": "yes",
           "authentication:app": "yes",
@@ -256927,6 +256938,187 @@
           "authentication:none": "no",
           "brand": "Moeve",
           "capacity": "1",
+          "charge_point:output": "400 kW",
+          "construction:man_made": "charge_point",
+          "fee": "yes",
+          "manufacturer": "Ekoenergetyka",
+          "maxstay": "unlimited",
+          "model": "SAT 400",
+          "motorcar": "yes",
+          "network": "Mobi.E",
+          "opening_hours": "24/7",
+          "operator": "Cepsa",
+          "parking:fee": "no",
+          "payment:app": "yes",
+          "payment:cards": "yes",
+          "payment:cash": "no",
+          "payment:membership_card": "yes",
+          "ref": "ADV-00019",
+          "socket:type2_combo": "1",
+          "socket:type2_combo:current": "500",
+          "socket:type2_combo:output": "400 kW",
+          "socket:type2_combo:voltage": "1000",
+          "id": "node/14122901614"
+        },
+        "coordinates": [
+          37.5363179,
+          -8.1827059
+        ]
+      },
+      {
+        "id": "node/14122901615",
+        "properties": {
+          "access": "yes",
+          "authentication:app": "yes",
+          "authentication:membership_card": "yes",
+          "authentication:none": "no",
+          "brand": "Moeve",
+          "capacity": "1",
+          "charge_point:output": "400 kW",
+          "construction:man_made": "charge_point",
+          "fee": "yes",
+          "manufacturer": "Ekoenergetyka",
+          "maxstay": "unlimited",
+          "model": "SAT 400",
+          "motorcar": "yes",
+          "network": "Mobi.E",
+          "opening_hours": "24/7",
+          "operator": "Cepsa",
+          "parking:fee": "no",
+          "payment:app": "yes",
+          "payment:cards": "yes",
+          "payment:cash": "no",
+          "payment:membership_card": "yes",
+          "ref": "ADV-00020",
+          "socket:type2_combo": "1",
+          "socket:type2_combo:current": "500",
+          "socket:type2_combo:output": "400 kW",
+          "socket:type2_combo:voltage": "1000",
+          "id": "node/14122901615"
+        },
+        "coordinates": [
+          37.5362993,
+          -8.1826545
+        ]
+      },
+      {
+        "id": "node/14122901616",
+        "properties": {
+          "access": "yes",
+          "authentication:app": "yes",
+          "authentication:membership_card": "yes",
+          "authentication:none": "no",
+          "brand": "Moeve",
+          "capacity": "1",
+          "charge_point:output": "400 kW",
+          "construction:man_made": "charge_point",
+          "fee": "yes",
+          "manufacturer": "Ekoenergetyka",
+          "maxstay": "unlimited",
+          "model": "SAT 400",
+          "motorcar": "yes",
+          "network": "Mobi.E",
+          "opening_hours": "24/7",
+          "operator": "Cepsa",
+          "parking:fee": "no",
+          "payment:app": "yes",
+          "payment:cards": "yes",
+          "payment:cash": "no",
+          "payment:membership_card": "yes",
+          "ref": "ADV-00021",
+          "socket:type2_combo": "1",
+          "socket:type2_combo:current": "500",
+          "socket:type2_combo:output": "400 kW",
+          "socket:type2_combo:voltage": "1000",
+          "id": "node/14122901616"
+        },
+        "coordinates": [
+          37.5362751,
+          -8.1825996
+        ]
+      },
+      {
+        "id": "node/14122901617",
+        "properties": {
+          "access": "yes",
+          "authentication:app": "yes",
+          "authentication:membership_card": "yes",
+          "authentication:none": "no",
+          "brand": "Moeve",
+          "capacity": "1",
+          "charge_point:output": "400 kW",
+          "construction:man_made": "charge_point",
+          "fee": "yes",
+          "manufacturer": "Ekoenergetyka",
+          "maxstay": "unlimited",
+          "model": "SAT 400",
+          "motorcar": "yes",
+          "network": "Mobi.E",
+          "opening_hours": "24/7",
+          "operator": "Cepsa",
+          "parking:fee": "no",
+          "payment:app": "yes",
+          "payment:cards": "yes",
+          "payment:cash": "no",
+          "payment:membership_card": "yes",
+          "ref": "ADV-00022",
+          "socket:type2_combo": "1",
+          "socket:type2_combo:current": "500",
+          "socket:type2_combo:output": "400 kW",
+          "socket:type2_combo:voltage": "1000",
+          "id": "node/14122901617"
+        },
+        "coordinates": [
+          37.5362514,
+          -8.1825435
+        ]
+      },
+      {
+        "id": "node/14122901618",
+        "properties": {
+          "access": "yes",
+          "authentication:app": "yes",
+          "authentication:membership_card": "yes",
+          "authentication:none": "no",
+          "brand": "Moeve",
+          "capacity": "1",
+          "charge_point:output": "400 kW",
+          "construction:man_made": "charge_point",
+          "fee": "yes",
+          "manufacturer": "Ekoenergetyka",
+          "maxstay": "unlimited",
+          "model": "SAT 400",
+          "motorcar": "yes",
+          "network": "Mobi.E",
+          "opening_hours": "24/7",
+          "operator": "Cepsa",
+          "parking:fee": "no",
+          "payment:app": "yes",
+          "payment:cards": "yes",
+          "payment:cash": "no",
+          "payment:membership_card": "yes",
+          "ref": "ADV-00023",
+          "socket:type2_combo": "1",
+          "socket:type2_combo:current": "500",
+          "socket:type2_combo:output": "400 kW",
+          "socket:type2_combo:voltage": "1000",
+          "id": "node/14122901618"
+        },
+        "coordinates": [
+          37.5362291,
+          -8.1824886
+        ]
+      },
+      {
+        "id": "node/14122901619",
+        "properties": {
+          "access": "yes",
+          "authentication:app": "yes",
+          "authentication:membership_card": "yes",
+          "authentication:none": "no",
+          "brand": "Moeve",
+          "capacity": "1",
+          "charge_point:output": "600 kW",
           "construction:man_made": "charge_point",
           "fee": "yes",
           "hgv": "yes",
@@ -256942,191 +257134,16 @@
           "payment:cards": "yes",
           "payment:cash": "no",
           "payment:membership_card": "yes",
-          "ref": "ADV-?????",
+          "ref": "ADV-00024",
           "socket:type2_combo": "1",
           "socket:type2_combo:current": "600",
           "socket:type2_combo:output": "600 kW",
           "socket:type2_combo:voltage": "1000",
-          "id": "node/13937126289"
+          "id": "node/14122901619"
         },
         "coordinates": [
-          37.5364339,
-          -8.182616
-        ]
-      },
-      {
-        "id": "node/13937126293",
-        "properties": {
-          "access": "yes",
-          "authentication:app": "yes",
-          "authentication:membership_card": "yes",
-          "authentication:none": "no",
-          "brand": "Moeve",
-          "capacity": "1",
-          "construction:man_made": "charge_point",
-          "fee": "yes",
-          "manufacturer": "Ekoenergetyka",
-          "maxstay": "unlimited",
-          "model": "SAT 400",
-          "motorcar": "yes",
-          "network": "Mobi.E",
-          "opening_hours": "24/7",
-          "operator": "Cepsa",
-          "parking:fee": "no",
-          "payment:app": "yes",
-          "payment:cards": "yes",
-          "payment:cash": "no",
-          "payment:membership_card": "yes",
-          "ref": "ADV-?????",
-          "socket:type2_combo": "1",
-          "socket:type2_combo:current": "500",
-          "socket:type2_combo:output": "400 kW",
-          "socket:type2_combo:voltage": "1000",
-          "id": "node/13937126293"
-        },
-        "coordinates": [
-          37.5362291,
-          -8.1824886
-        ]
-      },
-      {
-        "id": "node/13937126294",
-        "properties": {
-          "access": "yes",
-          "authentication:app": "yes",
-          "authentication:membership_card": "yes",
-          "authentication:none": "no",
-          "brand": "Moeve",
-          "capacity": "1",
-          "construction:man_made": "charge_point",
-          "fee": "yes",
-          "manufacturer": "Ekoenergetyka",
-          "maxstay": "unlimited",
-          "model": "SAT 400",
-          "motorcar": "yes",
-          "network": "Mobi.E",
-          "opening_hours": "24/7",
-          "operator": "Cepsa",
-          "parking:fee": "no",
-          "payment:app": "yes",
-          "payment:cards": "yes",
-          "payment:cash": "no",
-          "payment:membership_card": "yes",
-          "ref": "ADV-?????",
-          "socket:type2_combo": "1",
-          "socket:type2_combo:current": "500",
-          "socket:type2_combo:output": "400 kW",
-          "socket:type2_combo:voltage": "1000",
-          "id": "node/13937126294"
-        },
-        "coordinates": [
-          37.5362514,
-          -8.1825435
-        ]
-      },
-      {
-        "id": "node/13937126295",
-        "properties": {
-          "access": "yes",
-          "authentication:app": "yes",
-          "authentication:membership_card": "yes",
-          "authentication:none": "no",
-          "brand": "Moeve",
-          "capacity": "1",
-          "construction:man_made": "charge_point",
-          "fee": "yes",
-          "manufacturer": "Ekoenergetyka",
-          "maxstay": "unlimited",
-          "model": "SAT 400",
-          "motorcar": "yes",
-          "network": "Mobi.E",
-          "opening_hours": "24/7",
-          "operator": "Cepsa",
-          "parking:fee": "no",
-          "payment:app": "yes",
-          "payment:cards": "yes",
-          "payment:cash": "no",
-          "payment:membership_card": "yes",
-          "ref": "ADV-?????",
-          "socket:type2_combo": "1",
-          "socket:type2_combo:current": "500",
-          "socket:type2_combo:output": "400 kW",
-          "socket:type2_combo:voltage": "1000",
-          "id": "node/13937126295"
-        },
-        "coordinates": [
-          37.5362751,
-          -8.1825996
-        ]
-      },
-      {
-        "id": "node/13937126296",
-        "properties": {
-          "access": "yes",
-          "authentication:app": "yes",
-          "authentication:membership_card": "yes",
-          "authentication:none": "no",
-          "brand": "Moeve",
-          "capacity": "1",
-          "construction:man_made": "charge_point",
-          "fee": "yes",
-          "manufacturer": "Ekoenergetyka",
-          "maxstay": "unlimited",
-          "model": "SAT 400",
-          "motorcar": "yes",
-          "network": "Mobi.E",
-          "opening_hours": "24/7",
-          "operator": "Cepsa",
-          "parking:fee": "no",
-          "payment:app": "yes",
-          "payment:cards": "yes",
-          "payment:cash": "no",
-          "payment:membership_card": "yes",
-          "ref": "ADV-?????",
-          "socket:type2_combo": "1",
-          "socket:type2_combo:current": "500",
-          "socket:type2_combo:output": "400 kW",
-          "socket:type2_combo:voltage": "1000",
-          "id": "node/13937126296"
-        },
-        "coordinates": [
-          37.5362993,
-          -8.1826545
-        ]
-      },
-      {
-        "id": "node/13937126297",
-        "properties": {
-          "access": "yes",
-          "authentication:app": "yes",
-          "authentication:membership_card": "yes",
-          "authentication:none": "no",
-          "brand": "Moeve",
-          "capacity": "1",
-          "construction:man_made": "charge_point",
-          "fee": "yes",
-          "manufacturer": "Ekoenergetyka",
-          "maxstay": "unlimited",
-          "model": "SAT 400",
-          "motorcar": "yes",
-          "network": "Mobi.E",
-          "opening_hours": "24/7",
-          "operator": "Cepsa",
-          "parking:fee": "no",
-          "payment:app": "yes",
-          "payment:cards": "yes",
-          "payment:cash": "no",
-          "payment:membership_card": "yes",
-          "ref": "ADV-?????",
-          "socket:type2_combo": "1",
-          "socket:type2_combo:current": "500",
-          "socket:type2_combo:output": "400 kW",
-          "socket:type2_combo:voltage": "1000",
-          "id": "node/13937126297"
-        },
-        "coordinates": [
-          37.5363179,
-          -8.1827059
+          37.5364354,
+          -8.1826304
         ]
       }
     ]
@@ -257139,21 +257156,21 @@
       "capacity": "6",
       "charging_station:output": "800 kW",
       "motorcar": "yes",
-      "name": "ADV-?????",
+      "name": "ADV-00025…30",
       "network": "Mobi.E",
       "opening_hours": "24/7",
       "operator": "Cepsa",
       "parking:fee": "no",
-      "ref": "ADV-?????",
+      "ref": "ADV-00025;ADV-00026;ADV-00027;ADV-00028;ADV-00029;ADV-00030",
       "id": "way/1529242060"
     },
     "centroid": [
-      37.53586801794771,
-      -8.185127840932081
+      37.535868310628516,
+      -8.185129028296325
     ],
     "points": [
       {
-        "id": "node/13937152217",
+        "id": "node/14122901620",
         "properties": {
           "access": "yes",
           "authentication:app": "yes",
@@ -257161,6 +257178,7 @@
           "authentication:none": "no",
           "brand": "Moeve",
           "capacity": "1",
+          "charge_point:output": "400 kW",
           "construction:man_made": "charge_point",
           "fee": "yes",
           "manufacturer": "Ekoenergetyka",
@@ -257175,12 +257193,12 @@
           "payment:cards": "yes",
           "payment:cash": "no",
           "payment:membership_card": "yes",
-          "ref": "ADV-?????",
+          "ref": "ADV-00029",
           "socket:type2_combo": "1",
           "socket:type2_combo:current": "500",
           "socket:type2_combo:output": "400 kW",
           "socket:type2_combo:voltage": "1000",
-          "id": "node/13937152217"
+          "id": "node/14122901620"
         },
         "coordinates": [
           37.5359455,
@@ -257188,7 +257206,7 @@
         ]
       },
       {
-        "id": "node/13937152218",
+        "id": "node/14122901621",
         "properties": {
           "access": "yes",
           "authentication:app": "yes",
@@ -257196,6 +257214,7 @@
           "authentication:none": "no",
           "brand": "Moeve",
           "capacity": "1",
+          "charge_point:output": "400 kW",
           "construction:man_made": "charge_point",
           "fee": "yes",
           "manufacturer": "Ekoenergetyka",
@@ -257210,12 +257229,12 @@
           "payment:cards": "yes",
           "payment:cash": "no",
           "payment:membership_card": "yes",
-          "ref": "ADV-?????",
+          "ref": "ADV-00028",
           "socket:type2_combo": "1",
           "socket:type2_combo:current": "500",
           "socket:type2_combo:output": "400 kW",
           "socket:type2_combo:voltage": "1000",
-          "id": "node/13937152218"
+          "id": "node/14122901621"
         },
         "coordinates": [
           37.5359229,
@@ -257223,7 +257242,7 @@
         ]
       },
       {
-        "id": "node/13937152219",
+        "id": "node/14122901622",
         "properties": {
           "access": "yes",
           "authentication:app": "yes",
@@ -257231,6 +257250,7 @@
           "authentication:none": "no",
           "brand": "Moeve",
           "capacity": "1",
+          "charge_point:output": "400 kW",
           "construction:man_made": "charge_point",
           "fee": "yes",
           "manufacturer": "Ekoenergetyka",
@@ -257245,12 +257265,12 @@
           "payment:cards": "yes",
           "payment:cash": "no",
           "payment:membership_card": "yes",
-          "ref": "ADV-?????",
+          "ref": "ADV-00027",
           "socket:type2_combo": "1",
           "socket:type2_combo:current": "500",
           "socket:type2_combo:output": "400 kW",
           "socket:type2_combo:voltage": "1000",
-          "id": "node/13937152219"
+          "id": "node/14122901622"
         },
         "coordinates": [
           37.5358989,
@@ -257258,7 +257278,7 @@
         ]
       },
       {
-        "id": "node/13937152220",
+        "id": "node/14122901623",
         "properties": {
           "access": "yes",
           "authentication:app": "yes",
@@ -257266,6 +257286,7 @@
           "authentication:none": "no",
           "brand": "Moeve",
           "capacity": "1",
+          "charge_point:output": "400 kW",
           "construction:man_made": "charge_point",
           "fee": "yes",
           "manufacturer": "Ekoenergetyka",
@@ -257280,12 +257301,12 @@
           "payment:cards": "yes",
           "payment:cash": "no",
           "payment:membership_card": "yes",
-          "ref": "ADV-?????",
+          "ref": "ADV-00026",
           "socket:type2_combo": "1",
           "socket:type2_combo:current": "500",
           "socket:type2_combo:output": "400 kW",
           "socket:type2_combo:voltage": "1000",
-          "id": "node/13937152220"
+          "id": "node/14122901623"
         },
         "coordinates": [
           37.5358745,
@@ -257293,7 +257314,7 @@
         ]
       },
       {
-        "id": "node/13937152221",
+        "id": "node/14122901624",
         "properties": {
           "access": "yes",
           "authentication:app": "yes",
@@ -257301,6 +257322,7 @@
           "authentication:none": "no",
           "brand": "Moeve",
           "capacity": "1",
+          "charge_point:output": "400 kW",
           "construction:man_made": "charge_point",
           "fee": "yes",
           "manufacturer": "Ekoenergetyka",
@@ -257315,12 +257337,12 @@
           "payment:cards": "yes",
           "payment:cash": "no",
           "payment:membership_card": "yes",
-          "ref": "ADV-?????",
+          "ref": "ADV-00025",
           "socket:type2_combo": "1",
           "socket:type2_combo:current": "500",
           "socket:type2_combo:output": "400 kW",
           "socket:type2_combo:voltage": "1000",
-          "id": "node/13937152221"
+          "id": "node/14122901624"
         },
         "coordinates": [
           37.5358556,
@@ -257328,7 +257350,7 @@
         ]
       },
       {
-        "id": "node/13937152234",
+        "id": "node/14122901625",
         "properties": {
           "access": "yes",
           "authentication:app": "yes",
@@ -257336,6 +257358,7 @@
           "authentication:none": "no",
           "brand": "Moeve",
           "capacity": "1",
+          "charge_point:output": "600 kW",
           "construction:man_made": "charge_point",
           "fee": "yes",
           "hgv": "yes",
@@ -257356,7 +257379,7 @@
           "socket:type2_combo:current": "600",
           "socket:type2_combo:output": "600 kW",
           "socket:type2_combo:voltage": "1000",
-          "id": "node/13937152234"
+          "id": "node/14122901625"
         },
         "coordinates": [
           37.535762,
@@ -267765,8 +267788,8 @@
       "id": "way/1539790114"
     },
     "centroid": [
-      38.787340900000004,
-      -9.317978300000002
+      38.787355378902426,
+      -9.317974066631946
     ],
     "points": [
       {
@@ -267783,7 +267806,9 @@
           "fee": "yes",
           "indoor": "yes",
           "location": "underground",
+          "manufacturer": "Efacec",
           "maxstay": "unlimited",
+          "model": "QC120",
           "motorcar": "yes",
           "network": "Mobi.E",
           "opening_hours": "09:00-22:00",
@@ -267802,8 +267827,8 @@
           "id": "node/14020304884"
         },
         "coordinates": [
-          38.7873578,
-          -9.3179432
+          38.7873285,
+          -9.3179518
         ]
       },
       {
@@ -267839,8 +267864,8 @@
           "id": "node/14020304885"
         },
         "coordinates": [
-          38.7873674,
-          -9.3180008
+          38.7873388,
+          -9.3180092
         ]
       }
     ]
@@ -272728,9 +272753,10 @@
           "authentication:none": "no",
           "brand": "Galp electric",
           "capacity": "2",
-          "construction:man_made": "charge_point",
+          "charge_point:output": "60 kW",
           "fee": "yes",
           "fixme": "Move to exact location",
+          "man_made": "charge_point",
           "maxstay": "unlimited",
           "motorcar": "yes",
           "network": "Mobi.E",
@@ -276340,6 +276366,120 @@
         "coordinates": [
           40.5938772,
           -8.4601991
+        ]
+      }
+    ]
+  },
+  "way/1552340958": {
+    "properties": {
+      "access": "yes",
+      "amenity": "charging_station",
+      "brand": "edp Charge",
+      "brand:wikidata": "Q1341222",
+      "capacity": "4",
+      "charging_station:output": "122 kW",
+      "fee": "yes",
+      "indoor": "yes",
+      "location": "underground",
+      "maxstay": "unlimited",
+      "motorcar": "yes",
+      "name": "CBR-00158/159",
+      "network": "Mobi.E",
+      "opening_hours": "06:30-22:00",
+      "operator": "EDP",
+      "operator:wikidata": "Q1341222",
+      "parking:fee": "yes",
+      "phone": "+351 800 222 222",
+      "ref": "CBR-00158;CBR-00159",
+      "website": "https://www.edp.pt/",
+      "id": "way/1552340958"
+    },
+    "centroid": [
+      40.193600749999995,
+      -8.4143376
+    ],
+    "points": [
+      {
+        "id": "node/14105547472",
+        "properties": {
+          "access": "yes",
+          "authentication:membership_card": "yes",
+          "authentication:none": "no",
+          "brand": "edp Charge",
+          "brand:wikidata": "Q1341222",
+          "capacity": "2",
+          "construction:man_made": "charge_point",
+          "fee": "yes",
+          "indoor": "yes",
+          "location": "underground",
+          "maxstay": "unlimited",
+          "motorcar": "yes",
+          "network": "Mobi.E",
+          "opening_hours": "06:30-22:00",
+          "operator": "EDP",
+          "operator:wikidata": "Q1341222",
+          "parking:fee": "yes",
+          "payment:app": "yes",
+          "payment:cards": "no",
+          "payment:cash": "no",
+          "payment:membership_card": "yes",
+          "phone": "+351 800 222 222",
+          "ref": "CBR-00159",
+          "ref:EU:EVSE": "PT*EDP*ECBR*00159*1;PT*EDP*ECBR*00159*2",
+          "socket:type2_cable": "2",
+          "socket:type2_cable:current": "32",
+          "socket:type2_cable:output": "22 kW",
+          "socket:type2_cable:voltage": "400",
+          "website": "https://www.edp.pt/",
+          "id": "node/14105547472"
+        },
+        "coordinates": [
+          40.193623,
+          -8.4143077
+        ]
+      },
+      {
+        "id": "node/14123116360",
+        "properties": {
+          "access": "yes",
+          "authentication:membership_card": "yes",
+          "authentication:none": "no",
+          "brand": "edp Charge",
+          "brand:wikidata": "Q1341222",
+          "capacity": "2",
+          "charge_point:output": "82 kW",
+          "construction:man_made": "charge_point",
+          "fee": "yes",
+          "indoor": "yes",
+          "location": "underground",
+          "maxstay": "unlimited",
+          "motorcar": "yes",
+          "network": "Mobi.E",
+          "opening_hours": "06:30-22:00",
+          "operator": "EDP",
+          "operator:wikidata": "Q1341222",
+          "parking:fee": "yes",
+          "payment:app": "yes",
+          "payment:cards": "no",
+          "payment:cash": "no",
+          "payment:membership_card": "yes",
+          "phone": "+351 800 222 222",
+          "ref": "CBR-00158",
+          "ref:EU:EVSE": "PT*EDP*ECBR*00158*1;PT*EDP*ECBR*00158*2;PT*EDP*ECBR*00158*3",
+          "socket:type2": "1",
+          "socket:type2:current": "32",
+          "socket:type2:output": "22 kW",
+          "socket:type2:voltage": "400",
+          "socket:type2_combo": "2",
+          "socket:type2_combo:current": "200",
+          "socket:type2_combo:output": "60 kW",
+          "socket:type2_combo:voltage": "1000",
+          "website": "https://www.edp.pt/",
+          "id": "node/14123116360"
+        },
+        "coordinates": [
+          40.1936234,
+          -8.4143676
         ]
       }
     ]
@@ -317217,8 +317357,8 @@
         "id": "node/8280757514"
       },
       "coordinates": [
-        39.2605351,
-        -8.7104792
+        39.2605102,
+        -8.7104953
       ]
     },
     {
@@ -328393,7 +328533,9 @@
         "capacity": "2",
         "charging_station:output": "93 kW",
         "fee": "yes",
+        "manufacturer": "Efacec",
         "maxstay": "unlimited",
+        "model": "QC45",
         "motorcar": "yes",
         "name": "VNF-00018",
         "network": "Mobi.E",
@@ -335335,16 +335477,18 @@
       "id": "node/8989497399",
       "properties": {
         "access": "yes",
-        "amenity": "charging_station",
         "authentication:app": "yes",
         "authentication:membership_card": "yes",
         "authentication:none": "no",
         "brand": "KLC",
         "brand:wikidata": "Q127504745",
         "capacity": "2",
+        "disused:amenity": "charging_station",
         "email": "apoio.cliente@kmlowcost.com",
         "fee": "yes",
+        "manufacturer": "Hellonext",
         "maxstay": "unlimited",
+        "model": "H1 22 Gen1",
         "motorcar": "yes",
         "name": "VBP-00008",
         "network": "Mobi.E",
@@ -362312,6 +362456,7 @@
       "id": "node/10243291873",
       "properties": {
         "access": "yes",
+        "amenity": "charging_station",
         "authentication:app": "yes",
         "authentication:membership_card": "yes",
         "authentication:none": "no",
@@ -362319,9 +362464,10 @@
         "brand:wikidata": "Q1341222",
         "capacity": "2",
         "charging_station:output": "142 kW",
-        "disused:amenity": "charging_station",
         "fee": "yes",
+        "manufacturer": "Efacec",
         "maxstay": "unlimited",
+        "model": "QC120",
         "motorcar": "yes",
         "name": "PBL-00012",
         "network": "Mobi.E",
@@ -362348,8 +362494,8 @@
         "id": "node/10243291873"
       },
       "coordinates": [
-        39.9237239,
-        -8.6281863
+        39.9236828,
+        -8.6281809
       ]
     },
     {
@@ -392892,7 +393038,9 @@
         "charging_station:output": "50 kW",
         "email": "info@mobismart.pt;info@evce.pt",
         "fee": "yes",
+        "manufacturer": "i-charging",
         "maxstay": "unlimited",
+        "model": "blueberry",
         "motorcar": "yes",
         "name": "ORM-00015",
         "network": "Mobi.E",
@@ -393108,7 +393256,9 @@
         "charging_station:output": "50 kW",
         "email": "info@mobismart.pt;info@evce.pt",
         "fee": "yes",
+        "manufacturer": "i-charging",
         "maxstay": "unlimited",
+        "model": "blueberry",
         "motorcar": "no",
         "name": "ORM-00014",
         "network": "Mobi.E",
@@ -394635,7 +394785,9 @@
         "charging_station:output": "51 kW",
         "email": "info@mobismart.pt;info@evce.pt",
         "fee": "yes",
+        "manufacturer": "Circutor",
         "maxstay": "unlimited",
+        "model": "Raption 50",
         "motorcar": "yes",
         "name": "GMR-00114",
         "network": "Mobi.E",
@@ -429673,7 +429825,9 @@
         "charging_station:output": "60 kW",
         "email": "info@alfaenergia.pt",
         "fee": "yes",
+        "manufacturer": "Schneider",
         "maxstay": "unlimited",
+        "model": "EVlink Pro DC 60",
         "motorcar": "yes",
         "name": "AND-00014",
         "network": "Mobi.E",
@@ -429688,9 +429842,9 @@
         "ref": "AND-00014",
         "ref:EU:EVSE": "PT*ALF*E*AND*00014*01;PT*ALF*E*AND*00014*02",
         "socket:type2_combo": "2",
-        "socket:type2_combo:current": "48",
-        "socket:type2_combo:output": "25 kW",
-        "socket:type2_combo:voltage": "500",
+        "socket:type2_combo:current": "200",
+        "socket:type2_combo:output": "40 kW",
+        "socket:type2_combo:voltage": "1000",
         "website": "https://www.mobie.pt/",
         "id": "node/12345011087"
       },
@@ -461293,36 +461447,10 @@
     {
       "id": "node/13265294547",
       "properties": {
-        "access": "yes",
-        "amenity": "charging_station",
-        "authentication:membership_card": "yes",
-        "authentication:none": "no",
-        "brand": "Powerdot",
-        "brand:wikidata": "Q123574541",
-        "capacity": "2",
-        "email": "ajuda@powerdot.pt",
-        "fee": "yes",
-        "fixme": "Verificar se ainda existe",
-        "maxstay": "unlimited",
-        "motorcar": "yes",
-        "name": "VNG-00219",
-        "network": "Mobi.E",
-        "opening_hours": "10:00-21:00",
-        "operator": "Powerdot",
-        "operator:wikidata": "Q123574541",
-        "parking:fee": "no",
-        "payment:app": "yes",
-        "payment:cards": "no",
-        "payment:cash": "no",
-        "payment:membership_card": "yes",
-        "phone": "+351 800 180 292",
-        "ref": "VNG-00219",
-        "ref:EU:EVSE": "PT*HRZ*E*VNG*00219*01;PT*HRZ*E*VNG*00219*02",
-        "socket:type2": "2",
-        "socket:type2:current": "32",
-        "socket:type2:output": "22 kW",
-        "socket:type2:voltage": "400",
-        "website": "https://www.mobie.pt/",
+        "old_operator": "Powerdot",
+        "old_ref": "VNG-00219",
+        "old_ref:EU:EVSE": "PT*HRZ*E*VNG*00219*01;PT*HRZ*E*VNG*00219*02",
+        "removed:amenity": "charging_station",
         "id": "node/13265294547"
       },
       "coordinates": [
@@ -468600,6 +468728,7 @@
         "capacity": "2",
         "charging_station:output": "52 kW",
         "fee": "yes",
+        "fixme": "Move to exact location",
         "maxstay": "unlimited",
         "motorcar": "yes",
         "network": "Mobi.E",
@@ -484877,8 +485006,9 @@
         "capacity": "2",
         "construction:amenity": "charging_station",
         "fee": "yes",
-        "fixme": "Mover para o local exacto",
+        "manufacturer": "Starcharge",
         "maxstay": "unlimited",
+        "model": "Titan V3",
         "motorcar": "yes",
         "name": "LSB-?????",
         "network": "Mobi.E",
@@ -484890,16 +485020,16 @@
         "payment:cash": "no",
         "payment:membership_card": "yes",
         "ref": "LSB-?????",
-        "socket:type2": "2",
-        "socket:type2:current": "32",
-        "socket:type2:output": "22 kW",
-        "socket:type2:voltage": "400",
+        "socket:type2_combo": "2",
+        "socket:type2_combo:current": "300",
+        "socket:type2_combo:output": "120 kW",
+        "socket:type2_combo:voltage": "1000",
         "website": "https://www.mobie.pt/",
         "id": "node/14028756141"
       },
       "coordinates": [
-        38.7560989,
-        -9.1033672
+        38.7561669,
+        -9.1033491
       ]
     },
     {
@@ -486180,7 +486310,7 @@
         "ref:EU:EVSE": "PT*ATL*EODV*00061*1;PT*ATL*EODV*00061*2",
         "socket:type2_combo": "2",
         "socket:type2_combo:current": "300",
-        "socket:type2_combo:output": "30 kW",
+        "socket:type2_combo:output": "100 kW",
         "socket:type2_combo:voltage": "1000",
         "website": "https://www.mobie.pt/",
         "id": "node/14056970902"
@@ -487747,46 +487877,6 @@
       ]
     },
     {
-      "id": "node/14105547472",
-      "properties": {
-        "access": "yes",
-        "authentication:membership_card": "yes",
-        "authentication:none": "no",
-        "brand": "edp Charge",
-        "brand:wikidata": "Q1341222",
-        "capacity": "2",
-        "construction:amenity": "charging_station",
-        "fee": "yes",
-        "indoor": "yes",
-        "location": "underground",
-        "maxstay": "unlimited",
-        "motorcar": "yes",
-        "name": "CBR-00159",
-        "network": "Mobi.E",
-        "opening_hours": "06:30-22:00",
-        "operator": "EDP",
-        "operator:wikidata": "Q1341222",
-        "parking:fee": "yes",
-        "payment:app": "yes",
-        "payment:cards": "no",
-        "payment:cash": "no",
-        "payment:membership_card": "yes",
-        "phone": "+351 800 222 222",
-        "ref": "CBR-00159",
-        "ref:EU:EVSE": "PT*EDP*ECBR*00159*1;PT*EDP*ECBR*00159*2",
-        "socket:type2_cable": "2",
-        "socket:type2_cable:current": "32",
-        "socket:type2_cable:output": "22 kW",
-        "socket:type2_cable:voltage": "400",
-        "website": "https://www.edp.pt/",
-        "id": "node/14105547472"
-      },
-      "coordinates": [
-        40.1935854,
-        -8.4143201
-      ]
-    },
-    {
       "id": "node/14105676458",
       "properties": {
         "access": "yes",
@@ -488891,12 +488981,12 @@
       "id": "node/14120684799",
       "properties": {
         "access": "yes",
+        "amenity": "charging_station",
         "authentication:membership_card": "yes",
         "authentication:none": "no",
         "brand": "edp Charge",
         "brand:wikidata": "Q1341222",
         "capacity": "2",
-        "construction:amenity": "charging_station",
         "fee": "yes",
         "maxstay": "unlimited",
         "motorcar": "yes",
