@@ -6994,6 +6994,58 @@
 },
 {
   "type": "Feature",
+  "id": "node/8082177012",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Calheta",
+    "addr:street": "Avenida Dom Manuel I",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Factor Energia",
+    "capacity": "1",
+    "charge_point:output": "50 kW",
+    "email": "info@factorenergia.pt",
+    "fee": "yes",
+    "indoor": "yes",
+    "layer": "-1",
+    "level": "-1",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Factor Energia",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 100 013",
+    "ref": "CLT-00005",
+    "ref:EU:EVSE": "PT*FAC*E*CLT*00005*01;PT*FAC*E*CLT*00005*02",
+    "socket:chademo": "1",
+    "socket:chademo:current": "120",
+    "socket:chademo:output": "50 kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "125",
+    "socket:type2_combo:output": "50 kW",
+    "socket:type2_combo:voltage": "500",
+    "website": "https://www.mobie.pt",
+    "id": "node/8082177012"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -17.17833,
+      32.7208213
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8082201013",
   "properties": {
     "access": "yes",
@@ -37318,7 +37370,9 @@
     "charging_station:output": "93 kW",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "manufacturer": "Efacec",
     "maxstay": "unlimited",
+    "model": "QC45",
     "motorcar": "yes",
     "name": "MAI-00072",
     "network": "Mobi.E",
@@ -39253,7 +39307,9 @@
     "capacity": "2",
     "charging_station:output": "142 kW",
     "fee": "yes",
+    "manufacturer": "Efacec",
     "maxstay": "unlimited",
+    "model": "QC120",
     "motorcar": "yes",
     "name": "SNT-00080",
     "network": "Mobi.E",
@@ -39282,8 +39338,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.3415626,
-      38.7793741
+      -9.3416377,
+      38.7795189
     ]
   }
 },
@@ -101589,8 +101645,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.3403618,
-      38.7885899
+      -9.3404306,
+      38.7885889
     ]
   }
 },
@@ -104649,7 +104705,7 @@
     "capacity": "1",
     "charge_point:output": "50 kW",
     "fee": "yes",
-    "fixme": "Verificar modelo do carregador, tipos e potências das tomadas",
+    "fixme": "Verificar modelo do carregador",
     "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
@@ -122752,7 +122808,6 @@
     "capacity": "2",
     "charge_point:output": "120 kW",
     "fee": "yes",
-    "fixme": "Confirmar potências DC",
     "level": "-1",
     "location": "underground",
     "man_made": "charge_point",
@@ -122798,7 +122853,6 @@
     "capacity": "2",
     "charge_point:output": "50 kW",
     "fee": "yes",
-    "fixme": "Confirmar potências DC",
     "level": "-1",
     "location": "underground",
     "man_made": "charge_point",
@@ -130522,7 +130576,6 @@
     "capacity": "2",
     "charge_point:output": "120 kW",
     "fee": "yes",
-    "fixme": "Confirmar potência e disposição dos postos",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -130551,8 +130604,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.340437,
-      38.788588
+      -9.340417,
+      38.7885892
     ]
   }
 },
@@ -131919,6 +131972,47 @@
     "coordinates": [
       -9.1555864,
       39.2628683
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14120666420",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Parinox Energia",
+    "capacity": "2",
+    "charge_point:output": "60 kW",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "manufacturer": "Beny",
+    "maxstay": "unlimited",
+    "model": "BBDC60-D",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Parinox Energia",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "AGD-00044",
+    "ref:EU:EVSE": "PT*PAR*E*AGD*00044*01;PT*PAR*E*AGD*00044*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "200",
+    "socket:type2_combo:output": "60 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/14120666420"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4602429,
+      40.5938658
     ]
   }
 }
