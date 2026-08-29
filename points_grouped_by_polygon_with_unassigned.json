@@ -27094,8 +27094,8 @@
           "brand:wikidata": "Q1341222",
           "capacity": "2",
           "charge_point:output": "150 kW",
+          "disused:man_made": "charge_point",
           "fee": "yes",
-          "man_made": "charge_point",
           "maxstay": "unlimited",
           "motorcar": "yes",
           "network": "Mobi.E",
@@ -252410,47 +252410,10 @@
       "id": "way/1523801365"
     },
     "centroid": [
-      39.41655328478891,
-      -9.149960458787652
+      39.41636980055912,
+      -9.150091004957707
     ],
     "points": [
-      {
-        "id": "node/13889750967",
-        "properties": {
-          "access": "yes",
-          "authentication:app": "yes",
-          "authentication:membership_card": "yes",
-          "authentication:none": "no",
-          "brand": "Zunder",
-          "capacity": "2",
-          "charge_point:output": "400 kW",
-          "construction:man_made": "charge_point",
-          "fee": "yes",
-          "manufacturer": "Alpitronic",
-          "maxstay": "unlimited",
-          "motorcar": "yes",
-          "network": "Mobi.E",
-          "opening_hours": "24/7",
-          "operator": "Zunder",
-          "parking:fee": "no",
-          "payment:app": "yes",
-          "payment:cards": "yes",
-          "payment:cash": "no",
-          "payment:membership_card": "yes",
-          "ref": "CLD-00056",
-          "ref:EU:EVSE": "PT*ZUN*E*CLD*00056*01;PT*ZUN*E*CLD*00056*02",
-          "socket:type2_combo": "2",
-          "socket:type2_combo:current": "500",
-          "socket:type2_combo:output": "400 kW",
-          "socket:type2_combo:voltage": "1000",
-          "website": "https://www.zunder.com/",
-          "id": "node/13889750967"
-        },
-        "coordinates": [
-          39.4165121,
-          -9.1498558
-        ]
-      },
       {
         "id": "node/13889750968",
         "properties": {
@@ -252459,7 +252422,7 @@
           "authentication:membership_card": "yes",
           "authentication:none": "no",
           "brand": "Zunder",
-          "capacity": "2",
+          "capacity": "1",
           "charge_point:output": "400 kW",
           "construction:man_made": "charge_point",
           "fee": "yes",
@@ -252484,8 +252447,8 @@
           "id": "node/13889750968"
         },
         "coordinates": [
-          39.4164918,
-          -9.1498737
+          39.4162004,
+          -9.1498905
         ]
       },
       {
@@ -252498,8 +252461,8 @@
           "brand": "Zunder",
           "capacity": "2",
           "charge_point:output": "400 kW",
-          "construction:man_made": "charge_point",
           "fee": "yes",
+          "man_made": "charge_point",
           "manufacturer": "Alpitronic",
           "maxstay": "unlimited",
           "motorcar": "yes",
@@ -252521,8 +252484,8 @@
           "id": "node/13889750969"
         },
         "coordinates": [
-          39.41657,
-          -9.1500298
+          39.4165262,
+          -9.1502088
         ]
       },
       {
@@ -252558,8 +252521,8 @@
           "id": "node/13889750970"
         },
         "coordinates": [
-          39.4166018,
-          -9.1499954
+          39.4165723,
+          -9.1501694
         ]
       },
       {
@@ -252570,11 +252533,11 @@
           "authentication:membership_card": "yes",
           "authentication:none": "no",
           "brand": "Zunder",
-          "capacity": "1",
+          "capacity": "2",
           "charge_point:output": "400 kW",
-          "construction:man_made": "charge_point",
           "fee": "yes",
           "hgv": "yes",
+          "man_made": "charge_point",
           "manufacturer": "Alpitronic",
           "maxstay": "unlimited",
           "motorcar": "yes",
@@ -252596,8 +252559,8 @@
           "id": "node/13975309836"
         },
         "coordinates": [
-          39.4165672,
-          -9.1500251
+          39.4165136,
+          -9.1501857
         ]
       },
       {
@@ -252608,11 +252571,11 @@
           "authentication:membership_card": "yes",
           "authentication:none": "no",
           "brand": "Zunder",
-          "capacity": "1",
+          "capacity": "2",
           "charge_point:output": "400 kW",
-          "construction:man_made": "charge_point",
           "fee": "yes",
           "hgv": "yes",
+          "man_made": "charge_point",
           "manufacturer": "Alpitronic",
           "maxstay": "unlimited",
           "motorcar": "yes",
@@ -252634,8 +252597,8 @@
           "id": "node/13975309837"
         },
         "coordinates": [
-          39.4165985,
-          -9.1499905
+          39.4165602,
+          -9.1501444
         ]
       }
     ]
@@ -287620,7 +287583,6 @@
       "id": "node/7272396942",
       "properties": {
         "access": "yes",
-        "amenity": "charging_station",
         "authentication:app": "yes",
         "authentication:membership_card": "yes",
         "authentication:none": "no",
@@ -287628,10 +287590,13 @@
         "brand:wikidata": "Q1341222",
         "capacity": "2",
         "check_date": "2026-04-18",
+        "disused:amenity": "charging_station",
         "fee": "yes",
+        "manufacturer": "Efacec",
         "maxstay": "unlimited",
+        "model": "Public Charger G2",
         "motorcar": "yes",
-        "name": "LGS-00001",
+        "name": "LGS-90001",
         "network": "Mobi.E",
         "opening_hours": "24/7",
         "operator": "EDP",
@@ -287652,8 +287617,8 @@
         "id": "node/7272396942"
       },
       "coordinates": [
-        37.1089346,
-        -8.6763198
+        37.1089993,
+        -8.6763446
       ]
     },
     {
@@ -338764,14 +338729,16 @@
       "id": "node/9118724923",
       "properties": {
         "access": "yes",
+        "amenity": "charging_station",
         "authentication:membership_card": "yes",
         "authentication:none": "no",
         "brand": "uCharge",
         "capacity": "2",
-        "disused:amenity": "charging_station",
         "email": "geral@ucharge.pt",
         "fee": "yes",
+        "manufacturer": "Circutor",
         "maxstay": "unlimited",
+        "model": "eVolve Smart",
         "motorcar": "yes",
         "network": "Mobi.E",
         "opening_hours": "24/7",
@@ -341646,6 +341613,7 @@
       "properties": {
         "access": "yes",
         "addr:city": "Aveiro",
+        "amenity": "charging_station",
         "authentication:app": "yes",
         "authentication:membership_card": "yes",
         "authentication:none": "no",
@@ -341653,7 +341621,6 @@
         "brand:wikidata": "Q1341222",
         "capacity": "2",
         "charging_station:output": "142 kW",
-        "disused:amenity": "charging_station",
         "fee": "yes",
         "location": "underground",
         "manufacturer": "Efacec",
@@ -361898,7 +361865,6 @@
       "id": "node/10110145674",
       "properties": {
         "access": "yes",
-        "amenity": "charging_station",
         "authentication:app": "yes",
         "authentication:membership_card": "yes",
         "authentication:none": "no",
@@ -361906,9 +361872,12 @@
         "brand:wikidata": "Q151954",
         "capacity": "2",
         "charging_station:output": "72 kW",
+        "disused:amenity": "charging_station",
         "email": "veiculoeletrico@galp.com",
         "fee": "yes",
+        "manufacturer": "ABB",
         "maxstay": "unlimited",
+        "model": "Terra 54",
         "motorcar": "yes",
         "name": "ALM-00101",
         "network": "Mobi.E",
@@ -443476,13 +443445,13 @@
       "id": "node/12732103825",
       "properties": {
         "access": "yes",
-        "amenity": "charging_station",
         "authentication:membership_card": "yes",
         "authentication:none": "no",
         "brand": "Helexia",
         "brand:wikidata": "Q137294295",
         "capacity": "2",
         "charging_station:output": "93 kW",
+        "disused:amenity": "charging_station",
         "email": "geral.pt@helexia.eu",
         "fee": "yes",
         "maxstay": "unlimited",
@@ -478322,13 +478291,13 @@
       "id": "node/13822293820",
       "properties": {
         "access": "yes",
-        "amenity": "charging_station",
         "authentication:app": "yes",
         "authentication:membership_card": "yes",
         "authentication:none": "no",
         "brand": "e-flow",
         "capacity": "2",
         "charging_station:output": "82 kW",
+        "disused:amenity": "charging_station",
         "email": "geral@dte.pt",
         "fee": "yes",
         "manufacturer": "Vega",
@@ -481484,6 +481453,43 @@
       "coordinates": [
         39.4247628,
         -9.1606242
+      ]
+    },
+    {
+      "id": "node/13889750967",
+      "properties": {
+        "access": "yes",
+        "authentication:app": "yes",
+        "authentication:membership_card": "yes",
+        "authentication:none": "no",
+        "brand": "Zunder",
+        "capacity": "1",
+        "charge_point:output": "400 kW",
+        "fee": "yes",
+        "man_made": "charge_point",
+        "manufacturer": "Alpitronic",
+        "maxstay": "unlimited",
+        "motorcar": "yes",
+        "network": "Mobi.E",
+        "opening_hours": "24/7",
+        "operator": "Zunder",
+        "parking:fee": "no",
+        "payment:app": "yes",
+        "payment:cards": "yes",
+        "payment:cash": "no",
+        "payment:membership_card": "yes",
+        "ref": "CLD-00056",
+        "ref:EU:EVSE": "PT*ZUN*E*CLD*00056*01;PT*ZUN*E*CLD*00056*02",
+        "socket:type2_combo": "2",
+        "socket:type2_combo:current": "500",
+        "socket:type2_combo:output": "400 kW",
+        "socket:type2_combo:voltage": "1000",
+        "website": "https://www.zunder.com/",
+        "id": "node/13889750967"
+      },
+      "coordinates": [
+        39.4162445,
+        -9.1498558
       ]
     },
     {
@@ -490561,6 +490567,55 @@
       "coordinates": [
         42.1128128,
         -8.2596243
+      ]
+    },
+    {
+      "id": "node/14133296502",
+      "properties": {
+        "amenity": "charging_station",
+        "id": "node/14133296502"
+      },
+      "coordinates": [
+        41.4483461,
+        -8.3420664
+      ]
+    },
+    {
+      "id": "node/14133319069",
+      "properties": {
+        "access": "yes",
+        "authentication:app": "yes",
+        "authentication:none": "no",
+        "brand": "Continente Plug&Charge",
+        "brand:wikidata": "Q2995683",
+        "capacity": "2",
+        "construction:amenity": "charging_station",
+        "fee": "yes",
+        "manufacturer": "iskraemeco",
+        "maxstay": "unlimited",
+        "model": "PublicBox",
+        "motorcar": "yes",
+        "name": "Maxmat Caldas da Rainha",
+        "network": "Continente Plug&Charge",
+        "opening_hours": "24/7",
+        "operator": "Continente",
+        "operator:wikidata": "Q2995683",
+        "parking:fee": "no",
+        "payment:app": "yes",
+        "payment:cards": "no",
+        "payment:cash": "no",
+        "payment:membership_card": "no",
+        "phone": "+351 210 19 19 19",
+        "socket:type2": "2",
+        "socket:type2:current": "32",
+        "socket:type2:output": "7.4 kW",
+        "socket:type2:voltage": "230",
+        "website": "https://plugcharge.continente.pt/",
+        "id": "node/14133319069"
+      },
+      "coordinates": [
+        39.4221361,
+        -9.1308483
       ]
     }
   ]
