@@ -38577,7 +38577,6 @@
         "id": "node/7821005755",
         "properties": {
           "access": "yes",
-          "addr:country": "PT",
           "addr:street": "Vila do Conde - Fashion Outlet",
           "authentication:app": "yes",
           "authentication:membership_card": "yes",
@@ -38620,7 +38619,6 @@
         "id": "node/11526177458",
         "properties": {
           "access": "yes",
-          "addr:country": "PT",
           "addr:street": "Vila do Conde - Fashion Outlet",
           "authentication:app": "yes",
           "authentication:membership_card": "yes",
@@ -38702,7 +38700,6 @@
         "id": "node/12343778577",
         "properties": {
           "access": "yes",
-          "addr:country": "PT",
           "addr:street": "Vila do Conde - Fashion Outlet",
           "authentication:app": "yes",
           "authentication:membership_card": "yes",
@@ -38748,7 +38745,6 @@
         "id": "node/12569613373",
         "properties": {
           "access": "yes",
-          "addr:country": "PT",
           "addr:street": "Vila do Conde - Fashion Outlet",
           "authentication:app": "yes",
           "authentication:membership_card": "yes",
@@ -39072,7 +39068,6 @@
         "id": "node/9222092137",
         "properties": {
           "access": "private",
-          "addr:country": "PT",
           "authentication:membership_card": "yes",
           "authentication:none": "no",
           "capacity": "2",
@@ -39096,7 +39091,6 @@
         "id": "node/12569716875",
         "properties": {
           "access": "private",
-          "addr:country": "PT",
           "authentication:membership_card": "yes",
           "authentication:none": "no",
           "capacity": "2",
@@ -39120,7 +39114,6 @@
         "id": "node/12569716876",
         "properties": {
           "access": "private",
-          "addr:country": "PT",
           "authentication:membership_card": "yes",
           "authentication:none": "no",
           "capacity": "2",
@@ -39144,7 +39137,6 @@
         "id": "node/12569716877",
         "properties": {
           "access": "private",
-          "addr:country": "PT",
           "authentication:membership_card": "yes",
           "authentication:none": "no",
           "capacity": "2",
@@ -39168,7 +39160,6 @@
         "id": "node/12569716878",
         "properties": {
           "access": "private",
-          "addr:country": "PT",
           "authentication:membership_card": "yes",
           "authentication:none": "no",
           "capacity": "2",
@@ -102259,20 +102250,18 @@
       "brand": "Powerdot",
       "brand:wikidata": "Q123574541",
       "capacity": "4",
-      "charging_station:output": "137 kW",
+      "charging_station:output": "200 kW",
       "email": "ajuda@powerdot.pt",
       "fee": "yes",
       "maxstay": "unlimited",
       "motorcar": "yes",
-      "name": "PTG-00008/9",
+      "name": "PTG-?????",
       "network": "Mobi.E",
       "opening_hours": "24/7",
       "operator": "Powerdot",
       "operator:wikidata": "Q123574541",
       "parking:fee": "no",
       "phone": "+351 800 180 292",
-      "ref": "PTG-00008;PTG-00009",
-      "website": "https://www.mobie.pt",
       "id": "way/1414045243"
     },
     "centroid": [
@@ -102283,46 +102272,10 @@
       {
         "id": "node/8078239912",
         "properties": {
-          "access": "yes",
-          "addr:city": "Portalegre",
-          "addr:street": "Rua do Joinal",
-          "authentication:app": "yes",
-          "authentication:membership_card": "yes",
-          "authentication:none": "no",
-          "brand": "Powerdot",
-          "brand:wikidata": "Q123574541",
-          "capacity": "2",
-          "charge_point:output": "93 kW",
-          "email": "ajuda@powerdot.pt",
-          "fee": "yes",
-          "man_made": "charge_point",
-          "maxstay": "unlimited",
-          "motorcar": "yes",
-          "network": "Mobi.E",
-          "opening_hours": "24/7",
-          "operator": "Powerdot",
-          "operator:wikidata": "Q123574541",
-          "parking:fee": "no",
-          "payment:app": "yes",
-          "payment:cards": "no",
-          "payment:cash": "no",
-          "payment:membership_card": "yes",
-          "phone": "+351 800 180 292",
-          "ref": "PTG-00009",
-          "ref:EU:EVSE": "PT*HRZ*E*PTG*00009*01;PT*HRZ*E*PTG*00009*02;PT*HRZ*E*PTG*00009*03",
-          "socket:chademo": "1",
-          "socket:chademo:current": "120",
-          "socket:chademo:output": "50 kW",
-          "socket:chademo:voltage": "500",
-          "socket:type2_cable": "1",
-          "socket:type2_cable:current": "63",
-          "socket:type2_cable:output": "43 kW",
-          "socket:type2_cable:voltage": "400",
-          "socket:type2_combo": "1",
-          "socket:type2_combo:current": "125",
-          "socket:type2_combo:output": "50 kW",
-          "socket:type2_combo:voltage": "500",
-          "website": "https://www.mobie.pt",
+          "old_operator": "Powerdot",
+          "old_ref": "PTG-00009",
+          "old_ref:EU:EVSE": "PT*HRZ*E*PTG*00009*01;PT*HRZ*E*PTG*00009*02;PT*HRZ*E*PTG*00009*03",
+          "removed:man_made": "charge_point",
           "id": "node/8078239912"
         },
         "coordinates": [
@@ -102333,17 +102286,32 @@
       {
         "id": "node/8089459851",
         "properties": {
+          "old_operator": "Powerdot",
+          "old_ref": "PTG-00008",
+          "old_ref:EU:EVSE": "PT*HRZ*E*PTG*00008*01;PT*HRZ*E*PTG*00008*02",
+          "removed:man_made": "charge_point",
+          "id": "node/8089459851"
+        },
+        "coordinates": [
+          39.2785472,
+          -7.4328496
+        ]
+      },
+      {
+        "id": "node/14134649337",
+        "properties": {
           "access": "yes",
           "authentication:app": "yes",
           "authentication:membership_card": "yes",
           "authentication:none": "no",
           "brand": "Powerdot",
           "brand:wikidata": "Q123574541",
-          "capacity": "2",
-          "email": "ajuda@powerdot.pt",
+          "capacity": "1",
+          "construction:man_made": "charge_point",
           "fee": "yes",
-          "man_made": "charge_point",
+          "manufacturer": "i-charging",
           "maxstay": "unlimited",
+          "model": "blueberry CLUSTER",
           "motorcar": "yes",
           "network": "Mobi.E",
           "opening_hours": "24/7",
@@ -102351,22 +102319,93 @@
           "operator:wikidata": "Q123574541",
           "parking:fee": "no",
           "payment:app": "yes",
-          "payment:cards": "no",
+          "payment:cards": "yes",
           "payment:cash": "no",
           "payment:membership_card": "yes",
-          "phone": "+351 800 180 292",
-          "ref": "PTG-00008",
-          "ref:EU:EVSE": "PT*HRZ*E*PTG*00008*01;PT*HRZ*E*PTG*00008*02",
-          "socket:type2": "2",
-          "socket:type2:current": "32",
-          "socket:type2:output": "22 kW",
-          "socket:type2:voltage": "400",
-          "website": "https://www.mobie.pt",
-          "id": "node/8089459851"
+          "ref": "PTG-?????",
+          "socket:type2_combo": "1",
+          "socket:type2_combo:current": "250",
+          "socket:type2_combo:output": "200 kW",
+          "socket:type2_combo:voltage": "1000",
+          "id": "node/14134649337"
         },
         "coordinates": [
-          39.2785472,
-          -7.4328496
+          39.2785169,
+          -7.4327869
+        ]
+      },
+      {
+        "id": "node/14134649338",
+        "properties": {
+          "access": "yes",
+          "authentication:app": "yes",
+          "authentication:membership_card": "yes",
+          "authentication:none": "no",
+          "brand": "Powerdot",
+          "brand:wikidata": "Q123574541",
+          "capacity": "1",
+          "construction:man_made": "charge_point",
+          "fee": "yes",
+          "manufacturer": "i-charging",
+          "maxstay": "unlimited",
+          "model": "blueberry CLUSTER",
+          "motorcar": "yes",
+          "network": "Mobi.E",
+          "opening_hours": "24/7",
+          "operator": "Powerdot",
+          "operator:wikidata": "Q123574541",
+          "parking:fee": "no",
+          "payment:app": "yes",
+          "payment:cards": "yes",
+          "payment:cash": "no",
+          "payment:membership_card": "yes",
+          "ref": "PTG-?????",
+          "socket:type2_combo": "1",
+          "socket:type2_combo:current": "250",
+          "socket:type2_combo:output": "200 kW",
+          "socket:type2_combo:voltage": "1000",
+          "id": "node/14134649338"
+        },
+        "coordinates": [
+          39.278528,
+          -7.4328122
+        ]
+      },
+      {
+        "id": "node/14134649339",
+        "properties": {
+          "access": "yes",
+          "authentication:app": "yes",
+          "authentication:membership_card": "yes",
+          "authentication:none": "no",
+          "brand": "Powerdot",
+          "brand:wikidata": "Q123574541",
+          "capacity": "2",
+          "construction:man_made": "charge_point",
+          "fee": "yes",
+          "manufacturer": "i-charging",
+          "maxstay": "unlimited",
+          "model": "blueberry PLUS",
+          "motorcar": "yes",
+          "network": "Mobi.E",
+          "opening_hours": "24/7",
+          "operator": "Powerdot",
+          "operator:wikidata": "Q123574541",
+          "parking:fee": "no",
+          "payment:app": "yes",
+          "payment:cards": "yes",
+          "payment:cash": "no",
+          "payment:membership_card": "yes",
+          "ref": "PTG-?????",
+          "socket:type2_combo": "2",
+          "socket:type2_combo:current": "300",
+          "socket:type2_combo:output": "200 kW",
+          "socket:type2_combo:voltage": "1000",
+          "id": "node/14134649339"
+        },
+        "coordinates": [
+          39.278546,
+          -7.43285
         ]
       }
     ]
@@ -194414,7 +194453,6 @@
     "properties": {
       "access": "yes",
       "addr:city": "Alfena",
-      "addr:country": "PT",
       "addr:street": "Rua da Argila",
       "amenity": "charging_station",
       "brand": "Prio",
@@ -257592,148 +257630,6 @@
       }
     ]
   },
-  "way/1529324545": {
-    "properties": {
-      "access": "yes",
-      "addr:country": "PT",
-      "amenity": "charging_station",
-      "brand": "Via Verde Electric",
-      "capacity": "10",
-      "fee": "yes",
-      "maxstay": "unlimited",
-      "motorcar": "yes",
-      "name": "TRF-00026…28",
-      "network": "Mobi.E",
-      "opening_hours": "24/7",
-      "operator": "Via Verde",
-      "parking:fee": "no",
-      "phone": "+351 210 730 300",
-      "ref": "TRF-00026;TRF-00027;TRF-00028",
-      "website": "https://www.viaverde.pt/",
-      "id": "way/1529324545"
-    },
-    "centroid": [
-      41.26346615,
-      -8.5645588
-    ],
-    "points": [
-      {
-        "id": "node/13937989736",
-        "properties": {
-          "access": "yes",
-          "authentication:app": "yes",
-          "authentication:membership_card": "yes",
-          "authentication:none": "no",
-          "brand": "Via Verde Electric",
-          "capacity": "2",
-          "charge_point:output": "400 kW",
-          "construction:man_made": "charge_point",
-          "fee": "yes",
-          "maxstay": "unlimited",
-          "motorcar": "yes",
-          "network": "Mobi.E",
-          "opening_hours": "24/7",
-          "operator": "Via Verde",
-          "parking:fee": "no",
-          "payment:app": "yes",
-          "payment:cards": "no",
-          "payment:cash": "no",
-          "payment:membership_card": "yes",
-          "phone": "+351 210 730 300",
-          "ref": "TRF-00028",
-          "ref:EU:EVSE": "PT*VIA*ETRF-00028-663;PT*VIA*ETRF-00028-664",
-          "socket:type2_combo": "2",
-          "socket:type2_combo:current": "600",
-          "socket:type2_combo:output": "400 kW",
-          "socket:type2_combo:voltage": "1000",
-          "website": "https://www.viaverde.pt/",
-          "id": "node/13937989736"
-        },
-        "coordinates": [
-          41.2634637,
-          -8.5645814
-        ]
-      },
-      {
-        "id": "node/13937989738",
-        "properties": {
-          "access": "yes",
-          "authentication:app": "yes",
-          "authentication:membership_card": "yes",
-          "authentication:none": "no",
-          "brand": "Via Verde Electric",
-          "capacity": "2",
-          "charge_point:output": "400 kW",
-          "construction:man_made": "charge_point",
-          "fee": "yes",
-          "maxstay": "unlimited",
-          "motorcar": "yes",
-          "network": "Mobi.E",
-          "opening_hours": "24/7",
-          "operator": "Via Verde",
-          "parking:fee": "no",
-          "payment:app": "yes",
-          "payment:cards": "no",
-          "payment:cash": "no",
-          "payment:membership_card": "yes",
-          "phone": "+351 210 730 300",
-          "ref": "TRF-00027",
-          "ref:EU:EVSE": "PT*VIA*ETRF-00027-661;PT*VIA*ETRF-00027-662",
-          "socket:type2_combo": "2",
-          "socket:type2_combo:current": "600",
-          "socket:type2_combo:output": "400 kW",
-          "socket:type2_combo:voltage": "1000",
-          "website": "https://www.viaverde.pt/",
-          "id": "node/13937989738"
-        },
-        "coordinates": [
-          41.2635138,
-          -8.5645564
-        ]
-      },
-      {
-        "id": "node/13937989739",
-        "properties": {
-          "access": "yes",
-          "authentication:app": "yes",
-          "authentication:membership_card": "yes",
-          "authentication:none": "no",
-          "brand": "Via Verde Electric",
-          "capacity": "2",
-          "charge_point:output": "400 kW",
-          "construction:man_made": "charge_point",
-          "fee": "yes",
-          "maxstay": "unlimited",
-          "motorcar": "yes",
-          "network": "Mobi.E",
-          "opening_hours": "24/7",
-          "operator": "Via Verde",
-          "parking:fee": "no",
-          "payment:app": "yes",
-          "payment:cards": "no",
-          "payment:cash": "no",
-          "payment:membership_card": "yes",
-          "phone": "+351 210 730 300",
-          "ref": "TRF-00026",
-          "ref:EU:EVSE": "PT*VIA*ETRF-00026-658;PT*VIA*E1282;PT*VIA*ETRF-00026-660;PT*VIA*ETRF-00026-659",
-          "socket:chademo": "1",
-          "socket:chademo:current": "125",
-          "socket:chademo:output": "50 kW",
-          "socket:chademo:voltage": "500",
-          "socket:type2_combo": "2",
-          "socket:type2_combo:current": "600",
-          "socket:type2_combo:output": "400 kW",
-          "socket:type2_combo:voltage": "1000",
-          "website": "https://www.viaverde.pt/",
-          "id": "node/13937989739"
-        },
-        "coordinates": [
-          41.263563,
-          -8.5645286
-        ]
-      }
-    ]
-  },
   "way/1529331965": {
     "properties": {
       "access": "yes",
@@ -257923,10 +257819,9 @@
   "way/1529335363": {
     "properties": {
       "access": "yes",
-      "addr:country": "PT",
       "amenity": "charging_station",
       "brand": "Via Verde Electric",
-      "capacity": "10",
+      "capacity": "6",
       "fee": "yes",
       "maxstay": "unlimited",
       "motorcar": "yes",
@@ -257941,8 +257836,8 @@
       "id": "way/1529335363"
     },
     "centroid": [
-      41.26374725,
-      -8.563370500000001
+      41.2637248779142,
+      -8.563376112743239
     ],
     "points": [
       {
@@ -257957,7 +257852,9 @@
           "charge_point:output": "400 kW",
           "construction:man_made": "charge_point",
           "fee": "yes",
+          "manufacturer": "Alpitronic",
           "maxstay": "unlimited",
+          "model": "HYC_400",
           "motorcar": "yes",
           "network": "Mobi.E",
           "opening_hours": "24/7",
@@ -257978,8 +257875,8 @@
           "id": "node/13938060189"
         },
         "coordinates": [
-          41.2636971,
-          -8.5634013
+          41.2636728,
+          -8.5634041
         ]
       },
       {
@@ -257994,7 +257891,9 @@
           "charge_point:output": "400 kW",
           "construction:man_made": "charge_point",
           "fee": "yes",
+          "manufacturer": "Alpitronic",
           "maxstay": "unlimited",
+          "model": "HYC_400",
           "motorcar": "yes",
           "network": "Mobi.E",
           "opening_hours": "24/7",
@@ -258015,8 +257914,8 @@
           "id": "node/13938060190"
         },
         "coordinates": [
-          41.2637475,
-          -8.563374
+          41.2637265,
+          -8.5633754
         ]
       },
       {
@@ -258031,7 +257930,9 @@
           "charge_point:output": "400 kW",
           "construction:man_made": "charge_point",
           "fee": "yes",
+          "manufacturer": "Alpitronic",
           "maxstay": "unlimited",
+          "model": "HYC_400",
           "motorcar": "yes",
           "network": "Mobi.E",
           "opening_hours": "24/7",
@@ -258056,8 +257957,8 @@
           "id": "node/13938060192"
         },
         "coordinates": [
-          41.2636472,
-          -8.5634307
+          41.2636192,
+          -8.5634331
         ]
       }
     ]
@@ -277681,6 +277582,363 @@
       }
     ]
   },
+  "way/1553621771": {
+    "properties": {
+      "access": "yes",
+      "amenity": "charging_station",
+      "brand": "Via Verde Electric",
+      "capacity": "6",
+      "fee": "yes",
+      "maxstay": "unlimited",
+      "motorcar": "yes",
+      "name": "TRF-00026…28",
+      "network": "Mobi.E",
+      "opening_hours": "24/7",
+      "operator": "Via Verde",
+      "parking:fee": "no",
+      "phone": "+351 210 730 300",
+      "ref": "TRF-00026;TRF-00027;TRF-00028",
+      "website": "https://www.viaverde.pt/",
+      "id": "way/1553621771"
+    },
+    "centroid": [
+      41.263476239009385,
+      -8.56457675995627
+    ],
+    "points": [
+      {
+        "id": "node/13937989736",
+        "properties": {
+          "access": "yes",
+          "authentication:app": "yes",
+          "authentication:membership_card": "yes",
+          "authentication:none": "no",
+          "brand": "Via Verde Electric",
+          "capacity": "2",
+          "charge_point:output": "400 kW",
+          "construction:man_made": "charge_point",
+          "fee": "yes",
+          "manufacturer": "Alpitronic",
+          "maxstay": "unlimited",
+          "model": "HYC_400",
+          "motorcar": "yes",
+          "network": "Mobi.E",
+          "opening_hours": "24/7",
+          "operator": "Via Verde",
+          "parking:fee": "no",
+          "payment:app": "yes",
+          "payment:cards": "no",
+          "payment:cash": "no",
+          "payment:membership_card": "yes",
+          "phone": "+351 210 730 300",
+          "ref": "TRF-00028",
+          "ref:EU:EVSE": "PT*VIA*ETRF-00028-663;PT*VIA*ETRF-00028-664",
+          "socket:type2_combo": "2",
+          "socket:type2_combo:current": "600",
+          "socket:type2_combo:output": "400 kW",
+          "socket:type2_combo:voltage": "1000",
+          "website": "https://www.viaverde.pt/",
+          "id": "node/13937989736"
+        },
+        "coordinates": [
+          41.2634776,
+          -8.564576
+        ]
+      },
+      {
+        "id": "node/13937989738",
+        "properties": {
+          "access": "yes",
+          "authentication:app": "yes",
+          "authentication:membership_card": "yes",
+          "authentication:none": "no",
+          "brand": "Via Verde Electric",
+          "capacity": "2",
+          "charge_point:output": "400 kW",
+          "construction:man_made": "charge_point",
+          "fee": "yes",
+          "manufacturer": "Alpitronic",
+          "maxstay": "unlimited",
+          "model": "HYC_400",
+          "motorcar": "yes",
+          "network": "Mobi.E",
+          "opening_hours": "24/7",
+          "operator": "Via Verde",
+          "parking:fee": "no",
+          "payment:app": "yes",
+          "payment:cards": "no",
+          "payment:cash": "no",
+          "payment:membership_card": "yes",
+          "phone": "+351 210 730 300",
+          "ref": "TRF-00027",
+          "ref:EU:EVSE": "PT*VIA*ETRF-00027-661;PT*VIA*ETRF-00027-662",
+          "socket:type2_combo": "2",
+          "socket:type2_combo:current": "600",
+          "socket:type2_combo:output": "400 kW",
+          "socket:type2_combo:voltage": "1000",
+          "website": "https://www.viaverde.pt/",
+          "id": "node/13937989738"
+        },
+        "coordinates": [
+          41.2635307,
+          -8.5645467
+        ]
+      },
+      {
+        "id": "node/13937989739",
+        "properties": {
+          "access": "yes",
+          "authentication:app": "yes",
+          "authentication:membership_card": "yes",
+          "authentication:none": "no",
+          "brand": "Via Verde Electric",
+          "capacity": "2",
+          "charge_point:output": "400 kW",
+          "construction:man_made": "charge_point",
+          "fee": "yes",
+          "manufacturer": "Alpitronic",
+          "maxstay": "unlimited",
+          "model": "HYC_400",
+          "motorcar": "yes",
+          "network": "Mobi.E",
+          "opening_hours": "24/7",
+          "operator": "Via Verde",
+          "parking:fee": "no",
+          "payment:app": "yes",
+          "payment:cards": "no",
+          "payment:cash": "no",
+          "payment:membership_card": "yes",
+          "phone": "+351 210 730 300",
+          "ref": "TRF-00026",
+          "ref:EU:EVSE": "PT*VIA*ETRF-00026-658;PT*VIA*E1282;PT*VIA*ETRF-00026-660;PT*VIA*ETRF-00026-659",
+          "socket:chademo": "1",
+          "socket:chademo:current": "125",
+          "socket:chademo:output": "50 kW",
+          "socket:chademo:voltage": "500",
+          "socket:type2_combo": "2",
+          "socket:type2_combo:current": "600",
+          "socket:type2_combo:output": "400 kW",
+          "socket:type2_combo:voltage": "1000",
+          "website": "https://www.viaverde.pt/",
+          "id": "node/13937989739"
+        },
+        "coordinates": [
+          41.2635837,
+          -8.5645192
+        ]
+      }
+    ]
+  },
+  "way/1553632530": {
+    "properties": {
+      "access": "yes",
+      "amenity": "charging_station",
+      "brand": "Galp electric",
+      "brand:wikidata": "Q135275372",
+      "capacity": "4",
+      "email": "veiculoeletrico@galp.com",
+      "fee": "yes",
+      "maxstay": "unlimited",
+      "motorcar": "yes",
+      "name": "STS-00056/59",
+      "network": "Mobi.E",
+      "opening_hours": "24/7",
+      "operator": "Galp Power",
+      "operator:wikidata": "Q135275372",
+      "parking:fee": "no",
+      "phone": "+351 800 249 249",
+      "ref": "STS-?????",
+      "website": "https://www.mobie.pt/",
+      "id": "way/1553632530"
+    },
+    "centroid": [
+      41.34263650050725,
+      -8.478518117053166
+    ],
+    "points": [
+      {
+        "id": "node/14135071279",
+        "properties": {
+          "access": "yes",
+          "authentication:app": "yes",
+          "authentication:membership_card": "yes",
+          "authentication:none": "no",
+          "brand": "Galp electric",
+          "brand:wikidata": "Q135275372",
+          "capacity": "2",
+          "charge_point:output": "120 kW",
+          "construction:man_made": "charge_point",
+          "email": "veiculoeletrico@galp.com",
+          "fee": "yes",
+          "maxstay": "unlimited",
+          "motorcar": "yes",
+          "network": "Mobi.E",
+          "opening_hours": "24/7",
+          "operator": "Galp Power",
+          "operator:wikidata": "Q135275372",
+          "parking:fee": "no",
+          "payment:app": "yes",
+          "payment:cards": "no",
+          "payment:cash": "no",
+          "payment:membership_card": "yes",
+          "phone": "+351 800 249 249",
+          "ref": "STS-00059",
+          "socket:type2_combo": "2",
+          "socket:type2_combo:current": "300",
+          "socket:type2_combo:output": "120 kW",
+          "socket:type2_combo:voltage": "1000",
+          "id": "node/14135071279"
+        },
+        "coordinates": [
+          41.3426283,
+          -8.4785564
+        ]
+      },
+      {
+        "id": "node/14135071283",
+        "properties": {
+          "access": "yes",
+          "authentication:app": "yes",
+          "authentication:membership_card": "yes",
+          "authentication:none": "no",
+          "brand": "Galp electric",
+          "brand:wikidata": "Q135275372",
+          "capacity": "2",
+          "charge_point:output": "120 kW",
+          "construction:man_made": "charge_point",
+          "email": "veiculoeletrico@galp.com",
+          "fee": "yes",
+          "maxstay": "unlimited",
+          "motorcar": "yes",
+          "network": "Mobi.E",
+          "opening_hours": "24/7",
+          "operator": "Galp Power",
+          "operator:wikidata": "Q135275372",
+          "parking:fee": "no",
+          "payment:app": "yes",
+          "payment:cards": "no",
+          "payment:cash": "no",
+          "payment:membership_card": "yes",
+          "phone": "+351 800 249 249",
+          "ref": "STS-00056",
+          "socket:type2_combo": "2",
+          "socket:type2_combo:current": "300",
+          "socket:type2_combo:output": "120 kW",
+          "socket:type2_combo:voltage": "1000",
+          "id": "node/14135071283"
+        },
+        "coordinates": [
+          41.3426073,
+          -8.4785059
+        ]
+      }
+    ]
+  },
+  "way/1553632532": {
+    "properties": {
+      "access": "yes",
+      "amenity": "charging_station",
+      "brand": "Galp electric",
+      "brand:wikidata": "Q135275372",
+      "capacity": "4",
+      "email": "veiculoeletrico@galp.com",
+      "fee": "yes",
+      "maxstay": "unlimited",
+      "motorcar": "yes",
+      "name": "STS-00057/58",
+      "network": "Mobi.E",
+      "opening_hours": "24/7",
+      "operator": "Galp Power",
+      "operator:wikidata": "Q135275372",
+      "parking:fee": "no",
+      "phone": "+351 800 249 249",
+      "ref": "STS-?????",
+      "website": "https://www.mobie.pt/",
+      "id": "way/1553632532"
+    },
+    "centroid": [
+      41.34328171702378,
+      -8.476884387656636
+    ],
+    "points": [
+      {
+        "id": "node/14135071289",
+        "properties": {
+          "access": "yes",
+          "authentication:app": "yes",
+          "authentication:membership_card": "yes",
+          "authentication:none": "no",
+          "brand": "Galp electric",
+          "brand:wikidata": "Q135275372",
+          "capacity": "2",
+          "charge_point:output": "120 kW",
+          "construction:man_made": "charge_point",
+          "email": "veiculoeletrico@galp.com",
+          "fee": "yes",
+          "maxstay": "unlimited",
+          "motorcar": "yes",
+          "network": "Mobi.E",
+          "opening_hours": "24/7",
+          "operator": "Galp Power",
+          "operator:wikidata": "Q135275372",
+          "parking:fee": "no",
+          "payment:app": "yes",
+          "payment:cards": "no",
+          "payment:cash": "no",
+          "payment:membership_card": "yes",
+          "phone": "+351 800 249 249",
+          "ref": "STS-00057",
+          "socket:type2_combo": "2",
+          "socket:type2_combo:current": "300",
+          "socket:type2_combo:output": "120 kW",
+          "socket:type2_combo:voltage": "1000",
+          "id": "node/14135071289"
+        },
+        "coordinates": [
+          41.343311,
+          -8.4768965
+        ]
+      },
+      {
+        "id": "node/14135071292",
+        "properties": {
+          "access": "yes",
+          "authentication:app": "yes",
+          "authentication:membership_card": "yes",
+          "authentication:none": "no",
+          "brand": "Galp electric",
+          "brand:wikidata": "Q135275372",
+          "capacity": "2",
+          "charge_point:output": "120 kW",
+          "construction:man_made": "charge_point",
+          "email": "veiculoeletrico@galp.com",
+          "fee": "yes",
+          "maxstay": "unlimited",
+          "motorcar": "yes",
+          "network": "Mobi.E",
+          "opening_hours": "24/7",
+          "operator": "Galp Power",
+          "operator:wikidata": "Q135275372",
+          "parking:fee": "no",
+          "payment:app": "yes",
+          "payment:cards": "no",
+          "payment:cash": "no",
+          "payment:membership_card": "yes",
+          "phone": "+351 800 249 249",
+          "ref": "STS-00058",
+          "socket:type2_combo": "2",
+          "socket:type2_combo:current": "300",
+          "socket:type2_combo:output": "120 kW",
+          "socket:type2_combo:voltage": "1000",
+          "id": "node/14135071292"
+        },
+        "coordinates": [
+          41.3432898,
+          -8.4768461
+        ]
+      }
+    ]
+  },
   "unassigned_points": [
     {
       "id": "node/966120777",
@@ -292976,45 +293234,15 @@
     {
       "id": "node/8079153640",
       "properties": {
-        "access": "yes",
-        "addr:city": "Santo Tirso",
-        "addr:street": "Rua Professor Doutor Augusto Pires de Lima",
-        "authentication:membership_card": "yes",
-        "authentication:none": "no",
-        "brand": "Mobiletric",
-        "capacity": "4",
-        "disused:amenity": "charging_station",
-        "email": "veiculoeletrico@galp.com",
-        "fee": "yes",
-        "fixme": "Não sei se é o mesmo identificador, mas com as obras do parque, os carregadores mudaram de lugar.",
-        "maxstay": "unlimited",
-        "motorcar": "yes",
-        "name": "STS-00002",
-        "network": "Mobi.E",
-        "opening_hours": "24/7",
-        "operator": "Mobiletric",
-        "parking:fee": "no",
-        "payment:app": "yes",
-        "payment:cards": "no",
-        "payment:cash": "no",
-        "payment:membership_card": "yes",
-        "phone": "+351 800 249 249",
-        "ref": "STS-00002",
-        "ref:EU:EVSE": "PT*MLT*E*STS*00002*01;PT*MLT*E*STS*00002*02",
-        "socket:chademo": "1",
-        "socket:chademo:current": "120",
-        "socket:chademo:output": "50 kW",
-        "socket:chademo:voltage": "500",
-        "socket:type2_combo": "1",
-        "socket:type2_combo:current": "125",
-        "socket:type2_combo:output": "50 kW",
-        "socket:type2_combo:voltage": "500",
-        "website": "https://www.mobie.pt",
+        "old_operator": "Mobiletric",
+        "old_ref": "STS-00002",
+        "old_ref:EU:EVSE": "PT*MLT*E*STS*00002*01;PT*MLT*E*STS*00002*02",
+        "removed:amenity": "charging_station",
         "id": "node/8079153640"
       },
       "coordinates": [
-        41.3433034,
-        -8.4768667
+        41.3433131,
+        -8.4783192
       ]
     },
     {
@@ -308722,7 +308950,6 @@
       "id": "node/8199423478",
       "properties": {
         "access": "customers",
-        "addr:country": "PT",
         "amenity": "charging_station",
         "brand": "Tesla",
         "brand:wikidata": "Q478214",
@@ -342455,7 +342682,6 @@
       "id": "node/9440272705",
       "properties": {
         "access": "customers",
-        "addr:country": "PT",
         "amenity": "charging_station",
         "capacity": "2",
         "motorcar": "yes",
@@ -342936,7 +343162,6 @@
       "id": "node/9455684850",
       "properties": {
         "access": "private",
-        "addr:country": "PT",
         "amenity": "charging_station",
         "capacity": "2",
         "motorcar": "yes",
@@ -490547,6 +490772,57 @@
       "coordinates": [
         39.4221361,
         -9.1308483
+      ]
+    },
+    {
+      "id": "node/14135097744",
+      "properties": {
+        "access": "yes",
+        "addr:city": "Guarda",
+        "authentication:app": "yes",
+        "authentication:membership_card": "yes",
+        "authentication:none": "no",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "capacity": "2",
+        "charging_station:output": "72 kW",
+        "construction:amenity": "charging_station",
+        "email": "veiculoeletrico@galp.com",
+        "fee": "yes",
+        "fixme": "Move to exact location",
+        "manufacturer": "ABB",
+        "maxstay": "unlimited",
+        "model": "Terra 54",
+        "motorcar": "yes",
+        "name": "GRD-?????",
+        "network": "Mobi.E",
+        "opening_hours": "24/7",
+        "operator": "Galp Power",
+        "operator:wikidata": "Q135275372",
+        "parking:fee": "no",
+        "payment:app": "yes",
+        "payment:cards": "no",
+        "payment:cash": "no",
+        "payment:membership_card": "yes",
+        "phone": "+351 800 249 249",
+        "ref": "GRD-?????",
+        "socket:chademo": "1",
+        "socket:chademo:current": "120",
+        "socket:chademo:output": "50 kW",
+        "socket:chademo:voltage": "500",
+        "socket:type2_cable": "1",
+        "socket:type2_cable:current": "32",
+        "socket:type2_cable:output": "22 kW",
+        "socket:type2_cable:voltage": "400",
+        "socket:type2_combo": "1",
+        "socket:type2_combo:current": "125",
+        "socket:type2_combo:output": "50 kW",
+        "socket:type2_combo:voltage": "500",
+        "id": "node/14135097744"
+      },
+      "coordinates": [
+        40.5542599,
+        -7.2491479
       ]
     }
   ]
