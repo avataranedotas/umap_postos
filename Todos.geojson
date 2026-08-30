@@ -48400,60 +48400,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/1442473511",
-  "properties": {
-    "access": "yes",
-    "amenity": "charging_station",
-    "brand": "Iberdrola",
-    "brand:wikidata": "Q1437502",
-    "capacity": "2",
-    "email": "comercial@iberdrola.pt",
-    "fee": "yes",
-    "indoor": "yes",
-    "location": "underground",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "PRT-00069/70",
-    "network": "Mobi.E",
-    "opening_hours": "09:00-21:30",
-    "operator": "Iberdrola",
-    "operator:wikidata": "Q1437502",
-    "parking:fee": "no",
-    "phone": "+351 800 607 717",
-    "ref": "PRT-00069;PRT-00070",
-    "website": "https://www.mobie.pt",
-    "id": "way/1442473511"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -8.6299924,
-          41.1629614
-        ],
-        [
-          -8.6299642,
-          41.1629237
-        ],
-        [
-          -8.6299084,
-          41.1629473
-        ],
-        [
-          -8.6299367,
-          41.1629851
-        ],
-        [
-          -8.6299924,
-          41.1629614
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/1442474173",
   "properties": {
     "access": "yes",
@@ -99221,24 +99167,24 @@
     "coordinates": [
       [
         [
-          -8.8576881,
-          37.9644488
+          -8.8579401,
+          37.9643317
         ],
         [
-          -8.8577785,
-          37.964505
+          -8.8578507,
+          37.9642746
         ],
         [
-          -8.8578663,
-          37.9644171
+          -8.8577614,
+          37.9643616
         ],
         [
-          -8.8577759,
-          37.964361
+          -8.8578509,
+          37.9644186
         ],
         [
-          -8.8576881,
-          37.9644488
+          -8.8579401,
+          37.9643317
         ]
       ]
     ]
@@ -154796,6 +154742,7 @@
     "capacity": "1",
     "charge_point:output": "50 kW",
     "fee": "yes",
+    "fixme": "Verificar se existem mais postos em instalação",
     "man_made": "charge_point",
     "manufacturer": "Efacec",
     "model": "QC45",
@@ -176579,37 +176526,10 @@
   "type": "Feature",
   "id": "node/8419388241",
   "properties": {
-    "access": "yes",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Iberdrola",
-    "brand:wikidata": "Q1437502",
-    "capacity": "1",
-    "disused:man_made": "charge_point",
-    "email": "comercial@iberdrola.pt",
-    "fee": "yes",
-    "indoor": "yes",
-    "location": "underground",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "09:00-21:30",
-    "operator": "Iberdrola",
-    "operator:wikidata": "Q1437502",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 607 717",
-    "ref": "PRT-00069",
-    "ref:EU:EVSE": "PT*IBD*E*PRT*00069*1",
-    "socket:type2": "1",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt",
+    "old_operator": "Iberdrola",
+    "old_ref": "PRT-00069",
+    "old_ref:EU:EVSE": "PT*IBD*E*PRT*00069*1",
+    "removed:man_made": "charge_point",
     "id": "node/8419388241"
   },
   "geometry": {
@@ -321614,6 +321534,7 @@
     "brand:wikidata": "Q2995683",
     "capacity": "2",
     "fee": "yes",
+    "fixme": "Verificar se existem mais postos em instalação",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "Continente Bom Dia Ferreira do Alentejo",
@@ -372492,6 +372413,7 @@
     "capacity": "2",
     "charge_point:output": "120 kW",
     "fee": "yes",
+    "fixme": "Verificar se existem mais postos em instalação",
     "indoor": "yes",
     "layer": "-1",
     "level": "-1",
@@ -403308,6 +403230,7 @@
     "capacity": "2",
     "charge_point:output": "50 kW",
     "fee": "yes",
+    "fixme": "Verificar se existem mais postos em instalação",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -407834,8 +407757,8 @@
     "phone": "+351 210 19 19 19",
     "socket:type2_cable": "2",
     "socket:type2_cable:current": "32",
-    "socket:type2_cable:output": "7.4 kW",
-    "socket:type2_cable:voltage": "230",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
     "website": "https://plugcharge.continente.pt/",
     "id": "node/12697580393"
   },
@@ -431638,6 +431561,7 @@
     "brand:wikidata": "Q2995683",
     "capacity": "2",
     "fee": "yes",
+    "fixme": "Verificar se existem mais postos em instalação",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -431717,6 +431641,7 @@
     "brand:wikidata": "Q2995683",
     "capacity": "2",
     "fee": "yes",
+    "fixme": "Verificar se existem mais postos em instalação",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -443526,6 +443451,7 @@
     "brand:wikidata": "Q2995683",
     "capacity": "2",
     "fee": "yes",
+    "fixme": "Verificar se existem mais postos em instalação",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "Continente Bom Dia Oliveira de Frades",
@@ -455645,6 +455571,7 @@
     "brand:wikidata": "Q2995683",
     "capacity": "2",
     "fee": "yes",
+    "fixme": "Verificar se existem mais postos em instalação",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -479686,7 +479613,7 @@
     "payment:membership_card": "no",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "150",
-    "socket:type2_combo:output": "25 kW",
+    "socket:type2_combo:output": "50 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://plugcharge.continente.pt/",
     "id": "node/13191492558"
@@ -485931,37 +485858,10 @@
   "type": "Feature",
   "id": "node/13235452387",
   "properties": {
-    "access": "yes",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Iberdrola",
-    "brand:wikidata": "Q1437502",
-    "capacity": "1",
-    "disused:man_made": "charge_point",
-    "email": "comercial@iberdrola.pt",
-    "fee": "yes",
-    "indoor": "yes",
-    "location": "underground",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "09:00-21:30",
-    "operator": "Iberdrola",
-    "operator:wikidata": "Q1437502",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 607 717",
-    "ref": "PRT-00070",
-    "ref:EU:EVSE": "PT*IBD*E*PRT*00070*1",
-    "socket:type2": "1",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt",
+    "old_operator": "Iberdrola",
+    "old_ref": "PRT-00070",
+    "old_ref:EU:EVSE": "PT*IBD*E*PRT*00070*1",
+    "removed:man_made": "charge_point",
     "id": "node/13235452387"
   },
   "geometry": {
@@ -493192,6 +493092,7 @@
     "brand:wikidata": "Q2995683",
     "capacity": "2",
     "fee": "yes",
+    "fixme": "Verificar se existem mais postos em instalação",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "Continente Bom Dia Delães",
@@ -507749,6 +507650,7 @@
     "capacity": "2",
     "charge_point:output": "120 kW",
     "fee": "yes",
+    "fixme": "Verificar se existem mais postos em instalação",
     "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
@@ -573784,11 +573686,11 @@
     "brand:wikidata": "Q2995683",
     "capacity": "2",
     "charge_point:output": "120 kW",
-    "construction:man_made": "charge_point",
     "fee": "yes",
-    "fixme": "Verificar o modelo exacto na chapa de características",
+    "man_made": "charge_point",
     "manufacturer": "iskraemeco",
     "maxstay": "unlimited",
+    "model": "iFC160",
     "motorcar": "yes",
     "name": "Continente Bom Dia Vialonga",
     "network": "Continente Plug&Charge",
@@ -573830,8 +573732,8 @@
     "brand:wikidata": "Q2995683",
     "capacity": "2",
     "charge_point:output": "50 kW",
-    "construction:man_made": "charge_point",
     "fee": "yes",
+    "man_made": "charge_point",
     "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
     "model": "HYC_50",
@@ -575844,9 +575746,11 @@
     "brand": "Continente Plug&Charge",
     "brand:wikidata": "Q2995683",
     "capacity": "2",
-    "charge_point:output": "50 kW",
+    "charge_point:output": "120 kW",
     "construction:man_made": "charge_point",
     "fee": "yes",
+    "manufacturer": "iskraemeco",
+    "model": "iFC160",
     "motorcar": "yes",
     "name": "Continente Modelo Sines",
     "network": "Continente Plug&Charge",
@@ -575860,8 +575764,8 @@
     "payment:membership_card": "no",
     "phone": "+351 210 19 19 19",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "150",
-    "socket:type2_combo:output": "50 kW",
+    "socket:type2_combo:current": "350",
+    "socket:type2_combo:output": "120 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://plugcharge.continente.pt/",
     "id": "node/14066265618"
@@ -575869,8 +575773,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.8577362,
-      37.9644739
+      -8.8578925,
+      37.9643061
     ]
   }
 },
@@ -575890,6 +575794,8 @@
     "charge_point:output": "50 kW",
     "construction:man_made": "charge_point",
     "fee": "yes",
+    "manufacturer": "Alpitronic",
+    "model": "HYC_50",
     "motorcar": "yes",
     "name": "Continente Modelo Sines",
     "network": "Continente Plug&Charge",
@@ -575912,8 +575818,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.8577937,
-      37.9644159
+      -8.8578337,
+      37.9643564
     ]
   }
 },
@@ -575933,6 +575839,8 @@
     "charge_point:output": "50 kW",
     "construction:man_made": "charge_point",
     "fee": "yes",
+    "manufacturer": "Alpitronic",
+    "model": "HYC_50",
     "motorcar": "yes",
     "name": "Continente Modelo Sines",
     "network": "Continente Plug&Charge",
@@ -575955,8 +575863,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.8577626,
-      37.9644474
+      -8.8578415,
+      37.9643604
     ]
   }
 },
