@@ -18943,6 +18943,46 @@
 },
 {
   "type": "Feature",
+  "id": "node/13072642933",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "charge_point:output": "400 kW",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "OER-00289",
+    "ref:EU:EVSE": "PT*FCT*E*OER*00289*01;PT*FCT*E*OER*00289*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "600",
+    "socket:type2_combo:output": "400 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13072642933"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.3084965,
+      38.7020214
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13072762920",
   "properties": {
     "access": "yes",
@@ -27752,6 +27792,8 @@
     "model": "HYC_200",
     "motorcar": "yes",
     "network": "Mobi.E",
+    "old_ref": "CBC-00019",
+    "old_ref:EU:EVSE": "PT*MOT*E*CBC*00019*01;PT*MOT*E*CBC*00019*02",
     "opening_hours": "24/7",
     "operator": "Mota Engil II",
     "operator:wikidata": "Q1949595",
@@ -27761,10 +27803,10 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 020 940",
-    "ref": "CBC-00019",
-    "ref:EU:EVSE": "PT*MOT*E*CBC*00019*01;PT*MOT*E*CBC*00019*02",
+    "ref": "CBC-00021",
+    "ref:EU:EVSE": "PT*MOT*E*CBC*00021*01;PT*MOT*E*CBC*00021*02",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "400",
+    "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "180 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt/",
@@ -33585,6 +33627,54 @@
 },
 {
   "type": "Feature",
+  "id": "node/13822293820",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "e-flow",
+    "capacity": "2",
+    "charging_station:output": "82 kW",
+    "email": "geral@dte.pt",
+    "fee": "yes",
+    "manufacturer": "Vega",
+    "maxstay": "unlimited",
+    "model": "ALOHA Lander 60",
+    "motorcar": "yes",
+    "name": "AGD-00021",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "DTE",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "AGD-00021",
+    "ref:EU:EVSE": "PT*DTE*E*AGD*00021*01;PT*DTE*E*AGD*00021*02;PT*DTE*E*AGD*00021*03",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "60 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt",
+    "id": "node/13822293820"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4539761,
+      40.5130503
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13839333786",
   "properties": {
     "access": "yes",
@@ -33624,6 +33714,50 @@
     "coordinates": [
       -8.2919774,
       41.265396
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13839354977",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "helexia",
+    "capacity": "2",
+    "charging_station:output": "160 kW",
+    "email": "geral.pt@helexia.eu",
+    "fee": "yes",
+    "manufacturer": "iskraemeco",
+    "maxstay": "unlimited",
+    "model": "iFC160-350A",
+    "motorcar": "yes",
+    "name": "TND-00023",
+    "network": "Mobi.E",
+    "opening_hours": "Mo-Sa 09:00-19:00",
+    "operator": "Helexia II",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 210 181 157",
+    "ref": "TND-00023",
+    "ref:EU:EVSE": "PT*HLX*E*TND*00023*01;PT*HLX*E*TND*00023*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "350",
+    "socket:type2_combo:output": "100 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13839354977"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.0555062,
+      40.5311557
     ]
   }
 },
