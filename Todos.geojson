@@ -86543,24 +86543,24 @@
     "coordinates": [
       [
         [
-          -7.7118374,
-          41.2792011
+          -7.7118183,
+          41.2792253
         ],
         [
-          -7.7118463,
-          41.2791514
+          -7.7118272,
+          41.2791756
         ],
         [
-          -7.7117607,
-          41.2791427
+          -7.7117416,
+          41.2791669
         ],
         [
-          -7.7117518,
-          41.2791924
+          -7.7117327,
+          41.2792166
         ],
         [
-          -7.7118374,
-          41.2792011
+          -7.7118183,
+          41.2792253
         ]
       ]
     ]
@@ -326270,8 +326270,8 @@
     "brand": "Powerdot",
     "capacity": "1",
     "charge_point:output": "300 kW",
-    "disused:man_made": "charge_point",
     "fee": "yes",
+    "man_made": "charge_point",
     "manufacturer": "Kempower",
     "maxstay": "unlimited",
     "model": "Satellite",
@@ -361754,8 +361754,8 @@
     "brand": "Powerdot",
     "capacity": "1",
     "charge_point:output": "300 kW",
-    "disused:man_made": "charge_point",
     "fee": "yes",
+    "man_made": "charge_point",
     "manufacturer": "Kempower",
     "maxstay": "unlimited",
     "model": "Satellite",
@@ -361799,8 +361799,8 @@
     "brand": "Powerdot",
     "capacity": "1",
     "charge_point:output": "300 kW",
-    "disused:man_made": "charge_point",
     "fee": "yes",
+    "man_made": "charge_point",
     "manufacturer": "Kempower",
     "maxstay": "unlimited",
     "model": "Satellite",
@@ -412189,8 +412189,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.7118039,
-      41.2791508
+      -7.7117848,
+      41.279175
     ]
   }
 },
@@ -412209,8 +412209,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.7118316,
-      41.2791531
+      -7.7118125,
+      41.2791773
     ]
   }
 },
@@ -412229,8 +412229,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.7117751,
-      41.2791483
+      -7.711756,
+      41.2791725
     ]
   }
 },
@@ -508118,9 +508118,9 @@
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
     "capacity": "1",
-    "construction:man_made": "charge_point",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
+    "man_made": "charge_point",
     "manufacturer": "Kempower",
     "maxstay": "unlimited",
     "model": "Satellite",
@@ -508166,9 +508166,9 @@
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
     "capacity": "2",
-    "construction:man_made": "charge_point",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
+    "man_made": "charge_point",
     "manufacturer": "Kempower",
     "maxstay": "unlimited",
     "model": "Satellite",
@@ -522802,6 +522802,7 @@
     "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
+    "bicycle": "no",
     "brand": "wowplug",
     "capacity": "2",
     "email": "suporte@wowplug.com",
@@ -590208,6 +590209,45 @@
     "coordinates": [
       -8.6877141,
       41.2089055
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14197444533",
+  "properties": {
+    "access": "customers",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Galp electric",
+    "capacity": "2",
+    "construction:amenity": "charging_station",
+    "fee": "yes",
+    "fixme": "Verificar se o aceso é público ou só para clientes e quais as características do posto",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "VRS-?????",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Electric",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "VRS-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "125",
+    "socket:type2_combo:output": "60 kW",
+    "socket:type2_combo:voltage": "1000",
+    "id": "node/14197444533"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.4442008,
+      37.1884469
     ]
   }
 }

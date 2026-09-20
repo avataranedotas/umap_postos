@@ -52336,8 +52336,8 @@
           "brand": "Powerdot",
           "capacity": "1",
           "charge_point:output": "300 kW",
-          "disused:man_made": "charge_point",
           "fee": "yes",
+          "man_made": "charge_point",
           "manufacturer": "Kempower",
           "maxstay": "unlimited",
           "model": "Satellite",
@@ -52377,8 +52377,8 @@
           "brand": "Powerdot",
           "capacity": "1",
           "charge_point:output": "300 kW",
-          "disused:man_made": "charge_point",
           "fee": "yes",
+          "man_made": "charge_point",
           "manufacturer": "Kempower",
           "maxstay": "unlimited",
           "model": "Satellite",
@@ -52418,8 +52418,8 @@
           "brand": "Powerdot",
           "capacity": "1",
           "charge_point:output": "300 kW",
-          "disused:man_made": "charge_point",
           "fee": "yes",
+          "man_made": "charge_point",
           "manufacturer": "Kempower",
           "maxstay": "unlimited",
           "model": "Satellite",
@@ -188098,9 +188098,9 @@
           "brand": "Powerdot",
           "brand:wikidata": "Q123574541",
           "capacity": "1",
-          "construction:man_made": "charge_point",
           "email": "ajuda@powerdot.pt",
           "fee": "yes",
+          "man_made": "charge_point",
           "manufacturer": "Kempower",
           "maxstay": "unlimited",
           "model": "Satellite",
@@ -188142,9 +188142,9 @@
           "brand": "Powerdot",
           "brand:wikidata": "Q123574541",
           "capacity": "2",
-          "construction:man_made": "charge_point",
           "email": "ajuda@powerdot.pt",
           "fee": "yes",
+          "man_made": "charge_point",
           "manufacturer": "Kempower",
           "maxstay": "unlimited",
           "model": "Satellite",
@@ -242320,8 +242320,8 @@
       "id": "way/1495869151"
     },
     "centroid": [
-      41.2791719,
-      -7.711799050000001
+      41.2791961,
+      -7.7117799499999995
     ],
     "points": [
       {
@@ -242336,8 +242336,8 @@
           "id": "node/12716642585"
         },
         "coordinates": [
-          41.2791508,
-          -7.7118039
+          41.279175,
+          -7.7117848
         ]
       },
       {
@@ -242352,8 +242352,8 @@
           "id": "node/12716642586"
         },
         "coordinates": [
-          41.2791531,
-          -7.7118316
+          41.2791773,
+          -7.7118125
         ]
       },
       {
@@ -242368,8 +242368,8 @@
           "id": "node/12716642587"
         },
         "coordinates": [
-          41.2791483,
-          -7.7117751
+          41.2791725,
+          -7.711756
         ]
       }
     ]
@@ -474482,6 +474482,7 @@
         "amenity": "charging_station",
         "authentication:membership_card": "yes",
         "authentication:none": "no",
+        "bicycle": "no",
         "brand": "wowplug",
         "capacity": "2",
         "email": "suporte@wowplug.com",
@@ -495654,6 +495655,41 @@
       "coordinates": [
         38.4642982,
         -9.0975038
+      ]
+    },
+    {
+      "id": "node/14197444533",
+      "properties": {
+        "access": "customers",
+        "authentication:app": "yes",
+        "authentication:membership_card": "yes",
+        "authentication:none": "no",
+        "brand": "Galp electric",
+        "capacity": "2",
+        "construction:amenity": "charging_station",
+        "fee": "yes",
+        "fixme": "Verificar se o aceso é público ou só para clientes e quais as características do posto",
+        "maxstay": "unlimited",
+        "motorcar": "yes",
+        "name": "VRS-?????",
+        "network": "Mobi.E",
+        "opening_hours": "24/7",
+        "operator": "Galp Electric",
+        "parking:fee": "no",
+        "payment:app": "yes",
+        "payment:cards": "no",
+        "payment:cash": "no",
+        "payment:membership_card": "yes",
+        "ref": "VRS-?????",
+        "socket:type2_combo": "2",
+        "socket:type2_combo:current": "125",
+        "socket:type2_combo:output": "60 kW",
+        "socket:type2_combo:voltage": "1000",
+        "id": "node/14197444533"
+      },
+      "coordinates": [
+        37.1884469,
+        -7.4442008
       ]
     }
   ]
