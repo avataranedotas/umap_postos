@@ -91485,6 +91485,7 @@
     "opening_hours": "24/7",
     "operator": "High Green Power",
     "parking:fee": "no",
+    "ref": "FAR-HOTEL-OCCIDENTAL-FARO",
     "website": "https://www.highgreenpower.pt/",
     "id": "way/1523101483"
   },
@@ -103095,6 +103096,99 @@
         [
           -7.7363203,
           40.7447588
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1561663063",
+  "properties": {
+    "access": "customers",
+    "amenity": "charging_station",
+    "capacity": "3",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Hotel Dona Filipa",
+    "network": "High Green Power",
+    "opening_hours": "24/7",
+    "operator": "High Green Power",
+    "parking:fee": "yes",
+    "website": "https://www.highgreenpower.pt/",
+    "id": "way/1561663063"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -8.063973,
+          37.0503519
+        ],
+        [
+          -8.0639445,
+          37.0503015
+        ],
+        [
+          -8.0638666,
+          37.0503296
+        ],
+        [
+          -8.0638951,
+          37.0503801
+        ],
+        [
+          -8.063973,
+          37.0503519
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1561697252",
+  "properties": {
+    "access": "customers",
+    "amenity": "charging_station",
+    "brand": "High Green Power",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Hotel Casal Silva",
+    "network": "High Green Power",
+    "opening_hours": "24/7",
+    "operator": "High Green Power",
+    "parking:fee": "no",
+    "website": "https://www.highgreenpower.pt/",
+    "id": "way/1561697252"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -8.2195599,
+          41.0972359
+        ],
+        [
+          -8.219628,
+          41.0972496
+        ],
+        [
+          -8.2196445,
+          41.0972034
+        ],
+        [
+          -8.2195764,
+          41.0971896
+        ],
+        [
+          -8.2195599,
+          41.0972359
         ]
       ]
     ]
@@ -455723,7 +455817,6 @@
     "capacity": "2",
     "charge_point:output": "100 kW",
     "fee": "yes",
-    "fixme": "Verificar se aceita pagamento com cartão bancário",
     "man_made": "charge_point",
     "manufacturer": "i-charging",
     "maxstay": "unlimited",
@@ -455767,7 +455860,6 @@
     "capacity": "2",
     "charge_point:output": "100 kW",
     "fee": "yes",
-    "fixme": "Verificar se aceita pagamento com cartão bancário",
     "man_made": "charge_point",
     "manufacturer": "i-charging",
     "maxstay": "unlimited",
@@ -551620,10 +551712,11 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "Charger 1",
+    "ref": "FAR-HOTEL-OCCIDENTAL-FARO-C01",
+    "ref:EU:EVSE": "PT*HGP*E202",
     "socket:type2_cable": "1",
-    "socket:type2_cable:current": "16",
-    "socket:type2_cable:output": "11 kW",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
     "socket:type2_cable:voltage": "400",
     "website": "https://www.highgreenpower.pt/",
     "id": "node/13885824285"
@@ -551660,10 +551753,11 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "Charger 3",
+    "ref": "FAR-HOTEL-OCCIDENTAL-FARO-C03",
+    "ref:EU:EVSE": "PT*HGP*E204",
     "socket:type2_cable": "1",
-    "socket:type2_cable:current": "16",
-    "socket:type2_cable:output": "11 kW",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
     "socket:type2_cable:voltage": "400",
     "website": "https://www.highgreenpower.pt/",
     "id": "node/13885824286"
@@ -551700,10 +551794,11 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "Charger 2",
+    "ref": "FAR-HOTEL-OCCIDENTAL-FARO-C02",
+    "ref:EU:EVSE": "PT*HGP*E203",
     "socket:type2_cable": "1",
-    "socket:type2_cable:current": "16",
-    "socket:type2_cable:output": "11 kW",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
     "socket:type2_cable:voltage": "400",
     "website": "https://www.highgreenpower.pt/",
     "id": "node/13885824289"
@@ -559975,7 +560070,8 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "Charger 1",
+    "ref": "LRA-HOTEL-EUROSOL-C01",
+    "ref:EU:EVSE": "PT*HGP*E254",
     "socket:type2_cable": "1",
     "socket:type2_cable:current": "32",
     "socket:type2_cable:output": "22 kW",
@@ -560015,7 +560111,8 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "Charger 2",
+    "ref": "LRA-HOTEL-EUROSOL-C02",
+    "ref:EU:EVSE": "PT*HGP*E255",
     "socket:type2": "1",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
@@ -568272,6 +568369,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 917 576",
     "ref": "FAR-00106",
+    "ref:EU:EVSE": "PT*FCT*E330*1;PT*FCT*E330*2",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "600",
     "socket:type2_combo:output": "400 kW",
@@ -576559,6 +576657,7 @@
     "construction:amenity": "charging_station",
     "email": "support.portugal@atlante.energy",
     "fee": "yes",
+    "fixme": "Verificar se aceita pagamento com cartão bancário",
     "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
     "model": "HYC_200",
@@ -590877,6 +590976,201 @@
     "coordinates": [
       -7.7362809,
       40.7447153
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14208946936",
+  "properties": {
+    "access": "customers",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "High Green Power",
+    "capacity": "1",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "High Green Power",
+    "opening_hours": "24/7",
+    "operator": "High Green Power",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "LLE-HOTEL-DONA-FILIPA-C02",
+    "ref:EU:EVSE": "PT*HGP*E258",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://www.highgreenpower.pt/",
+    "id": "node/14208946936"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.0639085,
+      37.0503198
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14208946939",
+  "properties": {
+    "access": "customers",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "High Green Power",
+    "capacity": "1",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "High Green Power",
+    "opening_hours": "24/7",
+    "operator": "High Green Power",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "LLE-HOTEL-DONA-FILIPA-C01",
+    "ref:EU:EVSE": "PT*HGP*E257",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://www.highgreenpower.pt/",
+    "id": "node/14208946939"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.063882,
+      37.0503297
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14209216269",
+  "properties": {
+    "access": "customers",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "High Green Power",
+    "capacity": "1",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "High Green Power",
+    "opening_hours": "24/7",
+    "operator": "High Green Power",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "LLE-HOTEL-DONA-FILIPA-C03",
+    "ref:EU:EVSE": "PT*HGP*E259",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://www.highgreenpower.pt/",
+    "id": "node/14209216269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.0639343,
+      37.0503107
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14209231493",
+  "properties": {
+    "access": "customers",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "High Green Power",
+    "capacity": "1",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "High Green Power",
+    "opening_hours": "24/7",
+    "operator": "High Green Power",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "MCN-HOTEL-CASAL_SILVA-C02",
+    "ref:EU:EVSE": "PT*HGP*E190",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "16",
+    "socket:type2_cable:output": "11 kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://www.highgreenpower.pt/",
+    "id": "node/14209231493"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.2196333,
+      41.0972281
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14209231494",
+  "properties": {
+    "access": "customers",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "High Green Power",
+    "capacity": "1",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "High Green Power",
+    "opening_hours": "24/7",
+    "operator": "High Green Power",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "MCN-HOTEL-CASAL_SILVA-C01",
+    "ref:EU:EVSE": "PT*HGP*E189",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "16",
+    "socket:type2_cable:output": "11 kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://www.highgreenpower.pt/",
+    "id": "node/14209231494"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.219635,
+      41.0972234
     ]
   }
 }
