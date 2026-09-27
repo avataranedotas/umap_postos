@@ -103379,6 +103379,60 @@
 },
 {
   "type": "Feature",
+  "id": "way/1562702707",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Felgueiras",
+    "addr:postcode": "4610-211",
+    "addr:street": "Rua Professor Joaquim Barros Leite",
+    "amenity": "charging_station",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "6",
+    "fee": "yes",
+    "location": "underground",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Continente Modelo Felgueiras",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "08:00-22:00",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "no",
+    "phone": "+351 210 19 19 19",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "way/1562702707"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -8.197439,
+          41.36189
+        ],
+        [
+          -8.1975101,
+          41.3618221
+        ],
+        [
+          -8.1974309,
+          41.3617755
+        ],
+        [
+          -8.1973598,
+          41.3618434
+        ],
+        [
+          -8.197439,
+          41.36189
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/966120777",
   "properties": {
     "access": "yes",
@@ -559057,6 +559111,7 @@
     "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
+    "bicycle": "no",
     "brand": "wowplug",
     "brand:wikidata": "Q137294207",
     "capacity": "2",
@@ -591934,6 +591989,148 @@
     "coordinates": [
       -8.491653,
       41.1978746
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14221666591",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Felgueiras",
+    "addr:postcode": "4610-211",
+    "addr:street": "Rua Professor Joaquim Barros Leite",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "2",
+    "charge_point:output": "240 kW",
+    "construction:man_made": "charge_point",
+    "fee": "yes",
+    "location": "underground",
+    "manufacturer": "iskraemeco",
+    "maxstay": "unlimited",
+    "model": "iFC240",
+    "motorcar": "yes",
+    "name": "Continente Modelo Felgueiras",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "08:00-22:00",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "phone": "+351 210 19 19 19",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "400",
+    "socket:type2_combo:output": "240 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/14221666591"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.1974066,
+      41.3618166
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14221666592",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Felgueiras",
+    "addr:postcode": "4610-211",
+    "addr:street": "Rua Professor Joaquim Barros Leite",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "2",
+    "charge_point:output": "50 kW",
+    "construction:man_made": "charge_point",
+    "fee": "yes",
+    "location": "underground",
+    "manufacturer": "Alpitronic",
+    "maxstay": "unlimited",
+    "model": "HYC_50",
+    "motorcar": "yes",
+    "name": "Continente Modelo Felgueiras",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "08:00-22:00",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "phone": "+351 210 19 19 19",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "50 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/14221666592"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.1974515,
+      41.3618367
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14221666593",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Felgueiras",
+    "addr:postcode": "4610-211",
+    "addr:street": "Rua Professor Joaquim Barros Leite",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "2",
+    "charge_point:output": "120 kW",
+    "construction:man_made": "charge_point",
+    "fee": "yes",
+    "fixme": "Confirmar se o modelo do carregador é iFC120 ou iFC160",
+    "location": "underground",
+    "manufacturer": "iskraemeco",
+    "maxstay": "unlimited",
+    "model": "iFC120",
+    "motorcar": "yes",
+    "name": "Continente Modelo Felgueiras",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "08:00-22:00",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "phone": "+351 210 19 19 19",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "240",
+    "socket:type2_combo:output": "120 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/14221666593"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.1974446,
+      41.3618438
     ]
   }
 }
