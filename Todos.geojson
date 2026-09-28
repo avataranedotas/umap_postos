@@ -51868,6 +51868,10 @@
           37.8845359
         ],
         [
+          -8.0380887,
+          37.8845202
+        ],
+        [
           -8.0380633,
           37.8845044
         ],
@@ -75269,6 +75273,7 @@
   "properties": {
     "access": "yes",
     "amenity": "charging_station",
+    "bicycle": "no",
     "capacity": "6",
     "email": "ev_portugal@maksu.com",
     "fee": "yes",
@@ -274053,7 +274058,9 @@
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
     "man_made": "charge_point",
+    "manufacturer": "Kempower",
     "maxstay": "unlimited",
+    "model": "Satellite",
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
@@ -274070,7 +274077,7 @@
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "300",
     "socket:type2_combo:output": "200 kW",
-    "socket:type2_combo:voltage": "500",
+    "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt",
     "id": "node/11275817600"
   },
@@ -292605,6 +292612,7 @@
     "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
+    "bicycle": "no",
     "brand": "edp Charge",
     "brand:wikidata": "Q1341222",
     "capacity": "2",
@@ -300356,7 +300364,6 @@
     "capacity": "2",
     "charging_station:output": "120 kW",
     "fee": "yes",
-    "fixme": "Verificar se está operacional",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "VRL-00032",
@@ -381627,6 +381634,7 @@
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
+    "bicycle": "no",
     "brand": "wowplug",
     "brand:wikidata": "Q137294207",
     "capacity": "2",
@@ -450135,7 +450143,9 @@
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
     "man_made": "charge_point",
+    "manufacturer": "Kempower",
     "maxstay": "unlimited",
+    "model": "Satellite",
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
@@ -450156,7 +450166,7 @@
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "200",
     "socket:type2_combo:output": "160 kW",
-    "socket:type2_combo:voltage": "500",
+    "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt",
     "id": "node/13028490999"
   },
@@ -492898,11 +492908,11 @@
   "id": "node/13268959069",
   "properties": {
     "access": "yes",
+    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "uCharge",
     "capacity": "2",
-    "disused:amenity": "charging_station",
     "email": "geral@ucharge.pt",
     "fee": "yes",
     "fixme": "Verificar o modelo de carregador na chapa de características",
@@ -534258,7 +534268,7 @@
     "maxstay": "unlimited",
     "model": "eDOT",
     "motorcar": "yes",
-    "name": "LSB-?????",
+    "name": "LSB-01383",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "True Kare",
@@ -534267,12 +534277,12 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "LSB-?????",
+    "ref": "LSB-01383",
+    "ref:EU:EVSE": "PT*TRK*E*LSB*01383*01;PT*TRK*E*LSB*01383*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
     "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt/",
     "id": "node/13668736499"
   },
   "geometry": {
@@ -590449,13 +590459,13 @@
   "id": "node/14204623148",
   "properties": {
     "access": "yes",
+    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "e-flow",
     "capacity": "2",
-    "charging_station:output": "97 kW",
-    "construction:amenity": "charging_station",
+    "charging_station:output": "82 kW",
     "email": "geral@dte.pt",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -590481,7 +590491,7 @@
     "socket:type2_cable:voltage": "400",
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "150",
-    "socket:type2_combo:output": "75 kW",
+    "socket:type2_combo:output": "60 kW",
     "socket:type2_combo:voltage": "1000",
     "id": "node/14204623148"
   },
@@ -592131,6 +592141,179 @@
     "coordinates": [
       -8.1974446,
       41.3618438
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14228392598",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Galp electric",
+    "brand:wikidata": "Q135275372",
+    "capacity": "2",
+    "charging_station:output": "90 kW",
+    "construction:amenity": "charging_station",
+    "email": "veiculoeletrico@galp.com",
+    "fee": "yes",
+    "fixme": "Mover para as coordenadas exactas",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "VZL-00007",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "operator:wikidata": "Q135275372",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 249 249",
+    "ref": "VZL-00007",
+    "ref:EU:EVSE": "PT*GLP*EVZL*00007*01;PT*GLP*EVZL*00007*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "300",
+    "socket:type2_combo:output": "90 kW",
+    "socket:type2_combo:voltage": "1000",
+    "id": "node/14228392598"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.2313808,
+      40.6860475
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14228520828",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "brand:wikidata": "Q137294207",
+    "capacity": "2",
+    "construction:amenity": "charging_station",
+    "email": "suporte@wowplug.com",
+    "fee": "yes",
+    "manufacturer": "wowplug",
+    "maxstay": "unlimited",
+    "model": "eDOT",
+    "motorcar": "yes",
+    "name": "CSC-00502",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "CSC-00502",
+    "ref:EU:EVSE": "PT*TRK*E*CSC*00502*01;PT*TRK*E*CSC*00502*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "id": "node/14228520828"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.4045112,
+      38.7106267
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14228558014",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "brand:wikidata": "Q137294207",
+    "capacity": "2",
+    "construction:amenity": "charging_station",
+    "email": "suporte@wowplug.com",
+    "fee": "yes",
+    "manufacturer": "wowplug",
+    "maxstay": "unlimited",
+    "model": "eDOT",
+    "motorcar": "yes",
+    "name": "LSB-01414",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "LSB-01414",
+    "ref:EU:EVSE": "PT*TRK*E*LSB*01414*01;PT*TRK*E*LSB*01414*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "id": "node/14228558014"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1065806,
+      38.7613763
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14228622783",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "brand:wikidata": "Q137294207",
+    "capacity": "2",
+    "construction:amenity": "charging_station",
+    "email": "suporte@wowplug.com",
+    "fee": "yes",
+    "manufacturer": "wowplug",
+    "maxstay": "unlimited",
+    "model": "eDOT",
+    "motorcar": "yes",
+    "name": "LSB-01419",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "LSB-01419",
+    "ref:EU:EVSE": "PT*TRK*E*LSB*01419*01;PT*TRK*E*LSB*01419*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "id": "node/14228622783"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.111284,
+      38.7749284
     ]
   }
 }
