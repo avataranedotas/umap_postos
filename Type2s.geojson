@@ -9919,6 +9919,7 @@
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
+    "bicycle": "no",
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
     "capacity": "2",
@@ -15199,6 +15200,51 @@
     "coordinates": [
       -7.7525376,
       40.6004436
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8112609047",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "2",
+    "fee": "yes",
+    "manufacturer": "Efacec",
+    "maxstay": "unlimited",
+    "model": "Public Charger G2",
+    "motorcar": "yes",
+    "name": "AGD-90001",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "AGD-90001",
+    "ref:EU:EVSE": "PT*EDP*E*AGD*90001*01;PT*EDP*E*AGD*90001*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/8112609047"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.444938,
+      40.57724
     ]
   }
 },
@@ -37626,6 +37672,7 @@
     "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
+    "bicycle": "no",
     "brand": "edp Charge",
     "brand:wikidata": "Q1341222",
     "capacity": "2",
@@ -55466,7 +55513,6 @@
   "id": "node/10773710819",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -55474,9 +55520,9 @@
     "brand:wikidata": "Q1341222",
     "capacity": "2",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "MAI-00054",
     "network": "Mobi.E",
     "old_operator": "KLC Serviços",
     "old_ref": "MAI-00032",
@@ -55501,8 +55547,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6650852,
-      41.2469366
+      -8.6649189,
+      41.2463739
     ]
   }
 },
@@ -88290,10 +88336,9 @@
     "ref": "EVR-00055",
     "ref:EU:EVSE": "PT*FCT*E*EVR*00055*01;PT*FCT*E*EVR*00055*02",
     "socket:type2_cable": "2",
-    "socket:type2_cable:current": "32",
-    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:current": "16",
+    "socket:type2_cable:output": "11 kW",
     "socket:type2_cable:voltage": "400",
-    "website": "https://www.mobie.pt/",
     "id": "node/12437743801"
   },
   "geometry": {
@@ -185817,6 +185862,7 @@
     "capacity": "2",
     "email": "suporte@wowplug.com",
     "fee": "yes",
+    "fixme": "Verificar se aceita activação do posto por QR Code",
     "manufacturer": "wowplug",
     "maxstay": "unlimited",
     "model": "eDOT",

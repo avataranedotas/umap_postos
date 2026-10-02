@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-10-01T18:43:34Z",
-    "timestamp_areas_base": "2026-09-30T19:06:41Z",
+    "timestamp_osm_base": "2026-10-02T06:27:35Z",
+    "timestamp_areas_base": "2026-10-01T13:42:51Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -13585,6 +13585,7 @@
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
+    "bicycle": "no",
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
     "capacity": "2",
@@ -23832,13 +23833,13 @@
   "lon": -8.4449380,
   "tags": {
     "access": "yes",
+    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "edp Charge",
     "brand:wikidata": "Q1341222",
     "capacity": "2",
-    "disused:amenity": "charging_station",
     "fee": "yes",
     "manufacturer": "Efacec",
     "maxstay": "unlimited",
@@ -67802,6 +67803,7 @@
     "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
+    "bicycle": "no",
     "brand": "edp Charge",
     "brand:wikidata": "Q1341222",
     "capacity": "2",
@@ -126124,11 +126126,10 @@
 {
   "type": "node",
   "id": 10773710819,
-  "lat": 41.2469366,
-  "lon": -8.6650852,
+  "lat": 41.2463739,
+  "lon": -8.6649189,
   "tags": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -126136,9 +126137,9 @@
     "brand:wikidata": "Q1341222",
     "capacity": "2",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "MAI-00054",
     "network": "Mobi.E",
     "old_operator": "KLC Serviços",
     "old_ref": "MAI-00032",
@@ -126402,7 +126403,9 @@
     "capacity": "2",
     "charging_station:output": "120 kW",
     "fee": "yes",
+    "manufacturer": "Starcharge",
     "maxstay": "unlimited",
+    "model": "Titan V2",
     "motorcar": "yes",
     "name": "VCT-00039",
     "network": "Mobi.E",
@@ -126417,11 +126420,7 @@
     "phone": "+351 800 222 222",
     "ref": "VCT-00039",
     "ref:EU:EVSE": "PT*EDP*EVCT*00039*1;PT*EDP*EVCT*00039*2",
-    "socket:chademo": "1",
-    "socket:chademo:current": "120",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_combo": "1",
+    "socket:type2_combo": "2",
     "socket:type2_combo:current": "200",
     "socket:type2_combo:output": "120 kW",
     "socket:type2_combo:voltage": "1000",
@@ -137125,7 +137124,9 @@
     "capacity": "2",
     "charging_station:output": "120 kW",
     "fee": "yes",
+    "manufacturer": "Starcharge",
     "maxstay": "unlimited",
+    "model": "Titan V2",
     "motorcar": "yes",
     "name": "CBR-00079",
     "network": "Mobi.E",
@@ -137140,11 +137141,7 @@
     "phone": "+351 800 222 222",
     "ref": "CBR-00079",
     "ref:EU:EVSE": "PT*EDP*ECBR*00079*1;PT*EDP*ECBR*00079*2",
-    "socket:chademo": "1",
-    "socket:chademo:current": "120",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_combo": "1",
+    "socket:type2_combo": "2",
     "socket:type2_combo:current": "200",
     "socket:type2_combo:output": "120 kW",
     "socket:type2_combo:voltage": "1000",
@@ -142542,11 +142539,7 @@
     "phone": "+351 800 222 222",
     "ref": "GDM-00036",
     "ref:EU:EVSE": "PT*EDP*EGDM*00036*1;PT*EDP*EGDM*00036*2",
-    "socket:chademo": "1",
-    "socket:chademo:current": "125",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_combo": "1",
+    "socket:type2_combo": "2",
     "socket:type2_combo:current": "200",
     "socket:type2_combo:output": "120 kW",
     "socket:type2_combo:voltage": "1000",
@@ -147235,8 +147228,8 @@
     "brand:wikidata": "Q1341222",
     "capacity": "2",
     "charge_point:output": "82 kW",
-    "disused:man_made": "charge_point",
     "fee": "yes",
+    "man_made": "charge_point",
     "manufacturer": "Volt-E",
     "maxstay": "unlimited",
     "model": "ST36STAT",
@@ -162346,11 +162339,7 @@
     "phone": "+351 800 222 222",
     "ref": "ORM-00017",
     "ref:EU:EVSE": "PT*EDP*EORM*00017*1;PT*EDP*EORM*00017*2",
-    "socket:chademo": "1",
-    "socket:chademo:current": "125",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_combo": "1",
+    "socket:type2_combo": "2",
     "socket:type2_combo:current": "300",
     "socket:type2_combo:output": "120 kW",
     "socket:type2_combo:voltage": "1000",
@@ -164281,7 +164270,9 @@
     "capacity": "2",
     "charging_station:output": "120 kW",
     "fee": "yes",
+    "manufacturer": "Starcharge",
     "maxstay": "unlimited",
+    "model": "Titan V3",
     "motorcar": "yes",
     "name": "VRL-00013",
     "network": "Mobi.E",
@@ -164301,7 +164292,7 @@
     "socket:chademo:output": "50 kW",
     "socket:chademo:voltage": "500",
     "socket:type2_combo": "1",
-    "socket:type2_combo:current": "200",
+    "socket:type2_combo:current": "300",
     "socket:type2_combo:output": "120 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt/"
@@ -170953,11 +170944,7 @@
     "phone": "+351 800 222 222",
     "ref": "MAI-00051",
     "ref:EU:EVSE": "PT*EDP*EMAI*00051*1;PT*EDP*EMAI*00051*2",
-    "socket:chademo": "1",
-    "socket:chademo:current": "125",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_combo": "1",
+    "socket:type2_combo": "2",
     "socket:type2_combo:current": "300",
     "socket:type2_combo:output": "120 kW",
     "socket:type2_combo:voltage": "1000",
@@ -181492,6 +181479,7 @@
   "lon": -8.3532835,
   "tags": {
     "access": "yes",
+    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -181499,7 +181487,6 @@
     "brand:wikidata": "Q135275372",
     "capacity": "2",
     "charging_station:output": "120 kW",
-    "disused:amenity": "charging_station",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
     "manufacturer": "Hellonext",
@@ -207552,10 +207539,9 @@
     "ref": "EVR-00055",
     "ref:EU:EVSE": "PT*FCT*E*EVR*00055*01;PT*FCT*E*EVR*00055*02",
     "socket:type2_cable": "2",
-    "socket:type2_cable:current": "32",
-    "socket:type2_cable:output": "22 kW",
-    "socket:type2_cable:voltage": "400",
-    "website": "https://www.mobie.pt/"
+    "socket:type2_cable:current": "16",
+    "socket:type2_cable:output": "11 kW",
+    "socket:type2_cable:voltage": "400"
   }
 },
 {
@@ -278491,6 +278477,7 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "1",
+    "charge_point:output": "300 kW",
     "disused:man_made": "charge_point",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -278506,7 +278493,12 @@
     "payment:cards": "yes",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "ELV-?????"
+    "ref": "ELV-00024",
+    "ref:EU:EVSE": "PT*HRZ*E*ELV*00024*05",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "300 kW",
+    "socket:type2_combo:voltage": "1000"
   }
 },
 {
@@ -278520,6 +278512,7 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "1",
+    "charge_point:output": "300 kW",
     "disused:man_made": "charge_point",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -278535,7 +278528,12 @@
     "payment:cards": "yes",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "ELV-?????"
+    "ref": "ELV-00024",
+    "ref:EU:EVSE": "PT*HRZ*E*ELV*00024*04",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "300 kW",
+    "socket:type2_combo:voltage": "1000"
   }
 },
 {
@@ -278549,6 +278547,7 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "1",
+    "charge_point:output": "300 kW",
     "disused:man_made": "charge_point",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -278564,7 +278563,12 @@
     "payment:cards": "yes",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "ELV-?????"
+    "ref": "ELV-00024",
+    "ref:EU:EVSE": "PT*HRZ*E*ELV*00024*03",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "300 kW",
+    "socket:type2_combo:voltage": "1000"
   }
 },
 {
@@ -278578,6 +278582,7 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "1",
+    "charge_point:output": "300 kW",
     "disused:man_made": "charge_point",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -278593,7 +278598,12 @@
     "payment:cards": "yes",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "ELV-?????"
+    "ref": "ELV-00024",
+    "ref:EU:EVSE": "PT*HRZ*E*ELV*00024*02",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "300 kW",
+    "socket:type2_combo:voltage": "1000"
   }
 },
 {
@@ -278607,6 +278617,7 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "1",
+    "charge_point:output": "300 kW",
     "disused:man_made": "charge_point",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -278622,7 +278633,12 @@
     "payment:cards": "yes",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "ELV-?????"
+    "ref": "ELV-00024",
+    "ref:EU:EVSE": "PT*HRZ*E*ELV*00024*01",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "300 kW",
+    "socket:type2_combo:voltage": "1000"
   }
 },
 {
@@ -306786,6 +306802,7 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "1",
+    "charge_point:output": "150 kW",
     "disused:man_made": "charge_point",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -306801,7 +306818,12 @@
     "payment:cards": "yes",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "MOU-?????"
+    "ref": "MOU-00004",
+    "ref:EU:EVSE": "PT*HRZ*E*MOU*00004*01",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "150 kW",
+    "socket:type2_combo:voltage": "1000"
   }
 },
 {
@@ -306815,6 +306837,7 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "1",
+    "charge_point:output": "150 kW",
     "disused:man_made": "charge_point",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -306830,7 +306853,12 @@
     "payment:cards": "yes",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "ref": "MOU-?????"
+    "ref": "MOU-00004",
+    "ref:EU:EVSE": "PT*HRZ*E*MOU*00004*02",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "150 kW",
+    "socket:type2_combo:voltage": "1000"
   }
 },
 {
@@ -398082,7 +398110,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 917 576",
     "ref": "FAR-00105",
-    "ref:EU:EVSE": "PT*FCT*E333*1;PT*FCT*E333*2",
+    "ref:EU:EVSE": "PT*FCT*E333*1;PT*FCT*E333*2;PT*FCT*E*FAR*00105*01;PT*FCT*E*FAR*00105*02",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "600",
     "socket:type2_combo:output": "400 kW",
@@ -398102,9 +398130,9 @@
     "brand": "Iberdrola bp pulse",
     "capacity": "2",
     "charge_point:output": "400 kW",
-    "construction:man_made": "charge_point",
     "email": "suporte@chargingtogether.pt",
     "fee": "yes",
+    "man_made": "charge_point",
     "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
     "model": "HYC_400",
@@ -398119,7 +398147,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 917 576",
     "ref": "FAR-00104",
-    "ref:EU:EVSE": "PT*FCT*E332*1;PT*FCT*E332*2",
+    "ref:EU:EVSE": "PT*FCT*E332*1;PT*FCT*E332*2;PT*FCT*E*FAR*00104*01;PT*FCT*E*FAR*00104*02",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "600",
     "socket:type2_combo:output": "400 kW",
@@ -398156,7 +398184,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 917 576",
     "ref": "FAR-00103",
-    "ref:EU:EVSE": "PT*FCT*E331*1;PT*FCT*E331*2",
+    "ref:EU:EVSE": "PT*FCT*E331*1;PT*FCT*E331*2;PT*FCT*E*FAR*00103*01;PT*FCT*E*FAR*00103*02",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "600",
     "socket:type2_combo:output": "400 kW",
@@ -400485,7 +400513,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 917 576",
     "ref": "FAR-00106",
-    "ref:EU:EVSE": "PT*FCT*E330*1;PT*FCT*E330*2",
+    "ref:EU:EVSE": "PT*FCT*E330*1;PT*FCT*E330*2;PT*FCT*E*FAR*00106*01;PT*FCT*E*FAR*00106*02",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "600",
     "socket:type2_combo:output": "400 kW",
@@ -410819,9 +410847,9 @@
     "authentication:none": "no",
     "capacity": "2",
     "charge_point:output": "400 kW",
-    "construction:man_made": "charge_point",
     "email": "suporte@chargingtogether.pt",
     "fee": "yes",
+    "man_made": "charge_point",
     "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
     "model": "HYC_400",
@@ -411460,7 +411488,8 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
-    "ref": "AVV-?????",
+    "ref": "AVV-00014",
+    "ref:EU:EVSE": "PT*GLP*EAVV*00014*01;PT*GLP*EAVV*00014*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
@@ -411498,7 +411527,8 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
-    "ref": "AVV-?????",
+    "ref": "AVV-00015",
+    "ref:EU:EVSE": "PT*GLP*EAVV*00015*01;PT*GLP*EAVV*00015*02",
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "200",
     "socket:type2_combo:output": "90 kW",
@@ -412196,6 +412226,7 @@
     "capacity": "2",
     "email": "suporte@wowplug.com",
     "fee": "yes",
+    "fixme": "Verificar se aceita activação do posto por QR Code",
     "manufacturer": "wowplug",
     "maxstay": "unlimited",
     "model": "eDOT",
@@ -416803,12 +416834,12 @@
   "lon": -9.1499848,
   "tags": {
     "access": "yes",
+    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Telpark",
     "brand:wikidata": "Q124151364",
     "capacity": "2",
-    "construction:amenity": "charging_station",
     "fee": "yes",
     "indoor": "yes",
     "location": "underground",
@@ -417264,9 +417295,9 @@
     "brand:wikidata": "Q2995683",
     "capacity": "2",
     "charge_point:output": "160 kW",
-    "construction:man_made": "charge_point",
     "fee": "yes",
     "location": "underground",
+    "man_made": "charge_point",
     "manufacturer": "iskraemeco",
     "maxstay": "unlimited",
     "model": "iFC160",
@@ -417305,9 +417336,9 @@
     "brand:wikidata": "Q2995683",
     "capacity": "2",
     "charge_point:output": "50 kW",
-    "construction:man_made": "charge_point",
     "fee": "yes",
     "location": "underground",
+    "man_made": "charge_point",
     "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
     "model": "HYC_50",
@@ -421417,6 +421448,122 @@
     "socket:type2_combo:current": "250",
     "socket:type2_combo:output": "120 kW",
     "socket:type2_combo:voltage": "1000"
+  }
+},
+{
+  "type": "node",
+  "id": 14241018507,
+  "lat": 41.7115689,
+  "lon": -8.8115111,
+  "tags": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Prio",
+    "brand:wikidata": "Q62530421",
+    "capacity": "2",
+    "charge_point:output": "120 kW",
+    "construction:amenity": "charging_station",
+    "email": "electric@prioenergy.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "VCT-00075",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Prio.E",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 100 303",
+    "ref": "VCT-00075",
+    "ref:EU:EVSE": "PT*PRI*E*VCT*00075*01;PT*PRI*E*VCT*00075*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "300",
+    "socket:type2_combo:output": "120 kW",
+    "socket:type2_combo:voltage": "1000"
+  }
+},
+{
+  "type": "node",
+  "id": 14241026109,
+  "lat": 41.0285527,
+  "lon": -8.5570435,
+  "tags": {
+    "access": "yes",
+    "addr:city": "Vila Nova de Gaia",
+    "addr:postcode": "4415-4258",
+    "addr:street": "Rua de Américo de Oliveira",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "2",
+    "charge_point:output": "50 kW",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "manufacturer": "Alpitronic",
+    "maxstay": "unlimited",
+    "model": "HYC_50",
+    "motorcar": "yes",
+    "name": "Continente Bom Dia Grijó",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "24/7",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "phone": "+351 210 19 19 19",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "50 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://plugcharge.continente.pt/"
+  }
+},
+{
+  "type": "node",
+  "id": 14241026114,
+  "lat": 41.0285257,
+  "lon": -8.5570998,
+  "tags": {
+    "access": "yes",
+    "addr:city": "Vila Nova de Gaia",
+    "addr:postcode": "4415-4258",
+    "addr:street": "Rua de Américo de Oliveira",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "2",
+    "charge_point:output": "160 kW",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "manufacturer": "iskraemeco",
+    "maxstay": "unlimited",
+    "model": "iFC160",
+    "motorcar": "yes",
+    "name": "Continente Bom Dia Grijó",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "24/7",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "phone": "+351 210 19 19 19",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "350",
+    "socket:type2_combo:output": "120 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://plugcharge.continente.pt/"
   }
 },
 {
@@ -433727,13 +433874,14 @@
     "access": "yes",
     "amenity": "charging_station",
     "capacity": "5",
+    "charging_station:output": "300 kW",
     "motorcar": "yes",
-    "name": "ELV-?????",
+    "name": "ELV-00024",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Powerdot",
     "parking:fee": "no",
-    "ref": "ELV-?????"
+    "ref": "ELV-00024"
   }
 },
 {
@@ -441447,15 +441595,16 @@
     "access": "yes",
     "amenity": "charging_station",
     "capacity": "2",
+    "charging_station:output": "150 kW",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "MOU-?????",
+    "name": "MOU-00004",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Powerdot",
     "parking:fee": "no",
-    "ref": "MOU-?????"
+    "ref": "MOU-00004"
   }
 },
 {
@@ -464560,8 +464709,6 @@
   "nodes": [
     13556238283,
     13556238286,
-    13556238285,
-    13556301101,
     13556238297,
     13556238296,
     13556238281,
@@ -464573,20 +464720,19 @@
     "amenity": "charging_station",
     "brand": "edp Charge",
     "brand:wikidata": "Q1341222",
-    "capacity": "8",
-    "charging_station:output": "702 kW",
+    "capacity": "10",
+    "charging_station:output": "746 kW",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "MAI-00091…94",
+    "name": "MAI-00054/91…94",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
     "operator:wikidata": "Q1341222",
     "parking:fee": "no",
     "phone": "+351 800 222 222",
-    "ref": "MAI-00091;MAI-00092;MAI-00093;MAI-00094",
-    "website": "https://www.mobie.pt/"
+    "ref": "MAI-00054;MAI-00091;MAI-00092;MAI-00093;MAI-00094"
   }
 },
 {
@@ -478519,13 +478665,14 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
+    "name": "AVV-00014/15",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
     "operator:wikidata": "Q135275372",
     "parking:fee": "no",
     "phone": "+351 800 249 249",
-    "ref": "AVV-?????"
+    "ref": "AVV-00014;AVV-00015"
   }
 },
 {
@@ -480337,6 +480484,38 @@
     "operator:wikidata": "Q1341222",
     "parking:fee": "no",
     "ref": "MGR-00026;MGR-00027"
+  }
+},
+{
+  "type": "way",
+  "id": 1564262456,
+  "nodes": [
+    14241026113,
+    14241026112,
+    14241026110,
+    14241026111,
+    14241026113
+  ],
+  "tags": {
+    "access": "yes",
+    "addr:city": "Vila Nova de Gaia",
+    "addr:postcode": "4415-4258",
+    "addr:street": "Rua de Américo de Oliveira",
+    "amenity": "charging_station",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "4",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Continente Bom Dia Grijó",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "24/7",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "no",
+    "phone": "+351 210 19 19 19",
+    "website": "https://plugcharge.continente.pt/"
   }
 },
 {
@@ -518165,6 +518344,30 @@
 },
 {
   "type": "node",
+  "id": 14241026110,
+  "lat": 41.0285698,
+  "lon": -8.5570170
+},
+{
+  "type": "node",
+  "id": 14241026111,
+  "lat": 41.0285157,
+  "lon": -8.5571317
+},
+{
+  "type": "node",
+  "id": 14241026112,
+  "lat": 41.0285205,
+  "lon": -8.5569762
+},
+{
+  "type": "node",
+  "id": 14241026113,
+  "lat": 41.0284664,
+  "lon": -8.5570907
+},
+{
+  "type": "node",
   "id": 12857840261,
   "lat": 41.0629508,
   "lon": -8.5976181
@@ -522906,8 +523109,8 @@
 {
   "type": "node",
   "id": 13556238280,
-  "lat": 41.2463803,
-  "lon": -8.6650091
+  "lat": 41.2463809,
+  "lon": -8.6650083
 },
 {
   "type": "node",
@@ -522918,20 +523121,14 @@
 {
   "type": "node",
   "id": 13556238283,
-  "lat": 41.2464324,
-  "lon": -8.6649977
-},
-{
-  "type": "node",
-  "id": 13556238285,
-  "lat": 41.2463801,
-  "lon": -8.6649494
+  "lat": 41.2464306,
+  "lon": -8.6649971
 },
 {
   "type": "node",
   "id": 13556238286,
-  "lat": 41.2464252,
-  "lon": -8.6649396
+  "lat": 41.2464237,
+  "lon": -8.6649413
 },
 {
   "type": "node",
@@ -522944,12 +523141,6 @@
   "id": 13556238297,
   "lat": 41.2464158,
   "lon": -8.6648785
-},
-{
-  "type": "node",
-  "id": 13556301101,
-  "lat": 41.2463725,
-  "lon": -8.6648880
 },
 {
   "type": "node",
