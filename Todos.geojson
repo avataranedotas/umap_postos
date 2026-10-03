@@ -103648,6 +103648,61 @@
 },
 {
   "type": "Feature",
+  "id": "way/1564646865",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Pedroso",
+    "addr:postcode": "4415-383",
+    "addr:street": "Avenida Doutor Moreira Sousa",
+    "amenity": "charging_station",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "4",
+    "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Continente Bom Dia Carvalhos",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "08:00-21:00",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "no",
+    "phone": "+351 210 19 19 19",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "way/1564646865"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -8.5754457,
+          41.0670797
+        ],
+        [
+          -8.5753333,
+          41.0671362
+        ],
+        [
+          -8.5753759,
+          41.0671846
+        ],
+        [
+          -8.5754885,
+          41.067128
+        ],
+        [
+          -8.5754457,
+          41.0670797
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/966120777",
   "properties": {
     "access": "yes",
@@ -107810,13 +107865,13 @@
     "addr:city": "Lisboa",
     "addr:postcode": "1300-481",
     "addr:street": "Largo da Boa Hora à Ajuda",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "edp Charge",
     "brand:wikidata": "Q1341222",
     "capacity": "2",
+    "disused:amenity": "charging_station",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -125206,7 +125261,6 @@
     "access": "yes",
     "addr:city": "Ponta Delgada",
     "addr:street": "Circular de Ponta Delgada",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -125214,6 +125268,7 @@
     "brand:wikidata": "Q135275372",
     "capacity": "1",
     "charging_station:output": "50 kW",
+    "disused:amenity": "charging_station",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -184263,8 +184318,8 @@
     "authentication:none": "no",
     "brand": "High Green Power",
     "capacity": "1",
+    "disused:man_made": "charge_point",
     "fee": "yes",
-    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -226441,15 +226496,17 @@
   "id": "node/9960356558",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "edp Charge",
     "brand:wikidata": "Q1341222",
     "capacity": "2",
+    "disused:amenity": "charging_station",
     "fee": "yes",
+    "manufacturer": "Efacec",
     "maxstay": "unlimited",
+    "model": "Public Charger G2",
     "motorcar": "yes",
     "name": "VCT-00031",
     "network": "Mobi.E",
@@ -261689,9 +261746,9 @@
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
     "capacity": "2",
+    "disused:man_made": "charge_point",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
-    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -266153,9 +266210,9 @@
     "brand:wikidata": "Q123574541",
     "capacity": "2",
     "charge_point:output": "122 kW",
+    "disused:man_made": "charge_point",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
-    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -267564,13 +267621,13 @@
   "id": "node/11089368477",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "wowplug",
     "brand:wikidata": "Q137294207",
     "capacity": "2",
+    "disused:amenity": "charging_station",
     "email": "suporte@wowplug.com",
     "fee": "yes",
     "manufacturer": "wowplug",
@@ -306171,13 +306228,12 @@
   "id": "node/11896601089",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "edp Charge",
     "brand:wikidata": "Q1341222",
     "capacity": "2",
+    "disused:amenity": "charging_station",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -309939,10 +309995,10 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "3",
+    "disused:man_made": "charge_point",
     "fee": "yes",
     "layer": "-1",
     "location": "underground",
-    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -315190,6 +315246,7 @@
     "capacity": "1",
     "charge_point:output": "200 kW",
     "fee": "yes",
+    "fixme": "Confirmar que aceita pagamento por cartão bancário",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -332802,13 +332859,13 @@
   "id": "node/12239239691",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "edp Charge",
     "brand:wikidata": "Q1341222",
     "capacity": "2",
+    "disused:amenity": "charging_station",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -339857,7 +339914,9 @@
     "capacity": "2",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "manufacturer": "Alfen",
     "maxstay": "unlimited",
+    "model": "Eve Double Pro-line",
     "motorcar": "yes",
     "name": "EPS-00036",
     "network": "Mobi.E",
@@ -339882,8 +339941,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.782855,
-      41.588135
+      -8.782859,
+      41.5880914
     ]
   }
 },
@@ -373271,9 +373330,9 @@
     "brand:wikidata": "Q135275372",
     "capacity": "2",
     "charge_point:output": "180 kW",
+    "disused:man_made": "charge_point",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
-    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -390615,9 +390674,9 @@
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
     "capacity": "2",
+    "disused:man_made": "charge_point",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
-    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -412928,10 +412987,10 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "2",
+    "disused:man_made": "charge_point",
     "fee": "yes",
     "layer": "-1",
     "location": "underground",
-    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -425003,7 +425062,6 @@
   "id": "node/12817885803",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -425011,9 +425069,12 @@
     "brand:wikidata": "Q135275372",
     "capacity": "2",
     "charging_station:output": "120 kW",
+    "disused:amenity": "charging_station",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "manufacturer": "Hellonext",
     "maxstay": "unlimited",
+    "model": "H2 120",
     "motorcar": "yes",
     "name": "LNH-00037",
     "network": "Mobi.E",
@@ -487723,8 +487784,8 @@
     "authentication:none": "no",
     "brand": "High Green Power",
     "capacity": "1",
+    "disused:man_made": "charge_point",
     "fee": "yes",
-    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -531559,8 +531620,8 @@
     "brand:wikidata": "Q1341222",
     "capacity": "2",
     "charge_point:output": "82 kW",
+    "disused:man_made": "charge_point",
     "fee": "yes",
-    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -539952,9 +540013,9 @@
     "brand": "helexia",
     "capacity": "1",
     "charge_point:output": "200 kW",
+    "disused:man_made": "charge_point",
     "email": "geral.pt@helexia.eu",
     "fee": "yes",
-    "man_made": "charge_point",
     "manufacturer": "i-charging",
     "maxstay": "unlimited",
     "model": "blueberry CLUSTER",
@@ -576126,7 +576187,9 @@
     "charge_point:output": "150 kW",
     "construction:man_made": "charge_point",
     "fee": "yes",
+    "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
+    "model": "HYC_150",
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
@@ -576160,9 +576223,11 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "2",
-    "construction:man_made": "charge_point",
     "fee": "yes",
+    "man_made": "charge_point",
+    "manufacturer": "Volt-E",
     "maxstay": "unlimited",
+    "model": "AC22STAT",
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
@@ -592436,11 +592501,11 @@
     "brand:wikidata": "Q2995683",
     "capacity": "2",
     "charge_point:output": "50 kW",
-    "construction:man_made": "charge_point",
     "fee": "yes",
     "indoor": "yes",
     "level": "-1",
     "location": "underground",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "Continente Valongo",
@@ -592483,11 +592548,11 @@
     "brand:wikidata": "Q2995683",
     "capacity": "2",
     "charge_point:output": "50 kW",
-    "construction:man_made": "charge_point",
     "fee": "yes",
     "indoor": "yes",
     "level": "-1",
     "location": "underground",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "Continente Valongo",
@@ -592530,9 +592595,9 @@
     "brand:wikidata": "Q2995683",
     "capacity": "2",
     "charge_point:output": "240 kW",
-    "construction:man_made": "charge_point",
     "fee": "yes",
     "location": "underground",
+    "man_made": "charge_point",
     "manufacturer": "iskraemeco",
     "maxstay": "unlimited",
     "model": "iFC240",
@@ -592577,9 +592642,9 @@
     "brand:wikidata": "Q2995683",
     "capacity": "2",
     "charge_point:output": "50 kW",
-    "construction:man_made": "charge_point",
     "fee": "yes",
     "location": "underground",
+    "man_made": "charge_point",
     "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
     "model": "HYC_50",
@@ -592624,10 +592689,10 @@
     "brand:wikidata": "Q2995683",
     "capacity": "2",
     "charge_point:output": "120 kW",
-    "construction:man_made": "charge_point",
     "fee": "yes",
     "fixme": "Confirmar se o modelo do carregador é iFC120 ou iFC160",
     "location": "underground",
+    "man_made": "charge_point",
     "manufacturer": "iskraemeco",
     "maxstay": "unlimited",
     "model": "iFC120",
@@ -593107,7 +593172,7 @@
     "maxstay": "unlimited",
     "model": "HYC_200",
     "motorcar": "yes",
-    "name": "LSB-01464",
+    "name": "LSB-01464/1475",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Charging Together",
@@ -593117,7 +593182,7 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 917 576",
-    "ref": "LSB-01464",
+    "ref": "LSB-01464;LSB-01475",
     "ref:EU:EVSE": "PT*FCT*E334*1;PT*FCT*E334*2;PT*FCT*E*LSB*01464*01;PT*FCT*E*LSB*01464*02",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "500",
@@ -593418,7 +593483,9 @@
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
     "man_made": "charge_point",
+    "manufacturer": "Efacec",
     "maxstay": "unlimited",
+    "model": "QC45",
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
@@ -593450,8 +593517,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.9607673,
-      38.7017119
+      -8.960699,
+      38.7017531
     ]
   }
 },
@@ -593471,7 +593538,9 @@
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
     "man_made": "charge_point",
+    "manufacturer": "Efacec",
     "maxstay": "unlimited",
+    "model": "QC45",
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
@@ -593503,8 +593572,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.960745,
-      38.7017259
+      -8.9606765,
+      38.7017669
     ]
   }
 },
@@ -593579,8 +593648,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.9606984,
-      38.7017537
+      -8.9607455,
+      38.7017253
     ]
   }
 },
@@ -593617,8 +593686,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.9606771,
-      38.7017664
+      -8.9607668,
+      38.7017126
     ]
   }
 },
@@ -593709,6 +593778,98 @@
     "coordinates": [
       -9.3801156,
       38.774629
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14245359208",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Pedroso",
+    "addr:postcode": "4415-383",
+    "addr:street": "Avenida Doutor Moreira Sousa",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "2",
+    "charge_point:output": "50 kW",
+    "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Continente Bom Dia Carvalhos",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "08:00-21:00",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "phone": "+351 210 19 19 19",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "50 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/14245359208"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.5754017,
+      41.0671669
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14245359209",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Pedroso",
+    "addr:postcode": "4415-383",
+    "addr:street": "Avenida Doutor Moreira Sousa",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "2",
+    "charge_point:output": "50 kW",
+    "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Continente Bom Dia Carvalhos",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "08:00-21:00",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "phone": "+351 210 19 19 19",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "50 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/14245359209"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.575457,
+      41.0671387
     ]
   }
 }
