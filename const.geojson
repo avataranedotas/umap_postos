@@ -1330,7 +1330,7 @@
     "capacity": "2",
     "construction:amenity": "charging_station",
     "fee": "yes",
-    "fixme": "Falta saber o operador",
+    "fixme": "Verificar se está operacional, qual o operador e como se activa",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "IDN-?????",
@@ -1457,7 +1457,7 @@
     "capacity": "2",
     "construction:amenity": "charging_station",
     "fee": "yes",
-    "fixme": "Falta saber o operador",
+    "fixme": "Verificar se está operacional, qual o operador e como se activa",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "IDN-?????",
@@ -1495,7 +1495,7 @@
     "capacity": "2",
     "construction:amenity": "charging_station",
     "fee": "yes",
-    "fixme": "Falta saber o operador",
+    "fixme": "Verificar se está operacional, qual o operador e como se activa",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "IDN-?????",
@@ -1533,7 +1533,7 @@
     "capacity": "2",
     "construction:amenity": "charging_station",
     "fee": "yes",
-    "fixme": "Falta saber o operador",
+    "fixme": "Verificar se está operacional, qual o operador e como se activa",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "IDN-?????",
@@ -18404,46 +18404,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/14042440118",
-  "properties": {
-    "access": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Telpark",
-    "brand:wikidata": "Q124151364",
-    "capacity": "1",
-    "construction:man_made": "charge_point",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Telpark",
-    "operator:wikidata": "Q124151364",
-    "parking:fee": "yes",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "ref": "LSB-01470",
-    "ref:EU:EVSE": "PT*EPK*ELSB01236*1",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "80",
-    "socket:type2_combo:output": "30 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.telpark.com/pt/carregamento-eletrico/",
-    "id": "node/14042440118"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.1397395,
-      38.7551406
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/14043037270",
   "properties": {
     "access": "yes",
@@ -27836,7 +27796,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 917 576",
     "ref": "LSB-01464",
-    "ref:EU:EVSE": "PT*FCT*E334*1;PT*FCT*E334*2",
+    "ref:EU:EVSE": "PT*FCT*E334*1;PT*FCT*E334*2;PT*FCT*E*LSB*01464*01;PT*FCT*E*LSB*01464*02",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "200 kW",
@@ -27937,6 +27897,254 @@
     "coordinates": [
       -8.8115111,
       41.7115689
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14244089626",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Galp electric",
+    "brand:wikidata": "Q135275372",
+    "capacity": "2",
+    "charging_station:output": "90 kW",
+    "construction:amenity": "charging_station",
+    "email": "veiculoeletrico@galp.com",
+    "fee": "yes",
+    "fixme": "Mover para as coordenadas exactas",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "VZL-00006",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "operator:wikidata": "Q135275372",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 249 249",
+    "ref": "VZL-00006",
+    "ref:EU:EVSE": "PT*GLP*EVZL*00006*01;PT*GLP*EVZL*00006*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "300",
+    "socket:type2_combo:output": "90 kW",
+    "socket:type2_combo:voltage": "1000",
+    "id": "node/14244089626"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.23099,
+      40.687154
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14244536210",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Montijo",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Powerdot",
+    "brand:wikidata": "Q123574541",
+    "capacity": "1",
+    "construction:man_made": "charge_point",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "operator:wikidata": "Q123574541",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 180 292",
+    "ref": "MTJ-?????",
+    "id": "node/14244536210"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.9607219,
+      38.7017395
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14244536211",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Montijo",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Powerdot",
+    "brand:wikidata": "Q123574541",
+    "capacity": "1",
+    "construction:man_made": "charge_point",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "operator:wikidata": "Q123574541",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 180 292",
+    "ref": "MTJ-?????",
+    "id": "node/14244536211"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.9606984,
+      38.7017537
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14244536212",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Montijo",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Powerdot",
+    "brand:wikidata": "Q123574541",
+    "capacity": "1",
+    "construction:man_made": "charge_point",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "operator:wikidata": "Q123574541",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 180 292",
+    "ref": "MTJ-?????",
+    "id": "node/14244536212"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.9606771,
+      38.7017664
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14244605004",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "2",
+    "charge_point:output": "82 kW",
+    "construction:man_made": "charge_point",
+    "fee": "yes",
+    "manufacturer": "Starcharge",
+    "maxstay": "unlimited",
+    "model": "Jupiter V3",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "SNT-?????",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "200",
+    "socket:type2_combo:output": "60 kW",
+    "socket:type2_combo:voltage": "1000",
+    "id": "node/14244605004"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.3802319,
+      38.7746538
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14244605005",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "2",
+    "charge_point:output": "120 kW",
+    "construction:man_made": "charge_point",
+    "fee": "yes",
+    "manufacturer": "Starcharge",
+    "maxstay": "unlimited",
+    "model": "Titan V3",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "SNT-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "300",
+    "socket:type2_combo:output": "120 kW",
+    "socket:type2_combo:voltage": "1000",
+    "id": "node/14244605005"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.3801156,
+      38.774629
     ]
   }
 }
