@@ -18169,7 +18169,7 @@
     "access": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "brand": "Telpark",
+    "brand": "telpark",
     "brand:wikidata": "Q124151364",
     "capacity": "1",
     "construction:man_made": "charge_point",
@@ -18209,7 +18209,7 @@
     "access": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "brand": "Telpark",
+    "brand": "telpark",
     "brand:wikidata": "Q124151364",
     "capacity": "1",
     "construction:man_made": "charge_point",
@@ -26710,7 +26710,6 @@
     "brand": "Maksu",
     "capacity": "2",
     "construction:man_made": "charge_point",
-    "email": "ev_portugal@maksu.com",
     "fee": "yes",
     "layer": "-1",
     "level": "-1",
@@ -26718,16 +26717,17 @@
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
+    "old_operator": "Maksu Services",
+    "old_ref": "LSB-01457",
+    "old_ref:EU:EVSE": "PT*MAK*E*LSB*01457*01;PT*MAK*E*LSB*01457*02",
     "opening_hours": "24/7",
-    "operator": "Maksu Services",
     "parking:fee": "yes",
     "payment:app": "yes",
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "phone": "+351 800 910 124",
-    "ref": "LSB-01457",
-    "ref:EU:EVSE": "PT*MAK*E*LSB*01457*01;PT*MAK*E*LSB*01457*02",
+    "ref": "LSB-01478",
+    "ref:EU:EVSE": "PT*EPK*ELSB01457*1;PT*EPK*ELSB01457*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
@@ -27073,53 +27073,6 @@
     "coordinates": [
       -9.111284,
       38.7749284
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/14232663192",
-  "properties": {
-    "access": "yes",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "edp Charge",
-    "brand:wikidata": "Q1341222",
-    "capacity": "2",
-    "charge_point:output": "82 kW",
-    "construction:man_made": "charge_point",
-    "fee": "yes",
-    "fixme": "Move to exact location",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "EDP",
-    "operator:wikidata": "Q1341222",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 222 222",
-    "ref": "MGR-00027",
-    "ref:EU:EVSE": "PT*EDP*EMGR*00027*1;PT*EDP*EMGR*00027*2;PT*EDP*EMGR*00027*3",
-    "socket:type2": "1",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "200",
-    "socket:type2_combo:output": "60 kW",
-    "socket:type2_combo:voltage": "1000",
-    "id": "node/14232663192"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.9248763,
-      39.7489933
     ]
   }
 },
@@ -27627,6 +27580,94 @@
     "coordinates": [
       -9.3801156,
       38.774629
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14252702698",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "telpark",
+    "brand:wikidata": "Q124151364",
+    "capacity": "2",
+    "construction:man_made": "charge_point",
+    "fee": "yes",
+    "indoor": "yes",
+    "level": "-1",
+    "location": "underground",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Telpark",
+    "operator:wikidata": "Q124151364",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "LSB-01477",
+    "ref:EU:EVSE": "PT*EPK*ELSB01316*1;PT*EPK*ELSB01316*2",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "125",
+    "socket:type2_combo:output": "120 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.telpark.com/pt/carregamento-eletrico/",
+    "id": "node/14252702698"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1500429,
+      38.7224342
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14252702699",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "telpark",
+    "brand:wikidata": "Q124151364",
+    "capacity": "2",
+    "construction:man_made": "charge_point",
+    "fee": "yes",
+    "indoor": "yes",
+    "level": "-1",
+    "location": "underground",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Telpark",
+    "operator:wikidata": "Q124151364",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "LSB-01477",
+    "ref:EU:EVSE": "PT*EPK*ELSB01315*1;PT*EPK*ELSB01315*2",
+    "socket:type2_cable": "2",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://www.telpark.com/pt/carregamento-eletrico/",
+    "id": "node/14252702699"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1500181,
+      38.7224065
     ]
   }
 }
