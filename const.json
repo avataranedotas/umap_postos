@@ -4747,6 +4747,7 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "2",
+    "charging_station:output": "82 kW",
     "construction:amenity": "charging_station",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -4762,11 +4763,15 @@
     "payment:membership_card": "yes",
     "ref": "ACN-00013",
     "ref:EU:EVSE": "PT*ECI*E*ACN*00013*01;PT*ECI*E*ACN*00013*02;PT*ECI*E*ACN*00013*03",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "150",
-    "socket:type2_combo:output": "50 kW",
+    "socket:type2_combo:current": "250",
+    "socket:type2_combo:output": "60 kW",
     "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/"
+    "website": "https://www.ecoinside.pt/"
   }
 },
 {
@@ -9275,43 +9280,6 @@
     "socket:type2_combo:current": "400",
     "socket:type2_combo:output": "300 kW",
     "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/"
-  }
-},
-{
-  "type": "node",
-  "id": 13908045867,
-  "lat": 39.7293831,
-  "lon": -7.4702503,
-  "tags": {
-    "access": "customers",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "KLC",
-    "brand:wikidata": "Q127504745",
-    "capacity": "1",
-    "construction:man_made": "charge_point",
-    "email": "apoio.cliente@kmlowcost.com",
-    "fee": "yes",
-    "fixme": "Mover para o local certo",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "KLC Serviços",
-    "operator:wikidata": "Q127504745",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 202 060",
-    "ref": "CTB-00078",
-    "ref:EU:EVSE": "PT*KLS*E*CTB*00078*01",
-    "socket:type2_cable": "1",
-    "socket:type2_cable:current": "32",
-    "socket:type2_cable:output": "7.4 kW",
-    "socket:type2_cable:voltage": "230",
     "website": "https://www.mobie.pt/"
   }
 },
@@ -23742,6 +23710,42 @@
     "socket:type2_combo:output": "120 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://plugcharge.continente.pt/"
+  }
+},
+{
+  "type": "node",
+  "id": 14265286726,
+  "lat": 41.0612505,
+  "lon": -7.7921161,
+  "tags": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "2",
+    "construction:amenity": "charging_station",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LMG-00030",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "LMG-00030",
+    "ref:EU:EVSE": "PT*EDP*ELMG*00030*1;PT*EDP*ELMG*00030*2",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "230",
+    "website": "https://www.edp.pt/"
   }
 }
 
