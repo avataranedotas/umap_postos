@@ -6838,43 +6838,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6973507743",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Albufeira",
-    "addr:postcode": "8201-918",
-    "amenity": "charging_station",
-    "brand": "Tesla",
-    "brand:wikidata": "Q478214",
-    "capacity": "2",
-    "fee": "no",
-    "fixme": "Verificar se ainda existe",
-    "location": "underground",
-    "motorcar": "yes",
-    "name": "Marina de Albufeira",
-    "no:network": "yes",
-    "operator": "Marina de Albufeira",
-    "parking:fee": "yes",
-    "payment:app": "no",
-    "payment:cards": "no",
-    "payment:membership_card": "no",
-    "phone": "+351 289 588 179",
-    "socket:tesla_destination": "1",
-    "socket:tesla_destination:output": "22 kW",
-    "socket:type2_cable": "1",
-    "socket:type2_cable:output": "22 kW",
-    "id": "node/6973507743"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.2659855,
-      37.0855011
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7008637803",
   "properties": {
     "access": "yes",
@@ -28588,10 +28551,10 @@
   "id": "node/8286178315",
   "properties": {
     "access": "yes",
-    "addr:country": "PT",
     "amenity": "charging_station",
     "capacity": "1",
     "fee": "no",
+    "fixme": "Verificar se o acesso é público",
     "motorcar": "yes",
     "no:network": "yes",
     "opening_hours": "Tu-Su 10:00-18:00",
@@ -38541,6 +38504,48 @@
     "coordinates": [
       -9.1293944,
       38.7688066
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8779356629",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "loulé concelho Global",
+    "capacity": "2",
+    "email": "geral@lcglobal.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LLE-00055",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Loulé Concelho Global",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 289 401 080",
+    "ref": "LLE-00055",
+    "ref:EU:EVSE": "PT*LCG*E*LLE*00055*01;PT*LCG*E*LLE*00055*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt",
+    "id": "node/8779356629"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.02082,
+      37.0285442
     ]
   }
 },
@@ -60019,6 +60024,7 @@
     "amenity": "charging_station",
     "capacity": "1",
     "fee": "no",
+    "fixme": "Verificar se ainda existe",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "no:network": "yes",
@@ -63784,7 +63790,7 @@
     "brand:wikidata": "Q135275372",
     "capacity": "1",
     "email": "veiculoeletrico@galp.com",
-    "fee": "no",
+    "fee": "yes",
     "highway": "street_lamp",
     "lamp_type": "electric",
     "maxstay": "unlimited",
@@ -68116,6 +68122,49 @@
     "coordinates": [
       -8.9146544,
       38.619592
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11404287209",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "ABF-00072",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "ABF-00072",
+    "ref:EU:EVSE": "PT*EDP*EABF*00072*1;PT*EDP*EABF*00072*2",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "7.4 kW",
+    "socket:type2:voltage": "230",
+    "website": "https://www.mobie.pt/",
+    "id": "node/11404287209"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.3162945,
+      37.0873547
     ]
   }
 },
@@ -187817,6 +187866,52 @@
     "coordinates": [
       -9.233557,
       38.7429677
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14266102685",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Câmara de Lobos",
+    "addr:postcode": "9300-066",
+    "addr:street": "Rua Frei Pedro da Guarda",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "2",
+    "fee": "yes",
+    "indoor": "yes",
+    "level": "-1",
+    "location": "underground",
+    "man_made": "charge_point",
+    "motorcar": "yes",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "08:00-21:30",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "phone": "+351 210 19 19 19",
+    "ref": "0867PL0001",
+    "ref:EU:EVSE": "PT*CNT*E0867PL0001*1;PT*CNT*E0867PL0001*2",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/14266102685"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -16.9712968,
+      32.6549525
     ]
   }
 },
