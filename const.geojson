@@ -12825,7 +12825,8 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
-    "ref": "ABF-?????",
+    "ref": "ABF-00189",
+    "ref:EU:EVSE": "PT*EDP*EABF*00189*1;PT*EDP*EABF*00189*2",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "300",
     "socket:type2_combo:output": "120 kW",
@@ -26576,7 +26577,7 @@
     "maxstay": "unlimited",
     "model": "HYC_200",
     "motorcar": "yes",
-    "name": "LSB-01464/1475",
+    "name": "LSB-01464",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Charging Together",
@@ -27410,7 +27411,7 @@
     "brand": "Atlante",
     "brand:wikidata": "Q126913632",
     "capacity": "2",
-    "charging_station:output": "200 kW",
+    "charge_point:output": "200 kW",
     "construction:man_made": "charge_point",
     "email": "support.portugal@atlante.energy",
     "fee": "yes",
@@ -27558,8 +27559,8 @@
     "ref:EU:EVSE": "PT*CNT*EA0101PL0001*1;PT*CNT*EA0101PL0001*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
-    "socket:type2:output": "7.4 kW",
-    "socket:type2:voltage": "230",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
     "website": "https://plugcharge.continente.pt/",
     "id": "node/14270176144"
   },
@@ -28223,6 +28224,49 @@
     "coordinates": [
       -8.2167931,
       37.0987954
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14278001574",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Atlante",
+    "brand:wikidata": "Q126913632",
+    "capacity": "2",
+    "charging_station:output": "200 kW",
+    "construction:amenity": "charging_station",
+    "email": "support.portugal@atlante.energy",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Atlante",
+    "operator:wikidata": "Q126913632",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 296 929;+351 234 246 050",
+    "ref": "SEI-00019",
+    "ref:EU:EVSE": "PT*ATL*ESEI*00019*1;PT*ATL*ESEI*00019*2",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "300",
+    "socket:type2_combo:output": "100 kW",
+    "socket:type2_combo:voltage": "1000",
+    "id": "node/14278001574"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.713494,
+      40.4269764
     ]
   }
 }
