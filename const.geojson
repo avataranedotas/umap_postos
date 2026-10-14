@@ -5478,47 +5478,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13231609461",
-  "properties": {
-    "access": "yes",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "capacity": "1",
-    "construction:man_made": "charge_point",
-    "email": "evio@go-evio.com",
-    "fee": "yes",
-    "location": "underground",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Evio",
-    "parking:fee": "yes",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 308 803 746",
-    "ref": "OER-00299",
-    "ref:EU:EVSE": "PT*EVI*EOER*00299*1",
-    "socket:type2": "1",
-    "socket:type2:current": "16",
-    "socket:type2:output": "11 kW",
-    "socket:type2:voltage": "400",
-    "website": "https://go-evio.com/",
-    "id": "node/13231609461"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.3029496,
-      38.7073601
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13294985626",
   "properties": {
     "access": "yes",
@@ -5804,49 +5763,6 @@
     "coordinates": [
       -7.9545307,
       41.4794
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/13419345496",
-  "properties": {
-    "access": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "REMO",
-    "capacity": "2",
-    "charging_station:output": "120 kW",
-    "construction:amenity": "charging_station",
-    "email": "charging@me-remo.com",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "TVD-00070",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Mota Engil II",
-    "operator:wikidata": "Q1949595",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "yes",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 020 940",
-    "ref": "TVD-00070",
-    "ref:EU:EVSE": "PT*MOT*E*TVD*00070*01;PT*MOT*E*TVD*00070*02",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "400",
-    "socket:type2_combo:output": "120 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/",
-    "id": "node/13419345496"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.259476,
-      39.08188
     ]
   }
 },
@@ -14431,14 +14347,17 @@
   "id": "node/13981708020",
   "properties": {
     "access": "yes",
+    "addr:city": "Montijo",
+    "addr:postcode": "2870-152",
+    "addr:street": "Avenida Fialho Gouveia",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
     "brand:wikidata": "Q2995683",
     "capacity": "2",
+    "charge_point:output": "120 kW",
     "construction:man_made": "charge_point",
     "fee": "yes",
-    "fixme": "Confirmar o número de postos, a potência e o local exacto",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "Continente Modelo Montijo",
@@ -14453,8 +14372,8 @@
     "payment:membership_card": "no",
     "phone": "+351 210 19 19 19",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "150",
-    "socket:type2_combo:output": "50 kW",
+    "socket:type2_combo:current": "200",
+    "socket:type2_combo:output": "120 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://plugcharge.continente.pt/",
     "id": "node/13981708020"
@@ -14462,8 +14381,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.9887499,
-      38.7109393
+      -8.988454,
+      38.7106412
     ]
   }
 },
@@ -14472,14 +14391,17 @@
   "id": "node/13981708023",
   "properties": {
     "access": "yes",
+    "addr:city": "Montijo",
+    "addr:postcode": "2870-152",
+    "addr:street": "Avenida Fialho Gouveia",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
     "brand:wikidata": "Q2995683",
     "capacity": "2",
+    "charge_point:output": "50 kW",
     "construction:man_made": "charge_point",
     "fee": "yes",
-    "fixme": "Confirmar o número de postos, a potência e o local exacto",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "Continente Modelo Montijo",
@@ -14503,8 +14425,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.9888043,
-      38.7109222
+      -8.9885213,
+      38.7106177
     ]
   }
 },
@@ -15071,7 +14993,7 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Renewing",
-    "capacity": "2",
+    "capacity": "1",
     "charge_point:output": "150 kW",
     "construction:man_made": "charge_point",
     "email": "renewing.charging@mota-engil.pt",
@@ -15092,9 +15014,9 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 020 940",
     "ref": "VNG-00257",
-    "ref:EU:EVSE": "PT*MOT*E*VNG*00257*01;PT*MOT*E*VNG*00257*02",
+    "ref:EU:EVSE": "PT*MOT*E*VNG*00257*01",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "375",
+    "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "150 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt/",
@@ -26969,50 +26891,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/14267562333",
-  "properties": {
-    "access": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "helexia",
-    "capacity": "2",
-    "charging_station:output": "160 kW",
-    "construction:amenity": "charging_station",
-    "email": "geral.pt@helexia.eu",
-    "fee": "yes",
-    "manufacturer": "iskraemeco",
-    "maxstay": "unlimited",
-    "model": "iFC160-350A",
-    "motorcar": "yes",
-    "name": "PTL-00040",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Helexia II",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "yes",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 210 181 157",
-    "ref": "PTL-00040",
-    "ref:EU:EVSE": "PT*HLX*E*PTL*00040*01;PT*HLX*E*PTL*00040*02",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "350",
-    "socket:type2_combo:output": "100 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://helexia.pt/",
-    "id": "node/14267562333"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.5797038,
-      41.783216
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/14267641485",
   "properties": {
     "access": "yes",
@@ -27050,48 +26928,6 @@
     "coordinates": [
       -8.705559,
       38.281476
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/14267641486",
-  "properties": {
-    "access": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Iberdrola",
-    "brand:wikidata": "Q1437502",
-    "capacity": "2",
-    "construction:man_made": "charge_point",
-    "email": "comercial@iberdrola.pt",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Iberdrola",
-    "operator:wikidata": "Q1437502",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 607 717",
-    "ref": "GDL-00075",
-    "ref:EU:EVSE": "PT*IBD*E*GDL*00075*01;PT*IBD*E*GDL*00075*02",
-    "socket:type2_cable": "2",
-    "socket:type2_cable:current": "30",
-    "socket:type2_cable:output": "21 kW",
-    "socket:type2_cable:voltage": "400",
-    "website": "https://www.iberdrola.pt/",
-    "id": "node/14267641486"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.7055129,
-      38.2814486
     ]
   }
 },
@@ -27975,97 +27811,45 @@
 },
 {
   "type": "Feature",
-  "id": "node/14279579254",
+  "id": "node/14283199027",
   "properties": {
     "access": "yes",
+    "addr:city": "Montijo",
+    "addr:postcode": "2870-152",
+    "addr:street": "Avenida Fialho Gouveia",
     "authentication:app": "yes",
-    "authentication:membership_card": "yes",
     "authentication:none": "no",
-    "brand": "Iberdrola bp pulse",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
     "capacity": "2",
-    "charge_point:output": "400 kW",
+    "charge_point:output": "50 kW",
     "construction:man_made": "charge_point",
-    "email": "suporte@chargingtogether.pt",
     "fee": "yes",
-    "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
-    "model": "HYC_400",
     "motorcar": "yes",
-    "network": "Mobi.E",
+    "name": "Continente Modelo Montijo",
+    "network": "Continente Plug&Charge",
     "opening_hours": "24/7",
-    "operator": "Charging Together",
-    "parking:fee": "no",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "yes",
     "payment:app": "yes",
-    "payment:cards": "yes",
+    "payment:cards": "no",
     "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 917 576",
-    "ref": "MTJ-00136",
-    "ref:EU:EVSE": "PT*FCT*E*MTJ*00136*01;PT*FCT*E*MTJ*00136*02",
-    "socket:chademo": "1",
-    "socket:chademo:current": "200",
-    "socket:chademo:output": "80 kW",
-    "socket:chademo:voltage": "500",
+    "payment:membership_card": "no",
+    "phone": "+351 210 19 19 19",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "600",
-    "socket:type2_combo:output": "400 kW",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "50 kW",
     "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt",
-    "id": "node/14279579254"
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/14283199027"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.9442994,
-      38.7071203
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/14279579262",
-  "properties": {
-    "access": "yes",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Iberdrola bp pulse",
-    "capacity": "2",
-    "charge_point:output": "400 kW",
-    "construction:man_made": "charge_point",
-    "email": "suporte@chargingtogether.pt",
-    "fee": "yes",
-    "manufacturer": "Alpitronic",
-    "maxstay": "unlimited",
-    "model": "HYC_400",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Charging Together",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "yes",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 917 576",
-    "ref": "MTJ-00137",
-    "ref:EU:EVSE": "PT*FCT*E*MTJ*00137*01;PT*FCT*E*MTJ*00137*02",
-    "socket:chademo": "1",
-    "socket:chademo:current": "200",
-    "socket:chademo:output": "80 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "600",
-    "socket:type2_combo:output": "400 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt",
-    "id": "node/14279579262"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.9443005,
-      38.7071672
+      -8.988523,
+      38.7106224
     ]
   }
 }
