@@ -1,55 +1,94 @@
 #!/bin/bash
 
+
+download_json() {
+    local output="$1"
+    local url="$2"
+    local tmp="${output}.tmp"
+
+    echo "A descarregar $output..."
+
+    rm -f "$tmp"
+
+    if wget \
+        --tries=3 \
+        --waitretry=10 \
+        --timeout=90 \
+        --retry-connrefused \
+        -O "$tmp" "$url" &&
+       python3 -c '
+import json, sys
+try:
+    with open(sys.argv[1], encoding="utf-8") as f:
+        data = json.load(f)
+    if not isinstance(data, dict) or not isinstance(data.get("elements"), list):
+        sys.exit(1)
+except Exception:
+    sys.exit(1)
+' "$tmp"
+    then
+        mv -f "$tmp" "$output"
+        echo "OK: $output atualizado."
+        return 0
+    else
+        rm -f "$tmp"
+        echo "AVISO: Falha no download de $output."
+        echo "O ficheiro anterior foi preservado."
+        return 1
+    fi
+}
+
+
 echo "PCN"
-wget -O Type2s.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(node%5B%22amenity%22%3D%22charging_station%22%5D%5B%22access%22%3D%22yes%22%5D%5B~%22socket%22~%22.*%22%5D%5B%22socket%3Atype2_combo%22!~%22.*%22%5D%5B%22motorcar%22%3D%22yes%22%5D(area.searchArea)%3Bnode%5B%22man_made%22%3D%22charge_point%22%5D%5B%22access%22%3D%22yes%22%5D%5B%22socket%3Atype2_combo%22!~%22.*%22%5D%5B%22motorcar%22%3D%22yes%22%5D%5B~%22socket%22~%22.*%22%5D(area.searchArea)%3B)%3Bout%20center%3B%3E%3Bout%20skel%20qt%3B%0A'
+download_json Type2s.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(node%5B%22amenity%22%3D%22charging_station%22%5D%5B%22access%22%3D%22yes%22%5D%5B~%22socket%22~%22.*%22%5D%5B%22socket%3Atype2_combo%22!~%22.*%22%5D%5B%22motorcar%22%3D%22yes%22%5D(area.searchArea)%3Bnode%5B%22man_made%22%3D%22charge_point%22%5D%5B%22access%22%3D%22yes%22%5D%5B%22socket%3Atype2_combo%22!~%22.*%22%5D%5B%22motorcar%22%3D%22yes%22%5D%5B~%22socket%22~%22.*%22%5D(area.searchArea)%3B)%3Bout%20center%3B%3E%3Bout%20skel%20qt%3B%0A'
 sleep 30
 
 echo "PCR"
-wget -O PCR.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(%0Anode%5B%22amenity%22%3D%22charging_station%22%5D%5B%22access%22%3D%22yes%22%5D%5B%22motorcar%22%3D%22yes%22%5D%5B~%22socket%22~%22.*%22%5D%5B%22socket%3Atype2_combo%22~%22.*%22%5D%5B%22socket%3Atype2_combo%3Aoutput%22~kW%5D(if%3Anumber(t%5B%22socket%3Atype2_combo%3Aoutput%22%5D)%3C150)(area.searchArea)%3B%0Anode%5B%22man_made%22%3D%22charge_point%22%5D%5B%22access%22%3D%22yes%22%5D%5B%22motorcar%22%3D%22yes%22%5D%5B%22socket%3Atype2_combo%22~%22.*%22%5D%5B%22socket%3Atype2_combo%3Aoutput%22~kW%5D(if%3Anumber(t%5B%22socket%3Atype2_combo%3Aoutput%22%5D)%3C150)(area.searchArea)%3B%0A)%3Bout%20center%3B%3E%3Bout%20skel%20qt%3B%0A'
+download_json PCR.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(%0Anode%5B%22amenity%22%3D%22charging_station%22%5D%5B%22access%22%3D%22yes%22%5D%5B%22motorcar%22%3D%22yes%22%5D%5B~%22socket%22~%22.*%22%5D%5B%22socket%3Atype2_combo%22~%22.*%22%5D%5B%22socket%3Atype2_combo%3Aoutput%22~kW%5D(if%3Anumber(t%5B%22socket%3Atype2_combo%3Aoutput%22%5D)%3C150)(area.searchArea)%3B%0Anode%5B%22man_made%22%3D%22charge_point%22%5D%5B%22access%22%3D%22yes%22%5D%5B%22motorcar%22%3D%22yes%22%5D%5B%22socket%3Atype2_combo%22~%22.*%22%5D%5B%22socket%3Atype2_combo%3Aoutput%22~kW%5D(if%3Anumber(t%5B%22socket%3Atype2_combo%3Aoutput%22%5D)%3C150)(area.searchArea)%3B%0A)%3Bout%20center%3B%3E%3Bout%20skel%20qt%3B%0A'
 sleep 30
 
 echo "PCUR1"
-wget -O PCSR.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(%0Anode%5B%22amenity%22%3D%22charging_station%22%5D%5B%22access%22%3D%22yes%22%5D%5B%22motorcar%22%3D%22yes%22%5D%5B~%22socket%22~%22.*%22%5D%5B%22socket%3Atype2_combo%22~%22.*%22%5D%5B%22socket%3Atype2_combo%3Aoutput%22~kW%5D(if%3Anumber(t%5B%22socket%3Atype2_combo%3Aoutput%22%5D)%3E149)(if%3Anumber(t%5B%22socket%3Atype2_combo%3Aoutput%22%5D)%3C350)(area.searchArea)%3B%0Anode%5B%22man_made%22%3D%22charge_point%22%5D%5B%22access%22%3D%22yes%22%5D%5B%22motorcar%22%3D%22yes%22%5D%5B%22socket%3Atype2_combo%22~%22.*%22%5D%5B%22socket%3Atype2_combo%3Aoutput%22~kW%5D(if%3Anumber(t%5B%22socket%3Atype2_combo%3Aoutput%22%5D)%3E149)(if%3Anumber(t%5B%22socket%3Atype2_combo%3Aoutput%22%5D)%3C350)(area.searchArea)%3B%0A)%3Bout%20center%3B%3E%3Bout%20skel%20qt%3B%0A'
+download_json PCSR.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(%0Anode%5B%22amenity%22%3D%22charging_station%22%5D%5B%22access%22%3D%22yes%22%5D%5B%22motorcar%22%3D%22yes%22%5D%5B~%22socket%22~%22.*%22%5D%5B%22socket%3Atype2_combo%22~%22.*%22%5D%5B%22socket%3Atype2_combo%3Aoutput%22~kW%5D(if%3Anumber(t%5B%22socket%3Atype2_combo%3Aoutput%22%5D)%3E149)(if%3Anumber(t%5B%22socket%3Atype2_combo%3Aoutput%22%5D)%3C350)(area.searchArea)%3B%0Anode%5B%22man_made%22%3D%22charge_point%22%5D%5B%22access%22%3D%22yes%22%5D%5B%22motorcar%22%3D%22yes%22%5D%5B%22socket%3Atype2_combo%22~%22.*%22%5D%5B%22socket%3Atype2_combo%3Aoutput%22~kW%5D(if%3Anumber(t%5B%22socket%3Atype2_combo%3Aoutput%22%5D)%3E149)(if%3Anumber(t%5B%22socket%3Atype2_combo%3Aoutput%22%5D)%3C350)(area.searchArea)%3B%0A)%3Bout%20center%3B%3E%3Bout%20skel%20qt%3B%0A'
 sleep 30
 
 echo "PCUR2"
-wget -O PCUR.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(%0Anode%5B%22amenity%22%3D%22charging_station%22%5D%5B%22access%22%3D%22yes%22%5D%5B%22motorcar%22%3D%22yes%22%5D%5B~%22socket%22~%22.*%22%5D%5B%22socket%3Atype2_combo%22~%22.*%22%5D%5B%22socket%3Atype2_combo%3Aoutput%22~kW%5D(if%3Anumber(t%5B%22socket%3Atype2_combo%3Aoutput%22%5D)%3E349)(area.searchArea)%3B%0Anode%5B%22man_made%22%3D%22charge_point%22%5D%5B%22access%22%3D%22yes%22%5D%5B%22motorcar%22%3D%22yes%22%5D%5B%22socket%3Atype2_combo%22~%22.*%22%5D%5B%22socket%3Atype2_combo%3Aoutput%22~kW%5D(if%3Anumber(t%5B%22socket%3Atype2_combo%3Aoutput%22%5D)%3E349)(area.searchArea)%3B%0A)%3Bout%20center%3B%3E%3Bout%20skel%20qt%3B%0A'
+download_json PCUR.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(%0Anode%5B%22amenity%22%3D%22charging_station%22%5D%5B%22access%22%3D%22yes%22%5D%5B%22motorcar%22%3D%22yes%22%5D%5B~%22socket%22~%22.*%22%5D%5B%22socket%3Atype2_combo%22~%22.*%22%5D%5B%22socket%3Atype2_combo%3Aoutput%22~kW%5D(if%3Anumber(t%5B%22socket%3Atype2_combo%3Aoutput%22%5D)%3E349)(area.searchArea)%3B%0Anode%5B%22man_made%22%3D%22charge_point%22%5D%5B%22access%22%3D%22yes%22%5D%5B%22motorcar%22%3D%22yes%22%5D%5B%22socket%3Atype2_combo%22~%22.*%22%5D%5B%22socket%3Atype2_combo%3Aoutput%22~kW%5D(if%3Anumber(t%5B%22socket%3Atype2_combo%3Aoutput%22%5D)%3E349)(area.searchArea)%3B%0A)%3Bout%20center%3B%3E%3Bout%20skel%20qt%3B%0A'
 sleep 30
 
 #echo "SuC"
-#wget -O SuC.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(%0Anode%5B%22amenity%22%3D%22charging_station%22%5D%5B~%22socket%3Atesla_supercharger%22~%22.*%22%5D(area.searchArea)%3B%0Anode%5B%22man_made%22%3D%22charge_point%22%5D%5B~%22socket%3Atesla_supercharger%22~%22.*%22%5D(area.searchArea)%3B%0A)%3Bout%20center%3B%3E%3Bout%20skel%20qt%3B'
+download_json SuC.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(%0Anode%5B%22amenity%22%3D%22charging_station%22%5D%5B~%22socket%3Atesla_supercharger%22~%22.*%22%5D(area.searchArea)%3B%0Anode%5B%22man_made%22%3D%22charge_point%22%5D%5B~%22socket%3Atesla_supercharger%22~%22.*%22%5D(area.searchArea)%3B%0A)%3Bout%20center%3B%3E%3Bout%20skel%20qt%3B'
 #sleep 30
 
 echo "inop"
-wget -O inop.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(%0Anode%5B%22disused%3Aamenity%22%3D%22charging_station%22%5D%5B%22motorcar%22%3D%22yes%22%5D%5B~%22socket%22~%22.*%22%5D(area.searchArea)%3B%0Anode%5B%22disused%3Aman_made%22%3D%22charge_point%22%5D%5B%22motorcar%22%3D%22yes%22%5D(area.searchArea)%3B%0A)%3Bout%20center%3B%3E%3Bout%20skel%20qt%3B%0A'
+download_json inop.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(%0Anode%5B%22disused%3Aamenity%22%3D%22charging_station%22%5D%5B%22motorcar%22%3D%22yes%22%5D%5B~%22socket%22~%22.*%22%5D(area.searchArea)%3B%0Anode%5B%22disused%3Aman_made%22%3D%22charge_point%22%5D%5B%22motorcar%22%3D%22yes%22%5D(area.searchArea)%3B%0A)%3Bout%20center%3B%3E%3Bout%20skel%20qt%3B%0A'
 sleep 30
 
 #echo "plan"
-#wget -O plan.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(node%5B%22planned%3Aamenity%22%3D%22charging_station%22%5D%5B%22motorcar%22%3D%22yes%22%5D%5B~%22socket%22~%22.*%22%5D(area.searchArea)%3Bnode%5B%22planned%3Aman_made%22%3D%22charge_point%22%5D%5B%22motorcar%22%3D%22yes%22%5D(area.searchArea)%3B)%3Bout%20center%3B%3E%3Bout%20skel%20qt%3B'
+download_json plan.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(node%5B%22planned%3Aamenity%22%3D%22charging_station%22%5D%5B%22motorcar%22%3D%22yes%22%5D%5B~%22socket%22~%22.*%22%5D(area.searchArea)%3Bnode%5B%22planned%3Aman_made%22%3D%22charge_point%22%5D%5B%22motorcar%22%3D%22yes%22%5D(area.searchArea)%3B)%3Bout%20center%3B%3E%3Bout%20skel%20qt%3B'
 #sleep 30
 
 echo "const"
-wget -O const.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(node%5B%22construction%3Aamenity%22%3D%22charging_station%22%5D%5B%22motorcar%22%3D%22yes%22%5D%5B~%22socket%22~%22.*%22%5D(area.searchArea)%3Bnode%5B%22construction%3Aman_made%22%3D%22charge_point%22%5D%5B%22motorcar%22%3D%22yes%22%5D(area.searchArea)%3B)%3Bout%20center%3B%3E%3Bout%20skel%20qt%3B'
+download_json const.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(node%5B%22construction%3Aamenity%22%3D%22charging_station%22%5D%5B%22motorcar%22%3D%22yes%22%5D%5B~%22socket%22~%22.*%22%5D(area.searchArea)%3Bnode%5B%22construction%3Aman_made%22%3D%22charge_point%22%5D%5B%22motorcar%22%3D%22yes%22%5D(area.searchArea)%3B)%3Bout%20center%3B%3E%3Bout%20skel%20qt%3B'
 sleep 30
 
 echo "Privados"
-wget -O Privados.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(%0Anode%5B%22amenity%22%3D%22charging_station%22%5D%5B%22access%22%3D%22customers%22%5D%5B%22motorcar%22%3D%22yes%22%5D%5B~%22socket%22~%22.*%22%5D(area.searchArea)%3B%0Anode%5B%22man_made%22%3D%22charge_point%22%5D%5B%22access%22%3D%22customers%22%5D%5B%22motorcar%22%3D%22yes%22%5D(area.searchArea)%3B%0A)%3Bout%20center%3B%3E%3Bout%20skel%20qt%3B%0A'
+download_json Privados.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(%0Anode%5B%22amenity%22%3D%22charging_station%22%5D%5B%22access%22%3D%22customers%22%5D%5B%22motorcar%22%3D%22yes%22%5D%5B~%22socket%22~%22.*%22%5D(area.searchArea)%3B%0Anode%5B%22man_made%22%3D%22charge_point%22%5D%5B%22access%22%3D%22customers%22%5D%5B%22motorcar%22%3D%22yes%22%5D(area.searchArea)%3B%0A)%3Bout%20center%3B%3E%3Bout%20skel%20qt%3B%0A'
 sleep 30
 
 echo "NotAuto"
-wget -O NotAuto.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(node%5B%22access%22~%22%5E(yes%7Cpermissive)%24%22%5D%5B%22amenity%22%3D%22charging_station%22%5D%5B~%22socket%22~%22.*%22%5D%5B%22socket%3Atesla_destination%22!~%22.%22%5D%5B%22socket%3Atype2%22!~%22.%22%5D%5B%22socket%3Achademo%22!~%22.%22%5D%5B%22socket%3Atype2_combo%22!~%22.%22%5D%5B%22socket%3Atype2_cable%22!~%22.%22%5D%5B%22socket%3Atesla_supercharger%22!~%22.%22%5D%5B%22socket%3Atesla_supercharger_ccs%22!~%22.%22%5D(area.searchArea)%3Bnode%5B%22access%22~%22%5E(yes%7Cpermissive)%24%22%5D%5B%22man_made%22%3D%22charge_point%22%5D%5B%22socket%3Atesla_destination%22!~%22.%22%5D%5B%22socket%3Atype2%22!~%22.%22%5D%5B%22socket%3Achademo%22!~%22.%22%5D%5B%22socket%3Atype2_combo%22!~%22.%22%5D%5B%22socket%3Atype2_cable%22!~%22.%22%5D%5B%22socket%3Atesla_supercharger%22!~%22.%22%5D%5B%22socket%3Atesla_supercharger_ccs%22!~%22.%22%5D(area.searchArea)%3B)%3Bout%20center%3B%3E%3Bout%20skel%20qt%3B'
+download_json NotAuto.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(node%5B%22access%22~%22%5E(yes%7Cpermissive)%24%22%5D%5B%22amenity%22%3D%22charging_station%22%5D%5B~%22socket%22~%22.*%22%5D%5B%22socket%3Atesla_destination%22!~%22.%22%5D%5B%22socket%3Atype2%22!~%22.%22%5D%5B%22socket%3Achademo%22!~%22.%22%5D%5B%22socket%3Atype2_combo%22!~%22.%22%5D%5B%22socket%3Atype2_cable%22!~%22.%22%5D%5B%22socket%3Atesla_supercharger%22!~%22.%22%5D%5B%22socket%3Atesla_supercharger_ccs%22!~%22.%22%5D(area.searchArea)%3Bnode%5B%22access%22~%22%5E(yes%7Cpermissive)%24%22%5D%5B%22man_made%22%3D%22charge_point%22%5D%5B%22socket%3Atesla_destination%22!~%22.%22%5D%5B%22socket%3Atype2%22!~%22.%22%5D%5B%22socket%3Achademo%22!~%22.%22%5D%5B%22socket%3Atype2_combo%22!~%22.%22%5D%5B%22socket%3Atype2_cable%22!~%22.%22%5D%5B%22socket%3Atesla_supercharger%22!~%22.%22%5D%5B%22socket%3Atesla_supercharger_ccs%22!~%22.%22%5D(area.searchArea)%3B)%3Bout%20center%3B%3E%3Bout%20skel%20qt%3B'
 sleep 30
 
 echo "Areas"
-wget -O Areas.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(%0Away%5B%22amenity%22%3D%22charging_station%22%5D%5B%22motorcar%22%3D%22yes%22%5D(area.searchArea)%3B%0A)%3Bout%20geom%3B%0A'
+download_json Areas.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(%0Away%5B%22amenity%22%3D%22charging_station%22%5D%5B%22motorcar%22%3D%22yes%22%5D(area.searchArea)%3B%0A)%3Bout%20geom%3B%0A'
 sleep 30
 
 echo "TPA"
-wget -O TPA.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(node%5B%22amenity%22%3D%22charging_station%22%5D%5B%22access%22%3D%22yes%22%5D%5B~%22socket%22~%22.*%22%5D%5B%22motorcar%22%3D%22yes%22%5D%5B%22payment%3Acards%22%3D%22yes%22%5D(area.searchArea)%3Bnode%5B%22man_made%22%3D%22charge_point%22%5D%5B%22access%22%3D%22yes%22%5D%5B%22motorcar%22%3D%22yes%22%5D%5B~%22socket%22~%22.*%22%5D%5B%22payment%3Acards%22%3D%22yes%22%5D(area.searchArea)%3B)%3Bout%20center%3B%3E%3Bout%20skel%20qt%3B'
+download_json TPA.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(node%5B%22amenity%22%3D%22charging_station%22%5D%5B%22access%22%3D%22yes%22%5D%5B~%22socket%22~%22.*%22%5D%5B%22motorcar%22%3D%22yes%22%5D%5B%22payment%3Acards%22%3D%22yes%22%5D(area.searchArea)%3Bnode%5B%22man_made%22%3D%22charge_point%22%5D%5B%22access%22%3D%22yes%22%5D%5B%22motorcar%22%3D%22yes%22%5D%5B~%22socket%22~%22.*%22%5D%5B%22payment%3Acards%22%3D%22yes%22%5D(area.searchArea)%3B)%3Bout%20center%3B%3E%3Bout%20skel%20qt%3B'
 sleep 30
 
 echo "Parking_space"
-wget -O Parking_space.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(%0Away%5B%22amenity%22%3D%22parking_space%22%5D%5B%22parking_space%22%3D%22charging%22%5D(area.searchArea)%3B%0A)%3Bout%20geom%3B'
+download_json Parking_space.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(%0Away%5B%22amenity%22%3D%22parking_space%22%5D%5B%22parking_space%22%3D%22charging%22%5D(area.searchArea)%3B%0A)%3Bout%20geom%3B'
 sleep 30
 
 
@@ -71,7 +110,7 @@ osmtogeojson TPA.json >| TPA.geojson
 osmtogeojson Parking_space.json >| Parking_space.geojson
 
 echo "Todos"
-wget -O Todos.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A60%5D%3B%0Aarea(id%3A3600295480)-%3E.searchArea%3B%0A(%0Anwr%5B%22construction%3Aamenity%22%3D%22charging_station%22%5D(area.searchArea)%3B%0Anwr%5B%22amenity%22%3D%22charging_station%22%5D(area.searchArea)%3B%0Anwr%5B%22disused%3Aamenity%22%3D%22charging_station%22%5D(area.searchArea)%3B%0Anwr%5B%22removed%3Aamenity%22%3D%22charging_station%22%5D(area.searchArea)%3B%0Anwr%5B%22man_made%22%3D%22charge_point%22%5D(area.searchArea)%3B%0Anwr%5B%22construction%3Aman_made%22%3D%22charge_point%22%5D(area.searchArea)%3B%0Anwr%5B%22disused%3Aman_made%22%3D%22charge_point%22%5D(area.searchArea)%3B%0Anwr%5B%22removed%3Aman_made%22%3D%22charge_point%22%5D(area.searchArea)%3B%0A)%3B%0Aout%20body%3B%0A%3E%3B%0Aout%20skel%20qt%3B'
+download_json Todos.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A60%5D%3B%0Aarea(id%3A3600295480)-%3E.searchArea%3B%0A(%0Anwr%5B%22construction%3Aamenity%22%3D%22charging_station%22%5D(area.searchArea)%3B%0Anwr%5B%22amenity%22%3D%22charging_station%22%5D(area.searchArea)%3B%0Anwr%5B%22disused%3Aamenity%22%3D%22charging_station%22%5D(area.searchArea)%3B%0Anwr%5B%22removed%3Aamenity%22%3D%22charging_station%22%5D(area.searchArea)%3B%0Anwr%5B%22man_made%22%3D%22charge_point%22%5D(area.searchArea)%3B%0Anwr%5B%22construction%3Aman_made%22%3D%22charge_point%22%5D(area.searchArea)%3B%0Anwr%5B%22disused%3Aman_made%22%3D%22charge_point%22%5D(area.searchArea)%3B%0Anwr%5B%22removed%3Aman_made%22%3D%22charge_point%22%5D(area.searchArea)%3B%0A)%3B%0Aout%20body%3B%0A%3E%3B%0Aout%20skel%20qt%3B'
 sleep 30
 
 osmtogeojson Todos.json >| Todos.geojson
