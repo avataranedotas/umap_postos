@@ -1,22 +1,21 @@
 #!/bin/bash
 
 
+
 download_json() {
     local output="$1"
     local url="$2"
     local tmp="${output}.tmp"
+    local attempt
+    local max_attempts=3
 
-    echo "A descarregar $output..."
+    for ((attempt=1; attempt<=max_attempts; attempt++)); do
+        echo "A descarregar $output (tentativa $attempt/$max_attempts)..."
 
-    rm -f "$tmp"
+        rm -f "$tmp"
 
-    if wget \
-        --tries=3 \
-        --waitretry=30 \
-        --timeout=90 \
-        --retry-connrefused \
-        -O "$tmp" "$url" &&
-       python3 -c '
+        if wget --timeout=90 -O "$tmp" "$url" &&
+           python3 -c '
 import json, sys
 try:
     with open(sys.argv[1], encoding="utf-8") as f:
@@ -26,17 +25,26 @@ try:
 except Exception:
     sys.exit(1)
 ' "$tmp"
-    then
-        mv -f "$tmp" "$output"
-        echo "OK: $output atualizado."
-        return 0
-    else
+        then
+            mv -f "$tmp" "$output"
+            echo "OK: $output atualizado."
+            return 0
+        fi
+
         rm -f "$tmp"
-        echo "AVISO: Falha no download de $output."
-        echo "O ficheiro anterior foi preservado."
-        return 1
-    fi
+
+        if [ "$attempt" -lt "$max_attempts" ]; then
+            echo "Falha no download de $output."
+            echo "Nova tentativa em 30 segundos..."
+            sleep 30
+        fi
+    done
+
+    echo "AVISO: Falharam as $max_attempts tentativas de $output."
+    echo "O ficheiro anterior foi preservado."
+    return 1
 }
+
 
 
 echo "PCN"
