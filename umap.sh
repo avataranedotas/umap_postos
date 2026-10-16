@@ -12,7 +12,7 @@ download_json() {
 
     if wget \
         --tries=3 \
-        --waitretry=10 \
+        --waitretry=30 \
         --timeout=90 \
         --retry-connrefused \
         -O "$tmp" "$url" &&
