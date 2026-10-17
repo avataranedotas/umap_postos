@@ -18100,7 +18100,7 @@
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
-    "operator": "unknown",
+    "operator": "REMO",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
@@ -18138,7 +18138,7 @@
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
-    "operator": "unknown",
+    "operator": "REMO",
     "parking:fee": "no",
     "payment:app": "yes",
     "payment:cards": "no",
@@ -18146,7 +18146,7 @@
     "payment:membership_card": "yes",
     "ref": "MFR-?????",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "375",
+    "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "150 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt/",
@@ -22231,54 +22231,6 @@
     "coordinates": [
       -8.6869808,
       39.5129478
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/14130033716",
-  "properties": {
-    "access": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Repsol",
-    "brand:wikidata": "Q174747",
-    "capacity": "2",
-    "charging_station:output": "120 kW",
-    "construction:amenity": "charging_station",
-    "email": "crc.mobilidade.eletrica.pt@repsol.com",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "FIG-00073",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Repsol",
-    "operator:wikidata": "Q174747",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 226 624",
-    "ref": "FIG-00073",
-    "ref:EU:EVSE": "PT*REP*E18473*1;PT*REP*E18473*2",
-    "socket:chademo": "1",
-    "socket:chademo:current": "125",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "250",
-    "socket:type2_combo:output": "120 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/",
-    "id": "node/14130033716"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.8347713,
-      40.0298323
     ]
   }
 },
@@ -26622,8 +26574,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6157953,
-      41.2543192
+      -8.6163634,
+      41.2539117
     ]
   }
 },
@@ -26637,7 +26589,6 @@
     "brand": "Continente Plug&Charge",
     "brand:wikidata": "Q2995683",
     "capacity": "2",
-    "charge_point:output": "50 kW",
     "construction:man_made": "charge_point",
     "fee": "yes",
     "motorcar": "yes",
@@ -26663,8 +26614,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6157948,
-      41.2543611
+      -8.6163658,
+      41.2538605
     ]
   }
 },
@@ -27625,7 +27576,7 @@
   "type": "Feature",
   "id": "node/14288030397",
   "properties": {
-    "access": "customers",
+    "access": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Parinox Energia",
@@ -27633,7 +27584,9 @@
     "charge_point:output": "30 kW",
     "construction:amenity": "charging_station",
     "fee": "yes",
+    "manufacturer": "Beny",
     "maxstay": "unlimited",
+    "model": "BBDC30",
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
@@ -27654,8 +27607,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.0278461,
-      38.9082107
+      -9.0277697,
+      38.9083291
     ]
   }
 },
@@ -27748,6 +27701,140 @@
     "coordinates": [
       -8.0870877,
       41.283537
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14291329390",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "leve",
+    "brand:wikidata": "Q30256831",
+    "capacity": "2",
+    "construction:amenity": "charging_station",
+    "email": "opc@emel.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "LSB-01453",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EMEL",
+    "operator:wikidata": "Q30256831",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 910 255",
+    "ref": "LSB-01453",
+    "ref:EU:EVSE": "PT*EML*E*LSB*01453*01;PT*EML*E*LSB*01453*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "id": "node/14291329390"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.165666,
+      38.71706
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14291387666",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Powerdot",
+    "brand:wikidata": "Q123574541",
+    "capacity": "2",
+    "charge_point:output": "150 kW",
+    "construction:man_made": "charge_point",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "manufacturer": "Kempower",
+    "maxstay": "unlimited",
+    "model": "Satellite",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "operator:wikidata": "Q123574541",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 180 292",
+    "ref": "STB-00127",
+    "ref:EU:EVSE": "PT*HRZ*E*STB*00127*03;PT*HRZ*E*STB*00127*04",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "375",
+    "socket:type2_combo:output": "150 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://powerdot.eu/",
+    "id": "node/14291387666"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.8582485,
+      38.5370996
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14291387671",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Powerdot",
+    "brand:wikidata": "Q123574541",
+    "capacity": "2",
+    "charge_point:output": "150 kW",
+    "construction:man_made": "charge_point",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "manufacturer": "Kempower",
+    "maxstay": "unlimited",
+    "model": "Station Charger C501",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "operator:wikidata": "Q123574541",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 180 292",
+    "ref": "STB-00127",
+    "ref:EU:EVSE": "PT*HRZ*E*STB*00127*01;PT*HRZ*E*STB*00127*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "375",
+    "socket:type2_combo:output": "150 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://powerdot.eu/",
+    "id": "node/14291387671"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.8581943,
+      38.5371182
     ]
   }
 }
