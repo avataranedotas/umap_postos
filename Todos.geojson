@@ -105080,6 +105080,174 @@
 },
 {
   "type": "Feature",
+  "id": "way/1569046318",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "brand": "Powerdot",
+    "brand:wikidata": "Q123574541",
+    "capacity": "12",
+    "charging_station:output": "600 kW",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "operator:wikidata": "Q123574541",
+    "parking:fee": "no",
+    "phone": "+351 800 180 292",
+    "ref": "VCT-?????",
+    "id": "way/1569046318"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -8.7785614,
+          41.6808845
+        ],
+        [
+          -8.7782575,
+          41.6808845
+        ],
+        [
+          -8.7782575,
+          41.6809299
+        ],
+        [
+          -8.7782115,
+          41.6809298
+        ],
+        [
+          -8.7782115,
+          41.6808844
+        ],
+        [
+          -8.7781507,
+          41.6808844
+        ],
+        [
+          -8.7781507,
+          41.680939
+        ],
+        [
+          -8.7785614,
+          41.680939
+        ],
+        [
+          -8.7785614,
+          41.6808845
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1569075009",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "6",
+    "charging_station:output": "900 kW",
+    "email": "suporte@chargingtogether.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "STR-?????",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "phone": "+351 800 917 576",
+    "ref": "STR-?????",
+    "id": "way/1569075009"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -8.70141,
+          39.2575105
+        ],
+        [
+          -8.7012708,
+          39.2576263
+        ],
+        [
+          -8.7013129,
+          39.2576566
+        ],
+        [
+          -8.7014521,
+          39.2575408
+        ],
+        [
+          -8.70141,
+          39.2575105
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1569075654",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "brand": "Powerdot",
+    "brand:wikidata": "Q123574541",
+    "capacity": "2",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "VCT-00062",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "operator:wikidata": "Q123574541",
+    "parking:fee": "no",
+    "phone": "+351 800 180 292",
+    "ref": "VCT-00062",
+    "id": "way/1569075654"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -8.7781176,
+          41.680885
+        ],
+        [
+          -8.7780568,
+          41.680885
+        ],
+        [
+          -8.7780568,
+          41.68094
+        ],
+        [
+          -8.7781176,
+          41.68094
+        ],
+        [
+          -8.7781176,
+          41.680885
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/966120777",
   "properties": {
     "access": "yes",
@@ -119653,12 +119821,12 @@
   "properties": {
     "access": "yes",
     "addr:city": "Beja",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Galp electric",
     "brand:wikidata": "Q135275372",
     "capacity": "2",
+    "disused:amenity": "charging_station",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
     "manufacturer": "Efacec",
@@ -422919,7 +423087,6 @@
   "id": "node/12787941429",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -422928,9 +423095,9 @@
     "capacity": "2",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VCT-00062",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Powerdot",
@@ -422947,14 +423114,13 @@
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
     "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt/",
     "id": "node/12787941429"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.7780731,
-      41.68093
+      -8.7780872,
+      41.680937
     ]
   }
 },
@@ -550947,12 +551113,12 @@
   "id": "node/13854087416",
   "properties": {
     "access": "yes",
+    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Renewing",
     "capacity": "2",
     "charging_station:output": "120 kW",
-    "construction:amenity": "charging_station",
     "email": "renewing.charging@mota-engil.pt",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -597508,6 +597674,7 @@
     "charge_point:output": "200 kW",
     "email": "support.portugal@atlante.energy",
     "fee": "yes",
+    "fixme": "Verificar se aceita pagamento com cartão bancário",
     "man_made": "charge_point",
     "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
@@ -599451,10 +599618,10 @@
     "brand:wikidata": "Q123574541",
     "capacity": "2",
     "charge_point:output": "222 kW",
-    "construction:man_made": "charge_point",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
     "fixme": "Move para as coordenadas exactas",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -599625,12 +599792,12 @@
   "id": "node/14291329390",
   "properties": {
     "access": "yes",
+    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "leve",
     "brand:wikidata": "Q30256831",
     "capacity": "2",
-    "construction:amenity": "charging_station",
     "email": "opc@emel.pt",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -599751,6 +599918,411 @@
     "coordinates": [
       -8.8581943,
       38.5371182
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14292551653",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Powerdot",
+    "brand:wikidata": "Q123574541",
+    "capacity": "2",
+    "charge_point:output": "200 kW",
+    "construction:man_made": "charge_point",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "manufacturer": "i-charging",
+    "maxstay": "unlimited",
+    "model": "blueberry PLUS",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "operator:wikidata": "Q123574541",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 180 292",
+    "ref": "VCT-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "300",
+    "socket:type2_combo:output": "200 kW",
+    "socket:type2_combo:voltage": "1000",
+    "id": "node/14292551653"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.7781811,
+      41.6809358
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14292551654",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Powerdot",
+    "brand:wikidata": "Q123574541",
+    "capacity": "2",
+    "charge_point:output": "200 kW",
+    "construction:man_made": "charge_point",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "manufacturer": "i-charging",
+    "maxstay": "unlimited",
+    "model": "blueberry PLUS",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "operator:wikidata": "Q123574541",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 180 292",
+    "ref": "VCT-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "300",
+    "socket:type2_combo:output": "200 kW",
+    "socket:type2_combo:voltage": "1000",
+    "id": "node/14292551654"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.7782887,
+      41.6809353
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14292551655",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Powerdot",
+    "brand:wikidata": "Q123574541",
+    "capacity": "2",
+    "charge_point:output": "200 kW",
+    "construction:man_made": "charge_point",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "manufacturer": "i-charging",
+    "maxstay": "unlimited",
+    "model": "blueberry PLUS",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "operator:wikidata": "Q123574541",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 180 292",
+    "ref": "VCT-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "300",
+    "socket:type2_combo:output": "200 kW",
+    "socket:type2_combo:voltage": "1000",
+    "id": "node/14292551655"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.7783488,
+      41.680935
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14292551656",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Powerdot",
+    "brand:wikidata": "Q123574541",
+    "capacity": "2",
+    "charge_point:output": "200 kW",
+    "construction:man_made": "charge_point",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "manufacturer": "i-charging",
+    "maxstay": "unlimited",
+    "model": "blueberry PLUS",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "operator:wikidata": "Q123574541",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 180 292",
+    "ref": "VCT-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "300",
+    "socket:type2_combo:output": "200 kW",
+    "socket:type2_combo:voltage": "1000",
+    "id": "node/14292551656"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.7784098,
+      41.6809347
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14292551657",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Powerdot",
+    "brand:wikidata": "Q123574541",
+    "capacity": "2",
+    "charge_point:output": "200 kW",
+    "construction:man_made": "charge_point",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "manufacturer": "i-charging",
+    "maxstay": "unlimited",
+    "model": "blueberry PLUS",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "operator:wikidata": "Q123574541",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 180 292",
+    "ref": "VCT-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "300",
+    "socket:type2_combo:output": "200 kW",
+    "socket:type2_combo:voltage": "1000",
+    "id": "node/14292551657"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.7784698,
+      41.6809344
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14292551686",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Powerdot",
+    "brand:wikidata": "Q123574541",
+    "capacity": "2",
+    "charge_point:output": "200 kW",
+    "construction:man_made": "charge_point",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "manufacturer": "i-charging",
+    "maxstay": "unlimited",
+    "model": "blueberry PLUS",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "operator:wikidata": "Q123574541",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 180 292",
+    "ref": "VCT-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "300",
+    "socket:type2_combo:output": "200 kW",
+    "socket:type2_combo:voltage": "1000",
+    "id": "node/14292551686"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.7785308,
+      41.6809341
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14292877706",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "charge_point:output": "300 kW",
+    "construction:man_made": "charge_point",
+    "email": "suporte@chargingtogether.pt",
+    "fee": "yes",
+    "manufacturer": "Alpitronic",
+    "maxstay": "unlimited",
+    "model": "HYC_300",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "STR-?????",
+    "socket:chademo": "1",
+    "socket:chademo:current": "200",
+    "socket:chademo:output": "80 kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "300 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/14292877706"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.7013335,
+      39.2576358
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14292877707",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "charge_point:output": "300 kW",
+    "construction:man_made": "charge_point",
+    "email": "suporte@chargingtogether.pt",
+    "fee": "yes",
+    "manufacturer": "Alpitronic",
+    "maxstay": "unlimited",
+    "model": "HYC_300",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "STR-?????",
+    "socket:chademo": "1",
+    "socket:chademo:current": "200",
+    "socket:chademo:output": "80 kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "300 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/14292877707"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.7013801,
+      39.2575969
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14292877708",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Iberdrola bp pulse",
+    "capacity": "2",
+    "charge_point:output": "300 kW",
+    "construction:man_made": "charge_point",
+    "email": "suporte@chargingtogether.pt",
+    "fee": "yes",
+    "manufacturer": "Alpitronic",
+    "maxstay": "unlimited",
+    "model": "HYC_300",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Charging Together",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 917 576",
+    "ref": "STR-?????",
+    "socket:chademo": "1",
+    "socket:chademo:current": "200",
+    "socket:chademo:output": "80 kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "300 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/",
+    "id": "node/14292877708"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.701426,
+      39.2575587
     ]
   }
 }
