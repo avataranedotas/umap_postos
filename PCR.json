@@ -12758,53 +12758,6 @@
 },
 {
   "type": "node",
-  "id": 8232546962,
-  "lat": 38.6358659,
-  "lon": -8.8991444,
-  "tags": {
-    "access": "yes",
-    "addr:city": "Pinhal Novo",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Powerdot",
-    "brand:wikidata": "Q123574541",
-    "capacity": "2",
-    "charge_point:output": "93 kW",
-    "email": "ajuda@powerdot.pt",
-    "fee": "yes",
-    "man_made": "charge_point",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Powerdot",
-    "operator:wikidata": "Q123574541",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 180 292",
-    "ref": "PLM-00006",
-    "ref:EU:EVSE": "PT*HRZ*E*PLM*00006*01;PT*HRZ*E*PLM*00006*02;PT*HRZ*E*PLM*00006*03",
-    "socket:chademo": "1",
-    "socket:chademo:current": "120",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_cable": "1",
-    "socket:type2_cable:current": "63",
-    "socket:type2_cable:output": "43 kW",
-    "socket:type2_cable:voltage": "400",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "125",
-    "socket:type2_combo:output": "50 kW",
-    "socket:type2_combo:voltage": "500",
-    "website": "https://www.mobie.pt"
-  }
-},
-{
-  "type": "node",
   "id": 8232554200,
   "lat": 38.6263891,
   "lon": -9.1109675,
@@ -23755,6 +23708,8 @@
     "charge_point:output": "25 kW",
     "email": "renewing.charging@mota-engil.pt",
     "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
     "man_made": "charge_point",
     "manufacturer": "ABB",
     "maxstay": "unlimited",
@@ -23779,8 +23734,7 @@
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "60",
     "socket:type2_combo:output": "25 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt"
+    "socket:type2_combo:voltage": "1000"
   }
 },
 {
@@ -27279,7 +27233,9 @@
     "charge_point:output": "82 kW",
     "fee": "yes",
     "man_made": "charge_point",
+    "manufacturer": "Volt-E",
     "maxstay": "unlimited",
+    "model": "ST36STAT",
     "motorcar": "yes",
     "network": "Mobi.E",
     "old_ref": "SNT-00060",
@@ -27296,10 +27252,10 @@
     "socket:chademo:current": "125",
     "socket:chademo:output": "50 kW",
     "socket:chademo:voltage": "500",
-    "socket:type2_cable": "1",
-    "socket:type2_cable:current": "32",
-    "socket:type2_cable:output": "22 kW",
-    "socket:type2_cable:voltage": "400",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "125",
     "socket:type2_combo:output": "60 kW",
@@ -27321,7 +27277,9 @@
     "email": "support@enable-mobility.com",
     "fee": "yes",
     "man_made": "charge_point",
+    "manufacturer": "Efacec",
     "maxstay": "unlimited",
+    "model": "QC45",
     "motorcar": "yes",
     "network": "Mobi.E",
     "old_ref": "SNT-00058;SNT-00190",
@@ -30852,8 +30810,8 @@
     "socket:chademo:output": "50 kW",
     "socket:chademo:voltage": "500",
     "socket:type2_cable": "1",
-    "socket:type2_cable:current": "63",
-    "socket:type2_cable:output": "43 kW",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
     "socket:type2_cable:voltage": "400",
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "125",
@@ -34663,7 +34621,9 @@
     "charging_station:output": "82 kW",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
+    "manufacturer": "Ekoenergetyka",
     "maxstay": "unlimited",
+    "model": "Axon Easy 60",
     "motorcar": "yes",
     "name": "SXL-00022",
     "network": "Mobi.E",
@@ -34682,10 +34642,10 @@
     "socket:chademo:current": "120",
     "socket:chademo:output": "40 kW",
     "socket:chademo:voltage": "500",
-    "socket:type2_cable": "1",
-    "socket:type2_cable:current": "16",
-    "socket:type2_cable:output": "11 kW",
-    "socket:type2_cable:voltage": "400",
+    "socket:type2": "1",
+    "socket:type2:current": "16",
+    "socket:type2:output": "11 kW",
+    "socket:type2:voltage": "400",
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "125",
     "socket:type2_combo:output": "60 kW",
@@ -46761,10 +46721,12 @@
     "brand": "Atlante",
     "brand:wikidata": "Q126913632",
     "capacity": "2",
-    "charging_station:output": "82 kW",
+    "charging_station:output": "72 kW",
     "email": "support.portugal@atlante.energy",
     "fee": "yes",
+    "manufacturer": "ABB",
     "maxstay": "unlimited",
+    "model": "Terra 54",
     "motorcar": "yes",
     "name": "EVR-00038",
     "network": "Mobi.E",
@@ -46790,7 +46752,7 @@
     "socket:type2_cable:voltage": "400",
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "125",
-    "socket:type2_combo:output": "60 kW",
+    "socket:type2_combo:output": "50 kW",
     "socket:type2_combo:voltage": "500",
     "website": "https://www.mobie.pt/"
   }
@@ -50060,7 +50022,9 @@
     "charge_point:output": "30 kW",
     "fee": "yes",
     "man_made": "charge_point",
+    "manufacturer": "Volt-E",
     "maxstay": "unlimited",
+    "model": "ST30STAT",
     "motorcar": "yes",
     "network": "Mobi.E",
     "old_ref": "SNT-00058",
@@ -50098,7 +50062,9 @@
     "email": "support@enable-mobility.com",
     "fee": "yes",
     "man_made": "charge_point",
+    "manufacturer": "Efacec",
     "maxstay": "unlimited",
+    "model": "QC45",
     "motorcar": "yes",
     "network": "Mobi.E",
     "old_ref": "SNT-00058;SNT-00191",
@@ -50139,7 +50105,9 @@
     "charge_point:output": "120 kW",
     "fee": "yes",
     "man_made": "charge_point",
+    "manufacturer": "Volt-E",
     "maxstay": "unlimited",
+    "model": "ST12STAT",
     "motorcar": "yes",
     "network": "Mobi.E",
     "old_ref": "SNT-00059",
@@ -51323,7 +51291,7 @@
     "socket:type2_cable:output": "22 kW",
     "socket:type2_cable:voltage": "400",
     "socket:type2_combo": "1",
-    "socket:type2_combo:current": "125",
+    "socket:type2_combo:current": "150",
     "socket:type2_combo:output": "60 kW",
     "socket:type2_combo:voltage": "500",
     "website": "https://www.mobie.pt"
@@ -65450,7 +65418,7 @@
     "socket:type2_cable:output": "22 kW",
     "socket:type2_cable:voltage": "400",
     "socket:type2_combo": "1",
-    "socket:type2_combo:current": "125",
+    "socket:type2_combo:current": "150",
     "socket:type2_combo:output": "60 kW",
     "socket:type2_combo:voltage": "500",
     "website": "https://www.mobie.pt/"
@@ -65887,6 +65855,7 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
+    "phone": "+351 912 872 459",
     "ref": "CVL-00021",
     "ref:EU:EVSE": "PT*DTE*E*CVL*00021*01;PT*DTE*E*CVL*00021*02;PT*DTE*E*CVL*00021*03",
     "socket:chademo": "1",
@@ -65898,10 +65867,10 @@
     "socket:type2_cable:output": "22 kW",
     "socket:type2_cable:voltage": "400",
     "socket:type2_combo": "1",
-    "socket:type2_combo:current": "150",
+    "socket:type2_combo:current": "125",
     "socket:type2_combo:output": "60 kW",
     "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt"
+    "website": "https://dte.pt/"
   }
 },
 {
@@ -66206,6 +66175,7 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
+    "phone": "+351 912 872 459",
     "ref": "CVL-00020",
     "ref:EU:EVSE": "PT*DTE*E*CVL*00020*01;PT*DTE*E*CVL*00020*02;PT*DTE*E*CVL*00020*03",
     "socket:chademo": "1",
@@ -66217,10 +66187,10 @@
     "socket:type2_cable:output": "22 kW",
     "socket:type2_cable:voltage": "400",
     "socket:type2_combo": "1",
-    "socket:type2_combo:current": "150",
+    "socket:type2_combo:current": "125",
     "socket:type2_combo:output": "60 kW",
     "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt"
+    "website": "https://dte.pt/"
   }
 },
 {
@@ -71065,6 +71035,7 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
+    "phone": "+351 912 872 459",
     "ref": "CVL-00023",
     "ref:EU:EVSE": "PT*DTE*E*CVL*00023*01;PT*DTE*E*CVL*00023*02;PT*DTE*E*CVL*00023*03",
     "socket:chademo": "1",
@@ -71076,10 +71047,10 @@
     "socket:type2_cable:output": "22 kW",
     "socket:type2_cable:voltage": "400",
     "socket:type2_combo": "1",
-    "socket:type2_combo:current": "150",
+    "socket:type2_combo:current": "125",
     "socket:type2_combo:output": "60 kW",
     "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/"
+    "website": "https://dte.pt/"
   }
 },
 {
@@ -71939,6 +71910,7 @@
   "tags": {
     "access": "yes",
     "amenity": "charging_station",
+    "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "e-flow",
@@ -71957,6 +71929,7 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
+    "phone": "+351 912 872 459",
     "ref": "CVL-00047",
     "ref:EU:EVSE": "PT*DTE*E*CVL*00047*01;PT*DTE*E*CVL*00047*02;PT*DTE*E*CVL*00047*03",
     "socket:chademo": "1",
@@ -71971,7 +71944,7 @@
     "socket:type2_combo:current": "125",
     "socket:type2_combo:output": "60 kW",
     "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/"
+    "website": "https://dte.pt/"
   }
 },
 {
@@ -73982,7 +73955,9 @@
     "capacity": "2",
     "charging_station:output": "82 kW",
     "fee": "yes",
+    "manufacturer": "Starcharge",
     "maxstay": "unlimited",
+    "model": "Jupiter V3",
     "motorcar": "yes",
     "name": "CDR-00002",
     "network": "Mobi.E",
@@ -73997,10 +73972,10 @@
     "phone": "+351 800 222 222",
     "ref": "CDR-00002",
     "ref:EU:EVSE": "PT*EDP*ECDR*00002*1;PT*EDP*ECDR*00002*2;PT*EDP*ECDR*00002*3",
-    "socket:type2_cable": "1",
-    "socket:type2_cable:current": "32",
-    "socket:type2_cable:output": "22 kW",
-    "socket:type2_cable:voltage": "400",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "200",
     "socket:type2_combo:output": "60 kW",
@@ -76499,12 +76474,15 @@
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
+    "bicycle": "no",
     "brand": "e-flow",
     "capacity": "2",
     "charging_station:output": "82 kW",
     "email": "geral@dte.pt",
     "fee": "yes",
+    "manufacturer": "Hellonext",
     "maxstay": "unlimited",
+    "model": "H2 60",
     "motorcar": "yes",
     "name": "ILH-00018",
     "network": "Mobi.E",
@@ -76526,10 +76504,9 @@
     "socket:type2_cable:output": "22 kW",
     "socket:type2_cable:voltage": "400",
     "socket:type2_combo": "1",
-    "socket:type2_combo:current": "150",
+    "socket:type2_combo:current": "125",
     "socket:type2_combo:output": "60 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt"
+    "socket:type2_combo:voltage": "1000"
   }
 },
 {
@@ -77489,7 +77466,9 @@
     "charging_station:output": "82 kW",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "manufacturer": "Volt-E",
     "maxstay": "unlimited",
+    "model": "ST36STAT",
     "motorcar": "yes",
     "name": "OBR-00011",
     "network": "Mobi.E",
@@ -77515,8 +77494,7 @@
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "150",
     "socket:type2_combo:output": "60 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt"
+    "socket:type2_combo:voltage": "500"
   }
 },
 {
@@ -87381,7 +87359,9 @@
     "charging_station:output": "82 kW",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "manufacturer": "Volt-E",
     "maxstay": "unlimited",
+    "model": "ST36STAT",
     "motorcar": "yes",
     "name": "OBR-00014",
     "network": "Mobi.E",
@@ -87407,8 +87387,7 @@
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "150",
     "socket:type2_combo:output": "60 kW",
-    "socket:type2_combo:voltage": "500",
-    "website": "https://www.mobie.pt/"
+    "socket:type2_combo:voltage": "500"
   }
 },
 {
@@ -88587,6 +88566,8 @@
     "charge_point:output": "25 kW",
     "email": "renewing.charging@mota-engil.pt",
     "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
     "man_made": "charge_point",
     "manufacturer": "ABB",
     "maxstay": "unlimited",
@@ -88611,8 +88592,7 @@
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "60",
     "socket:type2_combo:output": "25 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt"
+    "socket:type2_combo:voltage": "1000"
   }
 },
 {
@@ -88703,14 +88683,18 @@
   "tags": {
     "access": "yes",
     "amenity": "charging_station",
+    "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "bicycle": "no",
     "brand": "e-flow",
     "capacity": "2",
     "charging_station:output": "82 kW",
+    "email": "geral@dte.pt",
     "fee": "yes",
+    "manufacturer": "Hellonext",
     "maxstay": "unlimited",
+    "model": "H2 60",
     "motorcar": "yes",
     "name": "ILH-00022",
     "network": "Mobi.E",
@@ -88734,8 +88718,7 @@
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "125",
     "socket:type2_combo:output": "60 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/"
+    "socket:type2_combo:voltage": "1000"
   }
 },
 {
@@ -89802,6 +89785,7 @@
     "payment:membership_card": "no",
     "phone": "+351 210 19 19 19",
     "ref": "0239PR0003",
+    "ref:EU:EVSE": "PT*CNT*E0239PR0003*1;PT*CNT*E0239PR0003*2;PT*CNT*E0239PR0003*3",
     "socket:chademo": "1",
     "socket:chademo:current": "120",
     "socket:chademo:output": "50 kW",
@@ -91525,6 +91509,7 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
+    "phone": "+351 912 872 459",
     "ref": "CVL-00042",
     "ref:EU:EVSE": "PT*DTE*E*CVL*00042*01;PT*DTE*E*CVL*00042*02;PT*DTE*E*CVL*00042*03",
     "socket:chademo": "1",
@@ -91539,7 +91524,7 @@
     "socket:type2_combo:current": "125",
     "socket:type2_combo:output": "60 kW",
     "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/"
+    "website": "https://dte.pt/"
   }
 },
 {
@@ -91735,7 +91720,9 @@
     "charging_station:output": "82 kW",
     "email": "geral@dte.pt",
     "fee": "yes",
+    "manufacturer": "Hellonext",
     "maxstay": "unlimited",
+    "model": "H2 60",
     "motorcar": "yes",
     "name": "ILH-00028",
     "network": "Mobi.E",
@@ -91757,10 +91744,9 @@
     "socket:type2_cable:output": "22 kW",
     "socket:type2_cable:voltage": "400",
     "socket:type2_combo": "1",
-    "socket:type2_combo:current": "150",
+    "socket:type2_combo:current": "125",
     "socket:type2_combo:output": "60 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt"
+    "socket:type2_combo:voltage": "1000"
   }
 },
 {
@@ -91774,12 +91760,15 @@
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
+    "bicycle": "no",
     "brand": "e-flow",
     "capacity": "2",
     "charging_station:output": "82 kW",
     "email": "geral@dte.pt",
     "fee": "yes",
+    "manufacturer": "Hellonext",
     "maxstay": "unlimited",
+    "model": "H2 60",
     "motorcar": "yes",
     "name": "ILH-00027",
     "network": "Mobi.E",
@@ -91801,10 +91790,9 @@
     "socket:type2_cable:output": "22 kW",
     "socket:type2_cable:voltage": "400",
     "socket:type2_combo": "1",
-    "socket:type2_combo:current": "150",
+    "socket:type2_combo:current": "125",
     "socket:type2_combo:output": "60 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt"
+    "socket:type2_combo:voltage": "1000"
   }
 },
 {
@@ -91818,12 +91806,15 @@
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
+    "bicycle": "no",
     "brand": "e-flow",
     "capacity": "2",
     "charging_station:output": "82 kW",
     "email": "geral@dte.pt",
     "fee": "yes",
+    "manufacturer": "Hellonext",
     "maxstay": "unlimited",
+    "model": "H2 60",
     "motorcar": "yes",
     "name": "ILH-00026",
     "network": "Mobi.E",
@@ -91845,10 +91836,9 @@
     "socket:type2_cable:output": "22 kW",
     "socket:type2_cable:voltage": "400",
     "socket:type2_combo": "1",
-    "socket:type2_combo:current": "150",
+    "socket:type2_combo:current": "125",
     "socket:type2_combo:output": "60 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt"
+    "socket:type2_combo:voltage": "1000"
   }
 },
 {
@@ -91862,12 +91852,15 @@
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
+    "bicycle": "no",
     "brand": "e-flow",
     "capacity": "2",
     "charging_station:output": "82 kW",
     "email": "geral@dte.pt",
     "fee": "yes",
+    "manufacturer": "Hellonext",
     "maxstay": "unlimited",
+    "model": "H2 60",
     "motorcar": "yes",
     "name": "ILH-00024",
     "network": "Mobi.E",
@@ -91889,10 +91882,9 @@
     "socket:type2_cable:output": "22 kW",
     "socket:type2_cable:voltage": "400",
     "socket:type2_combo": "1",
-    "socket:type2_combo:current": "150",
+    "socket:type2_combo:current": "125",
     "socket:type2_combo:output": "60 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt"
+    "socket:type2_combo:voltage": "1000"
   }
 },
 {
@@ -91912,7 +91904,9 @@
     "charging_station:output": "82 kW",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "manufacturer": "Volt-E",
     "maxstay": "unlimited",
+    "model": "ST36STAT",
     "motorcar": "yes",
     "name": "OBR-00010",
     "network": "Mobi.E",
@@ -91938,8 +91932,7 @@
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "150",
     "socket:type2_combo:output": "60 kW",
-    "socket:type2_combo:voltage": "500",
-    "website": "https://www.mobie.pt"
+    "socket:type2_combo:voltage": "500"
   }
 },
 {
@@ -92014,6 +92007,7 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
+    "phone": "+351 912 872 459",
     "ref": "CVL-00036",
     "ref:EU:EVSE": "PT*DTE*E*CVL*00036*01;PT*DTE*E*CVL*00036*02;PT*DTE*E*CVL*00036*03",
     "socket:chademo": "1",
@@ -92028,7 +92022,7 @@
     "socket:type2_combo:current": "125",
     "socket:type2_combo:output": "60 kW",
     "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/"
+    "website": "https://dte.pt/"
   }
 },
 {
@@ -92058,6 +92052,7 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
+    "phone": "+351 912 872 459",
     "ref": "CVL-00037",
     "ref:EU:EVSE": "PT*DTE*E*CVL*00037*01;PT*DTE*E*CVL*00037*02;PT*DTE*E*CVL*00037*03",
     "socket:chademo": "1",
@@ -92072,7 +92067,7 @@
     "socket:type2_combo:current": "125",
     "socket:type2_combo:output": "60 kW",
     "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/"
+    "website": "https://dte.pt/"
   }
 },
 {
@@ -92102,6 +92097,7 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
+    "phone": "+351 912 872 459",
     "ref": "CVL-00044",
     "ref:EU:EVSE": "PT*DTE*E*CVL*00044*01;PT*DTE*E*CVL*00044*02;PT*DTE*E*CVL*00044*03",
     "socket:chademo": "1",
@@ -92116,7 +92112,7 @@
     "socket:type2_combo:current": "125",
     "socket:type2_combo:output": "60 kW",
     "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/"
+    "website": "https://dte.pt/"
   }
 },
 {
@@ -92146,6 +92142,7 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
+    "phone": "+351 912 872 459",
     "ref": "CVL-00045",
     "ref:EU:EVSE": "PT*DTE*E*CVL*00045*01;PT*DTE*E*CVL*00045*02;PT*DTE*E*CVL*00045*03",
     "socket:chademo": "1",
@@ -92160,7 +92157,7 @@
     "socket:type2_combo:current": "125",
     "socket:type2_combo:output": "60 kW",
     "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/"
+    "website": "https://dte.pt/"
   }
 },
 {
@@ -92190,6 +92187,7 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
+    "phone": "+351 912 872 459",
     "ref": "CVL-00046",
     "ref:EU:EVSE": "PT*DTE*E*CVL*00046*01;PT*DTE*E*CVL*00046*02;PT*DTE*E*CVL*00046*03",
     "socket:chademo": "1",
@@ -92204,7 +92202,7 @@
     "socket:type2_combo:current": "125",
     "socket:type2_combo:output": "60 kW",
     "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/"
+    "website": "https://dte.pt/"
   }
 },
 {
@@ -99519,6 +99517,7 @@
     "email": "ev_portugal@maksu.com",
     "fee": "yes",
     "level": "-1",
+    "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -99538,8 +99537,7 @@
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "150",
     "socket:type2_combo:output": "30 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/"
+    "socket:type2_combo:voltage": "1000"
   }
 },
 {
@@ -99601,7 +99599,9 @@
     "charging_station:output": "82 kW",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "manufacturer": "Volt-E",
     "maxstay": "unlimited",
+    "model": "ST36STAT",
     "motorcar": "yes",
     "name": "OBR-00012",
     "network": "Mobi.E",
@@ -99617,8 +99617,8 @@
     "ref": "OBR-00012",
     "ref:EU:EVSE": "PT*GLP*EOBR*00012*01;PT*GLP*EOBR*00012*02;PT*GLP*EOBR*00012*03",
     "socket:chademo": "1",
-    "socket:chademo:current": "150",
-    "socket:chademo:output": "60 kW",
+    "socket:chademo:current": "125",
+    "socket:chademo:output": "50 kW",
     "socket:chademo:voltage": "500",
     "socket:type2_cable": "1",
     "socket:type2_cable:current": "32",
@@ -99627,8 +99627,7 @@
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "150",
     "socket:type2_combo:output": "60 kW",
-    "socket:type2_combo:voltage": "500",
-    "website": "https://www.mobie.pt/"
+    "socket:type2_combo:voltage": "500"
   }
 },
 {
@@ -105543,8 +105542,8 @@
 {
   "type": "node",
   "id": 13339523334,
-  "lat": 41.0942322,
-  "lon": -7.8113655,
+  "lat": 41.0941999,
+  "lon": -7.8114735,
   "tags": {
     "access": "yes",
     "amenity": "charging_station",
@@ -105555,8 +105554,9 @@
     "capacity": "2",
     "charging_station:output": "82 kW",
     "fee": "yes",
-    "fixme": "Move to correct location",
+    "manufacturer": "Starcharge",
     "maxstay": "unlimited",
+    "model": "Jupiter V3",
     "motorcar": "yes",
     "name": "LMG-00024",
     "network": "Mobi.E",
@@ -105571,15 +105571,14 @@
     "phone": "+351 800 222 222",
     "ref": "LMG-00024",
     "ref:EU:EVSE": "PT*EDP*ELMG*00024*1;PT*EDP*ELMG*00024*2;PT*EDP*ELMG*00024*3",
-    "socket:type2_cable": "1",
-    "socket:type2_cable:current": "32",
-    "socket:type2_cable:output": "22 kW",
-    "socket:type2_cable:voltage": "400",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "120",
+    "socket:type2_combo:current": "200",
     "socket:type2_combo:output": "60 kW",
-    "socket:type2_combo:voltage": "500",
-    "website": "https://www.mobie.pt/"
+    "socket:type2_combo:voltage": "1000"
   }
 },
 {
@@ -107886,6 +107885,7 @@
   "tags": {
     "access": "yes",
     "amenity": "charging_station",
+    "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "e-flow",
@@ -107919,7 +107919,7 @@
     "socket:type2_combo:current": "125",
     "socket:type2_combo:output": "60 kW",
     "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/"
+    "website": "https://dte.pt/"
   }
 },
 {
@@ -110736,6 +110736,7 @@
   "tags": {
     "access": "yes",
     "amenity": "charging_station",
+    "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "e-flow",
@@ -110769,7 +110770,7 @@
     "socket:type2_combo:current": "125",
     "socket:type2_combo:output": "60 kW",
     "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/"
+    "website": "https://dte.pt/"
   }
 },
 {
@@ -115431,10 +115432,10 @@
     "phone": "+351 800 222 222",
     "ref": "ALM-00174",
     "ref:EU:EVSE": "PT*EDP*EALM*00174*1;PT*EDP*EALM*00174*2;PT*EDP*EALM*00174*3",
-    "socket:type2_cable": "1",
-    "socket:type2_cable:current": "32",
-    "socket:type2_cable:output": "22 kW",
-    "socket:type2_cable:voltage": "400",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "200",
     "socket:type2_combo:output": "60 kW",
@@ -118063,10 +118064,9 @@
     "socket:type2_cable:output": "22 kW",
     "socket:type2_cable:voltage": "400",
     "socket:type2_combo": "1",
-    "socket:type2_combo:current": "150",
+    "socket:type2_combo:current": "125",
     "socket:type2_combo:output": "60 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt"
+    "socket:type2_combo:voltage": "1000"
   }
 },
 {
@@ -118205,10 +118205,12 @@
   "tags": {
     "access": "yes",
     "amenity": "charging_station",
+    "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "e-flow",
     "capacity": "2",
+    "charging_station:output": "82 kW",
     "email": "geral@dte.pt",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -118234,7 +118236,7 @@
     "socket:type2_cable:output": "22 kW",
     "socket:type2_cable:voltage": "400",
     "socket:type2_combo": "1",
-    "socket:type2_combo:current": "150",
+    "socket:type2_combo:current": "125",
     "socket:type2_combo:output": "60 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://dte.pt/"
