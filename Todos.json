@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-10-23T05:40:01Z",
-    "timestamp_areas_base": "2026-10-23T02:05:05Z",
+    "timestamp_osm_base": "2026-10-23T17:46:56Z",
+    "timestamp_areas_base": "2026-10-23T13:28:51Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -5890,13 +5890,13 @@
   "lon": -9.0168784,
   "tags": {
     "access": "yes",
+    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Atlante",
     "brand:wikidata": "Q126913632",
     "capacity": "2",
-    "disused:amenity": "charging_station",
     "email": "support.portugal@atlante.energy",
     "fee": "yes",
     "manufacturer": "Efacec",
@@ -40905,7 +40905,7 @@
     "brand": "Galp electric",
     "brand:wikidata": "Q135275372",
     "capacity": "2",
-    "charging_station:output": "93 kW",
+    "charging_station:output": "200 kW",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
     "fixme": "Verificar qual o modelo do posto na chapa de características",
@@ -80140,6 +80140,7 @@
   "lon": -9.3422964,
   "tags": {
     "access": "yes",
+    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -80147,7 +80148,6 @@
     "brand:wikidata": "Q1341222",
     "capacity": "2",
     "charging_station:output": "142 kW",
-    "disused:amenity": "charging_station",
     "fee": "yes",
     "manufacturer": "Efacec",
     "maxstay": "unlimited",
@@ -101028,10 +101028,11 @@
 {
   "type": "node",
   "id": 9848304990,
-  "lat": 38.7031450,
-  "lon": -9.4425943,
+  "lat": 38.7031372,
+  "lon": -9.4425963,
   "tags": {
     "access": "yes",
+    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -101039,10 +101040,11 @@
     "brand:wikidata": "Q151954",
     "capacity": "2",
     "charging_station:output": "72 kW",
-    "disused:amenity": "charging_station",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "manufacturer": "ABB",
     "maxstay": "unlimited",
+    "model": "Terra 54",
     "motorcar": "yes",
     "name": "CSC-00414",
     "network": "Mobi.E",
@@ -232692,10 +232694,12 @@
     "brand:wikidata": "Q135275372",
     "capacity": "2",
     "charge_point:output": "180 kW",
-    "disused:man_made": "charge_point",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "man_made": "charge_point",
+    "manufacturer": "Hellonext",
     "maxstay": "unlimited",
+    "model": "H2 180",
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
@@ -379601,12 +379605,12 @@
     "brand:wikidata": "Q123574541",
     "capacity": "2",
     "charge_point:output": "400 kW",
-    "disused:man_made": "charge_point",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
     "indoor": "yes",
     "level": "1",
     "location": "underground",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -384448,12 +384452,12 @@
   "lon": -9.3610905,
   "tags": {
     "access": "yes",
+    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Renewing",
     "capacity": "2",
     "charging_station:output": "120 kW",
-    "construction:amenity": "charging_station",
     "email": "renewing.charging@mota-engil.pt",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -417107,8 +417111,8 @@
 {
   "type": "node",
   "id": 14135071279,
-  "lat": 41.3426283,
-  "lon": -8.4785564,
+  "lat": 41.3432900,
+  "lon": -8.4768462,
   "tags": {
     "access": "yes",
     "authentication:app": "yes",
@@ -417120,6 +417124,7 @@
     "charge_point:output": "120 kW",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "fixme": "Confirmar os códigos dos postos",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -417144,8 +417149,8 @@
 {
   "type": "node",
   "id": 14135071283,
-  "lat": 41.3426073,
-  "lon": -8.4785059,
+  "lat": 41.3433110,
+  "lon": -8.4768967,
   "tags": {
     "access": "yes",
     "authentication:app": "yes",
@@ -417158,6 +417163,7 @@
     "construction:man_made": "charge_point",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "fixme": "Confirmar os códigos dos postos",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -417181,8 +417187,8 @@
 {
   "type": "node",
   "id": 14135071289,
-  "lat": 41.3433110,
-  "lon": -8.4768965,
+  "lat": 41.3426071,
+  "lon": -8.4785060,
   "tags": {
     "access": "yes",
     "authentication:app": "yes",
@@ -417195,6 +417201,7 @@
     "construction:man_made": "charge_point",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "fixme": "Confirmar os códigos dos postos",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -417217,8 +417224,8 @@
 {
   "type": "node",
   "id": 14135071292,
-  "lat": 41.3432898,
-  "lon": -8.4768461,
+  "lat": 41.3426283,
+  "lon": -8.4785564,
   "tags": {
     "access": "yes",
     "authentication:app": "yes",
@@ -417231,6 +417238,7 @@
     "construction:man_made": "charge_point",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "fixme": "Confirmar os códigos dos postos",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -427696,6 +427704,72 @@
     "socket:type2_cable:current": "32",
     "socket:type2_cable:output": "22 kW",
     "socket:type2_cable:voltage": "400"
+  }
+},
+{
+  "type": "node",
+  "id": 14312110506,
+  "lat": 39.3957989,
+  "lon": -7.3770042,
+  "tags": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "2",
+    "construction:man_made": "charge_point",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "MRV-?????",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400"
+  }
+},
+{
+  "type": "node",
+  "id": 14312110507,
+  "lat": 39.3957608,
+  "lon": -7.3769626,
+  "tags": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "2",
+    "construction:man_made": "charge_point",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "MRV-?????",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400"
   }
 },
 {
@@ -487853,6 +487927,35 @@
   }
 },
 {
+  "type": "way",
+  "id": 1571041734,
+  "nodes": [
+    14312110517,
+    14312110512,
+    14312110505,
+    14312110504,
+    14312110517
+  ],
+  "tags": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "4",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "MRV-?????",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "phone": "+351 800 222 222",
+    "ref": "MRV-?????"
+  }
+},
+{
   "type": "node",
   "id": 12846934581,
   "lat": 38.6611663,
@@ -520632,6 +520735,30 @@
 },
 {
   "type": "node",
+  "id": 14312110504,
+  "lat": 39.3958162,
+  "lon": -7.3770240
+},
+{
+  "type": "node",
+  "id": 14312110505,
+  "lat": 39.3957375,
+  "lon": -7.3769398
+},
+{
+  "type": "node",
+  "id": 14312110512,
+  "lat": 39.3957866,
+  "lon": -7.3769141
+},
+{
+  "type": "node",
+  "id": 14312110517,
+  "lat": 39.3958673,
+  "lon": -7.3769966
+},
+{
+  "type": "node",
   "id": 14170697732,
   "lat": 39.0250379,
   "lon": -7.0622615
@@ -534301,50 +534428,50 @@
 {
   "type": "node",
   "id": 14135071276,
-  "lat": 41.3426386,
-  "lon": -8.4784507
+  "lat": 41.3432797,
+  "lon": -8.4769519
 },
 {
   "type": "node",
   "id": 14135071278,
-  "lat": 41.3425926,
-  "lon": -8.4784847
+  "lat": 41.3433257,
+  "lon": -8.4769179
 },
 {
   "type": "node",
   "id": 14135071282,
-  "lat": 41.3426804,
-  "lon": -8.4785516
+  "lat": 41.3432379,
+  "lon": -8.4768510
 },
 {
   "type": "node",
   "id": 14135071285,
-  "lat": 41.3426344,
-  "lon": -8.4785855
+  "lat": 41.3432839,
+  "lon": -8.4768171
 },
 {
   "type": "node",
   "id": 14135071288,
-  "lat": 41.3432377,
-  "lon": -8.4768511
+  "lat": 41.3426804,
+  "lon": -8.4785514
 },
 {
   "type": "node",
   "id": 14135071291,
-  "lat": 41.3433257,
-  "lon": -8.4769177
+  "lat": 41.3425924,
+  "lon": -8.4784848
 },
 {
   "type": "node",
   "id": 14135071297,
-  "lat": 41.3432798,
-  "lon": -8.4769518
+  "lat": 41.3426383,
+  "lon": -8.4784507
 },
 {
   "type": "node",
   "id": 14135071299,
-  "lat": 41.3432837,
-  "lon": -8.4768170
+  "lat": 41.3426344,
+  "lon": -8.4785855
 },
 {
   "type": "node",
