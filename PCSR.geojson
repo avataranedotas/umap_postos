@@ -668,56 +668,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8223050757",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Oeiras",
-    "addr:street": "Avenida Engenheiro Bonneville Franco",
-    "amenity": "charging_station",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Mobiletric",
-    "capacity": "1",
-    "charging_station:output": "160 kW",
-    "email": "veiculoeletrico@galp.com",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "OER-00037",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Mobiletric",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 249 249",
-    "ref": "OER-00037",
-    "ref:EU:EVSE": "PT*MLT*EOER*00037*01;PT*MLT*EOER*00037*02",
-    "socket:chademo": "1",
-    "socket:chademo:current": "120",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "350",
-    "socket:type2_combo:output": "160 kW",
-    "socket:type2_combo:voltage": "1000",
-    "start_date": "2021-03-21",
-    "website": "https://www.mobie.pt",
-    "id": "node/8223050757"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.3015558,
-      38.6908438
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8223093248",
   "properties": {
     "access": "yes",
@@ -3130,50 +3080,6 @@
     "coordinates": [
       -9.1513441,
       38.6324433
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9920038583",
-  "properties": {
-    "access": "yes",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Galp electric",
-    "brand:wikidata": "Q135275372",
-    "capacity": "2",
-    "charge_point:output": "180 kW",
-    "email": "veiculoeletrico@galp.com",
-    "fee": "yes",
-    "man_made": "charge_point",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Galp Power",
-    "operator:wikidata": "Q135275372",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 249 249",
-    "ref": "SXL-00034",
-    "ref:EU:EVSE": "PT*GLP*ESXL*00034*01;PT*GLP*ESXL*00034*02",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "200",
-    "socket:type2_combo:output": "180 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt",
-    "id": "node/9920038583"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -9.1431421,
-      38.6511689
     ]
   }
 },
@@ -43168,10 +43074,13 @@
     "brand": "telpark",
     "brand:wikidata": "Q124151364",
     "capacity": "2",
+    "charging_station:output": "210 kW",
     "fee": "yes",
     "indoor": "yes",
     "location": "underground",
+    "manufacturer": "XCharge",
     "maxstay": "unlimited",
+    "model": "Net Zero 233",
     "motorcar": "yes",
     "name": "LSB-01456",
     "network": "Mobi.E",
@@ -43749,6 +43658,50 @@
     "coordinates": [
       -8.8581943,
       38.5371182
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14313638775",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "REMO",
+    "capacity": "2",
+    "charge_point:output": "300 kW",
+    "email": "charging@me-remo.com",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "manufacturer": "Alpitronic",
+    "maxstay": "unlimited",
+    "model": "HYC_300",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Mota Engil II",
+    "operator:wikidata": "Q1949595",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 020 940",
+    "ref": "VIS-00131",
+    "ref:EU:EVSE": "PT*MOT*E*VIS*00131*01;PT*MOT*E*VIS*00131*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "300 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://me-remo.com/",
+    "id": "node/14313638775"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.8674431,
+      40.6465669
     ]
   }
 },
