@@ -12835,8 +12835,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6728632,
-      37.1198112
+      -8.6728645,
+      37.1198288
     ]
   }
 },
@@ -16568,9 +16568,10 @@
     "capacity": "2",
     "charge_point:output": "200 kW",
     "fee": "yes",
-    "fixme": "Verificar se aceita pagamento com cartão bancário",
     "man_made": "charge_point",
+    "manufacturer": "Kempower",
     "maxstay": "unlimited",
+    "model": "Station Charger C501",
     "motorcar": "yes",
     "network": "Mobi.E",
     "old_operator": "InstaVolt",
@@ -21280,7 +21281,6 @@
     "charging_station:output": "300 kW",
     "email": "suporte@chargingtogether.pt",
     "fee": "yes",
-    "fixme": "Verificar se aceita pagamento com cartão bancário",
     "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
     "model": "HYC_300",
@@ -21291,7 +21291,7 @@
     "operator": "Charging Together",
     "parking:fee": "no",
     "payment:app": "yes",
-    "payment:cards": "no",
+    "payment:cards": "yes",
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 917 576",
@@ -43749,6 +43749,51 @@
     "coordinates": [
       -8.8581943,
       38.5371182
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14313723824",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Prio",
+    "brand:wikidata": "Q62530421",
+    "capacity": "2",
+    "charging_station:output": "150 kW",
+    "email": "electric@prioenergy.com",
+    "fee": "yes",
+    "manufacturer": "Hellonext",
+    "maxstay": "unlimited",
+    "model": "H2 150",
+    "motorcar": "yes",
+    "name": "VIS-00136",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Prio.E",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 100 303",
+    "ref": "VIS-00136",
+    "ref:EU:EVSE": "PT*PRI*E*VIS*00136*01;PT*PRI*E*VIS*00136*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "300",
+    "socket:type2_combo:output": "150 kW",
+    "socket:type2_combo:voltage": "1000",
+    "id": "node/14313723824"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.9295383,
+      40.693033
     ]
   }
 }
