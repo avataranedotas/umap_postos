@@ -7,7 +7,7 @@ download_json() {
     local url="$2"
     local tmp="${output}.tmp"
     local attempt
-    local max_attempts=3
+    local max_attempts=5
 
     for ((attempt=1; attempt<=max_attempts; attempt++)); do
         echo "A descarregar $output (tentativa $attempt/$max_attempts)..."
