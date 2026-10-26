@@ -10812,6 +10812,7 @@
     "motorcar": "yes",
     "name": "AVT-90001",
     "network": "Mobi.E",
+    "old_ref:EU:EVSE": "PT*EDP*E*AVT*90001*1;PT*EDP*E*AVT*90001*2",
     "opening_hours": "24/7",
     "operator": "EDP",
     "operator:wikidata": "Q1341222",
@@ -10822,7 +10823,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
     "ref": "AVT-90001",
-    "ref:EU:EVSE": "PT*EDP*E*AVT*90001*1;PT*EDP*E*AVT*90001*2",
+    "ref:EU:EVSE": "PT*EDP*EAVT*90001*1;PT*EDP*EAVT*90001*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
@@ -41872,8 +41873,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.1724812,
-      40.167905
+      -7.1721467,
+      40.168113
     ]
   }
 },
@@ -75413,7 +75414,6 @@
     "socket:type2_cable:current": "32",
     "socket:type2_cable:output": "22 kW",
     "socket:type2_cable:voltage": "400",
-    "website": "https://www.mobie.pt/",
     "id": "node/11877520414"
   },
   "geometry": {
@@ -107797,7 +107797,6 @@
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
     "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt/",
     "id": "node/12591315534"
   },
   "geometry": {
@@ -107842,7 +107841,6 @@
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
     "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt/",
     "id": "node/12591315535"
   },
   "geometry": {
@@ -107887,7 +107885,6 @@
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
     "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt/",
     "id": "node/12591315536"
   },
   "geometry": {
@@ -115865,10 +115862,10 @@
     "phone": "+351 234 661 194",
     "ref": "AND-00024",
     "ref:EU:EVSE": "PT*ALF*E*AND*00024*01;PT*ALF*E*AND*00024*02",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
+    "socket:type2_cable": "2",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
     "website": "https://www.mobie.pt/",
     "id": "node/12666433753"
   },
@@ -115906,10 +115903,10 @@
     "phone": "+351 234 661 194",
     "ref": "AND-00022",
     "ref:EU:EVSE": "PT*ALF*E*AND*00022*01;PT*ALF*E*AND*00022*02",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
+    "socket:type2_cable": "2",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
     "website": "https://www.mobie.pt/",
     "id": "node/12666433754"
   },
@@ -116034,10 +116031,14 @@
     "phone": "+351 234 661 194",
     "ref": "AND-00020",
     "ref:EU:EVSE": "PT*ALF*E*AND*00020*01;PT*ALF*E*AND*00020*02",
-    "socket:type2": "2",
+    "socket:type2": "1",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
     "socket:type2:voltage": "400",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
     "website": "https://www.mobie.pt/",
     "id": "node/12666528673"
   },
@@ -178341,6 +178342,46 @@
 },
 {
   "type": "Feature",
+  "id": "node/13841844514",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "ABF-00158",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "ABF-00158",
+    "ref:EU:EVSE": "PT*EDP*EABF*00158*1;PT*EDP*EABF*00158*2",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13841844514"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.3142042,
+      37.0833554
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13850642501",
   "properties": {
     "access": "yes",
@@ -186186,7 +186227,6 @@
   "id": "node/14095366690",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "KLC",
@@ -186194,10 +186234,9 @@
     "capacity": "1",
     "email": "apoio.cliente@kmlowcost.com",
     "fee": "yes",
-    "fixme": "Mover para o local exacto",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "LOU-00022",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "KLC Serviços",
@@ -186230,7 +186269,6 @@
   "id": "node/14095369138",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "KLC",
@@ -186238,10 +186276,9 @@
     "capacity": "1",
     "email": "apoio.cliente@kmlowcost.com",
     "fee": "yes",
-    "fixme": "Mover para o local exacto",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "LOU-00024",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "KLC Serviços",
@@ -189448,23 +189485,88 @@
 },
 {
   "type": "Feature",
-  "id": "node/14320518386",
+  "id": "node/14320802333",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
+    "authentication:app": "yes",
     "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Powerdot",
+    "brand:wikidata": "Q123574541",
     "capacity": "2",
+    "email": "ajuda@powerdot.pt",
     "fee": "yes",
+    "layer": "-1",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
     "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "operator:wikidata": "Q123574541",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 180 292",
+    "ref": "LSB-00678",
+    "ref:EU:EVSE": "PT*HRZ*E*LSB*00678*01;PT*HRZ*E*LSB*00678*02",
     "socket:type2": "2",
+    "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
-    "id": "node/14320518386"
+    "socket:type2:voltage": "400",
+    "id": "node/14320802333"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.3013226,
-      37.1660669
+      -9.14598,
+      38.7421217
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14320814477",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "KLC",
+    "brand:wikidata": "Q127504745",
+    "capacity": "1",
+    "email": "apoio.cliente@kmlowcost.com",
+    "fee": "yes",
+    "fixme": "Mover para o local exacto",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "KLC Serviços",
+    "operator:wikidata": "Q127504745",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 202 060",
+    "ref": "LOU-00023",
+    "ref:EU:EVSE": "PT*KLS*E*LOU*00023*01",
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400",
+    "website": "https://klc.pt/",
+    "id": "node/14320814477"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.2933601,
+      41.2680312
     ]
   }
 }
