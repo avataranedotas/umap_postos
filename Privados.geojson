@@ -40333,7 +40333,7 @@
     "phone": "+351 275 961 101",
     "ref": "441326",
     "socket:schuko": "yes",
-    "socket:schuko:output": "2",
+    "socket:schuko:output": "2 kW",
     "socket:tesla_destination": "1",
     "socket:tesla_destination:output": "16 kW",
     "socket:type2_cable": "1",
@@ -52519,6 +52519,54 @@
 },
 {
   "type": "Feature",
+  "id": "node/14123116360",
+  "properties": {
+    "access": "customers",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "2",
+    "charge_point:output": "82 kW",
+    "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "06:30-22:00",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "CBR-00158",
+    "ref:EU:EVSE": "PT*EDP*ECBR*00158*1;PT*EDP*ECBR*00158*2;PT*EDP*ECBR*00158*3",
+    "socket:type2": "1",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "200",
+    "socket:type2_combo:output": "60 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.edp.pt/",
+    "id": "node/14123116360"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4143077,
+      40.1936228
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/14172921554",
   "properties": {
     "access": "customers",
@@ -53327,6 +53375,48 @@
     "coordinates": [
       -8.6333708,
       41.2262019
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14323752736",
+  "properties": {
+    "access": "customers",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Helexia",
+    "brand:wikidata": "Q137294295",
+    "capacity": "2",
+    "email": "geral.pt@helexia.eu",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Helexia II",
+    "operator:wikidata": "Q137294295",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 210 181 157",
+    "ref": "RMR-00017",
+    "ref:EU:EVSE": "PT*HLX*E*RMR*00017*01;PT*HLX*E*RMR*00017*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "id": "node/14323752736"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.9365839,
+      39.3334585
     ]
   }
 }

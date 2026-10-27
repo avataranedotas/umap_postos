@@ -13192,9 +13192,9 @@
           "brand": "Powerdot",
           "brand:wikidata": "Q123574541",
           "capacity": "2",
-          "disused:man_made": "charge_point",
           "email": "ajuda@powerdot.pt",
           "fee": "yes",
+          "man_made": "charge_point",
           "maxstay": "unlimited",
           "motorcar": "yes",
           "network": "Mobi.E",
@@ -188477,7 +188477,7 @@
       "phone": "+351 800 296 929;+351 234 246 050",
       "ref": "FAF-00020;FAF-00021;FAF-00022",
       "socket:type2": "2",
-      "socket:type2:output": "22",
+      "socket:type2:output": "22000",
       "socket:type2_combo": "2;1",
       "socket:type2_combo:output": "120000;60000",
       "website": "https://www.mobie.pt/",
@@ -236491,7 +236491,7 @@
           "ref:EU:EVSE": "PT*ENB*E*TVR*00036*01;PT*ENB*E*TVR*00036*02",
           "socket:type2_combo": "2",
           "socket:type2_combo:current": "500",
-          "socket:type2_combo:output": "300",
+          "socket:type2_combo:output": "300 kW",
           "socket:type2_combo:voltage": "1000",
           "website": "https://www.mobie.pt/",
           "id": "node/13699111347"
@@ -236530,7 +236530,7 @@
           "ref:EU:EVSE": "PT*ENB*E*TVR*00035*01;PT*ENB*E*TVR*00035*02",
           "socket:type2_combo": "2",
           "socket:type2_combo:current": "500",
-          "socket:type2_combo:output": "300",
+          "socket:type2_combo:output": "300 kW",
           "socket:type2_combo:voltage": "1000",
           "website": "https://www.mobie.pt/",
           "id": "node/13699111348"
@@ -258280,7 +258280,7 @@
           "socket:chademo:voltage": "500",
           "socket:type2_cable": "1",
           "socket:type2_cable:current": "63",
-          "socket:type2_cable:output": "43",
+          "socket:type2_cable:output": "43 kW",
           "socket:type2_cable:voltage": "400",
           "socket:type2_combo": "1",
           "socket:type2_combo:current": "125",
@@ -277496,7 +277496,7 @@
           "ref:EU:EVSE": "PT*HRZ*E*GMR*00165*03;PT*HRZ*E*GMR*00165*04",
           "socket:type2_combo": "2",
           "socket:type2_combo:current": "500",
-          "socket:type2_combo:output": "200",
+          "socket:type2_combo:output": "200 kW",
           "socket:type2_combo:voltage": "1000",
           "website": "https://www.mobie.pt/",
           "id": "node/14094962281"
@@ -277535,11 +277535,7 @@
           "phone": "+351 800 180 292",
           "ref": "GMR-00165",
           "ref:EU:EVSE": "PT*HRZ*E*GMR*00165*01;PT*HRZ*E*GMR*00165*02",
-          "socket:chademo": "1",
-          "socket:chademo:current": "125",
-          "socket:chademo:output": "50 kW",
-          "socket:chademo:voltage": "500",
-          "socket:type2_combo": "1",
+          "socket:type2_combo": "2",
           "socket:type2_combo:current": "500",
           "socket:type2_combo:output": "200 kW",
           "socket:type2_combo:voltage": "1000",
@@ -279721,10 +279717,10 @@
           "brand:wikidata": "Q1341222",
           "capacity": "2",
           "charge_point:output": "82 kW",
-          "construction:man_made": "charge_point",
           "fee": "yes",
           "indoor": "yes",
           "location": "underground",
+          "man_made": "charge_point",
           "maxstay": "unlimited",
           "motorcar": "yes",
           "network": "Mobi.E",
@@ -291678,6 +291674,107 @@
         "coordinates": [
           41.2680312,
           -8.2933601
+        ]
+      }
+    ]
+  },
+  "way/1572272933": {
+    "properties": {
+      "access": "yes",
+      "amenity": "charging_station",
+      "brand": "Prio",
+      "brand:wikidata": "Q62530421",
+      "capacity": "4",
+      "email": "electric@prioenergy.com",
+      "fee": "yes",
+      "maxstay": "unlimited",
+      "motorcar": "yes",
+      "name": "VCD-?????",
+      "network": "Mobi.E",
+      "opening_hours": "24/7",
+      "operator": "Prio.E",
+      "parking:fee": "no",
+      "phone": "+351 800 100 303",
+      "ref": "VCD-?????",
+      "id": "way/1572272933"
+    },
+    "centroid": [
+      41.298074500000006,
+      -8.69543405
+    ],
+    "points": [
+      {
+        "id": "node/14323752681",
+        "properties": {
+          "access": "yes",
+          "authentication:app": "yes",
+          "authentication:membership_card": "yes",
+          "authentication:none": "no",
+          "brand": "Prio",
+          "brand:wikidata": "Q62530421",
+          "capacity": "2",
+          "charge_point:output": "180 kW",
+          "construction:man_made": "charge_point",
+          "email": "electric@prioenergy.com",
+          "fee": "yes",
+          "maxstay": "unlimited",
+          "motorcar": "yes",
+          "network": "Mobi.E",
+          "opening_hours": "24/7",
+          "operator": "Prio.E",
+          "parking:fee": "no",
+          "payment:app": "yes",
+          "payment:cards": "no",
+          "payment:cash": "no",
+          "payment:membership_card": "yes",
+          "phone": "+351 800 100 303",
+          "ref": "VCD-?????",
+          "socket:type2_combo": "2",
+          "socket:type2_combo:current": "300",
+          "socket:type2_combo:output": "180 kW",
+          "socket:type2_combo:voltage": "1000",
+          "id": "node/14323752681"
+        },
+        "coordinates": [
+          41.2980648,
+          -8.6953957
+        ]
+      },
+      {
+        "id": "node/14323752692",
+        "properties": {
+          "access": "yes",
+          "authentication:app": "yes",
+          "authentication:membership_card": "yes",
+          "authentication:none": "no",
+          "brand": "Prio",
+          "brand:wikidata": "Q62530421",
+          "capacity": "2",
+          "charge_point:output": "180 kW",
+          "construction:man_made": "charge_point",
+          "email": "electric@prioenergy.com",
+          "fee": "yes",
+          "maxstay": "unlimited",
+          "motorcar": "yes",
+          "network": "Mobi.E",
+          "opening_hours": "24/7",
+          "operator": "Prio.E",
+          "parking:fee": "no",
+          "payment:app": "yes",
+          "payment:cards": "no",
+          "payment:cash": "no",
+          "payment:membership_card": "yes",
+          "phone": "+351 800 100 303",
+          "ref": "VCD-?????",
+          "socket:type2_combo": "2",
+          "socket:type2_combo:current": "300",
+          "socket:type2_combo:output": "180 kW",
+          "socket:type2_combo:voltage": "1000",
+          "id": "node/14323752692"
+        },
+        "coordinates": [
+          41.2981038,
+          -8.6954202
         ]
       }
     ]
@@ -381208,7 +381305,7 @@
         "ref:EU:EVSE": "PT*NRG*E*PLM*00025*01;PT*NRG*E*PLM*00025*02",
         "socket:chademo": "1",
         "socket:chademo:current": "200",
-        "socket:chademo:output": "100 kW",
+        "socket:chademo:output": "80 kW",
         "socket:chademo:voltage": "500",
         "socket:type2_combo": "1",
         "socket:type2_combo:current": "375",
@@ -414367,8 +414464,8 @@
         "ref": "AVV-00011",
         "ref:EU:EVSE": "PT*EVC*E*AVV*00011*01;PT*EVC*E*AVV*00011*02",
         "socket:type2": "2",
-        "socket:type2:current": "20",
-        "socket:type2:output": "14 kW",
+        "socket:type2:current": "32",
+        "socket:type2:output": "22 kW",
         "socket:type2:voltage": "400",
         "website": "https://www.mobie.pt/",
         "id": "node/11599401141"
@@ -426975,8 +427072,8 @@
         "ref": "BRG-00055",
         "ref:EU:EVSE": "PT*EVC*E*BRG*00055*01;PT*EVC*E*BRG*00055*02",
         "socket:type2": "2",
-        "socket:type2:current": "32",
-        "socket:type2:output": "22 kW",
+        "socket:type2:current": "16",
+        "socket:type2:output": "11 kW",
         "socket:type2:voltage": "400",
         "website": "https://www.mobie.pt/",
         "id": "node/11988970488"
@@ -461401,8 +461498,8 @@
         "ref": "GMR-00150",
         "ref:EU:EVSE": "PT*EVC*E*GMR*00150*01;PT*EVC*E*GMR*00150*02",
         "socket:type2": "2",
-        "socket:type2:current": "32",
-        "socket:type2:output": "22 kW",
+        "socket:type2:current": "16",
+        "socket:type2:output": "11 kW",
         "socket:type2:voltage": "400",
         "website": "https://www.mobie.pt/",
         "id": "node/12887060030"
@@ -466905,7 +467002,7 @@
         "phone": "+351 275 961 101",
         "ref": "441326",
         "socket:schuko": "yes",
-        "socket:schuko:output": "2",
+        "socket:schuko:output": "2 kW",
         "socket:tesla_destination": "1",
         "socket:tesla_destination:output": "16 kW",
         "socket:type2_cable": "1",
@@ -481639,7 +481736,9 @@
         "capacity": "2",
         "charging_station:output": "50 kW",
         "fee": "yes",
+        "manufacturer": "Autel",
         "maxstay": "unlimited",
+        "model": "MaxiCharger DC Compact",
         "motorcar": "yes",
         "name": "BJA-00065",
         "network": "Mobi.E",
@@ -494978,14 +495077,16 @@
       "id": "node/13907924446",
       "properties": {
         "access": "yes",
+        "amenity": "charging_station",
         "authentication:membership_card": "yes",
         "authentication:none": "no",
         "brand": "Luz Verde",
         "capacity": "2",
         "charging_station:output": "50 kW",
-        "disused:amenity": "charging_station",
         "fee": "yes",
+        "manufacturer": "Autel",
         "maxstay": "unlimited",
+        "model": "MaxiCharger DC Compact",
         "motorcar": "yes",
         "name": "CNT-00038",
         "network": "Mobi.E",
@@ -505229,7 +505330,7 @@
         "authentication:none": "no",
         "brand": "Iberdrola bp pulse",
         "capacity": "2",
-        "charging_station:output": "200 kW",
+        "charging_station:output": "165 kW",
         "email": "suporte@chargingtogether.pt",
         "fee": "yes",
         "manufacturer": "Alpitronic",
@@ -505252,7 +505353,7 @@
         "ref:EU:EVSE": "PT*FCT*E*LSB*01464*01;PT*FCT*E*LSB*01464*02",
         "socket:type2_combo": "2",
         "socket:type2_combo:current": "500",
-        "socket:type2_combo:output": "200 kW",
+        "socket:type2_combo:output": "165 kW",
         "socket:type2_combo:voltage": "1000",
         "id": "node/14236015215"
       },
@@ -505640,8 +505741,8 @@
         "id": "node/14270176158"
       },
       "coordinates": [
-        41.1971209,
-        -8.3355251
+        41.1968686,
+        -8.3356431
       ]
     },
     {
@@ -506431,6 +506532,85 @@
       "coordinates": [
         41.1785604,
         -8.5949302
+      ]
+    },
+    {
+      "id": "node/14322876369",
+      "properties": {
+        "access": "yes",
+        "authentication:membership_card": "yes",
+        "authentication:none": "no",
+        "brand": "Repsol",
+        "brand:wikidata": "Q174747",
+        "capacity": "2",
+        "construction:amenity": "charging_station",
+        "email": "crc.mobilidade.eletrica.pt@repsol.com",
+        "fee": "yes",
+        "maxstay": "unlimited",
+        "motorcar": "yes",
+        "name": "PRD-?????",
+        "network": "Mobi.E",
+        "opening_hours": "24/7",
+        "operator": "Repsol",
+        "operator:wikidata": "Q174747",
+        "parking:fee": "no",
+        "payment:app": "yes",
+        "payment:cards": "no",
+        "payment:cash": "no",
+        "payment:membership_card": "yes",
+        "phone": "+351 800 226 624",
+        "ref": "PRD-?????",
+        "socket:chademo": "1",
+        "socket:chademo:current": "125",
+        "socket:chademo:output": "50 kW",
+        "socket:chademo:voltage": "500",
+        "socket:type2_combo": "1",
+        "socket:type2_combo:current": "150",
+        "socket:type2_combo:output": "60 kW",
+        "socket:type2_combo:voltage": "500",
+        "id": "node/14322876369"
+      },
+      "coordinates": [
+        41.1722134,
+        -8.3498233
+      ]
+    },
+    {
+      "id": "node/14323752736",
+      "properties": {
+        "access": "customers",
+        "amenity": "charging_station",
+        "authentication:app": "yes",
+        "authentication:membership_card": "yes",
+        "authentication:none": "no",
+        "brand": "Helexia",
+        "brand:wikidata": "Q137294295",
+        "capacity": "2",
+        "email": "geral.pt@helexia.eu",
+        "fee": "yes",
+        "maxstay": "unlimited",
+        "motorcar": "yes",
+        "network": "Mobi.E",
+        "opening_hours": "24/7",
+        "operator": "Helexia II",
+        "operator:wikidata": "Q137294295",
+        "parking:fee": "no",
+        "payment:app": "yes",
+        "payment:cards": "no",
+        "payment:cash": "no",
+        "payment:membership_card": "yes",
+        "phone": "+351 210 181 157",
+        "ref": "RMR-00017",
+        "ref:EU:EVSE": "PT*HLX*E*RMR*00017*01;PT*HLX*E*RMR*00017*02",
+        "socket:type2": "2",
+        "socket:type2:current": "32",
+        "socket:type2:output": "22 kW",
+        "socket:type2:voltage": "400",
+        "id": "node/14323752736"
+      },
+      "coordinates": [
+        39.3334585,
+        -8.9365839
       ]
     }
   ]

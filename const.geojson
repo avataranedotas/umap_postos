@@ -1607,8 +1607,8 @@
     "ref": "BRG-00055",
     "ref:EU:EVSE": "PT*EVC*E*BRG*00055*01;PT*EVC*E*BRG*00055*02",
     "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
+    "socket:type2:current": "16",
+    "socket:type2:output": "11 kW",
     "socket:type2:voltage": "400",
     "website": "https://www.mobie.pt/",
     "id": "node/11988970488"
@@ -6684,7 +6684,7 @@
     "ref:EU:EVSE": "PT*ENB*E*TVR*00036*01;PT*ENB*E*TVR*00036*02",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "500",
-    "socket:type2_combo:output": "300",
+    "socket:type2_combo:output": "300 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt/",
     "id": "node/13699111347"
@@ -6727,7 +6727,7 @@
     "ref:EU:EVSE": "PT*ENB*E*TVR*00035*01;PT*ENB*E*TVR*00035*02",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "500",
-    "socket:type2_combo:output": "300",
+    "socket:type2_combo:output": "300 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt/",
     "id": "node/13699111348"
@@ -20713,54 +20713,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/14123116360",
-  "properties": {
-    "access": "customers",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "edp Charge",
-    "brand:wikidata": "Q1341222",
-    "capacity": "2",
-    "charge_point:output": "82 kW",
-    "construction:man_made": "charge_point",
-    "fee": "yes",
-    "indoor": "yes",
-    "location": "underground",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "06:30-22:00",
-    "operator": "EDP",
-    "operator:wikidata": "Q1341222",
-    "parking:fee": "yes",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 222 222",
-    "ref": "CBR-00158",
-    "ref:EU:EVSE": "PT*EDP*ECBR*00158*1;PT*EDP*ECBR*00158*2;PT*EDP*ECBR*00158*3",
-    "socket:type2": "1",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "200",
-    "socket:type2_combo:output": "60 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.edp.pt/",
-    "id": "node/14123116360"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.4143077,
-      40.1936228
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/14125544583",
   "properties": {
     "access": "yes",
@@ -25347,8 +25299,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.3355251,
-      41.1971209
+      -8.3356431,
+      41.1968686
     ]
   }
 },
@@ -28151,6 +28103,133 @@
     "coordinates": [
       -9.1746891,
       38.6758985
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14322876369",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Repsol",
+    "brand:wikidata": "Q174747",
+    "capacity": "2",
+    "construction:amenity": "charging_station",
+    "email": "crc.mobilidade.eletrica.pt@repsol.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "PRD-?????",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Repsol",
+    "operator:wikidata": "Q174747",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 226 624",
+    "ref": "PRD-?????",
+    "socket:chademo": "1",
+    "socket:chademo:current": "125",
+    "socket:chademo:output": "50 kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "60 kW",
+    "socket:type2_combo:voltage": "500",
+    "id": "node/14322876369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.3498233,
+      41.1722134
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14323752681",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Prio",
+    "brand:wikidata": "Q62530421",
+    "capacity": "2",
+    "charge_point:output": "180 kW",
+    "construction:man_made": "charge_point",
+    "email": "electric@prioenergy.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Prio.E",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 100 303",
+    "ref": "VCD-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "300",
+    "socket:type2_combo:output": "180 kW",
+    "socket:type2_combo:voltage": "1000",
+    "id": "node/14323752681"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6953957,
+      41.2980648
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14323752692",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Prio",
+    "brand:wikidata": "Q62530421",
+    "capacity": "2",
+    "charge_point:output": "180 kW",
+    "construction:man_made": "charge_point",
+    "email": "electric@prioenergy.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Prio.E",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 100 303",
+    "ref": "VCD-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "300",
+    "socket:type2_combo:output": "180 kW",
+    "socket:type2_combo:voltage": "1000",
+    "id": "node/14323752692"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6954202,
+      41.2981038
     ]
   }
 }
