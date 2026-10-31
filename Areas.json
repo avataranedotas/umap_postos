@@ -54041,20 +54041,22 @@
   "tags": {
     "access": "yes",
     "amenity": "charging_station",
+    "brand": "telpark",
+    "brand:wikidata": "Q124151364",
     "capacity": "7",
-    "email": "ev_portugal@maksu.com",
     "fee": "yes",
     "indoor": "yes",
     "location": "underground",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CBR-00144…146/161…163",
+    "name": "CBR-00167",
     "network": "Mobi.E",
     "opening_hours": "24/7",
-    "operator": "Maksu Services",
+    "operator": "Telpark",
+    "operator:wikidata": "Q124151364",
     "parking:fee": "yes",
-    "ref": "CBR-00144;CBR-00145;CBR-00146;CBR-00161;CBR-00162;CBR-00163",
-    "website": "https://www.mobie.pt/"
+    "ref": "CBR-00167",
+    "website": "https://www.telpark.com/pt/carregamento-eletrico/"
   }
 },
 {
@@ -78414,7 +78416,7 @@
   "type": "way",
   "id": 1534362725,
   "bounds": {
-    "minlat": 39.7398743,
+    "minlat": 39.7398813,
     "minlon": -8.8187975,
     "maxlat": 39.7399670,
     "maxlon": -8.8186809
@@ -78429,17 +78431,19 @@
   "geometry": [
     { "lat": 39.7399659, "lon": -8.8187975 },
     { "lat": 39.7399670, "lon": -8.8186825 },
-    { "lat": 39.7398754, "lon": -8.8186809 },
-    { "lat": 39.7398743, "lon": -8.8187960 },
+    { "lat": 39.7398824, "lon": -8.8186809 },
+    { "lat": 39.7398813, "lon": -8.8187960 },
     { "lat": 39.7399659, "lon": -8.8187975 }
   ],
   "tags": {
     "access": "yes",
     "amenity": "charging_station",
     "capacity": "6",
+    "charging_station:output": "600 kW",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
+    "name": "LRA-00214",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Powerdot",
@@ -83532,12 +83536,12 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "VFX-00151…152",
+    "name": "VFX-00151…154",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Charging Together",
     "parking:fee": "no",
-    "ref": "VFX-00151",
+    "ref": "VFX-00151;VFX-00152;VFX-00153;VFX-00154",
     "website": "https://iberdrola-bppulse.es/"
   }
 },
@@ -87242,6 +87246,48 @@
     "parking:fee": "no",
     "phone": "+351 800 249 249",
     "ref": "TVD-00112;TVD-00113"
+  }
+},
+{
+  "type": "way",
+  "id": 1573806892,
+  "bounds": {
+    "minlat": 41.4998124,
+    "minlon": -7.6440294,
+    "maxlat": 41.4998908,
+    "maxlon": -7.6438982
+  },
+  "nodes": [
+    14334865607,
+    14334865612,
+    14334865604,
+    14334865603,
+    14334865607
+  ],
+  "geometry": [
+    { "lat": 41.4998908, "lon": -7.6440039 },
+    { "lat": 41.4998566, "lon": -7.6438982 },
+    { "lat": 41.4998124, "lon": -7.6439236 },
+    { "lat": 41.4998466, "lon": -7.6440294 },
+    { "lat": 41.4998908, "lon": -7.6440039 }
+  ],
+  "tags": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "4",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "VPA-00009/10",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "phone": "+351 800 222 222",
+    "ref": "VPA-00009;VPA-00010"
   }
 }
 
