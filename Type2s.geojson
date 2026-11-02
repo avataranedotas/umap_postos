@@ -81897,7 +81897,7 @@
     "operator:wikidata": "Q126913632",
     "parking:fee": "no",
     "payment:app": "yes",
-    "payment:cards": "yes",
+    "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 296 929;+351 234 246 050",
@@ -104190,7 +104190,7 @@
     "operator:wikidata": "Q126913632",
     "parking:fee": "no",
     "payment:app": "yes",
-    "payment:cards": "yes",
+    "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 296 929;+351 234 246 050",
@@ -177354,6 +177354,48 @@
 },
 {
   "type": "Feature",
+  "id": "node/13805970084",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "wowplug",
+    "capacity": "2",
+    "email": "suporte@wowplug.com",
+    "fee": "yes",
+    "manufacturer": "wowplug",
+    "maxstay": "unlimited",
+    "model": "eDOT",
+    "motorcar": "yes",
+    "name": "MTA-00029",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "True Kare",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "MTA-00029",
+    "ref:EU:EVSE": "PT*TRK*E*MTA*00029*01;PT*TRK*E*MTA*00029*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13805970084"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.0226782,
+      38.6571502
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13806010420",
   "properties": {
     "access": "yes",
@@ -181639,6 +181681,47 @@
     "coordinates": [
       -8.0697176,
       40.7571854
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13953620903",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "helexia",
+    "capacity": "2",
+    "email": "geral.pt@helexia.eu",
+    "fee": "yes",
+    "fixme": "Move to exact location",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Helexia II",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 210 181 157",
+    "ref": "SPS-00015",
+    "ref:EU:EVSE": "PT*HLX*E*SPS*00015*01;PT*HLX*E*SPS*00015*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://helexia.pt/",
+    "id": "node/13953620903"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.0866389,
+      40.7387808
     ]
   }
 },
@@ -188516,7 +188599,7 @@
     "operator:wikidata": "Q1341222",
     "parking:fee": "no",
     "payment:app": "yes",
-    "payment:cards": "yes",
+    "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
@@ -189635,6 +189718,46 @@
     "coordinates": [
       -9.1035047,
       38.7910789
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14334865602",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "VPA-00010",
+    "ref:EU:EVSE": "PT*EDP*EVPA*00010*1;PT*EDP*EVPA*00010*2",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "id": "node/14334865602"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.6440012,
+      41.4998401
     ]
   }
 }
