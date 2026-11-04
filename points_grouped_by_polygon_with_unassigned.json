@@ -39503,12 +39503,12 @@
           "brand:wikidata": "Q2995683",
           "capacity": "2",
           "charge_point:output": "50 kW",
-          "construction:man_made": "charge_point",
           "fee": "yes",
           "indoor": "yes",
           "layer": "-1",
           "level": "-1",
           "location": "underground",
+          "man_made": "charge_point",
           "maxstay": "unlimited",
           "motorcar": "yes",
           "network": "Continente Plug&Charge",
@@ -39548,12 +39548,12 @@
           "brand:wikidata": "Q2995683",
           "capacity": "2",
           "charge_point:output": "50 kW",
-          "construction:man_made": "charge_point",
           "fee": "yes",
           "indoor": "yes",
           "layer": "-1",
           "level": "-1",
           "location": "underground",
+          "man_made": "charge_point",
           "maxstay": "unlimited",
           "motorcar": "yes",
           "network": "Continente Plug&Charge",
@@ -39593,12 +39593,12 @@
           "brand:wikidata": "Q2995683",
           "capacity": "2",
           "charge_point:output": "50 kW",
-          "construction:man_made": "charge_point",
           "fee": "yes",
           "indoor": "yes",
           "layer": "-1",
           "level": "-1",
           "location": "underground",
+          "man_made": "charge_point",
           "maxstay": "unlimited",
           "motorcar": "yes",
           "network": "Continente Plug&Charge",
@@ -69118,9 +69118,9 @@
           "authentication:none": "no",
           "brand": "telpark",
           "capacity": "1",
-          "construction:man_made": "charge_point",
           "fee": "yes",
           "location": "underground",
+          "man_made": "charge_point",
           "maxstay": "unlimited",
           "motorcar": "yes",
           "network": "Mobi.E",
@@ -127784,9 +127784,9 @@
           "brand:wikidata": "Q123574541",
           "capacity": "2",
           "charge_point:output": "120 kW",
-          "disused:man_made": "charge_point",
           "email": "ajuda@powerdot.pt",
           "fee": "yes",
+          "man_made": "charge_point",
           "maxstay": "unlimited",
           "motorcar": "yes",
           "network": "Mobi.E",
@@ -387588,6 +387588,7 @@
       "id": "node/10748462932",
       "properties": {
         "access": "yes",
+        "amenity": "charging_station",
         "authentication:app": "yes",
         "authentication:membership_card": "yes",
         "authentication:none": "no",
@@ -387596,7 +387597,6 @@
         "capacity": "3",
         "charging_station:output": "122 kW",
         "covered": "no",
-        "disused:amenity": "charging_station",
         "email": "ajuda@powerdot.pt",
         "fee": "yes",
         "manufacturer": "Delta",
@@ -395583,7 +395583,6 @@
       "id": "node/10981449252",
       "properties": {
         "access": "yes",
-        "amenity": "charging_station",
         "authentication:app": "yes",
         "authentication:membership_card": "yes",
         "authentication:none": "no",
@@ -395591,8 +395590,10 @@
         "brand:wikidata": "Q123574541",
         "capacity": "2",
         "charging_station:output": "142 kW",
+        "disused:amenity": "charging_station",
         "email": "ajuda@powerdot.pt",
         "fee": "yes",
+        "fixme": "Verificar se ainda existe",
         "manufacturer": "Ekoenergetyka",
         "maxstay": "unlimited",
         "model": "Axon Easy 120",
@@ -395622,8 +395623,8 @@
         "id": "node/10981449252"
       },
       "coordinates": [
-        40.5116059,
-        -8.0810804
+        40.5118282,
+        -8.0809825
       ]
     },
     {
@@ -457233,6 +457234,7 @@
       "id": "node/12707342293",
       "properties": {
         "access": "yes",
+        "amenity": "charging_station",
         "authentication:app": "yes",
         "authentication:membership_card": "yes",
         "authentication:none": "no",
@@ -457240,7 +457242,6 @@
         "brand:wikidata": "Q135275372",
         "capacity": "2",
         "charging_station:output": "82 kW",
-        "disused:amenity": "charging_station",
         "email": "veiculoeletrico@galp.com",
         "fee": "yes",
         "manufacturer": "Volt-E",
@@ -508720,16 +508721,18 @@
       "id": "node/14344657121",
       "properties": {
         "access": "yes",
+        "amenity": "charging_station",
         "authentication:membership_card": "yes",
         "authentication:none": "no",
         "brand": "Repsol",
         "brand:wikidata": "Q174747",
         "capacity": "2",
-        "construction:amenity": "charging_station",
+        "charging_station:output": "120 kW",
         "email": "crc.mobilidade.eletrica.pt@repsol.com",
         "fee": "yes",
-        "fixme": "Mover para a localização exacta",
+        "manufacturer": "Hellonext",
         "maxstay": "unlimited",
+        "model": "H2 120",
         "motorcar": "yes",
         "name": "OVR-00066",
         "network": "Mobi.E",
@@ -508755,8 +508758,8 @@
         "id": "node/14344657121"
       },
       "coordinates": [
-        40.9620235,
-        -8.628034
+        40.9616316,
+        -8.6279535
       ]
     }
   ]
