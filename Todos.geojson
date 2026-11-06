@@ -59,6 +59,7 @@
   "id": "way/988129861",
   "properties": {
     "amenity": "charging_station",
+    "bicycle": "no",
     "capacity": "2",
     "fixme": "Please provide details about beeing publicly accessible or only for customers, and how to activate and pay",
     "manufacturer": "Efacec",
@@ -16255,15 +16256,15 @@
     "amenity": "charging_station",
     "brand": "Galp electric",
     "brand:wikidata": "Q135275372",
-    "capacity": "8",
+    "capacity": "4",
     "motorcar": "yes",
-    "name": "LGS-00013…18",
+    "name": "LGS-00015…18",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "Galp Power",
     "operator:wikidata": "Q135275372",
     "parking:fee": "no",
-    "ref": "LGS-00013;LGS-00014;LGS-00015;LGS-00016;LGS-00017;LGS-00018",
+    "ref": "LGS-00015;LGS-00016;LGS-00017;LGS-00018",
     "id": "way/1370110182"
   },
   "geometry": {
@@ -16271,8 +16272,8 @@
     "coordinates": [
       [
         [
-          -8.6786224,
-          37.0859822
+          -8.6785225,
+          37.0860303
         ],
         [
           -8.6784262,
@@ -16283,12 +16284,12 @@
           37.0861235
         ],
         [
-          -8.6786572,
-          37.0860273
+          -8.6785573,
+          37.0860754
         ],
         [
-          -8.6786224,
-          37.0859822
+          -8.6785225,
+          37.0860303
         ]
       ]
     ]
@@ -44053,7 +44054,6 @@
     "parking:fee": "no",
     "phone": "+351 800 180 292",
     "ref": "CTB-00030",
-    "website": "https://www.mobie.pt/",
     "id": "way/1434461206"
   },
   "geometry": {
@@ -102996,7 +102996,7 @@
   "type": "Feature",
   "id": "way/1561982194",
   "properties": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "brand": "KLC",
     "brand:wikidata": "Q127504745",
@@ -106319,6 +106319,104 @@
         [
           -8.6653437,
           41.2495406
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1576161933",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "Maxmat Braga",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "24/7",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "no",
+    "phone": "+351 210 19 19 19",
+    "ref": "A0100PR0001",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "way/1576161933"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -8.4491245,
+          41.5598774
+        ],
+        [
+          -8.4491622,
+          41.5598349
+        ],
+        [
+          -8.4491143,
+          41.5598111
+        ],
+        [
+          -8.4490766,
+          41.5598536
+        ],
+        [
+          -8.4491245,
+          41.5598774
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1576167895",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "brand": "Galp electric",
+    "brand:wikidata": "Q135275372",
+    "capacity": "4",
+    "motorcar": "yes",
+    "name": "LGS-00013/14",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "operator:wikidata": "Q135275372",
+    "parking:fee": "no",
+    "ref": "LGS-00013;LGS-00014",
+    "id": "way/1576167895"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -8.6772093,
+          37.086599
+        ],
+        [
+          -8.6773293,
+          37.0865948
+        ],
+        [
+          -8.6773264,
+          37.086542
+        ],
+        [
+          -8.6772064,
+          37.0865461
+        ],
+        [
+          -8.6772093,
+          37.086599
         ]
       ]
     ]
@@ -128686,8 +128784,8 @@
     "charge_point:output": "250 kW",
     "check_date": "2026-07-28",
     "description": "V3",
+    "disused:man_made": "charge_point",
     "fee": "yes",
-    "man_made": "charge_point",
     "manufacturer": "Tesla",
     "model": "Supercharger V3",
     "motorcar": "yes",
@@ -135461,8 +135559,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.4022875,
-      41.1464206
+      -7.4022647,
+      41.1464277
     ]
   }
 },
@@ -173911,15 +174009,17 @@
   "id": "node/8309446265",
   "properties": {
     "access": "yes",
+    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "edp Charge",
     "brand:wikidata": "Q1341222",
     "capacity": "2",
-    "disused:amenity": "charging_station",
     "fee": "yes",
+    "manufacturer": "Magnum Cap",
     "maxstay": "unlimited",
+    "model": "MCCWB",
     "motorcar": "yes",
     "name": "OVR-90001",
     "network": "Mobi.E",
@@ -173944,8 +174044,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6209416,
-      40.8610578
+      -8.6209295,
+      40.8610324
     ]
   }
 },
@@ -177721,8 +177821,8 @@
     "brand:wikidata": "Q1341222",
     "capacity": "2",
     "charge_point:output": "142 kW",
+    "disused:man_made": "charge_point",
     "fee": "yes",
-    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -189901,7 +190001,6 @@
   "properties": {
     "access": "yes",
     "addr:city": "Santa Comba Dão",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -189909,6 +190008,7 @@
     "brand:wikidata": "Q174747",
     "capacity": "2",
     "charging_station:output": "103 kW",
+    "disused:amenity": "charging_station",
     "email": "crc.mobilidade.eletrica.pt@repsol.com",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -190467,8 +190567,8 @@
     "socket:chademo:output": "50 kW",
     "socket:chademo:voltage": "500",
     "socket:type2_cable": "1",
-    "socket:type2_cable:current": "32",
-    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:current": "63",
+    "socket:type2_cable:output": "43 kW",
     "socket:type2_cable:voltage": "400",
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "125",
@@ -200396,11 +200496,11 @@
   "id": "node/9225441574",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "2",
+    "disused:amenity": "charging_station",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -234356,12 +234456,12 @@
     "brand:wikidata": "Q135275372",
     "capacity": "2",
     "charge_point:output": "60 kW",
+    "disused:man_made": "charge_point",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
     "indoor": "yes",
     "level": "2",
     "location": "underground",
-    "man_made": "charge_point",
     "manufacturer": "Hellonext",
     "maxstay": "unlimited",
     "model": "H2 60",
@@ -242293,8 +242393,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6785811,
-      37.0860605
+      -8.6772937,
+      37.0865474
     ]
   }
 },
@@ -259386,8 +259486,8 @@
     "charge_point:output": "250 kW",
     "check_date": "2026-07-28",
     "description": "V3",
+    "disused:man_made": "charge_point",
     "fee": "yes",
-    "man_made": "charge_point",
     "manufacturer": "Tesla",
     "model": "Supercharger V3",
     "motorcar": "yes",
@@ -259428,8 +259528,8 @@
     "charge_point:output": "250 kW",
     "check_date": "2026-07-28",
     "description": "V3",
+    "disused:man_made": "charge_point",
     "fee": "yes",
-    "man_made": "charge_point",
     "manufacturer": "Tesla",
     "model": "Supercharger V3",
     "motorcar": "yes",
@@ -259470,8 +259570,8 @@
     "charge_point:output": "250 kW",
     "check_date": "2026-07-28",
     "description": "V3",
+    "disused:man_made": "charge_point",
     "fee": "yes",
-    "man_made": "charge_point",
     "manufacturer": "Tesla",
     "model": "Supercharger V3",
     "motorcar": "yes",
@@ -259512,8 +259612,8 @@
     "charge_point:output": "250 kW",
     "check_date": "2026-07-28",
     "description": "V3",
+    "disused:man_made": "charge_point",
     "fee": "yes",
-    "man_made": "charge_point",
     "manufacturer": "Tesla",
     "model": "Supercharger V3",
     "motorcar": "yes",
@@ -259554,8 +259654,8 @@
     "charge_point:output": "250 kW",
     "check_date": "2026-07-28",
     "description": "V3",
+    "disused:man_made": "charge_point",
     "fee": "yes",
-    "man_made": "charge_point",
     "manufacturer": "Tesla",
     "model": "Supercharger V3",
     "motorcar": "yes",
@@ -259596,8 +259696,8 @@
     "charge_point:output": "250 kW",
     "check_date": "2026-07-28",
     "description": "V3",
+    "disused:man_made": "charge_point",
     "fee": "yes",
-    "man_made": "charge_point",
     "manufacturer": "Tesla",
     "model": "Supercharger V3",
     "motorcar": "yes",
@@ -259638,8 +259738,8 @@
     "charge_point:output": "250 kW",
     "check_date": "2026-07-28",
     "description": "V3",
+    "disused:man_made": "charge_point",
     "fee": "yes",
-    "man_made": "charge_point",
     "manufacturer": "Tesla",
     "model": "Supercharger V3",
     "motorcar": "yes",
@@ -268835,8 +268935,7 @@
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "125",
     "socket:type2_combo:output": "50 kW",
-    "socket:type2_combo:voltage": "500",
-    "website": "https://www.mobie.pt/",
+    "socket:type2_combo:voltage": "1000",
     "id": "node/11070119294"
   },
   "geometry": {
@@ -275696,12 +275795,12 @@
   "id": "node/11228733855",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Galp electric",
     "brand:wikidata": "Q135275372",
     "capacity": "2",
+    "disused:amenity": "charging_station",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -328113,7 +328212,9 @@
     "charging_station:output": "60 kW",
     "email": "support.portugal@atlante.energy",
     "fee": "yes",
+    "manufacturer": "Volt-E",
     "maxstay": "unlimited",
+    "model": "ST36STAT",
     "motorcar": "yes",
     "name": "CHV-00024",
     "network": "Mobi.E",
@@ -328142,8 +328243,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -7.4385308,
-      41.782549
+      -7.4384906,
+      41.782531
     ]
   }
 },
@@ -340406,13 +340507,13 @@
   "id": "node/12345011087",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "ALFA Energia",
     "capacity": "2",
     "charging_station:output": "60 kW",
+    "disused:amenity": "charging_station",
     "email": "info@alfaenergia.pt",
     "fee": "yes",
     "manufacturer": "Schneider",
@@ -371206,8 +371307,8 @@
     "ref": "CSC-00577",
     "ref:EU:EVSE": "PT*EPK*ECSC00066*1",
     "socket:type2_combo": "1",
-    "socket:type2_combo:current": "40",
-    "socket:type2_combo:output": "25 kW",
+    "socket:type2_combo:current": "80",
+    "socket:type2_combo:output": "30 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.telpark.com/pt/carregamento-eletrico/",
     "id": "node/12522757234"
@@ -371254,8 +371355,8 @@
     "ref": "CSC-00577",
     "ref:EU:EVSE": "PT*EPK*ECSC00065*1",
     "socket:type2_combo": "1",
-    "socket:type2_combo:current": "40",
-    "socket:type2_combo:output": "25 kW",
+    "socket:type2_combo:current": "80",
+    "socket:type2_combo:output": "30 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.telpark.com/pt/carregamento-eletrico/",
     "id": "node/12522757235"
@@ -372015,9 +372116,9 @@
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
     "capacity": "2",
+    "disused:man_made": "charge_point",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
-    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -376596,12 +376697,12 @@
     "brand": "Continente Plug&Charge",
     "brand:wikidata": "Q2995683",
     "capacity": "2",
+    "disused:man_made": "charge_point",
     "fee": "yes",
     "indoor": "yes",
     "layer": "-1",
     "level": "-1",
     "location": "underground",
-    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Continente Plug&Charge",
@@ -376692,12 +376793,12 @@
     "brand": "Continente Plug&Charge",
     "brand:wikidata": "Q2995683",
     "capacity": "2",
+    "disused:man_made": "charge_point",
     "fee": "yes",
     "indoor": "yes",
     "layer": "-1",
     "level": "-1",
     "location": "underground",
-    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Continente Plug&Charge",
@@ -388067,8 +388168,8 @@
     "brand:wikidata": "Q1341222",
     "capacity": "2",
     "charge_point:output": "120 kW",
+    "disused:man_made": "charge_point",
     "fee": "yes",
-    "man_made": "charge_point",
     "manufacturer": "Starcharge",
     "maxstay": "unlimited",
     "model": "Titan V3",
@@ -396471,9 +396572,9 @@
     "authentication:none": "no",
     "brand": "Renewing",
     "capacity": "2",
+    "disused:man_made": "charge_point",
     "email": "renewing.charging@mota-engil.pt",
     "fee": "yes",
-    "man_made": "charge_point",
     "manufacturer": "EVBox",
     "maxstay": "unlimited",
     "model": "BusinessLine Double",
@@ -408995,9 +409096,9 @@
     "brand": "Galp electric",
     "brand:wikidata": "Q135275372",
     "capacity": "1",
+    "disused:man_made": "charge_point",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
-    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -409151,8 +409252,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6786299,
-      37.0860354
+      -8.6772357,
+      37.0865498
     ]
   }
 },
@@ -413675,9 +413776,9 @@
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
     "capacity": "2",
+    "disused:man_made": "charge_point",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
-    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -476817,7 +476918,7 @@
     "ref": "LSB-01478",
     "ref:EU:EVSE": "PT*EPK*ELSB00884*1;PT*EPK*ELSB00884*2",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "173",
+    "socket:type2_combo:current": "200",
     "socket:type2_combo:output": "120 kW",
     "socket:type2_combo:voltage": "1000",
     "id": "node/13155766983"
@@ -476860,7 +476961,7 @@
     "ref": "LSB-01478",
     "ref:EU:EVSE": "PT*EPK*ELSB00883*1;PT*EPK*ELSB00883*2",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "173",
+    "socket:type2_combo:current": "200",
     "socket:type2_combo:output": "120 kW",
     "socket:type2_combo:voltage": "1000",
     "id": "node/13155766984"
@@ -503493,11 +503594,11 @@
   "id": "node/13289889834",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "2",
     "charging_station:output": "72 kW",
+    "disused:amenity": "charging_station",
     "fee": "yes",
     "manufacturer": "ABB",
     "maxstay": "unlimited",
@@ -503532,8 +503633,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6764131,
-      40.1717613
+      -8.6764258,
+      40.1717603
     ]
   }
 },
@@ -539295,10 +539396,10 @@
     "brand": "telpark",
     "brand:wikidata": "Q124151364",
     "capacity": "1",
-    "construction:man_made": "charge_point",
     "fee": "yes",
     "indoor": "yes",
     "location": "underground",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -539573,6 +539674,7 @@
     "motorcar": "yes",
     "network": "Mobi.E",
     "old_ref": "PLM-00087",
+    "old_ref:EU:EVSE": "PT*FCT*E365*1;PT*FCT*E365*2",
     "opening_hours": "24/7",
     "operator": "Charging Together",
     "parking:fee": "no",
@@ -539582,7 +539684,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 917 576",
     "ref": "PLM-00089",
-    "ref:EU:EVSE": "PT*FCT*E365*1;PT*FCT*E365*2",
+    "ref:EU:EVSE": "PT*FCT*E*PLM*00087*01;PT*FCT*E*PLM*00087*02",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "600",
     "socket:type2_combo:output": "400 kW",
@@ -539617,6 +539719,7 @@
     "motorcar": "yes",
     "network": "Mobi.E",
     "old_ref": "PLM-00088",
+    "old_ref:EU:EVSE": "PT*FCT*E364*1;PT*FCT*E364*2",
     "opening_hours": "24/7",
     "operator": "Charging Together",
     "parking:fee": "no",
@@ -539626,7 +539729,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 917 576",
     "ref": "PLM-00086",
-    "ref:EU:EVSE": "PT*FCT*E364*1;PT*FCT*E364*2",
+    "ref:EU:EVSE": "PT*FCT*E*PLM*00086*01;PT*FCT*E*PLM*00086*02",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "600",
     "socket:type2_combo:output": "400 kW",
@@ -539660,6 +539763,7 @@
     "model": "HYC_400",
     "motorcar": "yes",
     "network": "Mobi.E",
+    "old_ref:EU:EVSE": "PT*FCT*E363*1;PT*FCT*E363*2",
     "opening_hours": "24/7",
     "operator": "Charging Together",
     "parking:fee": "no",
@@ -539669,7 +539773,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 917 576",
     "ref": "PLM-00085",
-    "ref:EU:EVSE": "PT*FCT*E363*1;PT*FCT*E363*2",
+    "ref:EU:EVSE": "PT*FCT*E*PLM*00085*01;PT*FCT*E*PLM*00085*02",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "600",
     "socket:type2_combo:output": "400 kW",
@@ -577932,15 +578036,17 @@
   "id": "node/14032137114",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "edp Charge",
     "brand:wikidata": "Q1341222",
     "capacity": "2",
     "charging_station:output": "82 kW",
+    "disused:amenity": "charging_station",
     "fee": "yes",
+    "manufacturer": "Starcharge",
     "maxstay": "unlimited",
+    "model": "Jupiter V3",
     "motorcar": "yes",
     "name": "ALM-00185",
     "network": "Mobi.E",
@@ -588479,8 +588585,8 @@
     "brand": "Moeve",
     "capacity": "1",
     "charge_point:output": "400 kW",
-    "construction:man_made": "charge_point",
     "fee": "yes",
+    "man_made": "charge_point",
     "manufacturer": "Ekoenergetyka",
     "maxstay": "unlimited",
     "model": "SAT 400",
@@ -588947,12 +589053,12 @@
   "id": "node/14127220990",
   "properties": {
     "access": "customers",
+    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "KLC",
     "brand:wikidata": "Q127504745",
     "capacity": "1",
-    "construction:amenity": "charging_station",
     "email": "apoio.cliente@kmlowcost.com",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -595637,7 +595743,7 @@
     "ref": "CBR-00167",
     "ref:EU:EVSE": "PT*EPK*ECBR00163*1",
     "socket:type2_combo": "1",
-    "socket:type2_combo:current": "63",
+    "socket:type2_combo:current": "80",
     "socket:type2_combo:output": "30 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.telpark.com/pt/carregamento-eletrico/",
@@ -595682,7 +595788,7 @@
     "ref": "CBR-00167",
     "ref:EU:EVSE": "PT*EPK*ECBR00162*1",
     "socket:type2_combo": "1",
-    "socket:type2_combo:current": "63",
+    "socket:type2_combo:current": "80",
     "socket:type2_combo:output": "30 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.telpark.com/pt/carregamento-eletrico/",
@@ -599233,13 +599339,13 @@
     "brand": "Continente Plug&Charge",
     "brand:wikidata": "Q2995683",
     "capacity": "2",
-    "charging_station:output": "50 kW",
-    "construction:amenity": "charging_station",
+    "charge_point:output": "50 kW",
+    "construction:man_made": "charge_point",
     "fee": "yes",
-    "fixme": "Mover para as coordenadas exactas",
+    "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
+    "model": "HYC_50",
     "motorcar": "yes",
-    "name": "Maxmat Braga",
     "network": "Continente Plug&Charge",
     "opening_hours": "24/7",
     "operator": "Continente",
@@ -599262,8 +599368,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.4491274,
-      41.5598704
+      -8.4491417,
+      41.5598549
     ]
   }
 },
@@ -600286,7 +600392,7 @@
   "type": "Feature",
   "id": "node/14279654108",
   "properties": {
-    "access": "customers",
+    "access": "private",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "KLC",
@@ -604899,10 +605005,10 @@
     "brand": "telpark",
     "brand:wikidata": "Q124151364",
     "capacity": "1",
-    "construction:man_made": "charge_point",
     "fee": "yes",
     "level": "-1",
     "location": "underground",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
