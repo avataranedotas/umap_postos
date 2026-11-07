@@ -99,6 +99,9 @@ echo "Parking_space"
 download_json Parking_space.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(%0Away%5B%22amenity%22%3D%22parking_space%22%5D%5B%22parking_space%22%3D%22charging%22%5D(area.searchArea)%3B%0A)%3Bout%20geom%3B'
 sleep 30
 
+echo "MCS"
+download_json MCS.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Barea(3600295480)-%3E.searchArea%3B(%0Anode%5B%22amenity%22%3D%22charging_station%22%5D%5B%22access%22%3D%22yes%22%5D%5B~%22socket%22~%22.*%22%5D%5B%22socket%3Amcs%22~%22.*%22%5D%5B%22socket%3Amcs%3Aoutput%22~kW%5D(area.searchArea)%3B%0Anode%5B%22man_made%22%3D%22charge_point%22%5D%5B%22access%22%3D%22yes%22%5D%5B%22socket%3Amcs%22~%22.*%22%5D%5B%22socket%3Amcs%3Aoutput%22~kW%5D(area.searchArea)%3B%0A)%3Bout%20center%3B%3E%3Bout%20skel%20qt%3B'
+sleep 30
 
 
 sed -i '/.*timestamp_.*/d' *.json
@@ -116,6 +119,7 @@ osmtogeojson SuC.json >| SuC.geojson
 osmtogeojson Areas.json >| Areas.geojson
 osmtogeojson TPA.json >| TPA.geojson
 osmtogeojson Parking_space.json >| Parking_space.geojson
+osmtogeojson MCS.json >| MCS.geojson
 
 echo "Todos"
 download_json Todos.json 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A60%5D%3B%0Aarea(id%3A3600295480)-%3E.searchArea%3B%0A(%0Anwr%5B%22construction%3Aamenity%22%3D%22charging_station%22%5D(area.searchArea)%3B%0Anwr%5B%22amenity%22%3D%22charging_station%22%5D(area.searchArea)%3B%0Anwr%5B%22disused%3Aamenity%22%3D%22charging_station%22%5D(area.searchArea)%3B%0Anwr%5B%22removed%3Aamenity%22%3D%22charging_station%22%5D(area.searchArea)%3B%0Anwr%5B%22man_made%22%3D%22charge_point%22%5D(area.searchArea)%3B%0Anwr%5B%22construction%3Aman_made%22%3D%22charge_point%22%5D(area.searchArea)%3B%0Anwr%5B%22disused%3Aman_made%22%3D%22charge_point%22%5D(area.searchArea)%3B%0Anwr%5B%22removed%3Aman_made%22%3D%22charge_point%22%5D(area.searchArea)%3B%0A)%3B%0Aout%20body%3B%0A%3E%3B%0Aout%20skel%20qt%3B'
