@@ -26568,6 +26568,10 @@
           38.6929663
         ],
         [
+          -9.2213658,
+          38.6931021
+        ],
+        [
           -9.2212225,
           38.6932378
         ],
@@ -92068,16 +92072,20 @@
           39.7130364
         ],
         [
-          -8.7093017,
-          39.7133082
+          -8.7093236,
+          39.7132532
         ],
         [
-          -8.7094975,
-          39.7133603
+          -8.7093057,
+          39.7132933
         ],
         [
-          -8.709527,
-          39.7132958
+          -8.7095225,
+          39.7133503
+        ],
+        [
+          -8.7095444,
+          39.713302
         ],
         [
           -8.7093405,
@@ -92317,20 +92325,20 @@
           39.7127975
         ],
         [
-          -8.7118833,
-          39.7126252
+          -8.7118952,
+          39.7126122
         ],
         [
-          -8.7119021,
-          39.7125773
+          -8.7119131,
+          39.712572
         ],
         [
-          -8.7116855,
-          39.71252
+          -8.7116963,
+          39.712515
         ],
         [
-          -8.7116667,
-          39.7125695
+          -8.7116714,
+          39.7125703
         ],
         [
           -8.7118712,
@@ -118599,8 +118607,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.7471694,
-      41.939123
+      -8.7471938,
+      41.9390955
     ]
   }
 },
@@ -148676,6 +148684,7 @@
     "fee": "no",
     "man_made": "charge_point",
     "motorcar": "yes",
+    "name": "Tesla Destination Charger Six Senses Douro Valley",
     "network": "Tesla",
     "operator": "Six Senses Douro Valley",
     "ref": "dc38939",
@@ -226795,7 +226804,6 @@
     "socket:type2_combo:current": "200",
     "socket:type2_combo:output": "120 kW",
     "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/",
     "wheelchair": "yes",
     "id": "node/9919933657"
   },
@@ -269288,9 +269296,9 @@
     "brand:wikidata": "Q126913632",
     "capacity": "2",
     "charge_point:output": "50 kW",
+    "disused:man_made": "charge_point",
     "email": "support.portugal@atlante.energy",
     "fee": "yes",
-    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -332987,7 +332995,6 @@
   "id": "node/12200052179",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -332995,9 +333002,12 @@
     "brand:wikidata": "Q151954",
     "capacity": "2",
     "charging_station:output": "72 kW",
+    "disused:amenity": "charging_station",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "manufacturer": "ABB",
     "maxstay": "unlimited",
+    "model": "Terra 54",
     "motorcar": "yes",
     "name": "LRA-00158",
     "network": "Mobi.E",
@@ -333032,8 +333042,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.7831244,
-      39.7634579
+      -8.7830614,
+      39.7634857
     ]
   }
 },
@@ -427119,7 +427129,7 @@
     "capacity": "2",
     "charge_point:output": "82 kW",
     "fee": "yes",
-    "fixme": "Verificar se existe mesmo Chademo neste posto",
+    "fixme": "Verificar se existe mesmo Chademo neste posto e tensão do CCS",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -427146,8 +427156,7 @@
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "200",
     "socket:type2_combo:output": "60 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/",
+    "socket:type2_combo:voltage": "500",
     "id": "node/12802030188"
   },
   "geometry": {
@@ -476049,7 +476058,9 @@
     "level": "-1",
     "location": "underground",
     "man_made": "charge_point",
+    "manufacturer": "Power Electronics",
     "maxstay": "unlimited",
+    "model": "NB 60",
     "motorcar": "yes",
     "network": "Mobi.E",
     "old_operator": "Maksu Services",
@@ -476066,7 +476077,7 @@
     "ref:EU:EVSE": "PT*EPK*EAVR00081*1;PT*EPK*EAVR00081*2",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "150",
-    "socket:type2_combo:output": "30 kW",
+    "socket:type2_combo:output": "60 kW",
     "socket:type2_combo:voltage": "1000",
     "id": "node/13151059637"
   },
@@ -539902,9 +539913,9 @@
     "brand": "Iberdrola bp pulse",
     "capacity": "2",
     "charge_point:output": "400 kW",
-    "construction:man_made": "charge_point",
     "email": "suporte@chargingtogether.pt",
     "fee": "yes",
+    "man_made": "charge_point",
     "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
     "model": "HYC_400",
@@ -546283,11 +546294,7 @@
     "phone": "+351 800 180 292",
     "ref": "VNG-00242",
     "ref:EU:EVSE": "PT*HRZ*E*VNG*00242*01;PT*HRZ*E*VNG*00242*02",
-    "socket:chademo": "1",
-    "socket:chademo:current": "125",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_combo": "1",
+    "socket:type2_combo": "2",
     "socket:type2_combo:current": "300",
     "socket:type2_combo:output": "100 kW",
     "socket:type2_combo:voltage": "1000",
@@ -546332,11 +546339,7 @@
     "phone": "+351 800 180 292",
     "ref": "VNG-00241",
     "ref:EU:EVSE": "PT*HRZ*E*VNG*00241*01;PT*HRZ*E*VNG*00241*02",
-    "socket:chademo": "1",
-    "socket:chademo:current": "125",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_combo": "1",
+    "socket:type2_combo": "2",
     "socket:type2_combo:current": "300",
     "socket:type2_combo:output": "100 kW",
     "socket:type2_combo:voltage": "1000",
@@ -556301,9 +556304,11 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Zunder",
+    "bus": "yes",
     "capacity": "1",
     "charge_point:output": "400 kW",
     "fee": "yes",
+    "hgv": "yes",
     "man_made": "charge_point",
     "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
@@ -556323,6 +556328,7 @@
     "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "400 kW",
     "socket:type2_combo:voltage": "1000",
+    "tourist_bus": "yes",
     "website": "https://www.zunder.com/",
     "id": "node/13889750967"
   },
@@ -556343,9 +556349,11 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Zunder",
+    "bus": "yes",
     "capacity": "1",
     "charge_point:output": "400 kW",
     "fee": "yes",
+    "hgv": "yes",
     "man_made": "charge_point",
     "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
@@ -556365,6 +556373,7 @@
     "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "400 kW",
     "socket:type2_combo:voltage": "1000",
+    "tourist_bus": "yes",
     "website": "https://www.zunder.com/",
     "id": "node/13889750968"
   },
@@ -565192,6 +565201,7 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Moeve",
+    "bus": "yes",
     "capacity": "1",
     "construction:man_made": "charge_point",
     "fee": "yes",
@@ -565213,6 +565223,7 @@
     "socket:type2_combo:current": "600",
     "socket:type2_combo:output": "600 kW",
     "socket:type2_combo:voltage": "1000",
+    "tourist_bus": "yes",
     "id": "node/13958398855"
   },
   "geometry": {
@@ -565232,6 +565243,7 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Moeve",
+    "bus": "yes",
     "capacity": "1",
     "construction:man_made": "charge_point",
     "fee": "yes",
@@ -565253,13 +565265,14 @@
     "socket:type2_combo:current": "600",
     "socket:type2_combo:output": "600 kW",
     "socket:type2_combo:voltage": "1000",
+    "tourist_bus": "yes",
     "id": "node/13958398856"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.7094948,
-      39.7132912
+      -8.7095025,
+      39.7132938
     ]
   }
 },
@@ -567347,7 +567360,6 @@
     "capacity": "2",
     "charge_point:output": "400 kW",
     "fee": "yes",
-    "hgv": "yes",
     "man_made": "charge_point",
     "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
@@ -567390,7 +567402,6 @@
     "capacity": "2",
     "charge_point:output": "400 kW",
     "fee": "yes",
-    "hgv": "yes",
     "man_made": "charge_point",
     "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
@@ -573623,7 +573634,7 @@
     "socket:chademo": "1",
     "socket:chademo:current": "125",
     "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "400",
+    "socket:chademo:voltage": "500",
     "socket:type2_cable": "1",
     "socket:type2_cable:current": "63",
     "socket:type2_cable:output": "43 kW",
@@ -574600,8 +574611,8 @@
     "ref:EU:EVSE": "PT*EDP*ECTB*00080*1;PT*EDP*ECTB*00080*2",
     "socket:chademo": "1",
     "socket:chademo:current": "125",
-    "socket:chademo:output": "60 kW",
-    "socket:chademo:voltage": "1000",
+    "socket:chademo:output": "50 kW",
+    "socket:chademo:voltage": "500",
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "300",
     "socket:type2_combo:output": "120 kW",
@@ -577426,7 +577437,7 @@
     "socket:chademo": "1",
     "socket:chademo:current": "200",
     "socket:chademo:output": "80 kW",
-    "socket:chademo:voltage": "1000",
+    "socket:chademo:voltage": "500",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "300 kW",
@@ -577471,7 +577482,7 @@
     "socket:chademo": "1",
     "socket:chademo:current": "200",
     "socket:chademo:output": "80 kW",
-    "socket:chademo:voltage": "1000",
+    "socket:chademo:voltage": "500",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "300 kW",
@@ -590689,9 +590700,11 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Iberdrola bp pulse",
+    "bus": "yes",
     "capacity": "2",
     "construction:man_made": "charge_point",
     "fee": "yes",
+    "hgv": "yes",
     "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
     "model": "HYC_1000",
@@ -590710,6 +590723,7 @@
     "socket:type2_combo:current": "600",
     "socket:type2_combo:output": "600 kW",
     "socket:type2_combo:voltage": "1000",
+    "tourist_bus": "yes",
     "website": "https://iberdrola-bppulse.es/",
     "id": "node/14170582847"
   },
@@ -590730,9 +590744,11 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Iberdrola bp pulse",
+    "bus": "yes",
     "capacity": "2",
     "construction:man_made": "charge_point",
     "fee": "yes",
+    "hgv": "yes",
     "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
     "model": "HYC_1000",
@@ -590751,6 +590767,7 @@
     "socket:type2_combo:current": "600",
     "socket:type2_combo:output": "600 kW",
     "socket:type2_combo:voltage": "1000",
+    "tourist_bus": "yes",
     "website": "https://iberdrola-bppulse.es/",
     "id": "node/14170582848"
   },
@@ -590771,9 +590788,11 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Iberdrola bp pulse",
+    "bus": "yes",
     "capacity": "2",
     "construction:man_made": "charge_point",
     "fee": "yes",
+    "hgv": "yes",
     "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
     "model": "HYC_1000",
@@ -590792,6 +590811,7 @@
     "socket:type2_combo:current": "600",
     "socket:type2_combo:output": "600 kW",
     "socket:type2_combo:voltage": "1000",
+    "tourist_bus": "yes",
     "website": "https://iberdrola-bppulse.es/",
     "id": "node/14170582850"
   },
@@ -590812,9 +590832,11 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Iberdrola bp pulse",
+    "bus": "yes",
     "capacity": "2",
     "construction:man_made": "charge_point",
     "fee": "yes",
+    "hgv": "yes",
     "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
     "model": "HYC_1000",
@@ -590837,6 +590859,7 @@
     "socket:type2_combo:current": "600",
     "socket:type2_combo:output": "600 kW",
     "socket:type2_combo:voltage": "1000",
+    "tourist_bus": "yes",
     "website": "https://iberdrola-bppulse.es/",
     "id": "node/14170582852"
   },
@@ -600653,6 +600676,7 @@
     "construction:man_made": "charge_point",
     "email": "suporte@chargingtogether.pt",
     "fee": "yes",
+    "hgv": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -600670,6 +600694,7 @@
     "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "200 kW",
     "socket:type2_combo:voltage": "1000",
+    "tourist_bus": "yes",
     "id": "node/14286483142"
   },
   "geometry": {
@@ -600693,6 +600718,7 @@
     "construction:man_made": "charge_point",
     "email": "suporte@chargingtogether.pt",
     "fee": "yes",
+    "hgv": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -600709,6 +600735,7 @@
     "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "200 kW",
     "socket:type2_combo:voltage": "1000",
+    "tourist_bus": "yes",
     "id": "node/14286483143"
   },
   "geometry": {
@@ -600732,7 +600759,7 @@
     "construction:man_made": "charge_point",
     "email": "suporte@chargingtogether.pt",
     "fee": "yes",
-    "fixme": "Mover para a localização exacta",
+    "hgv": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -600750,6 +600777,7 @@
     "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "200 kW",
     "socket:type2_combo:voltage": "1000",
+    "tourist_bus": "yes",
     "website": "https://www.mobie.pt",
     "id": "node/14286483148"
   },
@@ -600774,7 +600802,7 @@
     "construction:man_made": "charge_point",
     "email": "suporte@chargingtogether.pt",
     "fee": "yes",
-    "fixme": "Mover para a localização exacta",
+    "hgv": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -600792,6 +600820,7 @@
     "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "200 kW",
     "socket:type2_combo:voltage": "1000",
+    "tourist_bus": "yes",
     "id": "node/14286483149"
   },
   "geometry": {
@@ -602080,6 +602109,7 @@
     "brand:wikidata": "Q124151364",
     "capacity": "1",
     "fee": "yes",
+    "fixme": "Confirmar a corrente máxima",
     "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
@@ -602125,6 +602155,7 @@
     "brand:wikidata": "Q124151364",
     "capacity": "1",
     "fee": "yes",
+    "fixme": "Confirmar a corrente máxima",
     "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
@@ -604280,7 +604311,7 @@
     "ref": "PRT-00377",
     "ref:EU:EVSE": "PT*EPK*EPDJF001*1",
     "socket:type2_combo": "1",
-    "socket:type2_combo:current": "43",
+    "socket:type2_combo:current": "80",
     "socket:type2_combo:output": "30 kW",
     "socket:type2_combo:voltage": "1000",
     "id": "node/14329642160"
@@ -604319,7 +604350,7 @@
     "ref": "PRT-00377",
     "ref:EU:EVSE": "PT*EPK*EPDJF002*1",
     "socket:type2_combo": "1",
-    "socket:type2_combo:current": "43",
+    "socket:type2_combo:current": "80",
     "socket:type2_combo:output": "30 kW",
     "socket:type2_combo:voltage": "1000",
     "id": "node/14329642161"
@@ -604358,7 +604389,7 @@
     "ref": "PRT-00377",
     "ref:EU:EVSE": "PT*EPK*EPDJF003*1",
     "socket:type2_combo": "1",
-    "socket:type2_combo:current": "43",
+    "socket:type2_combo:current": "80",
     "socket:type2_combo:output": "30 kW",
     "socket:type2_combo:voltage": "1000",
     "id": "node/14329642162"
@@ -604397,7 +604428,7 @@
     "ref": "PRT-00377",
     "ref:EU:EVSE": "PT*EPK*EPDJF004*1",
     "socket:type2_combo": "1",
-    "socket:type2_combo:current": "43",
+    "socket:type2_combo:current": "80",
     "socket:type2_combo:output": "30 kW",
     "socket:type2_combo:voltage": "1000",
     "id": "node/14329642163"
@@ -605110,10 +605141,10 @@
     "brand": "telpark",
     "brand:wikidata": "Q124151364",
     "capacity": "1",
-    "construction:man_made": "charge_point",
     "fee": "yes",
     "level": "-1",
     "location": "underground",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -605127,7 +605158,7 @@
     "ref": "LSB-01472",
     "ref:EU:EVSE": "PT*EPK*ELACF001*1",
     "socket:type2_combo": "1",
-    "socket:type2_combo:current": "43",
+    "socket:type2_combo:current": "80",
     "socket:type2_combo:output": "30 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.telpark.com/pt/carregamento-eletrico/",
@@ -605169,7 +605200,7 @@
     "ref": "LSB-01472",
     "ref:EU:EVSE": "PT*EPK*ELACF003*1",
     "socket:type2_combo": "1",
-    "socket:type2_combo:current": "43",
+    "socket:type2_combo:current": "80",
     "socket:type2_combo:output": "30 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.telpark.com/pt/carregamento-eletrico/",
@@ -605211,7 +605242,7 @@
     "ref": "LSB-01472",
     "ref:EU:EVSE": "PT*EPK*ELACF002*1",
     "socket:type2_combo": "1",
-    "socket:type2_combo:current": "43",
+    "socket:type2_combo:current": "80",
     "socket:type2_combo:output": "30 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.telpark.com/pt/carregamento-eletrico/",
@@ -606090,9 +606121,11 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Iberdrola bp pulse",
+    "bus": "yes",
     "capacity": "2",
     "construction:man_made": "charge_point",
     "fee": "yes",
+    "hgv": "yes",
     "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
     "model": "HYC_1000",
@@ -606111,6 +606144,7 @@
     "socket:type2_combo:current": "600",
     "socket:type2_combo:output": "600 kW",
     "socket:type2_combo:voltage": "1000",
+    "tourist_bus": "yes",
     "website": "https://iberdrola-bppulse.es/",
     "id": "node/14346006744"
   },
@@ -606131,9 +606165,11 @@
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Iberdrola bp pulse",
+    "bus": "yes",
     "capacity": "2",
     "construction:man_made": "charge_point",
     "fee": "yes",
+    "hgv": "yes",
     "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
     "model": "HYC_1000",
@@ -606152,6 +606188,7 @@
     "socket:type2_combo:current": "600",
     "socket:type2_combo:output": "600 kW",
     "socket:type2_combo:voltage": "1000",
+    "tourist_bus": "yes",
     "website": "https://iberdrola-bppulse.es/",
     "id": "node/14346006745"
   },
@@ -607061,6 +607098,50 @@
     "coordinates": [
       -7.9314959,
       37.0339589
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14356295850",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Prio",
+    "brand:wikidata": "Q62530421",
+    "capacity": "2",
+    "charging_station:output": "90 kW",
+    "construction:amenity": "charging_station",
+    "email": "electric@prioenergy.com",
+    "fee": "yes",
+    "manufacturer": "Hellonext",
+    "maxstay": "unlimited",
+    "model": "H2 90",
+    "motorcar": "yes",
+    "name": "ARV-?????",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Prio.E",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 100 303",
+    "ref": "ARV-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "250",
+    "socket:type2_combo:output": "90 kW",
+    "socket:type2_combo:voltage": "1000",
+    "id": "node/14356295850"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.0762709,
+      38.9890376
     ]
   }
 }
