@@ -1,0 +1,38 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-9.1393, 38.7223] },
+      "properties": {
+        "id": "node/900000001", "name": "MCS Teste 1 (so MCS)", "ref": "MCS-T1", "operator": "Ionity",
+        "socket:mcs": "1", "socket:mcs:output": "1000 kW", "socket:mcs:current": "1500", "socket:mcs:voltage": "1000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-8.6110, 41.1496] },
+      "properties": {
+        "id": "node/900000002", "name": "MCS Teste 2 (2 tomadas)", "ref": "MCS-T2", "operator": "Galp",
+        "socket:mcs": "2", "socket:mcs:output": "1200 kW", "socket:mcs:current": "3000", "socket:mcs:voltage": "1000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-7.9304, 37.0194] },
+      "properties": {
+        "id": "node/900000003", "name": "MCS Teste 3 (MCS + CCS)", "ref": "MCS-T3", "operator": "Powerdot",
+        "socket:mcs": "1", "socket:mcs:output": "1000 kW", "socket:mcs:current": "1500", "socket:mcs:voltage": "1000",
+        "socket:type2_combo": "2", "socket:type2_combo:output": "350 kW", "socket:type2_combo:current": "500", "socket:type2_combo:voltage": "920"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-8.4292, 40.2033] },
+      "properties": {
+        "id": "node/900000004", "name": "MCS Teste 4 (sem corrente/tensao)", "ref": "MCS-T4",
+        "socket:mcs": "1", "socket:mcs:output": "750 kW"
+      }
+    }
+  ]
+}
