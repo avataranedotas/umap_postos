@@ -1,38 +1,94 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-9.1393, 38.7223] },
-      "properties": {
-        "id": "node/900000001", "name": "MCS Teste 1 (so MCS)", "ref": "MCS-T1", "operator": "Ionity",
-        "socket:mcs": "1", "socket:mcs:output": "1000 kW", "socket:mcs:current": "1500", "socket:mcs:voltage": "1000"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-8.6110, 41.1496] },
-      "properties": {
-        "id": "node/900000002", "name": "MCS Teste 2 (2 tomadas)", "ref": "MCS-T2", "operator": "Galp",
-        "socket:mcs": "2", "socket:mcs:output": "1200 kW", "socket:mcs:current": "3000", "socket:mcs:voltage": "1000"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-7.9304, 37.0194] },
-      "properties": {
-        "id": "node/900000003", "name": "MCS Teste 3 (MCS + CCS)", "ref": "MCS-T3", "operator": "Powerdot",
+"type": "FeatureCollection",
+"features": [
+{
+  "type": "Feature",
+  "id": "node/8207021262",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "IONITY",
+    "brand:wikidata": "Q42717773",
+    "capacity": "1",
+    "charge_point:output": "350 kW",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "manufacturer": "ABB",
+    "maxstay": "unlimited",
+    "model": "Terra HP CP4",
+    "motorcar": "yes",
+    "network": "Mobi.E;Ionity",
+    "opening_hours": "24/7",
+    "operator": "IONITY",
+    "operator:wikidata": "Q42717773",
+    "operator:wikipedia": "en:IONITY",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 308 803 137",
+    "ref": "ADV-00018",
+    "ref:EU:EVSE": "PT*IOY*E425801",
         "socket:mcs": "1", "socket:mcs:output": "1000 kW", "socket:mcs:current": "1500", "socket:mcs:voltage": "1000",
-        "socket:type2_combo": "2", "socket:type2_combo:output": "350 kW", "socket:type2_combo:current": "500", "socket:type2_combo:voltage": "920"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-8.4292, 40.2033] },
-      "properties": {
-        "id": "node/900000004", "name": "MCS Teste 4 (sem corrente/tensao)", "ref": "MCS-T4",
-        "socket:mcs": "1", "socket:mcs:output": "750 kW"
-      }
-    }
-  ]
+        "socket:type2_combo": "2", "socket:type2_combo:output": "350 kW", "socket:type2_combo:current": "500", "socket:type2_combo:voltage": "920",
+    
+    "website": "https://www.mobie.pt",
+    "id": "node/8207021262"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.1830073,
+      37.5363729
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8207021263",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "IONITY",
+    "brand:wikidata": "Q42717773",
+    "capacity": "1",
+    "charge_point:output": "350 kW",
+    "check_date": "2026-06-28",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "manufacturer": "ABB",
+    "maxstay": "unlimited",
+    "model": "Terra HP CP4",
+    "motorcar": "yes",
+    "network": "Mobi.E;Ionity",
+    "opening_hours": "24/7",
+    "operator": "IONITY",
+    "operator:wikidata": "Q42717773",
+    "operator:wikipedia": "en:IONITY",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 308 803 137",
+    "ref": "ADV-00017",
+    "ref:EU:EVSE": "PT*IOY*E425706",
+   "socket:mcs": "1", "socket:mcs:output": "750 kW",
+    "website": "https://www.mobie.pt",
+    "id": "node/8207021263"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.1848477,
+      37.5357926
+    ]
+  }
+}
+]
 }
