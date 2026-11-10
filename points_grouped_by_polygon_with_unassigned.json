@@ -68966,9 +68966,9 @@
           "authentication:none": "no",
           "brand": "telpark",
           "capacity": "1",
-          "construction:man_made": "charge_point",
           "fee": "yes",
           "location": "underground",
+          "man_made": "charge_point",
           "maxstay": "unlimited",
           "motorcar": "yes",
           "network": "Mobi.E",
@@ -161266,10 +161266,10 @@
           "payment:membership_card": "yes",
           "ref": "EVR-00022",
           "ref:EU:EVSE": "PT*MOO*E*EVR*00022*01;PT*MOO*E*EVR*00022*02;PT*MOO*E*EVR*00022*03",
-          "socket:type2_cable": "1",
-          "socket:type2_cable:current": "32",
-          "socket:type2_cable:output": "22 kW",
-          "socket:type2_cable:voltage": "400",
+          "socket:type2": "1",
+          "socket:type2:current": "32",
+          "socket:type2:output": "22 kW",
+          "socket:type2:voltage": "400",
           "socket:type2_combo": "2",
           "socket:type2_combo:current": "500",
           "socket:type2_combo:output": "300 kW",
@@ -161278,8 +161278,8 @@
           "id": "node/9848183325"
         },
         "coordinates": [
-          38.5497529,
-          -7.9133121
+          38.5497576,
+          -7.9133208
         ]
       }
     ]
@@ -300204,13 +300204,13 @@
       "id": "node/5331790440",
       "properties": {
         "access": "yes",
+        "amenity": "charging_station",
         "authentication:app": "yes",
         "authentication:membership_card": "yes",
         "authentication:none": "no",
         "brand": "edp Charge",
         "brand:wikidata": "Q1341222",
         "capacity": "2",
-        "disused:amenity": "charging_station",
         "fee": "yes",
         "maxstay": "unlimited",
         "motorcar": "yes",
@@ -300231,7 +300231,6 @@
         "socket:type2:current": "16",
         "socket:type2:output": "3.7 kW",
         "socket:type2:voltage": "230",
-        "website": "https://www.mobie.pt",
         "id": "node/5331790440"
       },
       "coordinates": [
@@ -357580,6 +357579,10 @@
         "socket:chademo:current": "120",
         "socket:chademo:output": "50 kW",
         "socket:chademo:voltage": "500",
+        "socket:type2": "1",
+        "socket:type2:current": "32",
+        "socket:type2:output": "22 kW",
+        "socket:type2:voltage": "400",
         "socket:type2_combo": "1",
         "socket:type2_combo:current": "150",
         "socket:type2_combo:output": "75 kW",
@@ -443570,13 +443573,13 @@
       "id": "node/12239239691",
       "properties": {
         "access": "yes",
+        "amenity": "charging_station",
         "authentication:app": "yes",
         "authentication:membership_card": "yes",
         "authentication:none": "no",
         "brand": "edp Charge",
         "brand:wikidata": "Q1341222",
         "capacity": "2",
-        "disused:amenity": "charging_station",
         "fee": "yes",
         "maxstay": "unlimited",
         "motorcar": "yes",
@@ -509737,13 +509740,13 @@
       "id": "node/14329805446",
       "properties": {
         "access": "yes",
+        "amenity": "charging_station",
         "authentication:app": "yes",
         "authentication:membership_card": "yes",
         "authentication:none": "no",
         "brand": "wowplug",
         "brand:wikidata": "Q137294207",
         "capacity": "2",
-        "construction:amenity": "charging_station",
         "email": "suporte@wowplug.com",
         "fee": "yes",
         "manufacturer": "wowplug",
