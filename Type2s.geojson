@@ -65347,7 +65347,7 @@
     "operator": "Continente",
     "operator:wikidata": "Q2995683",
     "parking:fee": "no",
-    "payment:app": "Continente Plug&Charge",
+    "payment:app": "yes",
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "no",
@@ -67652,6 +67652,48 @@
     "coordinates": [
       -8.608036,
       40.360284
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11382360062",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "2",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "CNT-00016",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 222 222",
+    "ref": "CNT-00016",
+    "ref:EU:EVSE": "PT*EDP*ECNT*00016*1;PT*EDP*ECNT*00016*2",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "id": "node/11382360062"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6084605,
+      40.3607863
     ]
   }
 },
@@ -75279,48 +75321,6 @@
     "coordinates": [
       -9.1387714,
       39.402618
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11877520414",
-  "properties": {
-    "access": "yes",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Iberdrola",
-    "brand:wikidata": "Q1437502",
-    "capacity": "2",
-    "email": "comercial@iberdrola.pt",
-    "fee": "yes",
-    "man_made": "charge_point",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Iberdrola",
-    "operator:wikidata": "Q1437502",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 607 717",
-    "ref": "IDN-00003",
-    "ref:EU:EVSE": "PT*IBD*E*IDN*00003*01;PT*IBD*E*IDN*00003*02",
-    "socket:type2_cable": "2",
-    "socket:type2_cable:current": "32",
-    "socket:type2_cable:output": "22 kW",
-    "socket:type2_cable:voltage": "400",
-    "id": "node/11877520414"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -6.8766937,
-      40.0006563
     ]
   }
 },
@@ -122303,7 +122303,6 @@
     "payment:cards": "no",
     "payment:cash": "no",
     "payment:membership_card": "yes",
-    "payment:rfid_card": "yes",
     "phone": "+351 800 180 292",
     "ref": "BRG-00079",
     "ref:EU:EVSE": "PT*HRZ*E*BRG*00079*1",
@@ -128424,8 +128423,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6356544,
-      41.1706736
+      -8.6356629,
+      41.1706678
     ]
   }
 },
@@ -155856,6 +155855,47 @@
 },
 {
   "type": "Feature",
+  "id": "node/13238037146",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "edp Charge",
+    "brand:wikidata": "Q1341222",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EDP",
+    "operator:wikidata": "Q1341222",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "VVC-00005",
+    "ref:EU:EVSE": "PT*EDP*EVVC*00005*1;PT*EDP*EVVC*00005*2",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://www.mobie.pt/",
+    "id": "node/13238037146"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.4156293,
+      38.7702663
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13238037147",
   "properties": {
     "access": "yes",
@@ -166360,6 +166400,7 @@
     "capacity": "1",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
+    "fixme": "Verificar se aceita pagamento com cartão bancário",
     "indoor": "yes",
     "level": "3",
     "level:ref": "3B",
@@ -189929,6 +189970,210 @@
     "coordinates": [
       -8.3318196,
       40.0958548
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14355419484",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "MobiSmart",
+    "capacity": "2",
+    "email": "info@mobismart.pt;info@evce.pt",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "Mo-Sa 06:00-21:00; Su 08:00-19:00",
+    "operator": "EVCE",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 301 303",
+    "ref": "AMD-00118",
+    "ref:EU:EVSE": "PT*EVC*E*AMD*00118*01;PT*EVC*E*AMD*00118*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "id": "node/14355419484"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.2142691,
+      38.7265594
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14361773134",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "leve",
+    "brand:wikidata": "Q30256831",
+    "capacity": "2",
+    "email": "opc@emel.pt",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EMEL",
+    "operator:wikidata": "Q30256831",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 910 255",
+    "ref": "LSB-01553",
+    "ref:EU:EVSE": "PT*EML*E*LSB*01553*01;PT*EML*E*LSB*01553*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "7.4 kW",
+    "socket:type2:voltage": "230",
+    "id": "node/14361773134"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1548752,
+      38.7571423
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14361773135",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "leve",
+    "brand:wikidata": "Q30256831",
+    "capacity": "2",
+    "email": "opc@emel.pt",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EMEL",
+    "operator:wikidata": "Q30256831",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 910 255",
+    "ref": "LSB-01552",
+    "ref:EU:EVSE": "PT*EML*E*LSB*01552*01;PT*EML*E*LSB*01552*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "7.4 kW",
+    "socket:type2:voltage": "230",
+    "id": "node/14361773135"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1549055,
+      38.7571834
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14361773137",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "leve",
+    "brand:wikidata": "Q30256831",
+    "capacity": "2",
+    "email": "opc@emel.pt",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EMEL",
+    "operator:wikidata": "Q30256831",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 910 255",
+    "ref": "LSB-01554",
+    "ref:EU:EVSE": "PT*EML*E*LSB*01554*01;PT*EML*E*LSB*01554*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "id": "node/14361773137"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.154845,
+      38.7571013
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14361773142",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "leve",
+    "brand:wikidata": "Q30256831",
+    "capacity": "2",
+    "email": "opc@emel.pt",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "EMEL",
+    "operator:wikidata": "Q30256831",
+    "parking:fee": "yes",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 910 255",
+    "ref": "LSB-01550",
+    "ref:EU:EVSE": "PT*EML*E*LSB*01550*01;PT*EML*E*LSB*01550*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "7.4 kW",
+    "socket:type2:voltage": "230",
+    "id": "node/14361773142"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.1549659,
+      38.7572654
     ]
   }
 }
