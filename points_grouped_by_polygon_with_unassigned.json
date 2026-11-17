@@ -28269,7 +28269,7 @@
           "socket:type2_combo": "1",
           "socket:type2_combo:current": "375",
           "socket:type2_combo:output": "150 kW",
-          "socket:type2_combo:voltage": "1000",
+          "socket:type2_combo:voltage": "500",
           "website": "https://www.mobie.pt",
           "id": "node/9668119746"
         },
@@ -28699,7 +28699,7 @@
           "socket:type2_combo": "1",
           "socket:type2_combo:current": "375",
           "socket:type2_combo:output": "150 kW",
-          "socket:type2_combo:voltage": "1000",
+          "socket:type2_combo:voltage": "500",
           "website": "https://www.mobie.pt",
           "id": "node/9668119753"
         },
@@ -35509,7 +35509,7 @@
           "socket:type2_combo": "1",
           "socket:type2_combo:current": "375",
           "socket:type2_combo:output": "150 kW",
-          "socket:type2_combo:voltage": "1000",
+          "socket:type2_combo:voltage": "500",
           "website": "https://www.mobie.pt/",
           "id": "node/9359435908"
         },
@@ -39002,7 +39002,7 @@
           "socket:type2_combo": "1",
           "socket:type2_combo:current": "375",
           "socket:type2_combo:output": "150 kW",
-          "socket:type2_combo:voltage": "1000",
+          "socket:type2_combo:voltage": "500",
           "website": "https://www.mobie.pt",
           "id": "node/8224925047"
         },
@@ -84732,7 +84732,12 @@
       "amenity": "charging_station",
       "brand": "Continente Plug&Charge",
       "brand:wikidata": "Q2995683",
+      "building": "carport",
       "capacity": "4",
+      "generator:method": "photovoltaic",
+      "generator:output:electricity": "yes",
+      "generator:source": "solar",
+      "generator:type": "solar_photovoltaic_panel",
       "motorcar": "yes",
       "name": "Continente Bom Dia Arganil",
       "network": "Continente Plug&Charge",
@@ -84740,12 +84745,13 @@
       "operator": "Continente",
       "operator:wikidata": "Q2995683",
       "parking:fee": "no",
+      "power": "generator",
       "ref": "9369PL0001;9369PR0002",
       "id": "way/1378752377"
     },
     "centroid": [
-      40.220965346542876,
-      -8.05416833632867
+      40.22094249654905,
+      -8.054140436325211
     ],
     "points": [
       {
@@ -84791,8 +84797,8 @@
           "id": "node/12766919117"
         },
         "coordinates": [
-          40.2209664,
-          -8.0541673
+          40.2209436,
+          -8.0541394
         ]
       },
       {
@@ -84831,8 +84837,8 @@
           "id": "node/12766919118"
         },
         "coordinates": [
-          40.2209431,
-          -8.0541552
+          40.2209203,
+          -8.0541273
         ]
       }
     ]
@@ -106855,7 +106861,7 @@
           "brand": "Continente Plug&Charge",
           "brand:wikidata": "Q2995683",
           "capacity": "2",
-          "charge_point:output": "120 kW",
+          "charge_point:output": "50 kW",
           "fee": "yes",
           "man_made": "charge_point",
           "maxstay": "unlimited",
@@ -106870,14 +106876,10 @@
           "payment:cash": "no",
           "payment:membership_card": "no",
           "ref": "3589PR0004",
-          "ref:EU:EVSE": "PT*CNT*E3589PR0004*1;PT*CNT*E3589PR0004*2;PT*CNT*E3589PR0004*3",
-          "socket:chademo": "1",
-          "socket:chademo:current": "120",
-          "socket:chademo:output": "50 kW",
-          "socket:chademo:voltage": "500",
+          "ref:EU:EVSE": "PT*CNT*E3589PR0004*1;PT*CNT*E3589PR0004*2",
           "socket:type2_combo": "2",
-          "socket:type2_combo:current": "200",
-          "socket:type2_combo:output": "120 kW",
+          "socket:type2_combo:current": "150",
+          "socket:type2_combo:output": "50 kW",
           "socket:type2_combo:voltage": "1000",
           "website": "https://plugcharge.continente.pt/",
           "id": "node/14367671767"
@@ -235157,8 +235159,8 @@
           "brand:wikidata": "Q42717773",
           "capacity": "1",
           "charge_point:output": "350 kW",
-          "disused:man_made": "charge_point",
           "fee": "yes",
+          "man_made": "charge_point",
           "manufacturer": "ABB",
           "maxstay": "unlimited",
           "model": "Terra HP CP4",
@@ -369829,6 +369831,7 @@
         "charging_station:output": "142 kW",
         "email": "ajuda@powerdot.pt",
         "fee": "yes",
+        "fixme": "Verificar a tensão máxima da ficha CCS na chapa de características",
         "maxstay": "unlimited",
         "motorcar": "yes",
         "name": "LRA-00061",
@@ -375048,6 +375051,7 @@
         "charging_station:output": "72 kW",
         "email": "ajuda@powerdot.pt",
         "fee": "yes",
+        "fixme": "Verificar a tensão máxima da ficha CCS na chapa de características",
         "maxstay": "unlimited",
         "motorcar": "yes",
         "name": "SNS-00009",
@@ -376303,13 +376307,13 @@
       "id": "node/9986743354",
       "properties": {
         "access": "customers",
+        "amenity": "charging_station",
         "authentication:app": "yes",
         "authentication:membership_card": "yes",
         "authentication:none": "no",
         "brand": "Galp electric",
         "brand:wikidata": "Q135275372",
         "capacity": "2",
-        "disused:amenity": "charging_station",
         "email": "veiculoeletrico@galp.com",
         "fee": "yes",
         "maxstay": "unlimited",
@@ -396317,6 +396321,7 @@
         "charging_station:output": "222 kW",
         "email": "ajuda@powerdot.pt",
         "fee": "yes",
+        "fixme": "Verificar a tensão máxima da ficha CCS na chapa de características",
         "maxstay": "unlimited",
         "motorcar": "yes",
         "name": "MTS-00109",
@@ -398179,7 +398184,7 @@
         "socket:type2_combo": "1",
         "socket:type2_combo:current": "75",
         "socket:type2_combo:output": "30 kW",
-        "socket:type2_combo:voltage": "1000",
+        "socket:type2_combo:voltage": "500",
         "website": "https://www.mobie.pt/",
         "id": "node/10967854002"
       },
@@ -401137,7 +401142,7 @@
         "socket:type2_combo": "1",
         "socket:type2_combo:current": "125",
         "socket:type2_combo:output": "60 kW",
-        "socket:type2_combo:voltage": "1000",
+        "socket:type2_combo:voltage": "500",
         "website": "https://www.mobie.pt/",
         "id": "node/11033968439"
       },
@@ -402198,7 +402203,6 @@
         "fee": "yes",
         "manufacturer": "wallbox",
         "maxstay": "unlimited",
-        "model": "SN 60HV",
         "motorcar": "yes",
         "name": "STB-00060",
         "network": "Mobi.E",
@@ -402217,7 +402221,7 @@
         "socket:type2_combo": "1",
         "socket:type2_combo:current": "150",
         "socket:type2_combo:output": "60 kW",
-        "socket:type2_combo:voltage": "1000",
+        "socket:type2_combo:voltage": "500",
         "website": "https://www.mobie.pt/",
         "id": "node/11061732351"
       },
@@ -413875,7 +413879,7 @@
         "socket:type2_combo": "1",
         "socket:type2_combo:current": "150",
         "socket:type2_combo:output": "50 kW",
-        "socket:type2_combo:voltage": "1000",
+        "socket:type2_combo:voltage": "500",
         "website": "https://www.mobie.pt/",
         "id": "node/11421521127"
       },
@@ -452015,7 +452019,7 @@
         "socket:type2_combo": "1",
         "socket:type2_combo:current": "125",
         "socket:type2_combo:output": "49 kW",
-        "socket:type2_combo:voltage": "500",
+        "socket:type2_combo:voltage": "1000",
         "website": "https://www.mobie.pt/",
         "id": "node/12473691362"
       },
@@ -482111,7 +482115,9 @@
         "charging_station:output": "142 kW",
         "disused:amenity": "charging_station",
         "fee": "yes",
+        "manufacturer": "Efacec",
         "maxstay": "unlimited",
+        "model": "QC120",
         "motorcar": "yes",
         "name": "LSB-00985",
         "network": "Mobi.E",
@@ -482132,8 +482138,7 @@
         "socket:type2_combo": "2",
         "socket:type2_combo:current": "300",
         "socket:type2_combo:output": "120 kW",
-        "socket:type2_combo:voltage": "500",
-        "website": "https://www.mobie.pt/",
+        "socket:type2_combo:voltage": "1000",
         "id": "node/13314492226"
       },
       "coordinates": [
