@@ -5291,20 +5291,20 @@
           41.1823701
         ],
         [
-          -8.6589066,
-          41.1824611
+          -8.6589067,
+          41.1824612
         ],
         [
-          -8.6591543,
-          41.1822857
+          -8.6591917,
+          41.1822594
         ],
         [
-          -8.6590388,
-          41.1821934
+          -8.6590763,
+          41.1821671
         ],
         [
-          -8.6592243,
-          41.1820621
+          -8.6592244,
+          41.1820622
         ],
         [
           -8.6591394,
@@ -16714,6 +16714,8 @@
     "brand": "telpark",
     "capacity": "19",
     "fee": "yes",
+    "fixme": "verificar em que andar subterrâneo se encontra",
+    "level": "-1",
     "location": "underground",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -81348,6 +81350,7 @@
     "access": "yes",
     "amenity": "charging_station",
     "capacity": "12",
+    "charging_station:output": "1200 kW",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -108704,10 +108707,14 @@
     "capacity": "2",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "manufacturer": "Alfen",
     "maxstay": "unlimited",
+    "model": "Eve Double Pro-line",
     "motorcar": "yes",
-    "name": "VCT-90002",
+    "name": "VCT-00086",
     "network": "Mobi.E",
+    "old_ref": "VCT-90002",
+    "old_ref:EU:EVSE": "PT*GLP*EVCT*90002*01;PT*GLP*EVCT*90002*02",
     "opening_hours": "24/7",
     "operator": "Galp Power",
     "operator:wikidata": "Q135275372",
@@ -108717,13 +108724,12 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
-    "ref": "VCT-90002",
-    "ref:EU:EVSE": "PT*GLP*EVCT*90002*01;PT*GLP*EVCT*90002*02",
+    "ref": "VCT-00086",
+    "ref:EU:EVSE": "PT*GLP*EVCT*00086*01;PT*GLP*EVCT*00086*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
     "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt",
     "id": "node/2084642560"
   },
   "geometry": {
@@ -112304,9 +112310,9 @@
     "brand": "leve",
     "brand:wikidata": "Q30256831",
     "capacity": "2",
-    "construction:man_made": "charge_point",
     "email": "opc@emel.pt",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -184662,7 +184668,6 @@
     "location": "underground",
     "man_made": "charge_point",
     "motorcar": "yes",
-    "name": "Continente Bom Dia Queluz Paiva Couceiro",
     "network": "Continente Plug&Charge",
     "opening_hours": "09:00-21:00",
     "operator": "Continente",
@@ -184673,6 +184678,8 @@
     "payment:cash": "no",
     "payment:membership_card": "no",
     "phone": "+351 210 19 19 19",
+    "ref": "9587PL0003",
+    "ref:EU:EVSE": "PT*CNT*E9587PL0003*1;PT*CNT*E9587PL0003*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
@@ -224135,6 +224142,7 @@
   "id": "node/9848264268",
   "properties": {
     "access": "yes",
+    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -224142,10 +224150,11 @@
     "brand:wikidata": "Q151954",
     "capacity": "2",
     "charging_station:output": "72 kW",
-    "disused:amenity": "charging_station",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "manufacturer": "ABB",
     "maxstay": "unlimited",
+    "model": "Terra 54",
     "motorcar": "yes",
     "name": "SMG-00014",
     "network": "Mobi.E",
@@ -226599,7 +226608,6 @@
   "id": "node/9902496781",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -226607,6 +226615,7 @@
     "brand:wikidata": "Q1341222",
     "capacity": "2",
     "charging_station:output": "142 kW",
+    "disused:amenity": "charging_station",
     "fee": "yes",
     "manufacturer": "Efacec",
     "maxstay": "unlimited",
@@ -276572,6 +276581,8 @@
     "brand": "telpark",
     "capacity": "1",
     "fee": "yes",
+    "fixme": "verificar em que andar subterrâneo se encontra",
+    "level": "-1",
     "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
@@ -285020,12 +285031,12 @@
   "id": "node/11382360059",
   "properties": {
     "access": "yes",
+    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "edp Charge",
     "brand:wikidata": "Q1341222",
     "capacity": "2",
-    "disused:amenity": "charging_station",
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -291853,9 +291864,9 @@
     "brand:wikidata": "Q126913632",
     "capacity": "2",
     "charge_point:output": "90 kW",
+    "disused:man_made": "charge_point",
     "email": "support.portugal@atlante.energy",
     "fee": "yes",
-    "man_made": "charge_point",
     "manufacturer": "Starcharge",
     "maxstay": "unlimited",
     "model": "Titan V3",
@@ -303348,8 +303359,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -9.3474236,
-      38.9583724
+      -9.3474766,
+      38.9583807
     ]
   }
 },
@@ -307696,9 +307707,9 @@
     "brand": "Iberdrola",
     "brand:wikidata": "Q1437502",
     "capacity": "2",
-    "disused:man_made": "charge_point",
     "email": "comercial@iberdrola.pt",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -309231,6 +309242,7 @@
   "id": "node/11895647853",
   "properties": {
     "access": "yes",
+    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -309238,7 +309250,6 @@
     "brand:wikidata": "Q126913632",
     "capacity": "2",
     "charging_station:output": "60 kW",
-    "disused:amenity": "charging_station",
     "email": "support.portugal@atlante.energy",
     "fee": "yes",
     "manufacturer": "wallbox",
@@ -344804,9 +344815,9 @@
     "brand:wikidata": "Q137294295",
     "capacity": "2",
     "charge_point:output": "100 kW",
-    "disused:man_made": "charge_point",
     "email": "geral.pt@helexia.eu",
     "fee": "yes",
+    "man_made": "charge_point",
     "manufacturer": "i-charging",
     "maxstay": "unlimited",
     "model": "blueberry Fusion",
@@ -354794,8 +354805,8 @@
     "brand:wikidata": "Q2995683",
     "capacity": "2",
     "charge_point:output": "120 kW",
+    "disused:man_made": "charge_point",
     "fee": "yes",
-    "man_made": "charge_point",
     "manufacturer": "Efacec",
     "model": "QC120",
     "motorcar": "yes",
@@ -359415,8 +359426,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6588605,
-      41.1822584
+      -8.6588604,
+      41.1822583
     ]
   }
 },
@@ -359460,8 +359471,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6588947,
-      41.1822345
+      -8.6588945,
+      41.1822344
     ]
   }
 },
@@ -359505,8 +359516,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6589289,
-      41.1822106
+      -8.6589287,
+      41.1822104
     ]
   }
 },
@@ -359550,8 +359561,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.658963,
-      41.1821867
+      -8.6589628,
+      41.1821865
     ]
   }
 },
@@ -359595,8 +359606,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6589972,
-      41.1821628
+      -8.658997,
+      41.1821626
     ]
   }
 },
@@ -359640,8 +359651,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6590314,
-      41.182139
+      -8.6590311,
+      41.1821387
     ]
   }
 },
@@ -381583,9 +381594,9 @@
     "brand:wikidata": "Q137294295",
     "capacity": "2",
     "charge_point:output": "100 kW",
-    "disused:man_made": "charge_point",
     "email": "geral.pt@helexia.eu",
     "fee": "yes",
+    "man_made": "charge_point",
     "manufacturer": "i-charging",
     "maxstay": "unlimited",
     "model": "blueberry Fusion",
@@ -396477,11 +396488,11 @@
     "brand": "Galp electric",
     "brand:wikidata": "Q135275372",
     "capacity": "2",
+    "disused:man_made": "charge_point",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
     "level": "0",
     "location": "underground",
-    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -411376,6 +411387,8 @@
     "brand": "telpark",
     "capacity": "1",
     "fee": "yes",
+    "fixme": "verificar em que andar subterrâneo se encontra",
+    "level": "-1",
     "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
@@ -411419,6 +411432,8 @@
     "brand": "telpark",
     "capacity": "1",
     "fee": "yes",
+    "fixme": "verificar em que andar subterrâneo se encontra",
+    "level": "-1",
     "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
@@ -411462,6 +411477,8 @@
     "brand": "telpark",
     "capacity": "1",
     "fee": "yes",
+    "fixme": "verificar em que andar subterrâneo se encontra",
+    "level": "-1",
     "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
@@ -411505,6 +411522,8 @@
     "brand": "telpark",
     "capacity": "1",
     "fee": "yes",
+    "fixme": "verificar em que andar subterrâneo se encontra",
+    "level": "-1",
     "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
@@ -411548,6 +411567,8 @@
     "brand": "telpark",
     "capacity": "1",
     "fee": "yes",
+    "fixme": "verificar em que andar subterrâneo se encontra",
+    "level": "-1",
     "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
@@ -411591,6 +411612,8 @@
     "brand": "telpark",
     "capacity": "1",
     "fee": "yes",
+    "fixme": "verificar em que andar subterrâneo se encontra",
+    "level": "-1",
     "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
@@ -411634,6 +411657,8 @@
     "brand": "telpark",
     "capacity": "1",
     "fee": "yes",
+    "fixme": "verificar em que andar subterrâneo se encontra",
+    "level": "-1",
     "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
@@ -411677,6 +411702,8 @@
     "brand": "telpark",
     "capacity": "1",
     "fee": "yes",
+    "fixme": "verificar em que andar subterrâneo se encontra",
+    "level": "-1",
     "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
@@ -434169,7 +434196,6 @@
     "manufacturer": "Efacec",
     "model": "QC120",
     "motorcar": "yes",
-    "name": "Continente Bom Dia Queluz Paiva Couceiro",
     "network": "Continente Plug&Charge",
     "opening_hours": "09:00-21:00",
     "operator": "Continente",
@@ -434180,6 +434206,8 @@
     "payment:cash": "no",
     "payment:membership_card": "no",
     "phone": "+351 210 19 19 19",
+    "ref": "9587PR0004",
+    "ref:EU:EVSE": "PT*CNT*E9587PR0004*1;PT*CNT*E9587PR0004*2;PT*CNT*E9587PR0004*3",
     "socket:chademo": "1",
     "socket:chademo:current": "120",
     "socket:chademo:output": "50 kW",
@@ -457304,8 +457332,8 @@
     "capacity": "2",
     "charge_point:output": "120 kW",
     "covered": "yes",
+    "disused:man_made": "charge_point",
     "fee": "yes",
-    "man_made": "charge_point",
     "manufacturer": "Starcharge",
     "maxstay": "unlimited",
     "model": "Titan V3",
@@ -475281,8 +475309,8 @@
     "brand:wikidata": "Q42717773",
     "capacity": "2",
     "charge_point:output": "400 kW",
-    "disused:man_made": "charge_point",
     "fee": "yes",
+    "man_made": "charge_point",
     "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
     "model": "HYC_400",
@@ -475326,9 +475354,9 @@
     "brand:wikidata": "Q42717773",
     "capacity": "2",
     "charge_point:output": "400 kW",
-    "disused:man_made": "charge_point",
     "fee": "yes",
     "fixme": "Verificar se aceita pagamento com cartão bancário",
+    "man_made": "charge_point",
     "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
     "model": "HYC_400",
@@ -475372,8 +475400,8 @@
     "brand:wikidata": "Q42717773",
     "capacity": "2",
     "charge_point:output": "400 kW",
-    "disused:man_made": "charge_point",
     "fee": "yes",
+    "man_made": "charge_point",
     "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
     "model": "HYC_400",
@@ -492855,6 +492883,8 @@
     "brand": "telpark",
     "capacity": "1",
     "fee": "yes",
+    "fixme": "verificar em que andar subterrâneo se encontra",
+    "level": "-1",
     "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
@@ -492898,6 +492928,8 @@
     "brand": "telpark",
     "capacity": "1",
     "fee": "yes",
+    "fixme": "verificar em que andar subterrâneo se encontra",
+    "level": "-1",
     "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
@@ -492941,6 +492973,8 @@
     "brand": "telpark",
     "capacity": "1",
     "fee": "yes",
+    "fixme": "verificar em que andar subterrâneo se encontra",
+    "level": "-1",
     "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
@@ -492984,6 +493018,8 @@
     "brand": "telpark",
     "capacity": "1",
     "fee": "yes",
+    "fixme": "verificar em que andar subterrâneo se encontra",
+    "level": "-1",
     "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
@@ -493027,6 +493063,8 @@
     "brand": "telpark",
     "capacity": "1",
     "fee": "yes",
+    "fixme": "verificar em que andar subterrâneo se encontra",
+    "level": "-1",
     "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
@@ -493070,6 +493108,8 @@
     "brand": "telpark",
     "capacity": "1",
     "fee": "yes",
+    "fixme": "verificar em que andar subterrâneo se encontra",
+    "level": "-1",
     "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
@@ -494175,8 +494215,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6590958,
-      41.182094
+      -8.6590954,
+      41.1820937
     ]
   }
 },
@@ -494220,8 +494260,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6591394,
-      41.182063
+      -8.6591393,
+      41.1820629
     ]
   }
 },
@@ -494265,8 +494305,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.659142,
-      41.1820609
+      -8.6591421,
+      41.182061
     ]
   }
 },
@@ -498968,7 +499008,6 @@
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "Continente Modelo Carregado",
     "network": "Continente Plug&Charge",
     "opening_hours": "24/7",
     "operator": "Continente",
@@ -498979,6 +499018,8 @@
     "payment:cash": "no",
     "payment:membership_card": "no",
     "phone": "+351 210 19 19 19",
+    "ref": "3387PL0001",
+    "ref:EU:EVSE": "PT*CNT*E3387PL0001*1;PT*CNT*E3387PL0001*2",
     "socket:type2_cable": "2",
     "socket:type2_cable:current": "32",
     "socket:type2_cable:output": "22 kW",
@@ -499014,7 +499055,6 @@
     "maxstay": "unlimited",
     "model": "QC120",
     "motorcar": "yes",
-    "name": "Continente Modelo Carregado",
     "network": "Continente Plug&Charge",
     "opening_hours": "24/7",
     "operator": "Continente",
@@ -504578,11 +504618,11 @@
   "id": "node/13289889834",
   "properties": {
     "access": "yes",
+    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "capacity": "2",
     "charging_station:output": "72 kW",
-    "disused:amenity": "charging_station",
     "fee": "yes",
     "manufacturer": "ABB",
     "maxstay": "unlimited",
@@ -519591,7 +519631,6 @@
     "location": "underground",
     "man_made": "charge_point",
     "motorcar": "yes",
-    "name": "Continente Bom Dia Queluz Paiva Couceiro",
     "network": "Continente Plug&Charge",
     "opening_hours": "09:00-21:00",
     "operator": "Continente",
@@ -519602,6 +519641,7 @@
     "payment:cash": "no",
     "payment:membership_card": "no",
     "phone": "+351 210 19 19 19",
+    "ref": "9587PL0001",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
@@ -519636,7 +519676,6 @@
     "location": "underground",
     "man_made": "charge_point",
     "motorcar": "yes",
-    "name": "Continente Bom Dia Queluz Paiva Couceiro",
     "network": "Continente Plug&Charge",
     "opening_hours": "09:00-21:00",
     "operator": "Continente",
@@ -519647,6 +519686,7 @@
     "payment:cash": "no",
     "payment:membership_card": "no",
     "phone": "+351 210 19 19 19",
+    "ref": "9587PL0002",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
@@ -521365,8 +521405,8 @@
     "brand:wikidata": "Q135275389",
     "capacity": "2",
     "charge_point:output": "120 kW",
-    "disused:man_made": "charge_point",
     "fee": "yes",
+    "man_made": "charge_point",
     "manufacturer": "Starcharge",
     "maxstay": "unlimited",
     "model": "Titan V3",
@@ -563137,8 +563177,8 @@
     "brand": "Powerdot",
     "capacity": "1",
     "charge_point:output": "300 kW",
-    "construction:man_made": "charge_point",
     "fee": "yes",
+    "man_made": "charge_point",
     "manufacturer": "Kempower",
     "maxstay": "unlimited",
     "model": "Satellite",
@@ -569504,8 +569544,8 @@
     "authentication:none": "no",
     "capacity": "2",
     "charge_point:output": "500 kW",
-    "construction:man_made": "charge_point",
     "fee": "yes",
+    "man_made": "charge_point",
     "manufacturer": "Kempower",
     "maxstay": "unlimited",
     "model": "Satellite",
@@ -569544,8 +569584,8 @@
     "authentication:none": "no",
     "capacity": "2",
     "charge_point:output": "500 kW",
-    "construction:man_made": "charge_point",
     "fee": "yes",
+    "man_made": "charge_point",
     "manufacturer": "Kempower",
     "maxstay": "unlimited",
     "model": "Satellite",
@@ -581944,7 +581984,6 @@
   "id": "node/14056956247",
   "properties": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -581952,6 +581991,7 @@
     "brand:wikidata": "Q126913632",
     "capacity": "2",
     "charging_station:output": "200 kW",
+    "disused:amenity": "charging_station",
     "email": "support.portugal@atlante.energy",
     "fee": "yes",
     "fixme": "Verificar se aceita pagamento com cartão bancário",
@@ -598771,8 +598811,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6588282,
-      41.1822807
+      -8.6588283,
+      41.1822808
     ]
   }
 },
@@ -598817,8 +598857,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6587935,
-      41.1823053
+      -8.6587934,
+      41.1823052
     ]
   }
 },
@@ -605093,6 +605133,8 @@
     "brand": "telpark",
     "capacity": "1",
     "fee": "yes",
+    "fixme": "verificar em que andar subterrâneo se encontra",
+    "level": "-1",
     "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
@@ -605132,6 +605174,8 @@
     "brand": "telpark",
     "capacity": "1",
     "fee": "yes",
+    "fixme": "verificar em que andar subterrâneo se encontra",
+    "level": "-1",
     "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
@@ -605171,6 +605215,8 @@
     "brand": "telpark",
     "capacity": "1",
     "fee": "yes",
+    "fixme": "verificar em que andar subterrâneo se encontra",
+    "level": "-1",
     "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
@@ -605210,6 +605256,8 @@
     "brand": "telpark",
     "capacity": "1",
     "fee": "yes",
+    "fixme": "verificar em que andar subterrâneo se encontra",
+    "level": "-1",
     "location": "underground",
     "man_made": "charge_point",
     "maxstay": "unlimited",
@@ -605546,13 +605594,13 @@
   "id": "node/14329805447",
   "properties": {
     "access": "yes",
+    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "wowplug",
     "brand:wikidata": "Q137294207",
     "capacity": "2",
-    "construction:amenity": "charging_station",
     "email": "suporte@wowplug.com",
     "fee": "yes",
     "manufacturer": "wowplug",
@@ -609024,8 +609072,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6590592,
-      41.1822917
+      -8.6590598,
+      41.1822922
     ]
   }
 },
@@ -609116,8 +609164,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6589848,
-      41.1823432
+      -8.6589863,
+      41.1823444
     ]
   }
 },
@@ -609162,8 +609210,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6589499,
-      41.1823695
+      -8.6589503,
+      41.1823699
     ]
   }
 },
@@ -609208,8 +609256,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6589113,
-      41.1823977
+      -8.6589112,
+      41.1823976
     ]
   }
 },
@@ -609346,8 +609394,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -8.6591382,
-      41.1820643
+      -8.6591378,
+      41.182064
     ]
   }
 },
@@ -611755,14 +611803,16 @@
   "id": "node/14399000336",
   "properties": {
     "access": "yes",
+    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "wowplug",
     "capacity": "2",
-    "construction:amenity": "charging_station",
     "email": "suporte@wowplug.com",
     "fee": "yes",
+    "manufacturer": "wowplug",
     "maxstay": "unlimited",
+    "model": "eDOT",
     "motorcar": "yes",
     "name": "VNH-00004",
     "network": "Mobi.E",
@@ -612685,6 +612735,51 @@
     "coordinates": [
       -7.5342835,
       37.1756249
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14410445563",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Matosinhos",
+    "addr:postcode": "4464-503",
+    "addr:street": "Rua João Mendonça",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "2",
+    "construction:man_made": "charge_point",
+    "fee": "yes",
+    "level": "0",
+    "location": "underground",
+    "motorcar": "yes",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "09:00-21:00",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "phone": "+351 210 19 19 19",
+    "ref": "0001PL0014",
+    "ref:EU:EVSE": "PT*CNT*E0001PL0014*1;PT*CNT*E0001PL0014*2",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/14410445563"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6591269,
+      41.1822453
     ]
   }
 }
