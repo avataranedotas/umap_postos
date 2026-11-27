@@ -9630,6 +9630,8 @@
     "payment:cards": "yes",
     "payment:membership_card": "no",
     "phone": "+351 300 527 476",
+    "ref": "1B",
+    "ref:EU:EVSE": "PT*TSL*EWGFW3V",
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "615",
     "socket:type2_combo:output": "500 kW",
@@ -9673,6 +9675,8 @@
     "payment:cards": "yes",
     "payment:membership_card": "no",
     "phone": "+351 300 527 476",
+    "ref": "1A",
+    "ref:EU:EVSE": "PT*TSL*EWGFNS4",
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "615",
     "socket:type2_combo:output": "500 kW",
@@ -10806,6 +10810,7 @@
     "model": "HYC_300",
     "motorcar": "yes",
     "network": "Mobi.E",
+    "old_ref:EU:EVSE": "PT*FCT*E*SNT*00159*03",
     "opening_hours": "24/7",
     "operator": "Charging Together",
     "parking:fee": "no",
@@ -10815,7 +10820,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 917 576",
     "ref": "SNT-00159",
-    "ref:EU:EVSE": "PT*FCT*E*SNT*00159*01;PT*FCT*E*SNT*00159*03",
+    "ref:EU:EVSE": "PT*FCT*E*SNT*00159*01;PT*FCT*E*SNT*00159*02",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "150 kW",
@@ -11048,52 +11053,6 @@
     "coordinates": [
       -9.3738894,
       38.788899
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12529995785",
-  "properties": {
-    "access": "yes",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Powerdot",
-    "brand:wikidata": "Q123574541",
-    "capacity": "2",
-    "charge_point:output": "360 kW",
-    "email": "ajuda@powerdot.pt",
-    "fee": "yes",
-    "man_made": "charge_point",
-    "manufacturer": "Starcharge",
-    "maxstay": "unlimited",
-    "model": "Aries Pro",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Powerdot",
-    "operator:wikidata": "Q123574541",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "yes",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 180 292",
-    "ref": "NLS-00005",
-    "ref:EU:EVSE": "PT*HRZ*E*NLS*00005*01;PT*HRZ*E*NLS*00005*02",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "200",
-    "socket:type2_combo:output": "160 kW",
-    "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/",
-    "id": "node/12529995785"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -7.8556265,
-      40.5391118
     ]
   }
 },
@@ -14718,6 +14677,57 @@
 },
 {
   "type": "Feature",
+  "id": "node/12810581117",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Vila Nova de Gaia",
+    "addr:postcode": "4410-151",
+    "addr:street": "Rua dos Limites",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "2",
+    "charge_point:output": "120 kW",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "manufacturer": "Efacec",
+    "maxstay": "unlimited",
+    "model": "QC120",
+    "motorcar": "yes",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "09:00-21:00",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "phone": "+351 210 19 19 19",
+    "ref": "0288PR0002",
+    "ref:EU:EVSE": "PT*CNT*E0288PR0002*1;PT*CNT*E0288PR0002*2;PT*CNT*E0288PR0002*3",
+    "socket:chademo": "1",
+    "socket:chademo:current": "120",
+    "socket:chademo:output": "50 kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "200",
+    "socket:type2_combo:output": "120 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/12810581117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6382957,
+      41.0158497
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12817913284",
   "properties": {
     "access": "yes",
@@ -14810,6 +14820,53 @@
     "coordinates": [
       -8.23925,
       37.1264444
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12824398143",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Porto",
+    "addr:postcode": "4150-414",
+    "addr:street": "Rua João de Barros",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "2",
+    "charge_point:output": "120 kW",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "manufacturer": "Starcharge",
+    "maxstay": "unlimited",
+    "model": "Titan V3",
+    "motorcar": "yes",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "08:00-21:00",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "phone": "+351 210 19 19 19",
+    "ref": "0319PR0002",
+    "ref:EU:EVSE": "PT*CNT*E0319PR0002*1;PT*CNT*E0319PR0002*2",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "300",
+    "socket:type2_combo:output": "120 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/12824398143"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6632631,
+      41.1547093
     ]
   }
 },
@@ -21016,6 +21073,53 @@
 },
 {
   "type": "Feature",
+  "id": "node/13090102158",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Leça do Balio",
+    "addr:postcode": "4465-675",
+    "addr:street": "Rua da Mainça",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "2",
+    "charge_point:output": "50 kW",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "manufacturer": "Starcharge",
+    "maxstay": "unlimited",
+    "model": "Athena",
+    "motorcar": "yes",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "24/7",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "phone": "+351 210 19 19 19",
+    "ref": "1004PR0002",
+    "ref:EU:EVSE": "PT*CNT*E1004PR0002*1;PT*CNT*E1004PR0002*2",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "200",
+    "socket:type2_combo:output": "50 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/13090102158"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6218043,
+      41.2005145
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13091076068",
   "properties": {
     "access": "yes",
@@ -25613,6 +25717,54 @@
 },
 {
   "type": "Feature",
+  "id": "node/13339543229",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Matosinhos",
+    "addr:postcode": "4464-503",
+    "addr:street": "Rua João Mendonça",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "2",
+    "charge_point:output": "350 kW",
+    "fee": "yes",
+    "level": "0",
+    "location": "underground",
+    "man_made": "charge_point",
+    "manufacturer": "iskraemeco",
+    "model": "iHPCDD",
+    "motorcar": "yes",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "24/7",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "phone": "+351 210 19 19 19",
+    "ref": "0001PR0033",
+    "ref:EU:EVSE": "PT*CNT*E0001PR0033*1;PT*CNT*E0001PR0033*2",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "350",
+    "socket:type2_combo:output": "350 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/13339543229"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6589296,
+      41.1818105
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13340273649",
   "properties": {
     "access": "yes",
@@ -26369,6 +26521,150 @@
     "coordinates": [
       -16.8543954,
       32.6446305
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13356549810",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Matosinhos",
+    "addr:postcode": "4464-503",
+    "addr:street": "Rua João Mendonça",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "2",
+    "charge_point:output": "350 kW",
+    "fee": "yes",
+    "level": "0",
+    "location": "underground",
+    "man_made": "charge_point",
+    "manufacturer": "iskraemeco",
+    "model": "iHPCDD",
+    "motorcar": "yes",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "24/7",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "phone": "+351 210 19 19 19",
+    "ref": "0001PR0034",
+    "ref:EU:EVSE": "PT*CNT*E0001PR0034*1;PT*CNT*E0001PR0034*2",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "350",
+    "socket:type2_combo:output": "350 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/13356549810"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6589052,
+      41.1817615
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13356549811",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Matosinhos",
+    "addr:postcode": "4464-503",
+    "addr:street": "Rua João Mendonça",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "2",
+    "charge_point:output": "350 kW",
+    "fee": "yes",
+    "level": "0",
+    "location": "underground",
+    "man_made": "charge_point",
+    "manufacturer": "iskraemeco",
+    "model": "iHPCDD",
+    "motorcar": "yes",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "24/7",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "phone": "+351 210 19 19 19",
+    "ref": "0001PR0031",
+    "ref:EU:EVSE": "PT*CNT*E0001PR0031*1;PT*CNT*E0001PR0031*2",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "350",
+    "socket:type2_combo:output": "350 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/13356549811"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6591508,
+      41.1816944
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13356549812",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Matosinhos",
+    "addr:postcode": "4464-503",
+    "addr:street": "Rua João Mendonça",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "2",
+    "charge_point:output": "350 kW",
+    "fee": "yes",
+    "level": "0",
+    "location": "underground",
+    "man_made": "charge_point",
+    "manufacturer": "iskraemeco",
+    "model": "iHPCDD",
+    "motorcar": "yes",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "24/7",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "phone": "+351 210 19 19 19",
+    "ref": "0001PR0032",
+    "ref:EU:EVSE": "PT*CNT*E0001PR0032*1;PT*CNT*E0001PR0032*2",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "350",
+    "socket:type2_combo:output": "350 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://plugcharge.continente.pt/",
+    "id": "node/13356549812"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.6591724,
+      41.1817443
     ]
   }
 },
@@ -33311,6 +33607,49 @@
 },
 {
   "type": "Feature",
+  "id": "node/13653407634",
+  "properties": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Powerdot",
+    "brand:wikidata": "Q123574541",
+    "capacity": "1",
+    "email": "ajuda@powerdot.pt",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Powerdot",
+    "operator:wikidata": "Q123574541",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 180 292",
+    "ref": "MLD-00053",
+    "ref:EU:EVSE": "PT*HRZ*E*MLD*00053*05",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "500",
+    "socket:type2_combo:output": "300 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://powerdot.eu/",
+    "id": "node/13653407634"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4826098,
+      40.3740425
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13656887313",
   "properties": {
     "access": "yes",
@@ -34632,7 +34971,7 @@
 },
 {
   "type": "Feature",
-  "id": "node/13736071007",
+  "id": "node/13736054896",
   "properties": {
     "access": "yes",
     "authentication:membership_card": "yes",
@@ -34657,13 +34996,55 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 020 940",
+    "ref": "TVD-00066",
+    "ref:EU:EVSE": "PT*MOT*E*TVD*00066*01;PT*MOT*E*TVD*00066*02",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "400",
+    "socket:type2_combo:output": "120 kW",
+    "socket:type2_combo:voltage": "1000",
+    "id": "node/13736054896"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -9.255648,
+      39.0833796
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13736071007",
+  "properties": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "REMO",
+    "capacity": "2",
+    "charge_point:output": "90 kW",
+    "email": "charging@me-remo.com",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "manufacturer": "Ekoenergetyka",
+    "maxstay": "unlimited",
+    "model": "Axon Easy 90",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Mota Engil II",
+    "operator:wikidata": "Q1949595",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 020 940",
     "ref": "TVD-00065",
     "ref:EU:EVSE": "PT*MOT*E*TVD*00065*01;PT*MOT*E*TVD*00065*02",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "250",
     "socket:type2_combo:output": "60 kW",
     "socket:type2_combo:voltage": "1000",
-    "website": "https://www.mobie.pt/",
     "id": "node/13736071007"
   },
   "geometry": {
@@ -42382,50 +42763,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/14170582850",
-  "properties": {
-    "access": "yes",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Iberdrola bp pulse",
-    "bus": "yes",
-    "capacity": "1",
-    "fee": "yes",
-    "hgv": "yes",
-    "man_made": "charge_point",
-    "manufacturer": "Alpitronic",
-    "maxstay": "unlimited",
-    "model": "HYC_1000",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Charging Together",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "yes",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "ref": "VFX-00153",
-    "ref:EU:EVSE": "PT*FCT*E*VFX*00153*01",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "600",
-    "socket:type2_combo:output": "600 kW",
-    "socket:type2_combo:voltage": "1000",
-    "tourist_bus": "yes",
-    "website": "https://iberdrola-bppulse.es/",
-    "id": "node/14170582850"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -8.9549653,
-      39.0010266
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/14170582853",
   "properties": {
     "access": "yes",
@@ -44519,6 +44856,8 @@
     "payment:cards": "yes",
     "payment:membership_card": "no",
     "phone": "+351 300 527 476",
+    "ref": "1G",
+    "ref:EU:EVSE": "PT*TSL*EWGFNS3",
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "615",
     "socket:type2_combo:output": "500 kW",
@@ -44562,6 +44901,8 @@
     "payment:cards": "yes",
     "payment:membership_card": "no",
     "phone": "+351 300 527 476",
+    "ref": "1H",
+    "ref:EU:EVSE": "PT*TSL*EWGFW3W",
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "615",
     "socket:type2_combo:output": "500 kW",
@@ -44605,6 +44946,8 @@
     "payment:cards": "yes",
     "payment:membership_card": "no",
     "phone": "+351 300 527 476",
+    "ref": "1E",
+    "ref:EU:EVSE": "PT*TSL*EWGFNS2",
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "615",
     "socket:type2_combo:output": "500 kW",
@@ -44648,6 +44991,8 @@
     "payment:cards": "yes",
     "payment:membership_card": "no",
     "phone": "+351 300 527 476",
+    "ref": "1F",
+    "ref:EU:EVSE": "PT*TSL*EWGFW3R",
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "615",
     "socket:type2_combo:output": "500 kW",
@@ -44691,6 +45036,8 @@
     "payment:cards": "yes",
     "payment:membership_card": "no",
     "phone": "+351 300 527 476",
+    "ref": "1C",
+    "ref:EU:EVSE": "PT*TSL*EWGFNS1",
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "615",
     "socket:type2_combo:output": "500 kW",
@@ -44734,6 +45081,8 @@
     "payment:cards": "yes",
     "payment:membership_card": "no",
     "phone": "+351 300 527 476",
+    "ref": "1D",
+    "ref:EU:EVSE": "PT*TSL*EWGFW3T",
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "615",
     "socket:type2_combo:output": "500 kW",
@@ -44745,6 +45094,53 @@
     "coordinates": [
       -7.2309768,
       40.5588815
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14424029205",
+  "properties": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Atlante",
+    "brand:wikidata": "Q126913632",
+    "capacity": "2",
+    "charge_point:output": "200 kW",
+    "email": "support.portugal@atlante.energy",
+    "fee": "yes",
+    "fixme": "Mover para a localização exacta",
+    "manufacturer": "Alpitronic",
+    "maxstay": "unlimited",
+    "model": "HYC_200",
+    "motorcar": "yes",
+    "name": "CBR-00174",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Atlante",
+    "operator:wikidata": "Q126913632",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 296 929;+351 234 246 050",
+    "ref": "CBR-00174",
+    "ref:EU:EVSE": "PT*ATL*ECBR*00174*1;PT*ATL*ECBR*00174*2",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "375",
+    "socket:type2_combo:output": "100 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://atlante.energy/",
+    "id": "node/14424029205"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.42022,
+      40.2151123
     ]
   }
 }
